@@ -1,0 +1,83 @@
+{
+  "name": "loveit",
+  "version": "0.1.0",
+  "license": "(MIT AND OFL-1.1)",
+  "description": "LoveIt profile, reading layout and interactions for Firekylin",
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "profileTitle",
+      "label": "Profile title",
+      "help": "Defaults to site title"
+    },
+    {
+      "type": "text",
+      "name": "profileSubtitle",
+      "label": "Profile subtitle",
+      "help": "Defaults to site description"
+    },
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "Avatar",
+      "help": "HTTP(S) or root-relative URL"
+    },
+    {
+      "type": "text",
+      "name": "avatarLink",
+      "label": "Avatar link",
+      "help": "HTTP(S) or root-relative URL"
+    },
+    {
+      "type": "text",
+      "name": "profileEnabled",
+      "label": "Show profile",
+      "help": "true (default) or false"
+    },
+    {
+      "type": "text",
+      "name": "postsEnabled",
+      "label": "Show home posts",
+      "help": "true (default) or false"
+    },
+    {
+      "type": "text",
+      "name": "socialJSON",
+      "label": "Social links",
+      "help": "Array of {label,url}; escaped labels"
+    },
+    {
+      "type": "text",
+      "name": "colorMode",
+      "label": "Color scheme",
+      "help": "light (default), dark, auto"
+    },
+    {
+      "type": "text",
+      "name": "headerMode",
+      "label": "Header",
+      "help": "fixed (default), normal"
+    },
+    {
+      "type": "text",
+      "name": "tocEnabled",
+      "label": "Table of contents",
+      "help": "true (default), false"
+    },
+    {
+      "type": "text",
+      "name": "codeMaxLines",
+      "label": "Collapsed code lines",
+      "help": "Default 20; 5\u2013100"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "Footer",
+      "help": "Plain text"
+    }
+  ]
+}

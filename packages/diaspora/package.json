@@ -1,0 +1,53 @@
+{
+  "name": "firekylin-theme-diaspora",
+  "private": true,
+  "version": "0.1.0",
+  "title": "Diaspora",
+  "description": "Diaspora full-screen editorial cover and alternating photo stories",
+  "license": "MIT",
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "diaspora"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "coverImage",
+      "label": "封面备用图片",
+      "help": "文章无特色图时使用，有权使用的 URL"
+    },
+    {
+      "type": "text",
+      "name": "logoUrl",
+      "label": "站点标志",
+      "help": "留空显示站名"
+    },
+    {
+      "type": "text",
+      "name": "heroText",
+      "label": "封面介绍",
+      "help": "留空显示首篇摘要"
+    },
+    {
+      "type": "text",
+      "name": "overlayColor",
+      "label": "封面遮罩颜色",
+      "help": "十六进制色，默认 #263e42；替代自动取色"
+    },
+    {
+      "type": "text",
+      "name": "colorMode",
+      "label": "配色模式（新增）",
+      "help": "light、dark、auto"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "可选"
+    }
+  ]
+}

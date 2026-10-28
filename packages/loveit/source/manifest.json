@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/dillonzq/LoveIt",
+  "commit": "b224a0ecc0a8caaca425a71188f2ce4b805e883f",
+  "sass": "1.106.1",
+  "hugo": "0.169.0 extended",
+  "dependencies": {
+    "Font Awesome": "7.2.0",
+    "Animate.css": "4.1.1",
+    "modern-normalize": "3.0.1"
+  },
+  "excluded": [
+    "LightGallery (GPLv3)",
+    "all other upstream vendor JS",
+    "upstream sample images/content"
+  ]
+}

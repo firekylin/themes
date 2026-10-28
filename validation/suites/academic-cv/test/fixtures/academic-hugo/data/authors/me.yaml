@@ -1,0 +1,22 @@
+affiliations:
+- name: Example Research Lab
+  url: https://example.test
+bio: I study reliable software and human-centered systems. This synthetic profile
+  is used to compare the original theme and its Firekylin adaptation.
+education:
+- degree: PhD Computer Science
+  institution: Example University
+  year: '2020'
+- degree: MSc Computing
+  institution: Example Institute
+  year: '2016'
+interests:
+- Reliable Systems
+- Open Research
+- "Human\u2013Computer Interaction"
+is_owner: true
+name:
+  display: Alex Chen
+role: Research Scientist
+schema: hugoblox/author/v1
+slug: me

@@ -1,0 +1,9 @@
+title: 纸上时光
+subtitle: 纸上时光
+description: 记录生活，分享想法 · Notes on a slower life
+author: Writer
+url: http://localhost
+root: /
+language: en
+theme: matery
+permalink: post/:title.html

@@ -1,0 +1,12 @@
+Paul Typecho Theme, MIT, Copyright (c) 2019 Innei.
+Design: Dreamer-Paul, https://paul.ren
+Typecho implementation: Innei, https://innei.ren
+Pinned source: https://github.com/Innei/Typecho-Theme-Paul/tree/5b60576ce1bf774987bc73bc7bce4236165aa4db
+2026-10-28 Firekylin changes: PHP replaced by Eta; actual paul.css/main.css retained;
+unverified image URLs removed, toggle selector adapted; new basic layout CSS and
+native interaction JS, avatar and footer SVGs added under MIT.
+Kico is credited by upstream, but its original repository lookup returned
+Repository not found. The bundled Kico CSS/JS are not redistributed here;
+res/base.css is a new minimal layout layer, with visual differences documented.
+No upstream photos, player music, background/footer artwork, icon font,
+third-party cursor/PJAX/player libraries are included.

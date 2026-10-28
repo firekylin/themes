@@ -1,0 +1,52 @@
+name: Theme matery
+on:
+  push:
+    paths: ['packages/matery/**', 'validation/suites/matery/**', '.github/workflows/theme-matery.yml', 'package.json', 'pnpm-lock.yaml']
+  pull_request:
+    paths: ['packages/matery/**', 'validation/suites/matery/**', '.github/workflows/theme-matery.yml', 'package.json', 'pnpm-lock.yaml']
+permissions:
+  contents: read
+jobs:
+  test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/hexo-matery' || github.ref == 'refs/heads/feat/hexo-matery'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: validation/suites/matery
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+        working-directory: .
+      - run: node --test test/*.test.js
+      - uses: actions/checkout@v4
+        with:
+          repository: firekylin/firekylin
+          ref: a200d5887c702acb7c264776d9827f54e8389f09
+          path: .validation-core
+      - name: Test real core rendering and installation
+        env:
+          FIREKYLIN_CORE_PATH: ${{ github.workspace }}/.validation-core
+          NODE_PATH: ${{ github.workspace }}/node_modules
+        run: |
+          node --test test/matery.test.js
+          python3 scripts/package-matery.py && node scripts/check-matery-install.js
+      - run: pnpm exec playwright-core install --with-deps chromium
+        working-directory: .
+      - name: Test desktop and mobile behavior
+        env:
+          FIREKYLIN_CORE_PATH: ${{ github.workspace }}/.validation-core
+        run: node scripts/check-matery-browser.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: matery-validation
+          path: |
+            packages/matery/screenshot.png
+            packages/matery/preview/
+            validation/matery/
+            dist/matery-0.1.0.zip

@@ -1,0 +1,7 @@
+# Sources, modifications and resources
+
+Matery upstream: https://github.com/blinkfox/hexo-theme-matery/tree/86ad429e24d0b002c1feb245e510ea93f82e3395 . Its complete Apache License 2.0 is included in LICENSE. Selected originals: source/css/matery.css, post.css, indexcover.css, dark.css. Matery templates were adapted to Eta/public Widgets with new native JavaScript and adapter CSS under Apache-2.0. dark.css is marked modified: two /medias_webp demonstration-photo references were replaced with none. No separate NOTICE file was found at the pinned root.
+
+Materialize CSS declares version 1.2.1 and MIT in its header. The complete MIT notice is retained from materializecss/materialize commit e4e36968d85038617748a48632ce03e7118425e2 (tag 1.2.1), https://github.com/materializecss/materialize/blob/e4e36968d85038617748a48632ce03e7118425e2/LICENSE . This dependency is not relicensed as Apache-2.0.
+
+Excluded: upstream medias photographs, avatars, logos, reward/QR resources, Font Awesome/webfonts, embedded font content in unrelated plugins, bundled player/comment/gallery/analytics libraries and all upstream runtime JavaScript. Selected theme CSS has no other external URL assets. Configured image URLs are supplied by site owners and require their own rights. Reference screenshots substitute a locally drawn mountain SVG for original demo photos and use synthetic text. The reference generator dependencies and configuration are recorded, but original vendor binaries are not redistributed with the port.
