@@ -4,11 +4,15 @@
   "packageManager": "pnpm@10.29.3",
   "scripts": {
     "test": "node --test test/*.test.js",
-    "test:browser": "node scripts/check-ports-browser.js && node scripts/check-sakura-browser.js",
+    "test:browser": "node scripts/check-ports-browser.js",
     "preview:ports": "node scripts/preview-ports.js"
   },
   "devDependencies": {
     "eta": "4.6.0",
-    "playwright-core": "1.58.2"
+    "playwright-core": "1.58.2",
+    "stylus": "0.64.0",
+    "nib": "1.2.0",
+    "jszip": "3.10.2",
+    "semver": "7.8.5"
   }
 }

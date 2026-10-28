@@ -1,0 +1,1 @@
+<% const a=firekylin.archive; %><section class="article-list"><% if(!a.have()){ %><article><div class="article-details">暂无文章。</div></article><% } %><% while(a.next()){ %><article class="<%= a.row.featuredImage||a.row.options?.featuredImage?'has-image':'' %>"><%~ include('./header',{archive:a,detail:false}) %></article><% } %></section><%~ include('./pagination',{archive:a}) %>
