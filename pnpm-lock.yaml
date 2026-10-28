@@ -20,6 +20,9 @@ importers:
       github-markdown-css:
         specifier: 4.0.0
         version: 4.0.0
+      js-yaml:
+        specifier: 4.1.0
+        version: 4.1.0
       jszip:
         specifier: 3.10.2
         version: 3.10.2
@@ -78,6 +81,8 @@ importers:
 
   packages/nexmoe: {}
 
+  packages/next: {}
+
   packages/papermod: {}
 
   packages/pinghsu: {}
@@ -122,6 +127,9 @@ packages:
   ansi-styles@6.2.3:
     resolution: {integrity: sha512-4Dj6M28JB+oAH8kFkTLUo+a2jwOFkuqb3yucU0CANcRRUbxS0cP0nZYCGjcc3BNXwRIsUVmDGgzawme7zvJHvg==}
     engines: {node: '>=12'}
+
+  argparse@2.0.1:
+    resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -208,6 +216,10 @@ packages:
 
   jquery@3.7.1:
     resolution: {integrity: sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==}
+
+  js-yaml@4.1.0:
+    resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
+    hasBin: true
 
   jszip@3.10.2:
     resolution: {integrity: sha512-3l+rb15IOWtUhU0H5MFqES/T6Kh7abYwjosBey/vD6hDt8zoEffkSC5Ws5SGtgVw3gBx2NEbhTeSW1+kWkpyTQ==}
@@ -360,6 +372,8 @@ snapshots:
 
   ansi-styles@6.2.3: {}
 
+  argparse@2.0.1: {}
+
   balanced-match@1.0.2: {}
 
   bootstrap@4.6.1(jquery@3.7.1)(popper.js@1.16.1):
@@ -432,6 +446,10 @@ snapshots:
       '@pkgjs/parseargs': 0.11.0
 
   jquery@3.7.1: {}
+
+  js-yaml@4.1.0:
+    dependencies:
+      argparse: 2.0.1
 
   jszip@3.10.2:
     dependencies:
