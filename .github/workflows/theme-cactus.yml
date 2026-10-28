@@ -1,13 +1,14 @@
 name: Theme cactus
 on:
   push:
-    paths: ['packages/cactus/**', 'validation/suites/cactus/**', '.github/workflows/theme-cactus.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/cactus/**', 'validation/suites/cactus/**', '.github/workflows/theme-cactus.yml']
   pull_request:
-    paths: ['packages/cactus/**', 'validation/suites/cactus/**', '.github/workflows/theme-cactus.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/cactus/**', 'validation/suites/cactus/**', '.github/workflows/theme-cactus.yml']
 permissions:
   contents: read
 jobs:
   test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/hexo-cactus' || github.ref == 'refs/heads/feat/hexo-cactus'
     runs-on: ubuntu-latest
     defaults:
       run:

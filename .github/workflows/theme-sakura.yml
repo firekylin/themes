@@ -1,13 +1,14 @@
 name: Theme sakura
 on:
   push:
-    paths: ['packages/sakura/**', 'validation/suites/sakura/**', '.github/workflows/theme-sakura.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/sakura/**', 'validation/suites/sakura/**', '.github/workflows/theme-sakura.yml']
   pull_request:
-    paths: ['packages/sakura/**', 'validation/suites/sakura/**', '.github/workflows/theme-sakura.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/sakura/**', 'validation/suites/sakura/**', '.github/workflows/theme-sakura.yml']
 permissions:
   contents: read
 jobs:
   test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/wordpress-sakura' || github.ref == 'refs/heads/feat/wordpress-sakura'
     runs-on: ubuntu-latest
     defaults:
       run:
