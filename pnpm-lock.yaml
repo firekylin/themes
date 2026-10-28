@@ -51,6 +51,8 @@ importers:
 
   packages/fluid: {}
 
+  packages/g: {}
+
   packages/icefox: {}
 
   packages/initial: {}
