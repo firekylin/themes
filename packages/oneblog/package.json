@@ -1,0 +1,97 @@
+{
+  "name": "@firekylin/theme-oneblog",
+  "title": "OneBlog",
+  "version": "0.1.0",
+  "private": true,
+  "license": "SEE LICENSE IN UPSTREAM-TERMS.md",
+  "description": "OneBlog Typecho port; upstream GPL-2.0 plus no-sale and attribution conditions retained",
+  "firekylin": {
+    "id": "oneblog",
+    "type": "theme"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "logoStyle",
+      "label": "标志样式",
+      "help": "text 或 image"
+    },
+    {
+      "type": "text",
+      "name": "logo",
+      "label": "浅色标志",
+      "help": "图片 URL"
+    },
+    {
+      "type": "text",
+      "name": "logoWhite",
+      "label": "深色标志",
+      "help": "图片 URL"
+    },
+    {
+      "type": "text",
+      "name": "slogan",
+      "label": "标语",
+      "help": "默认站点描述"
+    },
+    {
+      "type": "text",
+      "name": "themeColor",
+      "label": "主题色",
+      "help": "默认 #ff5050"
+    },
+    {
+      "type": "text",
+      "name": "switch",
+      "label": "首页精选",
+      "help": "on 开启，默认关闭"
+    },
+    {
+      "type": "text",
+      "name": "bannerIds",
+      "label": "精选文章 ID",
+      "help": "逗号分隔，选自最近 50 篇公开文章"
+    },
+    {
+      "type": "text",
+      "name": "AutoNightMode",
+      "label": "自动夜间",
+      "help": "on 在 19:00–05:00 开启"
+    },
+    {
+      "type": "text",
+      "name": "Webtime",
+      "label": "建站年份",
+      "help": "纯文本"
+    },
+    {
+      "type": "text",
+      "name": "ICP",
+      "label": "备案号",
+      "help": "纯文本"
+    },
+    {
+      "type": "text",
+      "name": "Email",
+      "label": "电子邮箱",
+      "help": "邮箱地址"
+    },
+    {
+      "type": "text",
+      "name": "Github",
+      "label": "GitHub",
+      "help": "HTTP(S) URL"
+    },
+    {
+      "type": "text",
+      "name": "copyrightText",
+      "label": "文章版权说明",
+      "help": "自定义纯文本，留空不显示"
+    },
+    {
+      "type": "css",
+      "name": "customCSS",
+      "label": "自定义 CSS"
+    }
+  ]
+}
