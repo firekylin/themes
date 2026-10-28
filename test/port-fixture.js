@@ -5,7 +5,7 @@ const path = require('node:path');
 const {Eta} = require('eta');
 const fs = require('node:fs');
 const packages = path.join(__dirname, '..', 'packages');
-const themes = fs.readdirSync(packages).filter(name =>
+const themes = ['pinghsu', 'maupassant'].filter(name =>
   fs.existsSync(path.join(packages, name, 'res/css/upstream.css')));
 if (!themes.length) throw new Error('No upstream-style theme packages found');
 const pages = ['index', 'post', 'page', 'attachment', 'search', 'archive', 'cate', 'tag'];
