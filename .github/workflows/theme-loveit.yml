@@ -1,9 +1,9 @@
 name: Theme loveit
 on:
   push:
-    paths: ['packages/loveit/**', 'validation/suites/loveit/**', '.github/workflows/theme-loveit.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/loveit/**', 'validation/suites/loveit/**', '.github/workflows/theme-loveit.yml']
   pull_request:
-    paths: ['packages/loveit/**', 'validation/suites/loveit/**', '.github/workflows/theme-loveit.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/loveit/**', 'validation/suites/loveit/**', '.github/workflows/theme-loveit.yml']
 permissions:
   contents: read
 jobs:

@@ -1,9 +1,9 @@
 name: Theme indigo
 on:
   push:
-    paths: ['packages/indigo/**', 'validation/suites/indigo/**', '.github/workflows/theme-indigo.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/indigo/**', 'validation/suites/indigo/**', '.github/workflows/theme-indigo.yml']
   pull_request:
-    paths: ['packages/indigo/**', 'validation/suites/indigo/**', '.github/workflows/theme-indigo.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/indigo/**', 'validation/suites/indigo/**', '.github/workflows/theme-indigo.yml']
 permissions:
   contents: read
 jobs:
