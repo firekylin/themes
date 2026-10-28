@@ -1,0 +1,77 @@
+menu:
+  home:
+    text: 首页
+    url: /
+  archives:
+    text: 归档
+    url: /archives
+  categories:
+    text: 分类
+    url: /categories
+  about:
+    text: 关于
+    url: /page/about.html
+  search:
+    text: Search
+    url: /search.html
+  rss:
+    text: RSS
+    url: /rss.html
+avatar: /fixture/cover.svg
+avatar_link: /
+brand: /fixture/cover.svg
+favicon: /favicon.ico
+email: 记录生活，分享想法 · Notes on a slower life
+color: '#3F51B5'
+tags_title: Tags
+archives_title: Archives
+categories_title: Categories
+excerpt_render: false
+excerpt_length: 200
+excerpt_link: 阅读全文...
+mathjax: false
+archive_yearly: true
+show_last_updated: true
+share: false
+reward: false
+search: false
+hideMenu: false
+toc: false
+postMessage: ''
+cnzz: false
+baidu_tongji: false
+tajs: false
+google_analytics: false
+google_site_verification: false
+sogou_site_verification: false
+less:
+  compress: true
+  paths:
+    - source/css/style.less
+disqus_shortname: false
+uyan_uid: false
+gitment: false
+gitalk: false
+valine:
+  enable: false
+  appId: null
+  appKey: null
+  notify: false
+  verify: false
+  avatar: mm
+  placeholder: Just go go
+  guest_info: nick,mail,link
+  pageSize: 10
+hyper_id: false
+canonical: false
+since_year: 2015
+about: 用户页面中作者相关的描述性文字，如不需要设为 false
+visit_counter:
+  site_uv: 站点总访客数：
+  site_pv: 站点总访问量：
+title_change:
+  normal: (つェ⊂)咦!又好了!
+  leave: 死鬼去哪里了！
+cdn: false
+lightbox: true
+ICP_license: false

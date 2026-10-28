@@ -1,0 +1,7 @@
+# Provenance and resource decisions
+
+Source: https://github.com/yscoder/hexo-theme-indigo/tree/e4bc41a3b9404fa870899cb14b03062d72cb10c0 . Complete root Unlicense retained as LICENSE. Upstream package manifest retained verbatim as UPSTREAM-package.json to record its different MIT metadata. No separate MIT grant text for the whole theme is fabricated. New adapter files are released under the included Unlicense.
+
+Selected Less source is preserved, except imports/files for Roboto, Font Awesome and Waves are removed. The retained variable file's font-family names do not distribute font binaries. Source changes are marked at the omitted import lines. Original font files, all source/img demonstration/portrait/payment images, vendor JS and plugin scripts are excluded. Waves has its own MIT attribution; because its source and runtime are excluded from the port, it is not represented as covered by the root Unlicense. No other external asset URLs remain in the compiled CSS.
+
+The original reference site uses its unmodified EJS/Less source, fixed configuration and local npm dependencies. It requires a documented compatibility shim providing the historical Lodash global under modern Hexo. Waves 0.7.4 is locally supplied only to the reference page, not distributed in this theme package. Reference screenshots use synthetic prose and a locally drawn geometric avatar/background. User-provided media URLs require the site's own rights; this package does not grant rights to unrelated remote content.
