@@ -1,10 +1,10 @@
 # Firekylin Themes
 
 Firekylin themes are maintained in a pnpm monorepo. Each theme lives in a
-separate directory under `package/`, with its own `package.json`, templates,
+separate directory under `packages/`, with its own `package.json`, templates,
 and assets.
 
-The default Firekylin theme is available in [`package/firekylin`](package/firekylin).
+The default Firekylin theme is available in [`packages/firekylin`](packages/firekylin).
 It was copied from [`firekylin/firekylin` at commit `84a5edb9`](https://github.com/firekylin/firekylin/tree/84a5edb9/www/theme/firekylin).
 The theme retains its existing `firekylin` ID and configuration so it can be
 used as a Firekylin theme.

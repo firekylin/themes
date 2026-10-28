@@ -5,7 +5,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const test = require('node:test');
 
-const root = path.join(__dirname, '..', 'package');
+const root = path.join(__dirname, '..', 'packages');
 
 test('workspace themes have unique names, versions and entry templates', () => {
   const directories = fs.readdirSync(root, {withFileTypes: true}).filter(entry => entry.isDirectory());
