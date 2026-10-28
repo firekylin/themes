@@ -1,9 +1,9 @@
 name: Theme void
 on:
   push:
-    paths: ['packages/void/**', 'validation/suites/void/**', '.github/workflows/theme-void.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/void/**', 'validation/suites/void/**', '.github/workflows/theme-void.yml']
   pull_request:
-    paths: ['packages/void/**', 'validation/suites/void/**', '.github/workflows/theme-void.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/void/**', 'validation/suites/void/**', '.github/workflows/theme-void.yml']
 permissions:
   contents: read
 jobs:

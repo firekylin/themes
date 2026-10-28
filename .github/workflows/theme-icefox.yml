@@ -1,9 +1,9 @@
 name: Theme icefox
 on:
   push:
-    paths: ['packages/icefox/**', 'validation/suites/icefox/**', '.github/workflows/theme-icefox.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/icefox/**', 'validation/suites/icefox/**', '.github/workflows/theme-icefox.yml']
   pull_request:
-    paths: ['packages/icefox/**', 'validation/suites/icefox/**', '.github/workflows/theme-icefox.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/icefox/**', 'validation/suites/icefox/**', '.github/workflows/theme-icefox.yml']
 permissions:
   contents: read
 jobs:
