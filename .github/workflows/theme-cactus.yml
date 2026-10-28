@@ -1,0 +1,52 @@
+name: Theme cactus
+on:
+  push:
+    paths: ['packages/cactus/**', 'validation/suites/cactus/**', '.github/workflows/theme-cactus.yml']
+  pull_request:
+    paths: ['packages/cactus/**', 'validation/suites/cactus/**', '.github/workflows/theme-cactus.yml']
+permissions:
+  contents: read
+jobs:
+  test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/hexo-cactus' || github.ref == 'refs/heads/feat/hexo-cactus'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: validation/suites/cactus
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+        working-directory: .
+      - run: node --test test/*.test.js
+      - uses: actions/checkout@v4
+        with:
+          repository: firekylin/firekylin
+          ref: a200d5887c702acb7c264776d9827f54e8389f09
+          path: .validation-core
+      - name: Test real core rendering and installation
+        env:
+          FIREKYLIN_CORE_PATH: ${{ github.workspace }}/.validation-core
+          NODE_PATH: ${{ github.workspace }}/node_modules
+        run: |
+          node --test test/cactus.test.js
+          python3 scripts/package-cactus.py && node scripts/check-cactus-install.js
+      - run: pnpm exec playwright-core install --with-deps chromium
+        working-directory: .
+      - name: Test desktop and mobile behavior
+        env:
+          FIREKYLIN_CORE_PATH: ${{ github.workspace }}/.validation-core
+        run: node scripts/check-cactus-browser.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cactus-validation
+          path: |
+            packages/cactus/screenshot.png
+            packages/cactus/preview/
+            validation/cactus/
+            dist/cactus-0.1.0.zip
