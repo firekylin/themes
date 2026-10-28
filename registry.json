@@ -11,6 +11,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/firekylin-v0.1.0/firekylin-0.1.0.zip",
       "integrity": "sha512-Z4wGsmcM8ThZ0EJ0qQDaO2fAXEVI165Jw7Whgm3vdoKo8ymPFL5MANB6Qv8Q9aJBf8qUvRgukmnE5fz6XLcAhQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/firekylin/screenshot.png"
+    },
+    {
+      "type": "theme",
+      "name": "pinghsu",
+      "id": "pinghsu",
+      "version": "0.1.0",
+      "title": "pinghsu",
+      "description": "Pinghsu Typecho theme adapted to Firekylin Eta and Widgets",
+      "download": "https://github.com/firekylin/themes/releases/download/pinghsu-v0.1.0/pinghsu-0.1.0.zip",
+      "integrity": "sha512-CrUfjmIcc49cPxllnuWSDXSyUxrL4me/V4w+qCArFxMTd9KeZ9KQltbUeLyD+6JpT3ladxdGKj3gEFgaEYvgLA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/pinghsu/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
     }
   ]
 }
