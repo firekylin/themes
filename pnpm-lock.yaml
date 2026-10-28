@@ -17,6 +17,8 @@ importers:
 
   packages/firekylin: {}
 
+  packages/icefox: {}
+
   packages/joe: {}
 
   packages/maupassant: {}
