@@ -1,9 +1,9 @@
 name: Theme single
 on:
   push:
-    paths: ['packages/single/**', 'validation/suites/single/**', '.github/workflows/theme-single.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/single/**', 'validation/suites/single/**', '.github/workflows/theme-single.yml']
   pull_request:
-    paths: ['packages/single/**', 'validation/suites/single/**', '.github/workflows/theme-single.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/single/**', 'validation/suites/single/**', '.github/workflows/theme-single.yml']
 permissions:
   contents: read
 jobs:

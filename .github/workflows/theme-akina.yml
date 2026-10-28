@@ -1,9 +1,9 @@
 name: Theme akina
 on:
   push:
-    paths: ['packages/akina/**', 'validation/suites/akina/**', '.github/workflows/theme-akina.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/akina/**', 'validation/suites/akina/**', '.github/workflows/theme-akina.yml']
   pull_request:
-    paths: ['packages/akina/**', 'validation/suites/akina/**', '.github/workflows/theme-akina.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/akina/**', 'validation/suites/akina/**', '.github/workflows/theme-akina.yml']
 permissions:
   contents: read
 jobs:
