@@ -1,0 +1,8 @@
+{
+  "name": "@firekylin/themes",
+  "private": true,
+  "packageManager": "pnpm@10.29.3",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
+}
