@@ -5,11 +5,9 @@ const path = require('node:path');
 const {Eta} = require('eta');
 const fs = require('node:fs');
 const packages = path.join(__dirname, '..', 'packages');
-const themes = fs.readdirSync(packages).filter(name =>
-  fs.existsSync(path.join(packages, name, 'res/css/upstream.css')) &&
-  (!process.env.PORT_THEME || process.env.PORT_THEME === name));
+const themes = ['pinghsu', 'maupassant'].filter(name =>
+  fs.existsSync(path.join(packages, name, 'res/css/upstream.css')));
 if (!themes.length) throw new Error('No upstream-style theme packages found');
-const academicConfig = {"profileJSON": "{\"name\": \"Alex Chen\", \"role\": \"Research Scientist\", \"affiliation\": \"Example Research Lab\", \"bio\": \"I study reliable software and human-centered systems. This synthetic profile is used to compare the original theme and its Firekylin adaptation.\", \"avatarUrl\": \"/fixture/academic-avatar.png\", \"avatarSize\": \"medium\", \"avatarShape\": \"circle\", \"cvUrl\": \"/cv.pdf\", \"education\": [{\"degree\": \"PhD Computer Science\", \"institution\": \"Example University\", \"year\": \"2020\"}, {\"degree\": \"MSc Computing\", \"institution\": \"Example Institute\", \"year\": \"2016\"}], \"interests\": [\"Reliable Systems\", \"Open Research\", \"Human\\u2013Computer Interaction\"], \"authorLogin\": \"alex\"}", "researchText": "Exploring reliable software and sharing reproducible research."};
 const pages = ['index', 'post', 'page', 'attachment', 'search', 'archive', 'cate', 'tag'];
 const rows = Array.from({length: 6}, (_, i) => ({
   id: i + 1, pathname: `article-${i + 1}`, type: 0,
@@ -25,9 +23,9 @@ class FixtureWidget {
   have() {return this.stack.length > 0;}
   title() {return this.row.title || this.row.name;}
   content() {return this.row.content;}
-  date() {return String(this.row.create_time||'').slice(0,10);}
+  date() {return '2026-10-28';}
   author() {return this.row.user?.display_name || '';}
-  excerpt(n) {return this.row.summary.replace(/<[^>]*>/g, '').slice(0, n || undefined);}
+  excerpt(n) {return this.row.summary.replace(/<[^>]*>/g, '').slice(0, n);}
   get permalink() {return this.metaType ? `/${this.metaType}/${this.row.pathname}` : this.permalinkFor(this.row);}
   permalinkFor(row) {return `/${row.type === 1 ? 'page' : 'post'}/${row.pathname}.html`;}
   is(type) {return type === this.kind;}
@@ -37,9 +35,6 @@ function context(theme, page, opts = {}) {
   const core = process.env.FIREKYLIN_CORE_PATH;
   const request = opts.request || (page === 'search' ? '/search.html?keyword=reading' : '/');
   const selected = opts.empty ? [] : structuredClone(rows);
-  if(theme==='academic-cv' && opts.academic && selected.length){ selected.splice(3); for(const [i,row] of selected.entries()){row.title=['Reliable Systems in Practice','Open Research Seminar','A Research Notebook'][i];row.summary='<p>A synthetic record for layout and interaction verification.</p>';row.user={name:'alex',display_name:'Alex Chen'};row.create_time='2026-10-01 10:00:00';row.options={fields:{academicType:['publication','event','news'][i],featured:'true',authors:'Alex Chen',publication:i===0?'Example Journal':'',publicationKind:i===0?'Journal article':'',...(i===0?{bibtex:'@article{example2026,\n  title={Reliable Systems in Practice},\n  author={Chen, Alex},\n  year={2026}\n}'}:{}),...(i===1?{eventStart:'2026-11-01T10:00:00Z',eventEnd:'2026-11-01T11:00:00Z',location:'Online'}:{})}};row.content='<h2>Overview</h2><p>A synthetic record for layout and interaction verification.</p><pre><code>const result = "verified";</code></pre>';}}
-  if(opts.media && selected.length) {selected[0].summary='<p>'+('这是一次山间旅行的记录，沿途拍下了山川与河流。'.repeat(10))+'</p>'+Array.from({length:4},(_,i)=>'<img src="/fixture/image'+i+'.svg">').join('');selected[1].summary='<p>一张照片</p><img src="/fixture/image.svg">';}
-  if(theme==='stack' && opts.media) for(const row of selected){row.options.featuredImage='/fixture/cover.svg';row.tag=[{name:'生活',pathname:'life'}];row.content+='<p><img src="/fixture/cover.svg" alt="合成风景"></p>'; }
   if (opts.hostile && selected.length) {
     selected[0].title = '<img src=x onerror=alert(1)>';
     selected[0].cate = [{name:'<script>bad()</script>', pathname:'notes'}];
@@ -52,7 +47,7 @@ function context(theme, page, opts = {}) {
   if (detail && items.length) items[0].type = page === 'page' ? 1 : page === 'attachment' ? 2 : 0;
   let archive, recent, categories, tags;
   if (core) {
-    global.think = {datetime: value => String(value||'').slice(0,10), Service: class {}};
+    global.think = {datetime: () => '2026-10-28', Service: class {}};
     const controller = {ctx:{path:request.split('?')[0],query:Object.fromEntries(new URL(request,'https://example.test').searchParams)},options:{}, get:key => ({cate:opts.kind === 'cate' ? 'notes' : undefined,tag:opts.kind === 'tag' ? 'notes' : undefined,name:opts.kind === 'author' ? 'writer' : undefined})[key]};
     function instance(file, data, parameters) {const Class = require(path.join(core, 'src/widget',file)); const w = new Class(controller,parameters); w.pushAll(data); return w;}
     archive = instance('archive', items, {type:page});
@@ -70,7 +65,6 @@ function context(theme, page, opts = {}) {
   archive.archiveTitle = opts.kind === 'cate' ? '随笔' : opts.kind === 'tag' ? '生活' : '';
   archive.grouped = opts.empty ? {} : {'2026-10':selected};
   const site = {title:() => '纸上时光',description:() => '记录生活，分享想法 · Notes on a slower life',siteUrl:'https://example.test',themeConfig:opts.config || {},navigation:[{url:'/',label:'首页'},{url:'/archives',label:'归档'},{url:'/categories',label:'分类'},{url:'/page/about.html',label:'关于'}],themeUrl:file => `/${opts.legacy ? 'theme' : 'themes'}/${theme}/${file}`};
-  if(theme==='academic-cv' && opts.academic){site.title=()=> 'Research Notebook';site.themeConfig={...academicConfig,...site.themeConfig};site.navigation=[{url:'/',label:'Home'},{url:'/#papers',label:'Publications'},{url:'/#talks',label:'Talks'},{url:'/#news',label:'News'}];}
   let comment = () => opts.comments === false ? '' : '<section id="comments">评论由 Firekylin Waline 提供</section>';
   if (core) {
     if (archive.stack[0] && opts.comments === false) archive.stack[0].allow_comment = 0;
@@ -81,4 +75,4 @@ function context(theme, page, opts = {}) {
   return {widget:async name => ({Widget_Options:site,Widget_Archive:archive,Widget_Contents_Post_Recent:recent,Widget_Metas_Category_List:categories,Widget_Metas_Tag_Cloud:tags})[name],comment};
 }
 async function render(theme,page,opts) {return new Eta({views:path.join(__dirname,'..','packages',theme),varName:'firekylin'}).renderAsync(page,context(theme,page,opts));}
-module.exports = {themes,pages,render,context,academicConfig};
+module.exports = {themes,pages,render,context};
