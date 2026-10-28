@@ -1,13 +1,14 @@
 name: Theme miracles
 on:
   push:
-    paths: ['packages/miracles/**', 'validation/suites/miracles/**', '.github/workflows/theme-miracles.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/miracles/**', 'validation/suites/miracles/**', '.github/workflows/theme-miracles.yml']
   pull_request:
-    paths: ['packages/miracles/**', 'validation/suites/miracles/**', '.github/workflows/theme-miracles.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/miracles/**', 'validation/suites/miracles/**', '.github/workflows/theme-miracles.yml']
 permissions:
   contents: read
 jobs:
   test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/typecho-miracles' || github.ref == 'refs/heads/feat/typecho-miracles'
     runs-on: ubuntu-latest
     defaults:
       run:

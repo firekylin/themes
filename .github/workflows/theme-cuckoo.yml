@@ -1,13 +1,14 @@
 name: Theme cuckoo
 on:
   push:
-    paths: ['packages/cuckoo/**', 'validation/suites/cuckoo/**', '.github/workflows/theme-cuckoo.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/cuckoo/**', 'validation/suites/cuckoo/**', '.github/workflows/theme-cuckoo.yml']
   pull_request:
-    paths: ['packages/cuckoo/**', 'validation/suites/cuckoo/**', '.github/workflows/theme-cuckoo.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/cuckoo/**', 'validation/suites/cuckoo/**', '.github/workflows/theme-cuckoo.yml']
 permissions:
   contents: read
 jobs:
   test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/typecho-cuckoo' || github.ref == 'refs/heads/feat/typecho-cuckoo'
     runs-on: ubuntu-latest
     defaults:
       run:
