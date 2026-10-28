@@ -61,6 +61,11 @@
       "type": "text",
       "name": "footerText",
       "label": "Footer text"
+    },
+    {
+      "type": "text",
+      "name": "showAllPosts",
+      "label": "Homepage uses paginated archive: true"
     }
   ]
 }

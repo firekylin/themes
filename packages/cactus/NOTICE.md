@@ -13,5 +13,5 @@ Included: theme Stylus source subset, derived CSS, new Eta and JavaScript.
 Excluded: source/lib (fonts and all vendor JS/CSS), source/images, image-based
 highlight schemes and all unused highlight variants, `_fonts.styl`.
 No license is inferred for an excluded binary or upstream website content.
-This is a local work-in-progress; see README for incomplete functionality and
-unperformed visual/CI validation before considering distribution.
+This is a draft adaptation; see README and VISUAL-COMPARISON.md for supported
+functionality, deliberate differences and validation limits.

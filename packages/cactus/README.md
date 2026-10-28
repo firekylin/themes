@@ -1,8 +1,6 @@
-# Cactus — local adaptation, not submitted
+# Cactus for Firekylin
 
-This work is paused before any remote branch or PR to avoid duplicating the
-Typecho Cactus migration reported by the coordinating task. It is NOT a completed
-20-theme delivery. No theme was merged, deployed, starred or published.
+Independent draft port of the Hexo Cactus theme. No merge or deployment.
 
 Fixed source: probberechts/hexo-theme-cactus at
 7a6074d830ac5d524582f142ac524c041077aad7 (3,513 stars at 2026-10-28 audit).
@@ -16,7 +14,7 @@ Widgets supply public lists, taxonomy, search, archives and article content;
 Firekylin supplies native comment rendering and protected-content forms.
 
 Configuration: colorscheme, pageWidth, direction, logoUrl, postCount,
-tagsOverview, projects/socialLinks JSON, showUpdated, footerText. Navigation uses
+tagsOverview, projects/socialLinks JSON, showUpdated, showAllPosts, footerText. Navigation uses
 site navigation. JS provides mobile navigation, heading links and code-copy
 controls. Native details keeps article navigation available without JavaScript;
 mobile site navigation remains expanded without JavaScript.
@@ -28,15 +26,17 @@ Differences and incomplete work:
   them. Logo may be supplied by the site owner.
 - Unused highlight schemes and their image assets are omitted; source subset
   retains the three schemes used by the four shipped palettes.
-- The upstream bottom mobile action bar is replaced by a native article menu.
+- The bottom mobile action bar is preserved with native Menu/TOC panels and
+  share/copy-link actions; desktop controls use a native details menu.
 - Gallery/justified-gallery, social icon rendering, Disqus/Utterances, Gravatar,
-  analytics, MathJax, updated-date sorting, share actions, and local search index
+  analytics, MathJax, updated-date sorting, and local search index
   have not been ported. Search uses Firekylin's server search.
-- Article taxonomy/previous-next controls and translated interface text are not
-  yet implemented. Current labels are English; site content supports Unicode.
-- No live Hexo reference render or pixel comparison has been completed. Original
-  layout and CSS were read; local screenshots are synthetic Firekylin previews.
-- No remote CI run, live database or real remote comment login was performed.
+- Article taxonomy and previous/next links use supplied core relations.
+  Translated interface labels are not implemented; site content supports Unicode.
+- A real pinned Hexo reference was generated and compared on desktop/mobile;
+  see VISUAL-COMPARISON.md for screenshots, measured geometry and differences.
+- CI exercises core rendering, installation and Chromium behavior. Live database
+  visibility queries and real remote comment login are not covered.
 
 Local checks:
 

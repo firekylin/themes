@@ -42,6 +42,7 @@ function context(theme, page, opts = {}) {
     selected[0].cate = [{name:'<script>bad()</script>', pathname:'notes'}];
     selected[0].featuredImage = 'javascript:alert(1)';
   }
+  if(opts.neighbors && selected.length)selected[0].prev={title:'Previous article',pathname:'previous',type:0};
   if (opts.long && selected.length) selected[0].title = 'LongUnbrokenTitle'.repeat(15);
   if (opts.protected && selected.length) selected[0].content = '<form method="post"><label>Password<input name="protectPassword" type="password"></label><button>解锁</button></form>';
   const detail = ['post','page','attachment'].includes(page);
