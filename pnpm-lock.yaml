@@ -82,6 +82,8 @@ importers:
 
   packages/pinghsu: {}
 
+  packages/puock: {}
+
   packages/sakura: {}
 
   packages/sakurairo: {}
