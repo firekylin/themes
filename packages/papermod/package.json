@@ -1,0 +1,71 @@
+{
+  "name": "papermod",
+  "version": "0.1.0",
+  "description": "PaperMod for Firekylin",
+  "license": "MIT",
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "homeMode",
+      "label": "首页模式",
+      "help": "regular / info / profile"
+    },
+    {
+      "type": "text",
+      "name": "homeTitle",
+      "label": "首页标题",
+      "help": "信息或资料模式标题"
+    },
+    {
+      "type": "text",
+      "name": "homeContent",
+      "label": "首页介绍",
+      "help": "纯文字介绍"
+    },
+    {
+      "type": "text",
+      "name": "profileImage",
+      "label": "资料图片",
+      "help": "自有图片 URL"
+    },
+    {
+      "type": "text",
+      "name": "colorMode",
+      "label": "默认颜色",
+      "help": "auto / light / dark"
+    },
+    {
+      "type": "text",
+      "name": "showToc",
+      "label": "文章目录",
+      "help": "true / false，默认 true"
+    },
+    {
+      "type": "text",
+      "name": "showCopy",
+      "label": "代码复制",
+      "help": "true / false，默认 true"
+    },
+    {
+      "type": "text",
+      "name": "hideSummary",
+      "label": "隐藏摘要",
+      "help": "true / false"
+    },
+    {
+      "type": "text",
+      "name": "hideMeta",
+      "label": "隐藏元数据",
+      "help": "true / false"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "纯文字"
+    }
+  ]
+}

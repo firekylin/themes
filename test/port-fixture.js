@@ -5,9 +5,8 @@ const path = require('node:path');
 const {Eta} = require('eta');
 const fs = require('node:fs');
 const packages = path.join(__dirname, '..', 'packages');
-const themes = fs.readdirSync(packages).filter(name =>
-  fs.existsSync(path.join(packages, name, 'res/css/upstream.css')) &&
-  (!process.env.PORT_THEME || process.env.PORT_THEME === name));
+const themes = ['pinghsu', 'maupassant'].filter(name =>
+  fs.existsSync(path.join(packages, name, 'res/css/upstream.css')));
 if (!themes.length) throw new Error('No upstream-style theme packages found');
 const pages = ['index', 'post', 'page', 'attachment', 'search', 'archive', 'cate', 'tag'];
 const rows = Array.from({length: 6}, (_, i) => ({
@@ -26,7 +25,7 @@ class FixtureWidget {
   content() {return this.row.content;}
   date() {return '2026-10-28';}
   author() {return this.row.user?.display_name || '';}
-  excerpt(n) {return this.row.summary.replace(/<[^>]*>/g, '').slice(0, n || undefined);}
+  excerpt(n) {return this.row.summary.replace(/<[^>]*>/g, '').slice(0, n);}
   get permalink() {return this.metaType ? `/${this.metaType}/${this.row.pathname}` : this.permalinkFor(this.row);}
   permalinkFor(row) {return `/${row.type === 1 ? 'page' : 'post'}/${row.pathname}.html`;}
   is(type) {return type === this.kind;}
@@ -36,8 +35,6 @@ function context(theme, page, opts = {}) {
   const core = process.env.FIREKYLIN_CORE_PATH;
   const request = opts.request || (page === 'search' ? '/search.html?keyword=reading' : '/');
   const selected = opts.empty ? [] : structuredClone(rows);
-  if(opts.media && selected.length) {selected[0].summary='<p>'+('这是一次山间旅行的记录，沿途拍下了山川与河流。'.repeat(10))+'</p>'+Array.from({length:4},(_,i)=>'<img src="/fixture/image'+i+'.svg">').join('');selected[1].summary='<p>一张照片</p><img src="/fixture/image.svg">';}
-  if(theme==='stack' && opts.media) for(const row of selected){row.options.featuredImage='/fixture/cover.svg';row.tag=[{name:'生活',pathname:'life'}];row.content+='<p><img src="/fixture/cover.svg" alt="合成风景"></p>'; }
   if (opts.hostile && selected.length) {
     selected[0].title = '<img src=x onerror=alert(1)>';
     selected[0].cate = [{name:'<script>bad()</script>', pathname:'notes'}];

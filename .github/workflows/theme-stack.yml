@@ -1,0 +1,38 @@
+name: Theme stack
+on:
+  push:
+    paths: ['packages/stack/**', 'validation/suites/stack/**', '.github/workflows/theme-stack.yml', 'package.json', 'pnpm-lock.yaml']
+  pull_request:
+    paths: ['packages/stack/**', 'validation/suites/stack/**', '.github/workflows/theme-stack.yml', 'package.json', 'pnpm-lock.yaml']
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: validation/suites/stack
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+        working-directory: .
+      - run: node --test test/*.test.js
+      - uses: actions/checkout@v4
+        with:
+          repository: firekylin/firekylin
+          ref: a200d5887c702acb7c264776d9827f54e8389f09
+          path: artifacts/firekylin-core
+      - run: FIREKYLIN_CORE_PATH="$GITHUB_WORKSPACE/artifacts/firekylin-core" node --test test/stack.test.js
+      - run: pnpm exec playwright-core install --with-deps chromium
+        working-directory: .
+      - run: node scripts/check-ports-browser.js && node scripts/check-stack-browser.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: stack-visual-checks
+          path: validation/suites/stack/artifacts/ports/
