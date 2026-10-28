@@ -13,14 +13,14 @@ To install dependencies and run the checks:
 
 ```sh
 pnpm install --frozen-lockfile
-python3 scripts/build-registry.py
 pnpm test
+python3 -m unittest discover -s test -p "test_*.py"
 ```
 
 The default theme is private in this workspace to prevent accidentally
-publishing the existing `firekylin` package name to npm. The theme marketplace registry is stored in `registry.json`. To rebuild its
-versioned ZIP archives and SHA-512 hashes after changing a theme, run
-`python3 scripts/build-registry.py` and commit the resulting registry. Archives
-are generated in the ignored `dist/` directory and automatically published as
-GitHub Release assets when changes reach `main`. Update a theme's version when
-changing its published contents; existing release assets are never overwritten.
+publishing the existing `firekylin` package name to npm. The theme marketplace registry is stored in `registry.json`. After changes to
+`packages/` reach `main`, CI builds changed themes, verifies an existing Release
+or publishes a new version, and commits the refreshed registry and publication
+state. Update the theme version when changing its published contents; existing
+release assets are never overwritten. If `main` advances during publication,
+the registry push fails safely and the next run retries pending changes.
