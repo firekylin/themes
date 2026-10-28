@@ -17,6 +17,8 @@ importers:
 
   packages/aria: {}
 
+  packages/bubble: {}
+
   packages/butterfly: {}
 
   packages/cuckoo: {}
