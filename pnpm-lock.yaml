@@ -31,6 +31,8 @@ importers:
 
   packages/joe: {}
 
+  packages/material: {}
+
   packages/maupassant: {}
 
   packages/pinghsu: {}
