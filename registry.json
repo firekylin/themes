@@ -33,11 +33,12 @@
       "type": "theme",
       "name": "firekylin-theme-aquila",
       "id": "aquila",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Aquila",
       "description": "Aquila Bootstrap article grid, reading sidebar and front-page carousel",
-      "download": "https://github.com/firekylin/themes/releases/download/aquila-v0.1.0/aquila-0.1.0.zip",
-      "integrity": "sha512-QztfT89qdcYwnIf0DCCVIO8lL9YKxOGAXg307EqJSwNRi/lBK7Ueoa2O5RVpZUmv2HJIOCuRvXKsKQsnaUTjuw==",
+      "download": "https://github.com/firekylin/themes/releases/download/aquila-v0.1.1/aquila-0.1.1.zip",
+      "integrity": "sha512-OhjEpxB19ynj9d88MDhFsLCYImJiScqqyozwSTCDmTmj7ABZyOM1gkYAsGZl1WBrHJAcVq5Wu9Nplq4ubVbcdQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/aquila/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
       }
@@ -130,11 +131,12 @@
       "type": "theme",
       "name": "firekylin-theme-diaspora",
       "id": "diaspora",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Diaspora",
       "description": "Diaspora full-screen editorial cover and alternating photo stories",
-      "download": "https://github.com/firekylin/themes/releases/download/diaspora-v0.1.0/diaspora-0.1.0.zip",
-      "integrity": "sha512-lBH6QGtEluiD6L2O1+OwkWKswxuC5Udx33UvNuNyeNZ2MKeIaD2FrexmWXMgdNY5slU3QQF/xXYeEpBxjN0avQ==",
+      "download": "https://github.com/firekylin/themes/releases/download/diaspora-v0.1.1/diaspora-0.1.1.zip",
+      "integrity": "sha512-UQAew9sfJU/wta75X8G5LDXlEkYxswWThMfsuFu5dA1e/68Mb0puTnCVv58K3VyafNgaJFj6UniMEYl1cxtFyg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/diaspora/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
       }
@@ -168,21 +170,23 @@
       "type": "theme",
       "name": "@firekylin/theme-g",
       "id": "g",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "G",
       "description": "G Typecho theme port",
-      "download": "https://github.com/firekylin/themes/releases/download/g-v0.1.0/g-0.1.0.zip",
-      "integrity": "sha512-4hMFRDaBSNT7mBFt0oMMf8QTWDD7r+K1/Spe1puZtU0JCsQ2QN7fOemFXLn4KDGmHPTYmMjUAMn+N/SwMVZU6A=="
+      "download": "https://github.com/firekylin/themes/releases/download/g-v0.1.1/g-0.1.1.zip",
+      "integrity": "sha512-n2p3Kte+94aH4oMTIG+e/xPEPCgzmNW/+CyaDnYUjN5qS/Usu+PSx6a6+NBm+rNLEbydIugfpVBmyTzG6SPl3w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/g/screenshot.png"
     },
     {
       "type": "theme",
       "name": "firekylin-theme-green-park-2",
       "id": "green-park-2",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Cordobo Green Park 2",
       "description": "Green Park 2 full-content blog and split sidebar",
-      "download": "https://github.com/firekylin/themes/releases/download/green-park-2-v0.1.0/green-park-2-0.1.0.zip",
-      "integrity": "sha512-cBz199t4vIFvMrBvjGFzF1w+GAIlUxzs9BRZ15CxLWWQBQoiYxAWREPncQzD8knfs9WASSdTbh3lP+532wiLQg==",
+      "download": "https://github.com/firekylin/themes/releases/download/green-park-2-v0.1.1/green-park-2-0.1.1.zip",
+      "integrity": "sha512-wjI7R4deP1qCZnYB5W/7q8OOfmH83s+Qv1/O5wD1EdJ3/febIHcbWwXPeAlEl31e9HEkgd0EBIG9ynvtNABQnA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/green-park-2/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
       }
@@ -317,11 +321,12 @@
       "type": "theme",
       "name": "firekylin-theme-kratos",
       "id": "kratos",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Kratos",
       "description": "Kratos 4.3.4 article feed and profile sidebar",
-      "download": "https://github.com/firekylin/themes/releases/download/kratos-v0.1.0/kratos-0.1.0.zip",
-      "integrity": "sha512-WluMHOv3pq1bggvzzLKyCU1C4NtgG7DWSjxRe7tdZ2Rc5UWCdNrbYpdiNP4Nsrm8hkTLPNY5NFEFcmpzZPJvdw==",
+      "download": "https://github.com/firekylin/themes/releases/download/kratos-v0.1.1/kratos-0.1.1.zip",
+      "integrity": "sha512-cujuuMNsTnz7Iew4vMVkGU31aIFO3G7N608TsMGPOe811+qpGknhtZmQsX/oRgor+0MjsoyTPaDhRV/PJAPWYQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/kratos/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
       }
@@ -344,21 +349,23 @@
       "type": "theme",
       "name": "@firekylin/theme-matcha",
       "id": "matcha",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Matcha",
       "description": "Matcha Typecho theme port",
-      "download": "https://github.com/firekylin/themes/releases/download/matcha-v0.1.0/matcha-0.1.0.zip",
-      "integrity": "sha512-vDbRlLO+Qxq7krinC3Q33fjzKmqEOtopGqkxW6NK3BAAfSalOy1sdUo6QWi2Aa2/h3gDOnhxXhEljjY7+hz1GQ=="
+      "download": "https://github.com/firekylin/themes/releases/download/matcha-v0.1.1/matcha-0.1.1.zip",
+      "integrity": "sha512-yjfWhXN2fa/ElWaQq8WhEFiTpiJftuakyMdGgF6hrgPK+kXdTmjsB6znwIxi528GSKpweCkQwdbjgG63YYoT/A==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/matcha/screenshot.png"
     },
     {
       "type": "theme",
       "name": "@firekylin/theme-material",
       "id": "material",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Material",
       "description": "Material Typecho theme port for Firekylin",
-      "download": "https://github.com/firekylin/themes/releases/download/material-v0.1.0/material-0.1.0.zip",
-      "integrity": "sha512-XPQY9PlLGg69O4fdhtghCvF8R4sfHLbq/rOyF1KWsWJ/2hgnsjAaaVtsIf8WqdDB6Dc0qpmEZYmYVqWQiGstYQ=="
+      "download": "https://github.com/firekylin/themes/releases/download/material-v0.1.1/material-0.1.1.zip",
+      "integrity": "sha512-t6GNKm6pKMNiwDvO9lpeZpddc8BIsqa9LvtLAnaz3GkUMedACugKFefNqSTeo/d0ayPEpeMVrZrrbD1l+Zo7OQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/material/screenshot.png"
     },
     {
       "type": "theme",
@@ -406,11 +413,12 @@
       "type": "theme",
       "name": "@firekylin/theme-nexmoe",
       "id": "nexmoe",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Nexmoe",
       "description": "Nexmoe Typecho theme port for Firekylin",
-      "download": "https://github.com/firekylin/themes/releases/download/nexmoe-v0.1.0/nexmoe-0.1.0.zip",
-      "integrity": "sha512-PEAk1hZGP3prfCB+YSj5QQLvM9+H2Qohlk/n9vkFtr9t97vn4bfdalJIWUmg+6tO3AIrQVIODboV8PlqSDisWQ=="
+      "download": "https://github.com/firekylin/themes/releases/download/nexmoe-v0.1.1/nexmoe-0.1.1.zip",
+      "integrity": "sha512-XY8Nh7poXShQ+6RFN5lBNBsCzdkAaED7FR/VKIcD4h+zZry7VAzXDZDVB9eKMlgPXUEfcagcyOPCVaF0weg8Dg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/nexmoe/screenshot.png"
     },
     {
       "type": "theme",
@@ -430,11 +438,12 @@
       "type": "theme",
       "name": "@firekylin/theme-oneblog",
       "id": "oneblog",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "OneBlog",
       "description": "OneBlog Typecho port; upstream GPL-2.0 plus no-sale and attribution conditions retained",
-      "download": "https://github.com/firekylin/themes/releases/download/oneblog-v0.1.0/oneblog-0.1.0.zip",
-      "integrity": "sha512-qakv2CmPDqZX+8f5qcoNy23jNMyNuMYqCWO7szScdXVJz6XRIll7EsVXsuCojNeIxlRnrTAArZneSpcVkBSRfQ=="
+      "download": "https://github.com/firekylin/themes/releases/download/oneblog-v0.1.1/oneblog-0.1.1.zip",
+      "integrity": "sha512-fU11DjN3481BKkP0ntrNgpQsnZE9mbFRf4CGJe2wMOE1H6ItgexB1NrWk5z3A0IEKIrVgk1/gZQa5G4kWDxa6g==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/oneblog/screenshot.png"
     },
     {
       "type": "theme",
@@ -454,11 +463,12 @@
       "type": "theme",
       "name": "@firekylin/theme-paul",
       "id": "paul",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Paul",
       "description": "Paul Typecho theme port",
-      "download": "https://github.com/firekylin/themes/releases/download/paul-v0.1.0/paul-0.1.0.zip",
-      "integrity": "sha512-0ehbj9zWwRQA7TrSIpgfhlNXQm7Ow+s/sbAK0e3YBKR7/PeKM/zbwC22on6upAvhxEeWmx0KlqOYad6kfkTHcw=="
+      "download": "https://github.com/firekylin/themes/releases/download/paul-v0.1.1/paul-0.1.1.zip",
+      "integrity": "sha512-C97MMI5jPPYczdpnHtTbahXwlZWB3TFFhkr3WVTZR954JMcOb50sFfVyTpRPFPIL/DME7Xhae82OmcwyZ0h9Zg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/paul/screenshot.png"
     },
     {
       "type": "theme",
@@ -478,11 +488,12 @@
       "type": "theme",
       "name": "firekylin-theme-puock",
       "id": "puock",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Puock",
       "description": "Puock 2.11.0 blog list and card layouts",
-      "download": "https://github.com/firekylin/themes/releases/download/puock-v0.1.0/puock-0.1.0.zip",
-      "integrity": "sha512-w1i4sGMZ10DvxSkpICQTZ9s7tVotz+fVsMebIKJGuXgUdBiSIprvCoGItdVeu4Sa7y9XImIKuNmU08vQh6sk1g==",
+      "download": "https://github.com/firekylin/themes/releases/download/puock-v0.1.1/puock-0.1.1.zip",
+      "integrity": "sha512-zZYam9DYplTwU/11Rwqs9LcAC4Vs1gtlb2sC8dtWjbMXjz19lQto7i9aQaoO44zHMi6Edugp3t8z1TEJQx+PTA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/puock/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
       }
@@ -547,11 +558,12 @@
       "type": "theme",
       "name": "firekylin-theme-svbtle",
       "id": "svbtle",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "WP-Svbtle",
       "description": "WP-Svbtle fixed author rail and full-content reading stream",
-      "download": "https://github.com/firekylin/themes/releases/download/svbtle-v0.1.0/svbtle-0.1.0.zip",
-      "integrity": "sha512-eifbJIuufQLF2rPTep2kCR1HPLGd6UKCvmOmErD8OYccStlNtZwEhXE5o8YpVKYmYDcOsFyCzL/1o9qdC+XPSA==",
+      "download": "https://github.com/firekylin/themes/releases/download/svbtle-v0.1.1/svbtle-0.1.1.zip",
+      "integrity": "sha512-oGZV/0WXMjTzs2QJxbXak5Ymv0R/eWH+NHQdg+1VfkaiuaMc+fC5CXrDhBZ4ozfnZWEFkoL03vadQ7m6dxwCRQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/svbtle/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
       }
