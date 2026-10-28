@@ -49,6 +49,36 @@
       "name": "sidebarTitle",
       "label": "侧栏标题",
       "help": "留空显示最新文章。"
+    },
+    {
+      "type": "text",
+      "name": "bgUrl",
+      "label": "页面背景",
+      "help": "HTTP(S) 或站内图片路径。"
+    },
+    {
+      "type": "text",
+      "name": "logoUrl",
+      "label": "头像",
+      "help": "站点头像图片。"
+    },
+    {
+      "type": "text",
+      "name": "sidebarBg",
+      "label": "侧栏封面",
+      "help": "个人资料卡片封面。"
+    },
+    {
+      "type": "text",
+      "name": "defaultCover",
+      "label": "默认文章图片",
+      "help": "替代上游随机图；featuredImage 优先。"
+    },
+    {
+      "type": "text",
+      "name": "articleStyle",
+      "label": "文章样式",
+      "help": "normal 为普通卡片，默认图片叠字。"
     }
   ]
 }

@@ -51,3 +51,16 @@ Selection exclusions: Pinghsu/Maupassant were already ported; Clarity is reserve
 for the user. Miracles has additional custom-license restrictions, initial has no
 explicit license, and Akina's referenced earlier WordPress source could not be
 resolved for license-chain verification. They are not included in this batch.
+
+## Cuckoo source layout
+
+Restores image-overlaid title/date/excerpt cards, configurable full-page background,
+profile cover/circular avatar, and a separate image-covered article heading.
+`bgUrl`, `sidebarBg`, `logoUrl`, `defaultCover` accept HTTP(S) or site paths.
+`articleStyle=normal` selects plain cards; list `fields.articleType=normal` can
+override per item. Featured images take precedence over the default cover.
+
+Daily/microblog full-content cards, randomized upstream photography, plugin
+views/reading-time counters, MDUI dialogs, live TOC and backend integrations remain
+unsupported. Recent-post/sidebar links use native Widgets. Original artwork is
+not bundled. See VISUAL-COMPARISON.md.
