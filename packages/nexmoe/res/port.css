@@ -1,0 +1,110 @@
+
+    .nexmoe-archives li {
+        position: relative;
+        padding: 10px 0;
+    }
+
+    .nexmoe-archives li::before {
+        content: "";
+        width: 14px;
+        height: 14px;
+        background: #ff4e6a;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: -2px;
+        margin-right: 11px;
+        border-radius: 100%;
+        border: 3px solid #fff;
+        z-index: 100;
+        position: relative;
+    }
+
+    .nexmoe-archives ul {
+        list-style: none;
+        padding-left: 0 !important;
+    }
+
+    .nexmoe-archives li::after {
+        content: "";
+        height: 100%;
+        width: 2px;
+        background: rgba(255, 78, 106, .2);
+        position: absolute;
+        left: 6px;
+        top: 20px;
+    }
+
+    .nexmoe-archives span {
+        margin-right: 15px;
+    }
+
+    .nexmoe-valign {
+        display: -webkit-box !important;
+        display: -webkit-flex !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -webkit-box-align: center !important;
+        -webkit-align-items: center !important;
+        -ms-flex-align: center !important;
+        align-items: center !important;
+        height: 100%;
+    }
+
+    .mdui-tab-indicator {
+        display: none;
+    }
+
+    .mdui-tab .mdui-tab-active {
+        color: #fff;
+        background: #f4a7b9;
+        opacity: 1;
+    }
+
+    .nexmoe-post-right .nexmoe-toc {
+        margin-left: 16px;
+        width: 240px;
+        margin-left: 0px;
+        text-align: left;
+    }
+
+    .nexmoe-post-right .nexmoe-toc > ol {
+        padding-left: 0;
+    }
+
+    .nexmoe-post-right .nexmoe-fixed {
+        position: fixed;
+        z-index: 1000;
+        height: 100vh;
+        display: inline-block;
+        top: 0;
+    }
+
+    .nexmoe-post-right {
+        margin: 0 -25px;
+        text-align: right;
+    }
+
+    .nexmoe-post-right .nexmoe-toc li {
+        margin: 1em 0;
+    }
+
+    .nexmoe-toc a {
+        color: rgba(0, 0, 0, .6);
+    }
+
+    .nexmoe-toc * {
+        list-style-type: decimal;
+        color: rgba(0, 0, 0, .6);
+
+    }
+
+    .hljs {
+        font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    }
+
+
+/* 2026-10-28: native interactions and Firekylin integration. */
+.nexmoe-bg img{width:100%;height:100%;object-fit:cover}.nexmoe-post-meta span{display:inline-block;margin-right:8px;padding:5px 10px;border-radius:10px;background:#ff4e6a18;color:#ff4e6a}.nexmoe-post-meta .material-icons{font-size:14px;vertical-align:middle;margin-right:5px}.nexmoe-search input{width:100%;box-sizing:border-box;border:0;padding:20px;background:transparent}.nexmoe-toc{position:fixed;top:30%;width:200px;margin-left:20px;text-align:left}.nexmoe-toc ul{padding-left:16px}.nexmoe-toc li{margin:8px 0}.nexmoe-toc a{color:#777}.nexmoe-article img{cursor:zoom-in}.nexmoe-post article img{max-width:100%;height:auto}.nexmoe-backdrop{position:fixed;inset:0;background:#0006;border:0;z-index:4999}#nexmoe-lightbox{max-width:95vw;max-height:95vh;border:0;padding:40px 16px 12px;background:#fff;border-radius:12px}#nexmoe-lightbox::backdrop{background:#000b}#nexmoe-lightbox img{max-width:85vw;max-height:75vh;object-fit:contain}#lightbox-close{position:absolute;right:10px;top:4px;background:none;border:0;font-size:28px;cursor:pointer}.nexmoe-widget .nexmoe-social a{font-size:12px}.nexmoe-post article table{display:block;overflow:auto}a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid #ff4e6a;outline-offset:3px}.nexmoe-page-nav{padding:6px}.nexmoe-comments{clear:both}@media(max-width:1439px){.nexmoe-post-right{display:none}}@media(max-width:1023px){#drawer[data-open=true]{transform:translateX(0)}body.nexmoe-drawer-open{overflow:hidden}}@media(min-width:1024px){.nexmoe-backdrop{display:none!important}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+/* Upstream article text inherits the browser serif face. */
+.nexmoe-post article{font-family:serif}

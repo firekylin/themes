@@ -1,0 +1,21 @@
+<% /* icefox 3.0.3 adapted from components/head.php; see NOTICE.md. */
+const site = await firekylin.widget('Widget_Options'); const config = site.themeConfig || {};
+const safe = value => /^(https?:\/\/|\/(?!\/))[^\s<>\x22\x27]*$/i.test(String(value || '')) ? String(value) : '';
+const cover=safe(config.topImage), video=safe(config.topVideo), avatar=safe(config.logoUrl), avatarLink=safe(config.avatarLink);
+%><!doctype html><html lang="zh-CN" class="<%= config.colorMode === 'dark' ? 'dark' : '' %>"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title><%~ block('title') %></title><meta name="description" content="<%= site.description() %>">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.html">
+<link rel="stylesheet" href="<%= site.themeUrl('res/css/upstream.css') %>"><link rel="stylesheet" href="<%= site.themeUrl('res/css/firekylin.css') %>">
+<script defer src="<%= site.themeUrl('res/js/icefox.js') %>"></script><%~ block('headers') %></head>
+<body class="icefox-theme fk-theme <%= config.colorMode === 'dark' ? 'fk-dark' : '' %>"><a class="skip-link" href="#timeline">跳转到正文</a>
+<main id="main">
+<nav class="top-container" aria-label="朋友圈导航"><div class="top-container-left"><a href="/" aria-label="首页">⌂</a><details class="icefox-menu"><summary aria-label="打开导航">☰</summary><div><% for (const nav of site.navigation) { %><a href="<%= nav.url %>"><%= nav.label %></a><% } %><a href="/search.html">搜索</a><a href="/rss.html">RSS</a></div></details></div><div class="top-container-right"><button type="button" data-theme-toggle aria-label="切换深色模式" aria-pressed="<%= config.colorMode === 'dark' ? 'true' : 'false' %>" hidden>◐</button></div></nav>
+<header class="header-container">
+<% if (video) { %><video src="<%= video %>" <% if (cover) { %>poster="<%= cover %>"<% } %> autoplay muted loop playsinline aria-label="站点封面视频"></video><% } else if (cover) { %><img class="icefox-cover" src="<%= cover %>" alt="" fetchpriority="high"><% } %>
+<div class="header-info"><div class="header-user"><a href="/" class="header-site-title"><span><%= site.title() %></span></a>
+<% if (avatarLink) { %><a class="header-avatar-link" href="<%= avatarLink %>"><% } else { %><span class="header-avatar-nolink"><% } %>
+<% if (avatar) { %><img src="<%= avatar %>" alt="<%= site.title() %>的头像"><% } else { %><span class="header-logo-placeholder"><%= Array.from(site.title())[0] || 'F' %></span><% } %>
+<% if (avatarLink) { %></a><% } else { %></span><% } %></div><p class="header-description"><%= config.heroText || site.description() %></p></div></header>
+<section id="timeline" class="content-container"><%~ block('content') %></section>
+<footer class="icefox-footer"><%= config.footerText || site.title() %><p>Powered by <a href="https://github.com/firekylin/firekylin">Firekylin</a> · <a href="https://github.com/xiaopanglian/icefox">icefox</a> by 小胖脸 · <a href="/rss.html">RSS</a></p></footer></main>
+<dialog class="icefox-lightbox" aria-label="图片预览"><button type="button" data-close-image aria-label="关闭图片">×</button><img alt="预览图片"></dialog></body></html>

@@ -1,0 +1,5 @@
+# Sources and redistribution
+
+Upstream: https://github.com/ppoffice/hexo-theme-icarus/tree/4c0a463028c6e923815f561f15261b6c49ac056d . Root MIT license, copyright 2020 PPOffice, retained verbatim in LICENSE. `source/css`, `include/style` and two geometric SVGs (`m3e-flower.svg`, `m3e-cookie12.svg`) are copied from that revision. No separate restrictive notice was found for those selected source assets. Generated CSS includes the original inline geometric SVG masks. Bulma-stylus 0.8.0 is MIT (Jeremy Thomas); its complete notice is in BULMA-STYLUS-LICENSE. Nib/Stylus are development dependencies and are not included as runtime JavaScript.
+
+New Eta adapters, JavaScript and adapter CSS are MIT. The original theme's raster portraits, logo, screenshots, third-party font/icon binaries and service-provider scripts are excluded. Validation screenshots use synthetic prose and a locally drawn mountain SVG, not upstream demo photographs. Remote avatars/covers are supplied by the site owner; this package grants no rights to unrelated remote media. Upstream documentation/assets are not blanket relicensed by this notice.

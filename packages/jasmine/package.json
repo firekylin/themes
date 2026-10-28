@@ -1,0 +1,66 @@
+{
+  "name": "jasmine",
+  "title": "Jasmine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Three-column reading interface with a navigation rail and light article feed.",
+  "license": "GPL-3.0-only",
+  "author": "liaocp666",
+  "homepage": "https://github.com/liaocp666/Jasmine",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/jasmine"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "jasmine"
+  },
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "纯文本，不支持 HTML。"
+    },
+    {
+      "type": "text",
+      "name": "heroText",
+      "label": "站点简介",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "colorMode",
+      "label": "配色模式",
+      "help": "填写 dark 启用深色；留空为浅色。"
+    },
+    {
+      "type": "text",
+      "name": "sidebarTitle",
+      "label": "侧栏标题",
+      "help": "留空显示最新文章。"
+    },
+    {
+      "type": "text",
+      "name": "logoUrl",
+      "label": "导航头像",
+      "help": "HTTP(S) 或站内绝对路径。"
+    },
+    {
+      "type": "text",
+      "name": "categoryNum",
+      "label": "导航分类数量",
+      "help": "1–12，默认 5。"
+    },
+    {
+      "type": "text",
+      "name": "showToc",
+      "label": "文章目录",
+      "help": "默认启用，填写 0 关闭。"
+    }
+  ]
+}
