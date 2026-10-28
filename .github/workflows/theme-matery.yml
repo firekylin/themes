@@ -1,9 +1,9 @@
 name: Theme matery
 on:
   push:
-    paths: ['packages/matery/**', 'validation/suites/matery/**', '.github/workflows/theme-matery.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/matery/**', 'validation/suites/matery/**', '.github/workflows/theme-matery.yml']
   pull_request:
-    paths: ['packages/matery/**', 'validation/suites/matery/**', '.github/workflows/theme-matery.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/matery/**', 'validation/suites/matery/**', '.github/workflows/theme-matery.yml']
 permissions:
   contents: read
 jobs:

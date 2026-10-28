@@ -1,9 +1,9 @@
 name: Theme bubble
 on:
   push:
-    paths: ['packages/bubble/**', 'validation/suites/bubble/**', '.github/workflows/theme-bubble.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/bubble/**', 'validation/suites/bubble/**', '.github/workflows/theme-bubble.yml']
   pull_request:
-    paths: ['packages/bubble/**', 'validation/suites/bubble/**', '.github/workflows/theme-bubble.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/bubble/**', 'validation/suites/bubble/**', '.github/workflows/theme-bubble.yml']
 permissions:
   contents: read
 jobs:

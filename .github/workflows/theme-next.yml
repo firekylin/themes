@@ -1,9 +1,9 @@
 name: Theme next
 on:
   push:
-    paths: ['packages/next/**', 'validation/suites/next/**', '.github/workflows/theme-next.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/next/**', 'validation/suites/next/**', '.github/workflows/theme-next.yml']
   pull_request:
-    paths: ['packages/next/**', 'validation/suites/next/**', '.github/workflows/theme-next.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/next/**', 'validation/suites/next/**', '.github/workflows/theme-next.yml']
 permissions:
   contents: read
 jobs:

@@ -1,9 +1,9 @@
 name: Theme hugo-coder
 on:
   push:
-    paths: ['packages/hugo-coder/**', 'validation/suites/hugo-coder/**', '.github/workflows/theme-hugo-coder.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/hugo-coder/**', 'validation/suites/hugo-coder/**', '.github/workflows/theme-hugo-coder.yml']
   pull_request:
-    paths: ['packages/hugo-coder/**', 'validation/suites/hugo-coder/**', '.github/workflows/theme-hugo-coder.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/hugo-coder/**', 'validation/suites/hugo-coder/**', '.github/workflows/theme-hugo-coder.yml']
 permissions:
   contents: read
 jobs:

@@ -1,9 +1,9 @@
 name: Theme papermod
 on:
   push:
-    paths: ['packages/papermod/**', 'validation/suites/papermod/**', '.github/workflows/theme-papermod.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/papermod/**', 'validation/suites/papermod/**', '.github/workflows/theme-papermod.yml']
   pull_request:
-    paths: ['packages/papermod/**', 'validation/suites/papermod/**', '.github/workflows/theme-papermod.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/papermod/**', 'validation/suites/papermod/**', '.github/workflows/theme-papermod.yml']
 permissions:
   contents: read
 jobs:

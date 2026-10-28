@@ -1,9 +1,9 @@
 name: Theme stack
 on:
   push:
-    paths: ['packages/stack/**', 'validation/suites/stack/**', '.github/workflows/theme-stack.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/stack/**', 'validation/suites/stack/**', '.github/workflows/theme-stack.yml']
   pull_request:
-    paths: ['packages/stack/**', 'validation/suites/stack/**', '.github/workflows/theme-stack.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/stack/**', 'validation/suites/stack/**', '.github/workflows/theme-stack.yml']
 permissions:
   contents: read
 jobs:

@@ -1,9 +1,9 @@
 name: Theme joe
 on:
   push:
-    paths: ['packages/joe/**', 'validation/suites/joe/**', '.github/workflows/theme-joe.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/joe/**', 'validation/suites/joe/**', '.github/workflows/theme-joe.yml']
   pull_request:
-    paths: ['packages/joe/**', 'validation/suites/joe/**', '.github/workflows/theme-joe.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/joe/**', 'validation/suites/joe/**', '.github/workflows/theme-joe.yml']
 permissions:
   contents: read
 jobs:
