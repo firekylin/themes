@@ -1,0 +1,68 @@
+{
+  "name": "@firekylin/theme-matcha",
+  "title": "Matcha",
+  "version": "0.1.0",
+  "private": true,
+  "license": "GPL-3.0-only",
+  "description": "Matcha Typecho theme port",
+  "firekylin": {
+    "id": "matcha",
+    "type": "theme",
+    "widgets": "widgets.js"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "DarkMode",
+      "label": "夜间模式",
+      "help": "default/dark/no/always"
+    },
+    {
+      "type": "text",
+      "name": "ThemeColor",
+      "label": "主题颜色",
+      "help": "默认 #c5c56a"
+    },
+    {
+      "type": "text",
+      "name": "EnableExtraSimple",
+      "label": "超简洁模式",
+      "help": "able 开启"
+    },
+    {
+      "type": "text",
+      "name": "IndexDisplayMode",
+      "label": "首页内容",
+      "help": "FullText 或 Excerpt200"
+    },
+    {
+      "type": "text",
+      "name": "showTOC",
+      "label": "文章目录",
+      "help": "true 开启，默认开启"
+    },
+    {
+      "type": "text",
+      "name": "relatedLinksTitle",
+      "label": "相关链接标题",
+      "help": "纯文本"
+    },
+    {
+      "type": "text",
+      "name": "relatedLinks",
+      "label": "相关链接",
+      "help": "JSON 数组，每项 title/url/description"
+    },
+    {
+      "type": "text",
+      "name": "copyrightYear",
+      "label": "起始年份",
+      "help": "纯文本"
+    },
+    {
+      "type": "css",
+      "name": "customCSS",
+      "label": "自定义 CSS"
+    }
+  ]
+}
