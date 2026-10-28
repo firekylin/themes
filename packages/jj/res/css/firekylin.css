@@ -517,7 +517,178 @@ body.fk-theme {
 }
 
 /* Keep configured dark colors after theme-specific defaults. */
-body.fk-theme.fk-dark {--fk-bg:#191b20;--fk-paper:#252830;--fk-ink:#e4e6ec;--fk-muted:#a6adb8;--fk-line:#3b414b}
-.fk-theme.fk-dark .entry-title {color:var(--fk-ink)}
+body.fk-theme.fk-dark {
+  --fk-bg: #191b20;
+  --fk-paper: #252830;
+  --fk-ink: #e4e6ec;
+  --fk-muted: #a6adb8;
+  --fk-line: #3b414b;
+}
+.fk-theme.fk-dark .entry-title {
+  color: var(--fk-ink);
+}
 
-.fk-theme.fk-dark .entry-more, .fk-theme.fk-dark .entry-content a {color:#a9caff}
+.fk-theme.fk-dark .entry-more,
+.fk-theme.fk-dark .entry-content a {
+  color: #a9caff;
+}
+
+/* Independently written JJ layout refinements; no upstream Sass required. */
+.jj-categories {
+  display: flex;
+  gap: 24px;
+  background: var(--fk-paper);
+  padding: 13px max(20px, calc((100% - 1120px) / 2));
+  border-bottom: 1px solid var(--fk-line);
+  overflow: auto;
+  font-size: 14px;
+}
+.jj-categories a {
+  white-space: nowrap;
+}
+.jj-feed-heading {
+  padding: 16px 22px;
+  border-bottom: 1px solid var(--fk-line);
+  font-size: 14px;
+  color: var(--fk-accent);
+}
+.fk-theme .entry-card {
+  padding: 15px 22px;
+}
+.jj-card-head {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: var(--fk-muted);
+  margin-bottom: 10px;
+}
+.jj-card-head span {
+  color: var(--fk-ink);
+}
+.jj-card-body {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+.fk-theme .jj-card-body .entry-copy {
+  padding: 0;
+  flex: 1;
+  min-width: 0;
+}
+.fk-theme .entry-title {
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 0 0 8px;
+}
+.fk-theme .entry-excerpt {
+  min-height: 0;
+  margin: 0 0 10px;
+  line-height: 1.7;
+}
+.jj-thumb {
+  flex: 0 0 120px;
+  display: block;
+}
+.jj-thumb img {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 3px;
+  display: block;
+}
+.jj-card-footer {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  min-height: 20px;
+  font-size: 12px;
+  color: var(--fk-muted);
+}
+.jj-tag {
+  background: var(--fk-bg);
+  padding: 1px 5px;
+}
+.jj-avatar {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+.fk-theme .jj-detail {
+  border-radius: 3px;
+  padding: 32px;
+}
+.fk-theme .jj-detail .post-title {
+  font-size: 30px;
+  font-weight: 650;
+}
+.jj-detail .fk-meta {
+  margin-bottom: 30px;
+}
+.jj-detail-cover {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  margin-bottom: 25px;
+}
+.jj-toc {
+  position: sticky;
+  top: 20px;
+}
+.jj-toc nav,
+.jj-mobile-toc nav {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+.jj-toc a:hover {
+  color: var(--fk-accent);
+}
+.jj-mobile-toc {
+  display: none;
+}
+.fk-theme.has-sidebar .fk-shell {
+  width: calc(100% - 40px);
+  max-width: 1120px;
+  grid-template-columns: minmax(0, 1fr) 280px;
+}
+@media (max-width: 850px) {
+  .fk-theme.has-sidebar .fk-shell {
+    grid-template-columns: minmax(0, 1fr);
+    width: calc(100% - 24px);
+    max-width: none;
+  }
+  .jj-thumb {
+    flex-basis: 80px;
+  }
+  .jj-thumb img {
+    width: 80px;
+    height: 60px;
+  }
+  .jj-card-body {
+    gap: 12px;
+  }
+  .fk-theme .entry-card {
+    padding: 15px;
+  }
+  .fk-theme .jj-detail {
+    padding: 24px;
+  }
+  .jj-mobile-toc:not([hidden]) {
+    display: block;
+    border: 1px solid var(--fk-line);
+    padding: 12px;
+    margin-bottom: 20px;
+  }
+  .jj-mobile-toc summary {
+    cursor: pointer;
+  }
+  .jj-mobile-toc nav {
+    padding-top: 12px;
+  }
+}

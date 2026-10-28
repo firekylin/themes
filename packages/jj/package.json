@@ -49,6 +49,12 @@
       "name": "sidebarTitle",
       "label": "侧栏标题",
       "help": "留空显示最新文章。"
+    },
+    {
+      "type": "text",
+      "name": "avatar",
+      "label": "资料栏头像",
+      "help": "HTTP(S) 或站内图片地址；不请求 Gravatar。"
     }
   ]
 }
