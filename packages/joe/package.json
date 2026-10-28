@@ -49,6 +49,30 @@
       "name": "sidebarTitle",
       "label": "侧栏标题",
       "help": "留空显示最新文章。"
+    },
+    {
+      "type": "text",
+      "name": "carousel",
+      "label": "首页推荐图",
+      "help": "每行 图片URL||链接URL||标题；支持 http(s) 或站内路径。"
+    },
+    {
+      "type": "text",
+      "name": "authorImage",
+      "label": "资料栏封面",
+      "help": "图片 URL；不提供外部默认图片。"
+    },
+    {
+      "type": "text",
+      "name": "authorAvatar",
+      "label": "资料栏头像",
+      "help": "图片 URL；留空显示站点首字。"
+    },
+    {
+      "type": "text",
+      "name": "notice",
+      "label": "首页公告",
+      "help": "纯文本。"
     }
   ]
 }

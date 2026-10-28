@@ -12,7 +12,7 @@ and third-party resource audit. Original license/attribution materials are retai
 Copy this directory into `themes/joe` (independent project) or
 `www/theme/joe` (legacy/core installation), then select it in Appearance.
 Requires Firekylin >=2.16.0 with Eta/Widgets; verified against core `99bbdcb`.
-No PHP, npm install, compilation or theme JavaScript is required at runtime.
+No PHP, npm install or compilation is required at runtime. A small local script enhances recommendation navigation.
 
 ## Supported
 
@@ -22,6 +22,8 @@ query-preserving pagination; archives; category/tag directories; empty states;
 featuredImage where the layout has covers; core-rendered body/password forms;
 native comments through `firekylin.comment()`, respecting core disabled/login rules.
 Only public Widgets supply data; templates issue no database queries.
+
+Additional settings: `carousel` (one image||URL||title per line), `authorImage`, `authorAvatar` and plain-text `notice`.
 
 Appearance settings: plain-text footer and introduction, validated hex accent
 color, `colorMode=dark` for dark colors, and a sidebar heading.
@@ -47,7 +49,5 @@ core Widget classes and comment rendering. These are real Eta/Chromium renders
 with synthetic data, not a live database installation; posting to a remote comment
 service or authenticating a real user is not part of this check.
 
-Selection exclusions: Pinghsu/Maupassant were already ported; Clarity is reserved
-for the user. Miracles has additional custom-license restrictions, initial has no
-explicit license, and Akina's referenced earlier WordPress source could not be
-resolved for license-chain verification. They are not included in this batch.
+
+See [VISUAL-COMPARISON.md](VISUAL-COMPARISON.md) for the source comparison and specific unsupported features.
