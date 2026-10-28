@@ -1,13 +1,14 @@
 name: Theme jasmine
 on:
   push:
-    paths: ['packages/jasmine/**', 'validation/suites/jasmine/**', '.github/workflows/theme-jasmine.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/jasmine/**', 'validation/suites/jasmine/**', '.github/workflows/theme-jasmine.yml']
   pull_request:
-    paths: ['packages/jasmine/**', 'validation/suites/jasmine/**', '.github/workflows/theme-jasmine.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/jasmine/**', 'validation/suites/jasmine/**', '.github/workflows/theme-jasmine.yml']
 permissions:
   contents: read
 jobs:
   test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/typecho-jasmine' || github.ref == 'refs/heads/feat/typecho-jasmine'
     runs-on: ubuntu-latest
     defaults:
       run:

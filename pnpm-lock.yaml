@@ -29,6 +29,8 @@ importers:
 
   packages/pinghsu: {}
 
+  packages/single: {}
+
   packages/void: {}
 
 packages:
