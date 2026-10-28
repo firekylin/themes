@@ -36,6 +36,8 @@ importers:
         specifier: 0.64.0
         version: 0.64.0
 
+  packages/academic-cv: {}
+
   packages/akina: {}
 
   packages/argon: {}
