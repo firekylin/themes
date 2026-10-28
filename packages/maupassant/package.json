@@ -1,0 +1,35 @@
+{
+  "name": "maupassant",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Maupassant Typecho theme adapted to Firekylin Eta and Widgets",
+  "license": "MIT",
+  "author": "cho",
+  "homepage": "https://github.com/pagecho/maupassant",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/maupassant"
+  },
+  "firekylin": {
+    "id": "maupassant",
+    "type": "theme"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "纯文本显示，不支持 HTML。"
+    },
+    {
+      "type": "text",
+      "name": "sidebarTitle",
+      "label": "侧栏标题",
+      "help": "留空显示“最新文章”。"
+    }
+  ],
+  "engines": {
+    "firekylin": ">=2.16.0"
+  }
+}
