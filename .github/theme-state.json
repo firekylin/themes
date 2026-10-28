@@ -1,7 +1,19 @@
 {
+  "butterfly": {
+    "hash": "6e7037887e1dfcefe705138cdc1f72c84da69379b259d1e6e2402ea0dd02f9dc",
+    "id": "butterfly"
+  },
   "firekylin": {
     "hash": "b7e829176b5cb803168c38e92bf9fd77c99c956986b772e034b1488701fb606d",
     "id": "firekylin"
+  },
+  "icefox": {
+    "hash": "01f895ff5b632ab825fed533babf4938938c24e4266a34a4d9490827bd1df1c6",
+    "id": "icefox"
+  },
+  "joe": {
+    "hash": "7ec189fc74e40a2d98af6aa7a295fd52c298fe080390ee40d2e30e8b7c65df85",
+    "id": "joe"
   },
   "maupassant": {
     "hash": "1e382a879180d0c1c6a6a2115dba0033cde5e39f48ceff4c0f9a7822367a3678",

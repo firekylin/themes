@@ -3,6 +3,20 @@
   "packages": [
     {
       "type": "theme",
+      "name": "butterfly",
+      "id": "butterfly",
+      "version": "0.1.0",
+      "title": "Butterfly",
+      "description": "Blue hero, alternating image/text cards and a profile sidebar.",
+      "download": "https://github.com/firekylin/themes/releases/download/butterfly-v0.1.0/butterfly-0.1.0.zip",
+      "integrity": "sha512-uT61FZ8ERLFz+Z9vCqNSB8+myddo09hg+qpF7opOW1LZJlM4aP7mZemGXJRQPCTVx9lVa0MqsmYo+E56O/RG5g==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/butterfly/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
       "name": "firekylin",
       "id": "firekylin",
       "version": "0.1.0",
@@ -11,6 +25,34 @@
       "download": "https://github.com/firekylin/themes/releases/download/firekylin-v0.1.0/firekylin-0.1.0.zip",
       "integrity": "sha512-Z4wGsmcM8ThZ0EJ0qQDaO2fAXEVI165Jw7Whgm3vdoKo8ymPFL5MANB6Qv8Q9aJBf8qUvRgukmnE5fz6XLcAhQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/firekylin/screenshot.png"
+    },
+    {
+      "type": "theme",
+      "name": "icefox",
+      "id": "icefox",
+      "version": "0.1.0",
+      "title": "icefox",
+      "description": "icefox 3.0.3 Moments layout: cover, overlapping profile, author timeline, media grid and native comments.",
+      "download": "https://github.com/firekylin/themes/releases/download/icefox-v0.1.0/icefox-0.1.0.zip",
+      "integrity": "sha512-HhJK9mTiFW0yzptGBYnI1054isSu2v7AnAYcqII7WQR/nhzP2mP62i+I0tWPcVNkFZH8ryrXAEVkWwzpJBMcdA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/icefox/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "joe",
+      "id": "joe",
+      "version": "0.1.0",
+      "title": "Joe",
+      "description": "Article list with blue accents and a right-hand profile/recent-post sidebar.",
+      "download": "https://github.com/firekylin/themes/releases/download/joe-v0.1.0/joe-0.1.0.zip",
+      "integrity": "sha512-IvvuwVKDmMpd5nY0U5o4dR/ZzGie5VI422hMKnSD07xgfq7WD1Trmv4ylkzZdxMWK3oMUgaobzrB7YkIyqZkUw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/joe/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
     },
     {
       "type": "theme",
