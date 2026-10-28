@@ -1,0 +1,92 @@
+{
+  "name": "@firekylin/theme-nexmoe",
+  "title": "Nexmoe",
+  "version": "0.1.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "description": "Nexmoe Typecho theme port for Firekylin",
+  "firekylin": {
+    "id": "nexmoe",
+    "type": "theme",
+    "widgets": "widgets.js"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "logoUrl",
+      "label": "博客头像",
+      "help": "头像 URL"
+    },
+    {
+      "type": "text",
+      "name": "background",
+      "label": "默认封面图",
+      "help": "用于背景和没有独立封面的文章"
+    },
+    {
+      "type": "text",
+      "name": "widget",
+      "label": "侧栏部件及顺序",
+      "help": "逗号分隔：category,tagcloud,archive,social,search"
+    },
+    {
+      "type": "text",
+      "name": "bilibili",
+      "label": "哔哩哔哩",
+      "help": "HTTP(S) URL"
+    },
+    {
+      "type": "text",
+      "name": "github",
+      "label": "GitHub",
+      "help": "HTTP(S) URL"
+    },
+    {
+      "type": "text",
+      "name": "zhihu",
+      "label": "知乎",
+      "help": "HTTP(S) URL"
+    },
+    {
+      "type": "text",
+      "name": "telegram",
+      "label": "Telegram",
+      "help": "HTTP(S) URL"
+    },
+    {
+      "type": "text",
+      "name": "twitter",
+      "label": "Twitter",
+      "help": "HTTP(S) URL"
+    },
+    {
+      "type": "text",
+      "name": "steam",
+      "label": "Steam",
+      "help": "HTTP(S) URL"
+    },
+    {
+      "type": "text",
+      "name": "game",
+      "label": "游戏 ID",
+      "help": "以纯文字显示"
+    },
+    {
+      "type": "text",
+      "name": "lightbox",
+      "label": "图片灯箱",
+      "help": "false 关闭，默认开启"
+    },
+    {
+      "type": "text",
+      "name": "toc",
+      "label": "文章目录",
+      "help": "false 关闭，默认开启"
+    },
+    {
+      "type": "css",
+      "name": "customCSS",
+      "label": "自定义 CSS"
+    }
+  ]
+}

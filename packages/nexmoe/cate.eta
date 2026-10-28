@@ -1,0 +1,1 @@
+<%~ await includeAsync('./inc/header',{...firekylin,pageTitle:'分类'}) %><div class="nexmoe-post"><article><h1>分类</h1><ul><% const items=await firekylin.widget('Widget_Metas_Category_List');while(items.next()){ %><li><a href="/cate/<%= items.row.pathname %>"><%= items.row.name %></a></li><% } %></ul></article></div><%~ await includeAsync('./inc/footer',firekylin) %>
