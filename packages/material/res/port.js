@@ -1,0 +1,2 @@
+"use strict";
+const drawer=document.getElementById('material-drawer');const toggle=document.getElementById('drawer-toggle');toggle.addEventListener('click',()=>{drawer.showModal();toggle.setAttribute('aria-expanded','true')});document.getElementById('drawer-close').addEventListener('click',()=>drawer.close());drawer.addEventListener('close',()=>{toggle.setAttribute('aria-expanded','false');toggle.focus()});drawer.addEventListener('click',e=>{if(e.target===drawer && e.clientX>drawer.getBoundingClientRect().right)drawer.close()});

@@ -1,0 +1,54 @@
+{
+  "name": "@firekylin/theme-material",
+  "title": "Material",
+  "version": "0.1.0",
+  "private": true,
+  "license": "GPL-3.0-only",
+  "description": "Material Typecho theme port for Firekylin",
+  "firekylin": {
+    "id": "material",
+    "type": "theme"
+  },
+  "configElements": [
+    {
+      "name": "slogan",
+      "label": "首页标语",
+      "type": "text"
+    },
+    {
+      "name": "dailypic",
+      "label": "首页大图 URL",
+      "type": "text"
+    },
+    {
+      "name": "avatarURL",
+      "label": "头像 URL",
+      "type": "text"
+    },
+    {
+      "name": "logo",
+      "label": "标志 URL",
+      "type": "text"
+    },
+    {
+      "name": "ThemeColor",
+      "label": "主题颜色",
+      "type": "color"
+    },
+    {
+      "name": "alinkcolor",
+      "label": "链接颜色",
+      "type": "color"
+    },
+    {
+      "name": "bgcolor",
+      "label": "背景颜色",
+      "type": "color"
+    },
+    {
+      "name": "customCSS",
+      "label": "自定义 CSS",
+      "type": "css"
+    }
+  ]
+}
