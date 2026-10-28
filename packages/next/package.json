@@ -1,0 +1,71 @@
+{
+  "name": "@firekylin/theme-next",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Historical NexT 5.1.4 for Firekylin",
+  "license": "MIT",
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "firekylin": {
+    "id": "next",
+    "type": "theme"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "scheme",
+      "label": "Scheme: Muse, Mist, Pisces, Gemini"
+    },
+    {
+      "type": "text",
+      "name": "sidebarPosition",
+      "label": "Sidebar position: left or right"
+    },
+    {
+      "type": "text",
+      "name": "subtitle",
+      "label": "Site subtitle"
+    },
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "Profile name"
+    },
+    {
+      "type": "text",
+      "name": "description",
+      "label": "Profile biography"
+    },
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "Avatar URL"
+    },
+    {
+      "type": "text",
+      "name": "socialLinks",
+      "label": "Social links JSON [{\"name\":\"\",\"url\":\"\"}]"
+    },
+    {
+      "type": "text",
+      "name": "links",
+      "label": "Blogroll JSON [{\"name\":\"\",\"url\":\"\"}]"
+    },
+    {
+      "type": "text",
+      "name": "showToc",
+      "label": "Show TOC: true (default) or false"
+    },
+    {
+      "type": "text",
+      "name": "showUpdated",
+      "label": "Show updated date: true"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "Footer text"
+    }
+  ]
+}

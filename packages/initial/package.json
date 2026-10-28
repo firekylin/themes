@@ -1,0 +1,66 @@
+{
+  "name": "initial",
+  "title": "Initial",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Initial-inspired text-first reading layout, independently implemented for Firekylin.",
+  "license": "MIT",
+  "author": "JIElive (reference); Firekylin contributors (implementation)",
+  "homepage": "https://github.com/jielive/initial",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/initial"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "initial"
+  },
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "纯文本，不支持 HTML。"
+    },
+    {
+      "type": "text",
+      "name": "heroText",
+      "label": "站点简介",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "color",
+      "name": "accentColor",
+      "label": "强调色",
+      "help": "支持 #RGB 或 #RRGGBB。"
+    },
+    {
+      "type": "text",
+      "name": "colorMode",
+      "label": "配色模式",
+      "help": "填写 dark 启用深色；留空为浅色。"
+    },
+    {
+      "type": "text",
+      "name": "oneColumn",
+      "label": "单栏",
+      "help": "填写 1 隐藏侧栏。"
+    },
+    {
+      "type": "text",
+      "name": "fixedHeader",
+      "label": "固定页头",
+      "help": "填写 1 固定在顶部。"
+    },
+    {
+      "type": "text",
+      "name": "logoUrl",
+      "label": "站点标志",
+      "help": "http(s) URL 或站内路径。"
+    }
+  ]
+}
