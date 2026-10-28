@@ -1,9 +1,9 @@
 name: Theme green-park-2
 on:
   push:
-    paths: ['packages/green-park-2/**', 'validation/suites/green-park-2/**', '.github/workflows/theme-green-park-2.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/green-park-2/**', 'validation/suites/green-park-2/**', '.github/workflows/theme-green-park-2.yml']
   pull_request:
-    paths: ['packages/green-park-2/**', 'validation/suites/green-park-2/**', '.github/workflows/theme-green-park-2.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/green-park-2/**', 'validation/suites/green-park-2/**', '.github/workflows/theme-green-park-2.yml']
 permissions:
   contents: read
 jobs:

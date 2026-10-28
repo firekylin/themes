@@ -1,9 +1,9 @@
 name: Theme aquila
 on:
   push:
-    paths: ['packages/aquila/**', 'validation/suites/aquila/**', '.github/workflows/theme-aquila.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/aquila/**', 'validation/suites/aquila/**', '.github/workflows/theme-aquila.yml']
   pull_request:
-    paths: ['packages/aquila/**', 'validation/suites/aquila/**', '.github/workflows/theme-aquila.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/aquila/**', 'validation/suites/aquila/**', '.github/workflows/theme-aquila.yml']
 permissions:
   contents: read
 jobs:
