@@ -1,0 +1,15 @@
+Nexmoe for Typecho, by 折影轻梦 (nexmoe), Apache License 2.0.
+https://github.com/theme-nexmoe/typecho-theme-nexmoe
+Pinned source: 2f941bf3b98978e311a78e5362c74eea9214f1aa.
+2026-10-28 Firekylin adaptation: PHP templates replaced with Eta and public widgets;
+original source/css/style.css retained; timeline/TOC styles adapted in port.css;
+new native interaction code and replacement SVG artwork, Apache-2.0.
+
+MDUI 0.4.3 by zdhxiong, MIT (LICENSE-MDUI).
+https://github.com/zdhxiong/mdui
+Roboto fonts, Google, Apache-2.0 (res/mdui/fonts/roboto/LICENSE.txt).
+Google Material Icons, Google, CC BY 4.0.
+https://github.com/google/material-design-icons
+License: res/mdui/icons/material-icons/LICENSE.txt.
+Unmodified font binaries distributed with MDUI; replaces upstream iconfont.
+No upstream photographs, avatar service, third-party analytics or ads included.
