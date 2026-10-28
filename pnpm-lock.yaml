@@ -59,6 +59,8 @@ importers:
 
   packages/single: {}
 
+  packages/stack: {}
+
   packages/void: {}
 
 packages:
