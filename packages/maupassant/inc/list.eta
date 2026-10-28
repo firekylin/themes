@@ -1,0 +1,4 @@
+<% const archive = firekylin.archive; %>
+<% while (archive.next()) { %><article class="post"><header><h2 class="post-title"><a href="<%= archive.permalink %>"><%= archive.title() %></a></h2></header>
+<time class="post-meta" datetime="<%= archive.date('YYYY-MM-DD') %>"><%= archive.date('YYYY-MM-DD') %></time>
+<div class="post-content"><%~ archive.row.summary %><p><a href="<%= archive.permalink %>">阅读剩余部分 →</a></p></div></article><% } %>

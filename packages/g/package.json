@@ -1,0 +1,139 @@
+{
+  "name": "@firekylin/theme-g",
+  "title": "G",
+  "version": "0.1.0",
+  "private": true,
+  "license": "GPL-3.0-only",
+  "description": "G Typecho theme port",
+  "firekylin": {
+    "id": "g",
+    "type": "theme"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "articleStyle",
+      "label": "文章列表样式",
+      "help": "0 双列、1 摘要、2 封面卡片"
+    },
+    {
+      "type": "text",
+      "name": "themeColor",
+      "label": "主题色",
+      "help": "#07F"
+    },
+    {
+      "type": "text",
+      "name": "headerColor",
+      "label": "页头颜色",
+      "help": "#6A6A6A"
+    },
+    {
+      "type": "text",
+      "name": "themeRadius",
+      "label": "圆角",
+      "help": "默认 30px"
+    },
+    {
+      "type": "text",
+      "name": "themeShadow",
+      "label": "阴影",
+      "help": "1 开启，默认开启"
+    },
+    {
+      "type": "text",
+      "name": "background",
+      "label": "背景",
+      "help": "颜色或 HTTP(S) 图片地址"
+    },
+    {
+      "type": "text",
+      "name": "repeatBackground",
+      "label": "平铺背景",
+      "help": "1 开启"
+    },
+    {
+      "type": "text",
+      "name": "headerBackground",
+      "label": "页头图片",
+      "help": "图片 URL"
+    },
+    {
+      "type": "text",
+      "name": "defaultBanner",
+      "label": "默认文章封面",
+      "help": "图片 URL"
+    },
+    {
+      "type": "text",
+      "name": "profileAvatar",
+      "label": "侧栏头像",
+      "help": "图片 URL"
+    },
+    {
+      "type": "text",
+      "name": "profileBG",
+      "label": "侧栏背景",
+      "help": "图片 URL"
+    },
+    {
+      "type": "text",
+      "name": "profileDes",
+      "label": "侧栏简介",
+      "help": "纯文本"
+    },
+    {
+      "type": "text",
+      "name": "sponsorIMG",
+      "label": "赞赏图片",
+      "help": "图片 URL"
+    },
+    {
+      "type": "text",
+      "name": "sponsorText",
+      "label": "赞赏文字",
+      "help": "默认 赞赏"
+    },
+    {
+      "type": "text",
+      "name": "enableDefaultTOC",
+      "label": "自动目录",
+      "help": "1 开启"
+    },
+    {
+      "type": "text",
+      "name": "autoNightMode",
+      "label": "夜间模式",
+      "help": "0 浅色、1 跟随系统、2 按时间"
+    },
+    {
+      "type": "text",
+      "name": "autoNightSpan",
+      "label": "夜间时段",
+      "help": "默认 22-6"
+    },
+    {
+      "type": "text",
+      "name": "buildYear",
+      "label": "建站年份",
+      "help": "纯文本"
+    },
+    {
+      "type": "text",
+      "name": "icp",
+      "label": "备案号",
+      "help": "纯文本"
+    },
+    {
+      "type": "text",
+      "name": "icpUrl",
+      "label": "备案链接",
+      "help": "HTTP(S) URL"
+    },
+    {
+      "type": "css",
+      "name": "customCSS",
+      "label": "自定义 CSS"
+    }
+  ]
+}

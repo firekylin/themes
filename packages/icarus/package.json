@@ -1,0 +1,96 @@
+{
+  "name": "@firekylin/theme-icarus",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Icarus for Firekylin",
+  "license": "MIT",
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "firekylin": {
+    "id": "icarus",
+    "type": "theme"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "variant",
+      "label": "Style: default, cyberpunk or m3e"
+    },
+    {
+      "type": "text",
+      "name": "appearance",
+      "label": "Appearance: auto, light or dark"
+    },
+    {
+      "type": "text",
+      "name": "profileName",
+      "label": "Profile name"
+    },
+    {
+      "type": "text",
+      "name": "profileBio",
+      "label": "Profile biography"
+    },
+    {
+      "type": "text",
+      "name": "profileLocation",
+      "label": "Profile location"
+    },
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "Avatar URL"
+    },
+    {
+      "type": "text",
+      "name": "followUrl",
+      "label": "Follow button URL"
+    },
+    {
+      "type": "text",
+      "name": "defaultCover",
+      "label": "Default article cover URL"
+    },
+    {
+      "type": "text",
+      "name": "columns",
+      "label": "Layout columns: 1, 2 or 3"
+    },
+    {
+      "type": "text",
+      "name": "leftSticky",
+      "label": "Sticky left sidebar: true"
+    },
+    {
+      "type": "text",
+      "name": "rightSticky",
+      "label": "Sticky right sidebar: true"
+    },
+    {
+      "type": "text",
+      "name": "showUpdated",
+      "label": "Show updated date: true"
+    },
+    {
+      "type": "text",
+      "name": "showToc",
+      "label": "Show article table of contents: true (default)"
+    },
+    {
+      "type": "text",
+      "name": "links",
+      "label": "Sidebar links JSON [{\"name\":\"\",\"url\":\"\"}]"
+    },
+    {
+      "type": "text",
+      "name": "socialLinks",
+      "label": "Profile social links JSON [{\"name\":\"\",\"url\":\"\"}]"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "Footer text"
+    }
+  ]
+}
