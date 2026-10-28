@@ -1,14 +1,7 @@
 {
-  "upstream": "jielive/Initial",
-  "files": [
-    "static/initial.css"
-  ],
-  "filter": null,
-  "changes": [
-    "removed font-face and imports",
-    "removed declarations containing URLs",
-    "filtered theme-owned selectors where recorded",
-    "formatted for direct editing"
-  ],
-  "build": "CSS only; no compilation required"
+  "reference": "https://github.com/jielive/initial",
+  "revision": "1c68cb95199e16c4b933dfdf2922e1fae27fc1c4",
+  "upstreamLicense": "unspecified",
+  "implementationLicense": "MIT (independently authored implementation only)",
+  "redistributedUpstreamAssets": []
 }
