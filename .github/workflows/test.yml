@@ -14,3 +14,8 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm test
+      - name: Verify generated theme registry
+        run: |
+          python3 scripts/build-registry.py
+          git diff --exit-code -- registry.json archives
+          test -z "$(git ls-files --others --exclude-standard -- registry.json archives)"
