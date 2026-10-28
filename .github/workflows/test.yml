@@ -15,3 +15,29 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm test
       - run: python3 -m unittest discover -s test -p "test_*.py"
+      - uses: actions/checkout@v4
+        with:
+          repository: firekylin/firekylin
+          ref: a200d5887c702acb7c264776d9827f54e8389f09
+          path: .validation-core
+      - name: Test real core rendering and installation
+        env:
+          FIREKYLIN_CORE_PATH: ${{ github.workspace }}/.validation-core
+          NODE_PATH: ${{ github.workspace }}/node_modules
+        run: |
+          node --test test/next.test.js
+          pnpm test:install
+      - run: pnpm exec playwright-core install --with-deps chromium
+      - name: Test desktop and mobile behavior
+        env:
+          FIREKYLIN_CORE_PATH: ${{ github.workspace }}/.validation-core
+        run: pnpm test:browser
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: next-validation
+          path: |
+            packages/next/screenshot.png
+            packages/next/preview/
+            validation/next/
+            dist/next-0.1.0.zip
