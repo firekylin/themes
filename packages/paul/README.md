@@ -1,0 +1,15 @@
+# Paul for Firekylin
+
+Port of [Innei/Typecho-Theme-Paul](https://github.com/Innei/Typecho-Theme-Paul/tree/5b60576ce1bf774987bc73bc7bce4236165aa4db), pinned `5b60576ce1bf774987bc73bc7bce4236165aa4db` (290 stars at selection, 2026-10-28). Original MIT license retained. Design by [Dreamer-Paul](https://paul.ren), Typecho implementation by [Innei](https://innei.ren); both visible credits remain.
+
+Uses the actual Paul/main styles and corresponding home profile, colored news/project/quote sections, diary cards, vertical desktop navigation, mobile flower-shaped navigation toggle, dated diary article and heading directory. Native keyboard-friendly navigation and image dialog replace original JavaScript dependencies. This is a dedicated Paul port, not a shared template recolor.
+
+Install `paul-0.1.0.zip` through Firekylin's theme installer. Tested with Firekylin 2.16.0 core `99bbdcb919bae2133420dee214c5f8897b9ace25`. Configure avatar/profile name/background, GitHub/Weibo/Bilibili IDs, blog URL, article afterword, newline-separated quotes and projects as a JSON array of `{title,url,image,description}`. Only HTTP(S) or relative project links accepted. Optional audioUrl uses browser audio controls; full media playback across browsers is not verified. Site navigation supplies profile links. Post mood can come from `fields.mood`.
+
+## Differences and verification limits
+
+Kico's original repository lookup returned Repository not found. No access workaround was attempted. Bundled Kico CSS/JS are omitted and replaced with a newly written layout/reset, so some typography/grid behavior differs. Original photos, patterned wallpaper, illustrated footer, iconfont and third-party cursor are excluded; new SVG avatar/yellow footer and text navigation icons replace them. Social icons are textual. Reference uses replacement avatar and white wallpaper via supported configuration while retaining its original illustrated footer for comparison.
+
+Typecho frontend login/posting, separate secret-key diary mechanism, likes/views, PJAX, AJAX comment forms, external RSS aggregation, GitHub/bangumi/music services, custom works-detail/friends templates and Kico music player are not implemented. Private/draft access is enforced by Firekylin rather than reusing Typecho authentication. Projects/quotes are editable theme settings rather than specially parsed Typecho pages. Diary links and normal pagination are accessible; infinite loading is not implemented. No default content license is asserted on the site owner's behalf.
+
+Native Firekylin comment server gating is tested; full Waline login/submission remains unverified due the environment's observed CDN certificate error, with no bypass. Admin UI save flow not browser-tested. Actual ZIP installation, real SQLite routes/search/pagination, private/draft exclusion, mobile nav/Escape, project/quote configuration, directory and image dialog passed browser checks. Home/post screenshots at 1440/390px compare pinned upstream and port; fixture names/counts/comments differ and do not prove complete feature parity.

@@ -89,6 +89,8 @@ importers:
 
   packages/papermod: {}
 
+  packages/paul: {}
+
   packages/pinghsu: {}
 
   packages/puock: {}

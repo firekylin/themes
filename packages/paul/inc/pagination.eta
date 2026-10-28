@@ -1,0 +1,1 @@
+<% const a=firekylin.archive,pg=a.pagination||{currentPage:1,totalPages:1}; %><nav class="paul-pagination" aria-label="分页"><% if(pg.currentPage>1){ %><a href="<%= a.pageUrl(pg.currentPage-1) %>">上一页</a><% } if(pg.currentPage<pg.totalPages){ %><a href="<%= a.pageUrl(pg.currentPage+1) %>">下一页</a><% } %></nav>
