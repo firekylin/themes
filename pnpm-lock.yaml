@@ -27,6 +27,8 @@ importers:
 
   packages/pinghsu: {}
 
+  packages/void: {}
+
 packages:
 
   eta@4.6.0:
