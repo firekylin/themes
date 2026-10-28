@@ -19,6 +19,8 @@ importers:
 
   packages/firekylin: {}
 
+  packages/pinghsu: {}
+
 packages:
 
   eta@4.6.0:
