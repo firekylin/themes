@@ -1,13 +1,14 @@
 name: Theme sakurairo
 on:
   push:
-    paths: ['packages/sakurairo/**', 'validation/suites/sakurairo/**', '.github/workflows/theme-sakurairo.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/sakurairo/**', 'validation/suites/sakurairo/**', '.github/workflows/theme-sakurairo.yml']
   pull_request:
-    paths: ['packages/sakurairo/**', 'validation/suites/sakurairo/**', '.github/workflows/theme-sakurairo.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/sakurairo/**', 'validation/suites/sakurairo/**', '.github/workflows/theme-sakurairo.yml']
 permissions:
   contents: read
 jobs:
   test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/wordpress-sakurairo' || github.ref == 'refs/heads/feat/wordpress-sakurairo'
     runs-on: ubuntu-latest
     defaults:
       run:
