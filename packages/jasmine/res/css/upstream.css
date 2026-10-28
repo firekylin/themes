@@ -1,0 +1,351 @@
+/* Modified for Firekylin on 2026-10-28. Upstream: liaocp666/Jasmine.
+ * CSS subset/adaptation; font faces, imported styles and URL declarations removed.
+ * See NOTICE.md for author, license, source revision and resource audit. */
+/* Source: theme/assets/main/main.css */
+:root,
+[data-bs-theme="dark"] {
+  --bs-font-sans-serif:
+    "MiSans VF", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  --bg-auto-rgb: 10, 12, 25;
+  --link-color-rgba: 222, 226, 230, 0.8;
+  --link-color-second-rgba: 222, 226, 230, 0.65;
+  --primary-color-rgba: 13, 110, 253;
+  --primary-bg-rgba: 13, 110, 253, 0.2;
+}
+
+:root,
+[data-bs-theme="light"] {
+  --bg-auto-rgb: 245, 245, 244;
+  --bs-font-sans-serif:
+    "MiSans VF", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  --link-color-rgba: 0, 0, 0, 1;
+  --link-color-second-rgba: 0, 0, 0, 0.65;
+  --primary-color-rgba: 13, 110, 253;
+  --primary-bg-rgba: 13, 110, 253, 0.2;
+}
+
+/*:root, [data-bs-theme=light] {*/
+/*    --bg-auto-rgb: 245,245,244;*/
+/*    --bs-font-sans-serif: 'hm', sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";*/
+/*    --link-color-rgba: 0, 0, 0, 1;*/
+/*    --link-color-second-rgba: 0, 0, 0, .65;*/
+/*    --primary-color-rgba: 0, 0, 0, 1;*/
+/*    --primary-bg-rgba: 0, 0, 0, .2;*/
+/*}*/
+
+html {
+  scroll-padding-top: 120px;
+}
+
+*,
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(var(--link-color-rgba));
+  transition: 0.15s all ease-in-out;
+}
+
+a:hover,
+a:focus,
+a:focus-visible {
+  text-decoration: none;
+  color: rgba(var(--primary-color-rgba));
+}
+
+.bg-auto {
+  --bg-auto-opacity: 1;
+  background-color: rgba(var(--bg-auto-rgb), var(--bg-auto-opacity)) !important;
+}
+
+#left {
+  min-height: 100vh;
+  z-index: 1030;
+}
+
+#left .nav-link {
+  display: block;
+  width: 50px;
+  height: 50px;
+  color: rgba(var(--link-color-rgba));
+}
+
+#left .nav-link i {
+  font-size: 24px;
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  border-radius: var(--bs-border-radius) !important;
+  transition: all 0.15s ease-in-out;
+}
+
+#left .nav-link i:hover {
+  background: rgba(var(--primary-bg-rgba));
+  color: rgba(var(--primary-color-rgba));
+}
+
+#left .nav-item-title {
+  right: 90px;
+  top: 20%;
+  display: none;
+  padding-top: 0.27rem !important;
+  padding-bottom: 0.27rem !important;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  border-radius: var(--bs-border-radius) !important;
+}
+
+#left .nav-item:hover .nav-item-title {
+  display: block;
+  background: rgba(var(--primary-bg-rgba));
+  color: rgba(var(--primary-color-rgba));
+  transition: all 0.15s ease-in-out;
+}
+
+#middle .navbar-background {
+  backdrop-filter: blur(6px);
+}
+
+#middle #form-search-icon {
+  color: rgba(var(--link-color-second-rgba));
+}
+
+#middle #form-search-icon:hover {
+  background: rgba(var(--primary-bg-rgba));
+  color: rgba(var(--primary-color-rgba));
+}
+
+#middle #search-input,
+#middle #search-input-mobile {
+  width: 0;
+  transition: all 0.25s ease-in-out;
+  background: rgba(0, 0, 0, 0);
+}
+
+#middle #search-input:focus,
+#middle #search-input:focus-visible {
+  outline: none;
+  width: 150px;
+}
+
+#middle #navbarNavLeft .nav-link {
+}
+
+#middle .navbar-nav .active,
+#middle #navbarNavLeft .nav-link:hover {
+  color: rgba(var(--primary-color-rgba));
+  box-shadow: 0 -6px 0 0 rgba(var(--primary-bg-rgba)) inset;
+  transition: all 0.25s ease-in-out;
+}
+
+#middle .thumbnail {
+  width: 200px;
+  height: 130px;
+  flex: 0 0 auto;
+  background-origin: border-box;
+  background-position: 50%;
+  background-size: cover;
+}
+
+#middle #index-content a {
+  color: rgba(var(--link-color-rgba));
+}
+
+#middle #index-content a:hover {
+  color: rgba(var(--primary-color-rgba));
+}
+
+#middle .top-up-flag,
+#middle .read-more {
+  color: rgba(var(--primary-color-rgba));
+}
+
+#middle .moment-body {
+  background: rgba(var(--primary-bg-rgba));
+}
+
+#content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#pagination a,
+.sub-category a {
+  position: relative;
+  display: block;
+  padding: var(--bs-pagination-padding-y) var(--bs-pagination-padding-x);
+  font-size: var(--bs-pagination-font-size);
+  color: rgba(var(--link-color-second-rgba)) !important;
+  text-decoration: none;
+  background-color: rgb(var(--bg-auto-rgb));
+  transition:
+    color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  border-radius: var(--bs-border-radius) !important;
+}
+
+#pagination .current a,
+#pagination a:hover,
+.sub-category a:hover {
+  z-index: 3;
+  background: rgba(var(--primary-bg-rgba));
+  color: rgba(var(--primary-color-rgba)) !important;
+}
+
+#post-article a {
+  color: rgba(var(--link-color-rgba));
+}
+
+#post-article a:hover {
+  color: rgba(var(--primary-color-rgba));
+}
+
+#post-content a {
+  color: rgba(var(--primary-color-rgba));
+  box-shadow: 0 -6px 0 0 rgba(var(--primary-bg-rgba)) inset;
+  transition: box-shadow 0.2s ease-in;
+}
+
+#post-content a:hover {
+  color: rgba(var(--primary-color-rgba));
+  box-shadow: 0 -10px 0 0 rgba(var(--primary-bg-rgba)) inset;
+  transition: box-shadow 0.2s ease-in;
+}
+
+#post-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 36px;
+}
+
+#post-content .tags {
+  display: flex;
+}
+
+#post-content .tags a {
+  color: RGBA(var(--bs-secondary-rgb), var(--bs-link-opacity, 1)) !important;
+}
+
+#post-content blockquote,
+.text-border-left {
+  --bs-text-opacity: 1;
+  color: rgba(var(--link-color-second-rgba)) !important;
+  border-left: 4px solid rgba(var(--link-color-second-rgba));
+  font-weight: 400;
+  letter-spacing: 0.01rem;
+  padding-left: 10px;
+}
+
+#post-content blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.form-control,
+button {
+  box-shadow: none !important;
+}
+
+.form-control:focus {
+  border-color: rgba(var(--primary-color-rgba)) !important;
+}
+
+.avatar {
+  border-radius: var(--bs-border-radius) !important;
+}
+
+#comments a {
+  color: rgba(var(--link-color-rgba));
+}
+
+#comments a:hover {
+  color: rgba(var(--primary-color-rgba));
+}
+
+.comment-reply a {
+  color: rgba(var(--primary-color-rgba)) !important;
+  box-shadow: 0 -6px 0 0 rgba(var(--primary-bg-rgba)) inset;
+  transition: all 0.25s ease-in-out;
+}
+
+.comment-reply a:hover {
+  box-shadow: 0 -10px 0 0 rgba(var(--primary-bg-rgba)) inset;
+}
+
+.cancel-comment-reply {
+  display: flex;
+}
+
+.cancel-comment-reply a {
+  padding: 0.375rem 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  line-height: 1.5;
+  border-radius: 0.375rem;
+}
+
+#comments button,
+.cancel-comment-reply a {
+  background: rgba(var(--primary-bg-rgba));
+  color: rgba(var(--primary-color-rgba)) !important;
+  border: 0;
+}
+
+#comments button:hover,
+.cancel-comment-reply a:hover {
+  background: rgba(var(--primary-bg-rgba));
+  color: rgba(var(--primary-color-rgba));
+  border: 0;
+}
+
+#right a {
+  color: rgba(var(--link-color-second-rgba));
+}
+
+#right a:hover {
+  color: rgba(var(--primary-color-rgba));
+}
+
+#mobile-navbar button {
+  background: rgba(var(--primary-bg-rgba));
+  color: rgba(var(--primary-color-rgba));
+}
+
+#mobile-navbar .list-group-item.active {
+  background: rgba(var(--primary-bg-rgba));
+}
+
+#post-content h1,
+#post-content h2,
+#post-content h3 {
+  display: inline-block;
+  box-shadow: 0 -10px 0 0 rgba(var(--primary-bg-rgba)) inset;
+  padding: 0 3px;
+  font-size: calc(1.275rem + 0.3vw) !important;
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1200px;
+  }
+  #post-content h1,
+  #post-content h2,
+  #post-content h3 {
+    font-size: 1.5rem !important;
+  }
+}
