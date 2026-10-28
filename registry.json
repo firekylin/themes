@@ -3,6 +3,89 @@
   "packages": [
     {
       "type": "theme",
+      "name": "academic-cv",
+      "id": "academic-cv",
+      "version": "0.1.0",
+      "title": "academic-cv",
+      "description": "HugoBlox Academic CV profile and research collections for Firekylin",
+      "download": "https://github.com/firekylin/themes/releases/download/academic-cv-v0.1.0/academic-cv-0.1.0.zip",
+      "integrity": "sha512-eExKR4idDPvlArgimK80cCOwmGJ2fwy85nTiV8ZkBlDiJqFVy5MGI7A3tX8LGig9TlSnCIXRl7Eobx1fLqW2mA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/academic-cv/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "akina",
+      "id": "akina",
+      "version": "0.1.0",
+      "title": "Akina",
+      "description": "Akina profile landscape and circular-icon reading layout for Firekylin.",
+      "download": "https://github.com/firekylin/themes/releases/download/akina-v0.1.0/akina-0.1.0.zip",
+      "integrity": "sha512-vPnNPpffX7gRv3JQ2MWzlYEWkYibDo95UHUCJs8NKfCu4abjtqNYLym209aWGkSN/gctcqy6YuFooZV0pjMYPQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/akina/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "firekylin-theme-aquila",
+      "id": "aquila",
+      "version": "0.1.0",
+      "title": "Aquila",
+      "description": "Aquila Bootstrap article grid, reading sidebar and front-page carousel",
+      "download": "https://github.com/firekylin/themes/releases/download/aquila-v0.1.0/aquila-0.1.0.zip",
+      "integrity": "sha512-QztfT89qdcYwnIf0DCCVIO8lL9YKxOGAXg307EqJSwNRi/lBK7Ueoa2O5RVpZUmv2HJIOCuRvXKsKQsnaUTjuw==",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "firekylin-theme-argon",
+      "id": "argon",
+      "version": "0.1.0",
+      "title": "argon",
+      "description": "Argon WordPress theme adapted to Firekylin",
+      "download": "https://github.com/firekylin/themes/releases/download/argon-v0.1.0/argon-0.1.0.zip",
+      "integrity": "sha512-XS+k2xnO36fHctP9FKDatIZh5R5uksCrvEAWAbYdwNJ+yysfUZXSAisD5mfzxMRcig4T2huSAXigEvH6bD8Pig==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/argon/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "aria",
+      "id": "aria",
+      "version": "0.1.0",
+      "title": "Aria",
+      "description": "Centered reading cards with a violet hero and separated article metadata.",
+      "download": "https://github.com/firekylin/themes/releases/download/aria-v0.1.0/aria-0.1.0.zip",
+      "integrity": "sha512-UGJQgivk/pr+o1fZferiWz+1y/A4gwySzvCF8KFWynlB2IKySsl3l2mK/gE2Z6zrV4K3lj7/Ie9TBkdUYgb0bA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/aria/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "bubble",
+      "id": "bubble",
+      "version": "0.1.0",
+      "title": "Bubble",
+      "description": "Argon-inspired purple hero, rounded white cards and a responsive card grid.",
+      "download": "https://github.com/firekylin/themes/releases/download/bubble-v0.1.0/bubble-0.1.0.zip",
+      "integrity": "sha512-2hKxloRqb5hK+gpE4CdyHKLEPMTLn6f/RmCvtiw8s7zeZ470SZZa2WY0NSrmnkptb3K2OzICqpk7PKJ3SQ2eOg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/bubble/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
       "name": "butterfly",
       "id": "butterfly",
       "version": "0.1.0",
@@ -11,6 +94,47 @@
       "download": "https://github.com/firekylin/themes/releases/download/butterfly-v0.1.0/butterfly-0.1.0.zip",
       "integrity": "sha512-uT61FZ8ERLFz+Z9vCqNSB8+myddo09hg+qpF7opOW1LZJlM4aP7mZemGXJRQPCTVx9lVa0MqsmYo+E56O/RG5g==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/butterfly/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "@firekylin/theme-cactus",
+      "id": "cactus",
+      "version": "0.1.0",
+      "title": "cactus",
+      "description": "Cactus for Firekylin",
+      "download": "https://github.com/firekylin/themes/releases/download/cactus-v0.1.0/cactus-0.1.0.zip",
+      "integrity": "sha512-KtTNJDZbArb4YJbRV7oiprKWYCV12KTXcbTlTyCFRyAdtpdDfRciOUSnAXBcfAFZ9dd8INiAIMv9zZ3nRXRd6A==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/cactus/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "cuckoo",
+      "id": "cuckoo",
+      "version": "0.1.0",
+      "title": "Cuckoo",
+      "description": "Material-inspired raised cards, pink accents and a compact sidebar.",
+      "download": "https://github.com/firekylin/themes/releases/download/cuckoo-v0.1.0/cuckoo-0.1.0.zip",
+      "integrity": "sha512-JskFeaRjzVkCPzpX2BUyzgMFSsmVugppk6WkkO6Mw886V4AJ31Ul8QpgGENjDKITl3sHNG0kDHK1quF/p4z8ZA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/cuckoo/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "firekylin-theme-diaspora",
+      "id": "diaspora",
+      "version": "0.1.0",
+      "title": "Diaspora",
+      "description": "Diaspora full-screen editorial cover and alternating photo stories",
+      "download": "https://github.com/firekylin/themes/releases/download/diaspora-v0.1.0/diaspora-0.1.0.zip",
+      "integrity": "sha512-lBH6QGtEluiD6L2O1+OwkWKswxuC5Udx33UvNuNyeNZ2MKeIaD2FrexmWXMgdNY5slU3QQF/xXYeEpBxjN0avQ==",
       "engines": {
         "firekylin": ">=2.16.0"
       }
@@ -28,6 +152,85 @@
     },
     {
       "type": "theme",
+      "name": "@firekylin/theme-fluid",
+      "id": "fluid",
+      "version": "0.1.0",
+      "title": "fluid",
+      "description": "Fluid for Firekylin",
+      "download": "https://github.com/firekylin/themes/releases/download/fluid-v0.1.0/fluid-0.1.0.zip",
+      "integrity": "sha512-b3IrJYRrBiXxOx1vR/vyAt4NdNKtTmxVdVNvINGbhmtk/5vJp+i5IpNPyXyRXl0iYvE9fRTCpxzW5owc2GFGpw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/fluid/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "@firekylin/theme-g",
+      "id": "g",
+      "version": "0.1.0",
+      "title": "G",
+      "description": "G Typecho theme port",
+      "download": "https://github.com/firekylin/themes/releases/download/g-v0.1.0/g-0.1.0.zip",
+      "integrity": "sha512-4hMFRDaBSNT7mBFt0oMMf8QTWDD7r+K1/Spe1puZtU0JCsQ2QN7fOemFXLn4KDGmHPTYmMjUAMn+N/SwMVZU6A=="
+    },
+    {
+      "type": "theme",
+      "name": "firekylin-theme-green-park-2",
+      "id": "green-park-2",
+      "version": "0.1.0",
+      "title": "Cordobo Green Park 2",
+      "description": "Green Park 2 full-content blog and split sidebar",
+      "download": "https://github.com/firekylin/themes/releases/download/green-park-2-v0.1.0/green-park-2-0.1.0.zip",
+      "integrity": "sha512-cBz199t4vIFvMrBvjGFzF1w+GAIlUxzs9BRZ15CxLWWQBQoiYxAWREPncQzD8knfs9WASSdTbh3lP+532wiLQg==",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "hugo-book",
+      "id": "hugo-book",
+      "version": "0.1.0",
+      "title": "hugo-book",
+      "description": "Hugo Book documentation layout and navigation for Firekylin",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-book-v0.1.0/hugo-book-0.1.0.zip",
+      "integrity": "sha512-Nsx5/6glSs79gRELoa/6iOq3iTFO3WFTR4aDqVm0dXKFY7wjN3gkH4QztwglRA1ng55OqnjgdVDJAmzhzWAp+g==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-book/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "hugo-coder",
+      "id": "hugo-coder",
+      "version": "0.1.0",
+      "title": "hugo-coder",
+      "description": "Hugo Coder centered profile and reading theme for Firekylin",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-coder-v0.1.0/hugo-coder-0.1.0.zip",
+      "integrity": "sha512-CT/sZkhy1tgkW0EQP9kzWT0m9ApKs65V489gBDtI+0JfWiBMs2WHVcPWJ80FNPzmw66lPWis3MxpIJYlOwkOVQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-coder/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "@firekylin/theme-icarus",
+      "id": "icarus",
+      "version": "0.1.0",
+      "title": "icarus",
+      "description": "Icarus for Firekylin",
+      "download": "https://github.com/firekylin/themes/releases/download/icarus-v0.1.0/icarus-0.1.0.zip",
+      "integrity": "sha512-dyzFOZTHWw/m4G1oUtV7XIsRnpGgbWGNszu7/XD7CcwgG3epCKt30YYvoCE8VZvIoMgUmg1mWsziK8XtCMx26A==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/icarus/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
       "name": "icefox",
       "id": "icefox",
       "version": "0.1.0",
@@ -36,6 +239,34 @@
       "download": "https://github.com/firekylin/themes/releases/download/icefox-v0.1.0/icefox-0.1.0.zip",
       "integrity": "sha512-HhJK9mTiFW0yzptGBYnI1054isSu2v7AnAYcqII7WQR/nhzP2mP62i+I0tWPcVNkFZH8ryrXAEVkWwzpJBMcdA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/icefox/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "@firekylin/theme-indigo",
+      "id": "indigo",
+      "version": "0.1.0",
+      "title": "indigo",
+      "description": "Indigo for Firekylin",
+      "download": "https://github.com/firekylin/themes/releases/download/indigo-v0.1.0/indigo-0.1.0.zip",
+      "integrity": "sha512-U+1ijaB29Z0iMjAEgIp1mCBY4Ba/pBNS9CXZNMD58N+4rijVtGwU8fVZl+rw9++maJKWIYAfV3UAS6dPDxmmaQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/indigo/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "initial",
+      "id": "initial",
+      "version": "0.1.0",
+      "title": "Initial",
+      "description": "Initial-inspired text-first reading layout, independently implemented for Firekylin.",
+      "download": "https://github.com/firekylin/themes/releases/download/initial-v0.1.0/initial-0.1.0.zip",
+      "integrity": "sha512-ztDi7w3aSwsIBGaHpuKXT2lWxVTx6k4V0MCLCfb3mq1LVn9JQmPS2duzG8Hkma4Z+b1D5F3Yok9mcv9BV4jGow==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/initial/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
       }
@@ -70,6 +301,67 @@
     },
     {
       "type": "theme",
+      "name": "firekylin-theme-kratos",
+      "id": "kratos",
+      "version": "0.1.0",
+      "title": "Kratos",
+      "description": "Kratos 4.3.4 article feed and profile sidebar",
+      "download": "https://github.com/firekylin/themes/releases/download/kratos-v0.1.0/kratos-0.1.0.zip",
+      "integrity": "sha512-WluMHOv3pq1bggvzzLKyCU1C4NtgG7DWSjxRe7tdZ2Rc5UWCdNrbYpdiNP4Nsrm8hkTLPNY5NFEFcmpzZPJvdw==",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "loveit",
+      "id": "loveit",
+      "version": "0.1.0",
+      "title": "loveit",
+      "description": "LoveIt profile, reading layout and interactions for Firekylin",
+      "download": "https://github.com/firekylin/themes/releases/download/loveit-v0.1.0/loveit-0.1.0.zip",
+      "integrity": "sha512-Y9Y20VpyGSGnZfpJNQANRP5DJg7RVMefj275twJfYhLxxiig8w2qFP4pTvGa35w6H3R6SfoPC42u9UNm7yMp/w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/loveit/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "@firekylin/theme-matcha",
+      "id": "matcha",
+      "version": "0.1.0",
+      "title": "Matcha",
+      "description": "Matcha Typecho theme port",
+      "download": "https://github.com/firekylin/themes/releases/download/matcha-v0.1.0/matcha-0.1.0.zip",
+      "integrity": "sha512-vDbRlLO+Qxq7krinC3Q33fjzKmqEOtopGqkxW6NK3BAAfSalOy1sdUo6QWi2Aa2/h3gDOnhxXhEljjY7+hz1GQ=="
+    },
+    {
+      "type": "theme",
+      "name": "@firekylin/theme-material",
+      "id": "material",
+      "version": "0.1.0",
+      "title": "Material",
+      "description": "Material Typecho theme port for Firekylin",
+      "download": "https://github.com/firekylin/themes/releases/download/material-v0.1.0/material-0.1.0.zip",
+      "integrity": "sha512-XPQY9PlLGg69O4fdhtghCvF8R4sfHLbq/rOyF1KWsWJ/2hgnsjAaaVtsIf8WqdDB6Dc0qpmEZYmYVqWQiGstYQ=="
+    },
+    {
+      "type": "theme",
+      "name": "@firekylin/theme-matery",
+      "id": "matery",
+      "version": "0.1.0",
+      "title": "matery",
+      "description": "Matery for Firekylin",
+      "download": "https://github.com/firekylin/themes/releases/download/matery-v0.1.0/matery-0.1.0.zip",
+      "integrity": "sha512-I6Ff8k1Xj+WgWkUDCBPxDUuLTKf5TOjZzxMih2Cl8S4J+EeUo9emxokiLWGmekc/luYT/0yg2WkEz999+JjsJg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/matery/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
       "name": "maupassant",
       "id": "maupassant",
       "version": "0.1.0",
@@ -84,6 +376,68 @@
     },
     {
       "type": "theme",
+      "name": "miracles",
+      "id": "miracles",
+      "version": "0.1.0",
+      "title": "Miracles",
+      "description": "Miracles banner and split-card reading layout for Firekylin.",
+      "download": "https://github.com/firekylin/themes/releases/download/miracles-v0.1.0/miracles-0.1.0.zip",
+      "integrity": "sha512-G04cLW1EyaxnIdtr7N4OgMupMLK926S879bQvqiU6Pg+jAS9+DiMtYHasPUPKzAo8EDaa7lkBkjLFT1uv2eljA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/miracles/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "@firekylin/theme-nexmoe",
+      "id": "nexmoe",
+      "version": "0.1.0",
+      "title": "Nexmoe",
+      "description": "Nexmoe Typecho theme port for Firekylin",
+      "download": "https://github.com/firekylin/themes/releases/download/nexmoe-v0.1.0/nexmoe-0.1.0.zip",
+      "integrity": "sha512-PEAk1hZGP3prfCB+YSj5QQLvM9+H2Qohlk/n9vkFtr9t97vn4bfdalJIWUmg+6tO3AIrQVIODboV8PlqSDisWQ=="
+    },
+    {
+      "type": "theme",
+      "name": "@firekylin/theme-next",
+      "id": "next",
+      "version": "0.1.0",
+      "title": "next",
+      "description": "Historical NexT 5.1.4 for Firekylin",
+      "download": "https://github.com/firekylin/themes/releases/download/next-v0.1.0/next-0.1.0.zip",
+      "integrity": "sha512-0zGKtAYEwRLFqWFQGSn4HDz5e4zXo7nupJoL+AUbTSZdC/XIk47NWOMXE6bPBIOWQw0kXzOKGGO6GWOrviEMSg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/next/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "papermod",
+      "id": "papermod",
+      "version": "0.1.0",
+      "title": "papermod",
+      "description": "PaperMod for Firekylin",
+      "download": "https://github.com/firekylin/themes/releases/download/papermod-v0.1.0/papermod-0.1.0.zip",
+      "integrity": "sha512-l40UTbEfjE7jONvZ1Bup/ezF7ilq7VTXkC3nDoUYoRnhjPMsriV0y8p2/+V9gJonySwc5dzOC3ppIvTdmn4Q6Q==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/papermod/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "@firekylin/theme-paul",
+      "id": "paul",
+      "version": "0.1.0",
+      "title": "Paul",
+      "description": "Paul Typecho theme port",
+      "download": "https://github.com/firekylin/themes/releases/download/paul-v0.1.0/paul-0.1.0.zip",
+      "integrity": "sha512-0ehbj9zWwRQA7TrSIpgfhlNXQm7Ow+s/sbAK0e3YBKR7/PeKM/zbwC22on6upAvhxEeWmx0KlqOYad6kfkTHcw=="
+    },
+    {
+      "type": "theme",
       "name": "pinghsu",
       "id": "pinghsu",
       "version": "0.1.0",
@@ -92,6 +446,88 @@
       "download": "https://github.com/firekylin/themes/releases/download/pinghsu-v0.1.0/pinghsu-0.1.0.zip",
       "integrity": "sha512-CrUfjmIcc49cPxllnuWSDXSyUxrL4me/V4w+qCArFxMTd9KeZ9KQltbUeLyD+6JpT3ladxdGKj3gEFgaEYvgLA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/pinghsu/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "firekylin-theme-puock",
+      "id": "puock",
+      "version": "0.1.0",
+      "title": "Puock",
+      "description": "Puock 2.11.0 blog list and card layouts",
+      "download": "https://github.com/firekylin/themes/releases/download/puock-v0.1.0/puock-0.1.0.zip",
+      "integrity": "sha512-w1i4sGMZ10DvxSkpICQTZ9s7tVotz+fVsMebIKJGuXgUdBiSIprvCoGItdVeu4Sa7y9XImIKuNmU08vQh6sk1g==",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "firekylin-theme-sakura",
+      "id": "sakura",
+      "version": "0.1.0",
+      "title": "Sakura",
+      "description": "Sakura 3.4.0 alternating image and text cards",
+      "download": "https://github.com/firekylin/themes/releases/download/sakura-v0.1.0/sakura-0.1.0.zip",
+      "integrity": "sha512-5lCoVJLlCRQzoufrxI0Sok7KpSUpojXy3DCBOf81bqdHLkfxXIKxIPahLDaWvLv+a4L8B8lRbKZ2hKV951QBdg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/sakura/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "firekylin-theme-sakurairo",
+      "id": "sakurairo",
+      "version": "0.1.0",
+      "title": "Sakurairo",
+      "description": "Sakurairo 3.1.0 cover cards and reading interface",
+      "download": "https://github.com/firekylin/themes/releases/download/sakurairo-v0.1.0/sakurairo-0.1.0.zip",
+      "integrity": "sha512-SfA6PM2aXmB6lYGtzK6DkPz5iHa0OVR4TOHvyvuqJaQEJWZa6tiVZNHxdFmT9GjjqmgqlLolaf40VQEufAmGQQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/sakurairo/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "single",
+      "id": "single",
+      "version": "0.1.0",
+      "title": "Single",
+      "description": "Minimal single-column writing layout with blue highlights and generous spacing.",
+      "download": "https://github.com/firekylin/themes/releases/download/single-v0.1.0/single-0.1.0.zip",
+      "integrity": "sha512-ktMX4zChGch8s8eClROCN4tlklVXemAV9RJyryyHhe94sk4yFVt3TprFpFo+pPtcg9uThLMb/epq4pRvODbgBA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/single/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "stack",
+      "id": "stack",
+      "version": "0.1.0",
+      "title": "stack",
+      "description": "Stack card and sidebar theme for Firekylin",
+      "download": "https://github.com/firekylin/themes/releases/download/stack-v0.1.0/stack-0.1.0.zip",
+      "integrity": "sha512-k0iOudZ1G15+ZCxQl4U1sP0LzTQQhj3XHFgP/w0sw27Rbt5kEAfl1C6zQ3IUgSPodNcn0CPDOvhOE0abSOeMuw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/stack/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "firekylin-theme-svbtle",
+      "id": "svbtle",
+      "version": "0.1.0",
+      "title": "WP-Svbtle",
+      "description": "WP-Svbtle fixed author rail and full-content reading stream",
+      "download": "https://github.com/firekylin/themes/releases/download/svbtle-v0.1.0/svbtle-0.1.0.zip",
+      "integrity": "sha512-eifbJIuufQLF2rPTep2kCR1HPLGd6UKCvmOmErD8OYccStlNtZwEhXE5o8YpVKYmYDcOsFyCzL/1o9qdC+XPSA==",
       "engines": {
         "firekylin": ">=2.16.0"
       }
