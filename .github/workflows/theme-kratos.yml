@@ -1,13 +1,14 @@
 name: Theme kratos
 on:
   push:
-    paths: ['packages/kratos/**', 'validation/suites/kratos/**', '.github/workflows/theme-kratos.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/kratos/**', 'validation/suites/kratos/**', '.github/workflows/theme-kratos.yml']
   pull_request:
-    paths: ['packages/kratos/**', 'validation/suites/kratos/**', '.github/workflows/theme-kratos.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/kratos/**', 'validation/suites/kratos/**', '.github/workflows/theme-kratos.yml']
 permissions:
   contents: read
 jobs:
   test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/wordpress-kratos' || github.ref == 'refs/heads/feat/wordpress-kratos'
     runs-on: ubuntu-latest
     defaults:
       run:
