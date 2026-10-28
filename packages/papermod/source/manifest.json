@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/adityatelange/hugo-PaperMod",
+  "commit": "118119693d8b5ac211b939775678310973bcb232",
+  "license": "MIT",
+  "css": [
+    "core/license.css",
+    "core/reset.css",
+    "core/theme-vars.css",
+    "common/main.css",
+    "common/header.css",
+    "common/footer.css",
+    "common/post-entry.css",
+    "common/post-single.css",
+    "common/md-content.css",
+    "common/archive.css",
+    "common/terms.css",
+    "common/profile-mode.css",
+    "common/search.css",
+    "common/404.css",
+    "core/zmedia.css"
+  ]
+}

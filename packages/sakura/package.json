@@ -1,0 +1,88 @@
+{
+  "name": "firekylin-theme-sakura",
+  "private": true,
+  "version": "0.1.0",
+  "license": "GPL-2.0-or-later",
+  "title": "Sakura",
+  "description": "Sakura 3.4.0 alternating image and text cards",
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "sakura"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "heroText",
+      "label": "封面介绍",
+      "help": "留空使用站点描述"
+    },
+    {
+      "type": "text",
+      "name": "coverImage",
+      "label": "封面图片",
+      "help": "您有权使用的 HTTP(S) 或站内 URL"
+    },
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "个人头像",
+      "help": "您有权使用的图片 URL"
+    },
+    {
+      "type": "text",
+      "name": "defaultThumbnail",
+      "label": "默认文章封面",
+      "help": "文章没有特色图片时使用"
+    },
+    {
+      "type": "text",
+      "name": "announcement",
+      "label": "公告",
+      "help": "纯文本"
+    },
+    {
+      "type": "text",
+      "name": "postAreaTitle",
+      "label": "文章区标题",
+      "help": "默认：文章列表"
+    },
+    {
+      "type": "text",
+      "name": "colorMode",
+      "label": "颜色模式",
+      "help": "auto、light、dark"
+    },
+    {
+      "type": "text",
+      "name": "readingFont",
+      "label": "阅读字体",
+      "help": "sans（默认）或 serif"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "主题来源链接仍保留"
+    },
+    {
+      "type": "color",
+      "name": "accentColor",
+      "label": "强调色"
+    },
+    {
+      "type": "text",
+      "name": "heroTitle",
+      "label": "封面标题",
+      "help": "留空使用站点标题"
+    },
+    {
+      "type": "text",
+      "name": "contentLicense",
+      "label": "文章许可说明",
+      "help": "仅填写您有权对内容作出的许可声明，默认不声明"
+    }
+  ]
+}

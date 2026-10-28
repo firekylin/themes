@@ -1,0 +1,18 @@
+<% const site = await firekylin.widget('Widget_Options'); %>
+<!doctype html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title><%~ block('title') %></title>
+<meta name="description" content="<%= site.description() %>">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.html">
+<link rel="stylesheet" href="<%= site.themeUrl('res/css/upstream.css') %>">
+<link rel="stylesheet" href="<%= site.themeUrl('res/css/firekylin.css') %>">
+<%~ block('headers') %>
+</head><body><a class="skip-link" href="#main">跳转到正文</a><header id="header" class="clearfix"><div class="container"><div class="site-name"><a id="logo" href="/"><%= site.title() %></a><p class="description"><%= site.description() %></p></div><div id="nav-menu"><nav aria-label="主导航"> <% site.navigation.forEach(nav => { %><a href="<%= nav.url %>"><%= nav.label %></a><% }) %><a href="/search.html">搜索</a></nav></div></div></header>
+<div id="body"><div class="container"><div class="col-group clearfix"><main id="main" class="col-8"><div class="res-cons"><%~ block('content') %></div></main>
+<aside id="secondary" aria-label="侧栏"><section class="widget"><h2 class="widget-title"><%= site.themeConfig.sidebarTitle || '最新文章' %></h2><ul class="widget-list">
+<% const recent = await firekylin.widget('Widget_Contents_Post_Recent', {pageSize:5}); while(recent.next()) { %><li><a href="<%= recent.permalink %>"><%= recent.title() %></a></li><% } %>
+</ul></section><section class="widget"><h2 class="widget-title">浏览</h2><ul class="widget-list"><li><a href="/categories">分类</a></li><li><a href="/tags">标签</a></li><li><a href="/archives">归档</a></li><li><a href="/search.html">搜索</a></li></ul></section></aside>
+</div></div></div><footer class="fk-footer"><p><%= site.themeConfig.footerText || site.title() %></p>
+<p>Powered by <a href="https://github.com/firekylin/firekylin">Firekylin</a> · <a href="https://github.com/pagecho/maupassant">Maupassant</a> by cho · <a href="/rss.html">RSS</a></p></footer>
+</body></html>
