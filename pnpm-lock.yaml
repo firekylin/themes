@@ -59,6 +59,8 @@ importers:
 
   packages/joe: {}
 
+  packages/kratos: {}
+
   packages/material: {}
 
   packages/maupassant: {}
