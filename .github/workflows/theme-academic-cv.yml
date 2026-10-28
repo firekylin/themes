@@ -1,9 +1,9 @@
 name: Theme academic-cv
 on:
   push:
-    paths: ['packages/academic-cv/**', 'validation/suites/academic-cv/**', '.github/workflows/theme-academic-cv.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/academic-cv/**', 'validation/suites/academic-cv/**', '.github/workflows/theme-academic-cv.yml']
   pull_request:
-    paths: ['packages/academic-cv/**', 'validation/suites/academic-cv/**', '.github/workflows/theme-academic-cv.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/academic-cv/**', 'validation/suites/academic-cv/**', '.github/workflows/theme-academic-cv.yml']
 permissions:
   contents: read
 jobs:

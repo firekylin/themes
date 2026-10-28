@@ -1,9 +1,9 @@
 name: Theme cuckoo
 on:
   push:
-    paths: ['packages/cuckoo/**', 'validation/suites/cuckoo/**', '.github/workflows/theme-cuckoo.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/cuckoo/**', 'validation/suites/cuckoo/**', '.github/workflows/theme-cuckoo.yml']
   pull_request:
-    paths: ['packages/cuckoo/**', 'validation/suites/cuckoo/**', '.github/workflows/theme-cuckoo.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/cuckoo/**', 'validation/suites/cuckoo/**', '.github/workflows/theme-cuckoo.yml']
 permissions:
   contents: read
 jobs:

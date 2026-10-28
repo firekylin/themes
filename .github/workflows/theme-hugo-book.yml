@@ -1,9 +1,9 @@
 name: Theme hugo-book
 on:
   push:
-    paths: ['packages/hugo-book/**', 'validation/suites/hugo-book/**', '.github/workflows/theme-hugo-book.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/hugo-book/**', 'validation/suites/hugo-book/**', '.github/workflows/theme-hugo-book.yml']
   pull_request:
-    paths: ['packages/hugo-book/**', 'validation/suites/hugo-book/**', '.github/workflows/theme-hugo-book.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/hugo-book/**', 'validation/suites/hugo-book/**', '.github/workflows/theme-hugo-book.yml']
 permissions:
   contents: read
 jobs:

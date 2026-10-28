@@ -1,9 +1,9 @@
 name: Theme kratos
 on:
   push:
-    paths: ['packages/kratos/**', 'validation/suites/kratos/**', '.github/workflows/theme-kratos.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/kratos/**', 'validation/suites/kratos/**', '.github/workflows/theme-kratos.yml']
   pull_request:
-    paths: ['packages/kratos/**', 'validation/suites/kratos/**', '.github/workflows/theme-kratos.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/kratos/**', 'validation/suites/kratos/**', '.github/workflows/theme-kratos.yml']
 permissions:
   contents: read
 jobs:
