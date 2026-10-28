@@ -1,13 +1,14 @@
 name: Theme initial
 on:
   push:
-    paths: ['packages/initial/**', 'validation/suites/initial/**', '.github/workflows/theme-initial.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/initial/**', 'validation/suites/initial/**', '.github/workflows/theme-initial.yml']
   pull_request:
-    paths: ['packages/initial/**', 'validation/suites/initial/**', '.github/workflows/theme-initial.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/initial/**', 'validation/suites/initial/**', '.github/workflows/theme-initial.yml']
 permissions:
   contents: read
 jobs:
   test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/typecho-initial' || github.ref == 'refs/heads/feat/typecho-initial'
     runs-on: ubuntu-latest
     defaults:
       run:

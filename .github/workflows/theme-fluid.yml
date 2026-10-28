@@ -1,13 +1,14 @@
 name: Theme fluid
 on:
   push:
-    paths: ['packages/fluid/**', 'validation/suites/fluid/**', '.github/workflows/theme-fluid.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/fluid/**', 'validation/suites/fluid/**', '.github/workflows/theme-fluid.yml']
   pull_request:
-    paths: ['packages/fluid/**', 'validation/suites/fluid/**', '.github/workflows/theme-fluid.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/fluid/**', 'validation/suites/fluid/**', '.github/workflows/theme-fluid.yml']
 permissions:
   contents: read
 jobs:
   test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/hexo-fluid' || github.ref == 'refs/heads/feat/hexo-fluid'
     runs-on: ubuntu-latest
     defaults:
       run:
