@@ -1,0 +1,44 @@
+name: Publish theme releases
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: theme-releases
+  cancel-in-progress: false
+jobs:
+  release:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test
+      - run: python3 -m unittest discover -s test -p "test_*.py"
+      - name: Build changed themes and publish releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          export GITHUB_SHA="$(git rev-parse HEAD)"
+          python3 scripts/build-registry.py
+      - name: Commit registry after successful releases
+        run: |
+          git add registry.json .github/theme-state.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'chore: update theme registry'
+            git push origin HEAD:main
+          fi
