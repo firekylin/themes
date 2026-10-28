@@ -1,0 +1,48 @@
+{
+  "name": "bubble",
+  "title": "Bubble",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Argon-inspired purple hero, rounded white cards and a responsive card grid.",
+  "license": "MIT",
+  "author": "trinitrotofu",
+  "homepage": "https://github.com/trinitrotofu/Bubble",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/bubble"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "bubble"
+  },
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "纯文本，不支持 HTML。"
+    },
+    {
+      "type": "text",
+      "name": "heroText",
+      "label": "站点简介",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "color",
+      "name": "accentColor",
+      "label": "强调色",
+      "help": "支持 #RGB 或 #RRGGBB。"
+    },
+    {
+      "type": "text",
+      "name": "colorMode",
+      "label": "配色模式",
+      "help": "填写 dark 启用深色；留空为浅色。"
+    }
+  ]
+}
