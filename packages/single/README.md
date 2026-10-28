@@ -12,7 +12,7 @@ and third-party resource audit. Original license/attribution materials are retai
 Copy this directory into `themes/single` (independent project) or
 `www/theme/single` (legacy/core installation), then select it in Appearance.
 Requires Firekylin >=2.16.0 with Eta/Widgets; verified against core `99bbdcb`.
-No PHP, npm install, compilation or theme JavaScript is required at runtime.
+No PHP, npm install or compilation is needed. A local script persists the visitor color preference; menu disclosure works without JavaScript.
 
 ## Supported
 
@@ -31,7 +31,7 @@ Navigation stays available without JavaScript. Mobile layouts collapse sidebars.
 ## Differences from Typecho
 
 This is a first Firekylin adaptation of the reading layout, not a PHP compatibility
-layer. Unsupported upstream features: original JavaScript menu/search/night toggle, custom social HTML and Typecho shortcodes; server-configured dark colors replace the toggle.
+layer. Unsupported upstream features: Typecho shortcodes, custom raw social HTML, timed night-mode scheduling, copy notices and admin edit links. Search uses the native search page; the menu and persistent night toggle are implemented.
 Search uses Firekylin `keyword`; comments use native Waline instead of Typecho
 comment forms. No analytics, paid feature, external update request, advertising
 or credential-dependent integration is enabled by the theme.
@@ -51,3 +51,10 @@ Selection exclusions: Pinghsu/Maupassant were already ported; Clarity is reserve
 for the user. Miracles has additional custom-license restrictions, initial has no
 explicit license, and Akina's referenced earlier WordPress source could not be
 resolved for license-chain verification. They are not included in this batch.
+
+Source-specific settings: `background` adds a faint full-screen background image;
+`author_text` adds an escaped author introduction under article content. Homepage
+uses the source centered title and title/excerpt/date sequence; article pages omit
+the homepage introduction and use separate title/content/author sections. Native
+details replaces the original JavaScript menu. Categories/comment counts display
+only when the core archive provides them. See VISUAL-COMPARISON.md.

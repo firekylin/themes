@@ -43,6 +43,18 @@
       "name": "colorMode",
       "label": "配色模式",
       "help": "填写 dark 启用深色；留空为浅色。"
+    },
+    {
+      "type": "text",
+      "name": "background",
+      "label": "背景图片",
+      "help": "HTTP(S) 或站内绝对路径。"
+    },
+    {
+      "type": "text",
+      "name": "author_text",
+      "label": "作者介绍",
+      "help": "文章底部显示纯文本作者介绍。"
     }
   ]
 }
