@@ -1,0 +1,69 @@
+<% const s=firekylin.site,p=firekylin.profile,safe=firekylin.safe;const education=Array.isArray(p.education)?p.education.filter(x=>x&&typeof x==='object').slice(0,12):[];const interests=Array.isArray(p.interests)?p.interests.map(String).slice(0,30):[]; %>
+<section id="section-resume-biography-3" class="relative isolate overflow-hidden hbb-section blox-_  ">
+    <div class="absolute inset-0 -z-10"><div class="absolute inset-0 bg-gradient-to-br from-primary-500/20 via-transparent to-secondary-500/20"></div><div class="absolute top-0 left-1/4 w-96 h-96 bg-primary-500/20 rounded-full filter blur-3xl animate-pulse"></div><div class="absolute bottom-0 right-1/4 w-96 h-96 bg-secondary-500/20 rounded-full filter blur-3xl animate-pulse" style="animation-delay: 2s;"></div></div>
+    <div class="home-section-bg ">
+    </div>
+<div class="resume-biography py-8 px-4 sm:py-12 md:py-16 lg:py-24 xl:py-32 relative overflow-hidden">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 items-start">
+      <div class="md:col-span-4 flex flex-col items-center text-center space-y-6 md:space-y-8">
+        <% if(safe(p.avatarUrl)){const size=({small:150,medium:200,large:320,xl:400,xxl:500})[p.avatarSize]||200;const shape=({circle:'50%',square:'0',rounded:'12px'})[p.avatarShape]||'50%'; %><div class="avatar-wrapper mb-4" style="width:<%= size %>px;height:<%= size %>px"><img class="avatar border-4 border-white shadow-2xl" src="<%= safe(p.avatarUrl) %>" alt="<%= p.name||s.title() %>" width="<%= size %>" height="<%= size %>" style="width:<%= size %>px;height:<%= size %>px;border-radius:<%= shape %>;object-fit:cover"><% if(p.emoji){ %><span class="avatar-emoji"><%= p.emoji %></span><% } %></div><% } %>
+        <div class="space-y-3">
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-gray-900 dark:text-white leading-tight"><%= p.name||s.title() %></h1>
+            <p class="text-2xl font-semibold text-primary-600 dark:text-primary-400"><%= p.role||"" %></p>
+              <p class="text-lg text-gray-700 dark:text-gray-300"><%= p.affiliation||"" %></p>
+        </div>
+      <% if(Array.isArray(p.links)){ %><div class="flex flex-wrap justify-center gap-4"><% for(const link of p.links.slice(0,12)){if(link && safe(link.url)){ %><a class="academic-profile-link" href="<%= safe(link.url) %>" aria-label="<%= link.label||link.url %>"><%= link.label||'Link' %></a><% }} %></div><% } %></div>
+      <div class="md:col-span-8">
+        <div class="mb-12">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="flex-shrink-0 w-12 h-12 bg-primary-100 dark:bg-primary-900/50 rounded-full flex items-center justify-center">
+              <svg class="w-6 h-6 text-primary-600 dark:text-primary-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5m6-10.125a1.875 1.875 0 1 1-3.75 0a1.875 1.875 0 0 1 3.75 0m1.294 6.336a6.7 6.7 0 0 1-3.17.789a6.7 6.7 0 0 1-3.168-.789a3.376 3.376 0 0 1 6.338 0"></path></svg>
+            </div>
+            <h2 class="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white tracking-tight">Professional Summary</h2>
+          </div>
+          <div class="prose prose-lg dark:prose-invert text-gray-800 dark:text-gray-200 text-base sm:text-lg leading-relaxed">
+            <div class="bio-text"><p><%= p.bio||s.description() %></p></div>
+          </div>
+        </div>
+            <% if(safe(p.cvUrl)){ %><div class="mb-16">
+              <a href="<%= safe(p.cvUrl) %>" target="_blank" rel="noopener" class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-primary-600 to-secondary-600 hover:from-primary-700 hover:to-secondary-700 text-white font-bold text-lg rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+                <svg class="w-5 h-5 mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m.75 12l3 3m0 0l3-3m-3 3v-6m-1.5-9H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"></path></svg> <%= p.cvLabel||"Download CV" %></a>
+            </div><% } %>
+        <% if(education.length){ %><div class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="flex-shrink-0 w-12 h-12 bg-primary-100 dark:bg-primary-900/50 rounded-full flex items-center justify-center">
+              <svg class="w-6 h-6 text-primary-600 dark:text-primary-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60 60 0 0 0-.491 6.347A48.6 48.6 0 0 1 12 20.904a48.6 48.6 0 0 1 8.232-4.41a61 61 0 0 0-.491-6.347m-15.482 0a51 51 0 0 0-2.658-.813A60 60 0 0 1 12 3.493a60 60 0 0 1 10.399 5.84q-1.345.372-2.658.814m-15.482 0A51 51 0 0 1 12 13.489a50.7 50.7 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55 55 0 0 1 12 8.443m-7.007 11.55A5.98 5.98 0 0 0 6.75 15.75v-1.5"></path></svg>
+            </div>
+            <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white tracking-tight">Education</h3>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6"><% for(const ed of education){ %><div class="group h-full flex flex-col bg-gradient-to-br from-white/90 to-primary-50/30 dark:from-gray-800/90 dark:to-primary-900/20 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 border border-transparent hover:border-primary-200 dark:hover:border-primary-800 backdrop-blur-md">
+              <div class="flex gap-4">
+                <div class="flex-shrink-0 w-12 h-12 bg-white dark:bg-gray-800 ring-1 ring-gray-200 dark:ring-gray-700 rounded-full flex items-center justify-center shadow-md">
+                    <svg class="w-6 h-6 text-primary-600 dark:text-primary-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60 60 0 0 0-.491 6.347A48.6 48.6 0 0 1 12 20.904a48.6 48.6 0 0 1 8.232-4.41a61 61 0 0 0-.491-6.347m-15.482 0a51 51 0 0 0-2.658-.813A60 60 0 0 1 12 3.493a60 60 0 0 1 10.399 5.84q-1.345.372-2.658.814m-15.482 0A51 51 0 0 1 12 13.489a50.7 50.7 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55 55 0 0 1 12 8.443m-7.007 11.55A5.98 5.98 0 0 0 6.75 15.75v-1.5"></path></svg>
+                </div>
+                <div class="flex-1 flex-grow">
+                  <p class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors"><%= ed.degree||"" %></p>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm mt-2"><%= ed.year||[ed.start,ed.end].filter(Boolean).join(" – ") %></p>
+                    <p class="text-gray-700 dark:text-gray-300 text-base"><%= ed.institution||"" %></p>
+                </div>
+              </div>
+            </div><% } %></div>
+        </div><% } %>
+        <% if(interests.length){ %><div>
+          <div class="flex items-center gap-4 mb-8">
+            <div class="flex-shrink-0 w-12 h-12 bg-primary-100 dark:bg-primary-900/50 rounded-full flex items-center justify-center">
+              <svg class="w-6 h-6 text-primary-600 dark:text-primary-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09m8.445-7.188L18 9.75l-.259-1.035a3.38 3.38 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.38 3.38 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.38 3.38 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.38 3.38 0 0 0-2.456 2.456m-1.365 11.852L16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183l.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394l-1.183.394a2.25 2.25 0 0 0-1.423 1.423"></path></svg>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 dark:text-white tracking-tight">Interests</h3>
+          </div>
+          <div class="flex flex-wrap gap-3"><% for(const interest of interests){ %><span class="inline-block bg-primary-50 dark:bg-gray-800 text-primary-800 dark:text-primary-200 text-base font-medium px-4 py-2 rounded-full border border-primary-200/50 dark:border-primary-800/50
+                           hover:bg-primary-100
+                           dark:hover:bg-primary-500 dark:hover:text-gray-900 dark:hover:border-primary-500
+                           transition-all duration-200 cursor-default"><%= interest %></span><% } %></div>
+        </div><% } %>
+      </div>
+    </div>
+  </div>
+</div>
+  </section>

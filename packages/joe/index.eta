@@ -1,0 +1,12 @@
+<% /* Firekylin adaptation, modified 2026-10-28; see NOTICE.md and LICENSE. */ %>
+<% layout('./layout'); const site = await firekylin.widget('Widget_Options'); const archive = await firekylin.widget('Widget_Archive', {type:'index'}); const heading = archive.archiveTitle || (archive.is('author') ? '作者文章' : ''); %>
+<% block('title', () => { %><%= heading ? heading + ' - ' : '' %><%= site.title() %><% }) %>
+<% block('content', () => { %>
+<% if (heading) { %><h1 class="fk-title"><%= heading %></h1><% } %>
+
+<% if (archive.archiveDescription) { %><p><%= archive.archiveDescription %></p><% } %>
+<% if(!heading && archive.is('index')) { const safe=value=>/^(https?:\/\/|\/(?!\/))[^\s<>\x22\x27]*$/i.test(value||'');const slides=String(site.themeConfig?.carousel||'').split(/\r?\n/).map(line=>line.split('||').map(x=>x.trim())).filter(parts=>parts.length===3&&safe(parts[0])&&safe(parts[1]));if(slides.length) { %><section class="joe-banner" aria-label="精选推荐"><div class="joe-slides"><% for(const [image,url,title] of slides) { %><a class="joe-slide" href="<%= url %>"><img src="<%= image %>" alt=""><span><%= title %></span></a><% } %></div><div class="joe-slide-controls" hidden><button type="button" data-direction="-1" aria-label="上一张推荐">←</button><button type="button" data-direction="1" aria-label="下一张推荐">→</button></div></section><% } %><div class="joe-list-heading"><strong>最新文章</strong><% if(site.themeConfig?.notice) { %><span><%= site.themeConfig.notice %></span><% } %></div><% } %>
+<%~ include('./inc/list', {archive}) %>
+<% if (!archive.have()) { %><p class="fk-empty">暂无文章。</p><% } %>
+<%~ include('./inc/pagination', {archive}) %>
+<% }) %>

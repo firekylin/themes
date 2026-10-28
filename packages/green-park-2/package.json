@@ -1,0 +1,65 @@
+{
+  "name": "firekylin-theme-green-park-2",
+  "private": true,
+  "version": "0.1.0",
+  "title": "Cordobo Green Park 2",
+  "description": "Green Park 2 full-content blog and split sidebar",
+  "license": "GPL-2.0-or-later",
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "green-park-2"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "feedStyle",
+      "label": "首页文章",
+      "help": "full（默认）或 excerpt"
+    },
+    {
+      "type": "text",
+      "name": "sidebarColumns",
+      "label": "侧栏分组列数",
+      "help": "2（默认）或 1"
+    },
+    {
+      "type": "text",
+      "name": "hideSidebar",
+      "label": "隐藏侧栏",
+      "help": "true 或 false（默认）"
+    },
+    {
+      "type": "text",
+      "name": "aboutTitle",
+      "label": "关于标题",
+      "help": "默认：关于"
+    },
+    {
+      "type": "text",
+      "name": "aboutText",
+      "label": "关于介绍",
+      "help": "默认站点介绍"
+    },
+    {
+      "type": "text",
+      "name": "heroText",
+      "label": "站点副标题",
+      "help": "默认站点介绍"
+    },
+    {
+      "type": "text",
+      "name": "colorMode",
+      "label": "配色模式（新增）",
+      "help": "light（默认）、dark、auto"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "保留 Cordobo 作者及来源链接"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "name": "@firekylin/theme-cactus",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cactus for Firekylin",
+  "license": "MIT",
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "firekylin": {
+    "id": "cactus",
+    "type": "theme"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "colorscheme",
+      "label": "Color scheme: dark, light, classic, white"
+    },
+    {
+      "type": "text",
+      "name": "pageWidth",
+      "label": "Maximum width (rem; default 48)"
+    },
+    {
+      "type": "text",
+      "name": "direction",
+      "label": "Text direction: ltr or rtl"
+    },
+    {
+      "type": "text",
+      "name": "logoUrl",
+      "label": "Logo image URL (blank hides logo)"
+    },
+    {
+      "type": "text",
+      "name": "postCount",
+      "label": "Homepage recent posts (default 5)"
+    },
+    {
+      "type": "text",
+      "name": "tagsOverview",
+      "label": "Show homepage topics: true"
+    },
+    {
+      "type": "text",
+      "name": "projects",
+      "label": "Projects JSON: [{\"name\":\"\",\"url\":\"\",\"desc\":\"\"}]"
+    },
+    {
+      "type": "text",
+      "name": "socialLinks",
+      "label": "Social JSON: [{\"label\":\"\",\"url\":\"\"}]"
+    },
+    {
+      "type": "text",
+      "name": "showUpdated",
+      "label": "Show update date: true"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "Footer text"
+    },
+    {
+      "type": "text",
+      "name": "showAllPosts",
+      "label": "Homepage uses paginated archive: true"
+    }
+  ]
+}

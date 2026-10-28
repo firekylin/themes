@@ -1,0 +1,81 @@
+{
+  "name": "@firekylin/theme-fluid",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fluid for Firekylin",
+  "license": "GPL-3.0-or-later",
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "firekylin": {
+    "id": "fluid",
+    "type": "theme"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "bannerUrl",
+      "label": "Homepage banner URL"
+    },
+    {
+      "type": "text",
+      "name": "postBannerUrl",
+      "label": "Article banner URL"
+    },
+    {
+      "type": "text",
+      "name": "defaultThumbnail",
+      "label": "Default article thumbnail URL"
+    },
+    {
+      "type": "text",
+      "name": "slogan",
+      "label": "Homepage banner slogan"
+    },
+    {
+      "type": "text",
+      "name": "homeBannerHeight",
+      "label": "Homepage banner height (vh, default 100)"
+    },
+    {
+      "type": "text",
+      "name": "postBannerHeight",
+      "label": "Article banner height (vh, default 70)"
+    },
+    {
+      "type": "text",
+      "name": "bannerMask",
+      "label": "Banner mask opacity (0\u20131)"
+    },
+    {
+      "type": "text",
+      "name": "colorMode",
+      "label": "Color mode: auto, light or dark"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "Footer text"
+    },
+    {
+      "type": "text",
+      "name": "showUpdated",
+      "label": "Show article update date: true"
+    },
+    {
+      "type": "text",
+      "name": "showToc",
+      "label": "Show article table of contents: true (default)"
+    },
+    {
+      "type": "text",
+      "name": "showCopyright",
+      "label": "Show article attribution box: true"
+    },
+    {
+      "type": "text",
+      "name": "links",
+      "label": "Links page JSON [{\"name\":\"\",\"url\":\"\",\"desc\":\"\"}]"
+    }
+  ]
+}
