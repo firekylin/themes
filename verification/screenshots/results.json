@@ -1,0 +1,202 @@
+{
+  "browserVersion": "154.0.8037.57",
+  "coreVersion": "2.16.0",
+  "coreRevision": "a200d5887c702acb7c264776d9827f54e8389f09",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "fixture": "Seeded disposable SQLite site; original local SVG illustrations; no mocked Widgets or HTML overrides.",
+  "themes": [
+    {
+      "theme": "aquila",
+      "settings": {
+        "colorMode": "light"
+      },
+      "width": 1440,
+      "height": 1000,
+      "sha256": "1b00bb4b176289a63190c0ae7cbd1c4f719ddc2106d7ea3425c79e85caf80170",
+      "previewUrl": "/themes/aquila/screenshot.png",
+      "homeStatus": 200,
+      "postStatus": 200,
+      "mobileStatus": 200,
+      "browserErrors": []
+    },
+    {
+      "theme": "diaspora",
+      "settings": {
+        "colorMode": "light",
+        "coverImage": "/uploads/preview/mountains.svg"
+      },
+      "width": 1440,
+      "height": 1000,
+      "sha256": "a36f6f45fc1ced965ec65cfbffa2368dfd6af483904e026c8ba3bc74ae06212b",
+      "previewUrl": "/themes/diaspora/screenshot.png",
+      "homeStatus": 200,
+      "postStatus": 200,
+      "mobileStatus": 200,
+      "browserErrors": []
+    },
+    {
+      "theme": "g",
+      "settings": {
+        "articleStyle": "0",
+        "profileAvatar": "/uploads/preview/avatar.svg",
+        "profileBG": "/uploads/preview/forest.svg",
+        "profileDes": "记录设计、代码与日常的片刻。",
+        "autoNightMode": "0"
+      },
+      "width": 1440,
+      "height": 1000,
+      "sha256": "d771e898a5f3aaf7c68fd8883e575e4130b337298083d2f720eb27744080a9f6",
+      "previewUrl": "/themes/g/screenshot.png",
+      "homeStatus": 200,
+      "postStatus": 200,
+      "mobileStatus": 200,
+      "browserErrors": []
+    },
+    {
+      "theme": "green-park-2",
+      "settings": {
+        "colorMode": "light",
+        "feedStyle": "excerpt"
+      },
+      "width": 1440,
+      "height": 1000,
+      "sha256": "73fb16c59c563891c40a04bb96cddcf6daa513a044a91c004e8d47aa8001c8c7",
+      "previewUrl": "/themes/green-park-2/screenshot.png",
+      "homeStatus": 200,
+      "postStatus": 200,
+      "mobileStatus": 200,
+      "browserErrors": []
+    },
+    {
+      "theme": "kratos",
+      "settings": {
+        "colorMode": "light",
+        "coverImage": "/uploads/preview/mountains.svg",
+        "avatarUrl": "/uploads/preview/avatar.svg",
+        "profileCover": "/uploads/preview/forest.svg",
+        "profileName": "林间来信"
+      },
+      "width": 1440,
+      "height": 1000,
+      "sha256": "c2f19dd4078d8fe9aaa203d6d690d0e494f586e4739cdfdbe84f462bde27e2ff",
+      "previewUrl": "/themes/kratos/screenshot.png",
+      "homeStatus": 200,
+      "postStatus": 200,
+      "mobileStatus": 200,
+      "browserErrors": []
+    },
+    {
+      "theme": "matcha",
+      "settings": {
+        "DarkMode": "no"
+      },
+      "width": 1440,
+      "height": 1000,
+      "sha256": "1df1c1295804efe7077f8d3c3bc02fc27c9f18abe0948184168589484e6c40cb",
+      "previewUrl": "/themes/matcha/screenshot.png",
+      "homeStatus": 200,
+      "postStatus": 200,
+      "mobileStatus": 200,
+      "browserErrors": []
+    },
+    {
+      "theme": "material",
+      "settings": {
+        "dailypic": "/uploads/preview/mountains.svg",
+        "avatarURL": "/uploads/preview/avatar.svg",
+        "slogan": "把生活写成一封长信",
+        "langis": "1"
+      },
+      "width": 1440,
+      "height": 1000,
+      "sha256": "d864d6113d862fc881ef859530bbd7f5c56118dc67211cf48016251d29aadf8c",
+      "previewUrl": "/themes/material/screenshot.png",
+      "homeStatus": 200,
+      "postStatus": 200,
+      "mobileStatus": 200,
+      "browserErrors": []
+    },
+    {
+      "theme": "nexmoe",
+      "settings": {
+        "logoUrl": "/uploads/preview/avatar.svg",
+        "background": "/uploads/preview/mountains.svg"
+      },
+      "width": 1440,
+      "height": 1000,
+      "sha256": "d466fd66dd57876b159e3f6f1456f1fce62a50b1d0f1a20d77bfbab39d977e95",
+      "previewUrl": "/themes/nexmoe/screenshot.png",
+      "homeStatus": 200,
+      "postStatus": 200,
+      "mobileStatus": 200,
+      "browserErrors": []
+    },
+    {
+      "theme": "oneblog",
+      "settings": {
+        "AutoNightMode": "off"
+      },
+      "width": 1440,
+      "height": 1000,
+      "sha256": "82d42148e508f59b9a1ef914177834684bbb957d9deda2e0f0162d5c9d322873",
+      "previewUrl": "/themes/oneblog/screenshot.png",
+      "homeStatus": 200,
+      "postStatus": 200,
+      "mobileStatus": 200,
+      "browserErrors": []
+    },
+    {
+      "theme": "paul",
+      "settings": {
+        "avatar": "/uploads/preview/avatar.svg",
+        "profileName": "林间来信",
+        "quotes": "保持好奇，慢慢记录。\n在日常里发现新的风景。",
+        "projects": "[{\"title\":\"山间笔记\",\"url\":\"/page/about.html\",\"description\":\"关于阅读、设计与行走的记录。\"}]"
+      },
+      "width": 1440,
+      "height": 1000,
+      "sha256": "33131154ca1cf0655f3fae1b3466df674b07e001d32caa88bed8e76e1788797b",
+      "previewUrl": "/themes/paul/screenshot.png",
+      "homeStatus": 200,
+      "postStatus": 200,
+      "mobileStatus": 200,
+      "browserErrors": []
+    },
+    {
+      "theme": "puock",
+      "settings": {
+        "colorMode": "light",
+        "avatarUrl": "/uploads/preview/avatar.svg",
+        "profileCover": "/uploads/preview/forest.svg",
+        "profileName": "林间来信"
+      },
+      "width": 1440,
+      "height": 1000,
+      "sha256": "4b0107590d4a168ba16c935778c72f3086d21834ad2f9bc9715973dd2cf8cc74",
+      "previewUrl": "/themes/puock/screenshot.png",
+      "homeStatus": 200,
+      "postStatus": 200,
+      "mobileStatus": 200,
+      "browserErrors": []
+    },
+    {
+      "theme": "svbtle",
+      "settings": {
+        "colorMode": "light",
+        "feedStyle": "excerpt",
+        "username": "设计 · 代码 · 生活"
+      },
+      "width": 1440,
+      "height": 1000,
+      "sha256": "2e35f15c5bf85a09be44f5d4b7cc495b96bfb95d0277e6d953bcfb12ea935113",
+      "previewUrl": "/themes/svbtle/screenshot.png",
+      "homeStatus": 200,
+      "postStatus": 200,
+      "mobileStatus": 200,
+      "browserErrors": []
+    }
+  ]
+}

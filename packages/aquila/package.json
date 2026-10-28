@@ -1,7 +1,7 @@
 {
   "name": "firekylin-theme-aquila",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "title": "Aquila",
   "description": "Aquila Bootstrap article grid, reading sidebar and front-page carousel",
   "license": "GPL-2.0-or-later",
