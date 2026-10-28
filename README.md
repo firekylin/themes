@@ -24,3 +24,19 @@ or publishes a new version, and commits the refreshed registry and publication
 state. Update the theme version when changing its published contents; existing
 release assets are never overwritten. If `main` advances during publication,
 the registry push fails safely and the next run retries pending changes.
+
+## Ported themes
+
+Ported themes live in `packages/`. Each package README records its upstream
+license, fixed source commit, supported features, differences and resource audit.
+The root GPL license does not replace the license retained inside each package.
+
+The port verification tools discover installed packages containing
+`res/css/upstream.css`; each theme can be reviewed and tested independently.
+`pnpm preview:ports` prints local preview URLs on 127.0.0.1:4173.
+`pnpm exec playwright-core install chromium && pnpm test:browser` checks eight
+page types per installed port at 1280px and 390px and writes screenshots to
+`artifacts/ports`. Set `CHROMIUM_PATH` to use a locally installed Chromium.
+These are synthetic fixture renders, not a database-backed blog installation.
+Optional integration with actual Firekylin Widget classes and comment renderer:
+`FIREKYLIN_CORE_PATH=/path/to/firekylin node --test test/ports.test.js`.
