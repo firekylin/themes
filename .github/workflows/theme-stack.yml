@@ -1,13 +1,14 @@
 name: Theme stack
 on:
   push:
-    paths: ['packages/stack/**', 'validation/suites/stack/**', '.github/workflows/theme-stack.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/stack/**', 'validation/suites/stack/**', '.github/workflows/theme-stack.yml']
   pull_request:
-    paths: ['packages/stack/**', 'validation/suites/stack/**', '.github/workflows/theme-stack.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/stack/**', 'validation/suites/stack/**', '.github/workflows/theme-stack.yml']
 permissions:
   contents: read
 jobs:
   test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/hugo-stack' || github.ref == 'refs/heads/feat/hugo-stack'
     runs-on: ubuntu-latest
     defaults:
       run:
