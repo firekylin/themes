@@ -63,6 +63,8 @@ importers:
 
   packages/green-park-2: {}
 
+  packages/hugo-book: {}
+
   packages/icarus: {}
 
   packages/icefox: {}

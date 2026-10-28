@@ -1,0 +1,10 @@
+baseURL = 'http://localhost:4177/'
+title = 'Engineering Handbook'
+theme = 'hugo-book'
+[params]
+BookTheme = 'light'
+BookSearch = true
+BookToC = true
+BookSection = 'docs'
+[markup.highlight]
+codeFences = false
