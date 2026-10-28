@@ -1,7 +1,7 @@
 {
   "name": "@firekylin/theme-oneblog",
   "title": "OneBlog",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "license": "SEE LICENSE IN UPSTREAM-TERMS.md",
   "description": "OneBlog Typecho port; upstream GPL-2.0 plus no-sale and attribution conditions retained",

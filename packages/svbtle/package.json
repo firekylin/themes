@@ -1,7 +1,7 @@
 {
   "name": "firekylin-theme-svbtle",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "title": "WP-Svbtle",
   "description": "WP-Svbtle fixed author rail and full-content reading stream",
   "license": "GPL-2.0-only",
