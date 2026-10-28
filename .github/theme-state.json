@@ -11,6 +11,10 @@
     "hash": "01f895ff5b632ab825fed533babf4938938c24e4266a34a4d9490827bd1df1c6",
     "id": "icefox"
   },
+  "jasmine": {
+    "hash": "b73ba0b328ded20a166acdbb14d636e24c7aaaccc87ca0769910619bb236397c",
+    "id": "jasmine"
+  },
   "joe": {
     "hash": "7ec189fc74e40a2d98af6aa7a295fd52c298fe080390ee40d2e30e8b7c65df85",
     "id": "joe"
@@ -22,5 +26,9 @@
   "pinghsu": {
     "hash": "58b38425a06ff2a3cb8df8870b6199a5e74e70bb77cea60b11a1481bd5c4f38f",
     "id": "pinghsu"
+  },
+  "void": {
+    "hash": "a4d82552c483cd9531230c236f806bbbbca721b2679bb69274a8bb1c40c9e1b1",
+    "id": "void"
   }
 }

@@ -42,6 +42,20 @@
     },
     {
       "type": "theme",
+      "name": "jasmine",
+      "id": "jasmine",
+      "version": "0.1.0",
+      "title": "Jasmine",
+      "description": "Three-column reading interface with a navigation rail and light article feed.",
+      "download": "https://github.com/firekylin/themes/releases/download/jasmine-v0.1.0/jasmine-0.1.0.zip",
+      "integrity": "sha512-EfSOvVEWwBL2zDH968XtcRsgUcOapSsPq8kb4DELIOlTTqyph81ivJCMpYmbGw4uW2inLztu5pOpc6zLiReXSA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/jasmine/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
       "name": "joe",
       "id": "joe",
       "version": "0.1.0",
@@ -78,6 +92,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/pinghsu-v0.1.0/pinghsu-0.1.0.zip",
       "integrity": "sha512-CrUfjmIcc49cPxllnuWSDXSyUxrL4me/V4w+qCArFxMTd9KeZ9KQltbUeLyD+6JpT3ladxdGKj3gEFgaEYvgLA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/pinghsu/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "void",
+      "id": "void",
+      "version": "0.1.0",
+      "title": "VOID",
+      "description": "Restrained typography, dark masthead and a two-column editorial card grid.",
+      "download": "https://github.com/firekylin/themes/releases/download/void-v0.1.0/void-0.1.0.zip",
+      "integrity": "sha512-fYMVH5dTRbSPfmOqVfvN82iyHkRKfPxOUEgx/MoR7OuccljlLxAXjeUO6AzvQkcN9oFyi3vW5aO/86nfSCAlSw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/void/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
       }
