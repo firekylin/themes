@@ -1,0 +1,33 @@
+name: Publish theme releases
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: theme-releases
+  cancel-in-progress: false
+jobs:
+  release:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: python3 scripts/build-registry.py
+      - run: pnpm test
+      - run: python3 -m unittest discover -s test -p "test_*.py"
+      - name: Check registry matches the generated archives
+        run: git diff --exit-code -- registry.json
+      - name: Publish or verify versioned releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/publish-releases.py

@@ -8,7 +8,7 @@
       "version": "0.1.0",
       "title": "Firekylin",
       "description": "Firekylin 默认主题",
-      "download": "https://raw.githubusercontent.com/firekylin/themes/main/archives/firekylin-0.1.0.zip",
+      "download": "https://github.com/firekylin/themes/releases/download/firekylin-v0.1.0/firekylin-0.1.0.zip",
       "integrity": "sha512-Z4wGsmcM8ThZ0EJ0qQDaO2fAXEVI165Jw7Whgm3vdoKo8ymPFL5MANB6Qv8Q9aJBf8qUvRgukmnE5fz6XLcAhQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/firekylin/screenshot.png"
     }

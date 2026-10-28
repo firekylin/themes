@@ -24,8 +24,9 @@ test('registry points to the matching workspace theme and archive integrity', ()
     assert.equal(item.name, manifest.name);
     assert.equal(item.version, manifest.version);
     const filename = `${id}-${manifest.version}.zip`;
-    assert.equal(item.download, `https://raw.githubusercontent.com/firekylin/themes/main/archives/${filename}`);
-    const digest = crypto.createHash('sha512').update(fs.readFileSync(path.join(root, 'archives', filename))).digest('base64');
+    const tag = encodeURIComponent(`${id}-v${manifest.version}`);
+    assert.equal(item.download, `https://github.com/firekylin/themes/releases/download/${tag}/${encodeURIComponent(filename)}`);
+    const digest = crypto.createHash('sha512').update(fs.readFileSync(path.join(root, 'dist', filename))).digest('base64');
     assert.equal(item.integrity, `sha512-${digest}`);
     if (fs.existsSync(path.join(theme, 'screenshot.png'))) {
       assert.equal(item.screenshot,

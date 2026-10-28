@@ -5,6 +5,7 @@ import hashlib
 import json
 import re
 import zipfile
+from urllib.parse import quote
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -24,7 +25,7 @@ def build():
             raise ValueError(f'Invalid theme ID: {theme_id}')
         if not re.fullmatch(r'\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?(?:\+[0-9A-Za-z.-]+)?', version):
             raise ValueError(f'Invalid theme version: {version}')
-        archive = ROOT / 'archives' / f'{theme_id}-{version}.zip'
+        archive = ROOT / 'dist' / f'{theme_id}-{version}.zip'
         archive.parent.mkdir(exist_ok=True)
         with zipfile.ZipFile(archive, 'w', compression=zipfile.ZIP_STORED) as output:
             for source in sorted(directory.rglob('*')):
@@ -42,7 +43,9 @@ def build():
             'type': 'theme', 'name': manifest['name'], 'id': theme_id, 'version': version,
             'title': manifest.get('title', 'Firekylin' if theme_id == 'firekylin' else theme_id),
             'description': manifest.get('description', 'Firekylin 默认主题' if theme_id == 'firekylin' else ''),
-            'download': f'{BASE}/archives/{archive.name}', 'integrity': f'sha512-{digest}',
+            'download': f'https://github.com/firekylin/themes/releases/download/'
+                        f'{quote(theme_id + "-v" + version, safe="")}/{quote(archive.name, safe="")}',
+            'integrity': f'sha512-{digest}',
         }
         if (directory / 'screenshot.png').is_file():
             item['screenshot'] = f'{BASE}/packages/{directory.name}/screenshot.png'
