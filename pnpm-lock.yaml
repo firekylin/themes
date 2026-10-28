@@ -21,6 +21,8 @@ importers:
 
   packages/icefox: {}
 
+  packages/jasmine: {}
+
   packages/joe: {}
 
   packages/maupassant: {}
