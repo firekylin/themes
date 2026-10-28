@@ -1,0 +1,146 @@
+[
+  {
+    "name": "upstream",
+    "width": 1440,
+    "metrics": {
+      ".daily-pic": {
+        "x": 278,
+        "y": 238,
+        "width": 583.984375,
+        "height": 400
+      },
+      ".something-else": {
+        "x": 877.984375,
+        "y": 238,
+        "width": 283.984375,
+        "height": 400
+      },
+      ".article-module": {
+        "x": 278,
+        "y": 666,
+        "width": 884,
+        "height": 400
+      },
+      ".article-module .mdl-card__media": {
+        "x": 278,
+        "y": 666,
+        "width": 884,
+        "height": 247
+      },
+      ".demo-blog__posts": {
+        "x": 270,
+        "y": 230,
+        "width": 900,
+        "height": 906
+      }
+    }
+  },
+  {
+    "name": "firekylin",
+    "width": 1440,
+    "metrics": {
+      ".daily-pic": {
+        "x": 278,
+        "y": 238,
+        "width": 583.984375,
+        "height": 400
+      },
+      ".something-else": {
+        "x": 877.984375,
+        "y": 238,
+        "width": 283.984375,
+        "height": 400
+      },
+      ".article-module": {
+        "x": 278,
+        "y": 666,
+        "width": 884,
+        "height": 400
+      },
+      ".article-module .mdl-card__media": {
+        "x": 278,
+        "y": 666,
+        "width": 884,
+        "height": 247
+      },
+      ".demo-blog__posts": {
+        "x": 270,
+        "y": 230,
+        "width": 900,
+        "height": 906
+      }
+    }
+  },
+  {
+    "name": "upstream",
+    "width": 390,
+    "metrics": {
+      ".daily-pic": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 400
+      },
+      ".something-else": {
+        "x": 0,
+        "y": 400,
+        "width": 390,
+        "height": 400
+      },
+      ".article-module": {
+        "x": 8,
+        "y": 838,
+        "width": 374,
+        "height": 400
+      },
+      ".article-module .mdl-card__media": {
+        "x": 8,
+        "y": 838,
+        "width": 374,
+        "height": 223
+      },
+      ".demo-blog__posts": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 1308
+      }
+    }
+  },
+  {
+    "name": "firekylin",
+    "width": 390,
+    "metrics": {
+      ".daily-pic": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 400
+      },
+      ".something-else": {
+        "x": 0,
+        "y": 400,
+        "width": 390,
+        "height": 400
+      },
+      ".article-module": {
+        "x": 8,
+        "y": 838,
+        "width": 374,
+        "height": 400
+      },
+      ".article-module .mdl-card__media": {
+        "x": 8,
+        "y": 838,
+        "width": 374,
+        "height": 223
+      },
+      ".demo-blog__posts": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 1308
+      }
+    }
+  }
+]

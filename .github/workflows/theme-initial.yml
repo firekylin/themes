@@ -1,0 +1,33 @@
+name: Theme initial
+on:
+  push:
+    paths: ['packages/initial/**', 'validation/suites/initial/**', '.github/workflows/theme-initial.yml', 'package.json', 'pnpm-lock.yaml']
+  pull_request:
+    paths: ['packages/initial/**', 'validation/suites/initial/**', '.github/workflows/theme-initial.yml', 'package.json', 'pnpm-lock.yaml']
+permissions:
+  contents: read
+jobs:
+  test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/typecho-initial' || github.ref == 'refs/heads/feat/typecho-initial'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: validation/suites/initial
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+        working-directory: .
+      - run: node --test test/*.test.js
+      - run: pnpm exec playwright-core install --with-deps chromium
+        working-directory: .
+      - run: node scripts/check-ports-browser.js && node scripts/check-initial-browser.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: theme-port-screenshots
+          path: validation/suites/initial/artifacts/ports/

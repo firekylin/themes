@@ -1,0 +1,14 @@
+{
+  "upstream": "Siphils/Typecho-Theme-Aria",
+  "files": [
+    "assets/css/style.min.css"
+  ],
+  "filter": "card|^#header|^#nav-menu|^#footer|wrapper|page-nav|^:root",
+  "changes": [
+    "removed font-face and imports",
+    "removed declarations containing URLs",
+    "filtered theme-owned selectors where recorded",
+    "formatted for direct editing"
+  ],
+  "build": "CSS only; no compilation required"
+}

@@ -1,0 +1,7 @@
+# Initial source comparison
+
+Reference: jielive/initial 1c68cb95199e16c4b933dfdf2922e1fae27fc1c4. The upstream screenshot is only a logo. Executed the actual index.php in local PHP-WASM with synthetic title/date/category/excerpt data, no-op header/sidebar/footer includes, and original CSS for 1280/390px component reference captures. Original styles/PHP remain outside this package; captures show synthetic component rendering only. This is not a full live Typecho installation or pixel diff.
+
+Read header.php, post.php, sidebar.php and responsive rules: 1060px desktop container, 70/30 reading/sidebar split, optional 750px single column, sparse white background, compact header, title → metadata → optional thumbnail → excerpt → read-more ordering. Independent CSS recreates these features; mobile centers title/metadata and hides sidebar. Detail adds breadcrumbs, compact title/date, native TOC and core body/comments. Header fixation and logo configuration are supported.
+
+Tests cover safe logo, one-column absence of sidebar, width, sticky header after scroll, actual TOC links, all eight routes, populated/empty/protected content, native comments, query retention and overflow. Component captures and desktop/mobile port captures are included. External content, music, donation, whispered-post APIs, Ajax/PJAX and popularity/view counters are not ported. Licensing uncertainty and the scope of independently authored code are stated in NOTICE.md.

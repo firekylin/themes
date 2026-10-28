@@ -1,0 +1,13 @@
+main:
+- name: Home
+  url: /
+  weight: 1
+- name: Publications
+  url: /#papers
+  weight: 2
+- name: Talks
+  url: /#talks
+  weight: 3
+- name: News
+  url: /#news
+  weight: 4

@@ -1,0 +1,15 @@
+# Historical NexT comparison
+
+Fixed original: iissnan/hexo-theme-next `9c8cea69bf0d4f91c07779d71b01814b27bbb6a1`, version 5.1.4. Reference is real Hexo 7.3.0 with hexo-renderer-swig 2.0.0 and hexo-renderer-stylus 3.0.1; no port HTML is used as the original. Its deprecated Swig renderer is used locally for reproducibility, not shipped in the theme.
+
+All four schemes are captured separately: Muse, Mist, Pisces, Gemini. Each has original/port homepage and article screenshots at 1280×900 and 390×900, plus JSON geometry. Source configuration, reference dependencies/lockfile and synthetic Markdown/avatar are included. External requests were blocked; local original vendor assets may render in the reference but are excluded from the port. Both use system font fallback.
+
+To reproduce, install reference-package.json with its lockfile in a separate directory; clone the pinned original to themes/next; copy reference-site.yml to _config.yml, reference-theme.yml to themes/next/_config.yml, and reference-content to source. For each scheme, set its name in the original theme config and run `hexo clean` and `hexo generate` from that directory. Then use `NEXT_REFERENCE_PUBLIC=/path/to/public NEXT_SCHEME=Muse node scripts/compare-next.js` (repeat the other schemes).
+
+Configuration disables motion, external fonts, menu icons and Fancybox; enables mobile sidebar and uses the same synthetic avatar. The original navigation is English while port fixture navigation is Chinese. Port records include categories and a pagination fixture that differ from the original. Article fixture first-paragraph content/highlighting also differs. No overall pixel-identical claim is made.
+
+Measured first homepage article-header x, y, width and height match exactly for all eight scheme/viewport combinations. The sidebar x coordinate in Pisces/Gemini desktop is 160px in both after correcting the upstream JavaScript-dependent negative margin. Gemini separated-card spacing was corrected by retaining the original #posts selector. Buttons were repositioned to avoid sidebar/back-to-top overlap.
+
+Residual differences: metadata icons use text/Unicode; profile uses public recent posts instead of unavailable global counters; navigation labels differ; the port includes a pagination fixture; body highlighting and code-copy markup differ. Sidebar overlay and explicit close controls replace upstream jQuery/Velocity movement. Full-page heights therefore differ; the original drawer push animation is not preserved. README lists unsupported integrations and configuration.
+
+Local verification: 13 Node tests including 11 theme render/escaping/pagination/config tests; those 11 rerun with actual core Widgets/comment service at `a200d5887c702acb7c264776d9827f54e8389f09`; 7 Python package tests; actual core ThemeInstaller installs generated ZIP; 64 browser page/scheme/viewport combinations plus mobile navigation, sidebar Escape behavior, TOC/overview tabs, clipboard and long-title overflow; no-JS mobile navigation. Tests use synthetic records, not production DB or live external services. CI repeats rendering, packaging/install and browser checks.

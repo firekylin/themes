@@ -1,0 +1,7 @@
+"use strict";
+const drawer=document.getElementById('material-drawer');const toggle=document.getElementById('drawer-toggle');toggle.addEventListener('click',()=>{drawer.showModal();toggle.setAttribute('aria-expanded','true')});document.getElementById('drawer-close').addEventListener('click',()=>drawer.close());drawer.addEventListener('close',()=>{toggle.setAttribute('aria-expanded','false');toggle.focus()});drawer.addEventListener('click',e=>{if(e.target===drawer && e.clientX>drawer.getBoundingClientRect().right)drawer.close()});
+
+for (const menu of document.querySelectorAll('.material-menu')) { menu.addEventListener('toggle',()=>{if(menu.open)for(const other of document.querySelectorAll('.material-menu'))if(other!==menu)other.open=false}); }
+document.addEventListener('keydown',e=>{if(e.key==='Escape')for(const menu of document.querySelectorAll('.material-menu[open]')){menu.open=false;menu.querySelector('summary').focus()}});
+document.addEventListener('click',e=>{for(const menu of document.querySelectorAll('.material-menu[open]'))if(!menu.contains(e.target))menu.open=false});
+for(const button of document.querySelectorAll('.share-native'))button.addEventListener('click',async()=>{try{if(navigator.share)await navigator.share({title:document.title,url:location.href});else{await navigator.clipboard.writeText(location.href);document.querySelector('.share-result').textContent='链接已复制 / Link copied'}}catch(e){if(e.name!=='AbortError')document.querySelector('.share-result').textContent='请复制地址栏链接 / Copy the address bar URL'}});
