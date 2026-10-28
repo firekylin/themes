@@ -1,0 +1,7 @@
+# Reproduction
+
+Run `npm ci --ignore-scripts` here, then set FIREKYLIN_CHECKOUT to the pinned core checkout, CHROMIUM_PATH to an existing Chromium executable and run `node live.cjs`. The core needs its dependencies installed. No browser download or certificate override is used. This builds and installs the actual registry ZIP into a fresh local SQLite site.
+
+Reference: Typecho v1.2.1 commit 206880ba714d80bfb0638aeacb49c58b8fb1b327 under PHP 8.2; upstream Nexmoe commit 2f941bf3b98978e311a78e5362c74eea9214f1aa. `seed-reference.php` runs within an already installed disposable Typecho root. Reference settings self-host the licensed MDUI 0.4.3, jQuery 3.4.1 and lazysizes 5.1.0 dependencies and replacement SVGs under /fixtures; original theme PHP/CSS/JS remain unchanged. Analytics and optional extensions disabled. External requests blocked during comparison; upstream external iconfont is therefore absent. These reference-only dependencies are not shipped in the port.
+
+`compare.cjs` captures live Typecho on 127.0.0.1:8770 and Firekylin on 127.0.0.1:8782. Both must be running, seeded with public fixtures. Home screenshots with identical first article content, and post screenshots, document actual rendering at 1440 and 390px. Fixtures have different counts/categories; comment implementations differ. `comparison.json` records geometry, not a claim of identical appearance or full feature parity. The integration test's temporary site can be restarted with the core CLI for screenshots after restoring its theme settings/content to the comparison fixtures.

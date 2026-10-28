@@ -1,0 +1,72 @@
+{
+  "name": "akina",
+  "title": "Akina",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Akina profile landscape and circular-icon reading layout for Firekylin.",
+  "license": "GPL-2.0",
+  "author": "Fuzzz / 子虚之人",
+  "homepage": "https://github.com/Zisbusy/Akina-for-Typecho",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/akina"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "akina"
+  },
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "纯文本，不支持 HTML。"
+    },
+    {
+      "type": "text",
+      "name": "heroText",
+      "label": "站点简介",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "color",
+      "name": "accentColor",
+      "label": "强调色",
+      "help": "支持 #RGB 或 #RRGGBB。"
+    },
+    {
+      "type": "text",
+      "name": "colorMode",
+      "label": "配色模式",
+      "help": "填写 dark 启用深色；留空为浅色。"
+    },
+    {
+      "type": "text",
+      "name": "headimg",
+      "label": "首页封面",
+      "help": "http(s) 或站内图片路径。"
+    },
+    {
+      "type": "text",
+      "name": "avatar",
+      "label": "头像",
+      "help": "http(s) 或站内图片路径。"
+    },
+    {
+      "type": "text",
+      "name": "socialUrl",
+      "label": "个人主页",
+      "help": "http(s) 或站内链接。"
+    },
+    {
+      "type": "text",
+      "name": "notice",
+      "label": "公告",
+      "help": "纯文本。"
+    }
+  ]
+}

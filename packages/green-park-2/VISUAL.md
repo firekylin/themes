@@ -1,0 +1,9 @@
+# Visual and runtime validation
+
+Reference: original Green Park 2 d89b11afb712d49fc41bc3cfab85127e5818aab9, running in local WordPress 6.8.3/PHP 8.2.29/MariaDB 11.4 at 127.0.0.1:8097, with synthetic content/images. Upstream home/article screenshots at 1280x900 and 390x900 are included as screenshots/upstream-*.png. Source screenshot.png, PHP and screen.css were also inspected. External requests are blocked during reference capture. No public deployment or merge.
+
+Comparison preserves the 1000px shell, 41px green nav, 350px sidebar allocation, full-body feed and metadata bands. Native sidebar groups contain different public data than WordPress defaults. The Firekylin fixture has a body image on the first post only; reference posts each contain the synthetic image, so document heights differ. CSS gradients/shapes replace excluded sprite/background images; native menu improves the source's mobile navigation. Code blocks gain scrolling/padding and long text wraps. Mode/TOC/image-preview controls are new enhancements. This is visual inspection plus geometry tests, not pixel parity.
+
+Local verification: 15 Node tests (also using actual core Widget/comment classes from Firekylin a200d5887c702acb7c264776d9827f54e8389f09 with synthetic rows/mocked data access), 7 Python registry/build tests, 16 browser route/viewport checks plus full/excerpt feed, split/single/hidden sidebar, mobile/no-JS menu, directory, image keyboard/focus and dark preference tests. ZIP build and actual core ThemeInstaller run in an isolated temporary directory. No live Firekylin database/HTTP application integration is claimed.
+
+CI runs fixture rendering, registry/build and browser checks. Actual-core/installer checks are local-only with FIREKYLIN_CORE_PATH. Reference seed lives in scripts/reference/greenpark-seed.php. Port screenshots reproduce with scripts/check-greenpark-browser.js. All outstanding features are listed in README.md.
