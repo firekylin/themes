@@ -1,0 +1,83 @@
+{
+  "name": "hugo-coder",
+  "version": "0.1.0",
+  "license": "(MIT AND OFL-1.1)",
+  "description": "Hugo Coder centered profile and reading theme for Firekylin",
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "author",
+      "label": "Profile name",
+      "help": "Defaults to site title"
+    },
+    {
+      "type": "text",
+      "name": "info",
+      "label": "Profile information",
+      "help": "Plain text; newline separates lines"
+    },
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "Avatar",
+      "help": "HTTP(S) or root-relative URL"
+    },
+    {
+      "type": "text",
+      "name": "socialJSON",
+      "label": "Profile links",
+      "help": "Array of name,url,icon (optional Font Awesome classes)"
+    },
+    {
+      "type": "text",
+      "name": "homeMode",
+      "label": "Homepage",
+      "help": "profile (default), posts"
+    },
+    {
+      "type": "text",
+      "name": "colorMode",
+      "label": "Color scheme",
+      "help": "auto (default), light, dark"
+    },
+    {
+      "type": "text",
+      "name": "hideColorToggle",
+      "label": "Hide scheme toggle",
+      "help": "true or false (default)"
+    },
+    {
+      "type": "text",
+      "name": "rtl",
+      "label": "Right to left",
+      "help": "true or false (default)"
+    },
+    {
+      "type": "text",
+      "name": "tocEnabled",
+      "label": "Article TOC",
+      "help": "true or false (default)"
+    },
+    {
+      "type": "text",
+      "name": "tocOpen",
+      "label": "TOC initially open",
+      "help": "true or false (default)"
+    },
+    {
+      "type": "text",
+      "name": "since",
+      "label": "Footer start year",
+      "help": "Optional actual site start year"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "Footer text",
+      "help": "Optional plain text"
+    }
+  ]
+}

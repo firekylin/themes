@@ -1,0 +1,1 @@
+<% const a=firekylin.archive;if(!a.have()){ %><p>No articles found.</p><% } %><ul><% while(a.next()){ %><li><span class="date"><%= a.date('Y-m-d') %></span><a class="title" href="<%= a.permalink %>"><%= a.title() %></a></li><% } %></ul><%~ include('./pagination',{archive:a}) %>

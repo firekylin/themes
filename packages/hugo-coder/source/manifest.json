@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/luizdepra/hugo-coder",
+  "commit": "58d956f41c056a12e15d5b6ee27c54fc98cd6e49",
+  "license": "MIT",
+  "cssBuild": "Dart Sass 1.106.1",
+  "referenceBuild": "Hugo 0.169.0 extended (upstream libsass configuration)",
+  "dependencies": {
+    "Font Awesome Free": "6.7.2",
+    "normalize.css": "8.0.1"
+  }
+}
