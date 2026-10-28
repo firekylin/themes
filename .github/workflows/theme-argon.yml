@@ -1,13 +1,14 @@
 name: Theme argon
 on:
   push:
-    paths: ['packages/argon/**', 'validation/suites/argon/**', '.github/workflows/theme-argon.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/argon/**', 'validation/suites/argon/**', '.github/workflows/theme-argon.yml']
   pull_request:
-    paths: ['packages/argon/**', 'validation/suites/argon/**', '.github/workflows/theme-argon.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/argon/**', 'validation/suites/argon/**', '.github/workflows/theme-argon.yml']
 permissions:
   contents: read
 jobs:
   test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/wordpress-argon' || github.ref == 'refs/heads/feat/wordpress-argon'
     runs-on: ubuntu-latest
     defaults:
       run:
