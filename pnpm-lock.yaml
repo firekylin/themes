@@ -79,6 +79,8 @@ importers:
 
   packages/material: {}
 
+  packages/matery: {}
+
   packages/maupassant: {}
 
   packages/miracles: {}
