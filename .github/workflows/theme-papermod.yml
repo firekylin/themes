@@ -1,13 +1,14 @@
 name: Theme papermod
 on:
   push:
-    paths: ['packages/papermod/**', 'validation/suites/papermod/**', '.github/workflows/theme-papermod.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/papermod/**', 'validation/suites/papermod/**', '.github/workflows/theme-papermod.yml']
   pull_request:
-    paths: ['packages/papermod/**', 'validation/suites/papermod/**', '.github/workflows/theme-papermod.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/papermod/**', 'validation/suites/papermod/**', '.github/workflows/theme-papermod.yml']
 permissions:
   contents: read
 jobs:
   test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/hugo-papermod' || github.ref == 'refs/heads/feat/hugo-papermod'
     runs-on: ubuntu-latest
     defaults:
       run:
