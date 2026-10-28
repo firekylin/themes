@@ -809,16 +809,16 @@ blockquote {
     text-decoration: underline !important;
 }
 
-#article-info{
+.article-info{
     border-top: 1px solid rgba(0,0,0,0.1);
 }
 
-#article-author-date {
+.article-author-date {
     float: left;
     width: 50%;
 }
 
-#article-category-comment {
+.article-category-comment {
     float: right;
     font-size: 13px;
     font-weight: 400;
@@ -828,10 +828,10 @@ blockquote {
 }
 
 @media screen and (max-width: 480px) {
-    #article-author-date {
+    .article-author-date {
         padding: 1pc 4%;
     }
-    #article-category-comment {
+    .article-category-comment {
         margin-top: 0px;
         margin-right: 0px;
         width: 50%;
@@ -841,7 +841,7 @@ blockquote {
     }
 }
 
-#article-category-comment a {
+.article-category-comment a {
     text-decoration: none;
 }
 
