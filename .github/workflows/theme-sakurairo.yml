@@ -1,9 +1,9 @@
 name: Theme sakurairo
 on:
   push:
-    paths: ['packages/sakurairo/**', 'validation/suites/sakurairo/**', '.github/workflows/theme-sakurairo.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/sakurairo/**', 'validation/suites/sakurairo/**', '.github/workflows/theme-sakurairo.yml']
   pull_request:
-    paths: ['packages/sakurairo/**', 'validation/suites/sakurairo/**', '.github/workflows/theme-sakurairo.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/sakurairo/**', 'validation/suites/sakurairo/**', '.github/workflows/theme-sakurairo.yml']
 permissions:
   contents: read
 jobs:

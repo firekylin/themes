@@ -1,9 +1,9 @@
 name: Theme miracles
 on:
   push:
-    paths: ['packages/miracles/**', 'validation/suites/miracles/**', '.github/workflows/theme-miracles.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/miracles/**', 'validation/suites/miracles/**', '.github/workflows/theme-miracles.yml']
   pull_request:
-    paths: ['packages/miracles/**', 'validation/suites/miracles/**', '.github/workflows/theme-miracles.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/miracles/**', 'validation/suites/miracles/**', '.github/workflows/theme-miracles.yml']
 permissions:
   contents: read
 jobs:
