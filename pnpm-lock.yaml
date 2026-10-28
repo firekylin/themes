@@ -15,9 +15,21 @@ importers:
         specifier: 1.58.2
         version: 1.58.2
 
+  packages/butterfly: {}
+
   packages/firekylin: {}
 
+  packages/icefox: {}
+
   packages/jasmine: {}
+
+  packages/joe: {}
+
+  packages/maupassant: {}
+
+  packages/pinghsu: {}
+
+  packages/void: {}
 
 packages:
 
