@@ -33,12 +33,6 @@
       "help": "留空使用站点描述。"
     },
     {
-      "type": "color",
-      "name": "accentColor",
-      "label": "强调色",
-      "help": "支持 #RGB 或 #RRGGBB。"
-    },
-    {
       "type": "text",
       "name": "colorMode",
       "label": "配色模式",
@@ -49,6 +43,24 @@
       "name": "sidebarTitle",
       "label": "侧栏标题",
       "help": "留空显示最新文章。"
+    },
+    {
+      "type": "text",
+      "name": "logoUrl",
+      "label": "导航头像",
+      "help": "HTTP(S) 或站内绝对路径。"
+    },
+    {
+      "type": "text",
+      "name": "categoryNum",
+      "label": "导航分类数量",
+      "help": "1–12，默认 5。"
+    },
+    {
+      "type": "text",
+      "name": "showToc",
+      "label": "文章目录",
+      "help": "默认启用，填写 0 关闭。"
     }
   ]
 }

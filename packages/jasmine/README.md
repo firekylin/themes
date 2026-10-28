@@ -12,7 +12,7 @@ and third-party resource audit. Original license/attribution materials are retai
 Copy this directory into `themes/jasmine` (independent project) or
 `www/theme/jasmine` (legacy/core installation), then select it in Appearance.
 Requires Firekylin >=2.16.0 with Eta/Widgets; verified against core `99bbdcb`.
-No PHP, npm install, compilation or theme JavaScript is required at runtime.
+No PHP, npm install or compilation is required. Local JavaScript adds persistent color switching and article heading navigation.
 
 ## Supported
 
@@ -31,7 +31,7 @@ Navigation stays available without JavaScript. Mobile layouts collapse sidebars.
 ## Differences from Typecho
 
 This is a first Firekylin adaptation of the reading layout, not a PHP compatibility
-layer. Unsupported upstream features: moments mode, PJAX, sticky feed logic, Typecho administration extensions and icon-only controls.
+layer. Unsupported upstream features: moments mode, PJAX, sticky feed logic, Typecho administration extensions and the original icon library.
 Search uses Firekylin `keyword`; comments use native Waline instead of Typecho
 comment forms. No analytics, paid feature, external update request, advertising
 or credential-dependent integration is enabled by the theme.
@@ -51,3 +51,17 @@ Selection exclusions: Pinghsu/Maupassant were already ported; Clarity is reserve
 for the user. Miracles has additional custom-license restrictions, initial has no
 explicit license, and Akina's referenced earlier WordPress source could not be
 resolved for license-chain verification. They are not included in this batch.
+
+## Jasmine source adaptation
+
+The page follows the original narrow rail / middle feed / right widgets layout
+with white surfaces and column borders. Category navigation uses public category
+Widgets. Desktop feed thumbnails appear on the right and disappear below 992px.
+Article pages have their own heading, collapsible heading directory, body and
+adjacent-post block. The sidebar contains real recent posts and tags, not invented
+hot-post or recent-comment statistics.
+
+`logoUrl` sets the rail logo, `categoryNum` limits navigation (1–12), `showToc=0`
+disables the default article directory. Dark-mode preference persists locally.
+Author content and protected-body handling remain delegated to core. See
+VISUAL-COMPARISON.md for the actual PHP component reference and limits.
