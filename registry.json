@@ -287,6 +287,20 @@
     },
     {
       "type": "theme",
+      "name": "jj",
+      "id": "jj",
+      "version": "0.1.0",
+      "title": "JJ",
+      "description": "Compact Juejin-inspired article feed, blue navigation and a right sidebar.",
+      "download": "https://github.com/firekylin/themes/releases/download/jj-v0.1.0/jj-0.1.0.zip",
+      "integrity": "sha512-rpZDUGrL9JEzNXtdkke4u2OE/ZQy+whMXojGgmvki4eP6W0/YoL/gXS381XCGbrTjpOXb0/fVaomBKt9ofC9NA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/jj/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
       "name": "joe",
       "id": "joe",
       "version": "0.1.0",
@@ -411,6 +425,16 @@
       "engines": {
         "firekylin": ">=2.16.0"
       }
+    },
+    {
+      "type": "theme",
+      "name": "@firekylin/theme-oneblog",
+      "id": "oneblog",
+      "version": "0.1.0",
+      "title": "OneBlog",
+      "description": "OneBlog Typecho port; upstream GPL-2.0 plus no-sale and attribution conditions retained",
+      "download": "https://github.com/firekylin/themes/releases/download/oneblog-v0.1.0/oneblog-0.1.0.zip",
+      "integrity": "sha512-qakv2CmPDqZX+8f5qcoNy23jNMyNuMYqCWO7szScdXVJz6XRIll7EsVXsuCojNeIxlRnrTAArZneSpcVkBSRfQ=="
     },
     {
       "type": "theme",

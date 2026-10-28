@@ -83,6 +83,10 @@
     "hash": "b73ba0b328ded20a166acdbb14d636e24c7aaaccc87ca0769910619bb236397c",
     "id": "jasmine"
   },
+  "jj": {
+    "hash": "7363ab3e4ac3d0fc68eb3aa75b701bf50850fe30215b747ad6e7ce115c4724be",
+    "id": "jj"
+  },
   "joe": {
     "hash": "7ec189fc74e40a2d98af6aa7a295fd52c298fe080390ee40d2e30e8b7c65df85",
     "id": "joe"
@@ -122,6 +126,10 @@
   "next": {
     "hash": "3a509bbccf9c8ac0600e9a292d3cc55160d21e908782e90139e74d55a0281254",
     "id": "next"
+  },
+  "oneblog": {
+    "hash": "080c3129a68601952916cd40b50663411c62db9e2c4d42178f087c7894e511cd",
+    "id": "oneblog"
   },
   "papermod": {
     "hash": "859ef7db9429c0af369e16d8c613aa67a5fe0f293ef5c8acfe7c6f4836458b2d",
