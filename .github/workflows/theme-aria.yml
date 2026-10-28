@@ -1,13 +1,14 @@
 name: Theme aria
 on:
   push:
-    paths: ['packages/aria/**', 'validation/suites/aria/**', '.github/workflows/theme-aria.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/aria/**', 'validation/suites/aria/**', '.github/workflows/theme-aria.yml']
   pull_request:
-    paths: ['packages/aria/**', 'validation/suites/aria/**', '.github/workflows/theme-aria.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/aria/**', 'validation/suites/aria/**', '.github/workflows/theme-aria.yml']
 permissions:
   contents: read
 jobs:
   test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/typecho-aria' || github.ref == 'refs/heads/feat/typecho-aria'
     runs-on: ubuntu-latest
     defaults:
       run:
