@@ -1,0 +1,64 @@
+baseURL: http://127.0.0.1:4176/
+build:
+  writeStats: true
+cascade:
+- outputs:
+  - HTML
+  - present
+  target:
+    kind: page
+    path: /slides/**
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+disableAliases: true
+enableEmoji: true
+enableGitInfo: false
+enableRobotsTXT: true
+footnotereturnlinkcontents: <sup>^</sup>
+hasCJKLanguage: false
+ignoreFiles:
+- .ipynb_checkpoints$
+- \.Rmd$
+- \.Rmarkdown$
+- _cache$
+imaging:
+  anchor: smart
+  hint: picture
+  quality: 90
+  resampleFilter: lanczos
+markup:
+  _merge: deep
+  highlight:
+    lineNos: false
+outputs:
+  home:
+  - HTML
+  - RSS
+  - headers
+  - redirects
+  - backlinks
+  section:
+  - HTML
+  - RSS
+pagination:
+  pagerSize: 10
+removePathAccents: true
+security:
+  _merge: deep
+  exec:
+    allow:
+    - ^(dart-)?sass$
+    - ^go$
+    - ^git$
+    - ^node$
+    - ^postcss$
+    - ^tailwindcss$
+sitemap:
+  _merge: deep
+summaryLength: 30
+taxonomies:
+  author: authors
+  publication_type: publication_types
+  tag: tags
+timeout: 600000
+title: ''

@@ -1,0 +1,1 @@
+<%~ await includeAsync('inc/document', {...firekylin, pageType:'archive'}) %>

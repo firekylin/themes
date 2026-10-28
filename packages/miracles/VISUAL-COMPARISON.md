@@ -1,0 +1,7 @@
+# Miracles source comparison
+
+Pinned reference: BigCoke233/miracles c4450ad83e57ee3165cbb73fcf05bb4a16ab1502. Its screenshot is promotional artwork. Executed the actual index.php in PHP-WASM with synthetic title/date/category/summary data and stubbed includes/Utils/media helpers, then rendered original CSS at 1280/390px. Header, footer, database and plugin APIs were not executed. Reference captures are explicitly component-only, not a full live Typecho deployment or pixel diff.
+
+Inspected includes/header.php, post.php and assets/css/main/{col,post,miracles.min}.css. Restored configurable vh banner, left-aligned heading, overlapping white content panels, image-left/text-right cards with excerpt before metadata and read button, vertically stacked mobile cards, and independent article title/metadata banner/body. Narrow reading container follows the source; long titles are allowed to wrap rather than clipping text. Default media uses a local gradient instead of unknown original artwork. Native navigation replaces the source's login/search drawers. Palette preference persists with an accessible pressed state and safe storage fallback.
+
+Behavior checks verify configured hero height, overlap, desktop/mobile image placement and persisted palette across reload; generic checks cover all eight routes, overflow, resources and search. Core tests verify empty/protected content, escaping, comments and pagination. Packing/install use the real ThemeInstaller. No fake views/reading-time, plugin rankings or custom Typecho route claims.

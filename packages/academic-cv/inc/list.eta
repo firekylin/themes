@@ -1,0 +1,1 @@
+<% const a=firekylin.archive; %><div class="academic-list"><% if(!a.have()){ %><p>No articles found.</p><% } %><% while(a.next()){ %><%~ include('./card',{row:a.row,href:a.permalink}) %><% } %></div><%~ include('./pagination',{archive:a}) %>

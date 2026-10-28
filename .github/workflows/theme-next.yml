@@ -1,0 +1,52 @@
+name: Theme next
+on:
+  push:
+    paths: ['packages/next/**', 'validation/suites/next/**', '.github/workflows/theme-next.yml']
+  pull_request:
+    paths: ['packages/next/**', 'validation/suites/next/**', '.github/workflows/theme-next.yml']
+permissions:
+  contents: read
+jobs:
+  test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/hexo-next' || github.ref == 'refs/heads/feat/hexo-next'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: validation/suites/next
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+        working-directory: .
+      - run: node --test test/*.test.js
+      - uses: actions/checkout@v4
+        with:
+          repository: firekylin/firekylin
+          ref: a200d5887c702acb7c264776d9827f54e8389f09
+          path: .validation-core
+      - name: Test real core rendering and installation
+        env:
+          FIREKYLIN_CORE_PATH: ${{ github.workspace }}/.validation-core
+          NODE_PATH: ${{ github.workspace }}/node_modules
+        run: |
+          node --test test/next.test.js
+          python3 scripts/package-next.py && node scripts/check-next-install.js
+      - run: pnpm exec playwright-core install --with-deps chromium
+        working-directory: .
+      - name: Test desktop and mobile behavior
+        env:
+          FIREKYLIN_CORE_PATH: ${{ github.workspace }}/.validation-core
+        run: node scripts/check-next-browser.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: next-validation
+          path: |
+            packages/next/screenshot.png
+            packages/next/preview/
+            validation/next/
+            dist/next-0.1.0.zip

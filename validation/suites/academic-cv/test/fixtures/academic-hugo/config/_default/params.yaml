@@ -1,0 +1,150 @@
+hugoblox:
+  analytics:
+    baidu:
+      site_id: ''
+    clarity:
+      project_id: ''
+    fathom:
+      site_id: ''
+    google:
+      measurement_id: ''
+    google_tag_manager:
+      container_id: ''
+    pirsch:
+      site_id: ''
+    plausible:
+      domain: ''
+  comments:
+    disqus:
+      shortname: ''
+    enable: false
+    giscus:
+      category: ''
+      category_id: ''
+      repo: ''
+      repo_id: ''
+    provider: ''
+  content:
+    citations:
+      style: apa
+    math:
+      enable: false
+    reading_time:
+      enable: true
+    toc:
+      enable: true
+  copyright:
+    license:
+      allow_commercial: false
+      allow_derivatives: false
+      share_alike: true
+      type: cc
+    notice: "\xA9 {year} {name}. This work is licensed under {license}"
+  debug:
+    enable: false
+    export_logs: true
+    hud:
+      opacity: 1.0
+      position: bottom-left
+  footer:
+    language_switcher: true
+    style: minimal
+    text: ''
+  header:
+    align: center
+    cta:
+      enable: false
+      text: ''
+      url: ''
+    enable: true
+    language_switcher: true
+    search: true
+    sticky: true
+    style: navbar
+    theme_picker: false
+    theme_toggle: true
+  identity:
+    description: The highly-customizable Hugo Academic theme powered by HugoBlox Kit.
+      Easily create your personal academic website.
+    name: Research Notebook
+    organization: ''
+    social:
+      twitter: GoOwnable
+    tagline: ''
+    type: person
+  layout:
+    avatar_shape: circle
+    radius: md
+    spacing: spacious
+  locale:
+    address_format: en-us
+    date_format: Jan 2, 2006
+    time_format: 3:04 PM
+  privacy:
+    anonymize_analytics: true
+    enable: false
+  pro:
+    affiliate_code: ''
+    hide_attribution: false
+  repository:
+    branch: main
+    content_dir: content
+    enable: false
+    url: ''
+  schema: '2.0'
+  search:
+    enable: true
+    quick_actions: []
+    suggestions: []
+  security:
+    csp:
+      policy: ''
+      report_only: false
+    frame_options: allow
+    permissions_policy: ''
+  seo:
+    ai:
+      allow:
+      - /
+      contact: ''
+      disallow: []
+      note: Guidance for AI crawlers - customize to match your public content.
+    location:
+      address:
+        city: ''
+        country: ''
+        postal_code: ''
+        region: ''
+        street: ''
+      coordinates:
+        latitude: null
+        longitude: null
+      phone: ''
+    title: ''
+  theme:
+    colors:
+      neutral: ''
+      primary: ''
+      secondary: ''
+    colors_dark: {}
+    colors_light: {}
+    mode: light
+    pack: default
+    surfaces:
+      background: ''
+      footer:
+        background: ''
+        foreground: ''
+      foreground: ''
+      header:
+        background: ''
+        foreground: ''
+  typography:
+    pack: system
+  verification:
+    baidu: ''
+    bing: ''
+    google: ''
+    naver: ''
+    pinterest: ''
+    yandex: ''

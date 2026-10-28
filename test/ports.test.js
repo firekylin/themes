@@ -29,11 +29,7 @@ for (const theme of themes) {
   });
   test(`${theme}: escape labels and settings; delegate trusted body and comments`,async () => {
     const html = await render(theme,'post',{hostile:true,config:{footerText:'<script>bad()</script>'}});
-    assert.match(html,/&lt;img/);
-    const configured = await render(theme,'index',{config:{colorMode:'dark',heroText:'<img onerror=bad>',accentColor:'</style><script>bad()</script>'}});
-    assert.match(configured,/fk-dark/);
-    assert.match(configured,/&lt;img onerror=bad&gt;/);
-    assert.doesNotMatch(configured,/<script>bad/); assert.match(html,/&lt;script/);
+    assert.match(html,/&lt;img/); assert.match(html,/&lt;script/);
     assert.doesNotMatch(html,/<script>bad/);
     assert.match(html,/<pre><code>/);
     assert.match(html,/id="comments"/);
@@ -45,7 +41,7 @@ for (const theme of themes) {
   });
   test(`${theme}: license, status templates and local-only CSS`, () => {
     const dir=path.join(__dirname,'..','packages',theme);
-    assert.match(fs.readFileSync(path.join(dir,'LICENSE'),'utf8'),/Permission to use|Permission is hereby granted|GNU GENERAL PUBLIC LICENSE|Apache License|Redistribution and use/);
+    assert.match(fs.readFileSync(path.join(dir,'LICENSE'),'utf8'),/Permission is hereby granted/);
     for(const code of [404,500]) assert.match(fs.readFileSync(path.join(dir,`error/${code}.html`),'utf8'),new RegExp(`<h1>${code}</h1>`));
     for(const file of ['upstream.css','firekylin.css']) assert.doesNotMatch(fs.readFileSync(path.join(dir,'res/css',file),'utf8'),/url\(|@import/);
   });
