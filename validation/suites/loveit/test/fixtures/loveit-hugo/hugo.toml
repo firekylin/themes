@@ -1,0 +1,50 @@
+baseURL = 'http://127.0.0.1:4178/'
+title = 'A Quiet Notebook'
+theme = 'LoveIt'
+locale = 'en'
+[params]
+version = '0.3.X'
+defaultTheme = 'light'
+[params.author]
+name = 'Alex Chen'
+link = '/'
+[params.app]
+noFavicon = true
+[params.header]
+desktopMode = 'fixed'
+mobileMode = 'fixed'
+[params.home.profile]
+enable = true
+avatarURL = '/fixture/avatar.svg'
+title = 'A Quiet Notebook'
+subtitle = 'Notes on software, journeys and everyday life.'
+typeit = false
+social = false
+[params.home.posts]
+enable = true
+paginate = 10
+[params.search]
+enable = false
+[params.page]
+lightgallery = false
+[params.page.code]
+maxShownLines = 20
+[params.footer]
+copyright = false
+author = false
+[menu]
+[[menu.main]]
+name = 'Posts'
+url = '/posts/'
+weight = 1
+[[menu.main]]
+name = 'About'
+url = '/about/'
+weight = 2
+[markup.highlight]
+codeFences = false
+
+[params.header.title]
+name = "A Quiet Notebook"
+[params.cdn]
+data = ""

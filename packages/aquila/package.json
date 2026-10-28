@@ -1,0 +1,59 @@
+{
+  "name": "firekylin-theme-aquila",
+  "private": true,
+  "version": "0.1.0",
+  "title": "Aquila",
+  "description": "Aquila Bootstrap article grid, reading sidebar and front-page carousel",
+  "license": "GPL-2.0-or-later",
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "aquila"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "homeStyle",
+      "label": "首页样式",
+      "help": "blog（默认）或 front：介绍与文章轮播"
+    },
+    {
+      "type": "text",
+      "name": "heroText",
+      "label": "首页介绍",
+      "help": "front 模式显示，可选"
+    },
+    {
+      "type": "text",
+      "name": "logoUrl",
+      "label": "站点标志",
+      "help": "有权使用的图片 URL，留空显示站名"
+    },
+    {
+      "type": "text",
+      "name": "coverImage",
+      "label": "文章备用图片",
+      "help": "有权使用的 URL，可选"
+    },
+    {
+      "type": "text",
+      "name": "showSidebar",
+      "label": "文章侧栏",
+      "help": "true（默认）或 false"
+    },
+    {
+      "type": "text",
+      "name": "colorMode",
+      "label": "配色模式（新增）",
+      "help": "light、dark、auto"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "默认站点介绍"
+    }
+  ]
+}

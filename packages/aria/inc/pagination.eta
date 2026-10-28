@@ -1,0 +1,7 @@
+<% /* Firekylin adaptation, modified 2026-10-28; see NOTICE.md and LICENSE. */ %>
+<% const archive = firekylin.archive; const paging = archive.pagination; %>
+<% if (paging && paging.totalPages > 1) { %><nav class="fk-pagination" aria-label="分页">
+<% if (paging.currentPage > 1) { %><a rel="prev" href="<%= archive.pageUrl(paging.currentPage - 1) %>">上一页</a><% } %>
+<span>第 <%= paging.currentPage %> / <%= paging.totalPages %> 页</span>
+<% if (paging.currentPage < paging.totalPages) { %><a rel="next" href="<%= archive.pageUrl(paging.currentPage + 1) %>">下一页</a><% } %>
+</nav><% } %>

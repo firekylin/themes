@@ -1,0 +1,78 @@
+{
+  "name": "joe",
+  "title": "Joe",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Article list with blue accents and a right-hand profile/recent-post sidebar.",
+  "license": "ISC",
+  "author": "Joe",
+  "homepage": "https://github.com/HaoOuBa/Joe",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/joe"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "joe"
+  },
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "纯文本，不支持 HTML。"
+    },
+    {
+      "type": "text",
+      "name": "heroText",
+      "label": "站点简介",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "color",
+      "name": "accentColor",
+      "label": "强调色",
+      "help": "支持 #RGB 或 #RRGGBB。"
+    },
+    {
+      "type": "text",
+      "name": "colorMode",
+      "label": "配色模式",
+      "help": "填写 dark 启用深色；留空为浅色。"
+    },
+    {
+      "type": "text",
+      "name": "sidebarTitle",
+      "label": "侧栏标题",
+      "help": "留空显示最新文章。"
+    },
+    {
+      "type": "text",
+      "name": "carousel",
+      "label": "首页推荐图",
+      "help": "每行 图片URL||链接URL||标题；支持 http(s) 或站内路径。"
+    },
+    {
+      "type": "text",
+      "name": "authorImage",
+      "label": "资料栏封面",
+      "help": "图片 URL；不提供外部默认图片。"
+    },
+    {
+      "type": "text",
+      "name": "authorAvatar",
+      "label": "资料栏头像",
+      "help": "图片 URL；留空显示站点首字。"
+    },
+    {
+      "type": "text",
+      "name": "notice",
+      "label": "首页公告",
+      "help": "纯文本。"
+    }
+  ]
+}

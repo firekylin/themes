@@ -3,6 +3,21 @@
   "private": true,
   "packageManager": "pnpm@10.29.3",
   "scripts": {
-    "test": "node --test test/*.test.js"
+    "test": "node --test test/*.test.js",
+    "test:browser": "node scripts/check-ports-browser.js",
+    "preview:ports": "node scripts/preview-ports.js"
+  },
+  "devDependencies": {
+    "eta": "4.6.0",
+    "playwright-core": "1.58.2",
+    "stylus": "0.64.0",
+    "nib": "1.2.0",
+    "jszip": "3.10.2",
+    "semver": "7.8.5",
+    "bootstrap": "4.6.1",
+    "github-markdown-css": "4.0.0",
+    "bulma-stylus": "0.8.0",
+    "js-yaml": "4.1.0",
+    "less": "4.6.0"
   }
 }

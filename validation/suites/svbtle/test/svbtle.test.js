@@ -1,0 +1,4 @@
+'use strict';
+const test=require('node:test'),assert=require('node:assert/strict'),{render}=require('./port-fixture');
+test('Svbtle preserves full-content feed and optional excerpts without fake Kudos',async()=>{const full=await render('svbtle','index');assert.equal((full.match(/<pre>/g)||[]).length,6);assert.doesNotMatch(full,/Kudos|kudoable/);const excerpt=await render('svbtle','index',{config:{feedStyle:'excerpt'}});assert.doesNotMatch(excerpt,/<pre>/);assert.match(excerpt,/继续阅读/);});
+test('Svbtle author, accent and logo settings are escaped',async()=>{const html=await render('svbtle','index',{config:{username:'<img onerror=bad>',logoUrl:'javascript:bad',accentColor:'#aabbcc',showRss:'false'}});assert.match(html,/&lt;img/);assert.doesNotMatch(html,/src="javascript:/);assert.match(html,/--svbtle-accent:#aabbcc/);assert.doesNotMatch(html,/<li><a href="\/rss.html">/);});

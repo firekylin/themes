@@ -1,0 +1,64 @@
+{
+  "name": "firekylin-theme-svbtle",
+  "private": true,
+  "version": "0.1.0",
+  "title": "WP-Svbtle",
+  "description": "WP-Svbtle fixed author rail and full-content reading stream",
+  "license": "GPL-2.0-only",
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "svbtle"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "username",
+      "label": "作者副标题",
+      "help": "可选"
+    },
+    {
+      "type": "text",
+      "name": "heroText",
+      "label": "个人介绍",
+      "help": "默认站点介绍"
+    },
+    {
+      "type": "text",
+      "name": "logoUrl",
+      "label": "圆形标志",
+      "help": "有权使用的图片 URL；留空使用站名首字"
+    },
+    {
+      "type": "text",
+      "name": "showRss",
+      "label": "显示 RSS",
+      "help": "true（默认）或 false"
+    },
+    {
+      "type": "text",
+      "name": "feedStyle",
+      "label": "首页文章",
+      "help": "full（默认）或 excerpt"
+    },
+    {
+      "type": "text",
+      "name": "colorMode",
+      "label": "配色模式（新增）",
+      "help": "light（默认）、dark、auto"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "可选"
+    },
+    {
+      "type": "color",
+      "name": "accentColor",
+      "label": "强调色"
+    }
+  ]
+}

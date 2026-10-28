@@ -1,0 +1,85 @@
+{
+  "name": "@firekylin/theme-paul",
+  "title": "Paul",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Paul Typecho theme port",
+  "firekylin": {
+    "id": "paul",
+    "type": "theme"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "avatar",
+      "label": "头像",
+      "help": "图片 URL"
+    },
+    {
+      "type": "text",
+      "name": "profileName",
+      "label": "个人名称",
+      "help": "默认站点标题"
+    },
+    {
+      "type": "text",
+      "name": "background",
+      "label": "背景",
+      "help": "图片 URL"
+    },
+    {
+      "type": "text",
+      "name": "github_username",
+      "label": "GitHub 用户名",
+      "help": "用户名"
+    },
+    {
+      "type": "text",
+      "name": "weibo_id",
+      "label": "微博 ID",
+      "help": "ID"
+    },
+    {
+      "type": "text",
+      "name": "bili_id",
+      "label": "哔哩哔哩 ID",
+      "help": "ID"
+    },
+    {
+      "type": "text",
+      "name": "blog_url",
+      "label": "博客地址",
+      "help": "HTTP(S) URL"
+    },
+    {
+      "type": "text",
+      "name": "author_text",
+      "label": "文章附言",
+      "help": "纯文本"
+    },
+    {
+      "type": "text",
+      "name": "quotes",
+      "label": "语录",
+      "help": "每行一句"
+    },
+    {
+      "type": "text",
+      "name": "projects",
+      "label": "作品",
+      "help": "JSON 数组，元素 title/url/image/description"
+    },
+    {
+      "type": "text",
+      "name": "audioUrl",
+      "label": "音频",
+      "help": "可分发音频 URL，留空无播放器"
+    },
+    {
+      "type": "css",
+      "name": "customCSS",
+      "label": "自定义 CSS"
+    }
+  ]
+}

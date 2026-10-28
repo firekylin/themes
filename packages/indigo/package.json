@@ -1,0 +1,76 @@
+{
+  "name": "@firekylin/theme-indigo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Indigo for Firekylin",
+  "license": "Unlicense",
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "firekylin": {
+    "id": "indigo",
+    "type": "theme"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "Profile name"
+    },
+    {
+      "type": "text",
+      "name": "profileText",
+      "label": "Profile text"
+    },
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "Avatar URL"
+    },
+    {
+      "type": "text",
+      "name": "brandUrl",
+      "label": "Drawer background image URL"
+    },
+    {
+      "type": "text",
+      "name": "subtitle",
+      "label": "Site subtitle"
+    },
+    {
+      "type": "text",
+      "name": "hideMenu",
+      "label": "Hide desktop drawer on detail pages: true"
+    },
+    {
+      "type": "text",
+      "name": "showToc",
+      "label": "Show heading directory: true (default) or false"
+    },
+    {
+      "type": "text",
+      "name": "primaryColor",
+      "label": "Primary hex color (#3f51b5)"
+    },
+    {
+      "type": "text",
+      "name": "darkColor",
+      "label": "Footer hex color (#303f9f)"
+    },
+    {
+      "type": "text",
+      "name": "accentColor",
+      "label": "Accent hex color (#ff4081)"
+    },
+    {
+      "type": "text",
+      "name": "links",
+      "label": "Extra navigation JSON [{\"name\":\"\",\"url\":\"\"}]"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "Footer text"
+    }
+  ]
+}
