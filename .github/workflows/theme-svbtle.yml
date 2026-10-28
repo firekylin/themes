@@ -1,9 +1,9 @@
 name: Theme svbtle
 on:
   push:
-    paths: ['packages/svbtle/**', 'validation/suites/svbtle/**', '.github/workflows/theme-svbtle.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/svbtle/**', 'validation/suites/svbtle/**', '.github/workflows/theme-svbtle.yml']
   pull_request:
-    paths: ['packages/svbtle/**', 'validation/suites/svbtle/**', '.github/workflows/theme-svbtle.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/svbtle/**', 'validation/suites/svbtle/**', '.github/workflows/theme-svbtle.yml']
 permissions:
   contents: read
 jobs:

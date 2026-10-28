@@ -1,9 +1,9 @@
 name: Theme butterfly
 on:
   push:
-    paths: ['packages/butterfly/**', 'validation/suites/butterfly/**', '.github/workflows/theme-butterfly.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/butterfly/**', 'validation/suites/butterfly/**', '.github/workflows/theme-butterfly.yml']
   pull_request:
-    paths: ['packages/butterfly/**', 'validation/suites/butterfly/**', '.github/workflows/theme-butterfly.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/butterfly/**', 'validation/suites/butterfly/**', '.github/workflows/theme-butterfly.yml']
 permissions:
   contents: read
 jobs:

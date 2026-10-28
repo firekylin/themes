@@ -1,9 +1,9 @@
 name: Theme icarus
 on:
   push:
-    paths: ['packages/icarus/**', 'validation/suites/icarus/**', '.github/workflows/theme-icarus.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/icarus/**', 'validation/suites/icarus/**', '.github/workflows/theme-icarus.yml']
   pull_request:
-    paths: ['packages/icarus/**', 'validation/suites/icarus/**', '.github/workflows/theme-icarus.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/icarus/**', 'validation/suites/icarus/**', '.github/workflows/theme-icarus.yml']
 permissions:
   contents: read
 jobs:
