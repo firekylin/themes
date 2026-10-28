@@ -507,7 +507,159 @@ body.fk-dark {
 }
 
 /* Keep configured dark colors after theme-specific defaults. */
-body.fk-theme.fk-dark {--fk-bg:#191b20;--fk-paper:#252830;--fk-ink:#e4e6ec;--fk-muted:#a6adb8;--fk-line:#3b414b}
-.fk-theme.fk-dark .entry-title {color:var(--fk-ink)}
+body.fk-theme.fk-dark {
+  --fk-bg: #191b20;
+  --fk-paper: #252830;
+  --fk-ink: #e4e6ec;
+  --fk-muted: #a6adb8;
+  --fk-line: #3b414b;
+}
+.fk-theme.fk-dark .entry-title {
+  color: var(--fk-ink);
+}
 
-.fk-theme.fk-dark .entry-more, .fk-theme.fk-dark .entry-content a {color:#a9caff}
+.fk-theme.fk-dark .entry-more,
+.fk-theme.fk-dark .entry-content a {
+  color: #a9caff;
+}
+
+/* Full viewport home header and distinct post image header from Butterfly. */
+.fk-theme .fk-header {
+  position: absolute;
+  z-index: 5;
+  inset: 0 0 auto;
+  background: transparent;
+  color: white;
+  border: 0;
+  box-shadow: none;
+}
+.butterfly-hero {
+  height: 100vh;
+  min-height: 480px;
+  position: relative;
+  background: #49b1f5;
+  color: white;
+  display: grid;
+  place-items: center;
+}
+.butterfly-hero picture,
+.butterfly-hero picture img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.butterfly-hero picture:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #0005;
+}
+.butterfly-heading {
+  position: relative;
+  text-align: center;
+  padding: 90px 25px;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+.butterfly-heading h1 {
+  font-size: 40px;
+  color: inherit;
+  line-height: 1.5;
+}
+.butterfly-heading p {
+  font-size: 18px;
+  line-height: 1.8;
+}
+.butterfly-scroll {
+  position: absolute;
+  bottom: 25px;
+  left: calc(50% - 15px);
+  font-size: 32px;
+  color: white;
+}
+.butterfly-detail .butterfly-hero {
+  height: 400px;
+  min-height: 0;
+}
+.butterfly-detail .butterfly-heading {
+  text-align: left;
+  width: 1200px;
+  max-width: 100%;
+  padding-top: 130px;
+}
+.butterfly-detail .butterfly-heading h1 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.fk-theme.has-sidebar .fk-shell {
+  max-width: 1200px;
+  width: calc(100% - 40px);
+  grid-template-columns: minmax(0, 1fr) 290px;
+  gap: 15px;
+  margin: 40px auto;
+}
+.butterfly-avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto;
+  display: block;
+}
+.butterfly-follow {
+  display: block;
+  background: var(--fk-accent);
+  color: white;
+  padding: 8px;
+  margin-top: 20px;
+}
+.butterfly-toc {
+  border: 1px solid var(--fk-line);
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+.butterfly-toc summary {
+  cursor: pointer;
+  padding: 15px;
+}
+.butterfly-toc nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 15px 15px;
+}
+.fk-theme .entry-card {
+  overflow: hidden;
+}
+.fk-theme .entry-meta {
+  line-height: 1.8;
+}
+@media (max-width: 850px) {
+  .fk-theme.has-sidebar .fk-shell {
+    grid-template-columns: minmax(0, 1fr);
+    width: calc(100% - 24px);
+    max-width: none;
+    margin: 20px auto;
+  }
+  .butterfly-heading h1 {
+    font-size: 30px;
+  }
+  .butterfly-detail .butterfly-heading h1 {
+    font-size: 27px;
+  }
+  .butterfly-detail .butterfly-hero {
+    height: 360px;
+  }
+}
+.butterfly-hero {
+  grid-template-columns: minmax(0, 1fr);
+  overflow: hidden;
+}
+.butterfly-detail .butterfly-heading {
+  width: 100%;
+  max-width: 1200px;
+  justify-self: center;
+  min-width: 0;
+}
