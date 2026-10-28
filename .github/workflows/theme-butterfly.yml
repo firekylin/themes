@@ -1,13 +1,14 @@
 name: Theme butterfly
 on:
   push:
-    paths: ['packages/butterfly/**', 'validation/suites/butterfly/**', '.github/workflows/theme-butterfly.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/butterfly/**', 'validation/suites/butterfly/**', '.github/workflows/theme-butterfly.yml']
   pull_request:
-    paths: ['packages/butterfly/**', 'validation/suites/butterfly/**', '.github/workflows/theme-butterfly.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/butterfly/**', 'validation/suites/butterfly/**', '.github/workflows/theme-butterfly.yml']
 permissions:
   contents: read
 jobs:
   test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/typecho-butterfly' || github.ref == 'refs/heads/feat/typecho-butterfly'
     runs-on: ubuntu-latest
     defaults:
       run:
