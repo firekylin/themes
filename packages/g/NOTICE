@@ -1,0 +1,8 @@
+G 3.4.1 by 季悠然 (youranreus), GPL-3.0.
+https://github.com/youranreus/G
+Source commit: 8f26a6e7962f11b085b2c1ad4f9b4a518a3e85d4.
+2026-10-28 Firekylin adaptation: PHP templates replaced with Eta;
+original G.css layout retained, its import declarations and unverified bundled
+font removed; dark.css and animation.css retained; native interaction code added.
+Source is distributed under the retained GPL-3.0 license, including modifications.
+Original third-party emoji, icons, fonts and photos are not redistributed.

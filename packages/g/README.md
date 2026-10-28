@@ -1,0 +1,15 @@
+# G for Firekylin
+
+Port of [youranreus/G](https://github.com/youranreus/G/tree/8f26a6e7962f11b085b2c1ad4f9b4a518a3e85d4), pinned to `8f26a6e7962f11b085b2c1ad4f9b4a518a3e85d4` (398 stars at selection, 2026-10-28). GPL-3.0 license retained; modifications and omissions recorded in NOTICE. No upstream third-party imagery/emoji/font/icon bundles are included.
+
+The original G layout stylesheet, dark palette and animations are retained: 800px content area, broad rounded header, two-column posts, alternate full-width excerpts and cover cards, large post banners, sliding profile/widgets, floating controls and archive list. This uses G's actual selectors/markup and is independently installable, not a color variant of another port.
+
+Install `g-0.1.0.zip` through Firekylin's theme installer. Tested against Firekylin 2.16.0 core `99bbdcb919bae2133420dee214c5f8897b9ace25`. Configure `articleStyle` (0/1/2), theme/header colors, radius/shadow, background/tiling, header image, default post cover, profile images/description, sponsor image/text, automatic directory, system or scheduled night mode, build year and ICP details. Individual featured images, `fields.imgurl` or `fields.thumb` provide covers. The theme uses site navigation and native public content routes. Manual night choice persists in localStorage. Directory, sidebar, sponsor panel and native image dialog support keyboard controls.
+
+## Differences and limits
+
+Persistent likes/views, Typecho editor extensions/shortcodes/reply-to-see, custom homepage, lyrics/lilt/raw/redirect/friends templates, PJAX, ExSearch integration, KaTeX, syntax highlighting and third-party sidebar video/random quote/comment services are not implemented. Content requiring those Typecho shortcodes must be migrated to normal HTML/Markdown; no permission-protected shortcodes are interpreted. The sidebar includes profile/category/recent posts/tags rather than all original custom widgets. Toolbar icons are simple text replacements. Article dates use absolute dates; description uses the first `||` item rather than random selection. Background accepts a configured color/image; Bing/random image APIs are not invoked. Original JetBrains font bundle omitted; system/monospace fallbacks apply.
+
+Comments use Firekylin's native widget. Server comment gating is verified, but full Waline login/submission remains unverified due the environment's observed CDN certificate failure. No certificate or access controls were bypassed. Configuration persisted in local SQLite and exercised by requests; browser admin save flow not tested.
+
+`verification/g` includes real ZIP build/installation, live SQLite route and privacy checks, actual pagination clicks, three list modes, persisted dark-mode toggle, sidebar/TOC, sponsor and lightbox tests. Pinned Typecho and Firekylin home/post screenshots at 1440/390px accompany geometry. Default first-card position/size matches at both sizes. Fixture counts/categories and comment availability differ; screenshots do not establish complete feature parity.
