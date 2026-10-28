@@ -1,0 +1,329 @@
+/* Modified for Firekylin on 2026-10-28. Upstream: bhaoo/Cuckoo.
+ * CSS subset/adaptation; font faces, imported styles and URL declarations removed.
+ * See NOTICE.md for author, license, source revision and resource audit. */
+/* Source: assets/css/cuckoo.min.css */
+/**
+ * .______    __    __       ___        ______
+ * |   _  \  |  |  |  |     /   \      /  __  \
+ * |  |_)  | |  |__|  |    /  ^  \    |  |  |  |
+ * |   _  <  |   __   |   /  /_\  \   |  |  |  |
+ * |  |_)  | |  |  |  |  /  _____  \  |  `--'  |
+ * |______/  |__|  |__| /__/     \__\  \______/
+ *
+ * Css
+ *
+ * @author Bhao
+ * @link https://dwd.moe/
+ * @date 2025-03-05
+ */
+
+html {
+  --color: #ff4081;
+}
+body {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+.mdui-card {
+  transition: all 0.3s;
+}
+.mdui-appbar {
+  color: #fff;
+  text-shadow: 1px 1px 1px #424242;
+}
+.index-filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.mdui-appbar .mdui-textfield-expanded {
+  width: 25%;
+}
+.mdui-theme-layout-dark .mdui-appbar .mdui-icon {
+  color: rgba(255, 255, 255, 0.7);
+}
+.index-container {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding-top: 44px;
+  flex: 1;
+}
+.mdui-card {
+  border-radius: 7px;
+}
+.index-card {
+  height: 350px;
+  margin: 20px 0;
+  transform: scale(1);
+}
+@media (max-width: 600px) {
+  .index-card {
+    height: 230px;
+  }
+  .index-card .mdui-card-primary-title {
+    line-height: 25px;
+  }
+  .index-card .mdui-card-primary-subtitle {
+    line-height: 20px;
+  }
+}
+.index-card-daily {
+  overflow: visible;
+  margin: 43px 0 0 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.mdui-theme-layout-dark .index-card-daily {
+  background-color: rgba(66, 66, 66, 0.8);
+}
+.index-card-daily .mdui-card-primary {
+  margin-left: 25px;
+  padding-top: 40px;
+}
+.index-card-daily .mdui-card-content {
+  padding: 0 40px 35px 40px;
+}
+.index-normal {
+  text-decoration: none;
+  color: inherit;
+}
+.index-card-normal {
+  margin: 20px 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s;
+}
+.index-primary-normal {
+  padding: 16px;
+}
+.index-content-normal {
+  padding: 0 16px;
+}
+.index-chip-normal {
+  margin-top: 16px;
+}
+.index-icon {
+  position: absolute;
+  top: -23px;
+  left: 20px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  transition: all 0.2s;
+}
+.mdui-theme-layout-dark .index-icon {
+  background-color: #424242;
+}
+.index-card-daily:hover .index-icon {
+  transform: scale(1.15);
+}
+.index-img {
+  background: center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  animation: fadeIn 0.3s;
+  transition: transform 0.3s;
+}
+.index-img:not(.initial) {
+  transition: all 0.3s;
+}
+.mdui-theme-layout-dark .index-img:before {
+  background-color: rgba(0, 0, 0, 0.3);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.mdui-card-media-covered {
+  transition: all 0.2s;
+}
+.index-img-media {
+  height: 350px;
+}
+@media (max-width: 600px) {
+  .index-img-media {
+    height: 230px;
+  }
+}
+.index-img-media:hover .mdui-card-media-covered {
+  background: rgba(0, 0, 0, 0.3);
+}
+.index-img-media:hover .index-img {
+  transform: scale(1.05);
+}
+.index-card-filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.3s;
+}
+.index-img-media:hover .index-card-filter {
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+.mdui-card-primary-subtitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-height: 24px;
+}
+.index-img-media:hover .index-info {
+  margin-bottom: 0;
+}
+.index-img-media:hover .index-primary {
+  margin-bottom: 0;
+}
+@media (min-width: 1024px) {
+  .index-card-filter {
+    backdrop-filter: blur(0px);
+  }
+  .index-info {
+    margin-bottom: 16px;
+    transition: all 0.2s;
+  }
+  .index-primary {
+    margin-bottom: -36px;
+    transition: all 0.2s;
+  }
+}
+footer {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  flex: 0;
+  color: #666666;
+  transition: all 0.3s;
+  margin-top: 20px;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: #666666;
+  transition: all 0.3s;
+}
+footer a:hover {
+  color: #3b3b3b;
+}
+footer p span:not([id="cuckoo-copy"]):not(:first-of-type)::before {
+  content: "｜";
+}
+.mdui-col-md-4 .mdui-card {
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.mdui-theme-layout-dark .mdui-col-md-4 .mdui-card {
+  background-color: rgba(66, 66, 66, 0.8);
+}
+.sidebar-info-img {
+  height: 120px;
+  overflow: hidden;
+}
+.sidebar-info-bg {
+  height: 100%;
+  background: center center no-repeat;
+  background-size: cover;
+  transition: all 0.3s;
+}
+.mdui-theme-layout-dark .sidebar-info-bg:before {
+  background-color: rgba(0, 0, 0, 0.3);
+  content: "";
+  height: 200px;
+  display: block;
+}
+.sidebar-info:hover .sidebar-info-bg {
+  transform: scale(1.1);
+}
+.sidebar-info-img .mdui-img-circle {
+  background: center center no-repeat;
+  background-size: cover;
+  width: 100px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 55px;
+  height: 100px;
+}
+.sidebar-info-body {
+  text-align: center;
+  word-break: break-all;
+  width: 85%;
+  margin: 44px auto 17px auto;
+  font-size: 20px;
+}
+.sidebar-info-name {
+  font-weight: 500;
+}
+.sidebar-info-desc {
+  font-size: 15px;
+  margin-top: 5px;
+}
+.sidebar-module {
+  margin-top: 20px;
+}
+.sidebar-module-title {
+  text-align: center;
+  margin: 5px 0 10px 0;
+  font-weight: 500;
+}
+.sidebar-module-list {
+  min-height: 35px;
+  height: 35px;
+}
+.sidebar-tag {
+  padding: 10px 10px 0 10px;
+}
+.sidebar-tag .mdui-chip {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+}
+.mdui-theme-layout-dark .sidebar-tag .mdui-chip {
+  background-color: rgba(53, 53, 53, 0.8);
+}
+.sidebar-tag li {
+  text-align: center;
+}
+.sidebar-reply-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.mdui-card-primary-subtitle a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.post-card-media-normal .mdui-card-media-covered {
+  background: unset;
+  color: #000;
+}
+.post-card-media-normal .mdui-card-media-covered a {
+  color: inherit;
+}
+.mdui-theme-layout-dark .post-card-media-normal .mdui-card-media-covered {
+  color: #fff;
+}
+.comment-card .mdui-card-header-title {
+  margin-left: 64px;
+  margin-top: 5px;
+}
+.comment-card .mdui-card-header-subtitle {
+  margin-left: 64px;
+}
+.mdui-theme-layout-dark .mdui-card {
+  color: #fff;
+  background-color: rgba(66, 66, 66, 0.8);
+}
