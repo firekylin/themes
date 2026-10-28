@@ -14,6 +14,20 @@
     },
     {
       "type": "theme",
+      "name": "maupassant",
+      "id": "maupassant",
+      "version": "0.1.0",
+      "title": "maupassant",
+      "description": "Maupassant Typecho theme adapted to Firekylin Eta and Widgets",
+      "download": "https://github.com/firekylin/themes/releases/download/maupassant-v0.1.0/maupassant-0.1.0.zip",
+      "integrity": "sha512-KG1g7PMu3FbXRRWZFjJxZI8avru8fSyHFHBMKco8LgxwoYcvFdQvOaUMlDbfShbR1FbCh1gTmza+y9s0S8kXiA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/maupassant/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
       "name": "pinghsu",
       "id": "pinghsu",
       "version": "0.1.0",
