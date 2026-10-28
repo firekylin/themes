@@ -262,7 +262,7 @@
 	line-height: 2
 }
 
-.post-content img[src=""], 
+.post-content img[src=""],
 .post-content img:not([src]) {
 	display: none
 }
@@ -425,7 +425,7 @@
 	box-sizing: border-box;
 	margin-bottom: .5em
 }
-#comment-form .textarea, 
+#comment-form .textarea,
 #comment-form input:not(.submit-extra input) {
 	border: 2px solid var(--light-bg);
 	color: var(--text-color);
@@ -485,10 +485,10 @@
 #comment-form .submit .throbber-loader {
 	position: absolute;
 	top:0;
-   	left: 0;
-   	right: 0;
-   	bottom: 0;
-   	margin:auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
 }
 .submit-extra {
 	display: flex;

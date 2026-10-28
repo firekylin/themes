@@ -70,18 +70,18 @@ table {
 	width: 100%;
 	margin: 1em 0
 }
-  
+
 td,
 th {
 	padding: 0;
 }
-  
+
 table td,
 table th {
 	border: 1px solid var(--light-gray-bg);
 	padding: 6px 13px;
 }
-  
+
 table tr {
 	background-color: var(--white-or-black);
 	border-top: 1px solid var(--light-gray-bg);

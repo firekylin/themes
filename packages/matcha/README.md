@@ -14,4 +14,4 @@ Typecho-specific sticky-post helper, views, frontend login/comment form, comment
 
 ## Modified files
 
-All Eta templates, widgets.js, res/port.js and res/port.css are Firekylin adaptation work dated 2026-10-28. Original res/matcha.css removes the external font import; res/matcha.page.css changes #logo selectors to .site-title to avoid duplicate IDs. Other matcha styles retain upstream source. See verification/matcha for reproducible integration checks and comparison evidence.
+All Eta templates, widgets.js, res/port.js and res/port.css are Firekylin adaptation work dated 2026-10-28. Original res/matcha.css removes the external font import; res/matcha.page.css changes #logo selectors to .site-title to avoid duplicate IDs. Other matcha styles retain upstream source with trailing whitespace normalized. See verification/matcha for reproducible integration checks and comparison evidence.
