@@ -17,6 +17,8 @@ importers:
 
   packages/butterfly: {}
 
+  packages/cuckoo: {}
+
   packages/firekylin: {}
 
   packages/icefox: {}
