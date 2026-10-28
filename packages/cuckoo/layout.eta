@@ -1,0 +1,12 @@
+<% /* Firekylin adaptation, modified 2026-10-28; see NOTICE.md and LICENSE. */ %>
+<% const site = await firekylin.widget('Widget_Options'); const config = site.themeConfig || {}; const accent = /^#[0-9a-f]{3}(?:[0-9a-f]{3})?$/i.test(config.accentColor || '') ? config.accentColor : '#ff4081'; %>
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title><%~ block('title') %></title><meta name="description" content="<%= site.description() %>">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.html">
+<link rel="stylesheet" href="<%= site.themeUrl('res/css/upstream.css') %>"><link rel="stylesheet" href="<%= site.themeUrl('res/css/firekylin.css') %>">
+<style>:root{--fk-accent:<%= accent %>}</style><%~ block('headers') %></head>
+<body class="fk-theme has-sidebar <%= config.colorMode === 'dark' ? 'fk-dark' : '' %>"><a class="skip-link" href="#main">跳转到正文</a>
+<header class="fk-header"><a class="fk-brand" href="/"><%= site.title() %></a><nav class="fk-nav" aria-label="主导航"><% for (const nav of site.navigation) { %><a href="<%= nav.url %>"><%= nav.label %></a><% } %><a href="/search.html">搜索</a></nav></header>
+<div class="fk-hero"><h1><%= site.title() %></h1><p><%= config.heroText || site.description() %></p></div>
+<div class="fk-shell"><main id="main"><%~ block('content') %></main><aside class="fk-sidebar" aria-label="侧栏"><section class="fk-widget fk-profile"><span class="fk-monogram" aria-hidden="true"><%= Array.from(site.title())[0] || 'F' %></span><h2><%= site.title() %></h2><p><%= config.heroText || site.description() %></p></section>
+<section class="fk-widget"><h2><%= config.sidebarTitle || '最新文章' %></h2><ul><% const recent = await firekylin.widget('Widget_Contents_Post_Recent', {pageSize:5}); while(recent.next()) { %><li><a href="<%= recent.permalink %>"><%= recent.title() %></a></li><% } %></ul></section><section class="fk-widget"><h2>浏览</h2><ul><li><a href="/archives">归档</a></li><li><a href="/categories">分类</a></li><li><a href="/tags">标签</a></li></ul></section></aside></div><footer class="fk-footer"><p><%= config.footerText || site.title() %></p><p>Powered by <a href="https://github.com/firekylin/firekylin">Firekylin</a> · <a href="https://github.com/bhaoo/Cuckoo">Cuckoo</a> by Bhao · <a href="/rss.html">RSS</a></p></footer></body></html>
