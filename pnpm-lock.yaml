@@ -46,6 +46,8 @@ importers:
 
   packages/akina: {}
 
+  packages/aquila: {}
+
   packages/argon: {}
 
   packages/aria: {}
