@@ -1,0 +1,8 @@
+<% const archive = firekylin.archive; %>
+<div class="post-lists"><div class="post-lists-body">
+<% while (archive.next()) { const cover = String(archive.row.featuredImage || ''); %>
+<article class="post-list-item"><div class="post-list-item-container">
+<a href="<%= archive.permalink %>" tabindex="-1" aria-hidden="true"><div class="item-thumb"><% if (/^(https?:\/\/|\/(?!\/))/.test(cover)) { %><img src="<%= cover %>" alt="" loading="lazy"><% } %></div></a>
+<div class="item-slant"></div><div class="item-label"><h2 class="item-title"><a href="<%= archive.permalink %>"><%= archive.title() %></a></h2>
+<div class="item-meta"><time class="item-meta-date" datetime="<%= archive.date('YYYY-MM-DD') %>"><%= archive.date('YYYY-MM-DD') %></time></div><p class="item-excerpt"><%= archive.excerpt(65) %></p></div>
+</div></article><% } %></div></div>
