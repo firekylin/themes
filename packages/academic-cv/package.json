@@ -1,0 +1,47 @@
+{
+  "name": "academic-cv",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "HugoBlox Academic CV profile and research collections for Firekylin",
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "profileJSON",
+      "label": "Academic profile",
+      "help": "JSON: name, role, affiliation, bio, avatarUrl, avatarSize, avatarShape, emoji, cvUrl, cvLabel, education[], interests[]"
+    },
+    {
+      "type": "text",
+      "name": "researchTitle",
+      "label": "Research heading",
+      "help": "Defaults to My Research"
+    },
+    {
+      "type": "text",
+      "name": "researchText",
+      "label": "Research description",
+      "help": "Plain text"
+    },
+    {
+      "type": "text",
+      "name": "collectionLimit",
+      "label": "Homepage collection window",
+      "help": "10\u2013500 recent public posts; default 100"
+    },
+    {
+      "type": "text",
+      "name": "colorMode",
+      "label": "Color scheme",
+      "help": "auto / light / dark"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "Footer",
+      "help": "Plain text"
+    }
+  ]
+}

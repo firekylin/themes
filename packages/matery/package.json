@@ -1,0 +1,71 @@
+{
+  "name": "@firekylin/theme-matery",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Matery for Firekylin",
+  "license": "Apache-2.0",
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "firekylin": {
+    "id": "matery",
+    "type": "theme"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "coverUrl",
+      "label": "Cover image URL"
+    },
+    {
+      "type": "text",
+      "name": "defaultThumbnail",
+      "label": "Default article image URL"
+    },
+    {
+      "type": "text",
+      "name": "slogan",
+      "label": "Cover title"
+    },
+    {
+      "type": "text",
+      "name": "buttonLabel",
+      "label": "Second cover button text"
+    },
+    {
+      "type": "text",
+      "name": "buttonUrl",
+      "label": "Second cover button URL"
+    },
+    {
+      "type": "text",
+      "name": "slides",
+      "label": "Cover slides JSON [{\"title\":\"\",\"description\":\"\",\"image\":\"\",\"url\":\"\"}]"
+    },
+    {
+      "type": "text",
+      "name": "dreamTitle",
+      "label": "Dream card title"
+    },
+    {
+      "type": "text",
+      "name": "dreamText",
+      "label": "Dream card text"
+    },
+    {
+      "type": "text",
+      "name": "showToc",
+      "label": "Show table of contents: true (default) or false"
+    },
+    {
+      "type": "text",
+      "name": "showUpdated",
+      "label": "Show updated date: true"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "Footer text"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "hugo-book",
+  "version": "0.1.0",
+  "description": "Hugo Book documentation layout and navigation for Firekylin",
+  "license": "(MIT AND Apache-2.0)",
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "homeMode",
+      "label": "Homepage",
+      "help": "posts (default) or document (newest public post as full document)"
+    },
+    {
+      "type": "text",
+      "name": "menuJSON",
+      "label": "Documentation tree",
+      "help": "Array of label, url, children[], collapsed; empty uses site navigation"
+    },
+    {
+      "type": "text",
+      "name": "colorMode",
+      "label": "Color scheme",
+      "help": "light, dark, auto, contrast-light/dark/auto, catppuccin-light/dark/auto, ayu-light/dark/auto"
+    },
+    {
+      "type": "text",
+      "name": "direction",
+      "label": "Text direction",
+      "help": "ltr or rtl"
+    },
+    {
+      "type": "text",
+      "name": "language",
+      "label": "HTML language",
+      "help": "Defaults to en"
+    },
+    {
+      "type": "text",
+      "name": "showTOC",
+      "label": "Table of contents",
+      "help": "true (default) or false"
+    },
+    {
+      "type": "text",
+      "name": "logoUrl",
+      "label": "Logo",
+      "help": "HTTP(S) or root-relative image URL"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "Footer",
+      "help": "Plain text"
+    }
+  ]
+}

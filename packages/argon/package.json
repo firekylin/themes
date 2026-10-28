@@ -1,0 +1,93 @@
+{
+  "name": "firekylin-theme-argon",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Argon WordPress theme adapted to Firekylin",
+  "license": "GPL-3.0-only",
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "argon"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "heroText",
+      "label": "横幅副标题",
+      "help": "留空使用站点描述"
+    },
+    {
+      "type": "text",
+      "name": "bannerTitle",
+      "label": "横幅标题",
+      "help": "留空使用站点标题"
+    },
+    {
+      "type": "text",
+      "name": "bannerImage",
+      "label": "横幅图片 URL",
+      "help": "使用您有权使用的 HTTPS 或站内图片"
+    },
+    {
+      "type": "text",
+      "name": "sidebarTitle",
+      "label": "侧栏标题",
+      "help": "留空使用站点标题"
+    },
+    {
+      "type": "text",
+      "name": "sidebarSubtitle",
+      "label": "侧栏格言",
+      "help": "侧栏标题下的简短说明"
+    },
+    {
+      "type": "text",
+      "name": "announcement",
+      "label": "公告",
+      "help": "纯文本公告"
+    },
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "头像 URL",
+      "help": "HTTPS 或站内图片"
+    },
+    {
+      "type": "text",
+      "name": "pageLayout",
+      "label": "页面布局",
+      "help": "double（默认）、reverse、single"
+    },
+    {
+      "type": "text",
+      "name": "colorMode",
+      "label": "颜色模式",
+      "help": "auto（默认跟随系统）、light、dark、black"
+    },
+    {
+      "type": "text",
+      "name": "fontFamily",
+      "label": "字体",
+      "help": "sans（默认）或 serif"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "保留 Argon 名称和原作链接"
+    },
+    {
+      "type": "text",
+      "name": "excerptLength",
+      "label": "摘要长度",
+      "help": "0–600，默认 175"
+    },
+    {
+      "type": "color",
+      "name": "accentColor",
+      "label": "主题色"
+    }
+  ]
+}

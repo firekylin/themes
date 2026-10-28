@@ -1,0 +1,118 @@
+[
+  {
+    "width": 1280,
+    "geometry": {
+      "profile": {
+        "x": 315.515625,
+        "y": 56,
+        "width": 648.953125,
+        "height": 239
+      },
+      "avatar": {
+        "x": 591.984375,
+        "y": 96,
+        "width": 96,
+        "height": 96
+      },
+      "summary": {
+        "x": 315.515625,
+        "y": 295,
+        "width": 648.953125,
+        "height": 154.765625
+      },
+      "title": {
+        "x": 315.515625,
+        "y": 317.390625,
+        "width": 648.953125,
+        "height": 28
+      }
+    }
+  },
+  {
+    "width": 1280,
+    "sourceGeometry": {
+      "profile": {
+        "x": 315.515625,
+        "y": 56,
+        "width": 648.953125,
+        "height": 239
+      },
+      "avatar": {
+        "x": 591.984375,
+        "y": 96,
+        "width": 96,
+        "height": 96
+      },
+      "summary": {
+        "x": 315.515625,
+        "y": 295,
+        "width": 648.953125,
+        "height": 154.765625
+      },
+      "title": {
+        "x": 315.515625,
+        "y": 317.390625,
+        "width": 648.953125,
+        "height": 28
+      }
+    }
+  },
+  {
+    "width": 390,
+    "geometry": {
+      "profile": {
+        "x": 16,
+        "y": 56,
+        "width": 358,
+        "height": 263
+      },
+      "avatar": {
+        "x": 147,
+        "y": 96,
+        "width": 96,
+        "height": 96
+      },
+      "summary": {
+        "x": 16,
+        "y": 319,
+        "width": 358,
+        "height": 154.765625
+      },
+      "title": {
+        "x": 16,
+        "y": 341.390625,
+        "width": 358,
+        "height": 28
+      }
+    }
+  },
+  {
+    "width": 390,
+    "sourceGeometry": {
+      "profile": {
+        "x": 16,
+        "y": 56,
+        "width": 358,
+        "height": 263
+      },
+      "avatar": {
+        "x": 147,
+        "y": 96,
+        "width": 96,
+        "height": 96
+      },
+      "summary": {
+        "x": 16,
+        "y": 319,
+        "width": 358,
+        "height": 154.765625
+      },
+      "title": {
+        "x": 16,
+        "y": 341.390625,
+        "width": 358,
+        "height": 28
+      }
+    }
+  }
+]

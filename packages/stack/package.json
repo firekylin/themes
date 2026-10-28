@@ -1,0 +1,59 @@
+{
+  "name": "stack",
+  "version": "0.1.0",
+  "license": "GPL-3.0-only",
+  "description": "Stack card and sidebar theme for Firekylin",
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "站点头像",
+      "help": "HTTP(S) 或站内绝对 URL"
+    },
+    {
+      "type": "text",
+      "name": "emoji",
+      "label": "头像标记",
+      "help": "头像角标表情"
+    },
+    {
+      "type": "text",
+      "name": "subtitle",
+      "label": "副标题",
+      "help": "默认网站描述"
+    },
+    {
+      "type": "text",
+      "name": "compact",
+      "label": "紧凑侧栏",
+      "help": "true / false"
+    },
+    {
+      "type": "text",
+      "name": "colorMode",
+      "label": "默认颜色",
+      "help": "auto / light / dark"
+    },
+    {
+      "type": "text",
+      "name": "showToc",
+      "label": "文章目录",
+      "help": "true / false，默认 true"
+    },
+    {
+      "type": "text",
+      "name": "showCopy",
+      "label": "代码复制",
+      "help": "true / false，默认 true"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文本",
+      "help": "纯文字"
+    }
+  ]
+}

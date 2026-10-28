@@ -1,0 +1,25 @@
+{
+  "starter": {
+    "repository": "https://github.com/HugoBlox/hugo-theme-academic-cv",
+    "commit": "698fbb2d6828cb2dd6a71901b8b686b48143ab27"
+  },
+  "module": {
+    "repository": "https://github.com/HugoBlox/kit",
+    "commit": "61f41d3667f1799bf35bf0ac23c6ec9226956522",
+    "path": "modules/blox"
+  },
+  "license": "MIT",
+  "build": {
+    "hugo": "0.169.0 extended",
+    "tailwindcss": "4.3.3",
+    "typography": "0.5.20",
+    "font_pack": "system",
+    "theme_pack": "default"
+  },
+  "css_sha256": "c453032c1b9c1854121712423437c0a99266524df613bccbd2d4aea0d5da7fb1",
+  "changes": [
+    "Hugo templates translated to Eta/native Widgets",
+    "Runtime theme CSS retained with default palette and system font pack",
+    "Noise texture URL disabled; no upstream images or vendor JS bundled"
+  ]
+}
