@@ -1,0 +1,17 @@
+{
+  "upstream": "AlanDecode/Typecho-Theme-VOID",
+  "files": [
+    "assets/parts/_var.scss",
+    "assets/parts/_index.scss",
+    "assets/parts/_header.scss",
+    "assets/parts/_footer.scss"
+  ],
+  "filter": null,
+  "changes": [
+    "removed font-face and imports",
+    "removed declarations containing URLs",
+    "filtered theme-owned selectors where recorded",
+    "formatted for direct editing"
+  ],
+  "build": "sass 1.93.2 source/layout.scss; JJ additionally appends static/css/theme/light.css before applying the recorded filter."
+}
