@@ -26,7 +26,7 @@ class FixtureWidget {
   content() {return this.row.content;}
   date() {return '2026-10-28';}
   author() {return this.row.user?.display_name || '';}
-  excerpt(n) {return this.row.summary.replace(/<[^>]*>/g, '').slice(0, n);}
+  excerpt(n) {return this.row.summary.replace(/<[^>]*>/g, '').slice(0, n || undefined);}
   get permalink() {return this.metaType ? `/${this.metaType}/${this.row.pathname}` : this.permalinkFor(this.row);}
   permalinkFor(row) {return `/${row.type === 1 ? 'page' : 'post'}/${row.pathname}.html`;}
   is(type) {return type === this.kind;}
@@ -36,6 +36,7 @@ function context(theme, page, opts = {}) {
   const core = process.env.FIREKYLIN_CORE_PATH;
   const request = opts.request || (page === 'search' ? '/search.html?keyword=reading' : '/');
   const selected = opts.empty ? [] : structuredClone(rows);
+  if(opts.media && selected.length) {selected[0].summary='<p>'+('这是一次山间旅行的记录，沿途拍下了山川与河流。'.repeat(10))+'</p>'+Array.from({length:4},(_,i)=>'<img src="/fixture/image'+i+'.svg">').join('');selected[1].summary='<p>一张照片</p><img src="/fixture/image.svg">';}
   if (opts.hostile && selected.length) {
     selected[0].title = '<img src=x onerror=alert(1)>';
     selected[0].cate = [{name:'<script>bad()</script>', pathname:'notes'}];

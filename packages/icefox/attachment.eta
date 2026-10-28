@@ -2,11 +2,14 @@
 <% layout('./layout'); const site = await firekylin.widget('Widget_Options'); const archive = await firekylin.widget('Widget_Archive', {type:'attachment'}); const found = archive.next(); %>
 <% block('title', () => { %><%= found ? archive.title() : '内容未找到' %> - <%= site.title() %><% }) %>
 <% block('headers', () => { %><% if (found) { %><link rel="canonical" href="<%= site.siteUrl + archive.permalink %>"><% } %><% }) %>
-<% block('content', () => { %><article class="post fk-detail">
-<% if (found) { %><h1 class="post-title"><%= archive.title() %></h1>
-<p class="fk-meta"><time datetime="<%= archive.date('YYYY-MM-DD') %>"><%= archive.date('YYYY-MM-DD') %></time> · <%= archive.author() %></p>
-<div class="post-content"><%~ archive.content() %></div>
-<ul class="fk-metas"><% for (const kind of ['cate','tag']) { for (const meta of (archive.row[kind] || [])) { %><li><a href="/<%= kind %>/<%= meta.pathname %>"><%= meta.name %></a></li><% } } %></ul>
-<nav class="fk-pagination" aria-label="相邻文章"><% if (archive.row.prev && archive.row.prev.title) { %><a rel="prev" href="<%= archive.permalinkFor(archive.row.prev) %>">← <%= archive.row.prev.title %></a><% } %><% if (archive.row.next && archive.row.next.title) { %><a rel="next" href="<%= archive.permalinkFor(archive.row.next) %>"><%= archive.row.next.title %> →</a><% } %></nav>
-<%~ firekylin.comment({className:'fk-comments',title:'评论'}) %>
-<% } else { %><h1 class="post-title">内容未找到</h1><p><a href="/">返回首页</a></p><% } %></article><% }) %>
+<% block('content', () => { %>
+<% if(found) { const config=site.themeConfig || {}; const avatar=/^(https?:\/\/|\/(?!\/))[^\s<>\x22\x27]*$/i.test(config.logoUrl || '') ? config.logoUrl : ''; %>
+<article class="post-item post-detail-item"><div class="post-item-left"><% if(avatar) { %><img src="<%= avatar %>" alt=""><% } else { %><span class="icefox-avatar"><%= Array.from(archive.author() || site.title())[0] %></span><% } %></div><div class="post-item-right">
+<p class="post-title"><a href="/author/<%= encodeURIComponent(archive.row.user?.name || '') %>"><%= archive.author() || site.title() %></a></p>
+<h1 class="icefox-detail-title"><%= archive.title() %></h1>
+<div class="post-content icefox-detail-content"><%~ archive.content() %></div>
+<div class="post-time"><time datetime="<%= archive.date('YYYY-MM-DD') %>"><%= archive.date('YYYY-MM-DD') %></time></div>
+<ul class="fk-metas"><% for(const kind of ['cate','tag']) { for(const meta of archive.row[kind] || []) { %><li><a href="/<%= kind %>/<%= meta.pathname %>"><%= meta.name %></a></li><% } } %></ul>
+<nav class="fk-pagination" aria-label="相邻文章"><% if(archive.row.prev?.title) { %><a rel="prev" href="<%= archive.permalinkFor(archive.row.prev) %>">← <%= archive.row.prev.title %></a><% } %><% if(archive.row.next?.title) { %><a rel="next" href="<%= archive.permalinkFor(archive.row.next) %>"><%= archive.row.next.title %> →</a><% } %></nav>
+<%~ firekylin.comment({className:'icefox-comments',title:'评论'}) %></div></article>
+<% } else { %><h1 class="fk-title">内容未找到</h1><p><a href="/">返回首页</a></p><% } %><% }) %>

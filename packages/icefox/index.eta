@@ -5,7 +5,7 @@
 <% if (heading) { %><h1 class="fk-title"><%= heading %></h1><% } %>
 
 <% if (archive.archiveDescription) { %><p><%= archive.archiveDescription %></p><% } %>
-<%~ include('./inc/list', {archive}) %>
+<%~ include('./inc/list', {archive,site}) %>
 <% if (!archive.have()) { %><p class="fk-empty">暂无文章。</p><% } %>
-<%~ include('./inc/pagination', {archive}) %>
+<%~ include('./inc/pagination', {archive,site}) %>
 <% }) %>

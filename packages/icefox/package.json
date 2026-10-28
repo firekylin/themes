@@ -3,7 +3,7 @@
   "title": "icefox",
   "version": "0.1.0",
   "private": true,
-  "description": "Narrow social timeline with author initials, timestamps and a profile cover.",
+  "description": "icefox 3.0.3 Moments layout: cover, overlapping profile, author timeline, media grid and native comments.",
   "license": "GPL-3.0-only",
   "author": "小胖脸",
   "homepage": "https://github.com/xiaopanglian/icefox",
@@ -33,16 +33,40 @@
       "help": "留空使用站点描述。"
     },
     {
-      "type": "color",
-      "name": "accentColor",
-      "label": "强调色",
-      "help": "支持 #RGB 或 #RRGGBB。"
-    },
-    {
       "type": "text",
       "name": "colorMode",
       "label": "配色模式",
       "help": "填写 dark 启用深色；留空为浅色。"
+    },
+    {
+      "type": "text",
+      "name": "topImage",
+      "label": "封面图片",
+      "help": "图片 URL；支持站内绝对路径或 HTTP(S)。"
+    },
+    {
+      "type": "text",
+      "name": "topVideo",
+      "label": "封面视频",
+      "help": "视频 URL；优先于图片，静音循环播放，减少动态效果时暂停。"
+    },
+    {
+      "type": "text",
+      "name": "logoUrl",
+      "label": "头像",
+      "help": "站点及动态使用的头像 URL；未配置显示首字。"
+    },
+    {
+      "type": "text",
+      "name": "avatarLink",
+      "label": "头像链接",
+      "help": "点击站点头像跳转地址。"
+    },
+    {
+      "type": "text",
+      "name": "autoCollapse",
+      "label": "折叠摘要",
+      "help": "默认折叠超过 100 字的摘要；填写 0 显示完整摘要。"
     }
   ]
 }

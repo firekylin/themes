@@ -12,7 +12,7 @@ and third-party resource audit. Original license/attribution materials are retai
 Copy this directory into `themes/icefox` (independent project) or
 `www/theme/icefox` (legacy/core installation), then select it in Appearance.
 Requires Firekylin >=2.16.0 with Eta/Widgets; verified against core `99bbdcb`.
-No PHP, npm install, compilation or theme JavaScript is required at runtime.
+No PHP, npm install or compilation is required at runtime. A small local script implements image preview, color switching and scroll navigation; reading, navigation and summary disclosure work without JavaScript.
 
 ## Supported
 
@@ -23,18 +23,41 @@ featuredImage where the layout has covers; core-rendered body/password forms;
 native comments through `firekylin.comment()`, respecting core disabled/login rules.
 Only public Widgets supply data; templates issue no database queries.
 
-Appearance settings: plain-text footer and introduction, validated hex accent
-color, `colorMode=dark` for dark colors.
-Missing covers use local CSS gradients, never unlicensed upstream photographs.
-Navigation stays available without JavaScript. Mobile layouts collapse sidebars.
+## icefox-specific layout and settings
+
+Rebuilt against the pinned `components/head.php`, `components/post-list.php`,
+`post.php` and CSS: 576px desktop/mobile timeline, 320px cover, overlapping profile
+avatar, author-first posts, single/4/9-image layouts and author-aligned detail view.
+See [VISUAL-COMPARISON.md](VISUAL-COMPARISON.md) for the source screenshot and checks.
+
+- `topImage`: cover URL. `topVideo`: muted looping video, takes precedence over the
+  image (used as poster); paused when the visitor requests reduced motion.
+- `logoUrl`: site/timeline avatar. `avatarLink`: profile avatar destination.
+  These accept HTTP(S) URLs or site-absolute paths; unsafe URLs are ignored.
+- `autoCollapse`: default folds summaries after 100 characters; `0` shows the
+  whole summary. Native disclosure works with JavaScript disabled.
+- `colorMode=dark`: initial palette. Visitors can switch and persist their choice.
+- `heroText` / `footerText`: plain-text introduction/footer.
+
+Images come from the core featured image or summary HTML. One image keeps its
+ratio, four form a 2×2 grid, other counts use three columns (up to nine). Image
+links open a keyboard-dismissable preview; without JS they link to the image.
 
 ## Differences from Typecho
 
-This is a first Firekylin adaptation of the reading layout, not a PHP compatibility
-layer. Unsupported upstream features: likes, inline replies, music/video cards, infinite scroll, client login and publishing dialogs, friend/game pages.
-Search uses Firekylin `keyword`; comments use native Waline instead of Typecho
-comment forms. No analytics, paid feature, external update request, advertising
-or credential-dependent integration is enabled by the theme.
+Firekylin's public list Widget returns **summary**, not full article HTML, so the
+control says “展开摘要”; the full article remains one click away. Article titles
+are retained as accessible permalinks although the original feed focuses on body
+text. The core user relation exposes no avatar/email, so the configured site
+avatar is used for the feed (initial fallback); per-author Gravatar is unavailable.
+
+The original Typecho icefox plugin owns likes, inline replies, publishing/login
+APIs and their database tables. This theme does not recreate those endpoints or
+show fake like counts. The `···` link opens the article comments, provided by core
+Waline. Infinite scroll becomes accessible pagination. Music shortcodes, dedicated
+friend/game pages and location fields are not implemented; ordinary audio/video
+in article content is preserved by core rendering. No unlicensed sample photos,
+fonts or vendor runtimes are bundled; preview art is generated test SVG.
 
 ## Verify
 

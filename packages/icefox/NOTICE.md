@@ -12,7 +12,7 @@ Widgets; CSS is filtered/formatted and adapted to semantic markup, keyboard focu
 responsive navigation, local pagination and optional dark colors. Modified files
 carry a notice. `source/manifest.json` records the input files and transformations.
 The editable CSS and Eta files shipped in this package are the corresponding
-source of this adaptation; no minified JavaScript or executable binary is shipped.
+source of this adaptation; no minified JavaScript or executable binary is shipped. The small editable res/js/icefox.js is new GPL-3.0-only adaptation code.
 For Sass-derived styles the adapted Sass is also included. No build is needed to
 install or modify the delivered CSS. GPL ports remain under their stated GPL
 version; they have not been relicensed to MIT.
