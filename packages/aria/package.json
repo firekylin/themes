@@ -43,6 +43,24 @@
       "name": "colorMode",
       "label": "配色模式",
       "help": "填写 dark 启用深色；留空为浅色。"
+    },
+    {
+      "type": "text",
+      "name": "backgroundUrl",
+      "label": "首页背景图片",
+      "help": "HTTP(S) URL 或站内绝对路径；使用首个地址。"
+    },
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "导航头像",
+      "help": "HTTP(S) URL 或站内绝对路径；使用首个地址。"
+    },
+    {
+      "type": "text",
+      "name": "defaultThumbnail",
+      "label": "默认文章缩略图",
+      "help": "HTTP(S) URL 或站内绝对路径；使用首个地址。"
     }
   ]
 }

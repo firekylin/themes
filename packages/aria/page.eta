@@ -1,12 +1,12 @@
 <% /* Firekylin adaptation, modified 2026-10-28; see NOTICE.md and LICENSE. */ %>
-<% layout('./layout'); const site = await firekylin.widget('Widget_Options'); const archive = await firekylin.widget('Widget_Archive', {type:'page'}); const found = archive.next(); %>
+<% const site = await firekylin.widget('Widget_Options'); const archive = await firekylin.widget('Widget_Archive', {type:'page'}); const found = archive.next(); layout('./layout',{ariaDetail:true,ariaCover:archive.row.featuredImage || ''}); %>
 <% block('title', () => { %><%= found ? archive.title() : '内容未找到' %> - <%= site.title() %><% }) %>
 <% block('headers', () => { %><% if (found) { %><link rel="canonical" href="<%= site.siteUrl + archive.permalink %>"><% } %><% }) %>
-<% block('content', () => { %><article class="post fk-detail">
-<% if (found) { %><h1 class="post-title"><%= archive.title() %></h1>
-<p class="fk-meta"><time datetime="<%= archive.date('YYYY-MM-DD') %>"><%= archive.date('YYYY-MM-DD') %></time> · <%= archive.author() %></p>
-<div class="post-content"><%~ archive.content() %></div>
-<ul class="fk-metas"><% for (const kind of ['cate','tag']) { for (const meta of (archive.row[kind] || [])) { %><li><a href="/<%= kind %>/<%= meta.pathname %>"><%= meta.name %></a></li><% } } %></ul>
+<% block('content', () => { %><article class="post fk-detail aria-post">
+<% if (found) { %><header class="post-header"><h1 class="post-title"><%= archive.title() %></h1>
+<div class="post-meta"><span class="post-meta-cate"><% for(const cate of archive.row.cate || []) { %><a href="/cate/<%= cate.pathname %>"><%= cate.name %></a> <% } %></span><p class="fk-meta"><time datetime="<%= archive.date('YYYY-MM-DD') %>"><%= archive.date('YYYY-MM-DD') %></time> · <%= archive.author() %></p></div></header>
+<div class="post-body"><div class="post-content"><%~ archive.content() %></div>
+<% if(archive.row.update_time) { %><p class="post-update">最后一次更新于 <%= String(archive.row.update_time).slice(0,10) %></p><% } %></div><ul class="fk-metas post-tags"><% for (const kind of ['cate','tag']) { for (const meta of (archive.row[kind] || [])) { %><li><a href="/<%= kind %>/<%= meta.pathname %>"><%= meta.name %></a></li><% } } %></ul>
 <nav class="fk-pagination" aria-label="相邻文章"><% if (archive.row.prev && archive.row.prev.title) { %><a rel="prev" href="<%= archive.permalinkFor(archive.row.prev) %>">← <%= archive.row.prev.title %></a><% } %><% if (archive.row.next && archive.row.next.title) { %><a rel="next" href="<%= archive.permalinkFor(archive.row.next) %>"><%= archive.row.next.title %> →</a><% } %></nav>
 <%~ firekylin.comment({className:'fk-comments',title:'评论'}) %>
 <% } else { %><h1 class="post-title">内容未找到</h1><p><a href="/">返回首页</a></p><% } %></article><% }) %>

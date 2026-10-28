@@ -51,3 +51,20 @@ Selection exclusions: Pinghsu/Maupassant were already ported; Clarity is reserve
 for the user. Miracles has additional custom-license restrictions, initial has no
 explicit license, and Akina's referenced earlier WordPress source could not be
 resolved for license-chain verification. They are not included in this batch.
+
+## Source-specific comparison
+
+The port restores Aria's image hero and avatar navigation, title/category/date/cover
+card order, real comment-count links, and separate article header/body/update/tags
+sections. Home hero is 80vh desktop / 50vh mobile; article hero is 70vh / 40vh.
+`backgroundUrl` and `defaultThumbnail` use the first configured URL deterministically
+rather than the original random selection. `featuredImage` overrides the default
+card and article hero. Links use native navigation instead of PJAX.
+
+Categories are shown when supplied by the public archive (including category
+context). Core 2.16.0's default home-list query loads the user relation but omits
+category relations; the theme cannot invent that data. Article categories and
+comment_num are preserved when available, with no fake views/likes counters.
+`update_time` is displayed on article detail when present.
+
+See [VISUAL-COMPARISON.md](VISUAL-COMPARISON.md) for source and render checks.

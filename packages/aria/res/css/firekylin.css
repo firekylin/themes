@@ -507,7 +507,200 @@ body.fk-dark {
 }
 
 /* Keep configured dark colors after theme-specific defaults. */
-body.fk-theme.fk-dark {--fk-bg:#191b20;--fk-paper:#252830;--fk-ink:#e4e6ec;--fk-muted:#a6adb8;--fk-line:#3b414b}
-.fk-theme.fk-dark .entry-title {color:var(--fk-ink)}
+body.fk-theme.fk-dark {
+  --fk-bg: #191b20;
+  --fk-paper: #252830;
+  --fk-ink: #e4e6ec;
+  --fk-muted: #a6adb8;
+  --fk-line: #3b414b;
+}
+.fk-theme.fk-dark .entry-title {
+  color: var(--fk-ink);
+}
 
-.fk-theme.fk-dark .entry-more, .fk-theme.fk-dark .entry-content a {color:#a9caff}
+.fk-theme.fk-dark .entry-more,
+.fk-theme.fk-dark .entry-content a {
+  color: #a9caff;
+}
+
+/* Restore Aria source hero/card/detail hierarchy, separate from generic reading defaults. */
+.fk-theme {
+  --fk-bg: #f1f1f1;
+}
+.fk-theme #nav-menu {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background: #ffffffd9;
+  color: #555;
+  padding: 8px 4%;
+  min-height: 50px;
+}
+.fk-theme .fk-brand {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.aria-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.fk-theme #header {
+  height: 80vh;
+  min-height: 340px;
+  padding: 0;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 0;
+}
+.aria-background {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.aria-site-meta {
+  position: relative;
+  text-shadow: 0 2px 5px #0008;
+  padding: 30px;
+}
+.fk-theme .fk-hero h1 {
+  font-size: 50px;
+}
+.fk-theme .fk-shell {
+  margin: 30px auto;
+  max-width: 860px;
+}
+.fk-theme .entry-card {
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: none;
+}
+.fk-theme .entry-title {
+  text-align: left;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+.fk-theme .card-meta-top {
+  text-align: left;
+  color: var(--fk-muted);
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+.card-meta-cate:not(:empty) {
+  margin-right: 8px;
+}
+.fk-theme .entry-cover {
+  margin: 0;
+  aspect-ratio: 2.5;
+}
+.fk-theme .entry-excerpt {
+  margin: 15px 0;
+  min-height: 0;
+}
+.fk-theme .entry-more {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-size: 23px;
+}
+.fk-theme .card-meta-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  border-top: 1px solid var(--fk-line);
+  font-size: 13px;
+}
+.fk-theme .aria-post {
+  padding: 0;
+  overflow: hidden;
+}
+.aria-post .post-header {
+  padding: 24px 30px;
+  background: var(--fk-paper);
+  border-bottom: 1px solid var(--fk-line);
+}
+.aria-post .post-title {
+  font-size: 27px;
+  margin: 0 0 10px;
+}
+.aria-post .post-meta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 13px;
+}
+.aria-post .fk-meta {
+  margin: 0;
+}
+.aria-post .post-body {
+  padding: 30px;
+}
+.aria-post .post-tags {
+  padding: 15px 30px;
+  border-top: 1px solid var(--fk-line);
+  margin: 0;
+}
+.post-update {
+  text-align: right;
+  font-size: 12px;
+  color: var(--fk-muted);
+}
+.aria-post .fk-comments {
+  padding: 24px 30px;
+}
+@media (max-width: 768px) {
+  .fk-theme #header {
+    height: 50vh;
+    min-height: 300px;
+  }
+  .fk-theme .fk-hero h1 {
+    font-size: 32px;
+  }
+  .fk-theme #nav-menu {
+    padding: 8px 12px;
+    gap: 8px;
+  }
+  .fk-theme .fk-nav {
+    gap: 10px;
+  }
+  .fk-theme .fk-brand {
+    font-size: 16px;
+  }
+  .fk-theme .fk-shell {
+    width: calc(100% - 24px);
+    margin-top: 20px;
+  }
+  .fk-theme .entry-card {
+    padding: 14px;
+  }
+  .aria-post .post-body,
+  .aria-post .post-header {
+    padding: 20px;
+  }
+  .fk-theme .entry-title {
+    font-size: 20px;
+  }
+}
+
+.aria-detail-page #header {
+  height: 70vh;
+}
+.aria-detail-page .aria-site-meta {
+  display: none;
+}
+@media (max-width: 768px) {
+  .aria-detail-page #header {
+    height: 40vh;
+  }
+}

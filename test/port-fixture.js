@@ -15,7 +15,7 @@ const rows = Array.from({length: 6}, (_, i) => ({
   title: ['山间来信 · Letters from the mountains', '让文字回到阅读本身', 'A small notebook of everyday things', '城市漫步与一些想法', '代码、设计与生活', '把时间留给值得的事'][i],
   summary: '<p>在忙碌的日常中，留一点时间记录观察与思考。A quiet place for words, ideas and stories.</p>',
   content: '<p>在忙碌的日常中，留一点时间记录观察与思考。</p><h2>阅读与记录</h2><p>A quiet place for words, ideas and stories.</p><pre><code>const greeting = "Hello, Firekylin";</code></pre>',
-  create_time: '2026-10-28 10:00:00', allow_comment: 1, status: 3, is_public: 1,
+  create_time: '2026-10-28 10:00:00', comment_num:3, update_time:'2026-10-29 10:00:00', allow_comment: 1, status: 3, is_public: 1,
   user: {name: 'writer', display_name: 'Writer'}, cate: [{name:'随笔', pathname:'notes'}], tag: [], options: {},
 }));
 class FixtureWidget {
@@ -36,6 +36,7 @@ function context(theme, page, opts = {}) {
   const core = process.env.FIREKYLIN_CORE_PATH;
   const request = opts.request || (page === 'search' ? '/search.html?keyword=reading' : '/');
   const selected = opts.empty ? [] : structuredClone(rows);
+  if(opts.noCategories) selected.forEach(row=>{delete row.cate;delete row.comment_num;});
   if (opts.hostile && selected.length) {
     selected[0].title = '<img src=x onerror=alert(1)>';
     selected[0].cate = [{name:'<script>bad()</script>', pathname:'notes'}];
