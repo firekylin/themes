@@ -6,6 +6,32 @@ settings:
 
 importers:
 
-  .: {}
+  .:
+    devDependencies:
+      eta:
+        specifier: 4.6.0
+        version: 4.6.0
+      playwright-core:
+        specifier: 1.58.2
+        version: 1.58.2
 
   packages/firekylin: {}
+
+  packages/jasmine: {}
+
+packages:
+
+  eta@4.6.0:
+    resolution: {integrity: sha512-lW6is4T1NFOYnmqGZIfvixqj7A7sSvScF+DN8EK6K58xI5MZ5UvYe0GjopxOXQtZvUn4eDdVuZ8XSoYWTMEKwA==}
+    engines: {node: '>=20'}
+
+  playwright-core@1.58.2:
+    resolution: {integrity: sha512-yZkEtftgwS8CsfYo7nm0KE8jsvm6i/PTgVtB8DL726wNf6H2IMsDuxCpJj59KDaxCtSnrWan2AeDqM7JBaultg==}
+    engines: {node: '>=18'}
+    hasBin: true
+
+snapshots:
+
+  eta@4.6.0: {}
+
+  playwright-core@1.58.2: {}
