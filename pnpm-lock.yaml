@@ -84,6 +84,8 @@ importers:
 
   packages/jasmine: {}
 
+  packages/jj: {}
+
   packages/joe: {}
 
   packages/kratos: {}
