@@ -1,0 +1,5 @@
+{
+  "name": "oneblog-port-verification",
+  "private": true,
+  "devDependencies": { "playwright": "1.64.1" }
+}

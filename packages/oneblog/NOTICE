@@ -1,0 +1,16 @@
+OneBlog 3.7.2 by ©彼岸临窗, https://023.me
+Original theme: https://github.com/cnxcdn/OneBlog
+Pinned commit e151a0c702e8e46671cfad5cad8e929f2e196c6f.
+2026-10-28: adapted PHP templates to Firekylin Eta and public widgets,
+reimplemented menu/search/night/load-more/lightbox without vendor JS,
+retained main.css/m.css; removed unverified background texture.
+
+The source includes GPL-2.0 and README conditions prohibiting sale and requiring
+source attribution with author name and link. Both are retained verbatim in
+LICENSE and UPSTREAM-TERMS.md. This free source distribution relies on the
+README's express permission to modify and share free/open source with attribution.
+It does not resolve the tension between GPL-2.0 and extra restrictions, grant
+broader rights, or verify the author's copyright/patent registration assertions.
+Do not remove those conditions or represent this as unrestricted GPL-2.0.
+No third-party photographs, iconfont, quote collection, fonts, analytics or
+paid plugin code are distributed in this port.
