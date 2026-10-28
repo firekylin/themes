@@ -13,6 +13,8 @@
     "stylus": "0.64.0",
     "nib": "1.2.0",
     "jszip": "3.10.2",
-    "semver": "7.8.5"
+    "semver": "7.8.5",
+    "bootstrap": "4.6.1",
+    "github-markdown-css": "4.0.0"
   }
 }
