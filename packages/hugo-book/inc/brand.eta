@@ -1,0 +1,1 @@
+<div class="book-brand"><a class="flex align-center" href="/"><% if(firekylin.logo){ %><img src="<%= firekylin.logo %>" alt=""><% } %><span><%= firekylin.site.title() %></span></a></div>

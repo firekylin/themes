@@ -1,0 +1,4 @@
+'use strict';
+const test=require('node:test'),assert=require('node:assert/strict'),{render}=require('./port-fixture');
+test('Puock preserves card/list modes, column choices and genuine carousel rows',async()=>{const cards=await render('puock','index',{media:true,config:{cardColumns:'3',showCarousel:'true'}});assert.match(cards,/pk-cols-3/);assert.equal((cards.match(/data-slide="/g)||[]).length,3);assert.match(cards,/\/post\/article-1.html/);const list=await render('puock','index',{config:{postStyle:'list',hideSidebar:'true'}});assert.match(list,/pk-list/);assert.match(list,/pk-wide/);assert.doesNotMatch(list,/data-slide="/);});
+test('Puock detail exposes native reading controls and no invented counters',async()=>{const html=await render('puock','post');assert.match(html,/id="post-title"/);assert.match(html,/pk-expand/);assert.match(html,/正文完/);assert.doesNotMatch(html,/post-views|点赞|likes/);});

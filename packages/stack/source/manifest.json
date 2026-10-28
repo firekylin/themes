@@ -1,0 +1,19 @@
+{
+  "repository": "https://github.com/CaiJimmy/hugo-theme-stack",
+  "commit": "3e123a30b79b5d52a3a8e88a9dd678fcfd28e418",
+  "license": "GPL-3.0-only",
+  "sass": "1.106.1",
+  "icons": [
+    "date",
+    "home",
+    "archives",
+    "categories",
+    "search",
+    "rss",
+    "tag",
+    "hash",
+    "toggle-left",
+    "toggle-right",
+    "chevron-right"
+  ]
+}
