@@ -67,6 +67,8 @@ importers:
 
   packages/hugo-book: {}
 
+  packages/hugo-coder: {}
+
   packages/icarus: {}
 
   packages/icefox: {}
