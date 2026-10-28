@@ -65,6 +65,8 @@ importers:
 
   packages/maupassant: {}
 
+  packages/miracles: {}
+
   packages/nexmoe: {}
 
   packages/papermod: {}

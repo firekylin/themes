@@ -1,0 +1,33 @@
+name: Theme miracles
+on:
+  push:
+    paths: ['packages/miracles/**', 'validation/suites/miracles/**', '.github/workflows/theme-miracles.yml']
+  pull_request:
+    paths: ['packages/miracles/**', 'validation/suites/miracles/**', '.github/workflows/theme-miracles.yml']
+permissions:
+  contents: read
+jobs:
+  test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/typecho-miracles' || github.ref == 'refs/heads/feat/typecho-miracles'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: validation/suites/miracles
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+        working-directory: .
+      - run: node --test test/*.test.js
+      - run: pnpm exec playwright-core install --with-deps chromium
+        working-directory: .
+      - run: node scripts/check-ports-browser.js && node scripts/check-miracles-browser.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: theme-port-screenshots
+          path: validation/suites/miracles/artifacts/ports/
