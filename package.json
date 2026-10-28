@@ -3,6 +3,18 @@
   "private": true,
   "packageManager": "pnpm@10.29.3",
   "scripts": {
-    "test": "node --test test/*.test.js"
+    "test": "node --test test/*.test.js",
+    "test:browser": "node scripts/check-fluid-browser.js",
+    "test:install": "python3 scripts/package-fluid.py && node scripts/check-fluid-install.js"
+  },
+  "devDependencies": {
+    "eta": "4.6.0",
+    "playwright-core": "1.58.2",
+    "stylus": "0.64.0",
+    "nib": "1.2.0",
+    "bootstrap": "4.6.1",
+    "jszip": "3.10.2",
+    "semver": "7.8.5",
+    "github-markdown-css": "4.0.0"
   }
 }
