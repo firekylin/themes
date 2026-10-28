@@ -519,7 +519,242 @@ body.fk-dark {
 }
 
 /* Keep configured dark colors after theme-specific defaults. */
-body.fk-theme.fk-dark {--fk-bg:#191b20;--fk-paper:#252830;--fk-ink:#e4e6ec;--fk-muted:#a6adb8;--fk-line:#3b414b}
-.fk-theme.fk-dark .entry-title {color:var(--fk-ink)}
+body.fk-theme.fk-dark {
+  --fk-bg: #191b20;
+  --fk-paper: #252830;
+  --fk-ink: #e4e6ec;
+  --fk-muted: #a6adb8;
+  --fk-line: #3b414b;
+}
+.fk-theme.fk-dark .entry-title {
+  color: var(--fk-ink);
+}
 
-.fk-theme.fk-dark .entry-more, .fk-theme.fk-dark .entry-content a {color:#a9caff}
+.fk-theme.fk-dark .entry-more,
+.fk-theme.fk-dark .entry-content a {
+  color: #a9caff;
+}
+
+/* Bubble source full-screen landing and overlapping single-column content cards. */
+.fk-theme .fk-header {
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 5;
+  background: transparent;
+  color: white;
+  box-shadow: none;
+}
+.bubble-hero {
+  height: 100vh;
+  min-height: 560px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(125deg, #172b4d, #5e72e4);
+  color: white;
+  overflow: hidden;
+}
+.bubble-hero-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+.bubble-intro {
+  position: relative;
+  text-align: center;
+  padding: 80px 24px 140px;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+.bubble-intro h1 {
+  color: inherit;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+.bubble-intro p {
+  font-size: 18px;
+  line-height: 1.8;
+}
+.bubble-intro hr {
+  width: 70%;
+  border-color: #ffffff55;
+  margin: 28px auto;
+}
+.bubble-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.bubble-start {
+  display: inline-block;
+  color: white;
+  border: 1px solid #ffffff80;
+  border-radius: 20px;
+  padding: 8px 20px;
+  margin-top: 20px;
+}
+.bubble-shapes {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.bubble-shapes i {
+  position: absolute;
+  display: block;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #ffffff18;
+  left: 8%;
+  top: 20%;
+}
+.bubble-shapes i:nth-child(2n) {
+  left: 78%;
+  top: 35%;
+  width: 130px;
+  height: 130px;
+}
+.bubble-shapes i:nth-child(3n) {
+  left: 20%;
+  top: 60%;
+  width: 170px;
+  height: 170px;
+}
+.bubble-shapes i:nth-child(4n) {
+  left: 85%;
+  top: 80%;
+  width: 60px;
+  height: 60px;
+}
+.bubble-shapes i:nth-child(5n) {
+  left: 55%;
+  top: 12%;
+  width: 40px;
+  height: 40px;
+}
+.fk-theme .fk-shell {
+  position: relative;
+  width: calc(100% - 48px);
+  max-width: 960px;
+  margin: -100px auto 40px;
+  grid-template-columns: minmax(0, 1fr);
+}
+.fk-theme .fk-feed {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 65px;
+}
+.fk-theme .bubble-card {
+  border-radius: 10px;
+  box-shadow: 0 8px 24px #233e6b20;
+  overflow: hidden;
+  background: var(--fk-paper);
+  padding: 0;
+  position: relative;
+}
+.bubble-card-image {
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
+  display: block;
+}
+.fk-theme .bubble-card .entry-copy {
+  padding: 50px;
+}
+.fk-theme .bubble-card .entry-title {
+  font-size: 30px;
+  margin: 0 0 20px;
+  font-weight: 400;
+}
+.fk-theme .bubble-card .entry-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 0 0 20px;
+  font-size: 13px;
+}
+.bubble-badge {
+  border-radius: 20px;
+  padding: 4px 10px;
+  background: #e1e7ff;
+  color: #4053a3;
+}
+.bubble-badge.author {
+  background: #ffecd3;
+  color: #9b5c13;
+}
+.fk-theme .bubble-card .entry-excerpt {
+  min-height: 0;
+  line-height: 1.8;
+  margin: 0;
+}
+.bubble-detail-page .bubble-hero {
+  height: 480px;
+  min-height: 0;
+}
+.bubble-detail-page .bubble-intro {
+  padding-bottom: 80px;
+}
+.fk-theme .bubble-article {
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px #233e6b20;
+}
+.bubble-toc {
+  margin: 0 0 25px;
+  border: 1px solid var(--fk-line);
+  border-radius: 7px;
+}
+.bubble-toc summary {
+  padding: 12px 18px;
+  cursor: pointer;
+}
+.bubble-toc nav {
+  padding: 0 18px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+@media (max-width: 768px) {
+  .bubble-hero {
+    min-height: 540px;
+  }
+  .fk-theme .fk-shell {
+    width: 100%;
+    margin: 0;
+  }
+  .fk-theme .bubble-card,
+  .fk-theme .bubble-article {
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .fk-theme .fk-feed {
+    gap: 1px;
+  }
+  .fk-theme .bubble-card .entry-copy,
+  .fk-theme .bubble-article {
+    padding: 28px 24px;
+  }
+  .fk-theme .bubble-card .entry-title {
+    font-size: 25px;
+  }
+  .bubble-detail-page .bubble-hero {
+    height: 360px;
+    min-height: 0;
+  }
+  .bubble-intro h1 {
+    font-size: 32px;
+  }
+  .bubble-intro {
+    padding-bottom: 50px;
+  }
+  .bubble-detail-page .bubble-intro {
+    padding-bottom: 20px;
+  }
+}

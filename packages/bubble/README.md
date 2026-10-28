@@ -1,6 +1,6 @@
 # Bubble for Firekylin
 
-Argon-inspired purple hero, rounded white cards and a responsive card grid.
+Full-screen image landing, circular avatar and bubbles, with overlapping single-column reading cards.
 
 Adapted from [trinitrotofu/Bubble](https://github.com/trinitrotofu/Bubble) at `e5ac03db4176914736939b56f6cf8679ce4303b9`.
 Selected in descending GitHub popularity order on 2026-10-28 (472 stars).
@@ -12,7 +12,7 @@ and third-party resource audit. Original license/attribution materials are retai
 Copy this directory into `themes/bubble` (independent project) or
 `www/theme/bubble` (legacy/core installation), then select it in Appearance.
 Requires Firekylin >=2.16.0 with Eta/Widgets; verified against core `99bbdcb`.
-No PHP, npm install, compilation or theme JavaScript is required at runtime.
+No PHP, npm install or compilation is required at runtime. A small local script builds the optional article table of contents.
 
 ## Supported
 
@@ -31,7 +31,7 @@ Navigation stays available without JavaScript. Mobile layouts collapse sidebars.
 ## Differences from Typecho
 
 This is a first Firekylin adaptation of the reading layout, not a PHP compatibility
-layer. Unsupported upstream features: full-screen animated landing, PJAX, Argon JavaScript components, Typecho shortcodes and custom friend/reward features.
+layer. Supported landing settings: `indexImage`, `avatarUrl`, `bubbleShow`; `toc` controls the article contents. Bubble decorations are static. Unsupported upstream features: PJAX, Argon JavaScript components, Typecho shortcodes and custom friend/reward features.
 Search uses Firekylin `keyword`; comments use native Waline instead of Typecho
 comment forms. No analytics, paid feature, external update request, advertising
 or credential-dependent integration is enabled by the theme.
@@ -47,7 +47,5 @@ core Widget classes and comment rendering. These are real Eta/Chromium renders
 with synthetic data, not a live database installation; posting to a remote comment
 service or authenticating a real user is not part of this check.
 
-Selection exclusions: Pinghsu/Maupassant were already ported; Clarity is reserved
-for the user. Miracles has additional custom-license restrictions, initial has no
-explicit license, and Akina's referenced earlier WordPress source could not be
-resolved for license-chain verification. They are not included in this batch.
+
+See [VISUAL-COMPARISON.md](VISUAL-COMPARISON.md) for source comparison and limitations.

@@ -43,6 +43,30 @@
       "name": "colorMode",
       "label": "配色模式",
       "help": "填写 dark 启用深色；留空为浅色。"
+    },
+    {
+      "type": "text",
+      "name": "indexImage",
+      "label": "首页背景",
+      "help": "HTTP(S) 或站内图片路径。"
+    },
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "首页头像",
+      "help": "圆形头像图片 URL。"
+    },
+    {
+      "type": "text",
+      "name": "bubbleShow",
+      "label": "装饰气泡",
+      "help": "填写 0 隐藏。"
+    },
+    {
+      "type": "text",
+      "name": "toc",
+      "label": "文章目录",
+      "help": "填写 0 禁用。"
     }
   ]
 }
