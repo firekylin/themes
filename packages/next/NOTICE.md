@@ -1,0 +1,7 @@
+# License and asset provenance
+
+Historical source: https://github.com/iissnan/hexo-theme-next/tree/9c8cea69bf0d4f91c07779d71b01814b27bbb6a1 . Root LICENSE and package manifest agree on MIT, copyright 2014–2017 iissnan. LICENSE is retained verbatim. This does not describe modern NexT licensing.
+
+Selected upstream assets: source/css, source configuration and source/images/quote-l.svg + quote-r.svg. CSS contains normalize.css v3.0.2 with MIT attribution; complete original notice from https://github.com/necolas/normalize.css/blob/3.0.2/LICENSE.md is retained in NORMALIZE-LICENSE.md. No separate restrictive notices were found in the other selected CSS/SVG source files. Empty customization files have comment-only additions, recorded in README. Generated scheme CSS includes those original sources; Firekylin Eta, adapter CSS and native JavaScript are new MIT code.
+
+Excluded: all source/lib, Font Awesome/Han/webfont binaries, jQuery, Velocity, Fancybox, other third-party scripts and upstream demo images. Fancybox's own header refers to separate licensing; no assumption that the theme root MIT covers it was made. The local reference generator may render upstream vendor resources for inspection, but they are not included in this package. Validation artifacts contain rendered synthetic examples, fixture configuration/lockfiles, and a locally drawn geometric avatar, not copies of upstream vendor libraries. User-supplied avatar/media URLs remain subject to their owners' rights.
