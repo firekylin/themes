@@ -1,0 +1,18 @@
+{
+  "upstream": "mulingyuer/Typecho_Theme_JJ",
+  "files": [
+    "src/styles/variable.scss",
+    "src/styles/mixins.scss",
+    "src/styles/layout.scss",
+    "src/modules/article_card/style.scss",
+    "static/css/theme/light.css"
+  ],
+  "filter": null,
+  "changes": [
+    "removed font-face and imports",
+    "removed declarations containing URLs",
+    "filtered theme-owned selectors where recorded",
+    "formatted for direct editing"
+  ],
+  "build": "sass 1.93.2 source/layout.scss; JJ additionally appends static/css/theme/light.css before applying the recorded filter."
+}
