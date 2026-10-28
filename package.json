@@ -3,6 +3,11 @@
   "private": true,
   "packageManager": "pnpm@10.29.3",
   "scripts": {
-    "test": "node --test test/*.test.js"
+    "test": "node --test test/*.test.js",
+    "test:browser": "node scripts/check-ports-browser.js && node scripts/check-academic-browser.js"
+  },
+  "devDependencies": {
+    "eta": "4.6.0",
+    "playwright-core": "1.58.2"
   }
 }
