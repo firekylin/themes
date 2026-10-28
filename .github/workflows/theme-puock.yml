@@ -1,9 +1,9 @@
 name: Theme puock
 on:
   push:
-    paths: ['packages/puock/**', 'validation/suites/puock/**', '.github/workflows/theme-puock.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/puock/**', 'validation/suites/puock/**', '.github/workflows/theme-puock.yml']
   pull_request:
-    paths: ['packages/puock/**', 'validation/suites/puock/**', '.github/workflows/theme-puock.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/puock/**', 'validation/suites/puock/**', '.github/workflows/theme-puock.yml']
 permissions:
   contents: read
 jobs:
