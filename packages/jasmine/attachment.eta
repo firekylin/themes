@@ -1,0 +1,12 @@
+<% /* Firekylin adaptation, modified 2026-10-28; see NOTICE.md and LICENSE. */ %>
+<% layout('./layout'); const site = await firekylin.widget('Widget_Options'); const archive = await firekylin.widget('Widget_Archive', {type:'attachment'}); const found = archive.next(); %>
+<% block('title', () => { %><%= found ? archive.title() : '内容未找到' %> - <%= site.title() %><% }) %>
+<% block('headers', () => { %><% if (found) { %><link rel="canonical" href="<%= site.siteUrl + archive.permalink %>"><% } %><% }) %>
+<% block('content', () => { %><article id="post-article" class="post fk-detail jasmine-detail">
+<% if (found) { %><div class="jasmine-post-heading"><h1 class="post-title"><%= archive.title() %></h1>
+<p class="fk-meta"><time datetime="<%= archive.date('YYYY-MM-DD') %>"><%= archive.date('YYYY-MM-DD') %></time> · <%= archive.author() %></p></div><% if(site.themeConfig?.showToc!=='0') { %><details class="jasmine-toc" hidden><summary>目录</summary><nav aria-label="文章目录"></nav></details><% } %>
+<div id="post-content" class="post-content"><%~ archive.content() %></div>
+<ul class="fk-metas"><% for (const kind of ['cate','tag']) { for (const meta of (archive.row[kind] || [])) { %><li><a href="/<%= kind %>/<%= meta.pathname %>"><%= meta.name %></a></li><% } } %></ul>
+<nav class="fk-pagination jasmine-near" aria-label="相邻文章"><% if (archive.row.prev && archive.row.prev.title) { %><a rel="prev" href="<%= archive.permalinkFor(archive.row.prev) %>">← <%= archive.row.prev.title %></a><% } %><% if (archive.row.next && archive.row.next.title) { %><a rel="next" href="<%= archive.permalinkFor(archive.row.next) %>"><%= archive.row.next.title %> →</a><% } %></nav>
+<%~ firekylin.comment({className:'fk-comments',title:'评论'}) %>
+<% } else { %><h1 class="post-title">内容未找到</h1><p><a href="/">返回首页</a></p><% } %></article><% }) %>

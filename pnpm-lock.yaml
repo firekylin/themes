@@ -17,7 +17,33 @@ importers:
 
   packages/argon: {}
 
+  packages/aria: {}
+
+  packages/bubble: {}
+
+  packages/butterfly: {}
+
+  packages/cuckoo: {}
+
   packages/firekylin: {}
+
+  packages/icefox: {}
+
+  packages/jasmine: {}
+
+  packages/joe: {}
+
+  packages/material: {}
+
+  packages/maupassant: {}
+
+  packages/papermod: {}
+
+  packages/pinghsu: {}
+
+  packages/single: {}
+
+  packages/void: {}
 
 packages:
 
