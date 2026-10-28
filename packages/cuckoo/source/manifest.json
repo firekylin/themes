@@ -1,0 +1,14 @@
+{
+  "upstream": "bhaoo/Cuckoo",
+  "files": [
+    "assets/css/cuckoo.min.css"
+  ],
+  "filter": "index-|mdui-card|mdui-appbar|sidebar|^html|^body|^footer",
+  "changes": [
+    "removed font-face and imports",
+    "removed declarations containing URLs",
+    "filtered theme-owned selectors where recorded",
+    "formatted for direct editing"
+  ],
+  "build": "CSS only; no compilation required"
+}
