@@ -664,3 +664,4 @@ body.fk-theme {
     margin: -50px auto 25px;
   }
 }
+.miracles-read{float:right;border:3px solid #ccc;border-radius:24px;padding:2px 14px}.fk-theme .miracles-card .entry-copy:after{content:"";display:block;clear:both}@media(max-width:768px){.fk-theme .fk-header{gap:10px;padding:16px 12px}.fk-theme .fk-nav{gap:9px}.fk-theme .fk-nav a{font-size:12px}.fk-theme .fk-brand{font-size:20px}.miracles-palette{padding:0}}
