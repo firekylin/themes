@@ -1,0 +1,43 @@
+<%
+const site = await firekylin.widget('Widget_Options');
+const cfg=site.themeConfig || {}; const type=firekylin.pageType;
+const detail=['post','page','attachment'].includes(type);
+const archive=await firekylin.widget('Widget_Archive',{type});
+const colors=['dark','light','white','classic'].includes(cfg.colorscheme)?cfg.colorscheme:'dark';
+const width=Math.max(30,Math.min(80,Number(cfg.pageWidth)||48));
+const safeUrl=value=> typeof value==='string' && /^(https?:\/\/|mailto:|\/(?!\/)|#)/i.test(value)?value:'#';
+const list=value=>{try {const a=JSON.parse(value||'[]');return Array.isArray(a)?a.filter(x=>x&&typeof x==='object').slice(0,50):[];}catch{return [];}};
+const nav=site.navigation || [];
+const item=detail && archive.next();
+%><!doctype html>
+<html lang="en" dir="<%= cfg.direction==='rtl'?'rtl':'ltr' %>">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title><%= item?archive.title()+' · ':'' %><%= site.title() %></title>
+<meta name="description" content="<%= site.description() %>">
+<link rel="alternate" type="application/rss+xml" href="/rss.html" title="RSS">
+<link rel="stylesheet" href="<%= site.themeUrl('res/css/'+colors+'.css') %>">
+<link rel="stylesheet" href="<%= site.themeUrl('res/css/firekylin.css') %>">
+<style>body.max-width{max-width:<%= width %>rem}</style>
+<script src="<%= site.themeUrl('res/js/cactus.js') %>" defer></script></head>
+<body class="max-width mx-auto px3 <%= cfg.direction==='rtl'?'rtl':'ltr' %>"><a class="skip" href="#main">Skip to content</a>
+<% if(detail) { %><aside id="header-post"><details id="article-menu"><summary aria-label="Article menu">☰</summary><nav aria-label="Article navigation"><a href="/">Home</a> · <a href="/archives">Writing</a> · <a href="#top">Top</a></nav><nav id="toc" aria-label="Table of contents"></nav></details></aside><% } %>
+<div class="content index py4" id="top">
+<% if(!detail) { %><header id="header"><a href="/">
+<% if(cfg.logoUrl && safeUrl(cfg.logoUrl)!=='#') { %><img id="logo" src="<%= safeUrl(cfg.logoUrl) %>" alt=""><% } %>
+<div id="title"><h1><%= site.title() %></h1></div></a><nav id="nav" aria-label="Main navigation"><button id="menu-toggle" aria-expanded="false" aria-controls="nav-links" hidden>Menu</button><ul id="nav-links" class="responsive">
+<% for(const n of nav) { %><li><a href="<%= safeUrl(n.url) %>"><%= n.label %></a></li><% } %><li><a href="/search.html">Search</a></li></ul></nav></header><% } %>
+<main id="main">
+<% if(detail) { %>
+<% if(item) { %><article class="post h-entry"><header><h1 class="posttitle"><%= archive.title() %></h1><div class="meta"><span class="author"><%= archive.author() %></span> <time><%= archive.date('Y-m-d') %></time><% if(cfg.showUpdated==='true' && archive.row?.update_time) { %> · Updated <%= String(archive.row.update_time).slice(0,10) %><% } %></div></header><div class="content e-content"><%~ archive.content() %></div></article><%~ firekylin.comment({title:'Comments',className:'article-comments'}) %><% } else { %><h1>Not found</h1><% } %>
+<% } else if(type==='cate'||type==='tag') { const metas=await firekylin.widget(type==='cate'?'Widget_Metas_Category_List':'Widget_Metas_Tag_Cloud'); %><h1><%= type==='cate'?'Categories':'Topics' %></h1><ul><% while(metas.next()) { %><li><a href="<%= metas.permalink %>"><%= metas.title() %></a></li><% } %></ul>
+<% } else if(type==='archive') { %><section id="archive"><h1>Writing</h1><% for(const [month,rows] of Object.entries(archive.grouped || {})) { %><h2><%= month %></h2><ul class="post-list"><% for(const row of rows) { %><li class="post-item"><time class="meta"><%= String(row.create_time).slice(0,10) %></time><span><a href="<%= archive.permalinkFor(row) %>"><%= row.title %></a></span></li><% } %></ul><% } %></section>
+<% } else { const home=type==='index' && archive.is('index') && !['cate','tag','author','search'].some(kind=>archive.is(kind)); %>
+<% if(home) { %><section id="about" class="p-note"><p><%= site.description() %></p><% const socials=list(cfg.socialLinks);if(socials.length) { %><p>Find me on <% for(const s of socials) { %><a href="<%= safeUrl(s.url) %>" rel="me noopener"><%= s.label %></a> <% } %></p><% } %></section><% } %>
+<% if(type==='search') { %><h1>Search</h1><form action="/search.html" method="get"><label for="keyword">Search articles</label><input id="keyword" name="keyword" value="<%= archive.keyword || '' %>"><button>Search</button></form><% } %>
+<section id="writing"><h2 class="h1"><a href="/archives"><%= archive.archiveTitle || 'Writing' %></a></h2>
+<% if(home && cfg.tagsOverview==='true') {const tags=await firekylin.widget('Widget_Metas_Tag_Cloud'); %><h3>Topics</h3><div class="tagcloud"><% while(tags.next()) { %><a href="<%= tags.permalink %>"><%= tags.title() %></a> <% } %></div><% } %>
+<ul class="post-list"><% const posts=home?await firekylin.widget('Widget_Contents_Post_Recent',{pageSize:Math.max(1,Math.min(100,Number(cfg.postCount)||5))}):archive;let count=0;while(posts.next()) {count++; %><li class="post-item"><time class="meta"><%= posts.date('Y-m-d') %></time><span><a href="<%= posts.permalink %>"><%= posts.title() %></a></span></li><% } %></ul><% if(!count) { %><p>No articles found.</p><% } %></section>
+<% if(home) {const projects=list(cfg.projects);if(projects.length){ %><section id="projects"><h2 class="h1">Projects</h2><ul class="project-list"><% for(const p of projects) { %><li class="project-item"><a href="<%= safeUrl(p.url) %>"><%= p.name %></a>: <%= p.desc %></li><% } %></ul></section><% }} %>
+<% if(!home && archive.pagination){const p=archive.pagination; %><nav class="pagination" aria-label="Pagination"><% if(p.currentPage>1) { %><a rel="prev" href="<%= archive.pageUrl(p.currentPage-1) %>">Previous</a><% } %> <span><%= p.currentPage %> / <%= p.totalPages %></span> <% if(p.currentPage<p.totalPages) { %><a rel="next" href="<%= archive.pageUrl(p.currentPage+1) %>">Next</a><% } %></nav><% } %>
+<% } %>
+</main><footer id="footer"><div class="footer-left">© <%= new Date().getFullYear() %> <%= site.title() %> <%= cfg.footerText || '' %></div><div class="footer-right"><a href="https://github.com/probberechts/hexo-theme-cactus">Cactus</a> · <a href="https://github.com/firekylin/firekylin">Firekylin</a> · <a href="/rss.html">RSS</a></div></footer></div></body></html>
