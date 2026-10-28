@@ -11,6 +11,9 @@ importers:
       bootstrap:
         specifier: 4.6.1
         version: 4.6.1(jquery@3.7.1)(popper.js@1.16.1)
+      bulma-stylus:
+        specifier: 0.8.0
+        version: 0.8.0
       eta:
         specifier: 4.6.0
         version: 4.6.0
@@ -52,6 +55,8 @@ importers:
   packages/fluid: {}
 
   packages/g: {}
+
+  packages/icarus: {}
 
   packages/icefox: {}
 
@@ -126,6 +131,9 @@ packages:
 
   brace-expansion@2.1.7:
     resolution: {integrity: sha512-uZbew1NqdmPDTMJ8ah1y+b+9QEJrfkXFk3RcTQw3X0jW/xRUvFKsg1CfQdSYGdTbXZWExtU3J3ccxtnfw1Fi0g==}
+
+  bulma-stylus@0.8.0:
+    resolution: {integrity: sha512-9Q9BMPeHFyJ5EWh/tJPCcLDYEovKzUBOyMHsKEIyxSYEKG8wqt9RVuTumaJ2AfDjyHC9OifWKOfJSweKYD5IMQ==}
 
   color-convert@2.0.1:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
@@ -358,6 +366,8 @@ snapshots:
   brace-expansion@2.1.7:
     dependencies:
       balanced-match: 1.0.2
+
+  bulma-stylus@0.8.0: {}
 
   color-convert@2.0.1:
     dependencies:
