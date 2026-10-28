@@ -1,0 +1,20 @@
+{
+  "name": "@firekylin/themes",
+  "private": true,
+  "packageManager": "pnpm@10.29.3",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "test:browser": "node scripts/check-indigo-browser.js",
+    "test:install": "python3 scripts/package-indigo.py && node scripts/check-indigo-install.js"
+  },
+  "devDependencies": {
+    "eta": "4.6.0",
+    "playwright-core": "1.58.2",
+    "stylus": "0.64.0",
+    "nib": "1.2.0",
+    "jszip": "3.10.2",
+    "semver": "7.8.5",
+    "js-yaml": "4.1.0",
+    "less": "4.6.0"
+  }
+}

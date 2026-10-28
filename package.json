@@ -17,6 +17,7 @@
     "bootstrap": "4.6.1",
     "github-markdown-css": "4.0.0",
     "bulma-stylus": "0.8.0",
-    "js-yaml": "4.1.0"
+    "js-yaml": "4.1.0",
+    "less": "4.6.0"
   }
 }
