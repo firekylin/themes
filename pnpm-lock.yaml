@@ -35,6 +35,8 @@ importers:
 
   packages/maupassant: {}
 
+  packages/papermod: {}
+
   packages/pinghsu: {}
 
   packages/single: {}
