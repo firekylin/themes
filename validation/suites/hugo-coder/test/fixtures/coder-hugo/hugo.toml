@@ -1,0 +1,33 @@
+baseURL = 'http://127.0.0.1:4179/'
+title = 'Alex Chen'
+theme = 'hugo-coder'
+locale = 'en'
+[params]
+author = 'Alex Chen'
+info = ['Software Engineer', 'Building reliable systems']
+avatarURL = '/fixture/avatar.svg'
+colorScheme = 'auto'
+since = 2020
+[params.entry]
+toc = true
+tocOpen = false
+[[params.social]]
+name = 'GitHub'
+icon = 'fa-brands fa-github fa-2x'
+weight = 1
+url = 'https://github.com/example'
+[[params.social]]
+name = 'RSS'
+icon = 'fa-solid fa-rss fa-2x'
+weight = 2
+url = '/index.xml'
+[[menu.main]]
+name = 'Posts'
+url = '/posts/'
+weight = 1
+[[menu.main]]
+name = 'About'
+url = '/about/'
+weight = 2
+[markup.highlight]
+codeFences = false

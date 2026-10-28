@@ -1,0 +1,33 @@
+name: Theme svbtle
+on:
+  push:
+    paths: ['packages/svbtle/**', 'validation/suites/svbtle/**', '.github/workflows/theme-svbtle.yml', 'package.json', 'pnpm-lock.yaml']
+  pull_request:
+    paths: ['packages/svbtle/**', 'validation/suites/svbtle/**', '.github/workflows/theme-svbtle.yml', 'package.json', 'pnpm-lock.yaml']
+permissions:
+  contents: read
+jobs:
+  test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/wordpress-svbtle' || github.ref == 'refs/heads/feat/wordpress-svbtle'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: validation/suites/svbtle
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+        working-directory: .
+      - run: node --test test/*.test.js
+      - run: pnpm exec playwright-core install --with-deps chromium
+        working-directory: .
+      - run: node scripts/check-ports-browser.js && node scripts/check-svbtle-browser.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: theme-port-screenshots
+          path: validation/suites/svbtle/artifacts/ports/

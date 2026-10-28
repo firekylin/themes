@@ -1,0 +1,184 @@
+/* Firekylin integration; upstream styles are kept separately. */
+html {
+  overflow-x: visible;
+}
+body {
+  margin: 0;
+}
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid #c23b43;
+  outline-offset: 3px;
+}
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -10rem;
+  z-index: 1000;
+  background: #fff;
+  padding: 1rem;
+}
+.skip-link:focus {
+  top: 0;
+}
+.post-content,
+.post-content p,
+.entry-content {
+  overflow-wrap: anywhere;
+}
+.post-content img,
+.post-content video {
+  max-width: 100%;
+  height: auto;
+}
+.post-content pre {
+  overflow: auto;
+  max-width: 100%;
+  padding: 1rem;
+  background: #f4f4f4;
+}
+.post-content table {
+  display: block;
+  overflow: auto;
+  max-width: 100%;
+}
+.fk-search {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+.fk-search input {
+  min-width: 0;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 0.65rem;
+  font: inherit;
+}
+.fk-search button {
+  padding: 0.6rem;
+  background: #eee;
+  color: #333;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+.fk-pagination {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  clear: both;
+  padding: 2rem 0;
+}
+.fk-pagination a {
+  padding: 0.6rem;
+  border: 1px solid #ddd;
+}
+.fk-meta {
+  color: #666;
+  font-size: 0.85rem;
+}
+.fk-metas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  list-style: none;
+  padding: 0;
+}
+.fk-empty {
+  padding: 2rem 0;
+}
+.fk-footer {
+  clear: both;
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #666;
+  font-size: 0.85rem;
+}
+.fk-footer a {
+  text-decoration: underline;
+}
+.fk-comments {
+  margin: 2rem 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.container {
+  width: 1150px;
+  max-width: 100%;
+  padding: 0 30px;
+}
+#main {
+  width: 72%;
+  padding-right: 35px;
+}
+#secondary {
+  width: 26%;
+  padding-left: 25px;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.post-content {
+  font-size: 16px;
+  line-height: 1.9;
+}
+.post-title {
+  overflow-wrap: anywhere;
+}
+.post-title a:hover {
+  color: #222;
+}
+.widget-title {
+  font-size: 1.1rem;
+}
+.fk-title {
+  font-size: 1.6rem;
+}
+.fk-archive li {
+  line-height: 2;
+}
+.fk-archive h2 {
+  margin-top: 2rem;
+}
+@media (max-width: 860px) {
+  #main {
+    width: 100%;
+    padding-right: 0;
+  }
+  #secondary {
+    display: none;
+  }
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 500px) {
+  #logo {
+    font-size: 32px;
+  }
+  #nav-menu a {
+    padding: 0 10px;
+  }
+  .post-title {
+    font-size: 24px;
+  }
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

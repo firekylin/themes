@@ -1,0 +1,29 @@
+{
+  "name": "pinghsu",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pinghsu Typecho theme adapted to Firekylin Eta and Widgets",
+  "license": "MIT",
+  "author": "Chakhsu Lau",
+  "homepage": "https://github.com/chakhsu/pinghsu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/pinghsu"
+  },
+  "firekylin": {
+    "id": "pinghsu",
+    "type": "theme"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "纯文本显示，不支持 HTML。"
+    }
+  ],
+  "engines": {
+    "firekylin": ">=2.16.0"
+  }
+}
