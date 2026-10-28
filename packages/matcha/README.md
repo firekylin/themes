@@ -1,0 +1,17 @@
+# Matcha for Firekylin
+
+Dedicated port of [BigCoke233/matcha](https://github.com/BigCoke233/matcha/tree/533cb84365246ca22a1c40cfcbd78c85db7f2801), pinned `533cb84365246ca22a1c40cfcbd78c85db7f2801` (282 stars, checked 2026-10-28). Original Matcha layout/reset/grid/post/page/dark/animation styles are retained with native Firekylin templates and interactions. GPL-3.0 source and license are included; visible Matcha/Eltrac credits remain.
+
+Matcha acknowledges Ringo and Journal. Ringo source `memset0/typecho-theme-ringo` at `b056ff6603466cb9b450576c425685c20181e12e` contains GPL-3.0; Journal `SumiMakito/hexo-theme-Journal` at `1da61722817c7aca5c52f6ef8178400c29d43f26` contains MIT (Copyright 2018 Makito), retained in LICENSE-JOURNAL. Normalize.css 8.0.1 is MIT with LICENSE-NORMALIZE. Iconfont and external fonts are excluded; native text symbols/system serif fonts replace them. No upstream photography is distributed.
+
+Install matcha-0.1.0.zip through Firekylin theme installation. Tested core: 2.16.0, `99bbdcb919bae2133420dee214c5f8897b9ace25`. Configuration supports ThemeColor, DarkMode (default/dark/no/always), EnableExtraSimple (able), IndexDisplayMode (FullText/Excerpt200), showTOC, copyrightYear, customCSS, and relatedLinks JSON array of `{title,url,description}`. Site navigation supplies page links. Thumbnail is read from featuredImage or fields.thumbnail. Default night mode follows the operating system; manual choice persists locally. Unlike the original contradictory time comparison, it does not claim automatic time-based switching.
+
+## Verified and remaining differences
+
+Actual ZIP creation and ThemeInstaller installation into a fresh SQLite site, desktop/mobile routes, search, pagination click, unpublished-content exclusion, native comment server gating, mobile menu/Escape, night persistence, focus reading, heading directory, clipboard copy and image dialog are browser-tested. Home/post screenshots at 1440/390px compare the pinned Typecho source running on Typecho 1.2.1 with the installed port. External reference requests are blocked for deterministic comparison; upstream local assets remain intact. Fixture article counts, summary text, dates, category and comments differ. This is evidence of layout comparison, not complete feature parity.
+
+Typecho-specific sticky-post helper, views, frontend login/comment form, comment emoji/captcha, ExSearch plugin, PJAX, album/friends/custom page templates, syntax highlighting, footnote popovers, image lazy-load animations and password forms are not implemented. Images use an accessible native dialog, code blocks support copying without Prism highlighting, and directory is a simple native heading list. Dates use YYYY-MM-DD instead of relative timestamps. Full text uses Firekylin public-content filtering; protected content remains redacted. Focus and menu animations differ. Related links use JSON settings instead of original markup syntax. Comment-client login/submission remains unverified because the environment observed an external Waline CDN certificate error; no certificate bypass. Admin configuration save UI is not browser-tested.
+
+## Modified files
+
+All Eta templates, widgets.js, res/port.js and res/port.css are Firekylin adaptation work dated 2026-10-28. Original res/matcha.css removes the external font import; res/matcha.page.css changes #logo selectors to .site-title to avoid duplicate IDs. Other matcha styles retain upstream source. See verification/matcha for reproducible integration checks and comparison evidence.
