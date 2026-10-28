@@ -19,6 +19,12 @@ importers:
 
   packages/icefox: {}
 
+  packages/joe: {}
+
+  packages/maupassant: {}
+
+  packages/pinghsu: {}
+
 packages:
 
   eta@4.6.0:
