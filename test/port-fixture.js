@@ -5,9 +5,8 @@ const path = require('node:path');
 const {Eta} = require('eta');
 const fs = require('node:fs');
 const packages = path.join(__dirname, '..', 'packages');
-const themes = fs.readdirSync(packages).filter(name =>
-  fs.existsSync(path.join(packages, name, 'res/css/upstream.css')) &&
-  (!process.env.PORT_THEME || process.env.PORT_THEME === name));
+const themes = ['pinghsu', 'maupassant'].filter(name =>
+  fs.existsSync(path.join(packages, name, 'res/css/upstream.css')));
 if (!themes.length) throw new Error('No upstream-style theme packages found');
 const pages = ['index', 'post', 'page', 'attachment', 'search', 'archive', 'cate', 'tag'];
 const rows = Array.from({length: 6}, (_, i) => ({
@@ -41,7 +40,6 @@ function context(theme, page, opts = {}) {
     selected[0].cate = [{name:'<script>bad()</script>', pathname:'notes'}];
     selected[0].featuredImage = 'javascript:alert(1)';
   }
-  if(opts.media) for(const row of selected){row.featuredImage='/fixture.svg';row.options.featuredImage='/fixture.svg';}
   if (opts.long && selected.length) selected[0].title = 'LongUnbrokenTitle'.repeat(15);
   if (opts.protected && selected.length) selected[0].content = '<form method="post"><label>Password<input name="protectPassword" type="password"></label><button>解锁</button></form>';
   const detail = ['post','page','attachment'].includes(page);

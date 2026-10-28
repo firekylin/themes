@@ -1,0 +1,132 @@
+{
+  "name": "@firekylin/theme-material",
+  "title": "Material",
+  "version": "0.1.0",
+  "private": true,
+  "license": "GPL-3.0-only",
+  "description": "Material Typecho theme port for Firekylin",
+  "firekylin": {
+    "id": "material",
+    "type": "theme"
+  },
+  "configElements": [
+    {
+      "name": "slogan",
+      "label": "首页标语",
+      "type": "text"
+    },
+    {
+      "name": "dailypic",
+      "label": "首页大图 URL",
+      "type": "text"
+    },
+    {
+      "name": "avatarURL",
+      "label": "头像 URL",
+      "type": "text"
+    },
+    {
+      "name": "logo",
+      "label": "标志 URL",
+      "type": "text"
+    },
+    {
+      "name": "ThemeColor",
+      "label": "主题颜色",
+      "type": "color"
+    },
+    {
+      "name": "alinkcolor",
+      "label": "链接颜色",
+      "type": "color"
+    },
+    {
+      "name": "bgcolor",
+      "label": "背景颜色",
+      "type": "color"
+    },
+    {
+      "name": "customCSS",
+      "label": "自定义 CSS",
+      "type": "css"
+    },
+    {
+      "type": "text",
+      "name": "BGtype",
+      "label": "背景模式",
+      "help": "0 纯色，1 图片，2 渐变"
+    },
+    {
+      "type": "text",
+      "name": "backgroundImage",
+      "label": "背景图片 URL",
+      "help": "只用于模式 1"
+    },
+    {
+      "type": "text",
+      "name": "GradientType",
+      "label": "渐变方案",
+      "help": "0—9，对应上游渐变方案"
+    },
+    {
+      "type": "text",
+      "name": "ThumbnailOption",
+      "label": "文章封面模式",
+      "help": "1 首图（无首图使用替代图），2 纯色标题，3 替代图库"
+    },
+    {
+      "type": "text",
+      "name": "TitleColor",
+      "label": "纯色封面颜色",
+      "help": "#ffffff"
+    },
+    {
+      "type": "text",
+      "name": "randomPicURLs",
+      "label": "替代图库",
+      "help": "每行一个图片 URL；留空使用随主题分发的原创几何图"
+    },
+    {
+      "type": "text",
+      "name": "dailypicLink",
+      "label": "首页标语链接",
+      "help": "留空返回首页"
+    },
+    {
+      "type": "text",
+      "name": "logoLink",
+      "label": "Logo 链接",
+      "help": "留空返回首页"
+    },
+    {
+      "type": "text",
+      "name": "langis",
+      "label": "界面语言",
+      "help": "0 English，1 简体中文，2 繁體中文"
+    },
+    {
+      "type": "text",
+      "name": "ChromeThemeColor",
+      "label": "地址栏颜色",
+      "help": "#039be5"
+    },
+    {
+      "type": "text",
+      "name": "favicon",
+      "label": "站点图标 URL",
+      "help": "留空使用站点设置"
+    },
+    {
+      "type": "text",
+      "name": "stickyIds",
+      "label": "置顶文章 ID",
+      "help": "逗号分隔；从最近 50 篇公开文章中选取"
+    },
+    {
+      "type": "text",
+      "name": "socialLinks",
+      "label": "页脚社交链接",
+      "help": "JSON 数组，例如 [{\"label\":\"GitHub\",\"url\":\"https://github.com/\"}]"
+    }
+  ]
+}

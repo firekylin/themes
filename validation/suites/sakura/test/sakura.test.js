@@ -1,0 +1,4 @@
+'use strict';
+const test=require('node:test'),assert=require('node:assert/strict'),{render}=require('./port-fixture');
+test('Sakura alternate cards and configurable images are real and escaped',async()=>{const h=await render('sakura','index',{media:true,config:{defaultThumbnail:'/fixture/image.svg',announcement:'<script>x</script>'}});assert.match(h,/reverse-card/);assert.match(h,/post-content-wrap/);assert.match(h,/src="\/fixture\/cover.svg"/);assert.match(h,/&lt;script&gt;/);assert.doesNotMatch(await render('sakura','index',{config:{coverImage:'javascript:bad',defaultThumbnail:'javascript:bad'}}),/src="javascript:/);});
+test('Sakura does not invent a content license',async()=>{assert.doesNotMatch(await render('sakura','post'),/Attribution-NonCommercial|CC BY/);assert.match(await render('sakura','post',{config:{contentLicense:'CC BY 4.0'}}),/CC BY 4.0/);});

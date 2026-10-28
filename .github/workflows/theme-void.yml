@@ -1,0 +1,32 @@
+name: Theme void
+on:
+  push:
+    paths: ['packages/void/**', 'validation/suites/void/**', '.github/workflows/theme-void.yml', 'package.json', 'pnpm-lock.yaml']
+  pull_request:
+    paths: ['packages/void/**', 'validation/suites/void/**', '.github/workflows/theme-void.yml', 'package.json', 'pnpm-lock.yaml']
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: validation/suites/void
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+        working-directory: .
+      - run: node --test test/*.test.js
+      - run: pnpm exec playwright-core install --with-deps chromium
+        working-directory: .
+      - run: node scripts/check-ports-browser.js && node scripts/check-void-browser.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: theme-port-screenshots
+          path: validation/suites/void/artifacts/ports/
