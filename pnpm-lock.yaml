@@ -61,6 +61,8 @@ importers:
 
   packages/g: {}
 
+  packages/green-park-2: {}
+
   packages/icarus: {}
 
   packages/icefox: {}
