@@ -43,6 +43,24 @@
       "name": "colorMode",
       "label": "配色模式",
       "help": "填写 dark 启用深色；留空为浅色。"
+    },
+    {
+      "type": "text",
+      "name": "defaultBanner",
+      "label": "默认横幅",
+      "help": "HTTP(S) 或站内路径；文章 featuredImage 优先。"
+    },
+    {
+      "type": "text",
+      "name": "indexBannerTitle",
+      "label": "首页横幅标题",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "indexStyle",
+      "label": "首页布局",
+      "help": "填写 narrow 使用单栏，否则双栏。"
     }
   ]
 }

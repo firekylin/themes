@@ -51,3 +51,17 @@ Selection exclusions: Pinghsu/Maupassant were already ported; Clarity is reserve
 for the user. Miracles has additional custom-license restrictions, initial has no
 explicit license, and Akina's referenced earlier WordPress source could not be
 resolved for license-chain verification. They are not included in this batch.
+
+## VOID source layout
+
+`defaultBanner` configures a site banner; a post featuredImage takes precedence.
+`indexBannerTitle` overrides the home heading, and `indexStyle=narrow` selects one
+column rather than the default two-column feed. Missing article covers are omitted
+instead of showing invented placeholder photos. Cards follow the original date,
+title, excerpt order. Article titles and author/date metadata sit in a separate
+banner before the reading body, as in includes/banner.php and includes/main.php.
+
+The large-text special post template, masonry animation, PJAX, external share and
+reward integrations remain unsupported. The regular reading layout and native
+core comments are implemented. See VISUAL-COMPARISON.md for the executed upstream
+PHP banner reference and desktop/mobile checks.
