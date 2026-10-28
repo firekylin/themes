@@ -1,0 +1,16 @@
+<% /* icefox author-first timeline; adapted from components/post-list.php. */
+const archive=firekylin.archive, site=firekylin.site, config=site.themeConfig || {};
+const safe=value=>/^(https?:\/\/|\/(?!\/))[^\s<>\x22\x27]*$/i.test(String(value || '')) ? String(value) : '';
+const avatar=safe(config.logoUrl);
+%><div class="post-list">
+<% while(archive.next()) { const text=archive.excerpt(0) || String(archive.row.summary || '').replace(/<[^>]*>/g,''); const snippet=Array.from(text).slice(0,100).join('');
+const protectedPost=archive.row.password_protected || archive.row.title==='此内容被密码保护';
+const images=protectedPost ? [] : [...new Set([safe(archive.row.featuredImage),...Array.from(String(archive.row.summary || '').matchAll(/<img\b[^>]*\bsrc=[\x22\x27]([^\x22\x27]+)[\x22\x27]/gi),match=>safe(match[1]))].filter(Boolean))];
+const author=archive.author() || site.title(); const authorUrl='/author/'+encodeURIComponent(archive.row.user?.name || '');
+%><article class="post-item"><div class="post-item-left"><a href="<%= authorUrl %>" aria-label="<%= author %>的文章"><% if(avatar) { %><img src="<%= avatar %>" alt="" loading="lazy"><% } else { %><span class="icefox-avatar"><%= Array.from(author)[0] %></span><% } %></a></div><div class="post-item-right">
+<h2 class="post-title"><a href="<%= authorUrl %>"><%= author %></a></h2>
+<div class="post-content"><a class="icefox-post-link" href="<%= archive.permalink %>"><%= archive.title() %></a>
+<% if(config.autoCollapse !== '0' && text.length>100) { %><details class="icefox-expand"><summary><span><%= snippet %>…</span><span class="show_all_btn">展开摘要</span></summary><p><%= text %></p><a href="<%= archive.permalink %>">阅读全文</a></details><% } else { %><p><%= text %></p><% } %></div>
+<% if(images.length) { %><div class="icefox-images count-<%= Math.min(images.length,9) %>"><% for(const [i,src] of images.slice(0,9).entries()) { %><a href="<%= src %>" data-preview-image aria-label="查看图片 <%= i+1 %>"><img src="<%= src %>" alt="文章图片 <%= i+1 %>" loading="lazy"><% if(i===8 && images.length>9) { %><span>+<%= images.length-9 %></span><% } %></a><% } %></div><% } %>
+<div class="post-time"><time datetime="<%= archive.date('YYYY-MM-DD') %>"><%= archive.date('YYYY-MM-DD') %></time><a class="icefox-comment-link" href="<%= archive.permalink %>#comments" aria-label="查看文章与评论">···</a></div>
+</div></article><% } %></div>

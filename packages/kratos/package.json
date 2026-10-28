@@ -1,0 +1,100 @@
+{
+  "name": "firekylin-theme-kratos",
+  "private": true,
+  "version": "0.1.0",
+  "title": "Kratos",
+  "description": "Kratos 4.3.4 article feed and profile sidebar",
+  "license": "GPL-3.0-only",
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "kratos"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "heroText",
+      "label": "横幅副标题",
+      "help": "留空使用站点介绍"
+    },
+    {
+      "type": "text",
+      "name": "bannerTitle",
+      "label": "横幅标题",
+      "help": "留空使用站点标题"
+    },
+    {
+      "type": "text",
+      "name": "coverImage",
+      "label": "横幅图片",
+      "help": "您有权使用的图片 URL"
+    },
+    {
+      "type": "text",
+      "name": "showBanner",
+      "label": "显示横幅",
+      "help": "true（默认）或 false"
+    },
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "侧栏头像",
+      "help": "您有权使用的图片 URL"
+    },
+    {
+      "type": "text",
+      "name": "profileCover",
+      "label": "侧栏封面",
+      "help": "您有权使用的图片 URL"
+    },
+    {
+      "type": "text",
+      "name": "profileName",
+      "label": "侧栏名称",
+      "help": "默认站点标题"
+    },
+    {
+      "type": "text",
+      "name": "profileText",
+      "label": "侧栏介绍",
+      "help": "默认站点描述"
+    },
+    {
+      "type": "text",
+      "name": "showThumbnails",
+      "label": "显示文章缩略图",
+      "help": "true（默认）或 false"
+    },
+    {
+      "type": "text",
+      "name": "defaultThumbnail",
+      "label": "默认缩略图",
+      "help": "无特色图片时使用"
+    },
+    {
+      "type": "text",
+      "name": "showCarousel",
+      "label": "首页轮播",
+      "help": "true 或 false（默认）；展示前三篇公开文章"
+    },
+    {
+      "type": "text",
+      "name": "colorMode",
+      "label": "配色",
+      "help": "light、dark、auto"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "保留来源链接"
+    },
+    {
+      "type": "color",
+      "name": "accentColor",
+      "label": "强调色"
+    }
+  ]
+}

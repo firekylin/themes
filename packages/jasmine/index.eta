@@ -1,0 +1,11 @@
+<% /* Firekylin adaptation, modified 2026-10-28; see NOTICE.md and LICENSE. */ %>
+<% layout('./layout'); const site = await firekylin.widget('Widget_Options'); const archive = await firekylin.widget('Widget_Archive', {type:'index'}); const heading = archive.archiveTitle || (archive.is('author') ? '作者文章' : ''); %>
+<% block('title', () => { %><%= heading ? heading + ' - ' : '' %><%= site.title() %><% }) %>
+<% block('content', () => { %>
+<% if (heading) { %><h1 class="fk-title"><%= heading %></h1><% } %>
+
+<% if (archive.archiveDescription) { %><p><%= archive.archiveDescription %></p><% } %>
+<%~ include('./inc/list', {archive}) %>
+<% if (!archive.have()) { %><p class="fk-empty">暂无文章。</p><% } %>
+<%~ include('./inc/pagination', {archive}) %>
+<% }) %>
