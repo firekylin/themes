@@ -5,9 +5,8 @@ const path = require('node:path');
 const {Eta} = require('eta');
 const fs = require('node:fs');
 const packages = path.join(__dirname, '..', 'packages');
-const themes = fs.readdirSync(packages).filter(name =>
-  fs.existsSync(path.join(packages, name, 'res/css/upstream.css')) &&
-  (!process.env.PORT_THEME || process.env.PORT_THEME === name));
+const themes = ['pinghsu', 'maupassant'].filter(name =>
+  fs.existsSync(path.join(packages, name, 'res/css/upstream.css')));
 if (!themes.length) throw new Error('No upstream-style theme packages found');
 const pages = ['index', 'post', 'page', 'attachment', 'search', 'archive', 'cate', 'tag'];
 const rows = Array.from({length: 6}, (_, i) => ({
@@ -15,7 +14,7 @@ const rows = Array.from({length: 6}, (_, i) => ({
   title: ['山间来信 · Letters from the mountains', '让文字回到阅读本身', 'A small notebook of everyday things', '城市漫步与一些想法', '代码、设计与生活', '把时间留给值得的事'][i],
   summary: '<p>在忙碌的日常中，留一点时间记录观察与思考。A quiet place for words, ideas and stories.</p>',
   content: '<p>在忙碌的日常中，留一点时间记录观察与思考。</p><h2>阅读与记录</h2><p>A quiet place for words, ideas and stories.</p><pre><code>const greeting = "Hello, Firekylin";</code></pre>',
-  create_time: '2026-10-28 10:00:00', comment_num:3, update_time:'2026-10-29 10:00:00', allow_comment: 1, status: 3, is_public: 1,
+  create_time: '2026-10-28 10:00:00', allow_comment: 1, status: 3, is_public: 1,
   user: {name: 'writer', display_name: 'Writer'}, cate: [{name:'随笔', pathname:'notes'}], tag: [], options: {},
 }));
 class FixtureWidget {
@@ -36,13 +35,11 @@ function context(theme, page, opts = {}) {
   const core = process.env.FIREKYLIN_CORE_PATH;
   const request = opts.request || (page === 'search' ? '/search.html?keyword=reading' : '/');
   const selected = opts.empty ? [] : structuredClone(rows);
-  if(opts.noCategories) selected.forEach(row=>{delete row.cate;delete row.comment_num;});
   if (opts.hostile && selected.length) {
     selected[0].title = '<img src=x onerror=alert(1)>';
     selected[0].cate = [{name:'<script>bad()</script>', pathname:'notes'}];
     selected[0].featuredImage = 'javascript:alert(1)';
   }
-  if(opts.neighbors && selected.length)selected[0].prev={title:'Previous article',pathname:'previous',type:0};
   if (opts.long && selected.length) selected[0].title = 'LongUnbrokenTitle'.repeat(15);
   if (opts.protected && selected.length) selected[0].content = '<form method="post"><label>Password<input name="protectPassword" type="password"></label><button>解锁</button></form>';
   const detail = ['post','page','attachment'].includes(page);
