@@ -51,6 +51,8 @@ importers:
 
   packages/icefox: {}
 
+  packages/initial: {}
+
   packages/jasmine: {}
 
   packages/joe: {}
