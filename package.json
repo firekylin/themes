@@ -4,8 +4,8 @@
   "packageManager": "pnpm@10.29.3",
   "scripts": {
     "test": "node --test test/*.test.js",
-    "test:browser": "node scripts/check-cactus-browser.js",
-    "test:install": "python3 scripts/package-cactus.py && node scripts/check-cactus-install.js"
+    "test:browser": "node scripts/check-ports-browser.js",
+    "preview:ports": "node scripts/preview-ports.js"
   },
   "devDependencies": {
     "eta": "4.6.0",
