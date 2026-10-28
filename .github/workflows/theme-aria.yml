@@ -1,0 +1,33 @@
+name: Theme aria
+on:
+  push:
+    paths: ['packages/aria/**', 'validation/suites/aria/**', '.github/workflows/theme-aria.yml']
+  pull_request:
+    paths: ['packages/aria/**', 'validation/suites/aria/**', '.github/workflows/theme-aria.yml']
+permissions:
+  contents: read
+jobs:
+  test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/typecho-aria' || github.ref == 'refs/heads/feat/typecho-aria'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: validation/suites/aria
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+        working-directory: .
+      - run: node --test test/*.test.js
+      - run: pnpm exec playwright-core install --with-deps chromium
+        working-directory: .
+      - run: node scripts/check-ports-browser.js && node scripts/check-aria-browser.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: theme-port-screenshots
+          path: validation/suites/aria/artifacts/ports/
