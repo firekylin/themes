@@ -1,0 +1,7 @@
+# Provenance and licenses
+
+[themeskult/wp-svbtle](https://github.com/themeskult/wp-svbtle/tree/13f1953c2aadbad76425c87d8f72d62f1805885d), pinned 13f1953c2aadbad76425c87d8f72d62f1805885d. Frontend is wp-content/themes/svbtle v4.1.7, Ricardo Rauch / Gravity On Mars. Root README and frontend readme.txt include MIT; frontend style.css explicitly declares GPL v2.0. This derivative is distributed under GPL-2.0-only with the full GPLv2 text and original MIT notice retained in licenses/Upstream-MIT.txt. Neither notice is silently discarded. Modified for Firekylin 2026-10-28.
+
+Original style.css supplies fixed-rail, typography, circular logo and responsive styles. URL assets/imports are removed. No upstream lightning/logo artwork, photographs, icon images, web fonts/Typekit, prettify/vendor JavaScript, PHP libraries, analytics or separate admin application are redistributed. Operators may configure a logo they are authorized to use; default mark is the site-title initial, not the Svbtle trademark. References retain source styling only in local testing.
+
+Mapping: header.php to author rail; loop.php to full-content stream and archive excerpts; single.php to date/header/body. Actual Firekylin public Widgets supply content and native comments. No Kudos counter is simulated: the WordPress custom endpoint/metafield has no equivalent public theme API. The root README explicitly says the admin application and frontend theme are independent; this package only ports the frontend.

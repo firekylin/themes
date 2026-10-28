@@ -109,3 +109,7 @@ node_modules/
 artifacts/
 dist/
 __pycache__/
+node_modules/
+artifacts/
+dist/
+__pycache__/
