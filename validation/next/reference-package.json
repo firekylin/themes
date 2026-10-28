@@ -1,0 +1,15 @@
+{
+  "name": "next-reference",
+  "private": true,
+  "hexo": {
+    "version": "7.3.0"
+  },
+  "dependencies": {
+    "hexo": "7.3.0",
+    "hexo-renderer-swig": "2.0.0",
+    "hexo-renderer-stylus": "3.0.1",
+    "hexo-renderer-marked": "7.0.1",
+    "hexo-generator-index": "4.0.0",
+    "hexo-generator-archive": "2.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@firekylin/themes",
+  "private": true,
+  "packageManager": "pnpm@10.29.3",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "test:browser": "node scripts/check-ports-browser.js && node scripts/check-svbtle-browser.js",
+    "preview:ports": "node scripts/preview-ports.js"
+  },
+  "devDependencies": {
+    "eta": "4.6.0",
+    "playwright-core": "1.58.2"
+  }
+}

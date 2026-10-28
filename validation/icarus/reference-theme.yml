@@ -1,0 +1,168 @@
+version: 7.0.0
+variant: default
+appearance: light
+logo:
+  text: 纸上时光
+logo_dark: null
+head:
+  favicon: /img/favicon.svg
+  manifest:
+    name: null
+    short_name: null
+    start_url: null
+    theme_color: null
+    background_color: null
+    display: standalone
+    icons:
+      - src: ''
+        sizes: ''
+        type: null
+  open_graph:
+    title: null
+    type: null
+    url: null
+    image: null
+    site_name: null
+    author: null
+    description: null
+    twitter_card: null
+    twitter_id: null
+    twitter_site: null
+    google_plus: null
+    fb_admins: null
+    fb_app_id: null
+  structured_data:
+    title: null
+    description: null
+    url: null
+    author: null
+    publisher: null
+    publisher_logo: null
+    image: null
+  meta:
+    - ''
+  rss: null
+navbar:
+  sticky: false
+  menu:
+    首页: /
+    归档: /archives
+    分类: /categories
+    关于: /page/about.html
+  links:
+    Download on GitHub:
+      icon: fab fa-github
+      url: https://github.com/ppoffice/hexo-theme-icarus
+footer:
+  copyright: © 2019
+  links:
+    Creative Commons:
+      icon: fab fa-creative-commons
+      url: https://creativecommons.org/
+    Attribution 4.0 International:
+      icon: fab fa-creative-commons-by
+      url: https://creativecommons.org/licenses/by/4.0/
+    Download on GitHub:
+      icon: fab fa-github
+      url: https://github.com/ppoffice/hexo-theme-icarus
+article:
+  highlight:
+    theme: atom-one-light
+    dark_theme: atom-one-dark
+    clipboard: true
+    fold: unfolded
+    fold_preview: 0
+  readtime: false
+  update_time: false
+  outdated_notice:
+    enable: false
+    days: 365
+  licenses:
+    Creative Commons:
+      icon: fab fa-creative-commons
+      url: https://creativecommons.org/
+    Attribution:
+      icon: fab fa-creative-commons-by
+      url: https://creativecommons.org/licenses/by/4.0/
+    Noncommercial:
+      icon: fab fa-creative-commons-nc
+      url: https://creativecommons.org/licenses/by-nc/4.0/
+search:
+  type: insight
+  index_pages: true
+comment:
+  type: null
+donates: []
+share:
+  type: null
+sidebar:
+  left:
+    sticky: false
+  right:
+    sticky: false
+widgets:
+  - type: profile
+    position: left
+    author: 纸上时光
+    author_title: 记录生活，分享想法 · Notes on a slower life
+    avatar: /fixture/cover.svg
+    avatar_rounded: true
+    follow_link: /
+    social_links: {}
+  - type: toc
+    position: left
+  - type: categories
+    position: left
+    show_count: true
+  - type: recent_posts
+    position: right
+    limit: 5
+  - type: tags
+    position: right
+plugins:
+  animejs: false
+  back_to_top: true
+  baidu_analytics:
+    tracking_id: null
+  bing_webmaster:
+    tracking_id: null
+  busuanzi: false
+  cnzz:
+    id: null
+    web_id: null
+  cookie_consent:
+    type: info
+    theme: edgeless
+    static: false
+    position: bottom-left
+    policyLink: https://www.cookiesandyou.com/
+  gallery: true
+  google_analytics:
+    tracking_id: null
+  hotjar:
+    site_id: null
+  katex: false
+  mathjax: false
+  matomo:
+    url: null
+    site_id: null
+    disable_cookies: false
+  outdated_browser: false
+  pjax: false
+  prefetch: false
+  progressbar: true
+  statcounter:
+    project: null
+    security: null
+  twitter_conversion_tracking:
+    pixel_id: null
+  umami:
+    website_id: null
+    script_url: https://cloud.umami.is/script.js
+    domains: null
+  waline_pageview: false
+providers:
+  cdn: jsdelivr
+  cdn_overrides: {}
+  fontcdn: google
+  iconcdn: fontawesome

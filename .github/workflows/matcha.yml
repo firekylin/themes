@@ -1,0 +1,32 @@
+name: Matcha integration
+on:
+  pull_request:
+    paths: ['packages/matcha/**', 'verification/matcha/**', '.github/workflows/matcha.yml']
+  push:
+    branches: ['port/matcha']
+permissions:
+  contents: read
+jobs:
+  live-site:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: firekylin/firekylin
+          ref: 99bbdcb919bae2133420dee214c5f8897b9ace25
+          path: .verification-core
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: pnpm install --frozen-lockfile
+        working-directory: .verification-core
+      - run: npm ci --ignore-scripts --prefix verification/matcha
+      - name: Verify installed theme against SQLite site
+        env:
+          FIREKYLIN_CHECKOUT: ${{ github.workspace }}/.verification-core
+          PLAYWRIGHT_MODULE: ${{ github.workspace }}/verification/matcha/node_modules/playwright
+          CHROMIUM_PATH: /usr/bin/google-chrome
+        run: node verification/matcha/live.cjs

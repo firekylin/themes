@@ -1,0 +1,78 @@
+{
+  "name": "butterfly",
+  "title": "Butterfly",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Blue hero, alternating image/text cards and a profile sidebar.",
+  "license": "Apache-2.0",
+  "author": "wehaox / JerryC",
+  "homepage": "https://github.com/wehaox/Typecho-Butterfly",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/butterfly"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "butterfly"
+  },
+  "engines": {
+    "firekylin": ">=2.16.0"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "纯文本，不支持 HTML。"
+    },
+    {
+      "type": "text",
+      "name": "heroText",
+      "label": "站点简介",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "color",
+      "name": "accentColor",
+      "label": "强调色",
+      "help": "支持 #RGB 或 #RRGGBB。"
+    },
+    {
+      "type": "text",
+      "name": "colorMode",
+      "label": "配色模式",
+      "help": "填写 dark 启用深色；留空为浅色。"
+    },
+    {
+      "type": "text",
+      "name": "sidebarTitle",
+      "label": "侧栏标题",
+      "help": "留空显示最新文章。"
+    },
+    {
+      "type": "text",
+      "name": "headerimg",
+      "label": "首页封面",
+      "help": "支持 http(s) URL 或站内路径。"
+    },
+    {
+      "type": "text",
+      "name": "mobileHeaderImg",
+      "label": "手机封面",
+      "help": "支持 http(s) URL 或站内路径。"
+    },
+    {
+      "type": "text",
+      "name": "avatar",
+      "label": "资料栏头像",
+      "help": "支持 http(s) URL 或站内路径。"
+    },
+    {
+      "type": "text",
+      "name": "followUrl",
+      "label": "关注链接",
+      "help": "支持 http(s) URL 或站内路径。"
+    }
+  ]
+}

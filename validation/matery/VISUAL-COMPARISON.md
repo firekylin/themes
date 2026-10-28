@@ -1,0 +1,13 @@
+# Matery visual validation
+
+Original commit `86ad429e24d0b002c1feb245e510ea93f82e3395`, rendered by actual Hexo 7.3.0 and EJS 2.0.0. Paired home/article screenshots at 1280×900 and 390×900 are included with JSON geometry, reference dependency lockfile, configuration and synthetic content.
+
+Reproduce in a separate directory: install reference-package.json/lockfile; clone the pinned theme to themes/matery; copy reference-site.yml to _config.yml, reference-theme.yml to themes/matery/_config.yml, reference-content to source; run Hexo generate from that directory. Then `MATERY_REFERENCE_PUBLIC=/path/to/public node scripts/compare-matery.js` captures both engines.
+
+Capture normalization is explicit in the script: external requests are blocked; original /medias and /medias_webp image requests serve the synthetic cover.svg; AOS elements are forced to their final visible state (opacity 1, no scale transform/transition) and the original body scrolling container is expanded for full-page capture. These changes make below-fold cards visible; they do not substitute port templates or CSS for the original. Vendor icons and local original scripts may run in the reference; they are not bundled in the port. The original animated overlay can differ in tint by capture timing.
+
+Desktop cover height is 900px and article cover height 360px in both. First homepage card x/y/width is 88.75/917.5/352.5 in both. Mobile card width is 349.5px in both; port starts 8px lower because upstream uses a fixed -64px cover margin with a 56px mobile navbar, while the port uses -56px. Detail panel width matches at 1125px desktop and 370.5px mobile. Card heights differ by about 40px because the original fixture has tags while the port fixture has none; the template supports actual tags. Detail heights differ due to fixture body, highlighting and adjacent-card layout. Cover title/button positions differ because original social links and an extra button are configured; the port fixture omits them.
+
+The port preserves primary layout and CSS, not pixel-exact content parity. Native equal-row cards replace Masonry; TOC is collapsible rather than a sticky sidebar. All unsupported integrations are listed in README.
+
+Local validation: 13 Node tests including 11 theme tests; 11 rerun with actual core Widget/comment classes at a200d5887c702acb7c264776d9827f54e8389f09; 7 Python tests; actual ThemeInstaller ZIP installation; 16 page/viewport Chromium renders, cover next/previous, mobile menu, persistent dark mode, TOC, clipboard, long title overflow and no-JS navigation. Synthetic data is used; no production database or live external services were exercised. CI repeats rendering, install and browser checks.

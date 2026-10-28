@@ -1,0 +1,7 @@
+# Provenance and resource audit
+
+[Puock 2.11.0 by Licoy](https://github.com/Licoy/wordpress-theme-puock/tree/43560985d30a8fea43fcf93e053ce08f3fb67929) pinned to 43560985d30a8fea43fcf93e053ce08f3fb67929. GPL-3.0 LICENSE retained. README requires the footer attribution; the port visibly credits Puock/Licoy and links the source. Modified 2026-10-28 for Firekylin.
+
+upstream.css combines upstream assets/libs/basic/bootstrap/bootstrap.min.css (Bootstrap 5.3.8, MIT) with assets/dist/style/style.min.css and screen.min.css. All URL resources/imports are removed; the full Bootstrap license is in licenses/. No upstream artwork, logo, icon/web fonts, vendor JavaScript, PHP libraries, tracking, AI credentials or updater are bundled. Native browser controls are independently implemented. Theme configuration only accepts authorized operator-supplied image URLs; screenshots use synthetic media.
+
+Mapping: header.php and index.php to layout.eta; templates/module-post.php list/card markup to index.eta; single.php to post.eta; templates/module-banners.php to a native manual carousel. Native Firekylin public Widgets and comment renderer supply actual content. Source view/like counters and user-center actions are omitted, never simulated. Card columns 2/3/4 and sidebar visibility are configurable. Shared platform tests/reading helpers are reused; Puock CSS, document structure and visual adapters are independent from other theme ports.
