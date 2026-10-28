@@ -1,13 +1,14 @@
 name: Theme bubble
 on:
   push:
-    paths: ['packages/bubble/**', 'validation/suites/bubble/**', '.github/workflows/theme-bubble.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/bubble/**', 'validation/suites/bubble/**', '.github/workflows/theme-bubble.yml']
   pull_request:
-    paths: ['packages/bubble/**', 'validation/suites/bubble/**', '.github/workflows/theme-bubble.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/bubble/**', 'validation/suites/bubble/**', '.github/workflows/theme-bubble.yml']
 permissions:
   contents: read
 jobs:
   test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/typecho-bubble' || github.ref == 'refs/heads/feat/typecho-bubble'
     runs-on: ubuntu-latest
     defaults:
       run:

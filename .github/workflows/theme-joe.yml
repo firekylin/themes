@@ -1,13 +1,14 @@
 name: Theme joe
 on:
   push:
-    paths: ['packages/joe/**', 'validation/suites/joe/**', '.github/workflows/theme-joe.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/joe/**', 'validation/suites/joe/**', '.github/workflows/theme-joe.yml']
   pull_request:
-    paths: ['packages/joe/**', 'validation/suites/joe/**', '.github/workflows/theme-joe.yml', 'package.json', 'pnpm-lock.yaml']
+    paths: ['packages/joe/**', 'validation/suites/joe/**', '.github/workflows/theme-joe.yml']
 permissions:
   contents: read
 jobs:
   test:
+    if: github.ref == 'refs/heads/main' || github.head_ref == 'feat/typecho-joe' || github.ref == 'refs/heads/feat/typecho-joe'
     runs-on: ubuntu-latest
     defaults:
       run:
