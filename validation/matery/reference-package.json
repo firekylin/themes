@@ -1,0 +1,15 @@
+{
+  "name": "matery-reference",
+  "private": true,
+  "hexo": {
+    "version": "7.3.0"
+  },
+  "dependencies": {
+    "hexo": "7.3.0",
+    "hexo-renderer-ejs": "2.0.0",
+    "hexo-renderer-marked": "7.0.1",
+    "hexo-generator-index": "4.0.0",
+    "hexo-generator-archive": "2.0.0",
+    "hexo-wordcount": "6.0.1"
+  }
+}
