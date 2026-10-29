@@ -1,0 +1,10 @@
+'use strict';
+(()=>{
+ const toc=document.getElementById('postTor'),button=document.getElementById('tor-show');
+ const headings=[...document.querySelectorAll('.post-content h3,.post-content h4')];
+ if(toc&&button&&headings.length){const list=toc.querySelector('.torarc-tile');headings.forEach((h,i)=>{if(!h.id){let id='mori-heading-'+i;while(document.getElementById(id))id+='-';h.id=id;}const a=document.createElement('a');a.href='#'+encodeURIComponent(h.id);a.textContent=h.textContent;a.className=h.tagName==='H3'?'tori':'torii';list.append(a);});button.hidden=false;button.addEventListener('click',()=>{toc.hidden=!toc.hidden;button.setAttribute('aria-expanded',String(!toc.hidden));});}
+ document.getElementById('copy-link')?.addEventListener('click',async()=>{const status=document.getElementById('copy-status');try{await navigator.clipboard.writeText(location.href);status.textContent='已复制';}catch{status.textContent='请从地址栏复制链接';}});
+ const comments=document.getElementById('mori-comments');document.querySelectorAll('a[href="#mori-comments"]').forEach(a=>{if(!comments){a.hidden=true;return;}a.addEventListener('click',()=>comments.open=true);});if(comments&&location.hash.startsWith('#comment'))comments.open=true;
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'){document.querySelectorAll('.page-menu[open]').forEach(d=>{d.open=false;d.querySelector('summary').focus();});if(toc&&!toc.hidden){toc.hidden=true;button.setAttribute('aria-expanded','false');}}});
+ document.querySelectorAll('.post-content img').forEach(img=>{if(img.closest('a,button'))return;const b=document.createElement('button');b.type='button';b.className='mori-image-button';b.setAttribute('aria-label','放大图片：'+(img.alt||'图片'));img.before(b);b.append(img);b.addEventListener('click',()=>{const d=document.createElement('dialog'),close=document.createElement('button');d.className='mori-lightbox';close.type='button';close.textContent='关闭';d.append(close,img.cloneNode());document.body.append(d);close.addEventListener('click',()=>d.close());d.addEventListener('close',()=>{d.remove();b.focus();});d.showModal();close.focus();});});
+})();
