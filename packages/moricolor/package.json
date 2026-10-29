@@ -1,0 +1,54 @@
+{
+  "name": "moricolor",
+  "title": "Moricolor",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Moricolor date-led collapsible journal and reading toolbar for Firekylin.",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Trii Hsia; Firekylin contributors",
+  "homepage": "https://github.com/txperl/Moricolor-for-Typecho",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/moricolor"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "moricolor"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "previewCount",
+      "label": "默认展开预览数量",
+      "help": "整数，默认 1。"
+    },
+    {
+      "type": "text",
+      "name": "previewImages",
+      "label": "预览图片",
+      "help": "填写 on 显示特色图片。"
+    },
+    {
+      "type": "text",
+      "name": "quote",
+      "label": "底部短句",
+      "help": "纯文本；不请求第三方一言服务。"
+    },
+    {
+      "type": "text",
+      "name": "textIndent",
+      "label": "正文首行缩进",
+      "help": "填写 on 开启。"
+    },
+    {
+      "type": "text",
+      "name": "showComments",
+      "label": "默认展开评论",
+      "help": "填写 on 开启。"
+    }
+  ]
+}
