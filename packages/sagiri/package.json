@@ -1,0 +1,48 @@
+{
+  "name": "sagiri",
+  "title": "Sagiri",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sagiri banner, ribbon article cards and tabbed reading sidebar for Firekylin.",
+  "license": "GPL-3.0-only",
+  "author": "Shiyi; DIYgod; Firekylin contributors",
+  "homepage": "https://github.com/shiyiya/typecho-theme-sagiri",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/sagiri"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "sagiri"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "headerImage",
+      "label": "横幅图片",
+      "help": "HTTP(S) 或站内绝对路径；请使用有权使用的图片。"
+    },
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "头像",
+      "help": "HTTP(S) 或站内绝对路径。"
+    },
+    {
+      "type": "text",
+      "name": "profileName",
+      "label": "站点作者",
+      "help": "留空显示站点名称。"
+    },
+    {
+      "type": "text",
+      "name": "profileText",
+      "label": "作者介绍",
+      "help": "纯文本。"
+    }
+  ]
+}

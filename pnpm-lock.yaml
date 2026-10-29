@@ -116,6 +116,8 @@ importers:
 
   packages/puock: {}
 
+  packages/sagiri: {}
+
   packages/sakura: {}
 
   packages/sakurairo: {}
