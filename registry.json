@@ -411,6 +411,20 @@
     },
     {
       "type": "theme",
+      "name": "moricolor",
+      "id": "moricolor",
+      "version": "0.1.0",
+      "title": "Moricolor",
+      "description": "Moricolor date-led collapsible journal and reading toolbar for Firekylin.",
+      "download": "https://github.com/firekylin/themes/releases/download/moricolor-v0.1.0/moricolor-0.1.0.zip",
+      "integrity": "sha512-RvX05p+mf5r76XpCJ8ULsRFVWMLpCZ5Lt+mo50HVK0tniIoZQBgbq3xpagxtLRH5YflZ0a5ZI3dA2OFtPFG8VA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/moricolor/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "@firekylin/theme-nexmoe",
       "id": "nexmoe",
       "version": "0.1.1",
