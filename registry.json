@@ -556,6 +556,20 @@
     },
     {
       "type": "theme",
+      "name": "story",
+      "id": "story",
+      "version": "0.1.0",
+      "title": "Story",
+      "description": "Story's square article grid and tiled navigation, ported to Firekylin.",
+      "download": "https://github.com/firekylin/themes/releases/download/story-v0.1.0/story-0.1.0.zip",
+      "integrity": "sha512-yXdVxjOn+wYNB8IR+/3cfpF1P83JN0T9LmC3U3jWCpyAGIcE1vw55p/4NV3xH5YNCAbzzTTSLnJVB+r3vhchfg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/story/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
       "name": "firekylin-theme-svbtle",
       "id": "svbtle",
       "version": "0.1.1",
