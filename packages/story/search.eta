@@ -1,0 +1,10 @@
+<% layout('./layout'); const site = await firekylin.widget('Widget_Options'); const archive = await firekylin.widget('Widget_Archive', {type:'search'}); const heading = archive.keyword ? '搜索：' + archive.keyword : '站内搜索'; %>
+<% block('title', () => { %><%= heading ? heading + ' - ' : '' %><%= site.title() %><% }) %>
+<% block('content', () => { %>
+<% if (heading) { %><h1 class="archive-header"><%= heading %></h1><% } %>
+<form class="story-search-page" action="/search.html" method="get" role="search"><label class="sr-only" for="keyword">搜索关键词</label><input id="keyword" name="keyword" type="search" maxlength="80" value="<%= archive.keyword %>" required><button type="submit">搜索</button></form>
+<% if (archive.archiveDescription) { %><p><%= archive.archiveDescription %></p><% } %>
+<%~ include('./inc/list', {archive}) %>
+<% if (!archive.have()) { %><p class="fk-empty">暂无文章。</p><% } %>
+<%~ include('./inc/pagination', {archive}) %>
+<% }) %>
