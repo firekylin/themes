@@ -514,6 +514,20 @@
     },
     {
       "type": "theme",
+      "name": "sagiri",
+      "id": "sagiri",
+      "version": "0.1.0",
+      "title": "Sagiri",
+      "description": "Sagiri banner, ribbon article cards and tabbed reading sidebar for Firekylin.",
+      "download": "https://github.com/firekylin/themes/releases/download/sagiri-v0.1.0/sagiri-0.1.0.zip",
+      "integrity": "sha512-rct6NUVqy/zgqOXq/j8+/ilJoa4/XIYnhcLib+BeOwcD+rBsAZhqQI9XTsbu6Nn2aHFqNwOA41blbWmxFgDkeQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/sagiri/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "firekylin-theme-sakura",
       "id": "sakura",
       "version": "0.1.0",
