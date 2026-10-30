@@ -198,6 +198,8 @@ importers:
 
   packages/brave: {}
 
+  packages/dreamcat: {}
+
   packages/tranquilpeak: {}
 
   packages/webstack: {}
