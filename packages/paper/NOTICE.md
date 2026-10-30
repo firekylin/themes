@@ -1,0 +1,2 @@
+# Provenance
+Hugo Paper by 南小北, https://github.com/nanxiaobei/hugo-paper at f7ed52a1da04aa2c536a9c075354191dc10152f8, MIT license retained. Layouts and plain CSS translate upstream templates and Tailwind declarations (assets/app.css and generated assets/main.css). No Tailwind build, upstream Hugo executable, or upstream JavaScript was executed. Theme interaction is implemented locally. Original sample avatar/art and icon sprites are not distributed.

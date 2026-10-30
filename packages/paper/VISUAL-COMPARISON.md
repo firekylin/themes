@@ -1,0 +1,4 @@
+# Visual comparison
+Original reference: images/screenshot.png, baseof.html, list.html, single.html, header.html and assets/app.css at f7ed52a1da04aa2c536a9c075354191dc10152f8. Preserve linen #faf8f1 canvas, 680px content +32px gutters, 72px header, 56px main top padding, 96px avatar frame, 40px list spacing and black rounded pagination. The green device frame in the promotional screenshot is not theme UI. Sample content/avatar are replaced with test fixtures. Unicode sun/moon replaces original sprite; explicit keyboard buttons and details menu replace upstream div controls.
+
+Actual installed ZIP evidence: verification/paper/{home,post}-{1440,390}.png, dark.png and report.json. Native list dates differ by platform formatting. Upstream Hugo/JS was not run; comparison uses original screenshot and source. External Waline authentication/submission is not tested.

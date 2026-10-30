@@ -1,0 +1,54 @@
+{
+  "name": "paper",
+  "title": "Paper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hugo Paper: linen canvas, profile introduction and spacious title lists.",
+  "license": "MIT",
+  "author": "南小北; Firekylin contributors",
+  "homepage": "https://github.com/nanxiaobei/hugo-paper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/paper"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "paper"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "profileName",
+      "label": "作者名称",
+      "help": "首页个人简介。"
+    },
+    {
+      "type": "text",
+      "name": "bio",
+      "label": "作者简介",
+      "help": "纯文本。"
+    },
+    {
+      "type": "text",
+      "name": "avatar",
+      "label": "头像",
+      "help": "HTTP(S) 或站内绝对路径。"
+    },
+    {
+      "type": "text",
+      "name": "color",
+      "label": "背景色",
+      "help": "linen / wheat / gray / light，默认 linen。"
+    },
+    {
+      "type": "text",
+      "name": "github",
+      "label": "GitHub",
+      "help": "完整 HTTPS 个人主页地址。"
+    }
+  ]
+}
