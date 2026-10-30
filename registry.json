@@ -143,6 +143,20 @@
     },
     {
       "type": "theme",
+      "name": "congo",
+      "id": "congo",
+      "version": "0.1.0",
+      "title": "Congo",
+      "description": "Congo profile homepage, violet reading links and compact article lists.",
+      "download": "https://github.com/firekylin/themes/releases/download/congo-v0.1.0/congo-0.1.0.zip",
+      "integrity": "sha512-m2B/ZeJ68chx6sEikdLus4VKxKbQpOolZnrxbiGWO04/Gi+xdY5cZfSGQzxGr61+waOA4xSbTZhnFudnPfIlsw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/congo/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "cuckoo",
       "id": "cuckoo",
       "version": "0.1.0",

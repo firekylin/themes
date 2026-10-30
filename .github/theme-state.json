@@ -39,6 +39,10 @@
     "hash": "b82d91cd3db4e42502f87ff355fb0dd01b656476d4ec27a27323ecedba49395b",
     "id": "cactus"
   },
+  "congo": {
+    "hash": "cf4c42fdda1c9a427c4b7877d7713d3f4915c82d2626a0163d0e57d01c0af1c1",
+    "id": "congo"
+  },
   "cuckoo": {
     "hash": "74880a150adb25343c5853b18fb76e8d545adca76fecd7cf441de656ae417f86",
     "id": "cuckoo"
