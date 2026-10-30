@@ -84,6 +84,8 @@ importers:
 
   packages/echo: {}
 
+  packages/even: {}
+
   packages/fantasy: {}
 
   packages/firekylin: {}
