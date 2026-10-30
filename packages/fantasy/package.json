@@ -1,0 +1,30 @@
+{
+  "name": "fantasy",
+  "title": "Fantasy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fantasy paper journal layout, ported from the Aragaki-derived Typecho theme.",
+  "license": "GPL-3.0-only",
+  "author": "Xingr; PCDotFan; Firekylin contributors",
+  "homepage": "https://github.com/Seevil/fantasy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/fantasy"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "fantasy"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "logoUrl",
+      "label": "站点头像",
+      "help": "HTTP(S) 或站内绝对路径；留空显示站点首字。"
+    }
+  ]
+}
