@@ -629,6 +629,20 @@
     },
     {
       "type": "theme",
+      "name": "onecircle",
+      "id": "onecircle",
+      "version": "0.1.0",
+      "title": "OneCircle",
+      "description": "OneCircle public reading feed adapted to Firekylin.",
+      "download": "https://github.com/firekylin/themes/releases/download/onecircle-v0.1.0/onecircle-0.1.0.zip",
+      "integrity": "sha512-VBPop8Cq2uYBG53oAxRwIbYar03Z7TFU2G/r5D+71OI7S4FetpNXh2kOISElWHIAUupML9ZYyG4diVVW6HnbEg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/onecircle/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "paper",
       "id": "paper",
       "version": "0.1.0",
