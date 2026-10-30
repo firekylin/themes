@@ -517,6 +517,20 @@
     },
     {
       "type": "theme",
+      "name": "paper",
+      "id": "paper",
+      "version": "0.1.0",
+      "title": "Paper",
+      "description": "Hugo Paper: linen canvas, profile introduction and spacious title lists.",
+      "download": "https://github.com/firekylin/themes/releases/download/paper-v0.1.0/paper-0.1.0.zip",
+      "integrity": "sha512-/rHiLisUg1ZvT7dtPHvWa+FkEZXSK3HzTxzW1YT66D+aQIGvqvhSsPWNjbpWpbtvBCsTwf3k0bZJ1r5BqfvZoA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/paper/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "papermod",
       "id": "papermod",
       "version": "0.1.0",

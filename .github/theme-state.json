@@ -151,6 +151,10 @@
     "hash": "36082a5882a1de838fd1772260d553a547f3d5dcbf474a191d95a756e289f4ee",
     "id": "oneblog"
   },
+  "paper": {
+    "hash": "47f496925f03c23008839c48319bcc617a6ddf3620d0bdbd1930ce465ddb2279",
+    "id": "paper"
+  },
   "papermod": {
     "hash": "859ef7db9429c0af369e16d8c613aa67a5fe0f293ef5c8acfe7c6f4836458b2d",
     "id": "papermod"
