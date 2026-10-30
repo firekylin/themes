@@ -1,0 +1,4 @@
+# DUX
+Firekylin >=2.17.1 port of hiCasper's Typecho DUX variant. Keeps the blue category flags, thumbnail/excerpt rows, latest-post sidebar, tag cloud, centered article heading and small-screen horizontal thumbnails. Optional logo, tagline, static homepage banner and author description are configurable. Native search dropdown, accessible mobile menu, pagination, taxonomy, archives, protected content and conditional Waline comments supported.
+
+This port does not implement slideshow autoplay, read counters, Typecho recent comments, related/adjacent-post queries, lazy-load plugins or arbitrary advertising HTML. The screenshot's promotional banner and artwork are not bundled. No dark mode is claimed; this upstream version uses a light appearance. Preserve full source lineage and GPL license in NOTICE.

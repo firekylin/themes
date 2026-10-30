@@ -1,0 +1,55 @@
+{
+  "name": "dux",
+  "title": "DUX",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DUX magazine-style article list, blue category flags and recent-post sidebar.",
+  "license": "GPL-2.0-only",
+  "author": "大前端, Arco-X, hiCasper; Firekylin contributors",
+  "homepage": "https://github.com/hicasper/Typecho-theme-DUX",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/dux"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "dux",
+    "widgets": "widgets.js"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "logoUrl",
+      "label": "标志图片",
+      "help": "HTTP(S) 或站内绝对路径。"
+    },
+    {
+      "type": "text",
+      "name": "tagline",
+      "label": "标志旁描述",
+      "help": "纯文本。"
+    },
+    {
+      "type": "text",
+      "name": "bannerImage",
+      "label": "首页横幅",
+      "help": "可选静态图片。"
+    },
+    {
+      "type": "text",
+      "name": "bannerUrl",
+      "label": "横幅链接",
+      "help": "HTTP(S) 或站内绝对路径。"
+    },
+    {
+      "type": "text",
+      "name": "authorDescription",
+      "label": "作者说明",
+      "help": "文章底部纯文本简介。"
+    }
+  ]
+}
