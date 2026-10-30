@@ -1,0 +1,2 @@
+# Source and attribution
+Redefine https://github.com/evannotfound/hexo-theme-redefine at afa67f32e0e8af2705b7c4bf81a62227e665d90f, GPLv3; exact upstream LICENSE retained. Firekylin native adaptation 2026-10-30. Referenced home banner/article templates, variables.styl, navbar.styl, home-sidebar.styl and config. No upstream software executed. No wallpaper, icon or font assets copied. Optional images are supplied by site administrator.

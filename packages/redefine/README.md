@@ -1,0 +1,4 @@
+# Redefine for Firekylin
+Fixed backdrop with full viewport banner, 70px glass navbar, left 210px sidebar, 1000px blog area, 18px rounded translucent article cards, 150px thumbnails, burgundy accent and 38px spacing. Optional owned background/avatar, title/subtitle/profile settings. Native routes/search/privacy/comments/pagination; persistent dark mode, mobile drawer, generated outline, copy URL and scroll percentage.
+
+Native full navigation replaces Swup; static subtitle replaces typing/Hitokoto. No fabricated analytics, encrypted articles, external comment vendors, galleries, QR/social services or tag-plugin runtime. System fonts replace upstream Geist/Chillax distribution. Text links replace icon assets. Article TOC sits in left sidebar (native layout), rather than original right post tools; configured native images/header and title chip preserve article hierarchy. Requires Firekylin>=2.17.1.

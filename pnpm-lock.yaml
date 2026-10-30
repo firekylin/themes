@@ -204,6 +204,8 @@ importers:
 
   packages/stellar: {}
 
+  packages/redefine: {}
+
   packages/volantis: {}
 
   packages/tranquilpeak: {}
