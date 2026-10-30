@@ -1,0 +1,48 @@
+{
+  "name": "hextra",
+  "title": "Hextra",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hextra landing, blog and documentation reading layouts for Firekylin.",
+  "license": "MIT",
+  "author": "Xin / imfing; Firekylin contributors",
+  "homepage": "https://github.com/imfing/hextra",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hextra"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hextra"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "heroTitle",
+      "label": "首页标题",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "heroText",
+      "label": "首页介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "heroLink",
+      "label": "首页按钮链接",
+      "help": "HTTP(S) 或站内绝对路径，默认归档。"
+    },
+    {
+      "type": "text",
+      "name": "heroLabel",
+      "label": "首页按钮文字",
+      "help": "默认开始阅读。"
+    }
+  ]
+}
