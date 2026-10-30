@@ -1,0 +1,66 @@
+{
+  "name": "terminal",
+  "title": "Terminal",
+  "version": "0.1.0",
+  "private": true,
+  "description": "panr Terminal: monospaced striped masthead and dotted article titles.",
+  "license": "MIT",
+  "author": "panr; Firekylin contributors",
+  "homepage": "https://github.com/panr/hugo-theme-terminal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/terminal"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "terminal"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "logoText",
+      "label": "标志文字",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "layout",
+      "label": "布局",
+      "help": "left / center / full，默认 left。"
+    },
+    {
+      "type": "text",
+      "name": "accent",
+      "label": "强调色",
+      "help": "六位十六进制颜色，例如 #eec35e。"
+    },
+    {
+      "type": "text",
+      "name": "background",
+      "label": "背景色",
+      "help": "六位十六进制颜色，例如 #1a170f。"
+    },
+    {
+      "type": "text",
+      "name": "foreground",
+      "label": "文字色",
+      "help": "六位十六进制颜色，例如 #eceae5。"
+    },
+    {
+      "type": "text",
+      "name": "intro",
+      "label": "首页说明",
+      "help": "可选纯文本框。"
+    },
+    {
+      "type": "text",
+      "name": "toc",
+      "label": "文章目录",
+      "help": "设为 false 可关闭目录。"
+    }
+  ]
+}
