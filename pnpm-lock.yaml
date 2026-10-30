@@ -126,6 +126,8 @@ importers:
 
   packages/matcha: {}
 
+  packages/learn: {}
+
   packages/material: {}
 
   packages/matery: {}
