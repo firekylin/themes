@@ -389,6 +389,20 @@
     },
     {
       "type": "theme",
+      "name": "hextra",
+      "id": "hextra",
+      "version": "0.1.0",
+      "title": "Hextra",
+      "description": "Hextra landing, blog and documentation reading layouts for Firekylin.",
+      "download": "https://github.com/firekylin/themes/releases/download/hextra-v0.1.0/hextra-0.1.0.zip",
+      "integrity": "sha512-SHezq2Lg+vrTQsfv96vP+RI8GEEGMvh6EpYTmfkdnlbKe3HuFQiR9snZew+au3eTZD0FBt1LAFV9zcj2G915jQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hextra/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-book",
       "id": "hugo-book",
       "version": "0.1.0",
