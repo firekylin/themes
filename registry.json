@@ -87,6 +87,20 @@
     },
     {
       "type": "theme",
+      "name": "aurora",
+      "id": "aurora",
+      "version": "0.1.0",
+      "title": "Aurora",
+      "description": "Aurora gradient magazine layout adapted to native Firekylin pages.",
+      "download": "https://github.com/firekylin/themes/releases/download/aurora-v0.1.0/aurora-0.1.0.zip",
+      "integrity": "sha512-1l7ZcMqRSQqsAD/zHj1KcCW0cJQ1qEoKoXgZRrfNgCVkbaiaRBXPqNmodMvcqgfFoPcfB+1o00BbNxz1n1FuYA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/aurora/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "bearblog",
       "id": "bearblog",
       "version": "0.1.1",
