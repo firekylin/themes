@@ -1,0 +1,1 @@
+<% const archive=firekylin.archive;let count=0;while(archive.next()){count++; %><article class="entry"><h2><a href="<%= archive.permalink %>"><%= archive.title() %></a></h2><time>深情地写于 <%= archive.date('YYYY-MM-DD') %></time></article><% }if(!count){ %><p>没有找到内容。</p><% } %>

@@ -1,0 +1,14 @@
+# Brave
+Typecho情侣主题Brave
+
+<?php
+
+/**
+ * 勇敢爱 - Typecho情侣主题
+ * @package     Brave
+ * @author      Veen Zhao
+ * @version     1.2
+ * @link        https://blog.zwying.com
+ */
+if (!defined('__TYPECHO_ROOT_DIR__')) exit;
+$t
