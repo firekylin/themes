@@ -1,0 +1,4 @@
+# Source comparison
+Reviewed header.php, footer.php, index.php, inc/content.php and style.css at the pinned revision. Preserve original 780px/96% container, 4rem masthead padding, 1.5rem site title, 48px information strip, 1.4rem list headings, 180x132px thumbnails (100x90px mobile), 80px short article rules, #656d78/#434a54 text, #3274ff links, #f3eacb sepia and #1c1f2b night. Keep source highlighted article headings and right-edge palette/font tools. Native metadata remains in content rather than WordPress-specific interactive info controls. Mobile padding and toolbar location prevent covering reading links.
+
+Official screenshot.png is a brand poster, not a page. biji.io failed with ERR_TUNNEL_CONNECTION_FAILED, so no live pixel-comparison claim is made. Actual native ZIP/SQLite desktop/mobile and palette screenshots are in verification/adams; comparison is based on the complete source layout/styles.

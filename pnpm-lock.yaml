@@ -46,6 +46,8 @@ importers:
 
   packages/akina: {}
 
+  packages/adams: {}
+
   packages/amaze: {}
 
   packages/aquila: {}
