@@ -1,0 +1,42 @@
+{
+  "name": "skeleton",
+  "title": "Skeleton",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Simple Themes Skeleton classic responsive blog adaptation.",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Simple Themes / Casey Lee; Firekylin contributors",
+  "homepage": "https://github.com/simplethemes/skeleton_wp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/skeleton"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "skeleton"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "logoUrl",
+      "label": "标志 URL",
+      "help": "可选 HTTP(S) 或站内绝对路径。"
+    },
+    {
+      "type": "text",
+      "name": "headerText",
+      "label": "页眉附加文字",
+      "help": "纯文本，可留空。"
+    },
+    {
+      "type": "text",
+      "name": "sidebarPosition",
+      "label": "侧栏位置",
+      "help": "right（默认）或 left。"
+    }
+  ]
+}

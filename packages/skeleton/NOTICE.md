@@ -1,0 +1,2 @@
+# Source
+Simple Themes / Casey Lee, https://github.com/simplethemes/skeleton_wp at75307909d6b16a57aceb4715bffd25fdd2158d66, theme smpl-skeleton/. Original GPLv2 style header and GPLv3 license.txt both retained. Modified by Firekylin contributors,2026: native Eta templates, reimplemented subset of default CSS/960px layout and responsive navigation. Original source references style.css,options.php,loop.php,loop-single.php,header.php and screenshot.png. No upstream PHP/JavaScript/build executed, no proprietary demo artwork or WordPress plugins bundled.
