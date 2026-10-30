@@ -55,6 +55,10 @@
     "hash": "1f116d0dc7df6a7f8db1f07b16a942c520f3e89355847b505edc1dc031990bef",
     "id": "diaspora"
   },
+  "echo": {
+    "hash": "f65c583732b06777a8b84949c7e96a22aec11e86e9c464675735a05684e503a5",
+    "id": "echo"
+  },
   "fantasy": {
     "hash": "f8dbdb9f3a6c8361b3520bf031527f3122ecd7ab3d751df625558e037d4bdf41",
     "id": "fantasy"

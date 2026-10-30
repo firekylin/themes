@@ -199,6 +199,20 @@
     },
     {
       "type": "theme",
+      "name": "echo",
+      "id": "echo",
+      "version": "0.1.0",
+      "title": "Echo",
+      "description": "Echo: compact two-column article cards, sidebar taxonomy and timeline archives.",
+      "download": "https://github.com/firekylin/themes/releases/download/echo-v0.1.0/echo-0.1.0.zip",
+      "integrity": "sha512-GA7oZcFUQar1c/wyiWDwQX8I266q4GxMDkCtvtrw9//6O/Hmzb8oFMFF3a5+zGMU7mEA+PuUidq0ZT0a6f/RAw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/echo/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "fantasy",
       "id": "fantasy",
       "version": "0.1.0",
