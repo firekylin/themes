@@ -231,6 +231,10 @@
     "hash": "49ecb620c6f4bc9f2dfefe146b199916fd893ce1a8477f45270fe86d5032a29b",
     "id": "single"
   },
+  "skeleton": {
+    "hash": "9af24060fddab17a0c462a0cff062901e80bedabb5ab37ee8575c38f341cb8be",
+    "id": "skeleton"
+  },
   "stack": {
     "hash": "f62baee60e84a58d6c51eda9b651ebbde00291d11a60ba7eea9af1729fa89816",
     "id": "stack"
