@@ -1,0 +1,43 @@
+{
+  "name": "lolimeow",
+  "title": "LoliMeow",
+  "version": "0.1.0",
+  "private": true,
+  "description": "LoliMeow V13 photo banner and illustrated-blog layout.",
+  "license": "SEE LICENSE IN NOTICE.md",
+  "author": "专收爆米花 / Boxmoe; Firekylin contributors",
+  "homepage": "https://github.com/baomihuahua/lolimeow",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/lolimeow"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "lolimeow",
+    "widgets": "widgets.js"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "heroText",
+      "label": "欢迎语",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "coverUrl",
+      "label": "横幅图片",
+      "help": "站内路径或 HTTPS 图片；留空使用柔和渐变。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "纯文本，不替代 Boxmoe 原始署名。"
+    }
+  ]
+}
