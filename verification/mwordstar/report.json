@@ -1,0 +1,103 @@
+{
+  "core": "2.17.1",
+  "coreRevision": "87d76d0f446f75d9cc92894b8fccb6b6bfd45f5f",
+  "browser": "154.0.8037.57",
+  "checks": [
+    {
+      "width": 1440,
+      "route": "/",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/?page=2",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/post/hello.html",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/page/about.html",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/archives",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/categories",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/tags",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/search.html?keyword=MWordStar",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/?page=2",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/post/hello.html",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/page/about.html",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/archives",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/categories",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/tags",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/search.html?keyword=MWordStar",
+      "status": 200
+    }
+  ],
+  "passed": [
+    "actual ZIP installation",
+    "16 real SQLite routes",
+    "small cover and square corners",
+    "persistent dark/light toggle",
+    "mobile navigation menu",
+    "h3/h4 TOC anchors",
+    "image dialog and Escape",
+    "search without JavaScript",
+    "private/draft exclusion",
+    "comment gating"
+  ],
+  "limits": [
+    "Upstream PHP and JavaScript were not executed. Original comparison is source/screenshot based.",
+    "Waline remote client login/submission not tested."
+  ]
+}

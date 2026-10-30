@@ -106,6 +106,8 @@ importers:
 
   packages/moricolor: {}
 
+  packages/mwordstar: {}
+
   packages/nexmoe: {}
 
   packages/next: {}
