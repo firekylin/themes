@@ -1,0 +1,1 @@
+(()=>{const menu=document.querySelector('.site-menu');const m=matchMedia('(max-width:767px)');const sync=()=>{if(menu)menu.open=!m.matches};sync();m.addEventListener('change',sync);document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(menu&&m.matches)menu.open=false;const search=document.querySelector('.search-menu');if(search)search.open=false}})})();

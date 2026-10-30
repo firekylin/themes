@@ -132,6 +132,8 @@ importers:
 
   packages/next: {}
 
+  packages/onecircle: {}
+
   packages/paper: {}
 
   packages/papermod: {}

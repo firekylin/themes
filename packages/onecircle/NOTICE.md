@@ -1,0 +1,3 @@
+# Attribution
+OneCircle by gogobody, MIT, source https://github.com/gogobody/onecircle at1f834868a3a4868e0ec2c05bfa0367b3232b6480 (dev). Original LICENSE retained. Upstream README acknowledges handsome, landstar, twitter-inspired themes and joe. This port does not include those editors, plugins, vendor libraries, icons or demo imagery.
+Modified by Firekylin contributors,2026: native Eta replaces PHP; plain CSS translates public feed/card/nav structures; original minimal JS handles responsive menus. Source screenshot inspected without executing upstream software. Private social services omitted.
