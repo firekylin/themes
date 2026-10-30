@@ -1,0 +1,4 @@
+# Echo
+Firekylin >=2.17.1 adaptation of Echo 3.1. Retains compact 75/25 article/sidebar layout, thumbnail cards, green navigation accents, category/tag panels, native mobile search, timeline archive and original dark colors. Configure logoUrl and optional static bannerImage/bannerUrl; article options.featuredImage supplies thumbnails. Native pagination, taxonomy, search, protected articles and conditional Waline comments supported.
+
+Typecho's custom admin panel, view counters, author-only microblog publishing, advertising HTML, carousel autoplay, fancybox and client syntax highlighting are outside this port. Static banner replaces carousel; image viewing uses browser-native links/content. Comment UI is Firekylin's Waline integration. No external runtime scripts or original decorative assets bundled.
