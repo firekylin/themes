@@ -1,0 +1,36 @@
+{
+  "name": "adams",
+  "title": "Adams",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Adams narrow reading layout with sepia/night and font controls.",
+  "license": "MIT",
+  "author": "Tokinx; Firekylin contributors",
+  "homepage": "https://github.com/Tokinx/Adams",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/adams"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "adams"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "placard",
+      "label": "公告文字",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "纯文本，可留空。"
+    }
+  ]
+}
