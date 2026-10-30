@@ -1,0 +1,2 @@
+# Provenance
+https://github.com/matcornic/hugo-theme-learn at3202533a746f91c67de1a8fa373c0328ec1b403d. Copyright2014 Grav,2016 Mathieu Cornic,2017 Valere Jeantet; MIT, full LICENSE retained. Modified2026 by Firekylin contributors: adapt menu/header/content/theme CSS into Eta/native models and original vanilla JS. No upstream Hugo/JS/build executed; no vendor fonts/icons or branded demo logo bundled.
