@@ -682,6 +682,20 @@
     },
     {
       "type": "theme",
+      "name": "terminal",
+      "id": "terminal",
+      "version": "0.1.0",
+      "title": "Terminal",
+      "description": "panr Terminal: monospaced striped masthead and dotted article titles.",
+      "download": "https://github.com/firekylin/themes/releases/download/terminal-v0.1.0/terminal-0.1.0.zip",
+      "integrity": "sha512-0p2VXJP1ea7DQSl8omUAZyMoGtG1oPrM7cFVh7iXsTq6zCLVikjk1LygXWF3TkQWHX/KeiACyXW7n/QuJ+nlRw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/terminal/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "timeplus",
       "id": "timeplus",
       "version": "0.1.0",

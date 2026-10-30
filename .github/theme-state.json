@@ -199,6 +199,10 @@
     "hash": "f08b14645655a71678272ab3f919a9032eed8791b49fd785ccf3b0459b21a8f3",
     "id": "svbtle"
   },
+  "terminal": {
+    "hash": "92212ce3f32b12ae2debd9e7575a722cca9578c5a356e15275e69fecfca2746c",
+    "id": "terminal"
+  },
   "timeplus": {
     "hash": "458861827eaf423167c04161803b455ca69b1b7f6977459cc39f22d52ee6480a",
     "id": "timeplus"
