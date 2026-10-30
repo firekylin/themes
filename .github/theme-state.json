@@ -43,6 +43,10 @@
     "hash": "b60e29a94f7b454d2bf54528492ce108cbf3069e6db6486989fa03925d938edf",
     "id": "blowfish"
   },
+  "brave": {
+    "hash": "418a68302f3adb2331db37e3cac641714ef84fab815acbef6a4dc4c8c2cb7a44",
+    "id": "brave"
+  },
   "bubble": {
     "hash": "d21b1d82bcf9ad120b7d9eeeec0057e0e74f1bee2045e8bf0a4270eb23bb5ecc",
     "id": "bubble"

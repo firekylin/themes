@@ -157,6 +157,20 @@
     },
     {
       "type": "theme",
+      "name": "brave",
+      "id": "brave",
+      "version": "0.1.0",
+      "title": "Brave",
+      "description": "Brave couple journal with paired profiles and shared milestones.",
+      "download": "https://github.com/firekylin/themes/releases/download/brave-v0.1.0/brave-0.1.0.zip",
+      "integrity": "sha512-uUWX0mPVFE91LWiLYT73KK2NEXP2Kx8rh1ZU2hFTXNGVMWbwCW1ZG2wswKiqT8EW765m1PVzrgQE9wpiRF4ajg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/brave/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "bubble",
       "id": "bubble",
       "version": "0.1.0",
