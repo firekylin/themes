@@ -171,6 +171,20 @@
     },
     {
       "type": "theme",
+      "name": "cstate",
+      "id": "cstate",
+      "version": "0.1.0",
+      "title": "cState",
+      "description": "cState manual status bulletin and incident history adaptation.",
+      "download": "https://github.com/firekylin/themes/releases/download/cstate-v0.1.0/cstate-0.1.0.zip",
+      "integrity": "sha512-ZVZ8vFpJLgo1EFAMM1jdefHvNWtnxW7/blovtbhD0rOE/CiyW9vsLqEIRnn0Pv8hrrF4ThXqXad4GJodbqkGWA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/cstate/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "cuckoo",
       "id": "cuckoo",
       "version": "0.1.0",

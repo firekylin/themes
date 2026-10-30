@@ -47,6 +47,10 @@
     "hash": "cf4c42fdda1c9a427c4b7877d7713d3f4915c82d2626a0163d0e57d01c0af1c1",
     "id": "congo"
   },
+  "cstate": {
+    "hash": "5631bf36fb53b6733368926f50804446517b737ac4c4056950f3810feb143ba3",
+    "id": "cstate"
+  },
   "cuckoo": {
     "hash": "74880a150adb25343c5853b18fb76e8d545adca76fecd7cf441de656ae417f86",
     "id": "cuckoo"
