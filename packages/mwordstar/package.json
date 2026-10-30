@@ -1,0 +1,48 @@
+{
+  "name": "mwordstar",
+  "title": "MWordStar",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MWordStar two-column cards, reading directory and light/dark appearance.",
+  "license": "MIT",
+  "author": "Changbin; Firekylin contributors",
+  "homepage": "https://github.com/changbin1997/MWordStar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/mwordstar"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "mwordstar"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "头像",
+      "help": "HTTP(S) 或站内绝对路径。"
+    },
+    {
+      "type": "text",
+      "name": "nickname",
+      "label": "昵称",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "coverStyle",
+      "label": "封面大小",
+      "help": "mini 为小图；默认大图。"
+    },
+    {
+      "type": "text",
+      "name": "rounded",
+      "label": "边角",
+      "help": "rightAngle 为直角；默认圆角。"
+    }
+  ]
+}
