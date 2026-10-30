@@ -126,6 +126,8 @@ importers:
 
   packages/matcha: {}
 
+  packages/hugoplate: {}
+
   packages/learn: {}
 
   packages/material: {}

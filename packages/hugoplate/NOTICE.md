@@ -1,0 +1,2 @@
+# Provenance
+Upstream: https://github.com/zeon-studio/hugoplate at bc03de7ccd8fa79ee7b7b356d2fbe0911c339ccb. Copyright (c) 2023 - Present, Zeon Studio. MIT license retained in LICENSE. Modified 2026 by Firekylin contributors: translate home/blog/card/header/footer and CSS styling into native Eta, CSS and original browser controls. No Hugo/Tailwind builds or upstream scripts executed; vendor fonts/plugins/demo assets excluded.
