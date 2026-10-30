@@ -283,6 +283,20 @@
     },
     {
       "type": "theme",
+      "name": "doks",
+      "id": "doks",
+      "version": "0.1.0",
+      "title": "Doks",
+      "description": "Doks landing, documentation and blog layouts for Firekylin.",
+      "download": "https://github.com/firekylin/themes/releases/download/doks-v0.1.0/doks-0.1.0.zip",
+      "integrity": "sha512-uYtaPn1dTkqsiEi87WY9ivhDrU0GLsC0RkoaBtDm1XljYIiGRnyLKLnB5bSu68rdwXtftEl+diqZy8jCf21uKw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/doks/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "dux",
       "id": "dux",
       "version": "0.1.0",
