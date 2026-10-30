@@ -557,6 +557,20 @@
     },
     {
       "type": "theme",
+      "name": "learn",
+      "id": "learn",
+      "version": "0.1.0",
+      "title": "Learn",
+      "description": "Learn purple documentation sidebar and chapter reading layout.",
+      "download": "https://github.com/firekylin/themes/releases/download/learn-v0.1.0/learn-0.1.0.zip",
+      "integrity": "sha512-1ih6wVacoTjMhcer2MZ0nQCn67plWVmrWJQvMEqUSSPChXpLqYX5x3PpLr2GfNaiaxpSpm8TWDcVfyLvDg4iVA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/learn/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "loveit",
       "id": "loveit",
       "version": "0.1.0",
