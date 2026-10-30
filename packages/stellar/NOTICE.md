@@ -1,0 +1,2 @@
+# Source
+Stellar v2, https://github.com/xaoxuu/hexo-theme-stellar at4aea2690b8ed3742edc9d2abbd2f0b785565cc5f. MIT Copyright2021 xaoxuu, exact LICENSE retained. Native Firekylin adaptation2026-10-30. Reference _config.yml, source/css/_custom.styl, layout/layout.ejs, post_list/post_card.ejs, sidebar/brand.ejs and layout/list/sidebar/card appearance styles. Native Eta/JS replaces Hexo view models and runtime. No upstream software executed, no external scripts/fonts/images bundled.

@@ -1,0 +1,48 @@
+{
+  "name": "stellar",
+  "title": "Stellar",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Stellar v2 card workspace with collapsible navigation and article outline.",
+  "license": "MIT",
+  "author": "xaoxuu; Firekylin contributors",
+  "homepage": "https://github.com/xaoxuu/hexo-theme-stellar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/stellar"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "stellar"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "brandName",
+      "label": "左栏名称",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "brandTagline",
+      "label": "左栏标语",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "左栏头像",
+      "help": "站内路径或HTTPS图片。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "纯文本。"
+    }
+  ]
+}
