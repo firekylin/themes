@@ -56,6 +56,8 @@ importers:
 
   packages/bubble: {}
 
+  packages/aurora: {}
+
   packages/bearblog: {}
 
   packages/blowfish: {}

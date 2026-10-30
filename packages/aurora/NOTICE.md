@@ -1,0 +1,3 @@
+# Provenance
+Source https://github.com/auroral-ui/hexo-theme-aurora at4b82d1c567aa74d060eddebf87de3ab3edf9ff59. Copyright2021 Auroral-UI(Benny Guo), MIT; full license in LICENSE.
+Modified by Firekylin contributors,2026: reimplement Vue/Tailwind magazine structures as native Eta templates and standalone CSS/JavaScript. Reference src/pages/index.vue, src/components/ArticleCard/src/ArticleCard.vue and HorizontalArticle.vue, src/styles/theme-variables.scss, src/styles/components/article.scss and previews/*.png. No upstream scripts/builds/runtime executed; no vendor libraries, remote fonts or demo artwork bundled.
