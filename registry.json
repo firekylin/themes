@@ -73,6 +73,20 @@
     },
     {
       "type": "theme",
+      "name": "archer",
+      "id": "archer",
+      "version": "0.1.0",
+      "title": "Archer",
+      "description": "Archer photo hero, profile column and archive drawer.",
+      "download": "https://github.com/firekylin/themes/releases/download/archer-v0.1.0/archer-0.1.0.zip",
+      "integrity": "sha512-ef3hw3P3L1XfhkPzHbFXWzgT/OFVXrI/0MtH5uxphaRn0h8f6L+UBMMKBVWf8TQkYq8KFSKLGV03FqHyxMFpmg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/archer/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "firekylin-theme-argon",
       "id": "argon",
       "version": "0.1.0",

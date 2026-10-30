@@ -19,6 +19,10 @@
     "hash": "7c98bce1805f1582bcd084fd1513d50a3b1486cb9624aebb263dcc3a947fce2b",
     "id": "aquila"
   },
+  "archer": {
+    "hash": "ae851073583b07537b194952996b22e5299a1dcbc77f80b82671e204e7029884",
+    "id": "archer"
+  },
   "argon": {
     "hash": "e90cc56c9445c7f43936d8a6a75bb42e0f8d378c9d784625a4e383985442f201",
     "id": "argon"
