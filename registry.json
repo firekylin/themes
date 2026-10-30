@@ -627,6 +627,20 @@
     },
     {
       "type": "theme",
+      "name": "lolimeow",
+      "id": "lolimeow",
+      "version": "0.1.0",
+      "title": "LoliMeow",
+      "description": "LoliMeow V13 photo banner and illustrated-blog layout.",
+      "download": "https://github.com/firekylin/themes/releases/download/lolimeow-v0.1.0/lolimeow-0.1.0.zip",
+      "integrity": "sha512-30R+XpbOBvg8DKTWmLX+29nhkn9QtzmEFqUF8Ll95r18rv17CITQ214bKXsvQ1JdhcYTp9/O7FFW53lQ4b49gg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/lolimeow/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "loveit",
       "id": "loveit",
       "version": "0.1.0",
