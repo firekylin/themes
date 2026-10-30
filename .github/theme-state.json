@@ -215,6 +215,10 @@
     "hash": "f62baee60e84a58d6c51eda9b651ebbde00291d11a60ba7eea9af1729fa89816",
     "id": "stack"
   },
+  "storefront": {
+    "hash": "46b992b4c0df151cca378a6a8e38616b2c306eba5408a9a403286152865b4ffd",
+    "id": "storefront"
+  },
   "story": {
     "hash": "a0cfd922db2f4189870d9e8df983657b3f15bf1816a4d6864361231de250fb5c",
     "id": "story"
