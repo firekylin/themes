@@ -204,6 +204,8 @@ importers:
 
   packages/stellar: {}
 
+  packages/volantis: {}
+
   packages/tranquilpeak: {}
 
   packages/webstack: {}

@@ -1,0 +1,2 @@
+# Source
+Volantis6.x https://github.com/volantis-x/hexo-theme-volantis at7342ad77684d41495a3a12e025bb13dc2b717843. MIT Copyright2017 xaoxuu, exact LICENSE retained. Native Firekylin adaptation2026-10-30. Reference default dock/full cover, cover_first.styl, layout constants, posts.styl and article/post/header templates. Native Eta/JS replaces Hexo and CDN services; no upstream runtime executed. No Bing photos, demo artwork, Twemoji/vendor/font files bundled. Cover/admin images are optional and not supplied.

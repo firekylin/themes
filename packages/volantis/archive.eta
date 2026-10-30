@@ -1,0 +1,7 @@
+<% layout('./layout'); const site = await firekylin.widget('Widget_Options'); const archive = await firekylin.widget('Widget_Archive', {type:'archive'}); %>
+<% block('title', () => { %>归档 - <%= site.title() %><% }) %>
+<% block('content', () => { %><section class="directory"><h1 class="archive-header">归档</h1>
+<% const groups = Object.entries(archive.grouped); if (!groups.length) { %><p>暂无文章。</p><% } %>
+<% for (const [month, posts] of groups) { %><h2><%= month %></h2><ul><% for (const post of posts) { %><li><a href="<%= archive.permalinkFor(post) %>"><%= post.title %></a></li><% } %></ul><% } %>
+</section><% }) %>
+<% block('cover',()=>{const cfg=site.themeConfig; %><section class="cover"><% if(/^(https?:\/\/|\/(?!\/))/.test(String(cfg.coverUrl||''))){ %><img class="cover-bg" src="<%= cfg.coverUrl %>" alt=""><% } %><div class="cover-body"><h1><%= cfg.coverTitle||site.title() %></h1><p><%= cfg.coverSubtitle||site.description() %></p><nav class="dock" aria-label="封面导航"><a href="#content"><span aria-hidden="true">▤</span>博客</a><a href="/categories"><span aria-hidden="true">▦</span>分类</a><a href="/tags"><span aria-hidden="true">#</span>标签</a><a href="/archives"><span aria-hidden="true">▣</span>归档</a><% site.navigation.forEach(n=>{ %><a href="<%= n.url %>"><span aria-hidden="true">◇</span><%= n.label %></a><% }); %></nav></div><a class="scroll-down" href="#content" aria-label="向下浏览文章">⌄</a></section><% }) %>
