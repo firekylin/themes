@@ -1,0 +1,54 @@
+{
+  "name": "cstate",
+  "title": "cState",
+  "version": "0.1.0",
+  "private": true,
+  "description": "cState manual status bulletin and incident history adaptation.",
+  "license": "MIT",
+  "author": "Mantas Vilčinskas; Firekylin contributors",
+  "homepage": "https://github.com/cstate/cstate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/cstate"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "cstate"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "status",
+      "label": "整体状态",
+      "help": "手动填写 unknown、ok、notice、disrupted 或 down；默认 unknown。"
+    },
+    {
+      "type": "text",
+      "name": "statusText",
+      "label": "状态说明",
+      "help": "可选纯文本。"
+    },
+    {
+      "type": "text",
+      "name": "statusUpdated",
+      "label": "状态更新时间",
+      "help": "手动填写实际更新时间；不显示虚假的最近检测时间。"
+    },
+    {
+      "type": "text",
+      "name": "components",
+      "label": "服务状态 JSON",
+      "help": "数组，如 [{\"name\":\"API\",\"group\":\"Services\",\"status\":\"ok\"}]；不自动监测。"
+    },
+    {
+      "type": "text",
+      "name": "logoUrl",
+      "label": "标志 URL",
+      "help": "HTTP(S) 或站内绝对路径；留空显示名称。"
+    }
+  ]
+}

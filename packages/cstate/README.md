@@ -1,0 +1,6 @@
+# cState manual status bulletin
+Firekylin>=2.17.1. Retains cState's narrow status dashboard, dark brand header, colored summary, expandable service groups, update tabs/history and system dark mode.
+
+Configure status (unknown/ok/notice/disrupted/down), statusText, statusUpdated and components JSON array of {name,group,status}. These are manual operator reports, independent of posts. Default is unknown, never an inferred healthy state. Invalid component JSON is ignored; invalid state is unknown. Publish updates as native posts; optional post options.incidentStatus accepts notice/disrupted/down/resolved. Ordinary posts remain ordinary updates without invented incident state. Native RSS, archive/taxonomy, search, pagination, permissions and conditional comments supported.
+
+No monitoring/polling, uptime statistics, automatic incident aggregation, resolution timers, affected-system JSON APIs, alert subscriptions, push/email/webhooks or Hugo admin/build system. Changing an incident does not change the configured overall/service status. No fake check timestamps or uptime graphs. RSS is the only subscription exposed. Native body/summary and taxonomies replace Hugo issue front matter. Source Inter font uses local fallback without external requests.
