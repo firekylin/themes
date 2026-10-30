@@ -1,0 +1,1 @@
+<% const archive=firekylin.archive; %><ul class="blog-posts"><% while(archive.next()){ %><li><span><i><time datetime="<%= archive.date('YYYY-MM-DD') %>"><%= archive.date('YYYY-MM-DD') %></time></i></span><a href="<%= archive.permalink %>"><%= archive.title() %></a></li><% } %><% if(!archive.have()){ %><li>No posts yet</li><% } %></ul>
