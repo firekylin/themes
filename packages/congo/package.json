@@ -1,0 +1,60 @@
+{
+  "name": "congo",
+  "title": "Congo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Congo profile homepage, violet reading links and compact article lists.",
+  "license": "MIT",
+  "author": "James Panther; Firekylin contributors",
+  "homepage": "https://github.com/jpanther/congo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/congo"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "congo"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "name",
+      "label": "作者名称",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "bio",
+      "label": "作者简介",
+      "help": "纯文本个人介绍。"
+    },
+    {
+      "type": "text",
+      "name": "avatar",
+      "label": "头像",
+      "help": "HTTP(S) 或站内绝对路径。"
+    },
+    {
+      "type": "text",
+      "name": "homeLayout",
+      "label": "首页布局",
+      "help": "profile（默认）或 page。"
+    },
+    {
+      "type": "text",
+      "name": "intro",
+      "label": "首页正文",
+      "help": "可选纯文本介绍。"
+    },
+    {
+      "type": "text",
+      "name": "github",
+      "label": "GitHub",
+      "help": "完整 HTTPS 主页。"
+    }
+  ]
+}

@@ -62,6 +62,8 @@ importers:
 
   packages/cactus: {}
 
+  packages/congo: {}
+
   packages/cuckoo: {}
 
   packages/diaspora: {}

@@ -1,0 +1,4 @@
+# Visual verification
+Reference: upstream images/screenshot.png plus baseof.html, _partials/header/basic.html, _partials/home/profile.html, _partials/article-link.html and single.html at f366f484524301b807d873f11aa4a917aade107c. Screenshot is a device composition with profile/page and light/dark examples. It supports the centered round avatar, heavy heading, quiet list and violet palette; detailed spacing is mapped from current template utility classes. Device frames and sample imagery are not theme UI.
+
+Keep 1280px outer maximum, 128px desktop gutters, responsive 96/56/24px gutters, 36px heading, 24px article spacing, 65ch reading column and optional right-hand TOC. Native test content differs. Actual ZIP-installed SQLite evidence is under verification/congo, desktop1440/mobile390 screenshots and report. No upstream executable run or pixel-identical original runtime claim.
