@@ -1,0 +1,4 @@
+# Visual comparison
+Reference screenshot.png at d4558ee7c1c789ecf279ec162b0ef5d656fef9a0, checked alongside theme.json and default header/footer, page-home, posts and single templates. Preserve local Outfit font, white canvas/black text, pure-blue buttons, roomy30px header padding,1200px wide sections,800px welcome, fluid48–72px title and640px content. Optional black two-column feature panel stacks image above text below782px. Blog list/title/date/excerpt follows posts.php. Header uses upstream default site-title/navigation pattern; screenshot's extra download button is a demo customization, omitted.
+
+Native home uses blog content and optional site-owned feature image; additional sample marketing rows and editor are outside scope. verification/frost records installed ZIP SQLite pages, desktop/mobile screenshots and native controls. Source/screenshots compared without running upstream software. Remote comments not submitted.
