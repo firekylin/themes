@@ -1,0 +1,2 @@
+# Source and license
+Blowfish, MIT, Copyright (c) 2022 Nuno Coração. Upstream https://github.com/nunocoracao/blowfish at ebe683e9c2668972b71bc011e61e0004ff8e7689. This port translates landing.html, header/floating.html, article-link/card.html and single.html structure/utility styling into Eta and plain CSS. The original screenshot at images/screenshot.png was inspected. Upstream Hugo, npm, Tailwind and JavaScript were not executed. No original sample artwork, fonts, brand icons or vendor scripts are bundled. Browser interaction code is a native Firekylin implementation.
