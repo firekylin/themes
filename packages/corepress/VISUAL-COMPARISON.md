@@ -1,0 +1,4 @@
+# Visual comparison
+Reference screenshot/corepresstheme.png (actual device/page composite; root screenshot.png is only a logo), plus index.php,component/post-main-index.php,post-list-item.php,post-content.php and static/css/main.css/main-mobile.css at8c59592c8c282f16379bedb6418275dea4db313e. Preserve white62px header,1200px74/26 layout,20px gutter,4px panels,30%5:3 thumbnails,19px list titles, two-line gray summaries,22px centered article title and blue heading accents. Mobile hides sidebar below800px and summaries below500px. Footer attribution remains visible even where original CSS could hide it.
+
+Single static configured banner replaces carousel; no demo art/engagement counts. Native latest posts replace comment widget. TOC moves inside right sidebar; unsupported WP services listed in README. Installed-ZIP SQLite1440/390 evidence and control/privacy reports under verification/corepress. No upstream runtime executed.

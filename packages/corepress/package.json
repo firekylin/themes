@@ -1,0 +1,48 @@
+{
+  "name": "corepress",
+  "title": "CorePress",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CorePress blog layout adaptation with original mixed license notice retained.",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "applek / ghboke; Firekylin contributors",
+  "homepage": "https://github.com/ghboke/CorePressWPTheme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/corepress"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "corepress"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "logoUrl",
+      "label": "标志 URL",
+      "help": "HTTP(S) 或站内绝对路径。"
+    },
+    {
+      "type": "text",
+      "name": "bannerUrl",
+      "label": "首页横幅",
+      "help": "可选图片 URL。"
+    },
+    {
+      "type": "text",
+      "name": "bannerLink",
+      "label": "横幅链接",
+      "help": "可选 HTTP(S) 或站内绝对路径。"
+    },
+    {
+      "type": "text",
+      "name": "bannerTitle",
+      "label": "横幅标题",
+      "help": "可选纯文本。"
+    }
+  ]
+}
