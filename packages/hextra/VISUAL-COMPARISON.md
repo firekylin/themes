@@ -1,0 +1,4 @@
+# Comparison
+Viewed official images/screenshot.jpg and docs/static/images/hextra-doc.webp ate58687ee6c2e7ccd054c7ef31307d2147a7b8bd7. Preserve64px white header, subtle borders, blue pillCTA,48px landing headline, rounded3-column cards,256px left/right rails,48px content padding,36px article and24px blog-list titles. Blog uses upstream blank left rail; static pages have native navigation rail. Below1280 TOC hides; below768 menus collapse and reading padding24px.
+
+Landing category cards replace marketing demo; native category/navigation links replace Hugo filetree. No unsupported offline search, docs shortcodes, language/edit/context controls claimed. Reference screenshot is light; dark palette also tested. Installed ZIP/SQLite1440/390 screenshots/report under verification/hextra verify native routes and controls. No upstream software executed.
