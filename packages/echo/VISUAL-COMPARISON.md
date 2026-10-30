@@ -1,0 +1,4 @@
+# Visual comparison
+Original repository screenshot.jpg at f8387fdb57f6a7e057d92ebaa7834d71bdf18f0e shows desktop list/sidebar and stacked mobile cards. It is a low-resolution device composition, so precise measurements are verified against usr/themes/index.php, common/header.php, common/sidebar.php, post.php and public/home/css/style.css rather than inferred from the image. Retain original CSS, 60px header, 1170px desktop container, 75/25 columns, 15px column gutter, 150px list thumbnails, 6px cards and original #f8f8f8 canvas. Adapter replaces Layui grid and icons with native HTML/CSS and labeled controls. Source desktop threshold is 992px; mobile thumbnails expand at768px.
+
+Evidence under verification/echo: installed ZIP on real SQLite core,1440/390 screenshots and route checks. No claim of pixel-identical fixture text/artwork or remote comment-provider verification. Dynamic author microblog and Typecho admin features are intentionally excluded.
