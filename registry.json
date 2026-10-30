@@ -87,6 +87,20 @@
     },
     {
       "type": "theme",
+      "name": "bearblog",
+      "id": "bearblog",
+      "version": "0.1.0",
+      "title": "Bear Blog",
+      "description": "Hugo Bear Blog: quiet text, dated post lists and system dark mode.",
+      "download": "https://github.com/firekylin/themes/releases/download/bearblog-v0.1.0/bearblog-0.1.0.zip",
+      "integrity": "sha512-ApfDA5Qmad57SjrJeJjWQ/dDkofdh4l2QXilKOsUqealtnMIJnOfcFoa6kdFE4h/RIP2V+s4X78pjOwxQyTX4g==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/bearblog/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "bubble",
       "id": "bubble",
       "version": "0.1.0",
