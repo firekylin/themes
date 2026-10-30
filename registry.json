@@ -920,6 +920,20 @@
     },
     {
       "type": "theme",
+      "name": "redefine",
+      "id": "redefine",
+      "version": "0.1.0",
+      "title": "Redefine",
+      "description": "Redefine fixed backdrop, glass banner and rounded reading cards.",
+      "download": "https://github.com/firekylin/themes/releases/download/redefine-v0.1.0/redefine-0.1.0.zip",
+      "integrity": "sha512-8EgU3vhAmH6WtpZoL0Mlb7Zv0evdjVANlEg+J4slYYa47juGcRsZDZUh8cp5JtOPoe6ZK69OL3/sjZIUoNcZow==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/redefine/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "sagiri",
       "id": "sagiri",
       "version": "0.1.0",

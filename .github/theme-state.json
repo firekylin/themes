@@ -267,6 +267,10 @@
     "hash": "266d05e0066ea35fac7b5128e94a63501cb6e1e78c59f2b4f2f718c551bd278f",
     "id": "puock"
   },
+  "redefine": {
+    "hash": "710e78f491a6a04c80efd81b7bf082ebdf7ecf216d0bc17fc53d0ec378744864",
+    "id": "redefine"
+  },
   "sagiri": {
     "hash": "cf114dd518b7d2070093284c9887302ed141906db765566c37f320a8673c9793",
     "id": "sagiri"
