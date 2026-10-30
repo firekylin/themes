@@ -59,6 +59,20 @@
     },
     {
       "type": "theme",
+      "name": "anzhiyu",
+      "id": "anzhiyu",
+      "version": "0.1.0",
+      "title": "Anzhiyu",
+      "description": "Anzhiyu recommendation board, colorful categories and double-column blog.",
+      "download": "https://github.com/firekylin/themes/releases/download/anzhiyu-v0.1.0/anzhiyu-0.1.0.zip",
+      "integrity": "sha512-CSHqu1jscSVmxj6oep/RYpp0Cw1PDFjRy0Hc2dufG3TP1Pk+BtvNZqp8Fl576qwnE61RCKNN56ppWZFqSEPB2w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/anzhiyu/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "firekylin-theme-aquila",
       "id": "aquila",
       "version": "0.1.1",
