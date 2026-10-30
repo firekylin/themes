@@ -1130,6 +1130,20 @@
     },
     {
       "type": "theme",
+      "name": "volantis",
+      "id": "volantis",
+      "version": "0.1.0",
+      "title": "Volantis",
+      "description": "Volantis fullscreen dock cover and floating blog cards.",
+      "download": "https://github.com/firekylin/themes/releases/download/volantis-v0.1.0/volantis-0.1.0.zip",
+      "integrity": "sha512-WVD2gF0wmnlIW/VBt2X4zmnCAed6W7Z3Ua3+mQ14AaLZ8kNExrvX7Jhp5P4duBdnjx15bScpwlmBlPodq0ToLA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/volantis/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "webstack",
       "id": "webstack",
       "version": "0.1.0",
