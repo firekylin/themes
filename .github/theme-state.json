@@ -291,6 +291,10 @@
     "hash": "f62baee60e84a58d6c51eda9b651ebbde00291d11a60ba7eea9af1729fa89816",
     "id": "stack"
   },
+  "stellar": {
+    "hash": "a2c2e6a4eb2506047b1fcefde1c0e5f5283d6fd2ec425bf53b14d84a6848f723",
+    "id": "stellar"
+  },
   "storefront": {
     "hash": "46b992b4c0df151cca378a6a8e38616b2c306eba5408a9a403286152865b4ffd",
     "id": "storefront"
