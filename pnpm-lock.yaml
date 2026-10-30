@@ -148,6 +148,8 @@ importers:
 
   packages/stack: {}
 
+  packages/storefront: {}
+
   packages/story: {}
 
   packages/svbtle: {}
