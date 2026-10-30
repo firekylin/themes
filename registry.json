@@ -249,6 +249,20 @@
     },
     {
       "type": "theme",
+      "name": "hello-friend-ng",
+      "id": "hello-friend-ng",
+      "version": "0.1.0",
+      "title": "Hello Friend NG",
+      "description": "Hello Friend NG: centered landing page, terminal cursor and yearly post lists.",
+      "download": "https://github.com/firekylin/themes/releases/download/hello-friend-ng-v0.1.0/hello-friend-ng-0.1.0.zip",
+      "integrity": "sha512-jH7fKN4FxUotLdz5DFJqaOOHN9Tn6hNHp98bbKQt9BeW26WlTPDQQEF19oZlyAxtFGjflkq+dMKEsN7+y9i2fw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hello-friend-ng/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-book",
       "id": "hugo-book",
       "version": "0.1.0",
