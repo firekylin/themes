@@ -1,0 +1,54 @@
+{
+  "name": "hello-friend-ng",
+  "title": "Hello Friend NG",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hello Friend NG: centered landing page, terminal cursor and yearly post lists.",
+  "license": "MIT",
+  "author": "Track3, panr, Djordje Atlialp; Firekylin contributors",
+  "homepage": "https://github.com/rhazdon/hugo-theme-hello-friend-ng",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hello-friend-ng"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hello-friend-ng"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "logoText",
+      "label": "标志文字",
+      "help": "默认 hello。"
+    },
+    {
+      "type": "text",
+      "name": "subtitle",
+      "label": "首页副标题",
+      "help": "纯文本。"
+    },
+    {
+      "type": "text",
+      "name": "portrait",
+      "label": "首页头像",
+      "help": "HTTP(S) 或站内绝对路径。"
+    },
+    {
+      "type": "text",
+      "name": "github",
+      "label": "GitHub",
+      "help": "完整 HTTPS 地址。"
+    },
+    {
+      "type": "text",
+      "name": "email",
+      "label": "邮箱",
+      "help": "可选联系地址。"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Provenance
+Hello Friend NG: https://github.com/rhazdon/hugo-theme-hello-friend-ng at 1a0a16f39c40b8f282f55d0ae988fe4234a432da. MIT license retains original credits to Track3, panr and Djordje Atlialp. Plain CSS translates original SCSS and Eta adapts centered index, year-grouped lists and single template. Upstream Hugo, SCSS tools and JavaScript were not run. Original Inter font files/icons/sample artwork not bundled; system font fallback and text links are used.
