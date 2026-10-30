@@ -1,0 +1,54 @@
+{
+  "name": "amaze",
+  "title": "Amaze",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Amaze expansive header, author-led journal and reading directory.",
+  "license": "MIT",
+  "author": "spiritree; Firekylin contributors",
+  "homepage": "https://github.com/spiritree/typecho-theme-amaze",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/amaze"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "amaze"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "backgroundImage",
+      "label": "顶栏背景",
+      "help": "HTTP(S) 或站内绝对路径。"
+    },
+    {
+      "type": "text",
+      "name": "backgroundText",
+      "label": "横幅标题",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "头像",
+      "help": "HTTP(S) 或站内绝对路径。"
+    },
+    {
+      "type": "text",
+      "name": "socialGithub",
+      "label": "GitHub",
+      "help": "完整 HTTPS 个人主页 URL。"
+    },
+    {
+      "type": "text",
+      "name": "socialWeibo",
+      "label": "微博",
+      "help": "完整 HTTPS 个人主页 URL。"
+    }
+  ]
+}
