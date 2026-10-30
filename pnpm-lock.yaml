@@ -78,6 +78,8 @@ importers:
 
   packages/green-park-2: {}
 
+  packages/hello-friend-ng: {}
+
   packages/hugo-book: {}
 
   packages/hugo-coder: {}
