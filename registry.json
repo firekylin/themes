@@ -17,6 +17,20 @@
     },
     {
       "type": "theme",
+      "name": "adams",
+      "id": "adams",
+      "version": "0.1.0",
+      "title": "Adams",
+      "description": "Adams narrow reading layout with sepia/night and font controls.",
+      "download": "https://github.com/firekylin/themes/releases/download/adams-v0.1.0/adams-0.1.0.zip",
+      "integrity": "sha512-/u4fDBJs8v/ic5lYXryHuyuJil+xCkrJbyvfBTK1yMs58a/yL86ItgVBWrcAUo7dGv4g/eNrzTInY7QK0XHqzw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/adams/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "akina",
       "id": "akina",
       "version": "0.1.0",
