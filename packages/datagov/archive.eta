@@ -1,0 +1,6 @@
+<% layout('./layout'); const site = await firekylin.widget('Widget_Options'); const archive = await firekylin.widget('Widget_Archive', {type:'archive'}); %>
+<% block('title', () => { %>归档 - <%= site.title() %><% }) %>
+<% block('content', () => { %><div class="container directory-wrapper"><section class="directory"><h1 class="archive-header">归档</h1>
+<% const groups = Object.entries(archive.grouped); if (!groups.length) { %><p>暂无文章。</p><% } %>
+<% for (const [month, posts] of groups) { %><h2><%= month %></h2><ul><% for (const post of posts) { %><li><a href="<%= archive.permalinkFor(post) %>"><%= post.title %></a></li><% } %></ul><% } %>
+</section></div><% }) %>

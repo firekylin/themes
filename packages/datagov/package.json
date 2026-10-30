@@ -1,0 +1,42 @@
+{
+  "name": "datagov",
+  "title": "Data.gov",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Data.gov content portal layout adapted to native blog search and categories.",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "GSA / Data.gov contributors; Roots authors; Firekylin contributors",
+  "homepage": "https://github.com/GSA/datagov-wptheme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/datagov"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "datagov"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "introTitle",
+      "label": "首页介绍标题",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "introText",
+      "label": "首页介绍文字",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚说明",
+      "help": "纯文本，可留空。"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Provenance
+GSA/Data.gov WordPress theme https://github.com/GSA/datagov-wptheme at526d0dee9fd7572ed3268c3487a034b97c1a3e50, roots-nextdatagov/. Roots authors Ben Word and Scott Walkinshaw. Retain root mixed GPLv2+/CC0 declaration in LICENSE and inner MIT in ROOTS-LICENSE.
+Visual reference: official GSA/datagov-design at a17ec4168de7db7116eb23fb459e822ad6a25083, layout/full site design.pdf (2014), compared with current pinned theme templates and LESS. Root screenshot.png is only Roots logo, not a page reference. No design PDF/artwork/logo copied into distribution.
+Modified by Firekylin contributors,2026: replace WordPress/CKAN integration with native article/taxonomy/search/visibility/comments; implement source-specific bands and typography in Eta/CSS/plain JS. No source runtime/build executed. No government endorsement represented.
