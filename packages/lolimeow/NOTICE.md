@@ -1,0 +1,4 @@
+# Provenance and terms
+https://github.com/baomihuahua/lolimeow at9460c4b49ae9ec78d18d9497c3194ca52f4a620a, style.css version13.12, author专收爆米花 / Boxmoe. core/panel/settings/set-theme.php declares GPLv3 and requires retaining bottom copyright; it also includes lawful-use/privacy conditions. Full original text retained in UPSTREAM-TERMS.txt, GPLv3 text in LICENSE. These are not summarized as unconditional GPL. Visible footer preserves “Theme by Boxmoe” with original link; Firekylin adapter attribution is additional.
+
+Modified2026-10-30 by Firekylin contributors: native Eta/CSS/JS and public category metadata widget. Source header/blog-list/blog-single/sidebar templates and assets/css/style.css informed this adaptation. Editable source distributed. No upstream artwork/font/vendor code or runtime bundled; source screenshot only used as reference.

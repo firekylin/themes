@@ -194,6 +194,8 @@ importers:
 
   packages/mdx: {}
 
+  packages/lolimeow: {}
+
   packages/tranquilpeak: {}
 
   packages/webstack: {}
