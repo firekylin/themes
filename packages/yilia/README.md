@@ -1,0 +1,4 @@
+# Yilia for Firekylin
+Fixed300px white profile sidebar,180px charcoal top,128px circular avatar with white rim, gray canvas and white article cards with5px title rule and percentage insets. Mobile<=800px becomes a centered profile header and compact article cards. Configure profileName/profileBio/avatarUrl/aboutText/footerText. Missing avatar uses original blue circle, without a demo identity. Requires Firekylin >=2.17.1.
+
+Native tools panel contains recent30 public posts, full archive link, collapsible tag links and GET search; about panel uses escaped plain text. Both work without JS via CSS:target. TOC, URL copying and back-to-top, native taxonomy/pagination/privacy/comments. No Hexo JSON-content generator, all-content browser index, animation push, PhotoSwipe, rewards/payment, third-party sharing/analytics, old comment providers or MathJax. Index uses native summaries rather than full article fallback. No upstream runtime/build executed.
