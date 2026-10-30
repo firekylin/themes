@@ -62,6 +62,8 @@ importers:
 
   packages/diaspora: {}
 
+  packages/fantasy: {}
+
   packages/firekylin: {}
 
   packages/fluid: {}

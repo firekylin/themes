@@ -1,0 +1,2 @@
+'use strict';
+(()=>{const dialog=document.getElementById('search-dialog'),open=document.getElementById('search-open'),close=document.getElementById('search-close');if(!dialog?.showModal)return;open.addEventListener('click',e=>{if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;e.preventDefault();dialog.showModal();document.getElementById('quick-search').focus()});close.addEventListener('click',()=>dialog.close());dialog.addEventListener('close',()=>open.focus());dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()})})();
