@@ -691,6 +691,20 @@
     },
     {
       "type": "theme",
+      "name": "mdx",
+      "id": "mdx",
+      "version": "0.1.0",
+      "title": "MDx",
+      "description": "MDx default Material Design hero and image cards.",
+      "download": "https://github.com/firekylin/themes/releases/download/mdx-v0.1.0/mdx-0.1.0.zip",
+      "integrity": "sha512-ca94C9kWgIWMFqDAOxvz/vfLLsmPm4/5C11lEsUBQ++uHBvMJIy37YGiO51O9QFCMxZPKI9eb+L3tIgPP4yohQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/mdx/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "miracles",
       "id": "miracles",
       "version": "0.1.0",
