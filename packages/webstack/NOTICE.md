@@ -1,0 +1,3 @@
+# Attribution
+WebStack-Hugo by shenweiyan, based on WebStackPage/WebStackPage.github.io, liutongxu/liutongxu.github.io and iplaycode/webstack-hugo. Source https://github.com/shenweiyan/WebStack-Hugo at5b1f8b95259827e30a5e437be6e9c45027de0106. Original MIT LICENSE retained verbatim, including its YOUR_NAME_HERE placeholder. Upstream style-3.03029.1.css credits One Nav/iowen (https://www.iotheme.cn/ and https://www.iowen.cn/); that attribution is preserved here.
+Modified by Firekylin contributors,2026: translate directory/card/sidebar layout into native Eta/plain CSS; replace Hugo YAML data with escaped JSON config, and vendor JavaScript with original filter/menu/appearance controls. No upstream software, vendor fonts/scripts, photos or brand icons bundled/executed.

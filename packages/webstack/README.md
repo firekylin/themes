@@ -1,0 +1,6 @@
+# WebStack directory adaptation
+Firekylin>=2.17.1. Categorized URL cards, dark expanded sidebar, section anchors, local directory filtering, persistent appearance toggle and responsive navigation. Configure directory as JSON array of {title,links:[{title,url,description,logo}]}. Up to100 groups/200 links per group. HTTP(S)/root-relative URLs only; invalid JSON yields an empty directory. No external logo service or demo link collection is bundled. Links open with noopener/noreferrer.
+
+Directory is theme configuration, replacing Hugo data/webstack.yml. Firekylin currently has no corresponding native directory widget. Latest native posts, article/page/attachment, archive/taxonomy, pagination, server-side article search, visibility and comments remain available. Local URL filter is separate from article search; with JavaScript disabled all directory links remain visible and article search still works.
+
+No website submission backend, QR popup, external search engines/hotword APIs, weather/quote services, analytics, advertising, Hugo build or crawler. Native reading pages are an adaptation beyond the original directory. No copied demo brands/logos. Screenshot-inspired dark expanded sidebar selected; current Hugo fork also offers other widths/presets.
