@@ -1,0 +1,1 @@
+(()=>{'use strict';const menu=document.querySelector('.site-menu'),mobile=matchMedia('(max-width:600px)');function sync(){menu.open=!mobile.matches}sync();mobile.addEventListener('change',sync);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&mobile.matches&&menu.open){menu.open=false;menu.querySelector('summary').focus()}})})();

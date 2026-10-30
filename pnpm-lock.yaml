@@ -84,6 +84,8 @@ importers:
 
   packages/green-park-2: {}
 
+  packages/frost: {}
+
   packages/hello-friend-ng: {}
 
   packages/hugo-book: {}

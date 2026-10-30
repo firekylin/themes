@@ -1,0 +1,4 @@
+# Frost provenance
+Frost WordPress Theme, (C)2022-2023 WP Engine. https://github.com/wpengine/frost at d4558ee7c1c789ecf279ec162b0ef5d656fef9a0 (1.1). Upstream LICENSE/style.css specify GNU GPLv3; the original readme also contains a GPLv2-or-later paragraph. Both original LICENSE and UPSTREAM-README.txt are preserved without rewriting the mixed wording. This port is distributed under GPLv3.
+
+Firekylin contributors, 2026: translate theme.json typography/spacing/colors, default header/footer, page-home welcome/feature section, posts query and single layout into Eta/CSS; native content replaces WordPress block output. Outfit variable font is copied unmodified with its SIL OFL1.1 license and original copyright. Upstream PHP, WordPress, npm and scripts were not run. Demo images/logos are not bundled.

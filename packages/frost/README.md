@@ -1,0 +1,4 @@
+# Frost
+Firekylin >=2.17.1 port of Frost's white/black/blue design, local Outfit variable font, centered welcome, optional black two-column feature section, narrow640px posts and reading column. Configure heroTitle/heroLead and optional featureTitle/featureText/featureImage/featureUrl. Native menus, archives, search/pagination, taxonomy, protected content and conditional comments are supported.
+
+This is a fixed Firekylin adaptation of selected default patterns, not WordPress Full Site Editing. The pattern inserter, alternate style variations, marketing feature rows, WordPress blocks and editor tooling are not implemented. Homepage continues with native posts instead of the sample marketing rows. The optional black section requires featureTitle; supply your own image. Original sample artwork is not bundled. No dark-mode toggle is claimed.

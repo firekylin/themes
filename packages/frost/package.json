@@ -1,0 +1,60 @@
+{
+  "name": "frost",
+  "title": "Frost",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Frost: Outfit typography, blue calls to action, monochrome feature panel and narrow reading column.",
+  "license": "GPL-3.0-only",
+  "author": "WP Engine; Firekylin contributors",
+  "homepage": "https://github.com/wpengine/frost",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/frost"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "frost"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "heroTitle",
+      "label": "首页标题",
+      "help": "默认站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "heroLead",
+      "label": "首页介绍",
+      "help": "默认站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "featureTitle",
+      "label": "黑色区块标题",
+      "help": "可选；填写后显示特色区块。"
+    },
+    {
+      "type": "text",
+      "name": "featureText",
+      "label": "黑色区块介绍",
+      "help": "纯文本。"
+    },
+    {
+      "type": "text",
+      "name": "featureImage",
+      "label": "特色图片",
+      "help": "HTTP(S) 或站内绝对路径。"
+    },
+    {
+      "type": "text",
+      "name": "featureUrl",
+      "label": "特色链接",
+      "help": "HTTP(S) 或站内绝对路径，默认 /archives。"
+    }
+  ]
+}
