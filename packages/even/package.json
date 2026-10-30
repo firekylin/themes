@@ -1,0 +1,42 @@
+{
+  "name": "even",
+  "title": "Even",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Even concise blog layout with warm red links and external reading TOC.",
+  "license": "MIT",
+  "author": "olOwOlo; Firekylin contributors",
+  "homepage": "https://github.com/olOwOlo/hugo-theme-even",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/even"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "even"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "logoTitle",
+      "label": "站点标志文字",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "githubUrl",
+      "label": "GitHub 链接",
+      "help": "可选 HTTP(S) 地址。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "纯文本，可留空。"
+    }
+  ]
+}

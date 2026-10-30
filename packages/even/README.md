@@ -1,0 +1,4 @@
+# Even adaptation
+Native Firekylin>=2.17.1 port of olOwOlo/hugo-theme-even (itself derived from Hexo Even). Retains800px centered shell/20px padding,48px calligraphic site title, serif nav,27px post headings,muted date metadata,warm red Read more,thin list rules,cream code/TOC and centered credit footer. Mobile50px bar opens180px side menu; visible-heading TOC sits outside column above1185px. Archive uses dated rows.
+
+Configure logoTitle/githubUrl/footerText. Native posts/pages/attachments,taxonomy,search,pagination,privacy and comments supported. Uses local Apple Chancery/cursive and Source Sans Pro/Arial fallbacks; proprietary/unverified font files are not redistributed. List categories,word counts/reading time,Busuanzi views,donations,language selector,Fancybox,math,syntax highlighting runtime and Hugo shortcodes are not claimed. Actual category/tag links appear on detail. Native search added to navigation. No author social accounts/demo images copied.
