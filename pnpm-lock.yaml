@@ -200,6 +200,8 @@ importers:
 
   packages/dreamcat: {}
 
+  packages/bearsimple: {}
+
   packages/tranquilpeak: {}
 
   packages/webstack: {}

@@ -1,0 +1,2 @@
+# Provenance
+BearSimple v2.9.9-release by BearNotion. https://github.com/whitebearcode/typecho-bearsimple at dd2f6c33d6ab0570c0cbe5675b53e9e8ca426180, v2.x. GPLv3 LICENSE and exact README retained, including its blog-only/lawful-use statement. Native modification by Firekylin contributors2026-10-30. Rebuilt layout, controls and routes from pages/index-z.php/sidebar.php/post.php, compoment/head.php and source CSS. No BsCore, Typecho runtime, vendor JS, bundled fonts, avatars or demo photography. All adaptation files changed for Firekylin; not an endorsed original release.

@@ -1,0 +1,60 @@
+{
+  "name": "bearsimple",
+  "title": "BearSimple",
+  "version": "0.1.0",
+  "private": true,
+  "description": "BearSimple alternating picture cards, profile sidebar and reading controls.",
+  "license": "GPL-3.0-only",
+  "author": "BearNotion; Firekylin contributors",
+  "homepage": "https://github.com/whitebearcode/typecho-bearsimple",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/bearsimple"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "bearsimple"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "profileName",
+      "label": "博主名称",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "profileBio",
+      "label": "博主简介",
+      "help": "纯文本。"
+    },
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "博主头像",
+      "help": "站内路径或HTTPS图片。"
+    },
+    {
+      "type": "text",
+      "name": "profileCover",
+      "label": "资料卡背景",
+      "help": "站内路径或HTTPS图片。"
+    },
+    {
+      "type": "text",
+      "name": "listMode",
+      "label": "列表模式",
+      "help": "picture（默认）或 simple；文章封面取 featuredImage。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "纯文本。"
+    }
+  ]
+}
