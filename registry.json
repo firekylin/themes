@@ -325,6 +325,20 @@
     },
     {
       "type": "theme",
+      "name": "dreamcat",
+      "id": "dreamcat",
+      "version": "0.1.0",
+      "title": "DreamCat",
+      "description": "DreamCat Material cards with profile sidebar and customizable palette.",
+      "download": "https://github.com/firekylin/themes/releases/download/dreamcat-v0.1.0/dreamcat-0.1.0.zip",
+      "integrity": "sha512-uwfCY2mgj+m33I9mlB+52W90D4Ji3T94WYezvxArCNSUf3WmVlvkKE6ybYKoyIYlVIUrgii96hE+xjCYmfrpZw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/dreamcat/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "dux",
       "id": "dux",
       "version": "0.1.0",
