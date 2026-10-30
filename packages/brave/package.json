@@ -1,0 +1,84 @@
+{
+  "name": "brave",
+  "title": "Brave",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Brave couple journal with paired profiles and shared milestones.",
+  "license": "UNLICENSED",
+  "author": "Veen Zhao; Firekylin contributors",
+  "homepage": "https://github.com/zwying0814/Brave",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/brave"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "brave"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "firstName",
+      "label": "第一位名称",
+      "help": "与第二位名称一起配置后显示情侣横幅。"
+    },
+    {
+      "type": "text",
+      "name": "secondName",
+      "label": "第二位名称",
+      "help": "纯文本。"
+    },
+    {
+      "type": "text",
+      "name": "firstAvatar",
+      "label": "第一位头像",
+      "help": "站内路径或 HTTPS 图片。"
+    },
+    {
+      "type": "text",
+      "name": "secondAvatar",
+      "label": "第二位头像",
+      "help": "站内路径或 HTTPS 图片。"
+    },
+    {
+      "type": "text",
+      "name": "coverUrl",
+      "label": "背景图片",
+      "help": "站内路径或 HTTPS 图片，留空柔和渐变。"
+    },
+    {
+      "type": "text",
+      "name": "startDate",
+      "label": "相伴起始时间",
+      "help": "ISO8601，须含时区，例如2020-01-01T00:00:00+08:00。"
+    },
+    {
+      "type": "text",
+      "name": "blessingUrl",
+      "label": "祝福页面",
+      "help": "站内页面链接；页面评论按原生开关显示。"
+    },
+    {
+      "type": "text",
+      "name": "loveList",
+      "label": "Love List",
+      "help": "JSON数组，例如[{\"text\":\"一起旅行\",\"done\":true}]，只读展示，由配置维护。"
+    },
+    {
+      "type": "text",
+      "name": "introText",
+      "label": "列表寄语",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "纯文本。"
+    }
+  ]
+}

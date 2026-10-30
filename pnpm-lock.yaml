@@ -196,6 +196,8 @@ importers:
 
   packages/lolimeow: {}
 
+  packages/brave: {}
+
   packages/tranquilpeak: {}
 
   packages/webstack: {}
