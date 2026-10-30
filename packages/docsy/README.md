@@ -1,0 +1,4 @@
+# Docsy
+Native Firekylin>=2.17.1 adaptation of Docsy documentation and year-grouped blog layouts. Keeps the reference screenshot's blue header preset, left navigation, wide reading column, desktop right TOC, responsive scrolling top navigation and collapsible mobile directory. Lists use native summaries and optional options.featuredImage. Search, archive/taxonomy, pagination, visibility checks and conditional comments use Firekylin.
+
+Scope: left directory shows native navigation and categories, not Hugo's nested sections. No Hugo multilingual/version switcher, shortcodes, API explorer, edit/issue actions, offline search index, feedback backend or documentation build pipeline. TOC is generated from visible article headings and hidden below1200px, matching the desktop sidebar breakpoint. Google fonts, Bootstrap and original JavaScript are not loaded. No dark scheme or marketing cover homepage is claimed.

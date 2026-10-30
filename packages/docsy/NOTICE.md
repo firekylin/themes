@@ -1,0 +1,4 @@
+# Attribution and modifications
+Docsy, Copyright The Docsy Authors, Apache License2.0. Source https://github.com/docsy/docsy at46ecd3ffedccf77fa769ca70646d1b533300d4ee, theme/ directory. LICENSE included unchanged. Firekylin contributors,2026: translated docs/baseof, blog/list and td SCSS structure into native Eta/CSS; replaced Hugo section data and JavaScript with native content navigation and an original heading index. Blue navbar follows the repository screenshot preset; current default navbar can use body-background colors. This is not an exact reproduction of every current preset.
+
+No upstream demo prose, photos, logos or documentation content included. Upstream documentation has separate CC-BY-4.0 terms; this package adapts theme code only. No upstream code/build tools were executed.

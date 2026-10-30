@@ -1,0 +1,23 @@
+{
+  "name": "docsy",
+  "title": "Docsy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Docsy documentation and blog layout adapted to native Firekylin content.",
+  "license": "Apache-2.0",
+  "author": "Docsy authors; Firekylin contributors",
+  "homepage": "https://github.com/docsy/docsy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/docsy"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "docsy"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": []
+}
