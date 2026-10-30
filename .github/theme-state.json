@@ -63,6 +63,10 @@
     "hash": "74880a150adb25343c5853b18fb76e8d545adca76fecd7cf441de656ae417f86",
     "id": "cuckoo"
   },
+  "datagov": {
+    "hash": "cba2e427a8a5eaef51be3f0a394687b76847e0830b9c95630cfc3a12153c1abc",
+    "id": "datagov"
+  },
   "diaspora": {
     "hash": "1f116d0dc7df6a7f8db1f07b16a942c520f3e89355847b505edc1dc031990bef",
     "id": "diaspora"

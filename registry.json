@@ -227,6 +227,20 @@
     },
     {
       "type": "theme",
+      "name": "datagov",
+      "id": "datagov",
+      "version": "0.1.0",
+      "title": "Data.gov",
+      "description": "Data.gov content portal layout adapted to native blog search and categories.",
+      "download": "https://github.com/firekylin/themes/releases/download/datagov-v0.1.0/datagov-0.1.0.zip",
+      "integrity": "sha512-KFzzClB75FoHMF8q8yhgOqLDZUB25JlwJkgWfEjmKaALppl3gwHo1AGnM/5SS6W3ngFd8bcbSzS7nYRhlIdVug==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/datagov/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "firekylin-theme-diaspora",
       "id": "diaspora",
       "version": "0.1.1",
