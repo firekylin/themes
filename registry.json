@@ -297,6 +297,20 @@
     },
     {
       "type": "theme",
+      "name": "even",
+      "id": "even",
+      "version": "0.1.0",
+      "title": "Even",
+      "description": "Even concise blog layout with warm red links and external reading TOC.",
+      "download": "https://github.com/firekylin/themes/releases/download/even-v0.1.0/even-0.1.0.zip",
+      "integrity": "sha512-uVyGIR3dzrEmzZd/O/N8aZYaVd8Y+qdZma9sawfP4fhLLTHA9IxuYYqop16Kigc8/h2ZRulO+6l7rtLXKZfe9A==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/even/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "fantasy",
       "id": "fantasy",
       "version": "0.1.0",
