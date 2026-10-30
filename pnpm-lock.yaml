@@ -206,6 +206,8 @@ importers:
 
   packages/redefine: {}
 
+  packages/anzhiyu: {}
+
   packages/volantis: {}
 
   packages/tranquilpeak: {}

@@ -1,0 +1,2 @@
+# Source and attribution
+Anzhiyu https://github.com/anzhiyu-c/hexo-theme-anzhiyu at07114b6e92cdc2bc94b0274745a4db9a643db23c, GPL3; exact LICENSE retained. Upstream credits Butterfly (JerryC and contributors), design by Heo and Anzhiyu contributors. Modified for native Firekylin 2026-10-30. References default home_top, top.pug, post-ui.pug, homepage.styl, head.styl and aside.styl. No upstream software executed. No demo photos/avatar/fonts/music/icon packages copied.
