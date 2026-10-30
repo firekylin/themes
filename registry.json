@@ -439,6 +439,20 @@
     },
     {
       "type": "theme",
+      "name": "mwordstar",
+      "id": "mwordstar",
+      "version": "0.1.0",
+      "title": "MWordStar",
+      "description": "MWordStar two-column cards, reading directory and light/dark appearance.",
+      "download": "https://github.com/firekylin/themes/releases/download/mwordstar-v0.1.0/mwordstar-0.1.0.zip",
+      "integrity": "sha512-jB1XGsF1NbkQN80g/N8Js22M8kWJtSwdQeqAk8r7mpWyzJLl3aQqXJYG160mawBGYZJ6mN2Zg3KphppQAdUxLg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/mwordstar/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "@firekylin/theme-nexmoe",
       "id": "nexmoe",
       "version": "0.1.1",
