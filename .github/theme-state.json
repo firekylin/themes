@@ -55,6 +55,10 @@
     "hash": "1f116d0dc7df6a7f8db1f07b16a942c520f3e89355847b505edc1dc031990bef",
     "id": "diaspora"
   },
+  "docsy": {
+    "hash": "aec8a729f6d3ee58e914b7c4d106c253ff82676b20fad5e08a487d368f6e1482",
+    "id": "docsy"
+  },
   "dux": {
     "hash": "3b4dbb9f0e528cafed5c6f1275a17123f4c5561a49136ee037abe36ea1a12bfc",
     "id": "dux"

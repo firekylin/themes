@@ -199,6 +199,20 @@
     },
     {
       "type": "theme",
+      "name": "docsy",
+      "id": "docsy",
+      "version": "0.1.0",
+      "title": "Docsy",
+      "description": "Docsy documentation and blog layout adapted to native Firekylin content.",
+      "download": "https://github.com/firekylin/themes/releases/download/docsy-v0.1.0/docsy-0.1.0.zip",
+      "integrity": "sha512-keEfXtWMoKOW6QPMA9t5B8RQA+6lWgfENV90QeWyBPzrZ15SZx81VgXh2ifLo+F9Z0D82jdYuSThI7MYgFQ/iw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/docsy/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "dux",
       "id": "dux",
       "version": "0.1.0",
