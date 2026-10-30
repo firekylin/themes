@@ -31,6 +31,20 @@
     },
     {
       "type": "theme",
+      "name": "amaze",
+      "id": "amaze",
+      "version": "0.1.0",
+      "title": "Amaze",
+      "description": "Amaze expansive header, author-led journal and reading directory.",
+      "download": "https://github.com/firekylin/themes/releases/download/amaze-v0.1.0/amaze-0.1.0.zip",
+      "integrity": "sha512-O6Kd2ccJ4BCcoBkJtTLreJt74D1p/Yt+/KWSrNVsHAmpIZd2nLGjT5XjhAZbhsC8WQdBmO7b5j9MstyBxRfhNw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/amaze/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "firekylin-theme-aquila",
       "id": "aquila",
       "version": "0.1.1",
