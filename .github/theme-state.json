@@ -75,6 +75,10 @@
     "hash": "f9ea0a61b22a99b5e98e3b283cb9d8bca250de40a0c143b3536dc081e309ed29",
     "id": "fluid"
   },
+  "frost": {
+    "hash": "14b94b9c2d53f1834451e021eaec4a6e292ae2cb652836a70a9a71c65eb3e3bf",
+    "id": "frost"
+  },
   "g": {
     "hash": "5f6d2b16ef08fe4082755f61945946f3b346fb9165087aa28a9d6e614b48e96c",
     "id": "g"

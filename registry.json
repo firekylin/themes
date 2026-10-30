@@ -266,6 +266,20 @@
     },
     {
       "type": "theme",
+      "name": "frost",
+      "id": "frost",
+      "version": "0.1.0",
+      "title": "Frost",
+      "description": "Frost: Outfit typography, blue calls to action, monochrome feature panel and narrow reading column.",
+      "download": "https://github.com/firekylin/themes/releases/download/frost-v0.1.0/frost-0.1.0.zip",
+      "integrity": "sha512-AePZ0xu++2MWJciHUL8Fxk9z57cKYlzf7ZQhepe7KYw9PDB6EyHSgJG8xz4z5++4D77pbX4tZAcYmmgxPedYow==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/frost/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "@firekylin/theme-g",
       "id": "g",
       "version": "0.1.1",
