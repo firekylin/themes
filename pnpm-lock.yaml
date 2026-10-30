@@ -158,6 +158,8 @@ importers:
 
   packages/stack: {}
 
+  packages/skeleton: {}
+
   packages/storefront: {}
 
   packages/story: {}
