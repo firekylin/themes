@@ -143,6 +143,20 @@
     },
     {
       "type": "theme",
+      "name": "bearsimple",
+      "id": "bearsimple",
+      "version": "0.1.0",
+      "title": "BearSimple",
+      "description": "BearSimple alternating picture cards, profile sidebar and reading controls.",
+      "download": "https://github.com/firekylin/themes/releases/download/bearsimple-v0.1.0/bearsimple-0.1.0.zip",
+      "integrity": "sha512-PDiYb4EzVHC6uDm9mCpSFJtpH7txXqeLiokH6q4jkUExuTBOezxko5DzEG/bKVpBARJhbWYLoPn47syHXZ/rEA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/bearsimple/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "blowfish",
       "id": "blowfish",
       "version": "0.1.0",
