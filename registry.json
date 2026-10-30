@@ -612,6 +612,20 @@
     },
     {
       "type": "theme",
+      "name": "timeplus",
+      "id": "timeplus",
+      "version": "0.1.0",
+      "title": "TimePlus",
+      "description": "TimePlus full-bleed photo albums and fixed navigation for Firekylin.",
+      "download": "https://github.com/firekylin/themes/releases/download/timeplus-v0.1.0/timeplus-0.1.0.zip",
+      "integrity": "sha512-F77PbyEjZUBFVxvTHYr/UOVz4TJpJjpM24iazuG9AxwOuR61CTm/Qo8xtQyTx9KZMqSt0ml9lzB5elw8LtfF9A==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/timeplus/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "void",
       "id": "void",
       "version": "0.1.0",
