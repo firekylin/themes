@@ -166,6 +166,8 @@ importers:
 
   packages/void: {}
 
+  packages/webstack: {}
+
 packages:
 
   '@adobe/css-tools@4.3.3':

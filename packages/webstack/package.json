@@ -1,0 +1,30 @@
+{
+  "name": "webstack",
+  "title": "WebStack",
+  "version": "0.1.0",
+  "private": true,
+  "description": "WebStack categorized link directory with native Firekylin articles.",
+  "license": "MIT",
+  "author": "WebStackPage, shenweiyan, iowen; Firekylin contributors",
+  "homepage": "https://github.com/shenweiyan/WebStack-Hugo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/webstack"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "webstack"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "directory",
+      "label": "网址导航 JSON",
+      "help": "数组，如 [{\"title\":\"工具\",\"links\":[{\"title\":\"Example\",\"url\":\"https://example.com\",\"description\":\"说明\"}]}]。"
+    }
+  ]
+}
