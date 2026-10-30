@@ -1,0 +1,4 @@
+# Visual comparison
+Reference images/screenshot.png and layouts/partials/meta.html,header.html,index/summary.html,index/components.html,issues/small.html at1f53d60257d32f9ec981846eb55e55de3051de71. Preserve black brand band,640px dashboard/680px history,16px spacing, semantic status colors (#008000/#24478f/#cc4400/#e60000), bordered expandable service groups, right-hand status text and incident history. Screenshot uses older summary arrangement; current source's stacked manual update line and RSS button used. Demo logo not copied.
+
+Default unknown avoids claiming unmeasured health. Service and overall states manually configured; no fabricated uptime/history graphs or last-checked timer. Optional incident labels are manual. Local1440/390 installed-ZIP evidence and report in verification/cstate; system dark mode, no-JS group toggling and state semantics tested. Upstream software and remote comment submission not run.
