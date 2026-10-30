@@ -143,6 +143,20 @@
     },
     {
       "type": "theme",
+      "name": "fantasy",
+      "id": "fantasy",
+      "version": "0.1.0",
+      "title": "Fantasy",
+      "description": "Fantasy paper journal layout, ported from the Aragaki-derived Typecho theme.",
+      "download": "https://github.com/firekylin/themes/releases/download/fantasy-v0.1.0/fantasy-0.1.0.zip",
+      "integrity": "sha512-Gho5Nho715Ydnq4MOl9hK3ymXbI9WIlBls669Skpv2opiMWhmBq88HVoLZLo3glu6cOobsJuCRjQ8jWkGBe7Kg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/fantasy/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "firekylin",
       "id": "firekylin",
       "version": "0.1.0",
