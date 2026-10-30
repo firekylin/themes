@@ -1,0 +1,2 @@
+# Provenance
+fi3ework/hexo-theme-archer at38c9913ed0b0429d4f4438b86532d92577048cae, MIT copyright2017fi3ework. Full LICENSE retained. Modified2026-10-30 by Firekylin contributors: native Eta templates/CSS and original vanilla JS. Source layout/index.ejs, post.ejs, base-header/profile/sidebar and SCSS intro/profile/index/post/variables informed the port. No upstream runtime executed; no vendor binaries, photos or avatar bundled.
