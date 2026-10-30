@@ -56,6 +56,8 @@ importers:
 
   packages/bubble: {}
 
+  packages/bearblog: {}
+
   packages/butterfly: {}
 
   packages/cactus: {}

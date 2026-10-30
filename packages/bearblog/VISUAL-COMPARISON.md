@@ -1,0 +1,4 @@
+# Visual verification
+Reference: upstream images/screenshot.png and layouts/partials/style.html, layouts/_default/list.html, single.html at d6dcedcc75485062723e9f5e8f5d142518b6edef. The original screenshot shows the content-only landing page; list structure is verified against the original template. Preserve 720px content width, 20px padding, Verdana, title/navigation spacing, blue links and midnight teal system dark colors. Site text differs intentionally. Homepage includes the native dated blog list rather than the upstream sample marketing prose.
+
+Evidence: verification/bearblog/{home,post}-{1440,390}.png and report.json, generated from an installed ZIP and disposable real Firekylin SQLite site. Upstream Hugo code was read, never executed. No claim of identical fixture content or external comment-provider validation.

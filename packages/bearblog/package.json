@@ -1,0 +1,30 @@
+{
+  "name": "bearblog",
+  "title": "Bear Blog",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hugo Bear Blog: quiet text, dated post lists and system dark mode.",
+  "license": "MIT",
+  "author": "Jan Raasch; Firekylin contributors",
+  "homepage": "https://github.com/janraasch/hugo-bearblog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/bearblog"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "bearblog"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "intro",
+      "label": "\u9996\u9875\u4ecb\u7ecd",
+      "help": "\u7eaf\u6587\u672c\u4ecb\u7ecd\uff0c\u663e\u793a\u5728\u6587\u7ae0\u5217\u8868\u4e4b\u524d\u3002"
+    }
+  ]
+}
