@@ -199,6 +199,20 @@
     },
     {
       "type": "theme",
+      "name": "dux",
+      "id": "dux",
+      "version": "0.1.0",
+      "title": "DUX",
+      "description": "DUX magazine-style article list, blue category flags and recent-post sidebar.",
+      "download": "https://github.com/firekylin/themes/releases/download/dux-v0.1.0/dux-0.1.0.zip",
+      "integrity": "sha512-97NOP3lflbJZeCFy5aGbj44mBIzX5Fjd0iLkRuWpmLEsJ9tG56uOpyXNoh+/gGMpHdL3D77T8Wvprut3HsucLw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/dux/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "echo",
       "id": "echo",
       "version": "0.1.0",
