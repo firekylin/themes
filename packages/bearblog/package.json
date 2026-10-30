@@ -1,7 +1,7 @@
 {
   "name": "bearblog",
   "title": "Bear Blog",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Hugo Bear Blog: quiet text, dated post lists and system dark mode.",
   "license": "MIT",
