@@ -1,0 +1,4 @@
+# Visual comparison
+Reference screenshot.png at1f834868a3a4868e0ec2c05bfa0367b3232b6480 plus includes/nav.php,right.php, components/index/index-default.php and assets/css/onecircle.scss. Preserve white54px header, pale#eff3f6 background, left bold icon/text navigation,12px rounded white feed cards with24px desktop padding,40px author avatar, right255px profile card/128px cover, cyan links and three-column optional image grid. Mobile replaces fixed sidebar with accessible collapse and hides secondary right column.
+
+Reference is a logged-in screenshot: composer, account menu, follower/like/view counts and plugin controls intentionally omitted. Public posts replace social activity; initials replace per-user avatar service. Profile is configurable site information. No demo artwork copied. Evidence: native installed-ZIP pages at1440/390, menu/search/pagination/gallery controls, visibility and comment checks in verification/onecircle. Upstream runtime not executed.
