@@ -1,0 +1,4 @@
+# Visual comparison
+Reference screenshot.png at e328ec007bc02cc0e9f94f3cea32de1ebe95ae12 shows a compact magazine list, banner, blue category flags, gray latest-post heading and right sidebar. Device composition is low resolution; precise geometry is grounded in index.php/post.php/sidebar.php and css/main.css. Preserve1200px container,360px sidebar/20px gutter,220x150 desktop thumbnail and100x68 narrow thumbnail,18px list title,26px centered article title, #45B6F7 accents and #f6f6f6 canvas. Original CSS is included; a native baseline replaces Bootstrap and accessible controls replace scripts/icons. Demo content, image artwork and promotional banner are intentionally different.
+
+Evidence in verification/dux uses installed ZIP on real Firekylin SQLite at1440/390 and verifies routes, native navigation/search, privacy and comments. No upstream software was run. Remote comment-provider submissions are not tested.
