@@ -1,0 +1,4 @@
+# Source comparison
+Reviewed _config.yml default sidebar_behavior1/clear_reading, sidebar and post templates, postShorten styles and sidebar sizing mixins. Preserve500/250/75px sidebar breakpoints,90px profile image (30px tablet),45px menu rows,55px mobile/header bar,750px reading content,140px square thumbnails,28px index/37px desktop post titles,#5d686f text,#349ef3 links,#9eabb3 metadata and serif body. Clear reading hides sidebar for details; native disclosure replaces animated push and avoids scrolling content off-screen. Source cover and profile imagery become optional site configuration, with dark fallback.
+
+Official external showcase returned403 and GitHub Pages demo ERR_TUNNEL_CONNECTION_FAILED. Comparison is source-based; no claim of live pixel match. Native installed-ZIP desktop/mobile screenshots are in verification/tranquilpeak.
