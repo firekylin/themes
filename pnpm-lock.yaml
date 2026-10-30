@@ -116,6 +116,8 @@ importers:
 
   packages/next: {}
 
+  packages/paper: {}
+
   packages/papermod: {}
 
   packages/paul: {}
