@@ -70,6 +70,8 @@ importers:
 
   packages/diaspora: {}
 
+  packages/docsy: {}
+
   packages/dux: {}
 
   packages/echo: {}
