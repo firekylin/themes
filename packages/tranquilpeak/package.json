@@ -1,0 +1,54 @@
+{
+  "name": "tranquilpeak",
+  "title": "Tranquilpeak",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tranquilpeak responsive profile sidebar and clear reading theme.",
+  "license": "GPL-3.0-only",
+  "author": "Louis Barranqueiro; Firekylin contributors",
+  "homepage": "https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/tranquilpeak"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "tranquilpeak"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "profileName",
+      "label": "侧栏名称",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "profileBio",
+      "label": "侧栏介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "头像图片",
+      "help": "可选站内路径或 HTTPS 图片。"
+    },
+    {
+      "type": "text",
+      "name": "coverUrl",
+      "label": "侧栏背景",
+      "help": "可选站内路径或 HTTPS 图片；留空使用深色底。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "纯文本，可留空。"
+    }
+  ]
+}

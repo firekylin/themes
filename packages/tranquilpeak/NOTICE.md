@@ -1,0 +1,2 @@
+# Provenance
+https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak at b7721d20113219704f19753c7d3d7171a78dd910. By Louis Barranqueiro and contributors, GNU GPLv3; full LICENSE retained. Modified 2026-10-30 by Firekylin contributors: source layouts/style dimensions adapted to native Eta/CSS and original JS. Complete editable source distributed. No original JS, vendor fonts/icons, cover photos or demo avatars bundled.
