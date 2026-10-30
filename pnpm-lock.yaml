@@ -140,6 +140,8 @@ importers:
 
   packages/svbtle: {}
 
+  packages/terminal: {}
+
   packages/timeplus: {}
 
   packages/void: {}

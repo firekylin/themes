@@ -1,0 +1,4 @@
+# Visual comparison
+Source: pinned upstream 8ef994c0e0303861b1204d1248541af06c9bfea6 index/single/baseof templates and original CSS. images/screenshot.png is a nine-palette showcase, not a complete live page: it confirms striped masthead, dotted heading rules, framed images and monospaced type; full page spacing comes from the original CSS. Default dark-gold palette follows current main.css (#1a170f / #eceae5 / #eec35e). Keep 864px container, 40px padding (20px mobile), 30px post spacing, image border and Fira Code fonts.
+
+Actual native site: verification/terminal/{home,post}-{1440,390}.png and report.json from ZIP installation and SQLite routes. Different sample content is intentional; no upstream code execution or exact original runtime pixel-match claim. Native details/menu, clipboard feedback, heading anchors and directory adapt the main interactions. External comment authentication/submission remains untested.
