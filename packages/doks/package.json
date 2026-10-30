@@ -1,0 +1,42 @@
+{
+  "name": "doks",
+  "title": "Doks",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Doks landing, documentation and blog layouts for Firekylin.",
+  "license": "MIT",
+  "author": "Thulite; Gridsome; Firekylin contributors",
+  "homepage": "https://github.com/thuliteio/doks",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/doks"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "doks"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "introTitle",
+      "label": "首页标题",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "introText",
+      "label": "首页介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "纯文本，可留空。"
+    }
+  ]
+}

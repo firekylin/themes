@@ -1,0 +1,2 @@
+# Provenance
+Doks: https://github.com/thuliteio/doks at 262fbe7006114a78dfc3750d9d7ba7cfbb6c3ee4. doks-core: https://github.com/thuliteio/doks-core at fcd23934dca9c75082af186b91f486ff491a600e. Both MIT, Copyright (c) 2020-2026 Thulite; core additionally credits Copyright (c) 2018-present Gridsome. Both complete notices retained in LICENSE and LICENSE-doks-core. Modified 2026-10-30 by Firekylin contributors into native Eta/CSS and original browser controls. No upstream runtime/build executed; no vendor fonts/plugins copied.
