@@ -76,6 +76,8 @@ importers:
 
   packages/cstate: {}
 
+  packages/datagov: {}
+
   packages/docsy: {}
 
   packages/dux: {}

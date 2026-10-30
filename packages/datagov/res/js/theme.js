@@ -1,0 +1,1 @@
+(()=>{const menu=document.querySelector('.site-menu'),m=matchMedia('(max-width:767px)');const sync=()=>{if(menu)menu.open=!m.matches};sync();m.addEventListener('change',sync);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menu&&m.matches)menu.open=false})})();
