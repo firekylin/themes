@@ -1,0 +1,2 @@
+# Provenance
+https://github.com/yrccondor/mdx at4e92d6d56e62bf5afd4577bbc51b267d8ed69400, MDx2.0.4 by AxtonYao, GPLv3. Full LICENSE retained. Modified2026-10-30 by Firekylin contributors: native Eta templates/CSS and original vanilla JS from index/single PHP, template-parts/content-1 and default values/style.css. Complete editable native source distributed. No MDUI/vendor runtime, fonts, demo photographs or WordPress execution bundled.

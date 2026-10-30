@@ -1,0 +1,4 @@
+# MDx for Firekylin
+Port of MDx2.0.4 default index0/list1/post0, using indigo#3f51b5/pink#ff4081 Material styling:61.8vh home hero,64px appbar,240px native drawer,700px media cards,45vh article title background and elevated article sheet (800px desktop/680px smaller; flat90% mobile). Configure heroText/coverUrl/footerText. Optional cover accepts site-relative or HTTP(S) URL; solid indigo fallback. Source sample photographs not bundled.
+
+Native featured images, summaries, dates, archives/taxonomy/pagination, GET search overlay, heading TOC, real scroll progress, persisted day/night toggle, copy URL, conditional comments and privacy. No WordPress shortcodes, live AJAX search, generated share-image/QR, payment, cross-device progress sync, all5 list/all4 header styles, MDUI runtime/ripple, OLED or analytics/view counts. Dark theme uses system preference initially, user choice persists locally. No upstream PHP/JS/build executed. Requires Firekylin>=2.17.1.
