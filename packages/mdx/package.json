@@ -1,0 +1,42 @@
+{
+  "name": "mdx",
+  "title": "MDx",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MDx default Material Design hero and image cards.",
+  "license": "GPL-3.0-only",
+  "author": "AxtonYao; Firekylin contributors",
+  "homepage": "https://github.com/yrccondor/mdx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/mdx"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "mdx"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "heroText",
+      "label": "首页标语",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "coverUrl",
+      "label": "首页封面",
+      "help": "可选站内路径或 HTTPS 图片；留空使用靛蓝色背景。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "纯文本，可留空。"
+    }
+  ]
+}

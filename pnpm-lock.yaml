@@ -192,6 +192,8 @@ importers:
 
   packages/yilia: {}
 
+  packages/mdx: {}
+
   packages/tranquilpeak: {}
 
   packages/webstack: {}
