@@ -1,0 +1,4 @@
+# Blowfish
+Firekylin >=2.17.1 port of Blowfish's landing homepage, floating header and card article list. Configure heroCaption, heroTitle, heroLead, heroImage and buttonLabel/buttonUrl. Background imagery is optional and supplied by the site owner. Post options.featuredImage supplies card images. Dark appearance persists, the mobile menu works without JavaScript, and article headings generate a directory. Native archives, taxonomy, search and pagination, protected content and conditional comments remain available.
+
+This release implements the landing/floating/cards preset, not all Hugo presets. Hugo shortcodes, client-side search index, multi-language routing, related posts, series, analytics and remote discussion providers are not migrated. Search uses Firekylin's native search route. Other homepage and header variants are outside this port. No demo artwork or external fonts are included. See NOTICE and VISUAL-COMPARISON.

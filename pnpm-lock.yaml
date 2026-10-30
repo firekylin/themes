@@ -58,6 +58,8 @@ importers:
 
   packages/bearblog: {}
 
+  packages/blowfish: {}
+
   packages/butterfly: {}
 
   packages/cactus: {}

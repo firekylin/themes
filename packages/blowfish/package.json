@@ -1,0 +1,60 @@
+{
+  "name": "blowfish",
+  "title": "Blowfish",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Blowfish landing layout, floating header and article cards.",
+  "license": "MIT",
+  "author": "Nuno Coração; Firekylin contributors",
+  "homepage": "https://github.com/nunocoracao/blowfish",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/blowfish"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "blowfish"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "heroCaption",
+      "label": "首页眉题",
+      "help": "纯文本。"
+    },
+    {
+      "type": "text",
+      "name": "heroTitle",
+      "label": "首页标题",
+      "help": "默认站点名称。"
+    },
+    {
+      "type": "text",
+      "name": "heroLead",
+      "label": "首页介绍",
+      "help": "默认站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "heroImage",
+      "label": "首页背景图",
+      "help": "HTTP(S) 或站内绝对路径，自备图片。"
+    },
+    {
+      "type": "text",
+      "name": "buttonLabel",
+      "label": "首页按钮文字",
+      "help": "默认 Explore posts。"
+    },
+    {
+      "type": "text",
+      "name": "buttonUrl",
+      "label": "首页按钮地址",
+      "help": "HTTP(S) 或站内绝对路径，默认 /archives。"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Visual comparison
+Reference: images/screenshot.png and landing/floating/card/single templates at ebe683e9c2668972b71bc011e61e0004ff8e7689. Preserve floating rounded translucent navigation, oversized centered 72px/48px landing heading, tracked caption, subtitle and paired CTA, three-column cards reducing to two/one columns, blue accent and slate palette. Native single pages use 65ch reading content and sticky right-side heading directory, moving above content on narrow screens.
+
+Original screenshot includes commissioned/sample whale imagery and demo content; these are not bundled or represented as reproduced. Screenshots use local fixture imagery and native blog content. This is a supported preset adaptation, not every Blowfish feature or a pixel-identical demo copy. verification/blowfish records installed-ZIP SQLite routes, desktop/mobile screenshots and interaction results. External comment-provider login/submission not exercised.
