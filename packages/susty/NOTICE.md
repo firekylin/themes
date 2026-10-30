@@ -1,0 +1,2 @@
+# Provenance
+Source https://github.com/jacklenox/susty at 5b4d019b063319d5930913d6ee56a7f79a953bb9, by Jack Lenox. style.css declares GNU GPL v2 or later and credits Underscores (C) 2012-2017 Automattic, Inc. Full GPLv2 text retained in LICENSE. Modified 2026-10-30 by Firekylin contributors: native Eta/data model, CSS hash menu instead of WordPress route, responsive/overflow handling. Distributed with complete editable source. Upstream normalize.css portions were not copied; no PHP or upstream scripts executed.
