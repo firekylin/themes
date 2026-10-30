@@ -861,6 +861,20 @@
       "engines": {
         "firekylin": ">=2.16.0"
       }
+    },
+    {
+      "type": "theme",
+      "name": "webstack",
+      "id": "webstack",
+      "version": "0.1.0",
+      "title": "WebStack",
+      "description": "WebStack categorized link directory with native Firekylin articles.",
+      "download": "https://github.com/firekylin/themes/releases/download/webstack-v0.1.0/webstack-0.1.0.zip",
+      "integrity": "sha512-fzqbqbrgPAeGVdtpm6aUJcwYL1NkV6F5W/mSkEFx4IG/4ylclCu2FjQOZX8vnFrTW7qBWZhxPjvQyWI3ecIoXQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/webstack/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
     }
   ]
 }

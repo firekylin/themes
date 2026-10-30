@@ -250,5 +250,9 @@
   "void": {
     "hash": "a4d82552c483cd9531230c236f806bbbbca721b2679bb69274a8bb1c40c9e1b1",
     "id": "void"
+  },
+  "webstack": {
+    "hash": "70d3dad722476feadcb2dbaea092a735084eb70eefda01e405b3604881289a27",
+    "id": "webstack"
   }
 }
