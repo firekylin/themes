@@ -1057,6 +1057,20 @@
       "engines": {
         "firekylin": ">=2.17.1"
       }
+    },
+    {
+      "type": "theme",
+      "name": "yilia",
+      "id": "yilia",
+      "version": "0.1.0",
+      "title": "Yilia",
+      "description": "Yilia fixed profile sidebar and white article cards.",
+      "download": "https://github.com/firekylin/themes/releases/download/yilia-v0.1.0/yilia-0.1.0.zip",
+      "integrity": "sha512-bzxbQrnGaXDFrY1f83DRTyYY+xI1dxt7UUgjBR7Y9chrT2bmeoVnW79BE8zldiv81m9olLaNResDFtSoGt7mxw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/yilia/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
     }
   ]
 }
