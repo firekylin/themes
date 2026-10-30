@@ -1,0 +1,4 @@
+# Storefront attribution
+Storefront by WooCommerce / Automattic. Source https://github.com/woocommerce/storefront at c9e9b1675110297a806df72d99fb877893ce8f8a. Original README.txt declares GPLv3 or later and credits Underscores (C)2012-2017 Automattic, Eric Meyer, Nicolas Gallagher and Jonathan Neal. That README is included in full as UPSTREAM-README.txt; GPLv3 license text included.
+
+Modified by Firekylin contributors,2026: translate non-WooCommerce base/layout SCSS and blog content/header/sidebar/footer templates into native Eta and plain CSS. Header uses screenshot's white customizer scheme. Original software, Sass tools, PHP and JavaScript were not run. Source Sans Pro is not bundled or fetched externally; use upstream's declared local Helvetica/Arial fallback. No product art or vendor fonts/scripts bundled.

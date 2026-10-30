@@ -1,0 +1,4 @@
+# Storefront — blog adaptation
+Requires Firekylin>=2.17.1. Ports Storefront's blog and reading layout: spacious two-row header, native site search, light typography, right widget sidebar and pale-gray footer. Configure logoUrl and optional introTitle/introText. Thumbnail uses post options.featuredImage. Native archives, taxonomy, search, pagination, protected content and conditional Waline comments supported.
+
+This is the non-commerce blog portion. Products, product grids, shopping cart, customer accounts, checkout, payments, WooCommerce extensions and WordPress widgets/editor are not implemented. No empty shop/account links are exposed. List pages use Firekylin summaries and Continue reading instead of full WordPress post bodies. Local font fallback replaces Google-hosted Source Sans Pro. No dark appearance is claimed.

@@ -1,0 +1,42 @@
+{
+  "name": "storefront",
+  "title": "Storefront",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Storefront blog adaptation: generous two-row header, wide articles and sidebar widgets.",
+  "license": "GPL-3.0-or-later",
+  "author": "WooCommerce / Automattic; Firekylin contributors",
+  "homepage": "https://github.com/woocommerce/storefront",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/storefront"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "storefront"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "logoUrl",
+      "label": "站点标志",
+      "help": "HTTP(S) 或站内绝对路径；留空显示站点名称。"
+    },
+    {
+      "type": "text",
+      "name": "introTitle",
+      "label": "首页欢迎标题",
+      "help": "可选欢迎区。"
+    },
+    {
+      "type": "text",
+      "name": "introText",
+      "label": "首页欢迎文字",
+      "help": "纯文本。"
+    }
+  ]
+}
