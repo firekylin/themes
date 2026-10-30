@@ -1,0 +1,4 @@
+# Comparison and reference limits
+Read pinned style.css, header.php, footer.php, menu.php and template-parts/content.php. Source defines #fffefc background, .4rem black top rule, 69em masthead, 33em reading width, 2.4em article titles, calc(15px + 4*(100vw/1500)) system font, pale dotted article links and .75em footer; these are preserved. Small screens cap headings at 2em. Native content replaces WordPress records; hash menu substitutes standalone menu route without adding JavaScript.
+
+Upstream screenshot.png is a blank placeholder. Live sustywp.com navigation failed with ERR_TUNNEL_CONNECTION_FAILED; author's demonstration GIF returned 403. Visual comparison is therefore against exact source layout/styles and the author's design explanation (https://jack.blog/2018/06/04/delivering-wordpress-in-7kb/), not a claimed live pixel comparison. Native desktop/mobile screenshots and installed ZIP checks are in verification/susty.
