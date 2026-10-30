@@ -445,6 +445,20 @@
     },
     {
       "type": "theme",
+      "name": "hugoplate",
+      "id": "hugoplate",
+      "version": "0.1.0",
+      "title": "Hugoplate",
+      "description": "Hugoplate monochrome landing and two-column blog theme.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugoplate-v0.1.0/hugoplate-0.1.0.zip",
+      "integrity": "sha512-A0aj6LYXG/fwDOPdEnHvDMu9PmDkMsp53HXeFpLeWlygoAbe+aLXEl73wPt3kYIcHUcskDXYqKe0bYtcgjE5Qw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugoplate/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "@firekylin/theme-icarus",
       "id": "icarus",
       "version": "0.1.0",

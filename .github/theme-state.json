@@ -127,6 +127,10 @@
     "hash": "b4fe5d321b50a0fc321ca7f67c8c0721f6a37ff1be2bd23acc564d5bf65ed634",
     "id": "hugo-coder"
   },
+  "hugoplate": {
+    "hash": "bff9aefe9a4ecfbf261714d395e33503ba47c012079e6187fed2c8408e13d31c",
+    "id": "hugoplate"
+  },
   "icarus": {
     "hash": "c1483ebb46c0b245a5a80d6c6c60b83defc2e9a81f798369489c212ecf458edf",
     "id": "icarus"
