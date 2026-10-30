@@ -101,6 +101,20 @@
     },
     {
       "type": "theme",
+      "name": "blowfish",
+      "id": "blowfish",
+      "version": "0.1.0",
+      "title": "Blowfish",
+      "description": "Blowfish landing layout, floating header and article cards.",
+      "download": "https://github.com/firekylin/themes/releases/download/blowfish-v0.1.0/blowfish-0.1.0.zip",
+      "integrity": "sha512-NOOBqRHTWjFE686p+Y6PopDgZPmDgAf4wf13WI1CCPHcm+F86ub8R/uBv+6UNvDUOipb62/DOixg6X3ZiGloZg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/blowfish/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "bubble",
       "id": "bubble",
       "version": "0.1.0",
