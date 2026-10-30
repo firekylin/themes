@@ -1004,6 +1004,20 @@
     },
     {
       "type": "theme",
+      "name": "tranquilpeak",
+      "id": "tranquilpeak",
+      "version": "0.1.0",
+      "title": "Tranquilpeak",
+      "description": "Tranquilpeak responsive profile sidebar and clear reading theme.",
+      "download": "https://github.com/firekylin/themes/releases/download/tranquilpeak-v0.1.0/tranquilpeak-0.1.0.zip",
+      "integrity": "sha512-qEpEPQvJgNcrIi4MhfX2isdtiSMoMxkZPivMNVMcqoDLrB+6z+kjnW2QhPvALMZhN4PpOKk0HCG3C5wAWBIUTg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/tranquilpeak/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "void",
       "id": "void",
       "version": "0.1.0",
