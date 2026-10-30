@@ -920,6 +920,20 @@
     },
     {
       "type": "theme",
+      "name": "susty",
+      "id": "susty",
+      "version": "0.1.0",
+      "title": "Susty",
+      "description": "Susty minimal warm-white reading theme with no theme JavaScript.",
+      "download": "https://github.com/firekylin/themes/releases/download/susty-v0.1.0/susty-0.1.0.zip",
+      "integrity": "sha512-tEY4ilqC2VO9JFppSZaH1SjXWAOfrb7wg33ZJmJXmqdebluWA2e+NgCpfXH6Die8SJEOxTvsI3tDakb3CZ0Ngg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/susty/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "firekylin-theme-svbtle",
       "id": "svbtle",
       "version": "0.1.1",
