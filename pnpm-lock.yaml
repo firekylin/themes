@@ -216,6 +216,8 @@ importers:
 
   packages/contrast: {}
 
+  packages/archie: {}
+
   packages/pixyll: {}
 
   packages/klise: {}

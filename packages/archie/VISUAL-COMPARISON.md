@@ -1,0 +1,2 @@
+# Comparison
+Pinned CSS/index/single/head/footer read and upstream images/theme.png inspected. Preserve800column,15pxmonoUI,1.2rem #headings,3pxcrimsonlinks,dottedpurplefooter and darkgreenlinks. CurrentupstreamCSSuses sansparagraphs whereas old screenshot hasmono excerpts; current sourcefollowed. Native textnav replaces socialiconlinks; local fontfallbacks. ActualZIP screenshots and routes/systemdark/privacy/noJS checks in verification/archie.

@@ -1,0 +1,2 @@
+# Source
+Archie https://github.com/athul/archie atcbc1c3aaa2615fa348b85ef39eb4570cd3ac6414. MIT2020 ATHUL CYRIAC AJAY; fulllicense retained. Upstream credits Ezhil https://github.com/vividvilla/ezhil and blog.jse.li inspiration. Original main/dark CSS retained plus nativeintegrationrules. Templates nativelyrewritten. Reference images/theme.png inspected. No upstreamscripts executed; no font/iconassets copied.
