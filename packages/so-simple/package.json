@@ -1,0 +1,42 @@
+{
+  "name": "so-simple",
+  "title": "So Simple",
+  "version": "0.1.0",
+  "private": true,
+  "description": "So Simple editorial serif-title blog theme.",
+  "license": "MIT",
+  "author": "Michael Rose and contributors; Firekylin contributors",
+  "homepage": "https://github.com/mmistakes/so-simple-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/so-simple"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "so-simple"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "作者名称",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "logo",
+      "label": "站点标识",
+      "help": "HTTPS或本站图片路径，可留空。"
+    }
+  ]
+}

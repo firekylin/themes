@@ -234,6 +234,8 @@ importers:
 
   packages/minimal-mistakes: {}
 
+  packages/so-simple: {}
+
   packages/minima: {}
 
   packages/no-style-please: {}
