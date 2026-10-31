@@ -255,6 +255,20 @@
     },
     {
       "type": "theme",
+      "name": "contrast",
+      "id": "contrast",
+      "version": "0.1.0",
+      "title": "Contrast",
+      "description": "Contrast framed monochrome blog with automatic dark appearance.",
+      "download": "https://github.com/firekylin/themes/releases/download/contrast-v0.1.0/contrast-0.1.0.zip",
+      "integrity": "sha512-VPnsYZcbxZDMY6C9iWvNBCPBewK5VneVLlZRFdprEqYrNBO2ll4i/VAkBKvYvIHKGgFMql64GUGe36oLOOI8JA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/contrast/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "corepress",
       "id": "corepress",
       "version": "0.1.0",
