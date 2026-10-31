@@ -222,6 +222,8 @@ importers:
 
   packages/klise: {}
 
+  packages/xmin: {}
+
   packages/minima: {}
 
   packages/no-style-please: {}
