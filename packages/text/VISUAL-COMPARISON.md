@@ -1,0 +1,2 @@
+# Comparison
+Pinneddefaultskin/home/header/item/pageSCSSandrepositoryscreenshotinspected. Preserve950pxwidth,80pxheader,16/14pxbase,1.9/1.5remlisttitles,.85remexcerpts,date-afterexcerpt,#fc4d50emphasis,graytagpills/footer,anddesktop220pxTOC. Compareddefaultblogportion; optionalimmersivehero/docs/skinsnotclaimed. ActualZIPscreenshotsandTOC/privacy/searchchecksunderverification/text.
