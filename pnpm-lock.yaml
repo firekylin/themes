@@ -210,6 +210,8 @@ importers:
 
   packages/hyde: {}
 
+  packages/pixyll: {}
+
   packages/minima: {}
 
   packages/volantis: {}
