@@ -283,6 +283,20 @@
     },
     {
       "type": "theme",
+      "name": "chirpy",
+      "id": "chirpy",
+      "version": "0.1.0",
+      "title": "Chirpy",
+      "description": "Chirpy fixed-sidebar technical blog layout.",
+      "download": "https://github.com/firekylin/themes/releases/download/chirpy-v0.1.0/chirpy-0.1.0.zip",
+      "integrity": "sha512-WuWznr/8MynVgcA95IqqUp2yNzfI6ydZz/JZuJKECjHiYNgjl4xbEFyeW2nSp0QG6VcIgl/lbqFsyn+wfcIwuQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/chirpy/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "congo",
       "id": "congo",
       "version": "0.1.0",

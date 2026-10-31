@@ -79,6 +79,10 @@
     "hash": "1ecf081d30b72437647c345c6d11bf9f573e490d249d326afc394652da47e26b",
     "id": "casper"
   },
+  "chirpy": {
+    "hash": "6a3702c9b1a8251d9e4332e3e3a898627bd0f94052913407542fc6ab33ea73e6",
+    "id": "chirpy"
+  },
   "congo": {
     "hash": "cf4c42fdda1c9a427c4b7877d7713d3f4915c82d2626a0163d0e57d01c0af1c1",
     "id": "congo"
