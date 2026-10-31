@@ -1,0 +1,4 @@
+# Beautiful Jekyll for Firekylin
+Grayfixednavigationwithoptionalcenteredavatar,80/50pxhomeheading,36/30pxpreviewtitles,italicdates,desktoprightthumbnail/mobilecenteredthumbnail,fullwidthoptionalarticlehero,scrollcompactheader. Nativepublicroutes/search/pagination/privacy/comments;avatar/author/footerconfigurable.
+
+Lora/OpenSansuseTimes/Arialfallback. NoBootstrap,jQuery,instantsearchoverlay,rotatinghero,Staticman,socialsharing,analyticsorreadingtime. NativecheckboxmobilemenuworkswithoutJS;noautomaticfontnetworkrequests. Core>=2.17.1. MITsourceincluded;remotecommentlogin/submissionuntested.
