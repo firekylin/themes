@@ -1,0 +1,42 @@
+{
+  "name": "casper",
+  "title": "Casper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Casper classic cover and editorial card grid.",
+  "license": "MIT",
+  "author": "Ghost Foundation; Firekylin contributors",
+  "homepage": "https://github.com/TryGhost/Casper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/casper"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "casper"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "coverImage",
+      "label": "首页封面",
+      "help": "HTTPS或本站图片路径；留空使用深色背景。"
+    }
+  ]
+}

@@ -228,6 +228,8 @@ importers:
 
   packages/dawn: {}
 
+  packages/casper: {}
+
   packages/minima: {}
 
   packages/no-style-please: {}
