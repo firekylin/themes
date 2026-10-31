@@ -1,0 +1,2 @@
+# Source
+Jekyll Minima at4de322363fca5927e6f4012cb94f6dad69ab5e6c https://github.com/jekyll/minima. MIT2016-present Parker Moore and minima contributors; exact license retained. Native Firekylin adaptation2026-10-31. Referenced current initialize/base/layout/classic skin and included screenshot (older left-aligned post header). Current source centered post header takes precedence. No upstream scripts or Jekyll runtime executed.
