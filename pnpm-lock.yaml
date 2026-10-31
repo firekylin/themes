@@ -232,6 +232,8 @@ importers:
 
   packages/fuwari: {}
 
+  packages/minimal-mistakes: {}
+
   packages/minima: {}
 
   packages/no-style-please: {}
