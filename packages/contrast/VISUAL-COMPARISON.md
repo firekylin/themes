@@ -1,0 +1,2 @@
+# Comparison
+Pinned source config/frame/basic/layout read; GitHub attachment screenshot returned403 so reference comparison is sourcebased. Preserve38%-22rem outer gutter,22%-6rem inner gutter with1.5em minimum,1.75em header/title hierarchy,monochrome surfaces/blue links,justified paragraphs,automatic dark media query.Native list uses excerptpanels inside main; globalfooter identifies adaptation instead of upstream previous/next postfooter. ActualZIP desktop/mobile screenshots and darkstyle assertion in verification/contrast.
