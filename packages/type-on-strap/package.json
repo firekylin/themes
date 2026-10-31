@@ -1,0 +1,54 @@
+{
+  "name": "type-on-strap",
+  "title": "Type on Strap",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Type on Strap banner-led blog with responsive reading space.",
+  "license": "MIT",
+  "author": "Sylhare; Firekylin contributors",
+  "homepage": "https://github.com/sylhare/Type-on-Strap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/type-on-strap"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "type-on-strap"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "logo",
+      "label": "站点标识",
+      "help": "HTTPS或本站图片路径。"
+    },
+    {
+      "type": "text",
+      "name": "banner",
+      "label": "首页横幅",
+      "help": "HTTPS或本站图片路径，可留空使用纯色。"
+    },
+    {
+      "type": "text",
+      "name": "headerText",
+      "label": "首页介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

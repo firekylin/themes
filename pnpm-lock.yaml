@@ -240,6 +240,8 @@ importers:
 
   packages/beautiful-jekyll: {}
 
+  packages/type-on-strap: {}
+
   packages/minima: {}
 
   packages/no-style-please: {}
