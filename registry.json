@@ -353,6 +353,20 @@
     },
     {
       "type": "theme",
+      "name": "dawn",
+      "id": "dawn",
+      "version": "0.1.0",
+      "title": "Dawn",
+      "description": "Dawn compact date feed with featured cards and centered reading layout.",
+      "download": "https://github.com/firekylin/themes/releases/download/dawn-v0.1.0/dawn-0.1.0.zip",
+      "integrity": "sha512-CCYEhatP4qgWubcC3Sx4LsXfM2NHe+QwAmtwSN4LjY4RXonx+ID+R0A6XvMU3UBUzzc0p5PondjE70Bpp/SiGw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/dawn/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "firekylin-theme-diaspora",
       "id": "diaspora",
       "version": "0.1.1",
