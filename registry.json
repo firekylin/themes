@@ -948,6 +948,20 @@
     },
     {
       "type": "theme",
+      "name": "pixyll",
+      "id": "pixyll",
+      "version": "0.1.0",
+      "title": "Pixyll",
+      "description": "Pixyll bold titles and serif reading typography.",
+      "download": "https://github.com/firekylin/themes/releases/download/pixyll-v0.1.0/pixyll-0.1.0.zip",
+      "integrity": "sha512-ipiEV8SMiGeCB5fuX9DwFoeXvimPA0RMFdeBDmSSKT43BxYIrJrAzku+fRe/v53jNXiAxMV7jXpsoz2Yb4j7pA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/pixyll/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "firekylin-theme-puock",
       "id": "puock",
       "version": "0.1.1",
