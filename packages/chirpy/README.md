@@ -1,0 +1,4 @@
+# Chirpy for Firekylin
+Fixed260px/300pxprofile/navigation sidebar,48pxtopbar,roundedpostcardswith5/12rightcovers,rightrecentposts/tagspanel,articleTOC,system/light/darkpersistentselector. MobilecheckboxdrawerworkswithoutJavaScript. Native routes/search/pagination/privacy/comments; configurableavatar/footer.
+
+Recentposts representpublishdates, notupstreamlastmodifiedranking; tagsarelistedwithoutclaimingtrendinganalytics. NoPWA,pinnedposts,hierarchicalcategories,instantsearch,math/Mermaidrendering,automaticarticlelicense,sharewidgets orview/readcounts. TOC desktoponly; nativecommentclientinsteadupstreamproviders. SourceSansPro/Lato useArialfallback. Upstreamdemo screenshotunavailable; sourceanddemoDOMcomparison documented. RequiresFirekylin>=2.17.1.

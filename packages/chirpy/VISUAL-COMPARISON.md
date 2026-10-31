@@ -1,0 +1,2 @@
+# Comparison
+Pinnedsidebar/home/post andlight/darkSCSS inspected:260/300pxsidebar,112pxavatar,28pxbrand,20pxcardtitle,10pxradius,48pxtopbar,41.666%rightcover,220pxrightpanel. Mobile imageabovebody/sidebarcheckboxdrawer. Fontfallback andbasictexticons differfromupstreambundles. OriginalREADMEimage403/directdemobrowserblocked; demoDOMreadsuccessfully. ActualZIPdesktop/mobileimages andmode/drawer/TOC checks inverification/chirpy. No claimofpixel-perfectcomparison.
