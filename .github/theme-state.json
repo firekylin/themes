@@ -395,6 +395,10 @@
     "hash": "211d19c7f5b9c935a2c8032ae6c27c1b0b2aabf2601e3fe5a6bfc51cb28e1a36",
     "id": "tranquilpeak"
   },
+  "type-on-strap": {
+    "hash": "f148b8da3523124af7f67ca56497926e279723bc464f80c3f7b077473d1f6fe1",
+    "id": "type-on-strap"
+  },
   "void": {
     "hash": "a4d82552c483cd9531230c236f806bbbbca721b2679bb69274a8bb1c40c9e1b1",
     "id": "void"

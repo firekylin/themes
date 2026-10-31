@@ -1368,6 +1368,20 @@
     },
     {
       "type": "theme",
+      "name": "type-on-strap",
+      "id": "type-on-strap",
+      "version": "0.1.0",
+      "title": "Type on Strap",
+      "description": "Type on Strap banner-led blog with responsive reading space.",
+      "download": "https://github.com/firekylin/themes/releases/download/type-on-strap-v0.1.0/type-on-strap-0.1.0.zip",
+      "integrity": "sha512-jJMuQpFHOWrIk3+e9VVfsPaNi4eGUmVQkN5YAA54AKxwWzU1TsGYm0Nftb/X85X9BpkaI4s2bqxxKURax8WuKg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/type-on-strap/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "void",
       "id": "void",
       "version": "0.1.0",
