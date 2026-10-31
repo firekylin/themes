@@ -1312,6 +1312,20 @@
     },
     {
       "type": "theme",
+      "name": "xmin",
+      "id": "xmin",
+      "version": "0.1.0",
+      "title": "XMin",
+      "description": "XMin minimal dated-list blog.",
+      "download": "https://github.com/firekylin/themes/releases/download/xmin-v0.1.0/xmin-0.1.0.zip",
+      "integrity": "sha512-2iuP9b9OC6ibJBmBwNbQLkXBLYPdorMzzh1Gy7F1kRFIgt+aCDRHpofHdhSIxeMN00dIULxJBTOUGdVBQ65cfQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/xmin/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "yilia",
       "id": "yilia",
       "version": "0.1.0",
