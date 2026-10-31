@@ -1,0 +1,4 @@
+# TeXt for Firekylin
+Defaultlightblogskin:950pxcontent,80pxgrayheader,red#fc4d50links,dividedtext-firstexcerptlist,smallmetadata/tagpills,grayfooter,desktop220pxarticleTOC. Mobile14pxbase andtwo-rowheader; systemfontstack. Nativepublicroutes/search/pagination/privacy/comments. Logo/author/footer configurable; originalMITginkgologo included.
+
+Defaultlistintentionallyomitscoverimages; featuredimagesarenotautomaticallyfullwidthhero. NoJekylldocumentation/sidebarcollections,alternate skins,immersiveheaders,instantsearch,MathJax/Mermaid,chart/slideshow/lightbox,viewcounterorsocialwidgets. ArticleTOCdesktoponly. Posttagsrenderwhenprovidedbycore;no inventedmetadata. Nativecomments; remotelogin/submissionuntested. RequiresFirekylin>=2.17.1.

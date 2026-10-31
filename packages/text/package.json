@@ -1,0 +1,42 @@
+{
+  "name": "text",
+  "title": "TeXt",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TeXt default light blog layout with article contents.",
+  "license": "MIT",
+  "author": "Tian Qi; Firekylin contributors",
+  "homepage": "https://github.com/kitian616/jekyll-TeXt-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/text"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "text"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "logo",
+      "label": "站点标识",
+      "help": "HTTPS或本站图片路径，留空使用原主题银杏标识。"
+    }
+  ]
+}

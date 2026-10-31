@@ -1,0 +1,2 @@
+# Source
+https://github.com/kitian616/jekyll-TeXt-theme ate8b5d368bc638b1997d0829c349580c6c1b6a141. MIT2017TianQi;fulllicense retained. Readdefaultskin/variables/header/item/article-list/article-info/page/home. Originalstatic_includes/svg/logo.svg copiedtores/logo.svg underMIT. Inspectedrepositoryscreenshots/TeXt-home.png (defaultmobileblog + optionalheroexample). No upstreamsoftwareexecuted; nodemophotocopied. Nativeadaptation2026-10-31.

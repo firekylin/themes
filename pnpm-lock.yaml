@@ -242,6 +242,8 @@ importers:
 
   packages/type-on-strap: {}
 
+  packages/text: {}
+
   packages/minima: {}
 
   packages/no-style-please: {}
