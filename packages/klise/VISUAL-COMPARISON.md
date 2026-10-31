@@ -1,0 +1,2 @@
+# Comparison
+Source-based comparison: pinned home/author/base/layout/postSass read. Demo klise.now.sh failedERR_TUNNEL_CONNECTION_FAILED; ogp.png isonlylogo,notpageevidence. Preserve70avatar,6.3rem/7.2rem author margins,660content+30padding,datedrows,light/darkpalette,50pxmobilemenu. Arialfallback insteadbundledRoboto; numericYYYY-MM-DD date; CSSgallery retained. ActualinstalledZIP desktop/mobile screenshots,avatar,togglepersistence,noJSmenu/search in verification/klise.
