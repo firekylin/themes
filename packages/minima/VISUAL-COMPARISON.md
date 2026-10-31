@@ -1,0 +1,2 @@
+# Comparison
+Upstream screenshot.png inspected, current Sass/templates read at pinned revision. Preserve800px content width (860px border-box with30px padding),16px/1.5 system type,30px spacing,24px links,42px article titles,5px top rule,56px header,600px checkbox menu breakpoint and split footer. Upstream screenshot is older: lavender code and left-aligned header differ from current source centered header/gray code; implementation follows current source. No social icon library or external services. Actual ZIP desktop/mobile screenshots and report in verification/minima.

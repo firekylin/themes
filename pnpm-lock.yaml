@@ -208,6 +208,8 @@ importers:
 
   packages/anzhiyu: {}
 
+  packages/minima: {}
+
   packages/volantis: {}
 
   packages/tranquilpeak: {}
