@@ -1,0 +1,2 @@
+# Source
+Fuwari https://github.com/saicaca/fuwari at6d39b0dec41282e7852e23e032998a5789abee28. MIT2024 saicaca; fulllicense retained. Referenced MainGridLayout,PostCard,Profile,Navbar,postpage,variables/mainCSS,constants/config and READMEpreviewhttps://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png. No upstreamsoftware executed; no illustrativeassets orRoboto files copied. Nativeadaptation2026-10-31.

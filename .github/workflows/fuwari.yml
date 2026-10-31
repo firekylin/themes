@@ -1,0 +1,35 @@
+name: Fuwari integration
+on:
+  pull_request:
+    paths: ['packages/fuwari/**', 'verification/fuwari/**', '.github/workflows/fuwari.yml']
+permissions:
+  contents: read
+jobs:
+  live-site:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: firekylin/firekylin
+          ref: 87d76d0f446f75d9cc92894b8fccb6b6bfd45f5f
+          path: .verification-core
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: pnpm install --frozen-lockfile
+        working-directory: .verification-core
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+      - name: Verify real SQLite site and installed ZIP
+        env:
+          FIREKYLIN_CHECKOUT: ${{ github.workspace }}/.verification-core
+          PLAYWRIGHT_MODULE: ${{ github.workspace }}/node_modules/playwright-core
+          CHROMIUM_PATH: /usr/bin/google-chrome
+        run: node verification/fuwari/live.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: fuwari-live-evidence
+          path: verification/fuwari/

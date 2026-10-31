@@ -230,6 +230,8 @@ importers:
 
   packages/casper: {}
 
+  packages/fuwari: {}
+
   packages/minima: {}
 
   packages/no-style-please: {}
