@@ -898,6 +898,20 @@
     },
     {
       "type": "theme",
+      "name": "no-style-please",
+      "id": "no-style-please",
+      "version": "0.1.0",
+      "title": "No Style Please",
+      "description": "No Style Please monospace nested-menu blog.",
+      "download": "https://github.com/firekylin/themes/releases/download/no-style-please-v0.1.0/no-style-please-0.1.0.zip",
+      "integrity": "sha512-kTnap7DQKe7vRtmt+KzMDjkZftL20gMVx7ickqglaudWLgjGXHD4Esh+1COi7LLWopwaNWsvgvmPJ2ypRF8w/A==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/no-style-please/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "@firekylin/theme-oneblog",
       "id": "oneblog",
       "version": "0.1.1",
