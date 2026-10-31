@@ -1,0 +1,36 @@
+{
+  "name": "contrast",
+  "title": "Contrast",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Contrast framed monochrome blog with automatic dark appearance.",
+  "license": "Unlicense",
+  "author": "Niklas Buschmann; Firekylin contributors",
+  "homepage": "https://github.com/niklasbuschmann/contrast",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/contrast"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "contrast"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

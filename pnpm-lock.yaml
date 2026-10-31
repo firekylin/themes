@@ -214,6 +214,8 @@ importers:
 
   packages/jekyll-now: {}
 
+  packages/contrast: {}
+
   packages/pixyll: {}
 
   packages/minima: {}
