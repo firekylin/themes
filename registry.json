@@ -269,6 +269,20 @@
     },
     {
       "type": "theme",
+      "name": "casper",
+      "id": "casper",
+      "version": "0.1.0",
+      "title": "Casper",
+      "description": "Casper classic cover and editorial card grid.",
+      "download": "https://github.com/firekylin/themes/releases/download/casper-v0.1.0/casper-0.1.0.zip",
+      "integrity": "sha512-VNf8xjtwJqf47mRB+XviMKeW4MxgMxW9NHgfQB1S1lKf1HeCD3LRnvsxDGdthZkuRKOQWSg8TVRFynYODiKyXw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/casper/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "congo",
       "id": "congo",
       "version": "0.1.0",
