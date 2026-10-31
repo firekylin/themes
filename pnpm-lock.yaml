@@ -218,6 +218,8 @@ importers:
 
   packages/pixyll: {}
 
+  packages/klise: {}
+
   packages/minima: {}
 
   packages/no-style-please: {}

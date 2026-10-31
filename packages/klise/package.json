@@ -1,0 +1,42 @@
+{
+  "name": "klise",
+  "title": "Klisé",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Klisé centered author blog with dated rows and dark mode.",
+  "license": "MIT",
+  "author": "Mahendrata Harpi; Firekylin contributors",
+  "homepage": "https://github.com/piharpi/jekyll-klise",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/klise"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "klise"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "avatar",
+      "label": "作者头像",
+      "help": "HTTPS或本站图片路径。"
+    }
+  ]
+}
