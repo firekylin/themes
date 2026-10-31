@@ -224,6 +224,8 @@ importers:
 
   packages/xmin: {}
 
+  packages/astropaper: {}
+
   packages/minima: {}
 
   packages/no-style-please: {}

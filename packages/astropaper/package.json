@@ -1,0 +1,42 @@
+{
+  "name": "astropaper",
+  "title": "AstroPaper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AstroPaper accessible monospace blog with blue/orange appearance.",
+  "license": "MIT",
+  "author": "Sat Naing; Firekylin contributors",
+  "homepage": "https://github.com/satnaing/astro-paper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/astropaper"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "astropaper"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "greeting",
+      "label": "首页问候",
+      "help": "默认Mingalaba，可改为个人问候。"
+    }
+  ]
+}
