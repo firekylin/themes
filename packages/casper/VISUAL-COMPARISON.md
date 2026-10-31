@@ -1,0 +1,2 @@
+# Comparison
+Pinnedsource and repositorydesktop screenshot inspected. Screenshotisolder; currentClassicconfig used:1200grid,firstlarge2:1,nexttwohalfwidthcards,26/44titles,720pxGeorgia20body,widefeatureimage. Darkcoverfallbackandsitebrand; configuredheroimageoptional. ActualZIP1440/390screenshots verifygrid,hero/featureimages,recentpubliccards,privacy/search/pagination in verification/casper. No demoGhostbranding/content copied.
