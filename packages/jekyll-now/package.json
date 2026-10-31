@@ -1,0 +1,42 @@
+{
+  "name": "jekyll-now",
+  "title": "Jekyll Now",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Jekyll Now avatar masthead and straightforward blog.",
+  "license": "MIT",
+  "author": "Barry Clark; Firekylin contributors",
+  "homepage": "https://github.com/barryclark/jekyll-now",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/jekyll-now"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "jekyll-now"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "头像",
+      "help": "站内路径或HTTPS图片；留空不显示。"
+    }
+  ]
+}
