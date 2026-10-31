@@ -1,0 +1,2 @@
+# Source
+Pixyll https://github.com/johno/pixyll at8b5712d7ad70cc970479b953cf205e42d374d258. Exact MIT attribution for John Otander,Daniel Eden,Basscss/Brent Jackson andTwitter retained. Modified native Firekylin adaptation2026-10-31. Read variables/header/posts/media queries and official screenshot.png. No upstream runtime executed; no demo posts/assets bundled. Georgia/Helvetica substitute external Merriweather/Lato and no animate.css runtime included.

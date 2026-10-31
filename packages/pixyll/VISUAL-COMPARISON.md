@@ -1,0 +1,2 @@
+# Comparison
+Official repository screenshot inspected alongside pinned Sass/templates. Preserve42rem measure,large2.998rem title links,600weight,italic date above title,serif summaries,2rem section padding,faint dividers and header/footer.14/16/18/20px type breakpoints retained. System Georgia/Helvetica replace Merriweather/Lato; native datesnumeric and no socialiconfonts. ActualZIP screenshots/checks in verification/pixyll.
