@@ -199,6 +199,20 @@
     },
     {
       "type": "theme",
+      "name": "beautiful-jekyll",
+      "id": "beautiful-jekyll",
+      "version": "0.1.0",
+      "title": "Beautiful Jekyll",
+      "description": "Beautiful Jekyll large-heading editorial blog.",
+      "download": "https://github.com/firekylin/themes/releases/download/beautiful-jekyll-v0.1.0/beautiful-jekyll-0.1.0.zip",
+      "integrity": "sha512-sKIkAoOuJVlGrp2dKRCV9xx9O52Dl78bFO9fWQEMUK0BSaIh8iNXIEl6AOzePIO+lgj5UCCOdxwhDJD5GCANrQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/beautiful-jekyll/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "blowfish",
       "id": "blowfish",
       "version": "0.1.0",
