@@ -183,6 +183,10 @@
     "hash": "b73ba0b328ded20a166acdbb14d636e24c7aaaccc87ca0769910619bb236397c",
     "id": "jasmine"
   },
+  "jekyll-now": {
+    "hash": "872bf1307b5c07c425aabca8135b7ea82c187a0a1a26925d5661a7947fa287ff",
+    "id": "jekyll-now"
+  },
   "jj": {
     "hash": "7363ab3e4ac3d0fc68eb3aa75b701bf50850fe30215b747ad6e7ce115c4724be",
     "id": "jj"

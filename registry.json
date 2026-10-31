@@ -641,6 +641,20 @@
     },
     {
       "type": "theme",
+      "name": "jekyll-now",
+      "id": "jekyll-now",
+      "version": "0.1.0",
+      "title": "Jekyll Now",
+      "description": "Jekyll Now avatar masthead and straightforward blog.",
+      "download": "https://github.com/firekylin/themes/releases/download/jekyll-now-v0.1.0/jekyll-now-0.1.0.zip",
+      "integrity": "sha512-H3/QdYxZifXb6d1ARxaGovtfVdsmGxgL/B0NV8Wm58KIpXsUEgTKh3jbxrgNtp1gCM1OpMgGR7RFv52muYVa5g==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/jekyll-now/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "jj",
       "id": "jj",
       "version": "0.1.0",
