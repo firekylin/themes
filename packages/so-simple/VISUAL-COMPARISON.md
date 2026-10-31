@@ -1,0 +1,2 @@
+# Comparison
+PinnedSCSS/templates andrepository screenshot inspected. Preserveblacktabnavigation,adaptive75/112.5/150pxroundlogo,serifitalicheadlines,centered768pxlist,1024pxarticle/175pxmetadata sidebar,lightdividers. Mobile sidebarstacksabovebody; standardfontsreplaceGooglefontdownload. Nativepostsreplacestaticcollections. ActualZIP16routescreenshotsunderverification/so-simple.
