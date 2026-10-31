@@ -210,6 +210,8 @@ importers:
 
   packages/hyde: {}
 
+  packages/whiteglass: {}
+
   packages/pixyll: {}
 
   packages/minima: {}

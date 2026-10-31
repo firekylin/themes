@@ -1,0 +1,2 @@
+# Comparison
+Compared official repository screenshot and current Sass/home templates. Preserve serifjournal hierarchy,800px wrapper/30px inset,56px header,42/36px titles,60px separated excerpts,4px rules and gray buttons. Georgia fallback differs from Bitter screenshot; Firekylin summaries are lengthlimited and category/tag links retained on detail instead of querying index relations. Actual ZIP desktop/mobile checks/screenshots in verification/whiteglass.
