@@ -24,7 +24,7 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
  db.prepare("INSERT INTO fk_post_cate(post_id,cate_id) SELECT id,(SELECT id FROM fk_cate WHERE pathname='notes') FROM fk_post WHERE is_public=1 AND status=3").run();
  db.prepare("INSERT INTO fk_tag(name,pathname) VALUES ('生活','life')").run();
  db.prepare("INSERT INTO fk_post_tag(post_id,tag_id) SELECT id,(SELECT id FROM fk_tag WHERE pathname='life') FROM fk_post WHERE is_public=1 AND status=3").run();
- set('themeConfig',JSON.stringify({footerText:'阅读与探索本站内容。'}));
+ set('themeConfig',JSON.stringify({footerText:'阅读与探索本站内容。',avatarUrl:'/themes/jekyll-now/res/fixture.svg'}));
  fs.writeFileSync(path.join(site,'themes/jekyll-now/res/fixture.svg'),'<svg xmlns="http://www.w3.org/2000/svg" width="500" height="300"><rect width="500" height="300" fill="#ccbb99"/></svg>');
  server=spawn(process.execPath,[path.join(core,'bin/firekylin.js')],{cwd:site,stdio:['ignore','ignore','pipe']});let serverErrors='';server.stderr.on('data',c=>serverErrors+=c);for(let i=0;i<150;i++){try{if((await fetch(origin)).ok)break;}catch{}if(i===149)throw Error('Site startup failed: '+serverErrors);await delay(200);}
  browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']});
@@ -38,7 +38,7 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
    const html=await page.content();assert(!html.includes('undefined'),route+' contains undefined');assert(!html.includes('MMM D'),'unsupported date format');assert(!html.includes('PRIVATE_MARKER')&&!html.includes('DRAFT_MARKER'),route+' leaked content');
    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),route+' overflow');checks.push({width,route,status:response.status()});
   }
-  await page.goto(origin);assert.equal(await page.locator('.entry').count(),10);await page.evaluate(()=>Promise.all(document.getAnimations().map(a=>a.finished.catch(()=>{}))));await page.screenshot({path:path.join(evidence,'home-'+width+'.png'),fullPage:true});
+  await page.goto(origin);assert.equal(await page.locator('.site-avatar img').count(),1);assert(await page.locator('.site-avatar img').evaluate(e=>e.complete&&e.naturalWidth>0));assert.equal(await page.locator('.entry').count(),10);await page.evaluate(()=>Promise.all(document.getAnimations().map(a=>a.finished.catch(()=>{}))));await page.screenshot({path:path.join(evidence,'home-'+width+'.png'),fullPage:true});
   await page.getByRole('link',{name:'下一页',exact:true}).click();await page.waitForURL('**/?page=2');
   await page.goto(origin+'/post/hello.html');await page.screenshot({path:path.join(evidence,'post-'+width+'.png'),fullPage:true});assert(await page.locator('.nav-items a[href="/archives"]').isVisible());
 
