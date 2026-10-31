@@ -101,6 +101,20 @@
     },
     {
       "type": "theme",
+      "name": "archie",
+      "id": "archie",
+      "version": "0.1.0",
+      "title": "Archie",
+      "description": "Archie markdown-style blog with crimson links and automatic dark mode.",
+      "download": "https://github.com/firekylin/themes/releases/download/archie-v0.1.0/archie-0.1.0.zip",
+      "integrity": "sha512-/rpEiqV1io5wQlOEtL9q+bORnYdnfqIc88tm8jv5KaYBdo7ZK5z8EWrdsYBBbGawB5AQRKjnbvFi16atVhzIGQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/archie/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "firekylin-theme-argon",
       "id": "argon",
       "version": "0.1.0",
