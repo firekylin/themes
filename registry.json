@@ -557,6 +557,20 @@
     },
     {
       "type": "theme",
+      "name": "hyde",
+      "id": "hyde",
+      "version": "0.1.0",
+      "title": "Hyde",
+      "description": "Hyde fixed dark sidebar and spacious reading column.",
+      "download": "https://github.com/firekylin/themes/releases/download/hyde-v0.1.0/hyde-0.1.0.zip",
+      "integrity": "sha512-VTC1/NA0lcQU0WG1eoGMc+VLsG/claJTSRF2JNHRnl/V+9z91NhVi5X/3laXWYvfEh4BsQ+qqhswsFmgtu1jVA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hyde/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "@firekylin/theme-icarus",
       "id": "icarus",
       "version": "0.1.0",
