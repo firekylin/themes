@@ -915,6 +915,20 @@
     },
     {
       "type": "theme",
+      "name": "minimal-mistakes",
+      "id": "minimal-mistakes",
+      "version": "0.1.0",
+      "title": "Minimal Mistakes",
+      "description": "Minimal Mistakes default author-sidebar blog layout.",
+      "download": "https://github.com/firekylin/themes/releases/download/minimal-mistakes-v0.1.0/minimal-mistakes-0.1.0.zip",
+      "integrity": "sha512-/MomPzjwK/nz4GDGkRE6bpCT5UYpz5hrLZ/m75Gji06DamkK9/wgNES0h2HdUE81CFZQKSMvK9BnITSFWvPsWg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/minimal-mistakes/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "miracles",
       "id": "miracles",
       "version": "0.1.0",
