@@ -212,6 +212,8 @@ importers:
 
   packages/whiteglass: {}
 
+  packages/jekyll-now: {}
+
   packages/pixyll: {}
 
   packages/minima: {}

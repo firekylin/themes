@@ -1,0 +1,2 @@
+# Comparison
+Compared original repository screenshot plus pinned Sass/templates. Preserve740px/10px wrapper,20px headerpadding,70px5pxradius avatar,28px300weight site title,50px headergap,18px/1.4 typography,30px titles,2em article separators and15px uppercase continuation. Optionalavatar defaults blank instead of demo flask logo; footer native text replaces social sprites. ActualZIP desktop/mobile screenshots/report in verification/jekyll-now.
