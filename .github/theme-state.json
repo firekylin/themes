@@ -151,6 +151,10 @@
     "hash": "14b94b9c2d53f1834451e021eaec4a6e292ae2cb652836a70a9a71c65eb3e3bf",
     "id": "frost"
   },
+  "fuwari": {
+    "hash": "79c599171db23731bda8a2016f9ce25366b67b6f83947c3186b1b48f0db025c7",
+    "id": "fuwari"
+  },
   "g": {
     "hash": "5f6d2b16ef08fe4082755f61945946f3b346fb9165087aa28a9d6e614b48e96c",
     "id": "g"
