@@ -1,0 +1,42 @@
+{
+  "name": "beautiful-jekyll",
+  "title": "Beautiful Jekyll",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Beautiful Jekyll large-heading editorial blog.",
+  "license": "MIT",
+  "author": "Dean Attali; Firekylin contributors",
+  "homepage": "https://github.com/daattali/beautiful-jekyll",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/beautiful-jekyll"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "beautiful-jekyll"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "avatar",
+      "label": "导航头像",
+      "help": "HTTPS或本站图片路径，可留空。"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Comparison
+PinnedCSS/templates andrepositoryscreenshot inspected. Preserve91/51pxnavbar,100/50pxcenteravatar,80/50pxhomepageheading,750pxreadingcolumn,lightgrayfooter,italicmetadata,andresponsivepreviewimages. OwnnativeJSshrinksheader;checkboxreplacesBootstrapcollapse. Systemfontfallback documented. ActualZIPdesktop/mobilepageimagesunderverification/beautiful-jekyll.

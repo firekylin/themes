@@ -238,6 +238,8 @@ importers:
 
   packages/chirpy: {}
 
+  packages/beautiful-jekyll: {}
+
   packages/minima: {}
 
   packages/no-style-please: {}
