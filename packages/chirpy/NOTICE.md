@@ -1,0 +1,2 @@
+# Source
+https://github.com/cotes2020/jekyll-theme-chirpy atae1057257b3927d6474deb549bdfafa71244e080. MIT2019CotesChung; fulllicense retained. Readsidebar/home/post/layout/themeSCSS; officialdemohttps://chirpy.cotes.page/content inspected. Screenshotendpoint403 andbrowserdemo tunnelblocked; comparisonbasedonpinnedsource anddemoDOM. No upstreamsoftware,fonts,icons oravatarcopied/executed. Nativeadaptation2026-10-31.

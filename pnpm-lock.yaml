@@ -236,6 +236,8 @@ importers:
 
   packages/so-simple: {}
 
+  packages/chirpy: {}
+
   packages/minima: {}
 
   packages/no-style-please: {}
