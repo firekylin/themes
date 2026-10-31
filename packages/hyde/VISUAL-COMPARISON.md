@@ -1,0 +1,2 @@
+# Comparison
+Pinned original CSS and templates inspected; official https://hyde.getpoole.com content retrieved, browser screenshot blocked by network tunnel. Preserve original responsive48em fixedsidebar/58em20px type/64em22rem offset,18rem sidebar,38rem main,4rem spacing,blackwhiteblue palette and8colors/reverse rules. Native-specific route controls and readability fixes appended. Font fallback and summary-only homepage are explicit differences. Actual installedZIP screenshots/checks in verification/hyde.

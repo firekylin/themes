@@ -1,0 +1,48 @@
+{
+  "name": "hyde",
+  "title": "Hyde",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hyde fixed dark sidebar and spacious reading column.",
+  "license": "MIT",
+  "author": "Mark Otto; Firekylin contributors",
+  "homepage": "https://github.com/poole/hyde",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hyde"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hyde"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "colorScheme",
+      "label": "配色",
+      "help": "08红、09橙、0a黄、0b绿、0c青、0d蓝、0e紫、0f棕；留空黑。"
+    },
+    {
+      "type": "text",
+      "name": "reverse",
+      "label": "右侧栏",
+      "help": "填 true 开启。"
+    }
+  ]
+}

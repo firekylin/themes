@@ -1,0 +1,2 @@
+# Source
+Hyde https://github.com/poole/hyde at7c7f7550898e081264d255ef429a134fb00c72a8. MIT2013 Mark Otto exact LICENSE preserved. Native adaptation2026-10-31. Upstream public/css/poole.css and hyde.css retained with attributed adapter additions; no upstream runtime executed. Homepage uses native summaries rather than full posts. Google font assets are not bundled; Georgia/Arial fallbacks replace Abril Fatface/PT Sans.

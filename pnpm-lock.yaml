@@ -208,6 +208,8 @@ importers:
 
   packages/anzhiyu: {}
 
+  packages/hyde: {}
+
   packages/minima: {}
 
   packages/volantis: {}
