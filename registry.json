@@ -1200,6 +1200,20 @@
     },
     {
       "type": "theme",
+      "name": "so-simple",
+      "id": "so-simple",
+      "version": "0.1.0",
+      "title": "So Simple",
+      "description": "So Simple editorial serif-title blog theme.",
+      "download": "https://github.com/firekylin/themes/releases/download/so-simple-v0.1.0/so-simple-0.1.0.zip",
+      "integrity": "sha512-KA/D6WGFPlUUhpw/KBSY1PucpA5ucvPHBsIURPUybH18BCxTIZT3cGYSOHU+IhWu9Bp6oZG5OuFuhd8hK42UCQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/so-simple/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "stack",
       "id": "stack",
       "version": "0.1.0",
