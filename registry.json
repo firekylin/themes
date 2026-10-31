@@ -697,6 +697,20 @@
     },
     {
       "type": "theme",
+      "name": "klise",
+      "id": "klise",
+      "version": "0.1.0",
+      "title": "Klisé",
+      "description": "Klisé centered author blog with dated rows and dark mode.",
+      "download": "https://github.com/firekylin/themes/releases/download/klise-v0.1.0/klise-0.1.0.zip",
+      "integrity": "sha512-CycAOR/zRjc9LOQU0OVkG5aXNCrpzEJEEiE6Fiwru2aaF9vKxoFQ5oQO1a65MrTG7SR2FbTn+DUIDlOlQqahIg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/klise/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "firekylin-theme-kratos",
       "id": "kratos",
       "version": "0.1.1",
