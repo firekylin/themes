@@ -143,6 +143,20 @@
     },
     {
       "type": "theme",
+      "name": "astropaper",
+      "id": "astropaper",
+      "version": "0.1.0",
+      "title": "AstroPaper",
+      "description": "AstroPaper accessible monospace blog with blue/orange appearance.",
+      "download": "https://github.com/firekylin/themes/releases/download/astropaper-v0.1.0/astropaper-0.1.0.zip",
+      "integrity": "sha512-FmtenWhFBYxdh7AW51cCqJGpPdFL9jvzJbirTZnCpeKLk7OWmctF7bqgEjNp4PlluU70XYhSF4yG50TpsS4KUQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/astropaper/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "aurora",
       "id": "aurora",
       "version": "0.1.0",
