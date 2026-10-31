@@ -1,0 +1,42 @@
+{
+  "name": "no-style-please",
+  "title": "No Style Please",
+  "version": "0.1.0",
+  "private": true,
+  "description": "No Style Please monospace nested-menu blog.",
+  "license": "MIT",
+  "author": "Riccardo Graziosi; Firekylin contributors",
+  "homepage": "https://github.com/riggraz/no-style-please",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/no-style-please"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "no-style-please"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "appearance",
+      "label": "外观",
+      "help": "auto（默认）、light 或 dark。"
+    }
+  ]
+}

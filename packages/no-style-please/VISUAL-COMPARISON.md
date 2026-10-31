@@ -1,0 +1,2 @@
+# Comparison
+Pinned source and original_screenshots/featured-image.png inspected. Retain monospace white page,640px content plus32px sidepadding,4rem verticalspace,nested bullets/date links,rightpostmeta,slashdividers,inversiondark. Added compact alwaysvisible native navigation,search and footercredit.390px padding24px to avoid cramped nestedlists. Actual installedZIP screenshots and appearance/privacy/noJS checks in verification/no-style-please.
