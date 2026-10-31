@@ -35,7 +35,7 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
   await page.setViewportSize({width,height:1000});
   for(const route of ['/','/?page=2','/post/hello.html','/page/about.html','/archives','/categories','/tags','/search.html?keyword=HYDE']){
    const response=await page.goto(origin+route);assert.equal(response.status(),200,route);
-   const html=await page.content();assert(!html.includes('undefined'),route+' contains undefined');assert(!html.includes('PRIVATE_MARKER')&&!html.includes('DRAFT_MARKER'),route+' leaked content');
+   const html=await page.content();assert(!html.includes('undefined'),route+' contains undefined');assert(!html.includes(' MMM '),'unsupported month formatting');assert(!html.includes('PRIVATE_MARKER')&&!html.includes('DRAFT_MARKER'),route+' leaked content');
    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),route+' overflow');checks.push({width,route,status:response.status()});
   }
   await page.goto(origin);assert.equal(await page.locator('.entry').count(),10);await page.evaluate(()=>Promise.all(document.getAnimations().map(a=>a.finished.catch(()=>{}))));await page.screenshot({path:path.join(evidence,'home-'+width+'.png'),fullPage:true});
