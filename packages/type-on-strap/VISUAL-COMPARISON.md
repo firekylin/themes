@@ -1,0 +1,2 @@
+# Comparison
+PinnedSCSS/Liquid andrepositoryscreenshot inspected. Preservewhiteheader,darkfullwidthcallout,20pxdesktopbody,46pxtitles,wideadaptivepadding,uppercasemetadata,rounded250/150pxthumbnails,andcoloredheadingsondarkpalette. OwnnativeJSsavesmode; noJekyll/Bootstrapexecution. ActualZIPdesktop/mobileimagesinverification/type-on-strap; custombanner/logoandmodechecked.

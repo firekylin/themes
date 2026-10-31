@@ -1,0 +1,1 @@
+(()=>{const root=document.documentElement;try{const mode=localStorage.getItem('type-on-strap-theme');if(['light','dark'].includes(mode))root.dataset.theme=mode}catch{}document.getElementById('mode')?.addEventListener('click',()=>{root.dataset.theme=root.dataset.theme==='dark'?'light':'dark';try{localStorage.setItem('type-on-strap-theme',root.dataset.theme)}catch{}})})();
