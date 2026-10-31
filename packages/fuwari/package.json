@@ -1,0 +1,54 @@
+{
+  "name": "fuwari",
+  "title": "Fuwari",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fuwari rounded-card sidebar blog with configurable hue and banner.",
+  "license": "MIT",
+  "author": "saicaca; Firekylin contributors",
+  "homepage": "https://github.com/saicaca/fuwari",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/fuwari"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "fuwari"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "avatar",
+      "label": "头像",
+      "help": "HTTPS或本站图片路径。"
+    },
+    {
+      "type": "text",
+      "name": "banner",
+      "label": "横幅图片",
+      "help": "留空关闭横幅，HTTPS或本站路径。"
+    },
+    {
+      "type": "text",
+      "name": "hue",
+      "label": "主题色相",
+      "help": "0至360，默认250。"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Comparison
+Pinnedsource andREADMEpreview inspected. Preserve75remwidth,17.5remprofile/sidebar,1remradius/gaps,72pxnavbar,30pxtitles,28%cover,65vhoptionalbanner/overlap,OKLCH250default hue. Mobilecards placecoverabove;sidebarbelow;fontsize14. NativeTOCleftsidebar insteadfar-right,visibletextnavigation; no counterfeitarticlewordcounts orassetlicenseclaims. ActualZIPscreenshots andbanner/avatar/hue/dark/TOC/privacychecks in verification/fuwari.
