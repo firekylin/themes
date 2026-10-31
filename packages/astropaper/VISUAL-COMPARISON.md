@@ -1,0 +1,2 @@
+# Comparison
+Pinned v6source and releasegraphic withrenderedhomepage inspected. Preserve768pxwidth/16insets,48px(36mobile)hero,18pxaccenttitles,24pxrecentheading,blue#006cac/orange#ff6b01,nav/footerborders. Nativecontent differs fromdemocopy; nofalseRSS/social/editbuttons. Numericdates; systemfontfallback. ActualZIP1440/390 screenshots andmenu/darkpersistence/progress/anchor/copy/privacy checks in verification/astropaper.

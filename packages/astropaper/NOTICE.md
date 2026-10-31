@@ -1,0 +1,2 @@
+# Source
+AstroPaper https://github.com/satnaing/astro-paper at42498c48be0c4bb2b70f5398f4ef3bc31f02ee89. MIT2023 Sat Naing; fulllicense retained. Referenced Header/Card/Datetime/Footer,index/post templates,theme/global/typography CSS and AstroPaper-v6 screenshot. Native adaptation2026-10-31; no Astro/Tailwind/upstreamJS executed. Systemmonospacefallback insteadbundledGoogleSansCode; textsymbols insteadiconassets.
