@@ -1228,6 +1228,20 @@
     },
     {
       "type": "theme",
+      "name": "whiteglass",
+      "id": "whiteglass",
+      "version": "0.1.0",
+      "title": "Whiteglass",
+      "description": "Whiteglass serif journal and long excerpt layout.",
+      "download": "https://github.com/firekylin/themes/releases/download/whiteglass-v0.1.0/whiteglass-0.1.0.zip",
+      "integrity": "sha512-k/kc9RPbIAZgEiYCmT0IPYBdiTviDxTGjmBmDfyQupvJyLY1lC4q1Nxixp5vwrMqFRDK8n6Or7MftwGu8Ism8A==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/whiteglass/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "yilia",
       "id": "yilia",
       "version": "0.1.0",
