@@ -1,0 +1,2 @@
+# Comparison
+Pinned source and repository images/screenshot.png inspected. Original800pxcontent+1empadding,centeredgrayroundednavigation,plain datedbulletlist,grayarticlemeta,dashedrules,codeborder/shadow preserved. Screenshotshowsserif becauseolderexample; currentfonts.css systemOptima/Candara/Calibri/Arial followed. HomepageexampleGitHublogo/explanatorydemo/math omitted; real site title/description used. ActualZIP1440/390 screenshots androute/privacy/noJS evidence in verification/xmin.
