@@ -775,6 +775,20 @@
     },
     {
       "type": "theme",
+      "name": "minima",
+      "id": "minima",
+      "version": "0.1.0",
+      "title": "Minima",
+      "description": "Jekyll Minima classic reading layout for Firekylin.",
+      "download": "https://github.com/firekylin/themes/releases/download/minima-v0.1.0/minima-0.1.0.zip",
+      "integrity": "sha512-e+zFXdDzczoaPVw+CDk9XZ9IPgYroCIhb6qvZRM4RuqKBKCSzaRD5+lF+unygbAO+FxEPt2S6WvvaJ/Xb9c4fQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/minima/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "miracles",
       "id": "miracles",
       "version": "0.1.0",
