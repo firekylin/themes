@@ -226,6 +226,8 @@ importers:
 
   packages/astropaper: {}
 
+  packages/dawn: {}
+
   packages/minima: {}
 
   packages/no-style-please: {}

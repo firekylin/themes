@@ -1,0 +1,2 @@
+# Comparison
+Pinnedtemplates/CSS and publicdemo content reviewed; browserdemo failedERR_TUNNEL_CONNECTION_FAILED, no pixelclaim. Preserve1200/720columnsystem,120icon,520intro,48topspace,featured3carddesktop strip,compactdate/titlefeed,40/26articleheading,orangeaccent anddarkpalette. Featured sourceghostflag maps explicitnativepublicpathname list; neverincludesprivate/draft. Reading-time/memberstars omitted; normalpagination andvisiblewrappingnav. ActualZIP screenshots plusfeatured/icon/dark/privacychecks in verification/dawn.
