@@ -1340,6 +1340,20 @@
     },
     {
       "type": "theme",
+      "name": "text",
+      "id": "text",
+      "version": "0.1.0",
+      "title": "TeXt",
+      "description": "TeXt default light blog layout with article contents.",
+      "download": "https://github.com/firekylin/themes/releases/download/text-v0.1.0/text-0.1.0.zip",
+      "integrity": "sha512-iYEr7VA8QANBzG30FEccAxtQW1c7JACLKLce9VMIJtQ2FFXgH+XFtSxFUglKlQzt0+u6k9pWcLY1oOVjRL9WUw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/text/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "timeplus",
       "id": "timeplus",
       "version": "0.1.0",

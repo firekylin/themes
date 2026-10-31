@@ -387,6 +387,10 @@
     "hash": "92212ce3f32b12ae2debd9e7575a722cca9578c5a356e15275e69fecfca2746c",
     "id": "terminal"
   },
+  "text": {
+    "hash": "bbce0dbbf989b2f3689c7553e48c327da098e29b3ab24e0758c5021864c97459",
+    "id": "text"
+  },
   "timeplus": {
     "hash": "458861827eaf423167c04161803b455ca69b1b7f6977459cc39f22d52ee6480a",
     "id": "timeplus"
