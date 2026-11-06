@@ -1,0 +1,36 @@
+{
+  "name": "keep",
+  "title": "Keep",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Keep’s clean navigation, rounded cover-title cards, quiet metadata and adaptive reading width.",
+  "license": "AGPL-3.0-only",
+  "author": "XPoet; Firekylin contributors",
+  "homepage": "https://github.com/XPoet/hexo-theme-keep",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/keep"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "keep"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
