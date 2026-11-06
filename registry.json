@@ -1831,6 +1831,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-theme-prav",
+      "id": "hugo-theme-prav",
+      "version": "0.1.0",
+      "title": "Prav",
+      "description": "Prav’s original warm light/dark cards, red accents, Bitter typography and right sidebar with recent articles.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-prav-v0.1.0/hugo-theme-prav-0.1.0.zip",
+      "integrity": "sha512-8JNE79Asj6d0NXjKoMrP9nMfMaMWMLLXOjK+q86UL9alphARE7Xg0xXSo0mqfT1uOp0jneHvCqtZ2YB7VhiRdw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-prav/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-theme-tokiwa",
       "id": "hugo-theme-tokiwa",
       "version": "0.1.0",
