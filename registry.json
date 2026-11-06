@@ -4056,6 +4056,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-blow",
+      "id": "zola-blow",
+      "version": "0.1.0",
+      "title": "Blow",
+      "description": "Blow’s original Tailwind CSS, gray rounded shadow cards, personal intro and persisted light/dark palettes.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-blow-v0.1.0/zola-blow-0.1.0.zip",
+      "integrity": "sha512-ORUF81X+tww2byDEDYGGG9FBCgLbJiS/y80+CmmWnSipvUEsScVTyFPg8p2blStlwGCS2CtP/+XnaHYYoBP1uA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-blow/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-coast",
       "id": "zola-coast",
       "version": "0.1.0",
