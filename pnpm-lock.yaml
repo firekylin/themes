@@ -78,6 +78,8 @@ importers:
 
   packages/bubble: {}
 
+  packages/davis: {}
+
   packages/aurora: {}
 
   packages/liebling: {}
