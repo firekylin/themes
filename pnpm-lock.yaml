@@ -158,6 +158,8 @@ importers:
 
   packages/corepress: {}
 
+  packages/zola-coast: {}
+
   packages/zola-block: {}
 
   packages/zola-deepthought: {}
