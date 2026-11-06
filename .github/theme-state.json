@@ -551,6 +551,10 @@
     "hash": "8d71f0da73dcacc61f00dd5b8c48aa62c8a379c0462d196c41b91da301bab13c",
     "id": "hugo-theme-yuki"
   },
+  "hugo-tikva": {
+    "hash": "cdaba7a717ad8be5ea782bcb6c80c51bee5274d4192146e922b4d168bafb5317",
+    "id": "hugo-tikva"
+  },
   "hugo-xmag": {
     "hash": "fb969196ec3dcc98f071b5686e2a13f3b6b2dfdf25afe2408cc453320ac7d490",
     "id": "hugo-xmag"

@@ -1929,6 +1929,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-tikva",
+      "id": "hugo-tikva",
+      "version": "0.1.0",
+      "title": "Tikva",
+      "description": "Tikva’s Solar blog layout: header image, gold navigation, outlined reading buttons, configurable sidebar and column footer.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-tikva-v0.1.0/hugo-tikva-0.1.0.zip",
+      "integrity": "sha512-M+614UBuRXQTAJ67j5fJX65AbOI4HjcWiT5VvM3sbvjLLhPWgPoG6ngXY1jCKl19zspXFQB594gDkbZk3A7zGw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-tikva/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-xmag",
       "id": "hugo-xmag",
       "version": "0.1.2",
