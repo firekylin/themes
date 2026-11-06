@@ -119,6 +119,8 @@ importers:
 
   packages/zola-radion: {}
 
+  packages/hugo-theme-chunky-poster: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
