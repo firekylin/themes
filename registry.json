@@ -325,6 +325,20 @@
     },
     {
       "type": "theme",
+      "name": "clean-blog",
+      "id": "clean-blog",
+      "version": "0.1.0",
+      "title": "Clean Blog",
+      "description": "Original large masthead, bold sans-serif post previews, serif reading body, teal links and centered narrow Bootstrap grid.",
+      "download": "https://github.com/firekylin/themes/releases/download/clean-blog-v0.1.0/clean-blog-0.1.0.zip",
+      "integrity": "sha512-YImqUMzaLxaslAUnA9W0p9Nt/jfMz2TmSH0Qtm8O2xgNUt4LNeqJqmDAQRXUzFX+uPgIP/r7YkNMccOqvVJAtg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/clean-blog/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "congo",
       "id": "congo",
       "version": "0.1.0",
@@ -1069,6 +1083,20 @@
     },
     {
       "type": "theme",
+      "name": "moonwalk",
+      "id": "moonwalk",
+      "version": "0.1.0",
+      "title": "Moonwalk",
+      "description": "Moonwalk bordered masthead and monospace dated blog.",
+      "download": "https://github.com/firekylin/themes/releases/download/moonwalk-v0.1.0/moonwalk-0.1.0.zip",
+      "integrity": "sha512-mYdUQhF7BpaAji+awtwa47V0H/vhBxevefS5i1pqBycAa9V6LO81oCCt7ryDZqpIyxxw4b6jq0RunWioBkCEFA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/moonwalk/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "moricolor",
       "id": "moricolor",
       "version": "0.1.0",
@@ -1530,6 +1558,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/type-on-strap-v0.1.0/type-on-strap-0.1.0.zip",
       "integrity": "sha512-jJMuQpFHOWrIk3+e9VVfsPaNi4eGUmVQkN5YAA54AKxwWzU1TsGYm0Nftb/X85X9BpkaI4s2bqxxKURax8WuKg==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/type-on-strap/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "typo",
+      "id": "typo",
+      "version": "0.1.0",
+      "title": "Typo",
+      "description": "Typo serif blog with slash navigation, date columns and reading TOC.",
+      "download": "https://github.com/firekylin/themes/releases/download/typo-v0.1.0/typo-0.1.0.zip",
+      "integrity": "sha512-frRk5klICBElsh5W1oneWRyrYg5qTPo3vr4RfzzM8YHHFEWCk/kcP58tDTb/IeDv0N3GQ1D3JhEwAa9mVi3FGg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/typo/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
