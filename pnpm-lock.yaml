@@ -56,6 +56,8 @@ importers:
 
   packages/nofancy: {}
 
+  packages/github-style: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
