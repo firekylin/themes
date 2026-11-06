@@ -276,6 +276,8 @@ importers:
 
   packages/contrast: {}
 
+  packages/bulletin: {}
+
   packages/archie: {}
 
   packages/pixyll: {}
