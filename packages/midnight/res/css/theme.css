@@ -841,3 +841,4 @@ section #title .credits.right {
 .prose pre{max-width:100%;overflow-x:auto}.attachment-media img,.attachment-media audio,.attachment-media video{max-width:100%}
 
 .nav-items,.pagination{position:static!important;inset:auto!important;margin:1.5rem 0!important;transform:none!important;max-width:100%;width:auto!important}#banner{right:auto;margin-left:0;transform:none}.site-footer{inset:auto;margin-left:0}html{background:#252525}body{height:auto;min-height:100vh}#header .nav-items{background:transparent;padding:10px 0}
+strong,b{font-weight:700!important}em,i{font-style:italic}
