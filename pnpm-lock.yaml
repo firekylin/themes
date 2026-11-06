@@ -160,6 +160,8 @@ importers:
 
   packages/hello-friend-ng: {}
 
+  packages/hello-friend: {}
+
   packages/hugo-book: {}
 
   packages/hugo-coder: {}
