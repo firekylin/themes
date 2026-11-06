@@ -75,6 +75,8 @@ importers:
 
   packages/harbor: {}
 
+  packages/zola-andromeda: {}
+
   packages/bare-hugo-theme: {}
 
   packages/academic-cv: {}
