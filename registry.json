@@ -395,6 +395,20 @@
     },
     {
       "type": "theme",
+      "name": "binario",
+      "id": "binario",
+      "version": "0.1.0",
+      "title": "Binario",
+      "description": "Binario’s charcoal two-column card feed, amber links, compact masthead and full-width dark article.",
+      "download": "https://github.com/firekylin/themes/releases/download/binario-v0.1.0/binario-0.1.0.zip",
+      "integrity": "sha512-8Rf06zKG2U8EHAkCwV+1pDpHHanKw44MJd0g3zmtF4sKwfJFRZcY5A1vWWnG8hPBuD9MV7ZcdtujCn2KhyExfg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/binario/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "blackburn",
       "id": "blackburn",
       "version": "0.1.1",
