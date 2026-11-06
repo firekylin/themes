@@ -613,6 +613,20 @@
     },
     {
       "type": "theme",
+      "name": "gokarna",
+      "id": "gokarna",
+      "version": "0.1.0",
+      "title": "Gokarna",
+      "description": "Gokarna profile and reading blog with persistent dark mode.",
+      "download": "https://github.com/firekylin/themes/releases/download/gokarna-v0.1.0/gokarna-0.1.0.zip",
+      "integrity": "sha512-ONrFUYmvaoHxmZcw2JszkcF4eLpwECPY4y4zZpmX8S69a5LpYVLxAKbCYZZcdYm69fHclr3tNq5y2zlPTFg+xg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/gokarna/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "firekylin-theme-green-park-2",
       "id": "green-park-2",
       "version": "0.1.1",
