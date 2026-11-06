@@ -3258,6 +3258,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-zola-pickles",
+      "id": "zola-zola-pickles",
+      "version": "0.1.0",
+      "title": "Zola Pickles",
+      "description": "Zola Pickles’s 720px column, Selenized White palette, italic dates, Atkinson Hyperlegible body text and understated summary buttons.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-zola-pickles-v0.1.0/zola-zola-pickles-0.1.0.zip",
+      "integrity": "sha512-FgoaBrIcv60TA1keL+l9UTALzwPGg0EJ9Yn90EnbeHYIIRu9edUsAEUl3HsZ2vabgYEnXx8oRc71mwNyi57r3w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-zola-pickles/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-zola-theme-hikari",
       "id": "zola-zola-theme-hikari",
       "version": "0.1.1",
