@@ -605,6 +605,20 @@
     },
     {
       "type": "theme",
+      "name": "colordrop",
+      "id": "colordrop",
+      "version": "0.1.0",
+      "title": "Colordrop",
+      "description": "Colordrop’s monochrome Montserrat typography, circular profile, ruled navigation and illustrated blog feed.",
+      "download": "https://github.com/firekylin/themes/releases/download/colordrop-v0.1.0/colordrop-0.1.0.zip",
+      "integrity": "sha512-LAxwzfbTefQoZgTLgFWPGD/z+70rljzifzADaByELx7zXjuI2N8U0pza8A65AsJZxQXm62yCLemE1P6X6OyyXQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/colordrop/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "congo",
       "id": "congo",
       "version": "0.1.0",
