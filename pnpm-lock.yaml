@@ -105,6 +105,8 @@ importers:
 
   packages/hugo_eiio: {}
 
+  packages/inkblotty: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}

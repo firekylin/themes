@@ -1,0 +1,36 @@
+{
+  "name": "inkblotty",
+  "title": "Inkblotty",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Inkblotty’s original Inkblot stylesheet, shadowed white page, black navigation, article summaries and taxonomy/recent-post sidebar.",
+  "license": "GPL-3.0-only",
+  "author": "tosi; Michael Sisk; Firekylin contributors",
+  "homepage": "https://github.com/tosi29/inkblotty",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/inkblotty"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "inkblotty"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
