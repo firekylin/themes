@@ -1,0 +1,36 @@
+{
+  "name": "hugo-theme-fuji",
+  "title": "Fuji",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fuji’s blue/lavender summary feed, right navigation/tag sidebar, Primer typography and original light/dark colors.",
+  "license": "Apache-2.0 AND MIT",
+  "author": "DSRKafuU; Firekylin contributors",
+  "homepage": "https://github.com/dsrkafuu/hugo-theme-fuji",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-theme-fuji"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-theme-fuji"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
