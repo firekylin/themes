@@ -310,6 +310,8 @@ importers:
 
   packages/wp-hamilton: {}
 
+  packages/manis-hugo-theme: {}
+
   packages/astrofy: {}
 
   packages/mwordstar: {}
