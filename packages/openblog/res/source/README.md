@@ -1,0 +1,1 @@
+Corresponding source for this GPL-3.0-only port: native Eta templates, upstream Astro class sources, global CSS, Tailwind config and adapter CSS. Install tailwindcss 3.4.17, postcss 8 and @tailwindcss/typography 0.5.16, then run node res/source/build.cjs. Only class scanning uses the upstream Astro files; no Astro runtime or remote assets are required.
