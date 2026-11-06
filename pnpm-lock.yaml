@@ -248,6 +248,8 @@ importers:
 
   packages/lolimeow: {}
 
+  packages/dope: {}
+
   packages/brave: {}
 
   packages/dreamcat: {}
