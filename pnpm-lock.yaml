@@ -78,6 +78,8 @@ importers:
 
   packages/aria: {}
 
+  packages/rowling: {}
+
   packages/bubble: {}
 
   packages/davis: {}
