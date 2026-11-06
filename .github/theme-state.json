@@ -423,6 +423,10 @@
     "hash": "5de7ddbb0316b560eccedaaa773a5cb1615f9ba3df293e144f65ba929dfd119d",
     "id": "hugo-nederburg-theme"
   },
+  "hugo-primer": {
+    "hash": "17b4196301d69a081b5e34ffd91180ba6da39606d956007740bf0640bb7fae3c",
+    "id": "hugo-primer"
+  },
   "hugo-sustain": {
     "hash": "a768a29b76357e6aedea8d653bfa03b607734c7fd197cd7230fe03c1b3212d9f",
     "id": "hugo-sustain"

@@ -1481,6 +1481,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-primer",
+      "id": "hugo-primer",
+      "version": "0.1.0",
+      "title": "Hugo-Primer",
+      "description": "Hugo-Primer’s GitHub-style navigation, raised article cards, Markdown reading styles and sticky taxonomy/heading sidebar.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-primer-v0.1.0/hugo-primer-0.1.0.zip",
+      "integrity": "sha512-qa6emkSHSR0tv3ZYMF1GHkDPfi8C9K1o3pWarqeuisHzEuDcwWEzO2GK0GC38NY39YfPjbpzKXIKQHJpWwpKPw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-primer/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-sustain",
       "id": "hugo-sustain",
       "version": "0.1.2",
