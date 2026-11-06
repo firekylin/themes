@@ -591,6 +591,20 @@
     },
     {
       "type": "theme",
+      "name": "dope",
+      "id": "dope",
+      "version": "0.1.0",
+      "title": "Dope",
+      "description": "Topic-led homepage with native public tag cards and Dope’s illustrated article feed; carousel becomes a responsive static grid.",
+      "download": "https://github.com/firekylin/themes/releases/download/dope-v0.1.0/dope-0.1.0.zip",
+      "integrity": "sha512-PmuTbnBQTOkBRndfDtC9c5q6S3NOYogIX7LZ6FQB3rXKEHlOZ6YBpYNh/ZQz2JnSC0LdK9Y1h6nj22FACvuUig==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/dope/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "dreamcat",
       "id": "dreamcat",
       "version": "0.1.0",
