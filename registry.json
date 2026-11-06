@@ -2357,6 +2357,20 @@
     },
     {
       "type": "theme",
+      "name": "mediumish-gohugo-theme",
+      "id": "mediumish-gohugo-theme",
+      "version": "0.1.0",
+      "title": "Mediumish",
+      "description": "Mediumish original card grid, Righteous title, Merriweather articles and green tag explorer.",
+      "download": "https://github.com/firekylin/themes/releases/download/mediumish-gohugo-theme-v0.1.0/mediumish-gohugo-theme-0.1.0.zip",
+      "integrity": "sha512-zs4DF2tJHteNleWeWdInZJpcO0tAGp5hpRoUtacQbJAWdB3WRiu2CtmZQ4BYD4dyuaadR8GT32K1Ik5+zp/RrA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/mediumish-gohugo-theme/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "meme",
       "id": "meme",
       "version": "0.1.0",
