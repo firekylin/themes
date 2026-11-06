@@ -107,6 +107,8 @@ importers:
 
   packages/hugo_eiio: {}
 
+  packages/ramium: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
