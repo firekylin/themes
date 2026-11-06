@@ -354,6 +354,8 @@ importers:
 
   packages/zola-serene: {}
 
+  packages/paperesque: {}
+
   packages/pulp: {}
 
   packages/solar-theme-hugo: {}
