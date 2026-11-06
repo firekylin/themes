@@ -126,6 +126,8 @@ importers:
 
   packages/datagov: {}
 
+  packages/wp-hemingway: {}
+
   packages/docsy: {}
 
   packages/notepadium: {}
