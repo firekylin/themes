@@ -59,6 +59,7 @@ importers:
   packages/github-style: {}
   packages/hugo-tania: {}
 
+  packages/papercss-hugo-theme: {}
   packages/hugo-theme-fuji: {}
 
   packages/hugo-theme-yuki: {}
