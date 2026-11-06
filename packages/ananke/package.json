@@ -1,0 +1,36 @@
+{
+  "name": "ananke",
+  "title": "Ananke",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Black publication masthead, large lightweight title, gray canvas and padded white summary cards using original Tachyons styles.",
+  "license": "MIT",
+  "author": "Bud Parr and Patrick Kollitsch; Firekylin contributors",
+  "homepage": "https://github.com/gohugo-ananke/ananke",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/ananke"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "ananke"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
