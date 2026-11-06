@@ -44,6 +44,8 @@ importers:
 
   packages/decent: {}
 
+  packages/affinity: {}
+
   packages/lanyon: {}
 
   packages/m10c: {}
