@@ -392,6 +392,8 @@ importers:
 
   packages/lolimeow: {}
 
+  packages/hugo-hello-programmer-theme: {}
+
   packages/dope: {}
 
   packages/brave: {}
