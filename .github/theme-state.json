@@ -31,6 +31,10 @@
     "hash": "6010d4146b1776fab01291ecc32f3335d76206971bc08317edb762fab0f79c61",
     "id": "archie"
   },
+  "architect": {
+    "hash": "8b9ce6b18b85ad09634b7f0e33cab99aeb6b11c0b2ed863f8ca35becccb0cdb3",
+    "id": "architect"
+  },
   "argon": {
     "hash": "e90cc56c9445c7f43936d8a6a75bb42e0f8d378c9d784625a4e383985442f201",
     "id": "argon"
@@ -83,6 +87,10 @@
     "hash": "1ecf081d30b72437647c345c6d11bf9f573e490d249d326afc394652da47e26b",
     "id": "casper"
   },
+  "cayman": {
+    "hash": "ebe1c5d5048e9f385aa40df76b21896a08f0eb7a6d4d323de3da42dab679afbe",
+    "id": "cayman"
+  },
   "chalk": {
     "hash": "a5f787bb7efdc5601af7960da2c25c9a45ea7c0c876303e6a7dafa3edb797f72",
     "id": "chalk"
@@ -127,6 +135,10 @@
     "hash": "af8bc8af8eb10ee6d8ca7a1b0a09c83f51957eeab5e7e7ba4003fc7b4c0fb4c9",
     "id": "dawn"
   },
+  "diary": {
+    "hash": "a1b21014245321f16300dc07a869d1e2a71d021b7062f51d6a3af307525a45c8",
+    "id": "diary"
+  },
   "diaspora": {
     "hash": "1f116d0dc7df6a7f8db1f07b16a942c520f3e89355847b505edc1dc031990bef",
     "id": "diaspora"
@@ -150,6 +162,10 @@
   "echo": {
     "hash": "f65c583732b06777a8b84949c7e96a22aec11e86e9c464675735a05684e503a5",
     "id": "echo"
+  },
+  "edition": {
+    "hash": "c8aaac6677cd685ac6be47c3984c9c2937466800ebc5dc97cbba48d22bb3f95e",
+    "id": "edition"
   },
   "even": {
     "hash": "b1e5565e3435fd02dd6da2c37f3aa0be25afa4fe95296a1c6bccef3342696ede",
@@ -271,6 +287,10 @@
     "hash": "3ae5fe9bfd831ac377ca2b63738d2ed2f148fabfb66fd449b5734f447b66831f",
     "id": "lanyon"
   },
+  "leap-day": {
+    "hash": "ebf6eb55ba25ccf38c2fd6b80a33de5b5706e6204163c556e5c5e84418b09b98",
+    "id": "leap-day"
+  },
   "learn": {
     "hash": "4b0c86b4a183759cc3c5a094e2665fa90a5b1c3f0334629b466135b0c72dfb05",
     "id": "learn"
@@ -311,6 +331,10 @@
     "hash": "83c9bda429f4afe4e6257411bf5a703dd3406ce727eea4c5e4b257073e0fdffd",
     "id": "minima"
   },
+  "minimal": {
+    "hash": "ea37dc9339b4704925ae23da6ead89cb50b4b80f7639e164a8d44bbba524068f",
+    "id": "minimal"
+  },
   "minimal-mistakes": {
     "hash": "fdd6e9e546b5a56e1a6474f2e25d710f989e7cda54f410aaf6de2d3ccec9baf0",
     "id": "minimal-mistakes"
@@ -318,6 +342,10 @@
   "miracles": {
     "hash": "3165ccce6496124d3c2a4aa1e258062225af678bb866e523508d8f0d0f4d35ab",
     "id": "miracles"
+  },
+  "modernist": {
+    "hash": "59517669653094afb681803fcd07f162fcf10449c0322862af13b177f7f32658",
+    "id": "modernist"
   },
   "moonwalk": {
     "hash": "fdd87f7749f9e28121ff6947de478c3114be682908b741dce65241bf1b45a6f7",
@@ -407,6 +435,10 @@
     "hash": "9af24060fddab17a0c462a0cff062901e80bedabb5ab37ee8575c38f341cb8be",
     "id": "skeleton"
   },
+  "slate": {
+    "hash": "1df037141dc14b0cdc22d4eec2a383e4e783a5c53d2500ba5aa768aabde6a24b",
+    "id": "slate"
+  },
   "so-simple": {
     "hash": "9f41503387e8d2115f2cbb3def8638069f736f62ea3ad37513f531f85415a49c",
     "id": "so-simple"
@@ -438,6 +470,10 @@
   "svbtle": {
     "hash": "f08b14645655a71678272ab3f919a9032eed8791b49fd785ccf3b0459b21a8f3",
     "id": "svbtle"
+  },
+  "tactile": {
+    "hash": "5317a078e64a380d87c53d662c83d9b9bcdf069098c87aff8d3156f422441716",
+    "id": "tactile"
   },
   "tale": {
     "hash": "2ad5386a06f9e0983eae2496bf2a782d1a7e1b3f35167865c7309e352bbd171f",

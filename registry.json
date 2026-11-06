@@ -115,6 +115,20 @@
     },
     {
       "type": "theme",
+      "name": "architect",
+      "id": "architect",
+      "version": "0.1.0",
+      "title": "Architect",
+      "description": "Blueprint masthead, textured page and right-hand biography.",
+      "download": "https://github.com/firekylin/themes/releases/download/architect-v0.1.0/architect-0.1.0.zip",
+      "integrity": "sha512-Kyyc9aWun+2bN8A1r5VwjmJ0Z+O4g3xr8IcqxDnPEItN7Y2sGEcdEl9BFkm/ON6DMxO+LGD4xUjO7zUcCyr1Dg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/architect/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "firekylin-theme-argon",
       "id": "argon",
       "version": "0.1.0",
@@ -297,6 +311,20 @@
     },
     {
       "type": "theme",
+      "name": "cayman",
+      "id": "cayman",
+      "version": "0.1.0",
+      "title": "Cayman",
+      "description": "Gradient masthead, green headings and wide readable content.",
+      "download": "https://github.com/firekylin/themes/releases/download/cayman-v0.1.0/cayman-0.1.0.zip",
+      "integrity": "sha512-2DA140VbvWvBjKNGKWBf6L1y0o/7Ji6STrouzezCtqdjYlj5in0WnnQYYMGFBJ70DOgr75DZ96tlvDeFOsWg2A==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/cayman/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "chalk",
       "id": "chalk",
       "version": "0.1.0",
@@ -451,6 +479,20 @@
     },
     {
       "type": "theme",
+      "name": "diary",
+      "id": "diary",
+      "version": "0.1.0",
+      "title": "Diary",
+      "description": "Original fixed left navigation, spacious shadowed stream cards and text-only article heads; mobile navigation stays visible without Vue.",
+      "download": "https://github.com/firekylin/themes/releases/download/diary-v0.1.0/diary-0.1.0.zip",
+      "integrity": "sha512-BIkepiueIzPdPfHkoG8sqEkZ5WsXLabdhPT7Qd9HbENPQi206PcO9Pq/Fdm7Ll5OMoDjXKwtBwl+3eg6AHA0MA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/diary/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "firekylin-theme-diaspora",
       "id": "diaspora",
       "version": "0.1.1",
@@ -529,6 +571,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/echo-v0.1.0/echo-0.1.0.zip",
       "integrity": "sha512-GA7oZcFUQar1c/wyiWDwQX8I266q4GxMDkCtvtrw9//6O/Hmzb8oFMFF3a5+zGMU7mEA+PuUidq0ZT0a6f/RAw==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/echo/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "edition",
+      "id": "edition",
+      "version": "0.1.0",
+      "title": "Edition",
+      "description": "Edition’s original text-only feed with large calendar dates, restrained dividers and editorial article headers.",
+      "download": "https://github.com/firekylin/themes/releases/download/edition-v0.1.0/edition-0.1.0.zip",
+      "integrity": "sha512-bJDXrDTvjZVVL8kQP3ucbLdK4pZs1xA29rZ1mCV50naK52XLTjdy2xDAhIvbEiVVjklRRrcgH4rjTfDSgiDRpQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/edition/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
@@ -949,6 +1005,20 @@
     },
     {
       "type": "theme",
+      "name": "leap-day",
+      "id": "leap-day",
+      "version": "0.1.0",
+      "title": "Leap Day",
+      "description": "Blue textured header, yellow navigation ribbon and paper content.",
+      "download": "https://github.com/firekylin/themes/releases/download/leap-day-v0.1.0/leap-day-0.1.0.zip",
+      "integrity": "sha512-OytE7JleCmVRWoNTS/wCJPyxoBsVk1nebRiIIQ2NUctz9O3cBgr/HsO3Yz4NkFZWhDqBIidUVhGU6Y/KEzpAAw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/leap-day/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "learn",
       "id": "learn",
       "version": "0.1.0",
@@ -1083,6 +1153,20 @@
     },
     {
       "type": "theme",
+      "name": "minimal",
+      "id": "minimal",
+      "version": "0.1.0",
+      "title": "Minimal",
+      "description": "Fixed left identity panel and narrow right reading column.",
+      "download": "https://github.com/firekylin/themes/releases/download/minimal-v0.1.0/minimal-0.1.0.zip",
+      "integrity": "sha512-XwO+WbkqBKeX6BH2IaYroUH0DrX5pfORY6i1J1qRh8zXILP2w4XM3MhyVlQRr34fW3Q6zup6VbzFJY80MFxA/w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/minimal/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "minimal-mistakes",
       "id": "minimal-mistakes",
       "version": "0.1.0",
@@ -1107,6 +1191,20 @@
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/miracles/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "modernist",
+      "id": "modernist",
+      "version": "0.1.0",
+      "title": "Modernist",
+      "description": "Rounded pale-blue title bar and paper panel on a checker background.",
+      "download": "https://github.com/firekylin/themes/releases/download/modernist-v0.1.0/modernist-0.1.0.zip",
+      "integrity": "sha512-2LAxIrYaJAuXT6QrqtTHMHVOAsFURPgsrELyEJ9K2LlojKgboABS6MJwjrVKNLZ/LGNvxElHwEQshHXcQjWF6A==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/modernist/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
       }
     },
     {
@@ -1410,6 +1508,20 @@
     },
     {
       "type": "theme",
+      "name": "slate",
+      "id": "slate",
+      "version": "0.1.0",
+      "title": "Slate",
+      "description": "Dark gradient masthead, light full-width reading surface and blue links.",
+      "download": "https://github.com/firekylin/themes/releases/download/slate-v0.1.0/slate-0.1.0.zip",
+      "integrity": "sha512-iOHp2Pc2WUmUx1XlFnv3BcPSBL/D/5/HRojOOBvaNdmJRxNf9HSvTBLv9xiC9Tu3P3LAcC2JF6vIeJxnO2O6YA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/slate/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "so-simple",
       "id": "so-simple",
       "version": "0.1.0",
@@ -1518,6 +1630,20 @@
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/svbtle/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "tactile",
+      "id": "tactile",
+      "version": "0.1.0",
+      "title": "Tactile",
+      "description": "Textured gray paper, heavy title, red links and centered reading column.",
+      "download": "https://github.com/firekylin/themes/releases/download/tactile-v0.1.0/tactile-0.1.0.zip",
+      "integrity": "sha512-tY/T7KZeBU/Mzmk1vvScvDVK14VH5yuI8Z7yp1lao2qqMJQWme2auS+P3rSXdxpPCLKgsa1C3kgYBUbmAS2k0A==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/tactile/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
       }
     },
     {
