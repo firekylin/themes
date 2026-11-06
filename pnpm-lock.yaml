@@ -188,6 +188,8 @@ importers:
 
   packages/kratos: {}
 
+  packages/basically-basic: {}
+
   packages/loveit: {}
 
   packages/matcha: {}
