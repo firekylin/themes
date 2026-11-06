@@ -220,6 +220,8 @@ importers:
 
   packages/susty: {}
 
+  packages/tactile: {}
+
   packages/terminal: {}
 
   packages/timeplus: {}
