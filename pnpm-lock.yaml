@@ -342,6 +342,8 @@ importers:
 
   packages/zola-serene: {}
 
+  packages/pulp: {}
+
   packages/solar-theme-hugo: {}
 
   packages/zola-kangae: {}
