@@ -1,0 +1,1 @@
+Actual upstream reboot/main CSS, layouts/_default/summary.html and single.html drive native markup. Charcoal canvas, amber accents, compact header, bordered two-column cards with images and bottom metadata, single column mobile. No copied demo assets; visible native wrapping nav replaces JS hamburger.
