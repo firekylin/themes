@@ -71,6 +71,8 @@ importers:
   packages/hugo-theme-tokiwa: {}
   packages/hugo-rocinante: {}
 
+  packages/harbor: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
