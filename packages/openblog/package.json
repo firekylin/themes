@@ -1,0 +1,36 @@
+{
+  "name": "openblog",
+  "title": "Openblog",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Openblog’s two-column photographic stories, translucent date overlays and spacious title/excerpt blocks.",
+  "license": "GPL-3.0-only",
+  "author": "Daniel C. Gilibert; Firekylin contributors",
+  "homepage": "https://github.com/danielcgilibert/blog-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/openblog"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "openblog"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
