@@ -1327,6 +1327,20 @@
     },
     {
       "type": "theme",
+      "name": "harbor",
+      "id": "harbor",
+      "version": "0.1.0",
+      "title": "Harbor",
+      "description": "Harbor original centered title, compact summary feed, 700px column and persistent light/dark control.",
+      "download": "https://github.com/firekylin/themes/releases/download/harbor-v0.1.0/harbor-0.1.0.zip",
+      "integrity": "sha512-5LYRTjp9mwxy1Hz3Kgi4QqyQa0LmzyyKN03ECQ6Dwy3VslH+GvaWNIBwZ7KNspoRcEsrrCVoYwxAKIs5Ct8FCg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/harbor/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "headline",
       "id": "headline",
       "version": "0.1.0",

@@ -1,0 +1,1 @@
+Harbor original main/dark CSS, centeredlarge title,700pxreadingcolumn,compactsummary/date/categoryfeed,centeredfooter+themecontrol. Original fontfamiliesNotoSansJP/Roboto with currentOFLfontfiles. Native TOC replacesHugo render; FontAwesome/demoimage omitted; textnavigationwraps.

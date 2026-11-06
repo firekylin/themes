@@ -73,6 +73,8 @@ importers:
 
   packages/hugo-researcher: {}
 
+  packages/harbor: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
