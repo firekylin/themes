@@ -222,6 +222,8 @@ importers:
 
   packages/miracles: {}
 
+  packages/anisina: {}
+
   packages/moonwalk: {}
 
   packages/moricolor: {}
