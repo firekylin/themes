@@ -1,0 +1,1 @@
+Original Yuki Sass provides white/gold layout, large cover, centered nav, narrow date/title list and generous reading column. Optional user images replace unlicensed demo artwork; text logo fallback. Native visible mobile nav replaces overlay. Local EB Garamond renders configured serif typography. Author panel uses flexible height for long text.
