@@ -391,6 +391,10 @@
     "hash": "6c7da30ff3d25a28f3e49291a95f47854e3c835c978c2ab2873a4d05e9f9282f",
     "id": "hugo-lithium-theme"
   },
+  "hugo-nederburg-theme": {
+    "hash": "5de7ddbb0316b560eccedaaa773a5cb1615f9ba3df293e144f65ba929dfd119d",
+    "id": "hugo-nederburg-theme"
+  },
   "hugo-sustain": {
     "hash": "a768a29b76357e6aedea8d653bfa03b607734c7fd197cd7230fe03c1b3212d9f",
     "id": "hugo-sustain"

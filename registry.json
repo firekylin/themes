@@ -1369,6 +1369,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-nederburg-theme",
+      "id": "hugo-nederburg-theme",
+      "version": "0.1.0",
+      "title": "Nederburg",
+      "description": "Nederburg / Tracks: dark site frame, alternating image-and-text post panels, uppercase Raleway titles and white reading pages.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-nederburg-theme-v0.1.0/hugo-nederburg-theme-0.1.0.zip",
+      "integrity": "sha512-uSj5+TWowArowjr9b1epoT5Qdp5nWyQ+E0OxZe4KMdS61/9whyPn26NEBLG55VcJB+FkCbrxBjFTyoMdJ1Br7g==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-nederburg-theme/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-sustain",
       "id": "hugo-sustain",
       "version": "0.1.2",
