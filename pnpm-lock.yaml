@@ -54,8 +54,6 @@ importers:
 
   packages/eksell: {}
 
-  packages/slim: {}
-
   packages/academic-cv: {}
 
   packages/solo: {}
@@ -103,6 +101,8 @@ importers:
   packages/wave: {}
 
   packages/butterfly: {}
+
+  packages/slim: {}
 
   packages/editorial: {}
 
