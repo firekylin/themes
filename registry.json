@@ -381,6 +381,20 @@
     },
     {
       "type": "theme",
+      "name": "blackburn",
+      "id": "blackburn",
+      "version": "0.1.0",
+      "title": "Blackburn",
+      "description": "Blackburn’s dark fixed Pure CSS sidebar, Raleway masthead and spacious article summaries.",
+      "download": "https://github.com/firekylin/themes/releases/download/blackburn-v0.1.0/blackburn-0.1.0.zip",
+      "integrity": "sha512-AVLHtNpXCt0KNZHscBF2uws9hH6D5/0aG1aC7b2wpoNvTf9mxe2650AEI0GDAJc2KatbNQ2YRtJ8QIjpoeh7lQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/blackburn/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "blowfish",
       "id": "blowfish",
       "version": "0.1.0",
