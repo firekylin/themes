@@ -79,6 +79,8 @@ importers:
 
   packages/bare-hugo-theme: {}
 
+  packages/material-design: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
