@@ -707,6 +707,10 @@
     "hash": "2411761cb7ad96e3ba247ee68ce4eade4a031393159819a4290e3d5572794f9b",
     "id": "pure"
   },
+  "purehugo": {
+    "hash": "279c749e71b54504776880b2992f5361abb4d19fb0233507845e8c976c32cb5a",
+    "id": "purehugo"
+  },
   "rams": {
     "hash": "ad3bb7cbad4f1813f00227e1932ec9ee8c3a92879f95f4e52afab21d0c802ba8",
     "id": "rams"

@@ -2460,6 +2460,20 @@
     },
     {
       "type": "theme",
+      "name": "purehugo",
+      "id": "purehugo",
+      "version": "0.1.0",
+      "title": "Purehugo",
+      "description": "Purehugo’s fixed slate sidebar, right-aligned site identity, dated separators and spacious post column.",
+      "download": "https://github.com/firekylin/themes/releases/download/purehugo-v0.1.0/purehugo-0.1.0.zip",
+      "integrity": "sha512-scCn3nJZ+yXphHUL1dKlg92gWj53zbd4twEg96wr03rTGjEj9an+/TZ7WIOPz12i4EeP+AuxNUySgABHbgKiqw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/purehugo/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "rams",
       "id": "rams",
       "version": "0.1.0",
