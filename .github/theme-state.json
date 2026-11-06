@@ -335,6 +335,10 @@
     "hash": "41aaa6334b8b3b17008095dda79b9a48c2cc518e47dbd855b4006fb9f2503fea",
     "id": "merlot"
   },
+  "midnight": {
+    "hash": "bfe953574eed5642dc8b51c34cd6c9d4913d3ba2f7d966a926f2707b8ff29c9d",
+    "id": "midnight"
+  },
   "minima": {
     "hash": "83c9bda429f4afe4e6257411bf5a703dd3406ce727eea4c5e4b257073e0fdffd",
     "id": "minima"
@@ -494,6 +498,10 @@
   "text": {
     "hash": "bbce0dbbf989b2f3689c7553e48c327da098e29b3ab24e0758c5021864c97459",
     "id": "text"
+  },
+  "time-machine": {
+    "hash": "a2d306e77809672bd6c90d2049d9874cfa28037b9f728a2d4b2148ec7212ddc2",
+    "id": "time-machine"
   },
   "timeplus": {
     "hash": "458861827eaf423167c04161803b455ca69b1b7f6977459cc39f22d52ee6480a",

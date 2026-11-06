@@ -1167,6 +1167,20 @@
     },
     {
       "type": "theme",
+      "name": "midnight",
+      "id": "midnight",
+      "version": "0.1.0",
+      "title": "Midnight",
+      "description": "Charcoal texture, fixed dark top bar and yellow-green links.",
+      "download": "https://github.com/firekylin/themes/releases/download/midnight-v0.1.0/midnight-0.1.0.zip",
+      "integrity": "sha512-ICezR6rk0cH8M+ybLVvnICAb/h/F2o6LGb9OYZnaoY/uOdIsKL9Mu72z3M468qmzMgbab/YcGQgluc+VLWzWVg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/midnight/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "minima",
       "id": "minima",
       "version": "0.1.1",
@@ -1712,6 +1726,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/text-v0.1.0/text-0.1.0.zip",
       "integrity": "sha512-iYEr7VA8QANBzG30FEccAxtQW1c7JACLKLce9VMIJtQ2FFXgH+XFtSxFUglKlQzt0+u6k9pWcLY1oOVjRL9WUw==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/text/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "time-machine",
+      "id": "time-machine",
+      "version": "0.1.0",
+      "title": "Time Machine",
+      "description": "Bold title, gray textured surround and framed reading panel.",
+      "download": "https://github.com/firekylin/themes/releases/download/time-machine-v0.1.0/time-machine-0.1.0.zip",
+      "integrity": "sha512-uxJnKFceilqwHV7F5oL6FU1iCoAqKwdQqx0NDCk7HZEDR4WDvoxFpN5vVpF0fnl/u//GTZZtxjgPtEx26VJ1dg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/time-machine/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
