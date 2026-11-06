@@ -338,6 +338,8 @@ importers:
 
   packages/zola-serene: {}
 
+  packages/solar-theme-hugo: {}
+
   packages/zola-kangae: {}
 
   packages/zola-hook: {}
