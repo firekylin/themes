@@ -1,7 +1,7 @@
 {
   "name": "zola-dinkleberg",
   "title": "Dinkleberg",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Dinkleberg’s sticky monospace site bar, 65/35 feed/sidebar split and desktop article metadata column.",
   "license": "MIT",

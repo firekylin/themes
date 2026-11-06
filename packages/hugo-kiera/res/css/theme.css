@@ -934,3 +934,6 @@ body{overflow-wrap:anywhere}.skip{position:absolute;top:-100px}.skip:focus{top:0
 #container>header{padding-top:24px}#container>.native-nav{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:12px 20px;margin-bottom:20px}#container>.native-footer{width:700px;max-width:calc(100% - 38px);padding:30px 0}.native-cover{max-width:100%;height:auto}.prose pre code{background:transparent;color:inherit}#home .entry{list-style:none}.post-detail .article-meta{margin-top:24px}
 
 .post-footer,.native-footer,.post-footer a,.native-footer a{color:#666}@media(prefers-color-scheme:dark){.post-footer,.native-footer,.post-footer a,.native-footer a{color:#aaa}}
+
+/* Native post/page media may declare dimensions wider than the reading column. */
+.prose video,.prose audio{max-width:100%;box-sizing:border-box}.prose video{height:auto}

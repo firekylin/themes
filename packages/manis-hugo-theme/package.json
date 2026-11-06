@@ -1,7 +1,7 @@
 {
   "name": "manis-hugo-theme",
   "title": "Manis",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Manis’s narrow Skeleton-derived reading column, compact dated link list and red divider accents.",
   "license": "MIT",

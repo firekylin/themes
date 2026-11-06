@@ -371,3 +371,6 @@ body>header{position:static;height:auto;padding:8px 16px;box-sizing:border-box}b
 
 /* This theme ships a light-only palette, including the browser canvas. */
 :root{color-scheme:light}
+
+/* Native post/page media may declare dimensions wider than the reading column. */
+.prose video,.prose audio{max-width:100%;box-sizing:border-box}.prose video{height:auto}

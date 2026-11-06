@@ -6,3 +6,6 @@ body{overflow-wrap:anywhere}.skip{position:absolute;top:-100px}.skip:focus{top:0
 
 /* This theme ships a light-only palette, including the browser canvas. */
 :root{color-scheme:light}
+
+/* Native post/page media may declare dimensions wider than the reading column. */
+.prose video,.prose audio{max-width:100%;box-sizing:border-box}.prose video{height:auto}

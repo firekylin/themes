@@ -1,7 +1,7 @@
 {
   "name": "base16",
   "title": "Base16",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Base16 Eighties terminal palette, bracketed prompt masthead and contrasting editorial summary panels.",
   "license": "MIT",

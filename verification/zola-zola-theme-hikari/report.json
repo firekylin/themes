@@ -104,7 +104,8 @@
     "responsive header navigation",
     "search without JavaScript",
     "private/draft exclusion",
-    "comment gating"
+    "comment gating",
+    "1280px video/audio in posts and pages with preserved video aspect ratio"
   ],
   "limits": [
     "Compared pinned upstream CSS and Zola templates; no live upstream demo comparison.",

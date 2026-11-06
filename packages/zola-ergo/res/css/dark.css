@@ -555,3 +555,6 @@ body{margin:0;font-size:17px}.native-top{display:flex;justify-content:space-betw
 .article_title{color:#f8f8f2}nav.pagination{display:flex;justify-content:space-between}body.post-view .header{display:none}body.post-view #main{margin-top:50px}
 
 .post-detail .tags a,.post-detail .post-actions a{color:inherit}
+
+/* Native post/page media may declare dimensions wider than the reading column. */
+.prose video,.prose audio{max-width:100%;box-sizing:border-box}.prose video{height:auto}

@@ -1,7 +1,7 @@
 {
   "name": "zola-hook",
   "title": "Hook",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Hook’s spacious recent-post link list, purple links, gray reading canvas and native light/dark palettes.",
   "license": "MIT",

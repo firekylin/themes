@@ -1,7 +1,7 @@
 {
   "name": "purehugo",
   "title": "Purehugo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Purehugo’s fixed slate sidebar, right-aligned site identity, dated separators and spacious post column.",
   "license": "MIT",
