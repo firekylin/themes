@@ -386,6 +386,8 @@ importers:
 
   packages/chirpy: {}
 
+  packages/button-2: {}
+
   packages/monochrome: {}
 
   packages/beautiful-jekyll: {}
