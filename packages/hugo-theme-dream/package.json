@@ -1,0 +1,53 @@
+{
+  "name": "hugo-theme-dream",
+  "title": "Dream",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Dream’s original DaisyUI cards, emerald/forest palettes, masonry-style columns and flippable About panel.",
+  "license": "MIT",
+  "author": "Yue Yang; Firekylin contributors",
+  "homepage": "https://github.com/g1eny0ung/hugo-theme-dream",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-theme-dream"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-theme-dream"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "avatarURL",
+      "label": "头像 URL",
+      "help": "可选，使用站内路径或 HTTP(S) URL。"
+    },
+    {
+      "type": "text",
+      "name": "aboutTitle",
+      "label": "关于标题"
+    },
+    {
+      "type": "textarea",
+      "name": "aboutText",
+      "label": "关于正文",
+      "help": "纯文本，保留换行。"
+    }
+  ]
+}

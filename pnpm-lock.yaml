@@ -139,6 +139,7 @@ importers:
 
   packages/hugo-theme-hulga: {}
 
+  packages/hugo-theme-dream: {}
 
   packages/academic-cv: {}
 
