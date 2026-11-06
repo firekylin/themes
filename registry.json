@@ -1845,6 +1845,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-theme-dream",
+      "id": "hugo-theme-dream",
+      "version": "0.1.0",
+      "title": "Dream",
+      "description": "Dream’s original DaisyUI cards, emerald/forest palettes, masonry-style columns and flippable About panel.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-dream-v0.1.0/hugo-theme-dream-0.1.0.zip",
+      "integrity": "sha512-TsJRjJHC2wdlYw0B2LCqGqB+W8gJrG+bwwkzPjMze7P1sAiMbXO5yNd/XeHgHyjBlMFJqzi0ZsKwY+5ImnO72Q==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-dream/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-theme-fuji",
       "id": "hugo-theme-fuji",
       "version": "0.1.0",
