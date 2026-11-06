@@ -41,7 +41,7 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
   }
   await page.goto(origin);assert.equal(await page.locator('.entry').count(),10);await page.evaluate(()=>Promise.all(document.getAnimations().map(a=>a.finished.catch(()=>{}))));await page.screenshot({path:path.join(evidence,'home-'+width+'.png'),fullPage:true});
   await page.getByRole('link',{name:'下一页',exact:true}).click();await page.waitForURL('**/?page=2');
-  await page.goto(origin+'/post/hello.html');await page.screenshot({path:path.join(evidence,'post-'+width+'.png'),fullPage:true});assert(await page.locator('.nav-items a[href="/archives"]').isVisible());
+  await page.goto(origin+'/post/hello.html');assert(await page.locator('.prose').evaluate(e=>parseFloat(getComputedStyle(e.querySelector('h3')).fontSize)>parseFloat(getComputedStyle(e.querySelector('h4')).fontSize)),'native headings must keep hierarchy');await page.screenshot({path:path.join(evidence,'post-'+width+'.png'),fullPage:true});assert(await page.locator('.nav-items a[href="/archives"]').isVisible());
 
  }
  for(const pathname of ['private-marker','draft-marker']){const denied=await fetch(origin+'/post/'+pathname+'.html',{redirect:'manual'});assert.equal(denied.status,302);assert.equal(denied.headers.get('location'),'/');}

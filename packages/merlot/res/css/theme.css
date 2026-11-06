@@ -476,7 +476,7 @@ dd p:first-child {
   margin-top: 0;
 }
 
-.header-level-1 {
+.header-level-1, .prose h1 {
   font-size: 1.85em;
   border-bottom: 0.2em double #d3ccc1;
   color: #7c334f;
@@ -487,7 +487,7 @@ dd p:first-child {
   padding-bottom: 10px;
 }
 
-.header-level-2 {
+.header-level-2, .prose h2 {
   font-size: 1.58em;
   color: #7c334f;
   margin: 0.95em 0 0.5em;
@@ -496,24 +496,24 @@ dd p:first-child {
   padding-bottom: 10px;
 }
 
-.header-level-3 {
+.header-level-3, .prose h3 {
   margin: 20px 0 10px;
   font-size: 1.45em;
 }
 
-.header-level-4 {
+.header-level-4, .prose h4 {
   margin: 0.6em 0;
   font-size: 1.2em;
   color: #cd596b;
 }
 
-.header-level-5 {
+.header-level-5, .prose h5 {
   margin: 0.7em 0;
   font-size: 1em;
   color: #8b786f;
 }
 
-.header-level-6 {
+.header-level-6, .prose h6 {
   margin: 0.8em 0;
   font-size: 0.85em;
   font-style: italic;
