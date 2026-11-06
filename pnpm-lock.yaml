@@ -116,6 +116,8 @@ importers:
 
   packages/docsy: {}
 
+  packages/notepadium: {}
+
   packages/doks: {}
 
   packages/mainroad: {}
