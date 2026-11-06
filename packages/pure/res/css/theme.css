@@ -9211,3 +9211,5 @@ body.okayNav-loaded {
 @media(max-width:991px){.header .slimContent{display:block;width:100%;padding:25px;box-sizing:border-box}.header .profile-block{position:static;float:none;width:100%;height:auto;margin:0 0 20px}.header .profile-block h2{font-size:26px}.header .native-nav{width:100%}}
 
 body{font-family:Arial,"Microsoft YaHei",sans-serif}
+
+@media(max-width:991px){body.main-center .native-main.main{margin-left:0;margin-right:0;width:100%}}

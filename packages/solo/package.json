@@ -1,7 +1,7 @@
 {
   "name": "solo",
   "title": "Solo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Personal typographic introduction followed by image cards and compact dates, using Solo’s original feed and typography.",
   "license": "MIT",

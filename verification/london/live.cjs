@@ -44,6 +44,7 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
   await page.goto(origin+'/post/hello.html');assert(await page.locator('.prose strong').evaluate(e=>parseInt(getComputedStyle(e).fontWeight)>=600),'bold emphasis');assert(await page.locator('.prose table').evaluate(e=>e.getBoundingClientRect().right<=innerWidth),'table containment');await page.screenshot({path:path.join(evidence,'post-'+width+'.png'),fullPage:true});assert(await page.locator('.nav-items a[href="/archives"]').isVisible());
 
  }
+ await page.setViewportSize({width:1440,height:1000});await page.goto(origin);await page.locator('.post-card-link').first().focus();await page.waitForFunction(()=>Number(getComputedStyle(document.querySelector('.post-card-content')).opacity)===1,{},{timeout:3000});assert(await page.locator('.post-card-content').first().evaluate(e=>Number(getComputedStyle(e).opacity)===1),'keyboard focus reveals title');
  for(const pathname of ['private-marker','draft-marker']){const denied=await fetch(origin+'/post/'+pathname+'.html',{redirect:'manual'});assert.equal(denied.status,302);assert.equal(denied.headers.get('location'),'/');}
  db.prepare('UPDATE fk_post SET allow_comment=1 WHERE pathname=?').run('hello');let html=await(await fetch(origin+'/post/hello.html')).text();assert(html.includes('data-comment-config'));assert.equal((html.match(/id="comments"/g)||[]).length,1);
  db.prepare('UPDATE fk_post SET allow_comment=0 WHERE pathname=?').run('hello');assert(!(await(await fetch(origin+'/post/hello.html')).text()).includes('data-comment-config'));

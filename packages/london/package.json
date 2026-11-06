@@ -1,7 +1,7 @@
 {
   "name": "london",
   "title": "London",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Image-led two-column feed with every third card spanning the row and source title overlays.",
   "license": "MIT",

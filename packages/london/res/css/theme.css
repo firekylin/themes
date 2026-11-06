@@ -6,3 +6,5 @@
 @media(max-width:850px){body:not(.is-head-open) #gh-head{margin:0}}
 
 .prose table{overflow-wrap:normal;word-break:normal}.prose th,.prose td{min-width:8rem;padding:.5rem 1rem;word-break:normal;overflow-wrap:normal}.prose p{margin:1.2em 0}.prose h2,.prose h3,.prose h4{margin:1.5em 0 .5em}
+
+.post-card-link:focus-visible .post-card-content,.post-card:focus-within .post-card-content{opacity:1}

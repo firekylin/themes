@@ -1,7 +1,7 @@
 {
   "name": "keep",
   "title": "Keep",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Keep’s clean navigation, rounded cover-title cards, quiet metadata and adaptive reading width.",
   "license": "AGPL-3.0-only",

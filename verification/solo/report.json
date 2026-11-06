@@ -104,7 +104,8 @@
     "responsive header navigation",
     "search without JavaScript",
     "private/draft exclusion",
-    "comment gating"
+    "comment gating",
+    "missing and rejected covers collapse image slot"
   ],
   "limits": [
     "Compared pinned upstream SCSS and templates; no live upstream demo comparison.",
