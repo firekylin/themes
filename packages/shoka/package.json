@@ -1,0 +1,36 @@
+{
+  "name": "shoka",
+  "title": "Shoka",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Shoka’s pastel header, alternating image/excerpt segments, pink accents and rounded story cards.",
+  "license": "MIT",
+  "author": "Ruri Shimotsuki; Firekylin contributors",
+  "homepage": "https://github.com/amehime/hexo-theme-shoka",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/shoka"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "shoka"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
