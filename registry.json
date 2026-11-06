@@ -59,6 +59,20 @@
     },
     {
       "type": "theme",
+      "name": "ananke",
+      "id": "ananke",
+      "version": "0.1.0",
+      "title": "Ananke",
+      "description": "Black publication masthead, large lightweight title, gray canvas and padded white summary cards using original Tachyons styles.",
+      "download": "https://github.com/firekylin/themes/releases/download/ananke-v0.1.0/ananke-0.1.0.zip",
+      "integrity": "sha512-xSpGSUeT2Iq2rPkC6kX4mDTXMD3wufPGYaghkxqQm3Tl4+yEt/Z5x9nVwAnc6+B41Wrd4BjVHCWF9zTFVMyzJw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/ananke/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "anzhiyu",
       "id": "anzhiyu",
       "version": "0.1.0",
