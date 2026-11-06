@@ -85,6 +85,8 @@ importers:
 
   packages/jekyll-moon: {}
 
+  packages/blogpaper: {}
+
   packages/hugo-blog-jeffprod: {}
 
   packages/academic-cv: {}
