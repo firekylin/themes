@@ -3370,6 +3370,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-block",
+      "id": "zola-block",
+      "version": "0.1.0",
+      "title": "Block",
+      "description": "Block’s paper islands, grain, numbered rows, hand-drawn marks and Acid light/dark palettes.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-block-v0.1.0/zola-block-0.1.0.zip",
+      "integrity": "sha512-Yt1fUCyec7fcIqynB5JuyXmidMjH+MxA5F18S26uFE8DFQP0qvIs3PEBzFimlKN7Vgh4gjB+DIieXK85mjwv+Q==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-block/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-deepthought",
       "id": "zola-deepthought",
       "version": "0.1.0",
