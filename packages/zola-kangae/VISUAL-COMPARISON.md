@@ -1,0 +1,1 @@
+Original style.css and palette source retained: responsive avatar, compact inline dates/titles, dotted separators, fluid typography and Modus-inspired palette. Native excerpts/pagination replace full static index; post titles are always visible on article pages. No demo avatar or remote dependencies.

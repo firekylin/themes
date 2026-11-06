@@ -336,6 +336,8 @@ importers:
 
   packages/zola-serene: {}
 
+  packages/zola-kangae: {}
+
   packages/zola-hook: {}
 
   packages/hugo-kiera: {}
