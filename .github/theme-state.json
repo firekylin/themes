@@ -703,6 +703,10 @@
     "hash": "7fb60f39d958476c37e73bf242c884a0fe4bf9d11533fb944d1d3c2835d5f739",
     "id": "sleek"
   },
+  "slim": {
+    "hash": "03dba3cea47e15f42adcc7f8e5558574f3f4e0d7485a9d094c1b9b22b8b7aad5",
+    "id": "slim"
+  },
   "smol": {
     "hash": "906311847b96a11ca73a7409e33ea903c0501b17dc1e311a826af3f0a076a2f3",
     "id": "smol"

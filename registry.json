@@ -2446,6 +2446,20 @@
     },
     {
       "type": "theme",
+      "name": "slim",
+      "id": "slim",
+      "version": "0.1.0",
+      "title": "Slim",
+      "description": "Slim’s original narrow reading column, compact masthead, subdued post dates and spacious summary feed.",
+      "download": "https://github.com/firekylin/themes/releases/download/slim-v0.1.0/slim-0.1.0.zip",
+      "integrity": "sha512-fZOGSoNX+kj7NLjtVAOFGU0n/+r7MbWmI4CXOn7XU8k5qo2dA89e3bY5ipEqCS1XxzoHs00NmmuN9kWwyqD04w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/slim/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "smol",
       "id": "smol",
       "version": "0.1.0",
