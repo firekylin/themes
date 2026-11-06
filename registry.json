@@ -3076,6 +3076,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-dose",
+      "id": "zola-dose",
+      "version": "0.1.0",
+      "title": "Dose",
+      "description": "Dose’s monospace summary feed, slash separators, underlined headings and persistent light/dark switch.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-dose-v0.1.0/zola-dose-0.1.0.zip",
+      "integrity": "sha512-b+6K5xhtLCo20xwknCWB54r2/7H1899vY31cs1+IQ6sYhrL10NUzKX8YTCYrvgNetH6Tsc/mb0Oko2LTB1pFCg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-dose/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-oceanic-zen",
       "id": "zola-oceanic-zen",
       "version": "0.1.0",
