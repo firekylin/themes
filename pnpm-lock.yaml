@@ -246,6 +246,8 @@ importers:
 
   packages/nexmoe: {}
 
+  packages/astro-nano: {}
+
   packages/next: {}
 
   packages/onecircle: {}
