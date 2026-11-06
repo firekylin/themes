@@ -1,0 +1,42 @@
+{
+  "name": "devise",
+  "title": "Devise",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Devise’s original 650px personal blog, optional circular portrait, dark category badges and compact dated article lists.",
+  "license": "MIT",
+  "author": "Austin Gebauer; Firekylin contributors",
+  "homepage": "https://github.com/austingebauer/devise",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/devise"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "devise"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "个人头像 URL",
+      "help": "可选，仅支持 http(s) 或站内绝对路径。"
+    }
+  ]
+}
