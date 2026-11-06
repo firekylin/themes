@@ -2614,6 +2614,20 @@
     },
     {
       "type": "theme",
+      "name": "pulp",
+      "id": "pulp",
+      "version": "0.1.0",
+      "title": "Pulp",
+      "description": "Pulp’s centered profile, circular outlined avatar, monthly title list and system dark reading palette.",
+      "download": "https://github.com/firekylin/themes/releases/download/pulp-v0.1.0/pulp-0.1.0.zip",
+      "integrity": "sha512-V6b2IBDjioWcCj/0M0Z9kBC0R5ScV7QRdk+sJOhgQgwgMb/ol8Ee4IgeB+zRs0bv9nWnDaB2yOA9o0C262B99g==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/pulp/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "firekylin-theme-puock",
       "id": "puock",
       "version": "0.1.1",
