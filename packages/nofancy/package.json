@@ -1,0 +1,36 @@
+{
+  "name": "nofancy",
+  "title": "Nofancy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Nofancy’s original Pure CSS reading grid, compact chronological link feed and quiet black-and-white article typography.",
+  "license": "MIT",
+  "author": "Zack Guo; Firekylin contributors",
+  "homepage": "https://github.com/gizak/nofancy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/nofancy"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "nofancy"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

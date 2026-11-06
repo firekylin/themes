@@ -2018,6 +2018,20 @@
     },
     {
       "type": "theme",
+      "name": "nofancy",
+      "id": "nofancy",
+      "version": "0.1.0",
+      "title": "Nofancy",
+      "description": "Nofancy’s original Pure CSS reading grid, compact chronological link feed and quiet black-and-white article typography.",
+      "download": "https://github.com/firekylin/themes/releases/download/nofancy-v0.1.0/nofancy-0.1.0.zip",
+      "integrity": "sha512-IYSsUkyQj1rir1il7ii9szbcZIRudEv0jhM3Xg2K/eYsyqOpg/wuYahLa69VsebAhsLOS+YlB6yPuVoFXVdYog==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/nofancy/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "notepadium",
       "id": "notepadium",
       "version": "0.1.0",
