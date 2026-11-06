@@ -44,8 +44,6 @@ importers:
 
   packages/lanyon: {}
 
-  packages/typo: {}
-
   packages/academic-cv: {}
 
   packages/akina: {}
@@ -245,6 +243,8 @@ importers:
   packages/chirpy: {}
 
   packages/beautiful-jekyll: {}
+
+  packages/typo: {}
 
   packages/type-on-strap: {}
 
