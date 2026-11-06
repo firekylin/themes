@@ -1,0 +1,17 @@
+/* Native compilation of Anatole MIT Sass; Hugo injected values replaced with fixed LTR defaults. */
+@use 'modules/variables';
+@use 'modules/config';
+@use 'modules/color_theme';
+@use 'partials/base';
+@use 'partials/layout/html';
+@use 'partials/layout/body';
+@use 'partials/layout/header';
+@use 'partials/layout/nav';
+@use 'partials/components/wrapper';
+@use 'partials/components/sidebar';
+@use 'partials/components/post';
+@use 'partials/components/footer';
+@use 'partials/components/pagination';
+@use 'partials/components/category';
+@use 'partials/components/tag';
+@use 'partials/vendors/table';

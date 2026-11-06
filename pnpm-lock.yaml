@@ -166,6 +166,8 @@ importers:
 
   packages/hpstr-hugo-theme: {}
 
+  packages/anatole: {}
+
   packages/gazette: {}
 
   packages/erblog: {}

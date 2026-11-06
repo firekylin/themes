@@ -1,0 +1,42 @@
+{
+  "name": "anatole",
+  "title": "Anatole",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Anatole’s fixed profile sidebar, 60/40 reading layout, thumbnail summaries and light/dark theme switch.",
+  "license": "MIT AND OFL-1.1",
+  "author": "lxndrblz; Firekylin contributors",
+  "homepage": "https://github.com/lxndrblz/anatole",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/anatole"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "anatole"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "profileImage",
+      "label": "头像地址",
+      "help": "使用 HTTP(S) 或站内绝对路径；留空不显示头像。"
+    }
+  ]
+}
