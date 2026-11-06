@@ -368,3 +368,6 @@ body>header{position:static;height:auto;padding:8px 16px;box-sizing:border-box}b
 .post-footer{position:static;width:auto;color:#666}.post-footer a,.native-footer a{color:#005580}.prose pre,.prose table{box-sizing:border-box}
 
 .posts .posts-archive time{color:#666}
+
+/* This theme ships a light-only palette, including the browser canvas. */
+:root{color-scheme:light}

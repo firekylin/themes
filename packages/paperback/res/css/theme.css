@@ -171,3 +171,6 @@ body{overflow-wrap:anywhere}.skip{position:absolute;top:-100px}.skip:focus{top:0
 body{padding:28px 16px}.native-footer,.site-nav{color:#666}.native-footer p{margin-left:0}.entry{margin:32px 0}.post-detail .post-title{font-size:1.875rem}.prose pre code{background:transparent;color:inherit}
 
 .entry footer,.post-footer{color:#666}
+
+/* This theme ships a light-only palette, including the browser canvas. */
+:root{color-scheme:light}
