@@ -1,0 +1,2 @@
+Er’s brown site badge, 650px reading column, compact dated post list and Tachyons typography.
+Original Tachyons 4.9.0 CSS is bundled with its MIT and Normalize notices. Source Sans Pro uses system sans-serif fallback. Hugo-generated floating TOC, tag cloud, series and adjacent-post queries are omitted; native category/tag directories and article metadata remain available. No demonstration image, external font or analytics is included.
