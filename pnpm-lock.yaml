@@ -54,8 +54,6 @@ importers:
 
   packages/eksell: {}
 
-  packages/smol: {}
-
   packages/academic-cv: {}
 
   packages/solo: {}
@@ -223,6 +221,8 @@ importers:
   packages/initial: {}
 
   packages/jasmine: {}
+
+  packages/smol: {}
 
   packages/jj: {}
 
