@@ -127,6 +127,8 @@ importers:
 
   packages/zola-arabesque: {}
 
+  packages/zola-zolarwind: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}

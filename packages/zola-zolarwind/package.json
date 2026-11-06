@@ -1,0 +1,36 @@
+{
+  "name": "zola-zolarwind",
+  "title": "Zolarwind",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Zolarwind’s original Tailwind 4 palettes, responsive image-card grid, sticky navigation and full-width article banners.",
+  "license": "MIT",
+  "author": "Thomas Weitzel; Firekylin contributors",
+  "homepage": "https://github.com/thomasweitzel/zolarwind",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/zola-zolarwind"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "zola-zolarwind"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
