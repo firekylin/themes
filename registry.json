@@ -1705,6 +1705,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-theme-tokiwa",
+      "id": "hugo-theme-tokiwa",
+      "version": "0.1.0",
+      "title": "Tokiwa",
+      "description": "Tokiwa original eucalyptus palette, sticky left title/sidebar, right text feed and native article TOC.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-tokiwa-v0.1.0/hugo-theme-tokiwa-0.1.0.zip",
+      "integrity": "sha512-N60Bu/xM3YNQLLy9BfBpo62PEuCGC4LF6O3yGT/zK8TD1b8wyw467MQX6mBcfkKcQSx820j9u50tSm6vZ4uLsw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-tokiwa/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-theme-vec",
       "id": "hugo-theme-vec",
       "version": "0.1.2",

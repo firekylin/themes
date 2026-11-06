@@ -487,6 +487,10 @@
     "hash": "7c6c6c35c916e5020c5918d3e0ebd2bacde0688691f2b780feefa796acb1f574",
     "id": "hugo-theme-nix"
   },
+  "hugo-theme-tokiwa": {
+    "hash": "19a18860d4eb8491a8ce7fcf576a01b97b52a0ad3aaf652d7bf617b71198a3f1",
+    "id": "hugo-theme-tokiwa"
+  },
   "hugo-theme-vec": {
     "hash": "44b87a500dccd207be2612faa3a5f668fe5abbec04c90c05c5f649d839997f99",
     "id": "hugo-theme-vec"
