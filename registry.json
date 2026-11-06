@@ -1243,6 +1243,34 @@
     },
     {
       "type": "theme",
+      "name": "hugo-kiera",
+      "id": "hugo-kiera",
+      "version": "0.1.0",
+      "title": "Kiera",
+      "description": "Kiera’s serif writing column, prominent article titles, thick navigation rule and original system light/dark palettes.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-kiera-v0.1.0/hugo-kiera-0.1.0.zip",
+      "integrity": "sha512-XGX1vPoEkAMTJxo85I+UR52S7RQ7C9ii18DEfAOMUeiKnLom3zVz4QG6Eg9CsOQgSseKYcCpb5vN52vSw7FNkg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-kiera/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "hugo-theme-anubis",
+      "id": "hugo-theme-anubis",
+      "version": "0.1.0",
+      "title": "Anubis",
+      "description": "Anubis’s restrained system typography, rounded navigation surface, generous summary feed and automatic light/dark palettes.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-anubis-v0.1.0/hugo-theme-anubis-0.1.0.zip",
+      "integrity": "sha512-32ZH19Y83X71k/DnRu08vytsnNmeLN6d/5EBFlBcXqs/NevoZXHuuWKEOyELJIntfKnrD2PtdU3Q+qFANHoQ9Q==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-anubis/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-theme-nix",
       "id": "hugo-theme-nix",
       "version": "0.1.0",
