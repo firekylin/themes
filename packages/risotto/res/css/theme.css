@@ -462,3 +462,6 @@ body {
 
 /* Native integration */
 body{margin:0;padding:1.5rem;overflow-wrap:anywhere}iframe,video{max-width:100%}.prose table{display:block;overflow:auto}.post-actions,.tags{display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0}.pagination{display:flex;justify-content:space-between;gap:1rem;margin:2rem 0}.skip{position:absolute;top:-100px}.skip:focus{top:0}input,button{font:inherit;max-width:100%;box-sizing:border-box}.page__aside{align-self:start}.page__body{min-width:0}.toc-list{padding-left:1rem}.toc-list li{margin-bottom:.5rem}.post-date{font-size:.85rem;color:var(--off-fg)}:focus-visible{outline:2px solid var(--link);outline-offset:3px}@media(max-width:44.99rem){.page__aside{position:static;max-height:none}}
+
+/* Native code and attachment containment. */
+.prose pre{max-width:100%;overflow-x:auto}.attachment-media img,.attachment-media audio,.attachment-media video{max-width:100%}
