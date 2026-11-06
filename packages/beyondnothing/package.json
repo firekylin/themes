@@ -1,0 +1,36 @@
+{
+  "name": "beyondnothing",
+  "title": "Beyond Nothing",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Beyond Nothing’s pale gray canvas, compact 650px title/date list and yellow highlighted links.",
+  "license": "MIT",
+  "author": "Sal Cangeloso; Firekylin contributors",
+  "homepage": "https://github.com/salcan/BeyondNothing",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/beyondnothing"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "beyondnothing"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
