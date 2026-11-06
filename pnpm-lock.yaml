@@ -336,6 +336,8 @@ importers:
 
   packages/zola-seje2: {}
 
+  packages/zola-press-start: {}
+
   packages/zola-serene: {}
 
   packages/zola-kangae: {}
