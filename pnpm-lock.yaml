@@ -162,6 +162,8 @@ importers:
 
   packages/future-imperfect: {}
 
+  packages/hpstr-hugo-theme: {}
+
   packages/erblog: {}
 
   packages/zola-coast: {}
