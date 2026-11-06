@@ -1,0 +1,36 @@
+{
+  "name": "centrarium",
+  "title": "Centrarium",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Centrarium’s centered title banner, clean ruled post list, excerpt/date metadata and original Bourbon/Neat layout styles.",
+  "license": "MIT",
+  "author": "Ben Centra; Firekylin contributors",
+  "homepage": "https://github.com/bencentra/centrarium",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/centrarium"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "centrarium"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
