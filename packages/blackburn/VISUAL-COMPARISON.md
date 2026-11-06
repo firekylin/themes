@@ -1,0 +1,1 @@
+Original Pure side-menu/Blackburn CSS and local Raleway preserve fixed dark sidebar, centered thin masthead and summary feed. Mobile visible top navigation replaces offcanvas script; original white reading canvas retained. No social icon font/CDN assets.
