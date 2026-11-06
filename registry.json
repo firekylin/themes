@@ -1130,6 +1130,20 @@
     },
     {
       "type": "theme",
+      "name": "poole",
+      "id": "poole",
+      "version": "0.1.0",
+      "title": "Poole",
+      "description": "Poole: responsive single-column reading, system typography and automatic dark mode.",
+      "download": "https://github.com/firekylin/themes/releases/download/poole-v0.1.0/poole-0.1.0.zip",
+      "integrity": "sha512-/Mi4IKOGQXnjulrx/9qSAEVdWzdCbV5P9AX88TlzuRVkkrUssA/Gkr/eX5Q4/ysOUolhnOAhNLao193t5IhP7w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/poole/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "firekylin-theme-puock",
       "id": "puock",
       "version": "0.1.1",
