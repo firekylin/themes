@@ -291,3 +291,6 @@ figure {
 
 /* Native Firekylin integration */
 body{overflow-wrap:anywhere}.terminal-menu ul{flex-wrap:wrap;gap:.5rem}.terminal-menu li{margin-right:1rem}.terminal-nav{gap:1rem;flex-wrap:wrap}.terminal-logo{min-width:0}img{height:auto}iframe,video{max-width:100%}.prose pre,.prose table{max-width:100%;overflow:auto}.post-actions,.tags{display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0}.pagination{display:flex;justify-content:space-between;margin:2rem 0}.skip{position:absolute;top:-100px}.skip:focus{top:0}input,button{font:inherit;max-width:100%;box-sizing:border-box}.posts-list .entry{margin-bottom:2rem}.footer{color:var(--font-color)}:focus-visible{outline:2px solid var(--primary-color);outline-offset:3px}@media(prefers-reduced-motion:reduce){.terminal-prompt:after{animation:none}}@media(max-width:850px){.posts-list .date{display:block;position:static;width:auto;font-weight:normal;font-size:.9em}}
+
+/* Native code and attachment containment. */
+.prose pre{max-width:100%;overflow-x:auto}.attachment-media img,.attachment-media audio,.attachment-media video{max-width:100%}
