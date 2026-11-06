@@ -184,6 +184,8 @@ importers:
 
   packages/edition: {}
 
+  packages/zola-dinkleberg: {}
+
   packages/etch: {}
 
   packages/echo: {}
