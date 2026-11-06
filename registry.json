@@ -269,6 +269,20 @@
     },
     {
       "type": "theme",
+      "name": "base16",
+      "id": "base16",
+      "version": "0.1.0",
+      "title": "Base16",
+      "description": "Base16 Eighties terminal palette, bracketed prompt masthead and contrasting editorial summary panels.",
+      "download": "https://github.com/firekylin/themes/releases/download/base16-v0.1.0/base16-0.1.0.zip",
+      "integrity": "sha512-AuxBJZJF6ZF9dM9JPNJqQJNH0S5O8QcN4r1EP4KtoYiE0W5dqHd997omBOEZRMLJB1uaUqv4wVMDQQSR8GOeOg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/base16/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "basically-basic",
       "id": "basically-basic",
       "version": "0.1.0",
@@ -871,6 +885,20 @@
     },
     {
       "type": "theme",
+      "name": "etch",
+      "id": "etch",
+      "version": "0.1.0",
+      "title": "Etch",
+      "description": "Etch’s original 600px reading column, inline post/date list, compact banner and system dark palette.",
+      "download": "https://github.com/firekylin/themes/releases/download/etch-v0.1.0/etch-0.1.0.zip",
+      "integrity": "sha512-SuHG8neLca6xGhhsFtMfcyaqpcRk9kxxu4m+ezFpPYuIZ9JhoB+LijVdb3dYTkxPnnaGw2dfCdjqaXS4Ha/sBA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/etch/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "even",
       "id": "even",
       "version": "0.1.0",
@@ -1183,6 +1211,20 @@
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-coder/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "hugo-theme-yinyang",
+      "id": "hugo-theme-yinyang",
+      "version": "0.1.0",
+      "title": "Yinyang",
+      "description": "Yinyang’s Bungee Shade masthead, Bree Serif reading face, year-grouped dated post rows and switchable dark palette.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-yinyang-v0.1.0/hugo-theme-yinyang-0.1.0.zip",
+      "integrity": "sha512-izUQV6aPW5tgotwHqSmdi7mftJ1aZtoshCDN6Qtr31tM9en94XnRz1rD9Mli715LPsvTxy6CjUXLJSubHiBo8g==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-yinyang/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
       }
     },
     {
@@ -2398,6 +2440,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/sleek-v0.1.0/sleek-0.1.0.zip",
       "integrity": "sha512-SXq/N3yIox1+xfaOCcMZT483RnRY6fBfbSa5eejV+pdN2g+iZlgfi9vYQWj3dCeU3n4//C2WHlVk3GRgKWHIDw==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/sleek/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "smol",
+      "id": "smol",
+      "version": "0.1.0",
+      "title": "Smol",
+      "description": "Smol’s original monospace typography, ASCII masthead, unboxed summary feed and automatic light/dark colors.",
+      "download": "https://github.com/firekylin/themes/releases/download/smol-v0.1.0/smol-0.1.0.zip",
+      "integrity": "sha512-iHWuV5irLj76picgleuUcCG3SybxtPup4+/QUIbHhV7N8oYBkYSHoZDVcDCu3LBdpMOfotHcqlT/45sAzgAJPg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/smol/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }

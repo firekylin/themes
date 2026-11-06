@@ -75,6 +75,10 @@
     "hash": "6dd640a4870d9e91bd8f97d45a88571c4b0358f1d2e3db86a5f77a40dcfe8d84",
     "id": "aurora"
   },
+  "base16": {
+    "hash": "6c48f53bf48bf1c01d845c1c7b0cd11826239aaa8c118553581e6aebb900b7c7",
+    "id": "base16"
+  },
   "basically-basic": {
     "hash": "133c756e8e644b468ef9289153273937614c372f4cbcdc6b9e56a41ca27d0fbd",
     "id": "basically-basic"
@@ -247,6 +251,10 @@
     "hash": "000949948a3dcfa0d6c5a57c9326f67ff17eba83904b0d724492ed01a092b89b",
     "id": "eksell"
   },
+  "etch": {
+    "hash": "56fa257c1064fd620725df7e9c6aa23f169cd7f6cd8e0dffea3c8ebbca2a7080",
+    "id": "etch"
+  },
   "even": {
     "hash": "b1e5565e3435fd02dd6da2c37f3aa0be25afa4fe95296a1c6bccef3342696ede",
     "id": "even"
@@ -338,6 +346,10 @@
   "hugo-coder": {
     "hash": "b4fe5d321b50a0fc321ca7f67c8c0721f6a37ff1be2bd23acc564d5bf65ed634",
     "id": "hugo-coder"
+  },
+  "hugo-theme-yinyang": {
+    "hash": "01c892ce0a3554693c3cb496ed23f4bbcf9e7350266f62d8b96bbb0b7e18e8d0",
+    "id": "hugo-theme-yinyang"
   },
   "hugoplate": {
     "hash": "bff9aefe9a4ecfbf261714d395e33503ba47c012079e6187fed2c8408e13d31c",
@@ -690,6 +702,10 @@
   "sleek": {
     "hash": "7fb60f39d958476c37e73bf242c884a0fe4bf9d11533fb944d1d3c2835d5f739",
     "id": "sleek"
+  },
+  "smol": {
+    "hash": "906311847b96a11ca73a7409e33ea903c0501b17dc1e311a826af3f0a076a2f3",
+    "id": "smol"
   },
   "so-simple": {
     "hash": "9f41503387e8d2115f2cbb3def8638069f736f62ea3ad37513f531f85415a49c",
