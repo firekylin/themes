@@ -270,6 +270,8 @@ importers:
 
   packages/paul: {}
 
+  packages/shoreditch: {}
+
   packages/pinghsu: {}
 
   packages/poole: {}
