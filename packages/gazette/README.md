@@ -1,0 +1,9 @@
+# Gazette for Firekylin
+
+Automattic Gazette1.1.8-wpcom, pinned at75faa8a1e0367a37c2638250a3c9ed0a0f8c0b7f. Theme and adaptation GPLv2-or-later; full license and original editable CSS included, source templates/overrides available. Separate Normalize MIT and unmodified Lato/Lora/Inconsolata OFL1.1 notices retained. No demonstration photographs, Genericons, WordPress plugins/PHP or external service code bundled.
+
+Preserves the photographic featured band, white magazine grid (three/two/one columns by viewport), strong Lato headings, Lora body text, Inconsolata code and blue links. Homepage band uses the latest three public native posts, with dark text-only fallback tiles when images are absent; these entries also remain in the paginated feed. This explicitly replaces Jetpack selected-tag featured content. Native featuredImage accepts HTTP(S)/site-absolute URLs for tiles/cards/articles; invalid URLs are omitted. Navigation stays visible without JS. Footer author/text options are escaped. Native posts/pages/attachments, archives/taxonomies/search/pagination, protected content and gated comments work.
+
+WordPress widget sidebars/footer widgets, Jetpack featured selection/infinite scroll/related posts/sharing/likes/contact forms, post-format-specific views, header logo/background configuration, thumbnail resizing/srcset, avatar author biography and sliding search/menu behavior are omitted. Native pagination/search/comments replace their WordPress equivalents. No Genericons dependency; blockquote mark uses ordinary text. Palette remains light under dark OS preference. Remote comment authentication/submission unverified.
+
+Verified actual ZIP installation into Firekylin2.17.1 SQLite, desktop/mobile routes, responsive grid, featured-band fallbacks, local fonts, footer config, no-JS search/navigation, private/draft filtering, comments and native video/audio containment. Screenshots represent adaptation, not live-demo pixel equality.
