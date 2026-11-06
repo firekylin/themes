@@ -1,0 +1,9 @@
+# Block for Firekylin
+
+Source https://github.com/ssiyad/block; pinned revision in NOTICE.md. GPL-3.0-only adaptation, with complete license and corresponding source. Tailwind 4.1.18 and Acid palette MIT notices, local Zilla Slab fonts and OFL notice included.
+
+Preserves paper islands over animated grain, pill navigation, hand-drawn title underline, numbered post rows with hover excerpts, Acid Citric/Lactic colors and sidebar article layout. `flavor` accepts auto, citric (dark) or lactic (light). Native headings generate a text-only TOC with upstream scroll-spy and progress bar. Upstream reduced-motion CSS disables grain/entry/mark animation; navigation and content remain usable without JavaScript.
+
+Native Firekylin 2.17.1+ posts/pages/attachments, archives/taxonomies/search/pagination and gated comments. Homepage uses intro and post list; optional portfolio/photo, GitHub/Bluesky cards, contributions, social services and static project pages are not ported. Native search replaces the static client-side index; no private content is exported to one. Zola shortcodes, build-time TOC, reading times and adjacent-post metadata are omitted. Remote comment login/submission untested. No upstream demo photos/icons or remote fonts/services bundled.
+
+Verification installs actual ZIP into SQLite Firekylin and checks desktop/mobile routes, privacy/comments, no-JS search/navigation, media, TOC/progress and system colors. Screenshots compare pinned source styles/templates, not live-demo pixel parity. To rebuild upstream CSS, copy res/source into a temporary directory with styles/, templates/, package-lock.json and upstream-package.json.txt (rename the latter to package.json), create static/, run npm ci and npm run css:build; preserve the appended local font/native integration CSS when replacing theme.css.
