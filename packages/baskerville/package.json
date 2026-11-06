@@ -1,0 +1,36 @@
+{
+  "name": "baskerville",
+  "title": "Baskerville",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Baskerville’s dark masthead, Roboto Slab titles, light-gray canvas and three-column magazine cards. Native grid replaces masonry without the WordPress JavaScript dependency.",
+  "license": "GPL-2.0-only",
+  "author": "Anders Norén; Firekylin contributors",
+  "homepage": "https://github.com/andersnoren/baskerville",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/baskerville"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "baskerville"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
