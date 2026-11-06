@@ -2603,6 +2603,20 @@
     },
     {
       "type": "theme",
+      "name": "paperesque",
+      "id": "paperesque",
+      "version": "0.1.0",
+      "title": "Paperesque",
+      "description": "Paperesque’s navy/coral navigation, paper article sheets, Lora headings and title/date list with side introduction.",
+      "download": "https://github.com/firekylin/themes/releases/download/paperesque-v0.1.0/paperesque-0.1.0.zip",
+      "integrity": "sha512-HiGteyiTz+jJuFEt3AFdSmgkbEtcvyUm1EM0acM5vBcaf3c7Q9cUI/sxw9csCSs5OhwKF2uXCuZ0aaN1eIQC5A==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/paperesque/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "papermod",
       "id": "papermod",
       "version": "0.1.0",
