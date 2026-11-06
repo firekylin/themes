@@ -36,7 +36,7 @@
     "id": "aquila"
   },
   "arabica": {
-    "hash": "bd374254213816e7da9ee63498d248c1172cefc4480ede4ea3caf52e1ae36e79",
+    "hash": "ba3f44a6cd10a180f490ce4bcc04be3c78eb6a5ae4e0a2b012d5126bcfe52253",
     "id": "arabica"
   },
   "archer": {
@@ -80,7 +80,7 @@
     "id": "aurora"
   },
   "base16": {
-    "hash": "6c48f53bf48bf1c01d845c1c7b0cd11826239aaa8c118553581e6aebb900b7c7",
+    "hash": "58ec3035171b6e1237a5f5e51348f1821d4a2db9fa6a9e5d47e33776b0903775",
     "id": "base16"
   },
   "basically-basic": {
@@ -100,7 +100,7 @@
     "id": "beautiful-jekyll"
   },
   "beyondnothing": {
-    "hash": "0ebc94cc39ec0555e9cdc491df27b7f2be6b7dfbfc9b906411f3bf0dfec21b48",
+    "hash": "f41a026fdfe05259b2f25195e7e95a3f4ed1a337a27c03060850e256a89accc3",
     "id": "beyondnothing"
   },
   "bilberry": {
@@ -264,15 +264,15 @@
     "id": "eksell"
   },
   "elephants": {
-    "hash": "a0d1901048db1589aa14a301fabf9b56e78c596f0f40b03a1416472e4494d3e3",
+    "hash": "c5d1a5a420839890d1fe4646241ee2e055f553d065250928099908135e546db3",
     "id": "elephants"
   },
   "er": {
-    "hash": "7c9139202a63811db2aefdeaa458a7a796c3c0fd7d6bfcae54f49fb764d3e72b",
+    "hash": "47ea2aba71f98e544ee065f1681453492c3fd23cfb1a936910720a5acc3c6671",
     "id": "er"
   },
   "etch": {
-    "hash": "56fa257c1064fd620725df7e9c6aa23f169cd7f6cd8e0dffea3c8ebbca2a7080",
+    "hash": "4811de40ce67b31b8df1f130b928f7c5ae5f3d9ce23e56ef060429c7e50e7cc5",
     "id": "etch"
   },
   "even": {
@@ -308,7 +308,7 @@
     "id": "g"
   },
   "ghostwriter": {
-    "hash": "480959f6921b485917fea84338712a04fee2baf7a685969b043fa64f8e431501",
+    "hash": "01caed643cb5c898aebd5b919e1536dbca843e12cf550f2a9c6f2b38d52de1f9",
     "id": "ghostwriter"
   },
   "gokarna": {
@@ -372,43 +372,47 @@
     "id": "hugo-coder"
   },
   "hugo-dusk": {
-    "hash": "d4c47877cb282beaba6b26f3ed091b8f843b0c023c0a7ea9f43a9f157995a4fb",
+    "hash": "0dfc3dd0dee2b671bf4ba98a87f6a6c565cd5de42db3aea715487908d4a117f7",
     "id": "hugo-dusk"
   },
+  "hugo-frais": {
+    "hash": "7d517ce6705576d3e7fe017edc3d0d2190b6f3c8c60d18cffd056e1439247892",
+    "id": "hugo-frais"
+  },
   "hugo-hello-programmer-theme": {
-    "hash": "6c0231394d8daaea5a6899724a02ec461f8d069c867c0fa4d8f4c4be4a7bccdc",
+    "hash": "400c9919fcc3637c9f8562af43d779b213597a13b70211f6c41fe7a6d16b2960",
     "id": "hugo-hello-programmer-theme"
   },
   "hugo-kiera": {
-    "hash": "f29aff759ea06a7e0242162789af9947d6f6c37f575c59a484ca5ec9a1b7e3e5",
+    "hash": "ffd7992320ba72cc63958a78addf63e3b443e99ec27085b7c3776531f0a96fd8",
     "id": "hugo-kiera"
   },
   "hugo-lithium-theme": {
-    "hash": "9748fc02e7182bd88c267d280c6ea99c67a0db3e3106c7eba668265f7d8fe5c9",
+    "hash": "6c7da30ff3d25a28f3e49291a95f47854e3c835c978c2ab2873a4d05e9f9282f",
     "id": "hugo-lithium-theme"
   },
   "hugo-sustain": {
-    "hash": "2fc99e4883a3106ee976d44c4c359a71574a37ea20f7c02166ae2870e6471caa",
+    "hash": "a768a29b76357e6aedea8d653bfa03b607734c7fd197cd7230fe03c1b3212d9f",
     "id": "hugo-sustain"
   },
   "hugo-theme-anubis": {
-    "hash": "ce8131fcc2e86342eb164fddb2b3c08e39ba16338f153166fcd7b30fd1af8ec7",
+    "hash": "d617216306c06fe8227ece8d27088795861df3abd8772e1f585233704b36c823",
     "id": "hugo-theme-anubis"
   },
   "hugo-theme-nix": {
-    "hash": "254fa0bfcd1b19e10d7d3747044ceb37e8947400a10d6e6b2b32f49e620eba0d",
+    "hash": "7c6c6c35c916e5020c5918d3e0ebd2bacde0688691f2b780feefa796acb1f574",
     "id": "hugo-theme-nix"
   },
   "hugo-theme-vec": {
-    "hash": "4b6d3df397f3ade2d690cb093987539dc78ee326aaad1056e4cad9272b6446d1",
+    "hash": "44b87a500dccd207be2612faa3a5f668fe5abbec04c90c05c5f649d839997f99",
     "id": "hugo-theme-vec"
   },
   "hugo-theme-yinyang": {
-    "hash": "01c892ce0a3554693c3cb496ed23f4bbcf9e7350266f62d8b96bbb0b7e18e8d0",
+    "hash": "91c37c7d1df554cf2fdd40036a30aff277e4bd3cf865b1d4b7eef898a3c00afd",
     "id": "hugo-theme-yinyang"
   },
   "hugo-xmag": {
-    "hash": "81ee1cbdd72023ed96d8630c4fd7ac0184dccc74a469c33f97fc707326d43f84",
+    "hash": "fb969196ec3dcc98f071b5686e2a13f3b6b2dfdf25afe2408cc453320ac7d490",
     "id": "hugo-xmag"
   },
   "hugoplate": {
@@ -448,7 +452,7 @@
     "id": "ink"
   },
   "internet-weblog": {
-    "hash": "2792bc8ff852778cb8a447dc006649fd1eafbd3a1a583488d2b25618fe5bb719",
+    "hash": "8102e665414dd98bfe8fdc0bbfef47cdc555d84fd6fa04d1b798d832c484285e",
     "id": "internet-weblog"
   },
   "iwata": {
@@ -552,7 +556,7 @@
     "id": "mainroad"
   },
   "manis-hugo-theme": {
-    "hash": "101d2c2798e57aac1b05595767a18f88bf64fd01fe4910f8d197480801b34e90",
+    "hash": "0f39e2328198acab6bf59717a0112268dacd23782b108d45113dfdfe4305aaf1",
     "id": "manis-hugo-theme"
   },
   "massively": {
@@ -600,7 +604,7 @@
     "id": "millennial"
   },
   "min_night": {
-    "hash": "e4af50e92ead02f69a0aa33f9196b38cf727ee695d4340cec9c5aec30715ebc0",
+    "hash": "cdf1722fd1d6a164bb6d52349f3cca359997e0c4928ead6d1405971130c1a0a7",
     "id": "min_night"
   },
   "mini": {
@@ -664,7 +668,7 @@
     "id": "no-style-please"
   },
   "nofancy": {
-    "hash": "c4268876b4336ce020acadd726df0a5b19455dbff669fa5428d9cdd12b859ede",
+    "hash": "1d5d4e1b2d9c439797ff1d1e40ffbe3caaf70a8d98cff03e2651dfe6da435e9e",
     "id": "nofancy"
   },
   "notepadium": {
@@ -688,7 +692,7 @@
     "id": "openblog"
   },
   "papaya": {
-    "hash": "9d1a94d4d5d9f99a89c4008896bcbdc87d36c8f64f4df127043b2fd2f8ecfe21",
+    "hash": "6fe93ce77ec3e3e274af99bb8512028e25457ff129e540d0f3e1604d96935dbe",
     "id": "papaya"
   },
   "paper": {
@@ -696,7 +700,7 @@
     "id": "paper"
   },
   "paperback": {
-    "hash": "49e5c4a562151d76f50032223b87c17bf0245c55f4253e7520b5bcff514c44a3",
+    "hash": "081294d8f7703fe46115d5d2a617d587fa439589bea93247f12b4ae636d3bcf6",
     "id": "paperback"
   },
   "papermod": {
@@ -728,7 +732,7 @@
     "id": "pure"
   },
   "purehugo": {
-    "hash": "279c749e71b54504776880b2992f5361abb4d19fb0233507845e8c976c32cb5a",
+    "hash": "80f8e1a26556e72a3d1d1d0cfb3a7b363bd60b43da6c4d78323ffd9870effeaf",
     "id": "purehugo"
   },
   "rams": {
@@ -788,11 +792,11 @@
     "id": "sleek"
   },
   "slim": {
-    "hash": "03dba3cea47e15f42adcc7f8e5558574f3f4e0d7485a9d094c1b9b22b8b7aad5",
+    "hash": "4f91e611a5a7ce2bc4f67074839f111955bdb3b495f7e4f3a75cabf86ff7830f",
     "id": "slim"
   },
   "smol": {
-    "hash": "906311847b96a11ca73a7409e33ea903c0501b17dc1e311a826af3f0a076a2f3",
+    "hash": "b315d4cc3906cffc10fd0a886b77c8f70903a9a08b1e24c030ccdff32c9ee0a3",
     "id": "smol"
   },
   "so-simple": {
@@ -824,7 +828,7 @@
     "id": "story"
   },
   "strange-case": {
-    "hash": "2a3d11f20866d4091cf120d68e2ff2f4e8bf024a7e296604357e659f68a76d61",
+    "hash": "eab03159bb735fd4ad51d1ce9af6c2a38c4cdff5c0195ae02830a780af82bd8f",
     "id": "strange-case"
   },
   "suka": {
@@ -880,7 +884,7 @@
     "id": "typo"
   },
   "vienna": {
-    "hash": "564b3978a0fea4c18a7e0980c498c51cc8bf0c3ead487c4687e288a620153a04",
+    "hash": "901127b9df2e6231cdafefb9c830f4dd196e691ff43cc9d5c084b089a3b027b5",
     "id": "vienna"
   },
   "vitae": {
@@ -932,35 +936,35 @@
     "id": "zen"
   },
   "zola-dinkleberg": {
-    "hash": "6dde5d7153ea1a397fd09f3421b9395f12d359b7f65cc2abe4e8747bbb6d019b",
+    "hash": "42cf3cf21e306c2104d14f86d6c676e5998fc433b15bf3e7992d63912561f6a5",
     "id": "zola-dinkleberg"
   },
   "zola-dose": {
-    "hash": "f4bef9edd314617e22adbb2de9619152ad38e870044a629e7ff5e7ad2713ad25",
+    "hash": "d57e52b536267ffe8297a8fcc290a8b80a3fc343b895bbc705899cb5fbc445b6",
     "id": "zola-dose"
   },
   "zola-ergo": {
-    "hash": "34cd6adc4b0837f19c32c210cc0deb5b4d0fb3c63b6b174429cae3efd0dd8a71",
+    "hash": "14f1ff081ee479b3d2718b3ed64c5460ede1f96417edcdce28c246f371c048ed",
     "id": "zola-ergo"
   },
   "zola-hook": {
-    "hash": "7ebad21c2d59e422dafbb8caa2a212da0a443610320eeb8c46cb242740b15775",
+    "hash": "e3e9bff059d6bb373122affd5bdad35ab501e9eabc5f2be0a15e8e0c429f9b7e",
     "id": "zola-hook"
   },
   "zola-oceanic-zen": {
-    "hash": "f6aaaec31098af2eac56bb508df207c8d20a121fb1403ee94a2a0b1f3e46bf0d",
+    "hash": "95f0802fd8ea86ee60eba754c2aecb09dba5834b19993b71debc33fbe81f49b3",
     "id": "zola-oceanic-zen"
   },
   "zola-zola-henry": {
-    "hash": "8a677d4702ba92e21cb786c5ede1e4bfa74e20f61afaa870630e8f0e34c9cc26",
+    "hash": "82e5dc9ec5850b3069ea13690e3a1b166165cc9f93104c1ab774d33b558a50f9",
     "id": "zola-zola-henry"
   },
   "zola-zola-pickles": {
-    "hash": "5d1ae3b38ce425f9b57e89c715f3c67b2ad0303354359e74b423def6416757e2",
+    "hash": "4f6992a5c0838d9f7183c148442c4ec4d10e0e4844b5d51433d0abd781043c4b",
     "id": "zola-zola-pickles"
   },
   "zola-zola-theme-hikari": {
-    "hash": "ad54db8615ce5264085066b36e06277d3af0e9914f8aa3b5f46509f2f4f80691",
+    "hash": "3606183558fbda3e9e21032a01455b325cce1537b6f2c73ebce16cc275f1a083",
     "id": "zola-zola-theme-hikari"
   }
 }

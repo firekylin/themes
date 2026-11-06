@@ -131,11 +131,11 @@
       "type": "theme",
       "name": "arabica",
       "id": "arabica",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Arabica",
       "description": "Arabica’s centered Lato masthead, Bree Serif article headings, optional featured images and orange-accented summaries.",
-      "download": "https://github.com/firekylin/themes/releases/download/arabica-v0.1.0/arabica-0.1.0.zip",
-      "integrity": "sha512-ZGP+zIqaHYvMwh73Z4LClXXjzNHUNPsNrGlHo/Z6weilI604pgiHPC8Am3xrY5c90cqfB6v86XKJhhlqTyLEjw==",
+      "download": "https://github.com/firekylin/themes/releases/download/arabica-v0.1.1/arabica-0.1.1.zip",
+      "integrity": "sha512-MwiuWBI+RdGn6Cv/MFGW/9+AA+9Tdo1F0qmJEoG/fvLXXr8gDzhXmPNpwnZKMrU5vy4mdnC6+adWZelDHMfzJQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/arabica/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -285,11 +285,11 @@
       "type": "theme",
       "name": "base16",
       "id": "base16",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Base16",
       "description": "Base16 Eighties terminal palette, bracketed prompt masthead and contrasting editorial summary panels.",
-      "download": "https://github.com/firekylin/themes/releases/download/base16-v0.1.0/base16-0.1.0.zip",
-      "integrity": "sha512-AuxBJZJF6ZF9dM9JPNJqQJNH0S5O8QcN4r1EP4KtoYiE0W5dqHd997omBOEZRMLJB1uaUqv4wVMDQQSR8GOeOg==",
+      "download": "https://github.com/firekylin/themes/releases/download/base16-v0.1.1/base16-0.1.1.zip",
+      "integrity": "sha512-0pY0uPVjm0YkskO0O9LjjNWfTG7vZz2yEruRXT0HPUrX38Q+y/L81nrKD2V9gMDn2XjwQ//D4o9DN4/GAYQ1SQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/base16/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -355,11 +355,11 @@
       "type": "theme",
       "name": "beyondnothing",
       "id": "beyondnothing",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Beyond Nothing",
       "description": "Beyond Nothing’s pale gray canvas, compact 650px title/date list and yellow highlighted links.",
-      "download": "https://github.com/firekylin/themes/releases/download/beyondnothing-v0.1.0/beyondnothing-0.1.0.zip",
-      "integrity": "sha512-ailQKtNS9qHktpzuAAEjOmH8lU3DqGjpJoOBhJr+SONAlPnNcrM0tTH3sznooN0gSzc/uAeHBQov3xsza7mkeA==",
+      "download": "https://github.com/firekylin/themes/releases/download/beyondnothing-v0.1.1/beyondnothing-0.1.1.zip",
+      "integrity": "sha512-Nk4wWXDcCbz5vF5cttw1M4YGXNLef3TX5YRP19ve5XSEesEZuUB0bkK1pOYxqjGlrWDY6NPttOQPlV1IL/xS2A==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/beyondnothing/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -929,11 +929,11 @@
       "type": "theme",
       "name": "elephants",
       "id": "elephants",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Elephants",
       "description": "Elephants’s centered title, Ubuntu typography and two-column date/title archive table.",
-      "download": "https://github.com/firekylin/themes/releases/download/elephants-v0.1.0/elephants-0.1.0.zip",
-      "integrity": "sha512-ho4RBO57t8owlMQnMcgbEpfsk0AS1wbaKEmbLR69RrZWiUaoc2vmFETtJfuBdgZVJ6XoH2c++SC6sEkakwpvWg==",
+      "download": "https://github.com/firekylin/themes/releases/download/elephants-v0.1.1/elephants-0.1.1.zip",
+      "integrity": "sha512-PVHuyNOA4oTU/bhSpW4yfFNf0pS6nZXanYWlQirHqeMwKHBAwdZ9oXnazJtNWx+nd8Un52FSr0eqcDv0lxatUA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/elephants/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -943,11 +943,11 @@
       "type": "theme",
       "name": "er",
       "id": "er",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Er",
       "description": "Er’s brown site badge, 650px reading column, compact dated post list and Tachyons typography.",
-      "download": "https://github.com/firekylin/themes/releases/download/er-v0.1.0/er-0.1.0.zip",
-      "integrity": "sha512-d4wqEFdBm+EP2FzqI/sPNCze4chKt/DYGzxKaP+JXTTtQgF23Y+NZo0je0ZcSvqDI5iLVrseSN4HGipiQW0o5g==",
+      "download": "https://github.com/firekylin/themes/releases/download/er-v0.1.1/er-0.1.1.zip",
+      "integrity": "sha512-uQMNOEBwbkZtN4mfsUSbCVetUt8sTC/G1h5+hTcP+u3oWJmZuX+uyYif0IIwVjOasulKcYTKStd1WgmoBo5EIw==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/er/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -957,11 +957,11 @@
       "type": "theme",
       "name": "etch",
       "id": "etch",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Etch",
       "description": "Etch’s original 600px reading column, inline post/date list, compact banner and system dark palette.",
-      "download": "https://github.com/firekylin/themes/releases/download/etch-v0.1.0/etch-0.1.0.zip",
-      "integrity": "sha512-SuHG8neLca6xGhhsFtMfcyaqpcRk9kxxu4m+ezFpPYuIZ9JhoB+LijVdb3dYTkxPnnaGw2dfCdjqaXS4Ha/sBA==",
+      "download": "https://github.com/firekylin/themes/releases/download/etch-v0.1.1/etch-0.1.1.zip",
+      "integrity": "sha512-nX/pKgbgY83KhRczN+LYRG1Y4sfc32f5h5kerxtEkVAOzsjdaGhpp2RSZO9lA2RObSoL3xNsLdyMHrwCRdKoUg==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/etch/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -1077,11 +1077,11 @@
       "type": "theme",
       "name": "ghostwriter",
       "id": "ghostwriter",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "title": "ghostwriter",
       "description": "Ghostwriter’s red wordmark, centered masthead, dotted post/date rows and bold uppercase article headings.",
-      "download": "https://github.com/firekylin/themes/releases/download/ghostwriter-v0.1.1/ghostwriter-0.1.1.zip",
-      "integrity": "sha512-RNyJ+x36M/6Dzjv+DH17r9i/CTaWcQ8WWshj7MSJEIiwmxIX9NaY65BdxIyakoUpbMoebAOw1JuLPujMq2vW/A==",
+      "download": "https://github.com/firekylin/themes/releases/download/ghostwriter-v0.1.2/ghostwriter-0.1.2.zip",
+      "integrity": "sha512-ynaPYzDSiZkkcbkkepITyr0ikWDHLc87TRe7RxepZUVL65yi2r8LdFi+zfNCP/3GGgyphNO1i2eqMxdCd76lcA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/ghostwriter/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -1301,12 +1301,26 @@
       "type": "theme",
       "name": "hugo-dusk",
       "id": "hugo-dusk",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "hugo-dusk",
       "description": "Hugo Dusk’s dark panels, cyan identity, centered navigation and bordered summary cards.",
-      "download": "https://github.com/firekylin/themes/releases/download/hugo-dusk-v0.1.0/hugo-dusk-0.1.0.zip",
-      "integrity": "sha512-nkAtX/L/5zQRDAcmtvoeWXHPyj+n8XMFwbIhYxYTwMZkRj8lkgy2OsCdEOBzHwUvdWYrSG3WKH/tymUSHQTU5w==",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-dusk-v0.1.1/hugo-dusk-0.1.1.zip",
+      "integrity": "sha512-DjRi/YxCmJSdi3XrWxleYtFGL5CEnn7QWUXv28AMF4fGWj4yZfF4odMO5bzCk5oAvDLnxBYs92p1pNZWxei0TQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-dusk/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "hugo-frais",
+      "id": "hugo-frais",
+      "version": "0.1.0",
+      "title": "Frais",
+      "description": "Frais’s cream masthead, red/blue-gray alternating serif/sans headings and broad editorial summary column.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-frais-v0.1.0/hugo-frais-0.1.0.zip",
+      "integrity": "sha512-2AO0/PXag6bCczljkRJD/yJ37ElPbbqhBHT07Mti8U849uItHvsh5Pclt8+FJc8QR7YUinppjTbbffdKq5sT4w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-frais/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
@@ -1315,11 +1329,11 @@
       "type": "theme",
       "name": "hugo-hello-programmer-theme",
       "id": "hugo-hello-programmer-theme",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Hello Programmer",
       "description": "Hello Programmer’s gray page background, white article panels, teal metadata headings and cropped featured images.",
-      "download": "https://github.com/firekylin/themes/releases/download/hugo-hello-programmer-theme-v0.1.0/hugo-hello-programmer-theme-0.1.0.zip",
-      "integrity": "sha512-sYBOmbyycV2BPZ+Rs22w5N0YievoMuscR9uu791X+QneFJwn+kcZM8KN9lMUub0BynpNXZ3aScpWgX/eh2MKAA==",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-hello-programmer-theme-v0.1.1/hugo-hello-programmer-theme-0.1.1.zip",
+      "integrity": "sha512-FyWA2dG1Ma6OpF5lWQ5liYfNxUomnVCLXrYtHqC/HqjS3M71aQExpTJj/MplQDuErgI1Lx79bLAXN9w7mIIbNg==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-hello-programmer-theme/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -1329,11 +1343,11 @@
       "type": "theme",
       "name": "hugo-kiera",
       "id": "hugo-kiera",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Kiera",
       "description": "Kiera’s serif writing column, prominent article titles, thick navigation rule and original system light/dark palettes.",
-      "download": "https://github.com/firekylin/themes/releases/download/hugo-kiera-v0.1.0/hugo-kiera-0.1.0.zip",
-      "integrity": "sha512-XGX1vPoEkAMTJxo85I+UR52S7RQ7C9ii18DEfAOMUeiKnLom3zVz4QG6Eg9CsOQgSseKYcCpb5vN52vSw7FNkg==",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-kiera-v0.1.1/hugo-kiera-0.1.1.zip",
+      "integrity": "sha512-y1uALSfmCQIeBGoqcARXr3QtrXpQNhyIC5Ywzim26Fb+vUlme5AQDlV5RbRRHzYUfy8NE47kkniZQE8T3xTlog==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-kiera/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -1343,11 +1357,11 @@
       "type": "theme",
       "name": "hugo-lithium-theme",
       "id": "hugo-lithium-theme",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "title": "Lithium",
       "description": "Lithium’s pale full-width masthead, year-grouped archive, strong sans-serif titles and serif reading column.",
-      "download": "https://github.com/firekylin/themes/releases/download/hugo-lithium-theme-v0.1.1/hugo-lithium-theme-0.1.1.zip",
-      "integrity": "sha512-DIEIRbUoB6TxWuSy7m+v0PLIVF//ekapW3sa4QujmzCSAf+JPzTvGKJGFG4WPOV2MKsVskoU/U7SY2t36i8rYg==",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-lithium-theme-v0.1.2/hugo-lithium-theme-0.1.2.zip",
+      "integrity": "sha512-JS35wTZ2i8yEHUdxvIbgSlIjH03GzhfetDjnYp2cH6ArwQwHBevdbbd9Gm7GqltARY45j0Q+XAyJMhsuqwTuTg==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-lithium-theme/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -1357,11 +1371,11 @@
       "type": "theme",
       "name": "hugo-sustain",
       "id": "hugo-sustain",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "title": "Sustain",
       "description": "Sustain’s green page-edge rules, compact date/title archive rows and centered 800px Bootstrap layout.",
-      "download": "https://github.com/firekylin/themes/releases/download/hugo-sustain-v0.1.1/hugo-sustain-0.1.1.zip",
-      "integrity": "sha512-K63PeESTAK9RyVSESYUONUcUpClUcYGIGrzMjs5MdEJvORL/B/1wtcITCFFci7250e84O72vI61/A4p0CSaSBA==",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-sustain-v0.1.2/hugo-sustain-0.1.2.zip",
+      "integrity": "sha512-F6XiVe6Hcew6E4WNLTT/AhswNgDExvOi71FiH/obRuMXOU6tT0u/zBA59dmfUKjcoCVTNwFePJ+nx96OZbiGwg==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-sustain/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -1371,11 +1385,11 @@
       "type": "theme",
       "name": "hugo-theme-anubis",
       "id": "hugo-theme-anubis",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Anubis",
       "description": "Anubis’s restrained system typography, rounded navigation surface, generous summary feed and automatic light/dark palettes.",
-      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-anubis-v0.1.0/hugo-theme-anubis-0.1.0.zip",
-      "integrity": "sha512-32ZH19Y83X71k/DnRu08vytsnNmeLN6d/5EBFlBcXqs/NevoZXHuuWKEOyELJIntfKnrD2PtdU3Q+qFANHoQ9Q==",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-anubis-v0.1.1/hugo-theme-anubis-0.1.1.zip",
+      "integrity": "sha512-GUj6qTC3tnPtz48Nu7G+kx+apZc/69Eq1tjQboyfc1wcr5UTsoMBP7h59Z2uyLMPi9dgsr+EG2UEXsbYNhI0Qg==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-anubis/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -1385,11 +1399,11 @@
       "type": "theme",
       "name": "hugo-theme-nix",
       "id": "hugo-theme-nix",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "title": "Nix",
       "description": "Nix’s green terminal prompt, dark navigation bar, gray title/date rows and heavy ruled post summaries.",
-      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-nix-v0.1.1/hugo-theme-nix-0.1.1.zip",
-      "integrity": "sha512-g4iGpgGEenpUegaM4vvbBV9V+T5BzZKDXJQXWGwHSoPNp3Gf4SnJ5iH83czw5xiHYFGsZLj9xNEn2JzKxmSVEQ==",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-nix-v0.1.2/hugo-theme-nix-0.1.2.zip",
+      "integrity": "sha512-YXaCufGQoQJDwZwg09+oR2RN+hoyzXjWA/nnhCof5PcfFmcDIY00y9mlZSOYOA8g412Si4UnxuayG61eXMFemw==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-nix/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -1399,11 +1413,11 @@
       "type": "theme",
       "name": "hugo-theme-vec",
       "id": "hugo-theme-vec",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "title": "Vec",
       "description": "Vec’s dark shell-path navigation, month-grouped archive list and narrow minimalist reading column.",
-      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-vec-v0.1.1/hugo-theme-vec-0.1.1.zip",
-      "integrity": "sha512-sOHkgAM3X44QYWI3FZ0C1ciMP1unJRFgudC3nJat0aOsu79DoODbu9YdPw7nxRp1mDk8TmZftpO3H5DQNGNUbg==",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-vec-v0.1.2/hugo-theme-vec-0.1.2.zip",
+      "integrity": "sha512-dIJ7cbljDz/2dPeT/EifGRygEAB1mAgd3DBVstzBDutQH+4NFRPg6oT2cLOqjDYteZJWyAlGeVBhKau1NDZmRA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-vec/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -1413,11 +1427,11 @@
       "type": "theme",
       "name": "hugo-theme-yinyang",
       "id": "hugo-theme-yinyang",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Yinyang",
       "description": "Yinyang’s Bungee Shade masthead, Bree Serif reading face, year-grouped dated post rows and switchable dark palette.",
-      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-yinyang-v0.1.0/hugo-theme-yinyang-0.1.0.zip",
-      "integrity": "sha512-izUQV6aPW5tgotwHqSmdi7mftJ1aZtoshCDN6Qtr31tM9en94XnRz1rD9Mli715LPsvTxy6CjUXLJSubHiBo8g==",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-yinyang-v0.1.1/hugo-theme-yinyang-0.1.1.zip",
+      "integrity": "sha512-+eeswUeEyuBQVrzClugBFXrmWJC4WSRqBjrKkeXW6lOnAYEke17qccuhvgvaB856Puud7urVBVmp0dMm03tBFA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-yinyang/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -1427,11 +1441,11 @@
       "type": "theme",
       "name": "hugo-xmag",
       "id": "hugo-xmag",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "title": "XMag",
       "description": "XMag’s newspaper masthead with double rules, responsive three-column story cards and floated thumbnails.",
-      "download": "https://github.com/firekylin/themes/releases/download/hugo-xmag-v0.1.1/hugo-xmag-0.1.1.zip",
-      "integrity": "sha512-GCrkZiCjBbXWJUSDuG9PChgd+Ax8A2a2Qyqms4/EkLlcSBZ7s41QOapv6DTnwoikhiwx0tHbYBo/U8iNbmbwaQ==",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-xmag-v0.1.2/hugo-xmag-0.1.2.zip",
+      "integrity": "sha512-C0nf+nMJtdaBMuT7zHpZJrlxLq3EEYRzcz6C1Ytl4g2JE9oMO9ZrsGqZIlis+Cd3EL3yNfWHwakSMv4RuC0MKA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-xmag/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -1567,11 +1581,11 @@
       "type": "theme",
       "name": "internet-weblog",
       "id": "internet-weblog",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Internet Weblog",
       "description": "Internet Weblog’s left-aligned header, generous summary feed, full-width dark footer and original system light/dark semantic palette.",
-      "download": "https://github.com/firekylin/themes/releases/download/internet-weblog-v0.1.0/internet-weblog-0.1.0.zip",
-      "integrity": "sha512-+KRmH1XgYkB6yoBPdZYDmOXP8rLSDflqf8iCnXNBnbh/7oYN5oTZDLFtWiKHz1Zv3+77rj3eXzEVJwzN/slzfw==",
+      "download": "https://github.com/firekylin/themes/releases/download/internet-weblog-v0.1.1/internet-weblog-0.1.1.zip",
+      "integrity": "sha512-TrCNu+OAF8n+AAxCWk+2D68319CZqrQz73PRTruaHy+ixEM3Zad0m7lp71VwYAJ2pWuUhj9VZ9ebzZIziJgkSg==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/internet-weblog/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -1931,11 +1945,11 @@
       "type": "theme",
       "name": "manis-hugo-theme",
       "id": "manis-hugo-theme",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Manis",
       "description": "Manis’s narrow Skeleton-derived reading column, compact dated link list and red divider accents.",
-      "download": "https://github.com/firekylin/themes/releases/download/manis-hugo-theme-v0.1.0/manis-hugo-theme-0.1.0.zip",
-      "integrity": "sha512-iYwxsnwsQQM5JFZafyseVSdku2XFTOjoicCxIpLwQqtmwJPNQiUzYYgDTNRMZdwOFD9iWK7P9Rxg8nZH7sfRHw==",
+      "download": "https://github.com/firekylin/themes/releases/download/manis-hugo-theme-v0.1.1/manis-hugo-theme-0.1.1.zip",
+      "integrity": "sha512-SKCewgVGoADFL4pRBBosG/Pg7yzy7UlDhqxQvssh1FxnoGjW42ciq9ViEmq1CdQwvdHKze44nvtpslw8UwM6ww==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/manis-hugo-theme/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -2093,11 +2107,11 @@
       "type": "theme",
       "name": "min_night",
       "id": "min_night",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Min Night",
       "description": "Min Night’s blue navigation/footer, centered introduction and compact post list, with its invert/hue-rotate night mode.",
-      "download": "https://github.com/firekylin/themes/releases/download/min_night-v0.1.0/min_night-0.1.0.zip",
-      "integrity": "sha512-VZdpoPUUDPF0QzallPWfGZ56mml5XKZfk6dyIMygy7UR8ihtFzD4rCx7Un0qmNIWwoQPPbhWWnDQwv6fZWik3Q==",
+      "download": "https://github.com/firekylin/themes/releases/download/min_night-v0.1.1/min_night-0.1.1.zip",
+      "integrity": "sha512-inDblzDzXhOb5a7naEt/LTZxJ4NJAiMT/o7hWherQBRyLRe4ryOn3tXe4HURJ5A07Q8B5oBXKl9N7d5O/mfGOw==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/min_night/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -2314,11 +2328,11 @@
       "type": "theme",
       "name": "nofancy",
       "id": "nofancy",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Nofancy",
       "description": "Nofancy’s original Pure CSS reading grid, compact chronological link feed and quiet black-and-white article typography.",
-      "download": "https://github.com/firekylin/themes/releases/download/nofancy-v0.1.0/nofancy-0.1.0.zip",
-      "integrity": "sha512-IYSsUkyQj1rir1il7ii9szbcZIRudEv0jhM3Xg2K/eYsyqOpg/wuYahLa69VsebAhsLOS+YlB6yPuVoFXVdYog==",
+      "download": "https://github.com/firekylin/themes/releases/download/nofancy-v0.1.1/nofancy-0.1.1.zip",
+      "integrity": "sha512-0yJIXjTnZ0oW+0IO7/gTYy6iCGvOBgwQbNxQfvNo4MGr1IkiXYEV7ZHCFs9dLQqrtWxKWJ8kd1QGpOBH4Tjuyw==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/nofancy/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -2395,11 +2409,11 @@
       "type": "theme",
       "name": "papaya",
       "id": "papaya",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "title": "Papaya",
       "description": "Papaya’s Norican script masthead, Bootstrap reading column, thin navigation rule and clean post summaries.",
-      "download": "https://github.com/firekylin/themes/releases/download/papaya-v0.1.1/papaya-0.1.1.zip",
-      "integrity": "sha512-c3m3Yqwmm4V49NimBtGOmlgzIaNhGMdvk6q33+ejIPvbWtIsJbGoqrNvImgrLd6g3W5fS9+h+6pfkQk9aDY7ig==",
+      "download": "https://github.com/firekylin/themes/releases/download/papaya-v0.1.2/papaya-0.1.2.zip",
+      "integrity": "sha512-zruk7XCFYn3sfmRD3b5ULDpe9ipaftx8HT/iFi3OHmVyaqPFulobwwa6rZZnjCo14cAKj3XqByh8cGuLGwCAxQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/papaya/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -2423,11 +2437,11 @@
       "type": "theme",
       "name": "paperback",
       "id": "paperback",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "title": "Paperback",
       "description": "Paperback’s warm paper background, 34rem serif reading column and spacious expanded post summaries.",
-      "download": "https://github.com/firekylin/themes/releases/download/paperback-v0.1.1/paperback-0.1.1.zip",
-      "integrity": "sha512-Pur+92PsQRB30ZLVuwDGXfylklIcsPTFvjm9npVHpOelxvGA8r3cbWn36McSPt91BXqifFRMionz5yr8Jf5YlA==",
+      "download": "https://github.com/firekylin/themes/releases/download/paperback-v0.1.2/paperback-0.1.2.zip",
+      "integrity": "sha512-4NxoqfBqSRKYgysnhcL/s1WVU5du4qAzwjD2HiXUq0220TTdGcWgTu7Gra3cppo+Tm8hRlmhb9uof//yZzT5bg==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/paperback/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -2532,11 +2546,11 @@
       "type": "theme",
       "name": "purehugo",
       "id": "purehugo",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Purehugo",
       "description": "Purehugo’s fixed slate sidebar, right-aligned site identity, dated separators and spacious post column.",
-      "download": "https://github.com/firekylin/themes/releases/download/purehugo-v0.1.0/purehugo-0.1.0.zip",
-      "integrity": "sha512-scCn3nJZ+yXphHUL1dKlg92gWj53zbd4twEg96wr03rTGjEj9an+/TZ7WIOPz12i4EeP+AuxNUySgABHbgKiqw==",
+      "download": "https://github.com/firekylin/themes/releases/download/purehugo-v0.1.1/purehugo-0.1.1.zip",
+      "integrity": "sha512-u4+mdnOTnlzkh/iOKULlp+L6eOfY+NaXEyM6T9oGlffIeD+IkBjH1lpKnIdMatkn6KXTQPbt64KfJqiLfUTusA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/purehugo/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -2742,11 +2756,11 @@
       "type": "theme",
       "name": "slim",
       "id": "slim",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Slim",
       "description": "Slim’s original narrow reading column, compact masthead, subdued post dates and spacious summary feed.",
-      "download": "https://github.com/firekylin/themes/releases/download/slim-v0.1.0/slim-0.1.0.zip",
-      "integrity": "sha512-fZOGSoNX+kj7NLjtVAOFGU0n/+r7MbWmI4CXOn7XU8k5qo2dA89e3bY5ipEqCS1XxzoHs00NmmuN9kWwyqD04w==",
+      "download": "https://github.com/firekylin/themes/releases/download/slim-v0.1.1/slim-0.1.1.zip",
+      "integrity": "sha512-GcydyDVIydOcUuia8TWAYtJd7Qhz0w6ATgyciOdZJ4ATdMC0NSEOg78y49oNJ9PF7B9O3Tu53YsSzdmwAirf+w==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/slim/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -2756,11 +2770,11 @@
       "type": "theme",
       "name": "smol",
       "id": "smol",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Smol",
       "description": "Smol’s original monospace typography, ASCII masthead, unboxed summary feed and automatic light/dark colors.",
-      "download": "https://github.com/firekylin/themes/releases/download/smol-v0.1.0/smol-0.1.0.zip",
-      "integrity": "sha512-iHWuV5irLj76picgleuUcCG3SybxtPup4+/QUIbHhV7N8oYBkYSHoZDVcDCu3LBdpMOfotHcqlT/45sAzgAJPg==",
+      "download": "https://github.com/firekylin/themes/releases/download/smol-v0.1.1/smol-0.1.1.zip",
+      "integrity": "sha512-imuKh7PA5DsCjSylbcEXoyd6CyK9PmAPaHFb8xMcylPjVBJMhU6bvlPDZo2Z2kIlinUfWlSZQohADkYTAjWzYg==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/smol/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -2868,11 +2882,11 @@
       "type": "theme",
       "name": "strange-case",
       "id": "strange-case",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "title": "Strange Case",
       "description": "Strange Case’s fixed bottom-aligned sidebar, original dark-brown/green palette and large post headings.",
-      "download": "https://github.com/firekylin/themes/releases/download/strange-case-v0.1.1/strange-case-0.1.1.zip",
-      "integrity": "sha512-Twa1skyiTR57ZwCRQtTkCJ8ABZr4ZxdnKd6L0gfZwqFgJF86cV5xII0RamwYo0+VtGTV2HhzJ2nQSdr7wX8VfA==",
+      "download": "https://github.com/firekylin/themes/releases/download/strange-case-v0.1.2/strange-case-0.1.2.zip",
+      "integrity": "sha512-3P5qaa6PBkQ7OROoXzBdtZbf/aU8HtVYjqNyxZxmSR4y+kaZjy2mUOocHzYqQsN2IL/RBK1GOjpCQ1ofNgbLnA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/strange-case/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -3064,11 +3078,11 @@
       "type": "theme",
       "name": "vienna",
       "id": "vienna",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "title": "Vienna",
       "description": "Vienna’s photographic masthead, centered summary feed, blue headings and quiet Bootstrap article layout.",
-      "download": "https://github.com/firekylin/themes/releases/download/vienna-v0.1.1/vienna-0.1.1.zip",
-      "integrity": "sha512-A0NKvXGa7Xoi8UpmaqoIltiutOe3sAGIF1t9vQ1r1XWDmg2l0hgXVxKoSGH4g9/en4CwEAp/WO+eTvRjmsNYHQ==",
+      "download": "https://github.com/firekylin/themes/releases/download/vienna-v0.1.2/vienna-0.1.2.zip",
+      "integrity": "sha512-Ib2NBobDqiI6yCXvJ4JYKd6PvVd8SLDsL6Nw6CarIDfUgLpLgfqzNuN4hg6Xx5xEs8+h7E7FgDVRliW7amu8/w==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/vienna/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -3246,11 +3260,11 @@
       "type": "theme",
       "name": "zola-dinkleberg",
       "id": "zola-dinkleberg",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Dinkleberg",
       "description": "Dinkleberg’s sticky monospace site bar, 65/35 feed/sidebar split and desktop article metadata column.",
-      "download": "https://github.com/firekylin/themes/releases/download/zola-dinkleberg-v0.1.0/zola-dinkleberg-0.1.0.zip",
-      "integrity": "sha512-OMigXgsJ9gDJ6Ga+SyGSXfGlfA28kNdNl+MuCof4AMnJwY9JwzddjKubqeqI6S9uhJcIBWlP6JSKv4r7odLXew==",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-dinkleberg-v0.1.1/zola-dinkleberg-0.1.1.zip",
+      "integrity": "sha512-4GPlFNgUpY7V/ky9vaC2DlNlN1g2MsxUpopTujEjF57TfDVhRgIEDpeu1LnFagL3vXKPxFhBjSrFJadPtlPY8w==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-dinkleberg/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -3260,11 +3274,11 @@
       "type": "theme",
       "name": "zola-dose",
       "id": "zola-dose",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Dose",
       "description": "Dose’s monospace summary feed, slash separators, underlined headings and persistent light/dark switch.",
-      "download": "https://github.com/firekylin/themes/releases/download/zola-dose-v0.1.0/zola-dose-0.1.0.zip",
-      "integrity": "sha512-b+6K5xhtLCo20xwknCWB54r2/7H1899vY31cs1+IQ6sYhrL10NUzKX8YTCYrvgNetH6Tsc/mb0Oko2LTB1pFCg==",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-dose-v0.1.1/zola-dose-0.1.1.zip",
+      "integrity": "sha512-rGkGn75bYxDTwJH7RKnGrHF/blEK6n2aQUHvDZWsRs9iIM5OsfQdo3k7INRhUVxSstk663dhLOvVWeyqQcP4Pg==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-dose/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -3274,11 +3288,11 @@
       "type": "theme",
       "name": "zola-ergo",
       "id": "zola-ergo",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Ergo",
       "description": "Ergo’s centered red identity, bold 600px summary column, rounded reading buttons and original light/Dracula palettes.",
-      "download": "https://github.com/firekylin/themes/releases/download/zola-ergo-v0.1.0/zola-ergo-0.1.0.zip",
-      "integrity": "sha512-5EkUG9l1Qwb1ZqlLs03URdfrsQTeZUzPh+LYdCfzUReoEVfBx2TgOfmZPUaSqtNmLWYkBdms0AYgqBXadabw7w==",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-ergo-v0.1.1/zola-ergo-0.1.1.zip",
+      "integrity": "sha512-amClkEuPvLF1wNBn3W1QzlQgJfsMQIyNYhTskxjaxzRrxbB1pxFaLVwDZsTZTjhHfmkj2zViYwn1NpwqMevmPg==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-ergo/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -3288,11 +3302,11 @@
       "type": "theme",
       "name": "zola-hook",
       "id": "zola-hook",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Hook",
       "description": "Hook’s spacious recent-post link list, purple links, gray reading canvas and native light/dark palettes.",
-      "download": "https://github.com/firekylin/themes/releases/download/zola-hook-v0.1.0/zola-hook-0.1.0.zip",
-      "integrity": "sha512-wtnNjfeCwECZ0waGDtGEUufu9EBCcfe4VAM071KqY4mT0tPaEfCSW/mBBA4aEdjS5AB/YO3Hy9p8VcdY2la1RQ==",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-hook-v0.1.1/zola-hook-0.1.1.zip",
+      "integrity": "sha512-LLVm1sy2984pWMwZKx0Oj3vLLAutOA0WPmpApfVFAFrD70f+V53iG0MvHhOWxsKlT9cpgGPxBmlm7C1ZgXnrrA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-hook/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -3302,11 +3316,11 @@
       "type": "theme",
       "name": "zola-oceanic-zen",
       "id": "zola-oceanic-zen",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Oceanic Zen",
       "description": "Oceanic Zen’s original deep-blue palette, Iosevka typography, dotted list markers and dashed section rules.",
-      "download": "https://github.com/firekylin/themes/releases/download/zola-oceanic-zen-v0.1.0/zola-oceanic-zen-0.1.0.zip",
-      "integrity": "sha512-gujOCjqSlD5PcE7PAf1+gk5mCSs6ItvmagMwVjg4RZ3FkPnvN6FT2AwhRfirb9ty6T+gpeeGVTN5pdw/tFIHCQ==",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-oceanic-zen-v0.1.1/zola-oceanic-zen-0.1.1.zip",
+      "integrity": "sha512-dCekcihqgb/8UTuAgfONamFU3f4Da5yeeOAM43suOVOuhzXk7tf8eYHVPqUNYCMl0F67wxsb+NrY3VBFQauebQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-oceanic-zen/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -3316,11 +3330,11 @@
       "type": "theme",
       "name": "zola-zola-henry",
       "id": "zola-zola-henry",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Henry",
       "description": "Henry’s blue top rule, lightweight system typography, date-first post list and wide article column.",
-      "download": "https://github.com/firekylin/themes/releases/download/zola-zola-henry-v0.1.0/zola-zola-henry-0.1.0.zip",
-      "integrity": "sha512-dJpW0EIOGtgTjtz3nYWbO+lYbiZ1+y5WyRUGfd8/2k25IR9bn+csleRzRDQyWP3KylBHHF+7w5KOiU5QuF8ISQ==",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-zola-henry-v0.1.1/zola-zola-henry-0.1.1.zip",
+      "integrity": "sha512-GYL3WckvI4FYF388LPoSlYlLH2DRXUyx9EZNrXdM9xiPRcj6bSBYgqULxROLoQrpGiARME5gE4WU1gjWDKJKAg==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-zola-henry/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -3330,11 +3344,11 @@
       "type": "theme",
       "name": "zola-zola-pickles",
       "id": "zola-zola-pickles",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Zola Pickles",
       "description": "Zola Pickles’s 720px column, Selenized White palette, italic dates, Atkinson Hyperlegible body text and understated summary buttons.",
-      "download": "https://github.com/firekylin/themes/releases/download/zola-zola-pickles-v0.1.0/zola-zola-pickles-0.1.0.zip",
-      "integrity": "sha512-FgoaBrIcv60TA1keL+l9UTALzwPGg0EJ9Yn90EnbeHYIIRu9edUsAEUl3HsZ2vabgYEnXx8oRc71mwNyi57r3w==",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-zola-pickles-v0.1.1/zola-zola-pickles-0.1.1.zip",
+      "integrity": "sha512-GKfgaHooFfhTq4LCv2tZhnfAyCUjbeSR0rNo3eA9GPY7362ADr8fx48TG+OK4c14/dj5Y9Wa1JqliBLneahifw==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-zola-pickles/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -3344,11 +3358,11 @@
       "type": "theme",
       "name": "zola-zola-theme-hikari",
       "id": "zola-zola-theme-hikari",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "title": "Hikari",
       "description": "Hikari’s full-width purple post rows, date/title rhythm, quiet masthead and serif article column.",
-      "download": "https://github.com/firekylin/themes/releases/download/zola-zola-theme-hikari-v0.1.1/zola-zola-theme-hikari-0.1.1.zip",
-      "integrity": "sha512-s40jMKf8c1gvigVZLXuZo1bbDoEs+BVkypxuiNNqwrn6tJbv8Bnf71MxaFxkpsDPv9Tn7+PkBEbA7qaMIUu3jA==",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-zola-theme-hikari-v0.1.2/zola-zola-theme-hikari-0.1.2.zip",
+      "integrity": "sha512-CgD1QgZ34xa4dyxdWQBK3ECgZyDfRlNho544Xu8zWQSOmSGj3y0ahc2IoCJ9pu4sO22/UdXq1ipXeY1/PLAHow==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-zola-theme-hikari/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
