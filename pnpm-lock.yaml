@@ -222,6 +222,8 @@ importers:
 
   packages/hamilton: {}
 
+  packages/hugo-sustain: {}
+
   packages/ink: {}
 
   packages/millennial: {}
