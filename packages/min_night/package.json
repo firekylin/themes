@@ -1,0 +1,36 @@
+{
+  "name": "min_night",
+  "title": "Min Night",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Min Night’s blue navigation/footer, centered introduction and compact post list, with its invert/hue-rotate night mode.",
+  "license": "MIT",
+  "author": "Nathan Day; Firekylin contributors",
+  "homepage": "https://github.com/nathancday/min_night",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/min_night"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "min_night"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
