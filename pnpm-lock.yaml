@@ -208,6 +208,8 @@ importers:
 
   packages/hugo-book: {}
 
+  packages/hugo-theme-vec: {}
+
   packages/hugo-coder: {}
 
   packages/mini: {}
