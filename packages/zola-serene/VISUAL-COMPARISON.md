@@ -1,0 +1,1 @@
+Retained upstream main.scss, palette variables, profile row, title/date links and reading typography. Native navigation/pagination/comments replace static-site data and services. Text palette switch substitutes icons; optional avatar uses direct safe URL. Article side TOC and service-driven enhancements are not ported.
