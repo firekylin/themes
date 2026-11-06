@@ -132,6 +132,8 @@ importers:
   packages/zola-zolanight: {}
 
 
+  packages/hugo-theme-hulga: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
