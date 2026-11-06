@@ -560,3 +560,6 @@ html.dark .highlight {
 body{margin:0;overflow-wrap:anywhere}img{height:auto}iframe,video{max-width:100%}.matter{min-width:0}.header nav ul{display:flex;flex-wrap:wrap;gap:.5rem 1rem}.header nav li{margin:0}.prose pre,.prose table{overflow:auto;max-width:100%}.post-actions,.tags{display:flex;flex-wrap:wrap;gap:1rem;margin:1rem 0}.skip{position:absolute;top:-100px}.skip:focus{top:0}.pagination{margin:2rem 0}input,button{font:inherit;max-width:100%;box-sizing:border-box}.mode-toggle{background:none;color:inherit;border:1px solid #999;cursor:pointer;border-radius:4px;font-size:.8rem;padding:.2rem .5rem}.mode-toggle[hidden]{display:none}.post-header{margin-top:2rem}.header .avatar img{object-fit:cover}:focus-visible{outline:2px solid #3700ff;outline-offset:3px}@media(max-width:400px){.post-header .meta .date{width:48px;margin-right:18px}}
 /* Keep two-digit days on one line with system serif fallback metrics. */
 .post-header .meta .date .day{white-space:nowrap;line-height:1;font-size:2.6em;margin-bottom:.2em}
+
+/* Native code and attachment containment. */
+.prose pre{max-width:100%;overflow-x:auto}.attachment-media img,.attachment-media audio,.attachment-media video{max-width:100%}
