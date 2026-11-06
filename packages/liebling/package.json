@@ -1,0 +1,36 @@
+{
+  "name": "liebling",
+  "title": "Liebling",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Liebling’s rounded image-card grid, tall masthead, shadows and reading styles. Featured carousel becomes native paginated cards without Swiper.",
+  "license": "MIT",
+  "author": "Eduardo Gómez; Firekylin contributors",
+  "homepage": "https://github.com/eddiesigner/liebling",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/liebling"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "liebling"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
