@@ -575,6 +575,10 @@
     "hash": "b73ba0b328ded20a166acdbb14d636e24c7aaaccc87ca0769910619bb236397c",
     "id": "jasmine"
   },
+  "jekyll-moon": {
+    "hash": "3a8a167f3fa5aa1e3ec0253338345faad84853d20e47514b97ef27cca1c44bf3",
+    "id": "jekyll-moon"
+  },
   "jekyll-now": {
     "hash": "872bf1307b5c07c425aabca8135b7ea82c187a0a1a26925d5661a7947fa287ff",
     "id": "jekyll-now"

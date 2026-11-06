@@ -1,0 +1,1 @@
+Classic Moon original Sass: coral-red desktop backdrop,850pxwhite wrapper/shadow,white compact mobile view,Fira Sans,Inconsolata,centered title,excerpt list/readmore. Native text menu replaces plugin dropdown,homepage uses upstreampost-list instead ofprofile card;featuredimage isinline. No demoassets.

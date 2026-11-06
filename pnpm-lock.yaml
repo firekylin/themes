@@ -81,6 +81,8 @@ importers:
 
   packages/material-design: {}
 
+  packages/jekyll-moon: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}

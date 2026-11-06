@@ -2013,6 +2013,20 @@
     },
     {
       "type": "theme",
+      "name": "jekyll-moon",
+      "id": "jekyll-moon",
+      "version": "0.1.0",
+      "title": "Moon",
+      "description": "Classic Moon: original coral-red backdrop, white 850px reading panel, Fira Sans and excerpt list.",
+      "download": "https://github.com/firekylin/themes/releases/download/jekyll-moon-v0.1.0/jekyll-moon-0.1.0.zip",
+      "integrity": "sha512-EMbl8dDWvxRXqSqwagTiE0pMLB0DIj4v8aeHFzN4QPg+LoC9WUGbBrioGyEhb4t9C3VDcJkvrpiKxyDlZdhRXw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/jekyll-moon/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "jekyll-now",
       "id": "jekyll-now",
       "version": "0.1.0",
