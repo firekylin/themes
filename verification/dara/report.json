@@ -104,7 +104,9 @@
     "responsive header navigation",
     "search without JavaScript",
     "private/draft exclusion",
-    "comment gating"
+    "comment gating",
+    "missing and invalid cover header flow",
+    "contrasting native footer"
   ],
   "limits": [
     "Compared pinned upstream CSS and PHP templates; no live upstream demo comparison.",
