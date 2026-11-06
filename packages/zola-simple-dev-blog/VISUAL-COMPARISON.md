@@ -1,0 +1,1 @@
+Original main/text/normalize Sass and profile animation preserved; Rubik is local. Profile home combined with blog previews, safe optional user portrait replaces demo image, text navigation replaces profile icon. Default light canvas, darker green links and reduced-motion fallback. No project or reading-time features.

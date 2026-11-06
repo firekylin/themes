@@ -330,6 +330,8 @@ importers:
 
   packages/moonwalk: {}
 
+  packages/zola-simple-dev-blog: {}
+
   packages/zola-seje2: {}
 
   packages/zola-serene: {}
