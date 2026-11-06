@@ -212,6 +212,8 @@ importers:
 
   packages/archer: {}
 
+  packages/zen: {}
+
   packages/yilia: {}
 
   packages/mdx: {}
