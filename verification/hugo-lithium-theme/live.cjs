@@ -46,6 +46,7 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
   await page.goto(origin+'/post/hello.html');for(const sel of ['.prose h3','.prose h4','.prose pre','.prose table','.prose img'])assert(await page.locator(sel).first().isVisible(),sel+' visible');assert(await page.locator('.prose ul').first().evaluate(e=>getComputedStyle(e).listStyleType!=='none'),'list markers');await page.screenshot({path:path.join(evidence,'post-'+width+'.png'),fullPage:true});assert(await page.locator('.nav-items a[href="/archives"]').isVisible());
 
  }
+ await page.emulateMedia({colorScheme:'dark'});await page.goto(origin+'/post/hello.html');assert.equal(await page.evaluate(()=>getComputedStyle(document.documentElement).colorScheme),'light','light-only canvas under system dark preference');await page.screenshot({path:path.join(evidence,'post-system-dark.png'),fullPage:true});await page.emulateMedia({colorScheme:'light'});
  for(const pathname of ['private-marker','draft-marker']){const denied=await fetch(origin+'/post/'+pathname+'.html',{redirect:'manual'});assert.equal(denied.status,302);assert.equal(denied.headers.get('location'),'/');}
  db.prepare('UPDATE fk_post SET allow_comment=1 WHERE pathname=?').run('hello');let html=await(await fetch(origin+'/post/hello.html')).text();assert(html.includes('data-comment-config'));assert.equal((html.match(/id="comments"/g)||[]).length,1);
  db.prepare('UPDATE fk_post SET allow_comment=0 WHERE pathname=?').run('hello');assert(!(await(await fetch(origin+'/post/hello.html')).text()).includes('data-comment-config'));

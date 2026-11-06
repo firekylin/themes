@@ -1,7 +1,7 @@
 {
   "name": "strange-case",
   "title": "Strange Case",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Strange Case’s fixed bottom-aligned sidebar, original dark-brown/green palette and large post headings.",
   "license": "MIT",

@@ -1,7 +1,7 @@
 {
   "name": "vienna",
   "title": "Vienna",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Vienna’s photographic masthead, centered summary feed, blue headings and quiet Bootstrap article layout.",
   "license": "MIT",

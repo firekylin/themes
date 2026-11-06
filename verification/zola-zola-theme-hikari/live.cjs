@@ -47,6 +47,7 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
 
  }
  await page.goto(origin);assert.equal(await page.locator('.posts time').first().evaluate(e=>getComputedStyle(e).color),'rgb(255, 255, 255)');await page.locator('#bio-open').click();assert(await page.locator('#bio-panel').isVisible());await page.keyboard.press('Escape');assert(!(await page.locator('#bio-panel').isVisible()));
+ await page.emulateMedia({colorScheme:'dark'});await page.goto(origin+'/post/hello.html');assert.equal(await page.evaluate(()=>getComputedStyle(document.documentElement).colorScheme),'light','light-only canvas under system dark preference');await page.screenshot({path:path.join(evidence,'post-system-dark.png'),fullPage:true});await page.emulateMedia({colorScheme:'light'});
  for(const pathname of ['private-marker','draft-marker']){const denied=await fetch(origin+'/post/'+pathname+'.html',{redirect:'manual'});assert.equal(denied.status,302);assert.equal(denied.headers.get('location'),'/');}
  db.prepare('UPDATE fk_post SET allow_comment=1 WHERE pathname=?').run('hello');let html=await(await fetch(origin+'/post/hello.html')).text();assert(html.includes('data-comment-config'));assert.equal((html.match(/id="comments"/g)||[]).length,1);
  db.prepare('UPDATE fk_post SET allow_comment=0 WHERE pathname=?').run('hello');assert(!(await(await fetch(origin+'/post/hello.html')).text()).includes('data-comment-config'));

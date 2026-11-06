@@ -1,7 +1,7 @@
 {
   "name": "zola-zola-theme-hikari",
   "title": "Hikari",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Hikari’s full-width purple post rows, date/title rhythm, quiet masthead and serif article column.",
   "license": "MIT",
