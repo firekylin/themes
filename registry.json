@@ -4126,6 +4126,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-shadharon",
+      "id": "zola-shadharon",
+      "version": "0.1.0",
+      "title": "Shadharon",
+      "description": "Shadharon’s original dark/light monospace blog cards, red brand and responsive three-column summary grid.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-shadharon-v0.1.0/zola-shadharon-0.1.0.zip",
+      "integrity": "sha512-8C7hw2Ky97zlTTxXdYnm9GpBgVxA+pT2xTz79CrxOY4rBWhQLcgrrHJpT+BFkkLeuPwkx1V++41iGcOwxmm/Bg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-shadharon/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-simple-dev-blog",
       "id": "zola-simple-dev-blog",
       "version": "0.1.0",
