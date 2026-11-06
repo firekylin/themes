@@ -208,6 +208,8 @@ importers:
 
   packages/hydejack: {}
 
+  packages/independent-publisher-2: {}
+
   packages/kratos: {}
 
   packages/basically-basic: {}
