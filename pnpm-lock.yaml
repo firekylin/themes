@@ -132,6 +132,8 @@ importers:
 
   packages/console: {}
 
+  packages/arabica: {}
+
   packages/hugo-theme-nix: {}
 
   packages/congo: {}

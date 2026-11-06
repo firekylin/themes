@@ -1,0 +1,2 @@
+Arabica’s centered Lato masthead, Bree Serif article headings, optional featured images and orange-accented summaries.
+Original screen.css and Normalize retained. Lato Light and Bree Serif Regular are bundled unmodified with separate OFL licenses and attribution. Casper table-style attribution/license retained. Orange and gray text are darkened for readability. Source Code Pro uses system monospace fallback; icon fonts, Bigfoot popovers, social widgets and analytics are omitted.
