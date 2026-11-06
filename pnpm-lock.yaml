@@ -398,6 +398,8 @@ importers:
 
   packages/text: {}
 
+  packages/light: {}
+
   packages/minimal: {}
 
   packages/minima: {}
