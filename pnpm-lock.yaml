@@ -59,6 +59,8 @@ importers:
   packages/github-style: {}
   packages/hugo-tania: {}
 
+  packages/papercss-hugo-theme: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
