@@ -1159,6 +1159,10 @@
     "hash": "7e0f398d07a40fb1a5d0b3f807e617833d8d01b6f1a1851684f532d47cef8349",
     "id": "zola-apollo"
   },
+  "zola-arabesque": {
+    "hash": "65601ca8dc12412f8363d6005acbad629dcbc2885067b730f6b12d41cc44e932",
+    "id": "zola-arabesque"
+  },
   "zola-block": {
     "hash": "0f3255d14e4858901c8a0ed620805c8dacbdd13c4af26aab2bb90dfa805977a7",
     "id": "zola-block"

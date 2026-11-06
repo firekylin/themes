@@ -4042,6 +4042,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-arabesque",
+      "id": "zola-arabesque",
+      "version": "0.1.0",
+      "title": "Arabesque",
+      "description": "Arabesque’s original design system, geometric hero, local typography, dated article lists and desktop side contents.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-arabesque-v0.1.0/zola-arabesque-0.1.0.zip",
+      "integrity": "sha512-3W/iTeEx3oFsjFdaN1PfD8tySedYpKs9cO6e9WKle55fA8Rj7zsxTztjNQV9D/WhA/oIhZgelMwYE/3wBhSzEQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-arabesque/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-block",
       "id": "zola-block",
       "version": "0.1.0",
