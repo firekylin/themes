@@ -150,6 +150,8 @@ importers:
 
   packages/hugo-coder: {}
 
+  packages/mini: {}
+
   packages/headline: {}
 
   packages/hextra: {}
