@@ -2620,6 +2620,20 @@
     },
     {
       "type": "theme",
+      "name": "niello",
+      "id": "niello",
+      "version": "0.1.0",
+      "title": "Niello",
+      "description": "Niello’s fixed dark serif layout, image previews, latest-post banner, rounded search and right sidebar.",
+      "download": "https://github.com/firekylin/themes/releases/download/niello-v0.1.0/niello-0.1.0.zip",
+      "integrity": "sha512-eIiPe/8rsXdoNMfgYdjP86zc92bbCgDSjWcECSG0Hb7cAHN4gWGio567E54EdbSX/mPWfdDGKaObGqXAIQ56IQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/niello/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "no-style-please",
       "id": "no-style-please",
       "version": "0.1.0",
