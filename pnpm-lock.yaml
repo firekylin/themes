@@ -338,6 +338,8 @@ importers:
 
   packages/zola-seje2: {}
 
+  packages/ezhil: {}
+
   packages/zola-press-start: {}
 
   packages/zola-serene: {}
