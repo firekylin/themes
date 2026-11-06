@@ -119,6 +119,8 @@ importers:
 
   packages/zola-radion: {}
 
+  packages/zola-blow: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
