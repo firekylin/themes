@@ -70,7 +70,7 @@ textarea,
 select,
 input,
 button {
-  outline: none !important;
+  outline: revert;
 }
 
 table {
