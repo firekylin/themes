@@ -1,0 +1,36 @@
+{
+  "name": "minimal-bootstrap-hugo-theme",
+  "title": "Minimal Bootstrap",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimal Bootstrap’s original dark navbar, 800px reading container and compact title/date index.",
+  "license": "MIT",
+  "author": "Zachary Betz; Firekylin contributors",
+  "homepage": "https://github.com/zwbetz-gh/minimal-bootstrap-hugo-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/minimal-bootstrap-hugo-theme"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "minimal-bootstrap-hugo-theme"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

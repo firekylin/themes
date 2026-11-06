@@ -99,6 +99,8 @@ importers:
 
   packages/hugo-theme-prav: {}
 
+  packages/minimal-bootstrap-hugo-theme: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
