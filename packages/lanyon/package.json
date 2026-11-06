@@ -1,0 +1,36 @@
+{
+  "name": "lanyon",
+  "title": "Lanyon",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lanyon serif blog with sliding off-canvas navigation.",
+  "license": "MIT",
+  "author": "Mark Otto; Firekylin contributors",
+  "homepage": "https://github.com/poole/lanyon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/lanyon"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "lanyon"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
