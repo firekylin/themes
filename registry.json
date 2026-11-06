@@ -3468,6 +3468,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-simple-dev-blog",
+      "id": "zola-simple-dev-blog",
+      "version": "0.1.0",
+      "title": "Simple Dev Blog",
+      "description": "Simple Dev Blog’s Rubik typography, green underlined links, portrait animation and spacious post previews.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-simple-dev-blog-v0.1.0/zola-simple-dev-blog-0.1.0.zip",
+      "integrity": "sha512-PKNrVRs81OALQgxEmqLTUqz3fKmCGil/oGgHQ77yYGCz+bKfxdswP/8v3EB8ItxnN9WE/DiQzZ4jJ/K7ghrF/g==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-simple-dev-blog/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-zola-henry",
       "id": "zola-zola-henry",
       "version": "0.1.1",
