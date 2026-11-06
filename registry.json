@@ -311,6 +311,20 @@
     },
     {
       "type": "theme",
+      "name": "bare-hugo-theme",
+      "id": "bare-hugo-theme",
+      "version": "0.1.0",
+      "title": "Bare",
+      "description": "Bare’s original Bulma blue hero, wide responsive container and compact title/date feed.",
+      "download": "https://github.com/firekylin/themes/releases/download/bare-hugo-theme-v0.1.0/bare-hugo-theme-0.1.0.zip",
+      "integrity": "sha512-d3Ot5/FftHDRMXaq7OQjkyvo0+d8Yeb7msYMHva+2OWDbjLOdZh6WD/H22DqoNilIkGhSnOSXdMz2rft5qNt3Q==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/bare-hugo-theme/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "base16",
       "id": "base16",
       "version": "0.1.1",
@@ -1467,6 +1481,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-blog-jeffprod",
+      "id": "hugo-blog-jeffprod",
+      "version": "0.1.0",
+      "title": "JeffProd",
+      "description": "JeffProd’s Bulma 9/3-column blog, large blue hero, white reading box and sidebar cards.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-blog-jeffprod-v0.1.0/hugo-blog-jeffprod-0.1.0.zip",
+      "integrity": "sha512-10Xmh+XKGMNlMxrBwjv7MYcCEFmJC8tHSia0wqSJO1ihN6CI5H6YjkeGbZHoNeJWcuvuil5EFB6BNRjFCTaRyw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-blog-jeffprod/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-book",
       "id": "hugo-book",
       "version": "0.1.0",
@@ -1999,6 +2027,20 @@
     },
     {
       "type": "theme",
+      "name": "jekyll-moon",
+      "id": "jekyll-moon",
+      "version": "0.1.0",
+      "title": "Moon",
+      "description": "Classic Moon: original coral-red backdrop, white 850px reading panel, Fira Sans and excerpt list.",
+      "download": "https://github.com/firekylin/themes/releases/download/jekyll-moon-v0.1.0/jekyll-moon-0.1.0.zip",
+      "integrity": "sha512-EMbl8dDWvxRXqSqwagTiE0pMLB0DIj4v8aeHFzN4QPg+LoC9WUGbBrioGyEhb4t9C3VDcJkvrpiKxyDlZdhRXw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/jekyll-moon/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "jekyll-now",
       "id": "jekyll-now",
       "version": "0.1.0",
@@ -2354,6 +2396,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/material-v0.1.1/material-0.1.1.zip",
       "integrity": "sha512-t6GNKm6pKMNiwDvO9lpeZpddc8BIsqa9LvtLAnaz3GkUMedACugKFefNqSTeo/d0ayPEpeMVrZrrbD1l+Zo7OQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/material/screenshot.png"
+    },
+    {
+      "type": "theme",
+      "name": "material-design",
+      "id": "material-design",
+      "version": "0.1.0",
+      "title": "Material Design",
+      "description": "Original Materialize three-column cards, teal links, large banner and shadowed reading panels.",
+      "download": "https://github.com/firekylin/themes/releases/download/material-design-v0.1.0/material-design-0.1.0.zip",
+      "integrity": "sha512-vOibSFBIyEohCD6VBvZDpjR/xamOJS+Q1DpOP2EcSTKC+LyWmJADDf0GozZJmxfhjdq+lHT8xMS+AjuaOJ906w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/material-design/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
     },
     {
       "type": "theme",
@@ -3728,6 +3784,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/zen-v0.1.0/zen-0.1.0.zip",
       "integrity": "sha512-egjRj0Bo+D1Zi3g1HtnI7E8MzvShkBwdlPoyqUN9UzxwUYWFTLDqrgVlPZ040xqIvCAKD4nlP6PfOANu23KUag==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zen/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "zola-andromeda",
+      "id": "zola-andromeda",
+      "version": "0.1.0",
+      "title": "Andromeda",
+      "description": "Andromeda photojournal: square cover cards, Orbitron star header, full-screen photo hero and PT Serif reading blocks.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-andromeda-v0.1.0/zola-andromeda-0.1.0.zip",
+      "integrity": "sha512-HjBoNhvLXhLDGklkRCAtcheWmWqVuJNj+Hr0G04z25o1SXzcK6sDOXBgwTFPFgfCeWp5rpJm3J2Qo3eHT6Z8ig==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-andromeda/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }

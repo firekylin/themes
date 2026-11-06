@@ -1,0 +1,36 @@
+{
+  "name": "jekyll-moon",
+  "title": "Moon",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Classic Moon: original coral-red backdrop, white 850px reading panel, Fira Sans and excerpt list.",
+  "license": "MIT",
+  "author": "Taylan Tatlı; Firekylin contributors",
+  "homepage": "https://github.com/TolgaTatli/Moon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/jekyll-moon"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "jekyll-moon"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

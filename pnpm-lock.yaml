@@ -77,7 +77,15 @@ importers:
 
   packages/ronu-hugo-theme: {}
 
+  packages/zola-andromeda: {}
+
   packages/bare-hugo-theme: {}
+
+  packages/material-design: {}
+
+  packages/jekyll-moon: {}
+
+  packages/hugo-blog-jeffprod: {}
 
   packages/academic-cv: {}
 
