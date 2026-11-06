@@ -137,6 +137,9 @@ importers:
 
   packages/hugo-material-blog: {}
 
+  packages/hugo-theme-hulga: {}
+
+
   packages/academic-cv: {}
 
   packages/solo: {}
