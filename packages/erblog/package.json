@@ -1,0 +1,48 @@
+{
+  "name": "erblog",
+  "title": "Erblog",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Erblog’s profile/biography split, teal quote-style feed, taxonomy badges and dark cyan navigation.",
+  "license": "MIT",
+  "author": "Lutong Chen; Firekylin contributors",
+  "homepage": "https://github.com/ertuil/erblog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/erblog"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "erblog"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "profileImage",
+      "label": "头像地址",
+      "help": "可选，http(s) 或站内绝对路径。"
+    },
+    {
+      "type": "text",
+      "name": "biography",
+      "label": "简介",
+      "help": "纯文本介绍，留空使用站点描述。"
+    }
+  ]
+}
