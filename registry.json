@@ -913,6 +913,20 @@
     },
     {
       "type": "theme",
+      "name": "edidor",
+      "id": "edidor",
+      "version": "0.1.0",
+      "title": "Edidor",
+      "description": "Edidor’s editor-style toolbar/sidebar, monthly file list and original generated wild palettes.",
+      "download": "https://github.com/firekylin/themes/releases/download/edidor-v0.1.0/edidor-0.1.0.zip",
+      "integrity": "sha512-lIstt4hzgGliQYIOVnNZB1Alx+hFErdMicBM4IVF+VZw3RPLRtWwqoXlmsb5Qm6vmfqvJAAJr7XwE01scANPnQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/edidor/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "edition",
       "id": "edition",
       "version": "0.1.0",

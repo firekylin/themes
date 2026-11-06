@@ -259,6 +259,10 @@
     "hash": "f65c583732b06777a8b84949c7e96a22aec11e86e9c464675735a05684e503a5",
     "id": "echo"
   },
+  "edidor": {
+    "hash": "81631aca03cc1315e3d4230797c5068734af7f8af929cbc1dcbfcafebf39643f",
+    "id": "edidor"
+  },
   "edition": {
     "hash": "c8aaac6677cd685ac6be47c3984c9c2937466800ebc5dc97cbba48d22bb3f95e",
     "id": "edition"
