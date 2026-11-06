@@ -262,6 +262,8 @@ importers:
 
   packages/hugo-nederburg-theme: {}
 
+  packages/hugotex: {}
+
   packages/hugo-primer: {}
 
   packages/hugo-sustain: {}
