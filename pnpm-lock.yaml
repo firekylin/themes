@@ -152,6 +152,8 @@ importers:
 
   packages/corepress: {}
 
+  packages/zola-ergo: {}
+
   packages/massively: {}
 
   packages/clean-blog: {}

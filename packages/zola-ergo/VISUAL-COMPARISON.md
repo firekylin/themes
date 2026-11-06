@@ -1,0 +1,2 @@
+Ergo’s centered red identity, bold 600px summary column, rounded reading buttons and original light/Dracula palettes.
+Original Sass compiled with Dart Sass 1.108.0; source retained in res/source. Native wrapping navigation replaces the off-canvas checkbox menu. Palette button retains the original choice of light/dark and adds resilient local persistence. A configured profile image is optional; no demo avatar is bundled. Montserrat/Raleway use system sans-serif fallbacks. Translations, shortcodes, word/read-time counts, social icons and Utterances are omitted.
