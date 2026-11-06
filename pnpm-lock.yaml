@@ -48,6 +48,8 @@ importers:
 
   packages/m10c: {}
 
+  packages/chaplin: {}
+
   packages/alto: {}
 
   packages/academic-cv: {}
