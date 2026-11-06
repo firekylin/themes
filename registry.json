@@ -129,6 +129,20 @@
     },
     {
       "type": "theme",
+      "name": "arabica",
+      "id": "arabica",
+      "version": "0.1.0",
+      "title": "Arabica",
+      "description": "Arabica’s centered Lato masthead, Bree Serif article headings, optional featured images and orange-accented summaries.",
+      "download": "https://github.com/firekylin/themes/releases/download/arabica-v0.1.0/arabica-0.1.0.zip",
+      "integrity": "sha512-ZGP+zIqaHYvMwh73Z4LClXXjzNHUNPsNrGlHo/Z6weilI604pgiHPC8Am3xrY5c90cqfB6v86XKJhhlqTyLEjw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/arabica/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "archer",
       "id": "archer",
       "version": "0.1.0",

@@ -35,6 +35,10 @@
     "hash": "7c98bce1805f1582bcd084fd1513d50a3b1486cb9624aebb263dcc3a947fce2b",
     "id": "aquila"
   },
+  "arabica": {
+    "hash": "bd374254213816e7da9ee63498d248c1172cefc4480ede4ea3caf52e1ae36e79",
+    "id": "arabica"
+  },
   "archer": {
     "hash": "ae851073583b07537b194952996b22e5299a1dcbc77f80b82671e204e7029884",
     "id": "archer"
