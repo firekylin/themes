@@ -1,0 +1,36 @@
+{
+  "name": "vitae",
+  "title": "Vitae",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Vitae’s minimalist masthead, prominent split dates and compact text-first article list.",
+  "license": "GPL-3.0-or-later",
+  "author": "dataCobra; Firekylin contributors",
+  "homepage": "https://github.com/dataCobra/hugo-vitae",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/vitae"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "vitae"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
