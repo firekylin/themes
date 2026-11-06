@@ -63,6 +63,10 @@
     "hash": "6dd640a4870d9e91bd8f97d45a88571c4b0358f1d2e3db86a5f77a40dcfe8d84",
     "id": "aurora"
   },
+  "basically-basic": {
+    "hash": "133c756e8e644b468ef9289153273937614c372f4cbcdc6b9e56a41ca27d0fbd",
+    "id": "basically-basic"
+  },
   "bearblog": {
     "hash": "fff8c9ef9ce59414a36fdcc35110d322063cd218f5a169669c50e57cd94a9a6b",
     "id": "bearblog"
@@ -167,6 +171,10 @@
     "hash": "af8bc8af8eb10ee6d8ca7a1b0a09c83f51957eeab5e7e7ba4003fc7b4c0fb4c9",
     "id": "dawn"
   },
+  "decent": {
+    "hash": "539d443b35f8820434fa27d626e14f989bcb0cb8a7aecec5aa11313f2eaeb1be",
+    "id": "decent"
+  },
   "diary": {
     "hash": "a1b21014245321f16300dc07a869d1e2a71d021b7062f51d6a3af307525a45c8",
     "id": "diary"
@@ -243,6 +251,10 @@
     "hash": "3a11d7769f880c101dcde80a9b6b0f57bff750d2a31da8c0df7974213f372817",
     "id": "green-park-2"
   },
+  "h2o": {
+    "hash": "48c3008d2dc99737e8ce8f6620aef2fc323c2d6e26a5a86a4720e8c8517deedc",
+    "id": "h2o"
+  },
   "hamilton": {
     "hash": "d1cbe9ed10f93c724a6ab7492ce81886dffb81526bd4919893db22d4a935b4fd",
     "id": "hamilton"
@@ -286,6 +298,14 @@
   "hyde": {
     "hash": "2e25c37195cb95e142f37c3aa079966e68c18d9419c8e01511c53500abdfe11d",
     "id": "hyde"
+  },
+  "hydejack": {
+    "hash": "d6d5992933a3067ff0d6e8a2df457b8514749c5eaa3a6b9ebfdce0f650c5c463",
+    "id": "hydejack"
+  },
+  "hydeout": {
+    "hash": "4be69c076e6c4eecc51f8248ebf9299b3b7910dc25027c7bd9a68f6492cc1d33",
+    "id": "hydeout"
   },
   "icarus": {
     "hash": "c1483ebb46c0b245a5a80d6c6c60b83defc2e9a81f798369489c212ecf458edf",

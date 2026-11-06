@@ -227,6 +227,20 @@
     },
     {
       "type": "theme",
+      "name": "basically-basic",
+      "id": "basically-basic",
+      "version": "0.1.0",
+      "title": "Basically Basic",
+      "description": "Basically Basic’s bold masthead, generous white space and split metadata/excerpt list.",
+      "download": "https://github.com/firekylin/themes/releases/download/basically-basic-v0.1.0/basically-basic-0.1.0.zip",
+      "integrity": "sha512-0yG5cCPLXj6aRDVm/P6b2NeTt3sDIjpWHzcRb1g8MFZw1r+E1T7X/IFNeyBO9NyXJsCY+TfqbTPKtdLXo7Dcgw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/basically-basic/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "bearblog",
       "id": "bearblog",
       "version": "0.1.1",
@@ -591,6 +605,20 @@
     },
     {
       "type": "theme",
+      "name": "decent",
+      "id": "decent",
+      "version": "0.1.0",
+      "title": "Decent",
+      "description": "Decent’s centered masthead, ruled chronological title/date list and serif article typography.",
+      "download": "https://github.com/firekylin/themes/releases/download/decent-v0.1.0/decent-0.1.0.zip",
+      "integrity": "sha512-hpdXvZeL+Olp9/Ul9QZIgkKzQJtxGbkgU/ZxEIgwi1RZg1RyxKQBvaQ+GLRup0NerqDsbTU0zBXEEYuz1C+I6w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/decent/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "diary",
       "id": "diary",
       "version": "0.1.0",
@@ -851,6 +879,20 @@
     },
     {
       "type": "theme",
+      "name": "h2o",
+      "id": "h2o",
+      "version": "0.1.0",
+      "title": "H2O",
+      "description": "H2O’s blue hero, white image/excerpt cards, compact metadata and author sidebar.",
+      "download": "https://github.com/firekylin/themes/releases/download/h2o-v0.1.0/h2o-0.1.0.zip",
+      "integrity": "sha512-jE8u2ci6ZjPPvMezrKw0xWZ+pC/1Yivs1ZsvUPT1RhaPTwEhC1ftts8iD8RlHqYMQx5eq0VLX/c46Brp72J9PA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/h2o/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hamilton",
       "id": "hamilton",
       "version": "0.1.0",
@@ -999,6 +1041,34 @@
       "download": "https://github.com/firekylin/themes/releases/download/hyde-v0.1.0/hyde-0.1.0.zip",
       "integrity": "sha512-VTC1/NA0lcQU0WG1eoGMc+VLsG/claJTSRF2JNHRnl/V+9z91NhVi5X/3laXWYvfEh4BsQ+qqhswsFmgtu1jVA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hyde/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "hydejack",
+      "id": "hydejack",
+      "version": "0.1.0",
+      "title": "Hydejack",
+      "description": "Hydejack’s colored profile sidebar, large serif article headings and spacious blog feed.",
+      "download": "https://github.com/firekylin/themes/releases/download/hydejack-v0.1.0/hydejack-0.1.0.zip",
+      "integrity": "sha512-sUU6QPLwq65LEIAOG+obAkXbSRol5TkoP9gRWmFW3altreBNxFmvBnKqwVmMKbU6O1Xk4Vskcg6q9vKmnTd6dw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hydejack/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "hydeout",
+      "id": "hydeout",
+      "version": "0.1.0",
+      "title": "Hydeout",
+      "description": "Hydeout’s dark fixed sidebar, large serif site identity and compact post-excerpt column.",
+      "download": "https://github.com/firekylin/themes/releases/download/hydeout-v0.1.0/hydeout-0.1.0.zip",
+      "integrity": "sha512-L8H7q5Z919KPDIT7E4JS1YJ195Bh6xVmX+PtbayULM1EVctE8T3AJi96jE5NOiwhqpZeaLVlG+f/Fr7vFvxEsg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hydeout/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
