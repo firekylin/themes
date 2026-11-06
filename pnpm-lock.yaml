@@ -352,6 +352,8 @@ importers:
 
   packages/story: {}
 
+  packages/hugo-xmag: {}
+
   packages/svbtle: {}
 
   packages/susty: {}
