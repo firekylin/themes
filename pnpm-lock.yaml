@@ -75,6 +75,8 @@ importers:
 
   packages/harbor: {}
 
+  packages/zola-andromeda: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}

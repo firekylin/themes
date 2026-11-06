@@ -1,0 +1,1 @@
+Original Sass/galaxy:darkstarheader,Orbitronmasthead,squareimagecardswithbottomtext,fullviewportarticlehero,60%/80%readingblocks,PTSerif/Montserrat/Handlee fonts. NativefeaturedcoversreplaceZolaheader_img; originalfontfamilieswithupdatedOFLbinaries; no demo photos or Nanogallery2.
