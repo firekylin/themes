@@ -931,9 +931,17 @@
     "hash": "f4bef9edd314617e22adbb2de9619152ad38e870044a629e7ff5e7ad2713ad25",
     "id": "zola-dose"
   },
+  "zola-ergo": {
+    "hash": "34cd6adc4b0837f19c32c210cc0deb5b4d0fb3c63b6b174429cae3efd0dd8a71",
+    "id": "zola-ergo"
+  },
   "zola-oceanic-zen": {
     "hash": "f6aaaec31098af2eac56bb508df207c8d20a121fb1403ee94a2a0b1f3e46bf0d",
     "id": "zola-oceanic-zen"
+  },
+  "zola-zola-henry": {
+    "hash": "8a677d4702ba92e21cb786c5ede1e4bfa74e20f61afaa870630e8f0e34c9cc26",
+    "id": "zola-zola-henry"
   },
   "zola-zola-pickles": {
     "hash": "5d1ae3b38ce425f9b57e89c715f3c67b2ad0303354359e74b423def6416757e2",

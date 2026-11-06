@@ -3244,6 +3244,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-ergo",
+      "id": "zola-ergo",
+      "version": "0.1.0",
+      "title": "Ergo",
+      "description": "Ergo’s centered red identity, bold 600px summary column, rounded reading buttons and original light/Dracula palettes.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-ergo-v0.1.0/zola-ergo-0.1.0.zip",
+      "integrity": "sha512-5EkUG9l1Qwb1ZqlLs03URdfrsQTeZUzPh+LYdCfzUReoEVfBx2TgOfmZPUaSqtNmLWYkBdms0AYgqBXadabw7w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-ergo/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-oceanic-zen",
       "id": "zola-oceanic-zen",
       "version": "0.1.0",
@@ -3252,6 +3266,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/zola-oceanic-zen-v0.1.0/zola-oceanic-zen-0.1.0.zip",
       "integrity": "sha512-gujOCjqSlD5PcE7PAf1+gk5mCSs6ItvmagMwVjg4RZ3FkPnvN6FT2AwhRfirb9ty6T+gpeeGVTN5pdw/tFIHCQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-oceanic-zen/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "zola-zola-henry",
+      "id": "zola-zola-henry",
+      "version": "0.1.0",
+      "title": "Henry",
+      "description": "Henry’s blue top rule, lightweight system typography, date-first post list and wide article column.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-zola-henry-v0.1.0/zola-zola-henry-0.1.0.zip",
+      "integrity": "sha512-dJpW0EIOGtgTjtz3nYWbO+lYbiZ1+y5WyRUGfd8/2k25IR9bn+csleRzRDQyWP3KylBHHF+7w5KOiU5QuF8ISQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-zola-henry/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
