@@ -1,0 +1,1 @@
+Retains original PaperCSS CSS and Hugo custom summary/nav styles, paper-sheet container, hand-drawn borders, local original Neucha/Patrick Hand SC families, large headings and simple summary stream. Texture omitted for unestablished attribution; visible wrapping menu replaces hamburger. Native pagination/body/metadata are integrated.
