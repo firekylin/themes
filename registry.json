@@ -31,6 +31,20 @@
     },
     {
       "type": "theme",
+      "name": "aether",
+      "id": "aether",
+      "version": "0.1.0",
+      "title": "Aether",
+      "description": "Aether’s organic SVG masthead, rounded image/summary cards and paper article with drop cap.",
+      "download": "https://github.com/firekylin/themes/releases/download/aether-v0.1.0/aether-0.1.0.zip",
+      "integrity": "sha512-aAGdaHz9YAkW0OH4DFVGyrgBQq5mP0LK4YMKvy2i6OX1xgKEo+Q83IQIeaqnz1v/999DDnO6e0zccqSE1TanOQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/aether/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "akina",
       "id": "akina",
       "version": "0.1.0",
