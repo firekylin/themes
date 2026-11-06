@@ -232,6 +232,8 @@ importers:
 
   packages/material: {}
 
+  packages/shoka: {}
+
   packages/matery: {}
 
   packages/maupassant: {}
