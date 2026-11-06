@@ -1,0 +1,1 @@
+Original Materialize0.97.0 and custom CSS retained:3/1cards,teal links,large banner,card-panel reading area,footer. Demoimage omitted;safeusercover supported. Native visible textnavigation replaces JSdrawer;no parallaxmotion.
