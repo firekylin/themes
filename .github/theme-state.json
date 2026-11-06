@@ -515,6 +515,10 @@
     "hash": "d617216306c06fe8227ece8d27088795861df3abd8772e1f585233704b36c823",
     "id": "hugo-theme-anubis"
   },
+  "hugo-theme-chunky-poster": {
+    "hash": "ac23d3a6ef5abdcabb381bd0ca946025b37801d781e4bbf16c90e7c99bd6b9a1",
+    "id": "hugo-theme-chunky-poster"
+  },
   "hugo-theme-den": {
     "hash": "6badda1a31ed7c881507d4ec4d21ef25e36276f9ae4f1262688afd88c441dbad",
     "id": "hugo-theme-den"

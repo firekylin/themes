@@ -1803,6 +1803,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-theme-chunky-poster",
+      "id": "hugo-theme-chunky-poster",
+      "version": "0.1.0",
+      "title": "Chunky Poster",
+      "description": "Chunky Poster’s original navy typography, spacious hero, featured article and three-column Bootstrap cards.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-chunky-poster-v0.1.0/hugo-theme-chunky-poster-0.1.0.zip",
+      "integrity": "sha512-MW88otqEVHZv1hDA1f1UtHf25qErXEQKwLM/+3zFyKTAqbCpp36ScCDMgp4TmC66geQNoR4wOwNWMXuH9oDn/w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-chunky-poster/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-theme-den",
       "id": "hugo-theme-den",
       "version": "0.1.0",
