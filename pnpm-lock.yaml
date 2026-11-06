@@ -44,6 +44,8 @@ importers:
 
   packages/lanyon: {}
 
+  packages/risotto: {}
+
   packages/academic-cv: {}
 
   packages/akina: {}
