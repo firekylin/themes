@@ -1,0 +1,36 @@
+{
+  "name": "hoffman",
+  "title": "Hoffman",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hoffman’s centered masthead, broad featured media, inset narrow post body, Raleway titles and Vollkorn reading face.",
+  "license": "GPL-2.0-only",
+  "author": "Anders Norén; Firekylin contributors",
+  "homepage": "https://github.com/andersnoren/hoffman",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hoffman"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hoffman"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
