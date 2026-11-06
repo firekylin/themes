@@ -1,0 +1,36 @@
+{
+  "name": "radcliffe",
+  "title": "Radcliffe",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Radcliffe’s full-width photographic story panels, centered Abril Fatface headlines, dark image overlays and Crimson Text article typography.",
+  "license": "GPL-2.0-only",
+  "author": "Anders Norén; Firekylin contributors",
+  "homepage": "https://github.com/andersnoren/radcliffe",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/radcliffe"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "radcliffe"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
