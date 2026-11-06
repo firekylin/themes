@@ -1,0 +1,1 @@
+Retained upstream main CSS, yellow rules, 300px author sidebar, 740px maximum reading width, date/title rows, system font stack and covers. Native collapsible details replaces the sliding overlay; original optional widget ecosystem is reduced to real site description/search/tags. No upstream demo assets are bundled.

@@ -202,6 +202,8 @@ importers:
 
   packages/fluid: {}
 
+  packages/minimo: {}
+
   packages/minos: {}
 
   packages/gokarna: {}
