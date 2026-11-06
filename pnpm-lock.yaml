@@ -188,6 +188,8 @@ importers:
 
   packages/hugo-book: {}
 
+  packages/twentysixteen: {}
+
   packages/hugo-coder: {}
 
   packages/mini: {}
