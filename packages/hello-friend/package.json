@@ -1,0 +1,36 @@
+{
+  "name": "hello-friend",
+  "title": "Hello-Friend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hello Friend’s terminal-style logo, muted palette, large post titles and rounded reading buttons.",
+  "license": "MIT",
+  "author": "panr; Firekylin contributors",
+  "homepage": "https://github.com/panr/hugo-theme-hello-friend",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hello-friend"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hello-friend"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
