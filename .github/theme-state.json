@@ -487,6 +487,10 @@
     "hash": "91c37c7d1df554cf2fdd40036a30aff277e4bd3cf865b1d4b7eef898a3c00afd",
     "id": "hugo-theme-yinyang"
   },
+  "hugo-theme-yuki": {
+    "hash": "8d71f0da73dcacc61f00dd5b8c48aa62c8a379c0462d196c41b91da301bab13c",
+    "id": "hugo-theme-yuki"
+  },
   "hugo-xmag": {
     "hash": "fb969196ec3dcc98f071b5686e2a13f3b6b2dfdf25afe2408cc453320ac7d490",
     "id": "hugo-xmag"

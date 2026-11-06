@@ -1705,6 +1705,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-theme-yuki",
+      "id": "hugo-theme-yuki",
+      "version": "0.1.0",
+      "title": "Yuki",
+      "description": "Yuki’s large optional cover, narrow date/title list, gold section rules and spacious white article layout.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-yuki-v0.1.0/hugo-theme-yuki-0.1.0.zip",
+      "integrity": "sha512-K2mVklUuV/sLoJskD5MkuAmbdg+KIbHD44KmiFc/swmsnNBS6/vp7na1KxbSkxEybnVF7FL+D2Whb2Ir2Wuaeg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-yuki/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-xmag",
       "id": "hugo-xmag",
       "version": "0.1.2",

@@ -1,0 +1,54 @@
+{
+  "name": "hugo-theme-yuki",
+  "title": "Yuki",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Yuki’s large optional cover, narrow date/title list, gold section rules and spacious white article layout.",
+  "license": "MIT AND OFL-1.1",
+  "author": "Cyris; Firekylin contributors",
+  "homepage": "https://github.com/iCyris/hugo-theme-yuki",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-theme-yuki"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-theme-yuki"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "heroImage",
+      "label": "首页封面",
+      "help": "HTTP(S) 或站内绝对路径；留空不显示图片。"
+    },
+    {
+      "type": "text",
+      "name": "logoImage",
+      "label": "站点标志",
+      "help": "HTTP(S) 或站内绝对路径；留空不显示图片。"
+    },
+    {
+      "type": "text",
+      "name": "profileImage",
+      "label": "文章作者头像",
+      "help": "HTTP(S) 或站内绝对路径；留空不显示图片。"
+    }
+  ]
+}
