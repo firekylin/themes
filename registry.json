@@ -1257,6 +1257,34 @@
     },
     {
       "type": "theme",
+      "name": "hugo-lithium-theme",
+      "id": "hugo-lithium-theme",
+      "version": "0.1.0",
+      "title": "Lithium",
+      "description": "Lithium’s pale full-width masthead, year-grouped archive, strong sans-serif titles and serif reading column.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-lithium-theme-v0.1.0/hugo-lithium-theme-0.1.0.zip",
+      "integrity": "sha512-3CgOhrjuxMdOP9zKK1ia6U8DtAGc1eYseEYQwFit9gwEevNqref+MEhtOehqIQTtLppDDbTRhiU9WEJFJjBC7A==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-lithium-theme/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "hugo-sustain",
+      "id": "hugo-sustain",
+      "version": "0.1.0",
+      "title": "Sustain",
+      "description": "Sustain’s green page-edge rules, compact date/title archive rows and centered 800px Bootstrap layout.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-sustain-v0.1.0/hugo-sustain-0.1.0.zip",
+      "integrity": "sha512-KNAdwBNQfr604OHldXS5TuW/4eaTS04arSK0igk0IwcGpevvczJUtWi1elgrm6baIealvZjwlJGqI3rw9AqxFg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-sustain/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-theme-anubis",
       "id": "hugo-theme-anubis",
       "version": "0.1.0",
@@ -1307,6 +1335,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-yinyang-v0.1.0/hugo-theme-yinyang-0.1.0.zip",
       "integrity": "sha512-izUQV6aPW5tgotwHqSmdi7mftJ1aZtoshCDN6Qtr31tM9en94XnRz1rD9Mli715LPsvTxy6CjUXLJSubHiBo8g==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-yinyang/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "hugo-xmag",
+      "id": "hugo-xmag",
+      "version": "0.1.0",
+      "title": "XMag",
+      "description": "XMag’s newspaper masthead with double rules, responsive three-column story cards and floated thumbnails.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-xmag-v0.1.0/hugo-xmag-0.1.0.zip",
+      "integrity": "sha512-1NYglDZRak8jPWvd0gKOVDXIkE3M6uAQUrL7HTKRo9Uy+k+2NKnG9Pv2IUgcDW4oUIA1NAAsBelwFTpvfjvlKQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-xmag/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
