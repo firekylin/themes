@@ -509,11 +509,11 @@
       "type": "theme",
       "name": "clarity",
       "id": "clarity",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Clarity",
       "description": "Clarity’s split excerpt/thumbnail cards, sidebar and original light reading palette.",
-      "download": "https://github.com/firekylin/themes/releases/download/clarity-v0.1.0/clarity-0.1.0.zip",
-      "integrity": "sha512-tHpq2B0Fr3SekPzunPg/C2vbS7opdrF46gG40Va+CcfApiX8deeRm8/cACC/4OZM/uYthpHsB3Falcrfw2Xqew==",
+      "download": "https://github.com/firekylin/themes/releases/download/clarity-v0.1.1/clarity-0.1.1.zip",
+      "integrity": "sha512-RTC8MKrRcPv3QkbhisvyzJ6yjepUagG+t7UMHlpJJTOYbXPPlGpwN+/MENw0HiK34oNHEYzz9P4pxI6gbEuE0w==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/clarity/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -621,11 +621,11 @@
       "type": "theme",
       "name": "cupper",
       "id": "cupper",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Cupper",
       "description": "Cupper’s high-contrast, bordered sidebar and bold linked article list, with original striped/tick illustrations and reading typography.",
-      "download": "https://github.com/firekylin/themes/releases/download/cupper-v0.1.0/cupper-0.1.0.zip",
-      "integrity": "sha512-9MIjfte+iXeKGiN0DCV2hxct2au0dgfu06U2PaRAlAzJDU9nmuRFXG/jlE6UXw1dtgHTEQDu1MXzPafwq5Eq0A==",
+      "download": "https://github.com/firekylin/themes/releases/download/cupper-v0.1.1/cupper-0.1.1.zip",
+      "integrity": "sha512-4QlIHc/IM3QdGvzPVl88kwoqVobE/U58YNFNJWVdI5VrZxoZ4bb/6YQYoIr3eSR2rj0TBFWO0OYJlKq/sSg7rw==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/cupper/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -951,11 +951,11 @@
       "type": "theme",
       "name": "h2o",
       "id": "h2o",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "H2O",
       "description": "H2O’s blue hero, white image/excerpt cards, compact metadata and author sidebar.",
-      "download": "https://github.com/firekylin/themes/releases/download/h2o-v0.1.0/h2o-0.1.0.zip",
-      "integrity": "sha512-jE8u2ci6ZjPPvMezrKw0xWZ+pC/1Yivs1ZsvUPT1RhaPTwEhC1ftts8iD8RlHqYMQx5eq0VLX/c46Brp72J9PA==",
+      "download": "https://github.com/firekylin/themes/releases/download/h2o-v0.1.1/h2o-0.1.1.zip",
+      "integrity": "sha512-vHzd7oVfOfLx3bLQvYcMWWPXcZGTqYG+KSh//i3Kqk3vAp0YxHqqpF+e9I5s+otwnQ6+Xp8EmZWj7JebuPjsNg==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/h2o/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -1133,11 +1133,11 @@
       "type": "theme",
       "name": "hydejack",
       "id": "hydejack",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Hydejack",
       "description": "Hydejack’s colored profile sidebar, large serif article headings and spacious blog feed.",
-      "download": "https://github.com/firekylin/themes/releases/download/hydejack-v0.1.0/hydejack-0.1.0.zip",
-      "integrity": "sha512-sUU6QPLwq65LEIAOG+obAkXbSRol5TkoP9gRWmFW3altreBNxFmvBnKqwVmMKbU6O1Xk4Vskcg6q9vKmnTd6dw==",
+      "download": "https://github.com/firekylin/themes/releases/download/hydejack-v0.1.1/hydejack-0.1.1.zip",
+      "integrity": "sha512-SrBmAmfpI48uIQTymoRURcCwyVFV3BsuDFYGXDSb4kRcYHgv6n2zm7fxkMqM4itXTkIYd7PlQH2IsbBfO4Or+w==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hydejack/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -1315,11 +1315,11 @@
       "type": "theme",
       "name": "keep",
       "id": "keep",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Keep",
       "description": "Keep’s clean navigation, rounded cover-title cards, quiet metadata and adaptive reading width.",
-      "download": "https://github.com/firekylin/themes/releases/download/keep-v0.1.0/keep-0.1.0.zip",
-      "integrity": "sha512-osVfyMOjYBUtIwILVcSFEPWU3WklvuuKb7WIr93IhVwBkB2KXUGVgYyyDanHlDB5Pmgg4oc12TZP/Rilgj9OSQ==",
+      "download": "https://github.com/firekylin/themes/releases/download/keep-v0.1.1/keep-0.1.1.zip",
+      "integrity": "sha512-4Sxy5+qQl57/IGOc/shH1Aqo+VJYs3SllwIroVreos3uNw7OTXtrMvuie/FIY3XF5Qy7WCHv9ntb8YHC+pB1TQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/keep/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -1469,11 +1469,11 @@
       "type": "theme",
       "name": "london",
       "id": "london",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "London",
       "description": "Image-led two-column feed with every third card spanning the row and source title overlays.",
-      "download": "https://github.com/firekylin/themes/releases/download/london-v0.1.0/london-0.1.0.zip",
-      "integrity": "sha512-G5OzPa6IFDMKsOsvzmN9o1TpdGxeJBRtpcjhhxNH0UpHq2QsBS7NiTi1DJO0XtjI0kKVZkuLiKlcP4J0zhzjSw==",
+      "download": "https://github.com/firekylin/themes/releases/download/london-v0.1.1/london-0.1.1.zip",
+      "integrity": "sha512-418ECERjqe6tcVsFx5EJSkJSoWbspfl7DhzZrMrIRpgBYUp+tEzykUtB/OYWPSqnAoCevSRUIuwxQi10YbepxA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/london/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -2014,11 +2014,11 @@
       "type": "theme",
       "name": "pure",
       "id": "pure",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Pure",
       "description": "Pure’s profile/navigation sidebar, muted post summaries and clean ruled article list.",
-      "download": "https://github.com/firekylin/themes/releases/download/pure-v0.1.0/pure-0.1.0.zip",
-      "integrity": "sha512-c1ozO/smcpXr4BLtJ4+OmOMCEwjwge3AO3HvLZBLZMXkx06kc3gKsCCfEhS66YGTF5dD67oDSAXDtd2mWM6IlA==",
+      "download": "https://github.com/firekylin/themes/releases/download/pure-v0.1.1/pure-0.1.1.zip",
+      "integrity": "sha512-ccGkIIty46GUj9DQVcuNBhMMze+i4hUIKtmWO6BFUZELRTI9Ntgfb1ShWBLrODA0ABiy3O6VfUrSdWoOWJi6nw==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/pure/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -2126,11 +2126,11 @@
       "type": "theme",
       "name": "shoka",
       "id": "shoka",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Shoka",
       "description": "Shoka’s pastel header, alternating image/excerpt segments, pink accents and rounded story cards.",
-      "download": "https://github.com/firekylin/themes/releases/download/shoka-v0.1.0/shoka-0.1.0.zip",
-      "integrity": "sha512-G7hpv2+bRjW17D1BOlzfYQxxI4nlMRy+B0VufvkV878+9N9AWrPRN5OG8Vr1jEgOJgaVnXxTUFllE2ZuctkozA==",
+      "download": "https://github.com/firekylin/themes/releases/download/shoka-v0.1.1/shoka-0.1.1.zip",
+      "integrity": "sha512-7kx01AC1hzT578p3psIDmtQpeRZMRok+wm9wK/EexJNLY4iW2t9/wjCm8VDWwzLYGBy13w9chqfTFjXRFj2nzQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/shoka/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -2210,11 +2210,11 @@
       "type": "theme",
       "name": "solo",
       "id": "solo",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Solo",
       "description": "Personal typographic introduction followed by image cards and compact dates, using Solo’s original feed and typography.",
-      "download": "https://github.com/firekylin/themes/releases/download/solo-v0.1.0/solo-0.1.0.zip",
-      "integrity": "sha512-oH5YubYBpEskew5zPviuIt/7W9d1h3wjq2BUOSDgZAp/0NAn5ierWglNPHE8kevLxhS69geYzVP680xNJ18wOQ==",
+      "download": "https://github.com/firekylin/themes/releases/download/solo-v0.1.1/solo-0.1.1.zip",
+      "integrity": "sha512-ajgVLN0PrdQaMFVC3F4QIkDGfoDrRIrfwsIc7RAQ4PduE5XRy3J2FBMwR1T3ob4LQlDyF3E/ijxIxBPik120lA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/solo/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -2518,11 +2518,11 @@
       "type": "theme",
       "name": "wave",
       "id": "wave",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Wave",
       "description": "Podcast-oriented square-cover episode list with source date/title/excerpt typography. Native audio attachments use browser audio controls; Ghost’s site-wide playlist is excluded.",
-      "download": "https://github.com/firekylin/themes/releases/download/wave-v0.1.0/wave-0.1.0.zip",
-      "integrity": "sha512-MTN++UdnBEQ7zElthfTb7oPnQjuoPbt0nDP/u8wzFwjD+Z1J6Gsko98640+CCnht9kElShk8WFzVjRmamuCQew==",
+      "download": "https://github.com/firekylin/themes/releases/download/wave-v0.1.1/wave-0.1.1.zip",
+      "integrity": "sha512-fRZ54OUScQ60sgV7T58P4wOkj8TZW+jjT4dN8VodnzEgpW1a2G5SZsjBpT8a1X6YiWezn/IstmSqwxChWkZ7BQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/wave/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"

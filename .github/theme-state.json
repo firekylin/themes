@@ -144,7 +144,7 @@
     "id": "chirpy"
   },
   "clarity": {
-    "hash": "d815b292bf32f2751c533abe90bc2dc09015becdd5a266cd9faa8797c3b06dff",
+    "hash": "b6de204b3edf496556cf69aef693a8ee2dc8785e56be2c54a30ea48a6de97470",
     "id": "clarity"
   },
   "clean-blog": {
@@ -176,7 +176,7 @@
     "id": "cuckoo"
   },
   "cupper": {
-    "hash": "f166ad1620969e170f6e14fee3a56d3f99f367300f894525b608fda36957efe5",
+    "hash": "2c388aa24db77d50c61ee707f15effe9101136a983646c6527c54acf4eb7b857",
     "id": "cupper"
   },
   "datagov": {
@@ -272,7 +272,7 @@
     "id": "green-park-2"
   },
   "h2o": {
-    "hash": "48c3008d2dc99737e8ce8f6620aef2fc323c2d6e26a5a86a4720e8c8517deedc",
+    "hash": "2e3fcd3a35a69175f337b2700351b3fbcaff8697c2791df0e073f4fdd4e6ba79",
     "id": "h2o"
   },
   "hamilton": {
@@ -324,7 +324,7 @@
     "id": "hyde"
   },
   "hydejack": {
-    "hash": "d6d5992933a3067ff0d6e8a2df457b8514749c5eaa3a6b9ebfdce0f650c5c463",
+    "hash": "4d0a4fa85338cdc8b62ecf40734b9c96e8b814e7f6d4c4126236de93e49919fe",
     "id": "hydejack"
   },
   "hydeout": {
@@ -376,7 +376,7 @@
     "id": "journal"
   },
   "keep": {
-    "hash": "edfb4e63de06821b8bf718c46f18288bccbca8310f326e07a1dcfa0289a19853",
+    "hash": "4a771636ba2cec82856a0576c4a3501a8fe95f9f058a2ca8e3cd167fe62bd7cd",
     "id": "keep"
   },
   "klise": {
@@ -420,7 +420,7 @@
     "id": "lolimeow"
   },
   "london": {
-    "hash": "1051866a0630941f1f4f9f8ea3327734c5ec716633bcc47e0d93177486e32476",
+    "hash": "780b5a0962e9ab7f1c83fdef563c5e9db741f577511af460b55dcd800a1b6a9d",
     "id": "london"
   },
   "loveit": {
@@ -580,7 +580,7 @@
     "id": "puock"
   },
   "pure": {
-    "hash": "e5998d1f31da300383756305de1cea0325e4206ee72e4acf928e5158a95056c8",
+    "hash": "2411761cb7ad96e3ba247ee68ce4eade4a031393159819a4290e3d5572794f9b",
     "id": "pure"
   },
   "redefine": {
@@ -612,7 +612,7 @@
     "id": "sakurairo"
   },
   "shoka": {
-    "hash": "6575f0f3bc5e423bdf6c374f5c925f49c9e1f287034ac8f5e32351ca16bf8fa5",
+    "hash": "c1df431f75ca4da3f2dfdaddbab9c5dd1cff4ffb813dc7e0859340a0c3df054e",
     "id": "shoka"
   },
   "single": {
@@ -636,7 +636,7 @@
     "id": "so-simple"
   },
   "solo": {
-    "hash": "a43c8567be607d562d4ed39021ac34ff319be86f49b89bff00760c3b6181bdd2",
+    "hash": "36f46b10814cc2f35eeade3777bb9ec16e9f457359ffa6cd7aea0d9c478ac60b",
     "id": "solo"
   },
   "source": {
@@ -724,7 +724,7 @@
     "id": "volantis"
   },
   "wave": {
-    "hash": "a2faef4a6e3d69f485c5c03d23de4a8041fcec005a38d6bc91943d22eb9e8d43",
+    "hash": "185dc93234021dea2e9c7ffba179fbc61dbd93b163c58358e445c30fe25a85c3",
     "id": "wave"
   },
   "webstack": {
