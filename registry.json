@@ -1607,6 +1607,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-tania",
+      "id": "hugo-tania",
+      "version": "0.1.0",
+      "title": "Tania",
+      "description": "Tania’s date/title rows, 830px reading column, responsive navigation and original light/dark palettes.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-tania-v0.1.0/hugo-tania-0.1.0.zip",
+      "integrity": "sha512-/aQ6z2yJgfVULnizd6Ii0/PsJYwbwN8rvnV8jlYRR4pnHew86Sws9LxBmjE+Pl4QSatkdTO5T1X6GUvijqnjsw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-tania/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-theme-anubis",
       "id": "hugo-theme-anubis",
       "version": "0.1.1",
