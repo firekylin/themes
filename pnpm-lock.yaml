@@ -242,6 +242,8 @@ importers:
 
   packages/moricolor: {}
 
+  packages/astrofy: {}
+
   packages/mwordstar: {}
 
   packages/nexmoe: {}

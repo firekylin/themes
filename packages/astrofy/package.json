@@ -1,0 +1,36 @@
+{
+  "name": "astrofy",
+  "title": "Astrofy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Astrofy’s lofi profile sidebar and responsive horizontal image cards, using its DaisyUI/Tailwind styles.",
+  "license": "MIT",
+  "author": "Manuel Ernesto Garcia; Firekylin contributors",
+  "homepage": "https://github.com/manuelernestog/astrofy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/astrofy"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "astrofy"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
