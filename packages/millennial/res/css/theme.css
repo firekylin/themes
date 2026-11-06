@@ -675,3 +675,5 @@ pre code {
 .featured-post>h2{position:absolute;bottom:0}
 
 .site-header{position:static;height:auto}.content-wrapper{padding-top:20px}
+
+.featured-post>.native-cover{max-width:100%;margin:0}
