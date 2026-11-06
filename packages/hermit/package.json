@@ -1,0 +1,36 @@
+{
+  "name": "hermit",
+  "title": "Hermit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hermit dark spotlight and year-grouped reading theme.",
+  "license": "MIT",
+  "author": "Track3; Firekylin contributors",
+  "homepage": "https://github.com/Track3/hermit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hermit"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hermit"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
