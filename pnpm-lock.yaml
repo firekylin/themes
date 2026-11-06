@@ -114,6 +114,8 @@ importers:
 
   packages/corepress: {}
 
+  packages/massively: {}
+
   packages/clean-blog: {}
 
   packages/cstate: {}
