@@ -94,6 +94,8 @@ importers:
 
   packages/bearblog: {}
 
+  packages/hitchcock: {}
+
   packages/blowfish: {}
 
   packages/wave: {}
