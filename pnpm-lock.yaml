@@ -212,6 +212,8 @@ importers:
 
   packages/vitae: {}
 
+  packages/detox: {}
+
   packages/hermit: {}
 
   packages/hello-friend-ng: {}

@@ -1,0 +1,2 @@
+Detox’s oversized uppercase Montserrat masthead, spacious centered post headings, tracked dates and white reading canvas.
+Original minified main.css includes Normalize 2.1.3; its license is retained separately. Original Ghost Detox/Jordan Bowman and Hugo port attribution preserved, including the upstream Oswaldo Acauan MIT text. Unmodified variable Montserrat font is bundled under OFL. Source Sans Pro uses its original Helvetica/Arial fallback. Social icons/share popups, obsolete Google Plus, Disqus and analytics are omitted; native navigation/search/comments replace them.
