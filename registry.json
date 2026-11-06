@@ -2928,6 +2928,20 @@
     },
     {
       "type": "theme",
+      "name": "npq-hugo",
+      "id": "npq-hugo",
+      "version": "0.1.0",
+      "title": "NPQ",
+      "description": "NPQ’s original dark fixed sidebar, blue links, bordered recent-post panels and heading directory.",
+      "download": "https://github.com/firekylin/themes/releases/download/npq-hugo-v0.1.0/npq-hugo-0.1.0.zip",
+      "integrity": "sha512-9fg5FiuxqtncpWzlvUPlRWR+lzmvryWeAq7hrT/oP69M1NdZkuw13mDiktFbi3mFDKkNwk8ka/szJl3avTwF+w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/npq-hugo/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "@firekylin/theme-oneblog",
       "id": "oneblog",
       "version": "0.1.1",
