@@ -507,6 +507,20 @@
     },
     {
       "type": "theme",
+      "name": "cupper",
+      "id": "cupper",
+      "version": "0.1.0",
+      "title": "Cupper",
+      "description": "Cupper’s high-contrast, bordered sidebar and bold linked article list, with original striped/tick illustrations and reading typography.",
+      "download": "https://github.com/firekylin/themes/releases/download/cupper-v0.1.0/cupper-0.1.0.zip",
+      "integrity": "sha512-9MIjfte+iXeKGiN0DCV2hxct2au0dgfu06U2PaRAlAzJDU9nmuRFXG/jlE6UXw1dtgHTEQDu1MXzPafwq5Eq0A==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/cupper/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "datagov",
       "id": "datagov",
       "version": "0.1.0",
@@ -817,6 +831,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/hello-friend-ng-v0.1.0/hello-friend-ng-0.1.0.zip",
       "integrity": "sha512-jH7fKN4FxUotLdz5DFJqaOOHN9Tn6hNHp98bbKQt9BeW26WlTPDQQEF19oZlyAxtFGjflkq+dMKEsN7+y9i2fw==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hello-friend-ng/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "hemingway",
+      "id": "hemingway",
+      "version": "0.1.0",
+      "title": "Hemingway",
+      "description": "The Hugo Hemingway theme’s minimal Bulma-based layout, muted date subtitles and Markdown-inspired heading markers.",
+      "download": "https://github.com/firekylin/themes/releases/download/hemingway-v0.1.0/hemingway-0.1.0.zip",
+      "integrity": "sha512-L1CIFj/ZKlebZurWTkVmsrS0fBTPdT3niLdcOmIGxkK/u7OwdpbV9UE6b2uKXJAg2s6GWB8PSXTDddomRTnVqA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hemingway/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
@@ -1405,6 +1433,20 @@
     },
     {
       "type": "theme",
+      "name": "monochrome",
+      "id": "monochrome",
+      "version": "0.1.0",
+      "title": "Monochrome",
+      "description": "Monochrome’s compact archive list, subtle monochrome links, dates and original responsive reading column.",
+      "download": "https://github.com/firekylin/themes/releases/download/monochrome-v0.1.0/monochrome-0.1.0.zip",
+      "integrity": "sha512-7gQO2lZfhJF9Qs/9PDgRv1eBh/ifvloLGx2LQTZDNoByXc7iF3czVTa+60/rQWJeNo0Jabl3M62UKW1SNXicaw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/monochrome/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "moonwalk",
       "id": "moonwalk",
       "version": "0.1.0",
@@ -1480,6 +1522,34 @@
       "download": "https://github.com/firekylin/themes/releases/download/no-style-please-v0.1.0/no-style-please-0.1.0.zip",
       "integrity": "sha512-kTnap7DQKe7vRtmt+KzMDjkZftL20gMVx7ickqglaudWLgjGXHD4Esh+1COi7LLWopwaNWsvgvmPJ2ypRF8w/A==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/no-style-please/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "notepadium",
+      "id": "notepadium",
+      "version": "0.1.0",
+      "title": "Notepadium",
+      "description": "Notepadium’s simple note list with compact dates, spacious summaries and original Markdown typography.",
+      "download": "https://github.com/firekylin/themes/releases/download/notepadium-v0.1.0/notepadium-0.1.0.zip",
+      "integrity": "sha512-VMia7+yZZpbNe1Uf3MMEFmJVCJ6ZHvZjBxf9hY7OxQLwe9tRvduGQmxQF7zR7a2xDQCksLN8bK97tCLj7diNCQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/notepadium/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "noteworthy",
+      "id": "noteworthy",
+      "version": "0.1.0",
+      "title": "Noteworthy",
+      "description": "Noteworthy’s teal-accented sidebar navigation, serif headings, dated excerpts and original reading styles.",
+      "download": "https://github.com/firekylin/themes/releases/download/noteworthy-v0.1.0/noteworthy-0.1.0.zip",
+      "integrity": "sha512-wWmzm7paStMD1xujSyJUW/N/kxmAgl9kRoHItIb1iROCEPvS0h953hj5vDtqC1wY/KwEIWuh+ZfwECo4k8I5VA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/noteworthy/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }

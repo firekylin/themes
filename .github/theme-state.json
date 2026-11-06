@@ -143,6 +143,10 @@
     "hash": "74880a150adb25343c5853b18fb76e8d545adca76fecd7cf441de656ae417f86",
     "id": "cuckoo"
   },
+  "cupper": {
+    "hash": "f166ad1620969e170f6e14fee3a56d3f99f367300f894525b608fda36957efe5",
+    "id": "cupper"
+  },
   "datagov": {
     "hash": "cba2e427a8a5eaef51be3f0a394687b76847e0830b9c95630cfc3a12153c1abc",
     "id": "datagov"
@@ -234,6 +238,10 @@
   "hello-friend-ng": {
     "hash": "17a10d47e5ce8ee9355470260ac72f30333ad046805f1f9acda3e83bf62ef3f3",
     "id": "hello-friend-ng"
+  },
+  "hemingway": {
+    "hash": "b16b31721a783387e7b53e13584f3ea64ccbbaa68277d0d2db55f622b12c27d3",
+    "id": "hemingway"
   },
   "hermit": {
     "hash": "5aa141b24fdd60e27c5e2622d6785bc63c107da2b237178e079684194618ab26",
@@ -403,6 +411,10 @@
     "hash": "59517669653094afb681803fcd07f162fcf10449c0322862af13b177f7f32658",
     "id": "modernist"
   },
+  "monochrome": {
+    "hash": "f35ea38b145da769b4e49eba7b94396062baba98209f5739eec9811a6433f214",
+    "id": "monochrome"
+  },
   "moonwalk": {
     "hash": "fdd87f7749f9e28121ff6947de478c3114be682908b741dce65241bf1b45a6f7",
     "id": "moonwalk"
@@ -426,6 +438,14 @@
   "no-style-please": {
     "hash": "99fc535b52504e3974a883c740c7b8599bf1c5403d8d89d6026901372447530f",
     "id": "no-style-please"
+  },
+  "notepadium": {
+    "hash": "d42fd5b3b749ddee3037f4289117486c9c18f65a2849a00b2c3df8d7f7e55ce7",
+    "id": "notepadium"
+  },
+  "noteworthy": {
+    "hash": "ca088bcdc83951a23da296f72445eec7a8aaa3df06ad8f023d7a9477d7b08821",
+    "id": "noteworthy"
   },
   "oneblog": {
     "hash": "36082a5882a1de838fd1772260d553a547f3d5dcbf474a191d95a756e289f4ee",
