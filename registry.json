@@ -3230,6 +3230,20 @@
     },
     {
       "type": "theme",
+      "name": "simple-style",
+      "id": "simple-style",
+      "version": "0.1.0",
+      "title": "Simple Style",
+      "description": "Simple Style’s original responsive reading column, blue headings, date/title list and right-hand article TOC.",
+      "download": "https://github.com/firekylin/themes/releases/download/simple-style-v0.1.0/simple-style-0.1.0.zip",
+      "integrity": "sha512-sDUovmxkahrAuvBzv1Jd85QRYaV4Yv8retn7bFHO9T9dHyYZb82gAZXPfWcWW7BHj8oYOZh3l7FmPOfxyue/qA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/simple-style/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "simplicity",
       "id": "simplicity",
       "version": "0.1.0",
