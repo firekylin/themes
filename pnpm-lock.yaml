@@ -326,6 +326,8 @@ importers:
 
   packages/moonwalk: {}
 
+  packages/zola-serene: {}
+
   packages/zola-hook: {}
 
   packages/hugo-kiera: {}

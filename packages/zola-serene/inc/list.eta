@@ -1,0 +1,1 @@
+<% const archive=firekylin.archive;let count=0; %><section class="layout-list"><div class="post-list"><% while(archive.next()){count++; %><a class="post entry" href="<%= archive.permalink %>"><span><%= archive.title() %></span><time class="date"><%= archive.date('YYYY-MM-DD') %></time></a><% } %></div></section><% if(!count){ %><p>暂无文章。</p><% } %>
