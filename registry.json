@@ -1593,6 +1593,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-fabric",
+      "id": "hugo-fabric",
+      "version": "0.1.0",
+      "title": "Fabric",
+      "description": "Fabric’s original 800px blog column, dark Slackey masthead, Fjalla One blue headings and dated article entries.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-fabric-v0.1.0/hugo-fabric-0.1.0.zip",
+      "integrity": "sha512-TS6BFk1tHWrWe5rFmgCdGzzOJ9OHV1AToFtwH2vO4NKGPviKsvQ00mCYeoNWVreQ7J4jWQTudP/fKlUIQHss6Q==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-fabric/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-frais",
       "id": "hugo-frais",
       "version": "0.1.0",
