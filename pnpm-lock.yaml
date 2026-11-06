@@ -111,6 +111,8 @@ importers:
 
   packages/ramium: {}
 
+  packages/hugo-tikva: {}
+
   packages/devise: {}
 
   packages/academic-cv: {}

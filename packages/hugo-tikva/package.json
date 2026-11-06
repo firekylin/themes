@@ -1,0 +1,62 @@
+{
+  "name": "hugo-tikva",
+  "title": "Tikva",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tikva’s Solar blog layout: header image, gold navigation, outlined reading buttons, configurable sidebar and column footer.",
+  "license": "MIT",
+  "author": "Ralf Geschke; Firekylin contributors",
+  "homepage": "https://github.com/geschke/hugo-tikva",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-tikva"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-tikva"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "headerImage",
+      "label": "页头图片 URL",
+      "help": "可选，仅支持 http(s) 或站内绝对路径。"
+    },
+    {
+      "type": "select",
+      "name": "sidebar",
+      "label": "侧栏位置",
+      "default": "right",
+      "options": [
+        {
+          "label": "右侧",
+          "value": "right"
+        },
+        {
+          "label": "左侧",
+          "value": "left"
+        },
+        {
+          "label": "隐藏",
+          "value": "none"
+        }
+      ]
+    }
+  ]
+}
