@@ -1,0 +1,36 @@
+{
+  "name": "bootstrap4",
+  "title": "Bootstrap 4 Blog",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Bootstrap 4 Blog’s classic blue navigation bar, large blog masthead, serif text column and inset sidebar.",
+  "license": "(CC-BY-3.0 AND MIT)",
+  "author": "Alan Orth; Firekylin contributors",
+  "homepage": "https://github.com/alanorth/hugo-theme-bootstrap4-blog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/bootstrap4"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "bootstrap4"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
