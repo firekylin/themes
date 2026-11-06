@@ -623,6 +623,10 @@
     "hash": "47f496925f03c23008839c48319bcc617a6ddf3620d0bdbd1930ce465ddb2279",
     "id": "paper"
   },
+  "paperback": {
+    "hash": "a59fcfb465e6b2bc7172fe0c5fd5e8a065bc29c1b158d30d9c99b6ad1ad8f2cb",
+    "id": "paperback"
+  },
   "papermod": {
     "hash": "859ef7db9429c0af369e16d8c613aa67a5fe0f293ef5c8acfe7c6f4836458b2d",
     "id": "papermod"
