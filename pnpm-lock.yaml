@@ -79,6 +79,8 @@ importers:
 
   packages/bare-hugo-theme: {}
 
+  packages/hugo-theme-iris: {}
+
   packages/material-design: {}
 
   packages/jekyll-moon: {}

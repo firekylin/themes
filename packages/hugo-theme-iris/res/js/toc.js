@@ -1,0 +1,2 @@
+/* Native safe heading TOC; no parsing of arbitrary HTML. */
+(()=>{const toc=document.querySelector('.native-toc'),body=document.querySelector('#post-content');if(!toc||!body)return;const hs=[...body.querySelectorAll('h2,h3')];if(!hs.length)return;hs.forEach((h,i)=>{if(!h.id){let id='iris-heading-'+i;while(document.getElementById(id))id+='-x';h.id=id}const a=document.createElement('a');a.href='#'+encodeURIComponent(h.id);a.textContent=h.textContent;if(h.tagName==='H3')a.className='toc-child';toc.appendChild(a)});toc.hidden=false})();
