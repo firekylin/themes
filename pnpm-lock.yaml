@@ -162,6 +162,8 @@ importers:
 
   packages/pinghsu: {}
 
+  packages/poole: {}
+
   packages/puock: {}
 
   packages/sagiri: {}
