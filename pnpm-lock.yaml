@@ -95,6 +95,8 @@ importers:
 
   packages/darksimplicity: {}
 
+  packages/minimal-bootstrap-hugo-theme: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
