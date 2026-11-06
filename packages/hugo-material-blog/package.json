@@ -1,0 +1,36 @@
+{
+  "name": "hugo-material-blog",
+  "title": "Hugo Material Blog",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hugo Material Blog’s original Materialize typography, white navigation, summary list and left-side article metadata.",
+  "license": "MIT",
+  "author": "Mihail Cristian Dumitru; Firekylin contributors",
+  "homepage": "https://github.com/Xzya/hugo-material-blog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-material-blog"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-material-blog"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
