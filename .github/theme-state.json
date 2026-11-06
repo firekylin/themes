@@ -359,6 +359,10 @@
     "hash": "ebe246e84d4a8de2e14468c676c0d614b42b6aba75a81583c97d17f439589998",
     "id": "hugo-theme-nix"
   },
+  "hugo-theme-vec": {
+    "hash": "8eee86817e3ef91f6edf456a7d754687d8495e2a63f8b6aedb7dbeee2562ca77",
+    "id": "hugo-theme-vec"
+  },
   "hugo-theme-yinyang": {
     "hash": "01c892ce0a3554693c3cb496ed23f4bbcf9e7350266f62d8b96bbb0b7e18e8d0",
     "id": "hugo-theme-yinyang"

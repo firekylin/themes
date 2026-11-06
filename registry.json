@@ -1257,6 +1257,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-theme-vec",
+      "id": "hugo-theme-vec",
+      "version": "0.1.0",
+      "title": "Vec",
+      "description": "Vec’s dark shell-path navigation, month-grouped archive list and narrow minimalist reading column.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-vec-v0.1.0/hugo-theme-vec-0.1.0.zip",
+      "integrity": "sha512-afrc8+Fmne9bVJ9myF0JAUGPFvQxev034dr2Z+mUInXmnQDL4TU+CJzZykBc+2GsFppvqlXQ9NCN8GpacJWVHA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-vec/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-theme-yinyang",
       "id": "hugo-theme-yinyang",
       "version": "0.1.0",
