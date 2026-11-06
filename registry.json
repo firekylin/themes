@@ -1243,6 +1243,20 @@
     },
     {
       "type": "theme",
+      "name": "github-style",
+      "id": "github-style",
+      "version": "0.1.0",
+      "title": "GitHub Style",
+      "description": "GitHub Style’s profile sidebar, repository cards, file-panel articles and native light/dark preferences.",
+      "download": "https://github.com/firekylin/themes/releases/download/github-style-v0.1.0/github-style-0.1.0.zip",
+      "integrity": "sha512-xXeC7sVyKdoEyMkU3NxDAuQ77L8aJ5oIMiV/DxI8EHczAI8O2Rygb1WUmUJNF94GiTbPdAjwPri8BIn/6rCbPQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/github-style/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "gokarna",
       "id": "gokarna",
       "version": "0.1.0",

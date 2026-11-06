@@ -355,6 +355,10 @@
     "hash": "01caed643cb5c898aebd5b919e1536dbca843e12cf550f2a9c6f2b38d52de1f9",
     "id": "ghostwriter"
   },
+  "github-style": {
+    "hash": "49641a22c64611676f3a63f4c05693a1efccf9d592113034c2ca31658499bd99",
+    "id": "github-style"
+  },
   "gokarna": {
     "hash": "2456cef08b625a23826909ac54c9fb5a0bebf4272f99b7c41c3d985799ac7511",
     "id": "gokarna"

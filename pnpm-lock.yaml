@@ -56,6 +56,7 @@ importers:
 
   packages/nofancy: {}
 
+  packages/github-style: {}
   packages/hugo-tania: {}
 
   packages/hugo-theme-fuji: {}
