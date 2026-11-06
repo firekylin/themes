@@ -352,6 +352,8 @@ importers:
 
   packages/story: {}
 
+  packages/zola-dose: {}
+
   packages/hugo-xmag: {}
 
   packages/svbtle: {}

@@ -1,0 +1,2 @@
+Dose’s monospace summary feed, slash separators, underlined headings and persistent light/dark switch.
+Retains original Sass and dark palette. Uses real links instead of clickable article containers. Replaces upstream personal avatar/biography with site title/description and uses text buttons instead of third-party SVG icons. Translation controls are not ported. Index rows only show tags when the native API provides relations.
