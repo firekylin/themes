@@ -68,6 +68,8 @@ importers:
   packages/mediumish-gohugo-theme: {}
   packages/hugo-theme-den: {}
 
+  packages/hugo-theme-tokiwa: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
