@@ -70,6 +70,8 @@ importers:
 
   packages/hugo-rocinante: {}
 
+  packages/harbor: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}

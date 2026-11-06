@@ -1,0 +1,36 @@
+{
+  "name": "harbor",
+  "title": "Harbor",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Harbor original centered title, compact summary feed, 700px column and persistent light/dark control.",
+  "license": "MIT",
+  "author": "matsuyoshi30; Firekylin contributors",
+  "homepage": "https://github.com/matsuyoshi30/harbor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/harbor"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "harbor"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
