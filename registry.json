@@ -1564,6 +1564,20 @@
     },
     {
       "type": "theme",
+      "name": "roon",
+      "id": "roon",
+      "version": "0.1.0",
+      "title": "Roon",
+      "description": "Classic Roon reading layout with a featured opening image, centered narrow summaries, red links and original typography.",
+      "download": "https://github.com/firekylin/themes/releases/download/roon-v0.1.0/roon-0.1.0.zip",
+      "integrity": "sha512-Vp02uXhLP1Pi0zmML3tcCX/B22lFGCCcRGN6r/dUBltbMuV35OCmZxEv1hzlup36RV2fakhNpAj93TXipVukmw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/roon/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "ruby",
       "id": "ruby",
       "version": "0.1.0",
