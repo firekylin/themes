@@ -1,0 +1,59 @@
+{
+  "name": "hugo-theme-sky",
+  "title": "Sky",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sky’s blue navigation, charcoal canvas, configurable personal profile card and dated Bootstrap blog list.",
+  "license": "MIT",
+  "author": "Chris Frome; Firekylin contributors",
+  "homepage": "https://github.com/cfrome77/hugo-theme-sky",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-theme-sky"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-theme-sky"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍"
+    },
+    {
+      "type": "text",
+      "name": "profileName",
+      "label": "个人姓名"
+    },
+    {
+      "type": "text",
+      "name": "tagline",
+      "label": "个人标语"
+    },
+    {
+      "type": "text",
+      "name": "location",
+      "label": "所在地"
+    },
+    {
+      "type": "text",
+      "name": "about",
+      "label": "个人简介"
+    },
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "头像 URL（http(s) 或站内绝对路径）"
+    }
+  ]
+}
