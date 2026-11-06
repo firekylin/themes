@@ -1229,6 +1229,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-dusk",
+      "id": "hugo-dusk",
+      "version": "0.1.0",
+      "title": "hugo-dusk",
+      "description": "Hugo Dusk’s dark panels, cyan identity, centered navigation and bordered summary cards.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-dusk-v0.1.0/hugo-dusk-0.1.0.zip",
+      "integrity": "sha512-nkAtX/L/5zQRDAcmtvoeWXHPyj+n8XMFwbIhYxYTwMZkRj8lkgy2OsCdEOBzHwUvdWYrSG3WKH/tymUSHQTU5w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-dusk/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-theme-yinyang",
       "id": "hugo-theme-yinyang",
       "version": "0.1.0",
@@ -2149,6 +2163,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/openblog-v0.1.0/openblog-0.1.0.zip",
       "integrity": "sha512-EEv7UQbeEecID6G9sH5cv75wgpyoau4nkQndyCKjvvrF68dzH46+E9JDDf314oDvm/W3G4Sv4LjGd/JZcC/+Ag==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/openblog/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "papaya",
+      "id": "papaya",
+      "version": "0.1.0",
+      "title": "Papaya",
+      "description": "Papaya’s Norican script masthead, Bootstrap reading column, thin navigation rule and clean post summaries.",
+      "download": "https://github.com/firekylin/themes/releases/download/papaya-v0.1.0/papaya-0.1.0.zip",
+      "integrity": "sha512-HV0NeP1eQFgyuTmLB3s9RTj2qEpZtHKKia+W8msZnAd6qKgfYUVUdtpzTzeo3reDMl3P2fcKEqNO3KrVXLpSzA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/papaya/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }

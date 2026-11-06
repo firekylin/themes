@@ -351,6 +351,10 @@
     "hash": "b4fe5d321b50a0fc321ca7f67c8c0721f6a37ff1be2bd23acc564d5bf65ed634",
     "id": "hugo-coder"
   },
+  "hugo-dusk": {
+    "hash": "d4c47877cb282beaba6b26f3ed091b8f843b0c023c0a7ea9f43a9f157995a4fb",
+    "id": "hugo-dusk"
+  },
   "hugo-theme-yinyang": {
     "hash": "01c892ce0a3554693c3cb496ed23f4bbcf9e7350266f62d8b96bbb0b7e18e8d0",
     "id": "hugo-theme-yinyang"
@@ -618,6 +622,10 @@
   "openblog": {
     "hash": "834d1ba64ab89e665ef4d476e1c2ffc3961950c182a6c33080960100b4d82f69",
     "id": "openblog"
+  },
+  "papaya": {
+    "hash": "de25af307c890bc017ab4b524948265d12dc7561795af8c0990274ad942545c4",
+    "id": "papaya"
   },
   "paper": {
     "hash": "47f496925f03c23008839c48319bcc617a6ddf3620d0bdbd1930ce465ddb2279",
