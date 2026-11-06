@@ -68,6 +68,8 @@ importers:
 
   packages/architect: {}
 
+  packages/digest: {}
+
   packages/argon: {}
 
   packages/aria: {}
