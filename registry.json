@@ -549,6 +549,20 @@
     },
     {
       "type": "theme",
+      "name": "digest",
+      "id": "digest",
+      "version": "0.1.0",
+      "title": "Digest",
+      "description": "Compact newsletter archive with ruled section headings, issue excerpts and date footers.",
+      "download": "https://github.com/firekylin/themes/releases/download/digest-v0.1.0/digest-0.1.0.zip",
+      "integrity": "sha512-7QxaG8mlTmUwFDd37lmucOmtRV6BVtuBlT1aqPWrWSybOuGpBaskhm1sjn9QsyA9kGrPKlHE1HycFdGy5ntEBA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/digest/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "docsy",
       "id": "docsy",
       "version": "0.1.0",

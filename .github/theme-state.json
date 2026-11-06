@@ -155,6 +155,10 @@
     "hash": "1f116d0dc7df6a7f8db1f07b16a942c520f3e89355847b505edc1dc031990bef",
     "id": "diaspora"
   },
+  "digest": {
+    "hash": "12573e2e8c44917bbb5269ff80fc04b068bf0c850cd18bf8eb487536647c9ba2",
+    "id": "digest"
+  },
   "docsy": {
     "hash": "aec8a729f6d3ee58e914b7c4d106c253ff82676b20fad5e08a487d368f6e1482",
     "id": "docsy"
