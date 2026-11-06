@@ -42,6 +42,8 @@ importers:
         specifier: 0.64.0
         version: 0.64.0
 
+  packages/m10c: {}
+
   packages/lanyon: {}
 
   packages/risotto: {}
