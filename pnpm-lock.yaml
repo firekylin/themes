@@ -46,8 +46,6 @@ importers:
 
   packages/lanyon: {}
 
-  packages/console: {}
-
   packages/academic-cv: {}
 
   packages/akina: {}
@@ -73,6 +71,8 @@ importers:
   packages/butterfly: {}
 
   packages/cactus: {}
+
+  packages/console: {}
 
   packages/congo: {}
 
