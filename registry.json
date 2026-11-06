@@ -2175,6 +2175,20 @@
     },
     {
       "type": "theme",
+      "name": "minimo",
+      "id": "minimo",
+      "version": "0.1.0",
+      "title": "Minimo",
+      "description": "Minimo’s yellow separators, 300px author sidebar, compact date/title rows and restrained system-font reading pages.",
+      "download": "https://github.com/firekylin/themes/releases/download/minimo-v0.1.0/minimo-0.1.0.zip",
+      "integrity": "sha512-nivzuc3UaYKoLfbiToZdm+M55jMbrXpjV0EISHZl3xW+V00KS5tDwe6qhQg0NIGeIGxPfDGoKmZeg7StwX0p6g==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/minimo/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "minos",
       "id": "minos",
       "version": "0.1.0",
