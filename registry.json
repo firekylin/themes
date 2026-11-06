@@ -4308,6 +4308,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-vonge",
+      "id": "zola-vonge",
+      "version": "0.1.0",
+      "title": "Vonge",
+      "description": "Vonge’s original blue-white blog cards, overlapping content panels, gradient tags, Inter typography and split article cover.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-vonge-v0.1.0/zola-vonge-0.1.0.zip",
+      "integrity": "sha512-kX4Dvxstjb7sDbFa9+CcR8C18NF53c7RxNei7svK+fJTLWYM19hA9VuFR+Dz+XYT7qb66Iy1wDYYrpnokBVlqQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-vonge/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-zola-henry",
       "id": "zola-zola-henry",
       "version": "0.1.1",
