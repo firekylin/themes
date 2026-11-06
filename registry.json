@@ -885,6 +885,20 @@
     },
     {
       "type": "theme",
+      "name": "elephants",
+      "id": "elephants",
+      "version": "0.1.0",
+      "title": "Elephants",
+      "description": "Elephants’s centered title, Ubuntu typography and two-column date/title archive table.",
+      "download": "https://github.com/firekylin/themes/releases/download/elephants-v0.1.0/elephants-0.1.0.zip",
+      "integrity": "sha512-ho4RBO57t8owlMQnMcgbEpfsk0AS1wbaKEmbLR69RrZWiUaoc2vmFETtJfuBdgZVJ6XoH2c++SC6sEkakwpvWg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/elephants/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "er",
       "id": "er",
       "version": "0.1.0",
