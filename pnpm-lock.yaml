@@ -138,6 +138,8 @@ importers:
 
   packages/hugo-bootstrap: {}
 
+  packages/lingonberry: {}
+
   packages/edition: {}
 
   packages/echo: {}
