@@ -118,6 +118,8 @@ importers:
 
   packages/icefox: {}
 
+  packages/ink: {}
+
   packages/indigo: {}
 
   packages/initial: {}
