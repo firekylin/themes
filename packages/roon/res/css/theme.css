@@ -50,7 +50,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
     font-family: "Open Sans", "Helvetica Neue", "Helvetica-Neue", helvetica, sans-serif
 }
-body .btn, body>header h1, body article header h1, body>footer .details h4, body .post-footer .details h4, body #share_modal header a.close, body.user article.feature h1 a {
+body .btn, body>header h1, body article header h1, body>footer .details h4, body .post-footer .details h4, body #share_modal header a.close, body.user article.entry.feature h1 a {
     font-family: "Open Sans", "Helvetica Neue", "Helvetica-Neue", helvetica, sans-serif
 }
 body.serif {
@@ -772,7 +772,7 @@ body.user>header h1 {
 body.user>header hr {
     margin: 0 25%
 }
-body.user article {
+body.user article.entry {
     position: relative;
     text-align: center;
     max-width: inherit;
@@ -780,21 +780,21 @@ body.user article {
     margin-bottom: 80px;
     border-bottom: 2px solid #f7f7f7
 }
-body.user article:last-of-type {
+body.user article.entry:last-of-type {
     border-bottom: none;
     margin-bottom: 40px
 }
-body.user article header {
+body.user article.entry header {
     text-align: left;
     margin: 0 auto;
     margin-bottom: 15px;
     max-width: 680px
 }
-body.user article header h1 {
+body.user article.entry header h1 {
     margin: 0;
     font-size: 32px
 }
-body.user article .image-holder {
+body.user article.entry .image-holder {
     height: 300px;
     margin: 0 auto 30px auto;
     overflow: hidden;
@@ -805,7 +805,7 @@ body.user article .image-holder {
     -o-border-radius: 3px;
     border-radius: 3px
 }
-body.user article .image-holder .inner {
+body.user article.entry .image-holder .inner {
     display: block;
     width: 100%;
     height: 100%;
@@ -822,13 +822,13 @@ body.user article .image-holder .inner {
     -o-background-size: cover;
     background-size: cover;
 }
-body.user article .image-holder img {
+body.user article.entry .image-holder img {
     width: 0;
     height: 0;
     visibility: hidden;
     position: absolute;
 }
-body.user article .meta {
+body.user article.entry .meta {
     display: block;
     margin: 0 auto 20px auto;
     max-width: 680px;
@@ -838,14 +838,14 @@ body.user article .meta {
     text-rendering: optimizeLegibility;
     -webkit-text-size-adjust: none
 }
-body.user article .meta .count {
+body.user article.entry .meta .count {
     margin-left: 34px
 }
-body.user article time a {
+body.user article.entry time a {
     font-size: 14px;
     -webkit-text-size-adjust: none
 }
-body.user article .readmore {
+body.user article.entry .readmore {
     display: -moz-inline-stack;
     display: inline-block;
     vertical-align: middle;
@@ -871,48 +871,48 @@ body.user article .readmore {
     -o-transition-duration: 0.5s;
     transition-duration: 0.5s
 }
-body.user article .readmore:hover {
+body.user article.entry .readmore:hover {
     color: #21272d
 }
-body.user article:hover .readmore {
+body.user article.entry:hover .readmore {
     filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1
 }
-body.user article .text {
+body.user article.entry .text {
     position: relative;
     text-align: left;
     margin: 0 auto;
     padding-bottom: 80px;
     max-width: 680px
 }
-body.user article .text p {
+body.user article.entry .text p {
     display: inline;
     line-height: 1.7em;
     margin: 0 5px 0 0
 }
-body.user article .text pre, body.user article .text img, body.user article .text table, body.user article .text hr, body.user article .text iframe, body.user article .text object, body.user article .text audio, body.user article .text video, body.user article .text embed, body.user article .text h1, body.user article .text h2, body.user article .text h3, body.user article .text h4, body.user article .text h5, body.user article .text h6, body.user article .text div.gist {
+body.user article.entry .text pre, body.user article.entry .text img, body.user article.entry .text table, body.user article.entry .text hr, body.user article.entry .text iframe, body.user article.entry .text object, body.user article.entry .text audio, body.user article.entry .text video, body.user article.entry .text embed, body.user article.entry .text h1, body.user article.entry .text h2, body.user article.entry .text h3, body.user article.entry .text h4, body.user article.entry .text h5, body.user article.entry .text h6, body.user article.entry .text div.gist {
     display: none !important
 }
-body.user article .text blockquote {
+body.user article.entry .text blockquote {
     display: inline;
     padding: 0;
     margin: 0 5px 0 0;
     border: none;
     font-size: inherit
 }
-body.user article .text blockquote p {
+body.user article.entry .text blockquote p {
     font-size: inherit
 }
-body.user article.featured {
+body.user article.entry.featured {
     padding-left: 0;
     padding-right: 0
 }
-body.user article.featured>* {
+body.user article.entry.featured>* {
     padding-left: 30px;
     padding-right: 30px;
     max-width: 780px
 }
-body.user article.featured .image-holder {
+body.user article.entry.featured .image-holder {
     padding: 0;
     height: 500px;
     max-width: 980px
@@ -1352,15 +1352,15 @@ body.touch.user article .readmore {
     opacity: 1
 }
 @media only screen and (max-width: 1200px) {
-    body.user article.feature .wrap {
+    body.user article.entry.feature .wrap {
         padding-top: 25%
     }
-    body.user article.feature.square .wrap, body.user article.feature.vert .wrap {
+    body.user article.entry.feature.square .wrap, body.user article.entry.feature.vert .wrap {
         padding-top: 64%
     }
 }
 @media only screen and (max-width: 980px) {
-    body.user article.featured .image-holder {
+    body.user article.entry.featured .image-holder {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
         -ms-border-radius: 0;
@@ -1379,10 +1379,10 @@ body.touch.user article .readmore {
     }
 }
 @media only screen and (max-height: 800px) {
-    body.user article.feature .wrap {
+    body.user article.entry.feature .wrap {
         padding-top: 20%
     }
-    body.user article.feature.vert .container .wrap, body.user article.feature.square .container .wrap {
+    body.user article.entry.feature.vert .container .wrap, body.user article.entry.feature.square .container .wrap {
         padding-top: 30%
     }
 }
@@ -1393,7 +1393,7 @@ body.touch.user article .readmore {
     }
 }
 @media only screen and (max-height: 600px) {
-    body.user article.featured .image-holder {
+    body.user article.entry.featured .image-holder {
         height: 400px
     }
 }
@@ -1412,40 +1412,40 @@ body.touch.user article .readmore {
     body.user>header h1 {
         padding-top: 70px
     }
-    body.user article:first-of-type {
+    body.user article.entry:first-of-type {
         margin-top: 60px
     }
-    body.user article.feature {
+    body.user article.entry.feature {
         margin-top: 0px !important
     }
-    body.user article.feature .wrap {
+    body.user article.entry.feature .wrap {
         background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(5%, rgba(33, 39, 45, 0.1)), color-stop(75%, rgba(33, 39, 45, 0.85)));
         background: -webkit-linear-gradient(rgba(33, 39, 45, 0.1) 5%, rgba(33, 39, 45, 0.85) 75%);
         background: -moz-linear-gradient(rgba(33, 39, 45, 0.1) 5%, rgba(33, 39, 45, 0.85) 75%);
         background: -o-linear-gradient(rgba(33, 39, 45, 0.1) 5%, rgba(33, 39, 45, 0.85) 75%);
         background: linear-gradient(rgba(33, 39, 45, 0.1) 5%, rgba(33, 39, 45, 0.85) 75%)
     }
-    body.user article .image-holder {
+    body.user article.entry .image-holder {
         height: 240px
     }
-    body.user article.featured .image-holder {
+    body.user article.entry.featured .image-holder {
         height: 400px
     }
-    body.user article header h1 {
+    body.user article.entry header h1 {
         font-size: 24px
     }
     article .text {
         line-height: 1.6em
     }
-    body.user article .text {
+    body.user article.entry .text {
         line-height: 1.5em;
         font-size: 16px
     }
-    body.user article time {
+    body.user article.entry time {
         font-size: 13px;
         bottom: -15px
     }
-    body.user article.feature h1 a {
+    body.user article.entry.feature h1 a {
         font-size: 34px
     }
     #post_nav {
@@ -1554,41 +1554,41 @@ body.touch.user article .readmore {
     article.image {
         margin-top: 30px
     }
-    body.user article {
+    body.user article.entry {
         margin-top: 45px;
         margin-bottom: 30px
     }
-    body.user article .image-holder {
+    body.user article.entry .image-holder {
         height: 180px
     }
-    body.user article.featured .image-holder {
+    body.user article.entry.featured .image-holder {
         height: 300px
     }
-    body.user article .text {
+    body.user article.entry .text {
         padding-bottom: 40px
     }
-    body.user article .text ul, body.user article .text ol, body.user article .text pre, body.user article .text img, body.user article .text table, body.user article .text dl, body.user article .text hr, body.user article .text>div {
+    body.user article.entry .text ul, body.user article.entry .text ol, body.user article.entry .text pre, body.user article.entry .text img, body.user article.entry .text table, body.user article.entry .text dl, body.user article.entry .text hr, body.user article.entry .text>div {
         margin-bottom: 20px
     }
-    body.user article .text iframe {
+    body.user article.entry .text iframe {
         margin-bottom: 20px !important
     }
-    body.user article .text object {
+    body.user article.entry .text object {
         margin-top: 20px !important
     }
-    body.user article:last-of-type {
+    body.user article.entry:last-of-type {
         margin-bottom: 60px
     }
-    body.user article.feature {
+    body.user article.entry.feature {
         margin-top: 0
     }
-    body.user article.feature:first-of-type {
+    body.user article.entry.feature:first-of-type {
         margin-top: 0
     }
-    body.user article.feature .inner {
+    body.user article.entry.feature .inner {
         padding: 0 20px
     }
-    body.user article.feature .wrap {
+    body.user article.entry.feature .wrap {
         background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(33, 39, 45, 0.25)), color-stop(75%, rgba(33, 39, 45, 0.9)));
         background: -webkit-linear-gradient(rgba(33, 39, 45, 0.25) 0%, rgba(33, 39, 45, 0.9) 75%);
         background: -moz-linear-gradient(rgba(33, 39, 45, 0.25) 0%, rgba(33, 39, 45, 0.9) 75%);
@@ -1803,5 +1803,5 @@ article .text > pre {
 
 /* Firekylin native controls and article compatibility */
 :root{--ghost-accent-color:#3478a1;--background-color:#fff;--brand-color:#3478a1}body{overflow-wrap:anywhere}.native-nav{display:flex;position:static;gap:1.5rem;flex-wrap:wrap;font-size:1.6rem;margin:0}.native-skip{position:absolute;top:-100px}.native-skip:focus{top:0;z-index:100}.gh-head{height:auto!important}.gh-head-inner{display:flex!important;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:2rem;padding:2.5rem 0;height:auto;min-width:0}.gh-head-logo{font-size:2.5rem;white-space:normal}.native-main{min-width:0}.native-main>h1{margin:3rem 0}.native-main form{display:flex;flex-wrap:wrap;gap:.8rem;align-items:center;margin:2rem 0}input,button{font:inherit;max-width:100%;box-sizing:border-box}.native-main input{min-width:0}.pagination{position:static;inset:auto;display:flex;justify-content:space-between;gap:1rem;margin:3rem 0;font-size:1.6rem}.post-actions,.tags{display:flex;gap:1rem;flex-wrap:wrap;margin:2rem 0}.native-footer{text-align:center;margin:4rem 0;padding:2rem;font-size:1.4rem}.native-detail{max-width:760px;margin:4rem auto;padding:0 20px}.native-detail>.article-meta{margin:2rem 0}.native-detail>.article-meta h1{font-size:clamp(2.8rem,4vw,4.8rem);line-height:1.2}.native-detail .prose{font-size:1.8rem;line-height:1.7}.prose pre{overflow:auto;max-width:100%}.prose table{display:block;width:100%;max-width:100%;margin-inline:0;overflow:auto}.prose img,.attachment-media img{max-width:100%;height:auto}.attachment-media video,.attachment-media audio,.prose iframe{max-width:100%}.prose strong,.prose b{font-weight:700}.prose em,.prose i{font-style:italic}.native-detail .post-footer{display:block;height:auto;padding:0;margin:2rem 0;background:none}.native-cover{width:100%;height:auto;max-height:550px;object-fit:cover}.native-date{font-size:1.3rem;opacity:.7}.entry{min-width:0}:focus-visible{outline:2px solid currentColor;outline-offset:3px}@view-transition{navigation:none}@media(max-width:767px){#gh-head .gh-head-inner{display:block!important}#gh-head .native-nav{margin-top:2rem}.gh-head-logo{font-size:2rem}.native-main{padding-inline:20px}.native-detail{padding:0}}
-html{font-size:10px}body{font-size:18px}.roon-nav{max-width:680px;margin:2rem auto;padding:0 20px}.native-main{max-width:100%;margin:auto}.native-main>.pagination,.native-main>h1,.native-main>form{max-width:680px;margin:3rem auto}body.user article .image-holder img{width:100%;height:100%;visibility:visible;position:static;object-fit:cover}body.user .native-detail{max-width:760px;text-align:left}.native-detail .prose{text-align:left}.native-detail .post-title{font-size:inherit}.native-footer{font-size:14px}.native-footer p{font-size:inherit}
+html{font-size:10px}body{font-size:18px}.roon-nav{max-width:680px;margin:2rem auto;padding:0 20px}.native-main{max-width:100%;margin:auto}.native-main>.pagination,.native-main>h1,.native-main>form{max-width:680px;margin:3rem auto}body.user article.entry .image-holder img{width:100%;height:100%;visibility:visible;position:static;object-fit:cover}body.user .native-detail{max-width:760px;text-align:left}.native-detail .prose{text-align:left}.native-detail .post-title{font-size:inherit}.native-footer{font-size:14px}.native-footer p{font-size:inherit}
 .prose table{overflow-wrap:normal;word-break:normal}.prose th,.prose td{min-width:8rem;padding:.5rem 1rem;word-break:normal;overflow-wrap:normal}.prose p{margin:1.2em 0}.prose h2,.prose h3,.prose h4{margin:1.5em 0 .5em}
