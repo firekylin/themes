@@ -1,0 +1,36 @@
+{
+  "name": "future-imperfect",
+  "title": "Hugo Future Imperfect",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Future Imperfect’s editorial sidebar, bordered split-title cards, Raleway headings and large featured images.",
+  "license": "MIT AND CC-BY-3.0 AND OFL-1.1",
+  "author": "Julio Pescador; HTML5 UP; Firekylin contributors",
+  "homepage": "https://github.com/jpescador/hugo-future-imperfect",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/future-imperfect"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "future-imperfect"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
