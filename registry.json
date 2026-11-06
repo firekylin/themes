@@ -745,6 +745,20 @@
     },
     {
       "type": "theme",
+      "name": "detox",
+      "id": "detox",
+      "version": "0.1.0",
+      "title": "Detox",
+      "description": "Detox’s oversized uppercase Montserrat masthead, spacious centered post headings, tracked dates and white reading canvas.",
+      "download": "https://github.com/firekylin/themes/releases/download/detox-v0.1.0/detox-0.1.0.zip",
+      "integrity": "sha512-4xIuF1Q3jboq18iAZJcXQjvQSzSGV+fMA9Qglbu66aZX85gLMF5w0XYgmhnzVO06JqMVirZg526plXq4f8zX7g==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/detox/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "diary",
       "id": "diary",
       "version": "0.1.0",

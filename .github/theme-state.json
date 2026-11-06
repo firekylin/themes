@@ -211,6 +211,10 @@
     "hash": "539d443b35f8820434fa27d626e14f989bcb0cb8a7aecec5aa11313f2eaeb1be",
     "id": "decent"
   },
+  "detox": {
+    "hash": "42170138f86dec41feab688f08922e0280b9923a0e12544486c2a77f91f8c951",
+    "id": "detox"
+  },
   "diary": {
     "hash": "a1b21014245321f16300dc07a869d1e2a71d021b7062f51d6a3af307525a45c8",
     "id": "diary"
