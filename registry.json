@@ -1369,6 +1369,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-nederburg-theme",
+      "id": "hugo-nederburg-theme",
+      "version": "0.1.0",
+      "title": "Nederburg",
+      "description": "Nederburg / Tracks: dark site frame, alternating image-and-text post panels, uppercase Raleway titles and white reading pages.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-nederburg-theme-v0.1.0/hugo-nederburg-theme-0.1.0.zip",
+      "integrity": "sha512-uSj5+TWowArowjr9b1epoT5Qdp5nWyQ+E0OxZe4KMdS61/9whyPn26NEBLG55VcJB+FkCbrxBjFTyoMdJ1Br7g==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-nederburg-theme/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-sustain",
       "id": "hugo-sustain",
       "version": "0.1.2",
@@ -2169,6 +2183,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/minimal-mistakes-v0.1.0/minimal-mistakes-0.1.0.zip",
       "integrity": "sha512-/MomPzjwK/nz4GDGkRE6bpCT5UYpz5hrLZ/m75Gji06DamkK9/wgNES0h2HdUE81CFZQKSMvK9BnITSFWvPsWg==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/minimal-mistakes/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "minimo",
+      "id": "minimo",
+      "version": "0.1.0",
+      "title": "Minimo",
+      "description": "Minimo’s yellow separators, 300px author sidebar, compact date/title rows and restrained system-font reading pages.",
+      "download": "https://github.com/firekylin/themes/releases/download/minimo-v0.1.0/minimo-0.1.0.zip",
+      "integrity": "sha512-nivzuc3UaYKoLfbiToZdm+M55jMbrXpjV0EISHZl3xW+V00KS5tDwe6qhQg0NIGeIGxPfDGoKmZeg7StwX0p6g==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/minimo/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
