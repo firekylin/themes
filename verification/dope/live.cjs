@@ -40,7 +40,7 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
    if(route.includes('/attachment/')){assert.equal(await page.locator('.attachment-media a[download]').count(),1);assert(await page.locator('.attachment-media img').evaluate(i=>i.complete&&i.naturalWidth>0));}assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),route+' overflow');checks.push({width,route,status:response.status()});
   }
   await page.goto(origin);assert(await page.locator('#main').evaluate(e=>e.getBoundingClientRect().width>250),'usable reading column');assert.equal(await page.locator('.entry').count(),10);await page.evaluate(()=>Promise.all(document.getAnimations().filter(a=>a.effect.getTiming().iterations!==Infinity).map(a=>a.finished.catch(()=>{}))));await page.screenshot({path:path.join(evidence,'home-'+width+'.png'),fullPage:true});
-  await page.getByRole('link',{name:'下一页',exact:true}).click();await page.waitForURL('**/?page=2');
+  await page.locator('.tag-name a').first().click();await page.waitForURL('**/tag/life');assert.equal((await page.locator('#main').textContent()).includes('PRIVATE_MARKER'),false);await page.goto(origin);await page.getByRole('link',{name:'下一页',exact:true}).click();await page.waitForURL('**/?page=2');
   await page.goto(origin+'/post/hello.html');assert(await page.locator('.prose strong').evaluate(e=>parseInt(getComputedStyle(e).fontWeight)>=600),'bold emphasis');assert(await page.locator('.prose table').evaluate(e=>e.getBoundingClientRect().right<=innerWidth),'table containment');await page.screenshot({path:path.join(evidence,'post-'+width+'.png'),fullPage:true});assert(await page.locator('.nav-items a[href="/archives"]').isVisible());
 
  }

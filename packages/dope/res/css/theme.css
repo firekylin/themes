@@ -6,3 +6,5 @@
 .prose table{overflow-wrap:normal;word-break:normal}.prose th,.prose td{min-width:8rem;padding:.5rem 1rem;word-break:normal;overflow-wrap:normal}.prose p{margin:1.2em 0}.prose h2,.prose h3,.prose h4{margin:1.5em 0 .5em}
 
 .native-detail>.native-cover{position:static;width:100%;max-width:100%;height:auto;transform:none}
+
+.home-template .tag:before{pointer-events:none}.tag-feed .tag-content{position:relative;z-index:11}
