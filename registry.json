@@ -1397,6 +1397,20 @@
     },
     {
       "type": "theme",
+      "name": "hpstr-hugo-theme",
+      "id": "hpstr-hugo-theme",
+      "version": "0.1.0",
+      "title": "HPSTR",
+      "description": "HPSTR’s centered Lato masthead, shadowed white reading cards and large optional feature image.",
+      "download": "https://github.com/firekylin/themes/releases/download/hpstr-hugo-theme-v0.1.0/hpstr-hugo-theme-0.1.0.zip",
+      "integrity": "sha512-96/jhxQW5Tcc02Bk/AtjTy41PGckrxS92+vKepmkXMUHAO3PDhTlUZqIen4JGMBRNcaOxd0Zpa6AEBZUZoVWPg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hpstr-hugo-theme/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-book",
       "id": "hugo-book",
       "version": "0.1.0",

@@ -399,6 +399,10 @@
     "hash": "c98d472b68dadacde4080ef15cc01375d861413593b6f1cf30dc0523f3b0c489",
     "id": "hoffman"
   },
+  "hpstr-hugo-theme": {
+    "hash": "8287d9df260caca9e9367ddff711ad26922588773aaf94f82d60cdaa7a559d25",
+    "id": "hpstr-hugo-theme"
+  },
   "hugo-book": {
     "hash": "af819f582c657096a1eed0cd254911b6b3f73362244cfd8cc9991467af9f79b1",
     "id": "hugo-book"
