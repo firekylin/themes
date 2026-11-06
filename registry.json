@@ -199,6 +199,20 @@
     },
     {
       "type": "theme",
+      "name": "attila",
+      "id": "attila",
+      "version": "0.1.0",
+      "title": "Attila",
+      "description": "Attila’s large centered masthead and narrow text-first feed, with original reading typography and automatic system dark palette.",
+      "download": "https://github.com/firekylin/themes/releases/download/attila-v0.1.0/attila-0.1.0.zip",
+      "integrity": "sha512-Md2JvVS6FJrpSozYg+ymrM+GEhIOmRKJrdWU1b3lynY+JDwQ0+bkey1W2EezU8EDA5pBL5ybgGESvXN37AwlhA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/attila/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "aurora",
       "id": "aurora",
       "version": "0.1.0",
@@ -1117,6 +1131,20 @@
     },
     {
       "type": "theme",
+      "name": "liebling",
+      "id": "liebling",
+      "version": "0.1.0",
+      "title": "Liebling",
+      "description": "Liebling’s rounded image-card grid, tall masthead, shadows and reading styles. Featured carousel becomes native paginated cards without Swiper.",
+      "download": "https://github.com/firekylin/themes/releases/download/liebling-v0.1.0/liebling-0.1.0.zip",
+      "integrity": "sha512-Rd3RrSj3JeMjbV7yDPk75lTSR2P98l9P7a9KqvLxRmeVJwVAFYZbUwCQMp28FsIZ4q6/FESL7SFEuLTv4kMxqA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/liebling/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "lolimeow",
       "id": "lolimeow",
       "version": "0.1.0",
@@ -1167,6 +1195,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/m10c-v0.1.0/m10c-0.1.0.zip",
       "integrity": "sha512-dLvU2HC4uf3KurQLZSAvmxG6QZ+Mmfxs655KqJtf5Lqipk+brWB+44lSLi6sj5CFXXx4iNMvy7h05FzuPQac9Q==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/m10c/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "mainroad",
+      "id": "mainroad",
+      "version": "0.1.0",
+      "title": "Mainroad",
+      "description": "Mainroad’s red-accented boxed magazine layout with thumbnail summaries and native tag sidebar.",
+      "download": "https://github.com/firekylin/themes/releases/download/mainroad-v0.1.0/mainroad-0.1.0.zip",
+      "integrity": "sha512-lxIwVpYsBVvWcwxOcZf4+Ba13//BKsyi9sUKCUaJgGtW9zroSFLZJWuwbuVFNWvlVOhygOdor/HZg82kCA0M6w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/mainroad/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
@@ -1265,6 +1307,20 @@
     },
     {
       "type": "theme",
+      "name": "mini",
+      "id": "mini",
+      "version": "0.1.0",
+      "title": "Mini",
+      "description": "Mini’s restrained profile header, date-aligned article list and narrow readable summaries.",
+      "download": "https://github.com/firekylin/themes/releases/download/mini-v0.1.0/mini-0.1.0.zip",
+      "integrity": "sha512-rBOVZlP1PHf2xchR0nBD0ng+fv3QOlibmkNba8JKepeR3sVw7sKZPTpjOwzBcGJ6hXLa9w201J12deUnk2tZKQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/mini/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "minima",
       "id": "minima",
       "version": "0.1.1",
@@ -1301,6 +1357,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/minimal-mistakes-v0.1.0/minimal-mistakes-0.1.0.zip",
       "integrity": "sha512-/MomPzjwK/nz4GDGkRE6bpCT5UYpz5hrLZ/m75Gji06DamkK9/wgNES0h2HdUE81CFZQKSMvK9BnITSFWvPsWg==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/minimal-mistakes/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "minos",
+      "id": "minos",
+      "version": "0.1.0",
+      "title": "Minos",
+      "description": "Minos’s centered serif article feed, fine dividers, compact metadata and original article-entry typography.",
+      "download": "https://github.com/firekylin/themes/releases/download/minos-v0.1.0/minos-0.1.0.zip",
+      "integrity": "sha512-RAuwd2MbzqutXowzg9ONy/ZQwQTb4+HOTYCqd5QHSLWDqM4OOOsFAWxUjc6YJea1nlN11SNKao0gr+fFWUCZpQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/minos/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
