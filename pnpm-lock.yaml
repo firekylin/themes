@@ -258,6 +258,8 @@ importers:
 
   packages/minimal-mistakes: {}
 
+  packages/source: {}
+
   packages/so-simple: {}
 
   packages/chirpy: {}
