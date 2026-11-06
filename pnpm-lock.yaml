@@ -80,6 +80,8 @@ importers:
 
   packages/cuckoo: {}
 
+  packages/diary: {}
+
   packages/diaspora: {}
 
   packages/corepress: {}
