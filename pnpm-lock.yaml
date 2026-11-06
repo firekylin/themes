@@ -448,6 +448,8 @@ importers:
 
   packages/klise: {}
 
+  packages/min_night: {}
+
   packages/xmin: {}
 
   packages/journal: {}
