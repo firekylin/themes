@@ -1,0 +1,36 @@
+{
+  "name": "astro-nano",
+  "title": "Astro Nano",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Astro Nano’s compact stone-colored reading column and bordered arrow-link cards with restrained typography.",
+  "license": "MIT",
+  "author": "Mark Horn; Firekylin contributors",
+  "homepage": "https://github.com/markhorn-dev/astro-nano",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/astro-nano"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "astro-nano"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
