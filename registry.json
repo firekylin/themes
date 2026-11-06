@@ -801,6 +801,20 @@
     },
     {
       "type": "theme",
+      "name": "darksimplicity",
+      "id": "darksimplicity",
+      "version": "0.1.0",
+      "title": "Dark Simplicity",
+      "description": "Dark Simplicity’s original charcoal canvas, Lora serif typography, fluid titles and unboxed summary feed.",
+      "download": "https://github.com/firekylin/themes/releases/download/darksimplicity-v0.1.0/darksimplicity-0.1.0.zip",
+      "integrity": "sha512-VgOX08TCtElGOadTQuEZEQ9m8MWjxUwrJwavOnkk2LoAKQdxR4MLaVhB/6gL2aD6XuejYg0OlCHuCJshxi23nQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/darksimplicity/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "datagov",
       "id": "datagov",
       "version": "0.1.0",
