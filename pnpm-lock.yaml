@@ -352,6 +352,8 @@ importers:
 
   packages/zola-press-start: {}
 
+  packages/zola-still: {}
+
   packages/zola-serene: {}
 
   packages/paperesque: {}
