@@ -1005,6 +1005,20 @@
     },
     {
       "type": "theme",
+      "name": "ghostwriter",
+      "id": "ghostwriter",
+      "version": "0.1.0",
+      "title": "ghostwriter",
+      "description": "Ghostwriter’s red wordmark, centered masthead, dotted post/date rows and bold uppercase article headings.",
+      "download": "https://github.com/firekylin/themes/releases/download/ghostwriter-v0.1.0/ghostwriter-0.1.0.zip",
+      "integrity": "sha512-DYaxgoCV/PhXB0i623hyfd6cyxEQaYqfNollBYOKp8OHWAvmiZTSsfnEpnmwvD6t47zoV0ucRO/UaVXnctHKFA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/ghostwriter/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "gokarna",
       "id": "gokarna",
       "version": "0.1.0",
