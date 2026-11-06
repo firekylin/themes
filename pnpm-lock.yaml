@@ -104,6 +104,8 @@ importers:
 
   packages/fluid: {}
 
+  packages/gokarna: {}
+
   packages/g: {}
 
   packages/green-park-2: {}
