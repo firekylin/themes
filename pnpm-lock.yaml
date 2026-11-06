@@ -166,6 +166,8 @@ importers:
 
   packages/hpstr-hugo-theme: {}
 
+  packages/gazette: {}
+
   packages/erblog: {}
 
   packages/zola-coast: {}
