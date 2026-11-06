@@ -154,6 +154,8 @@ importers:
 
   packages/frost: {}
 
+  packages/vitae: {}
+
   packages/hermit: {}
 
   packages/hello-friend-ng: {}
