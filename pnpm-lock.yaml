@@ -92,6 +92,8 @@ importers:
 
   packages/davis: {}
 
+  packages/zola-zola-theme-hikari: {}
+
   packages/aurora: {}
 
   packages/liebling: {}
