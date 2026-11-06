@@ -1,7 +1,7 @@
 {
   "name": "wave",
   "title": "Wave",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Podcast-oriented square-cover episode list with source date/title/excerpt typography. Native audio attachments use browser audio controls; Ghost’s site-wide playlist is excluded.",
   "license": "MIT",

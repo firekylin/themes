@@ -1,7 +1,7 @@
 {
   "name": "hydejack",
   "title": "Hydejack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Hydejack’s colored profile sidebar, large serif article headings and spacious blog feed.",
   "license": "GPL-3.0-or-later",

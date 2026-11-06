@@ -104,7 +104,8 @@
     "responsive header navigation",
     "search without JavaScript",
     "private/draft exclusion",
-    "comment gating"
+    "comment gating",
+    "long desktop navigation scrolls to final link"
   ],
   "limits": [
     "Compared pinned upstream SCSS and templates; no live upstream demo comparison.",

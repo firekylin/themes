@@ -1,7 +1,7 @@
 {
   "name": "h2o",
   "title": "H2O",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "H2O’s blue hero, white image/excerpt cards, compact metadata and author sidebar.",
   "license": "MIT",

@@ -1,7 +1,7 @@
 {
   "name": "shoka",
   "title": "Shoka",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Shoka’s pastel header, alternating image/excerpt segments, pink accents and rounded story cards.",
   "license": "MIT",

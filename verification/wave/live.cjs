@@ -41,9 +41,10 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
   }
   await page.goto(origin);assert(await page.locator('#main').evaluate(e=>e.getBoundingClientRect().width>250),'usable reading column');assert.equal(await page.locator('.entry').count(),10);await page.evaluate(()=>Promise.all(document.getAnimations().filter(a=>a.effect.getTiming().iterations!==Infinity).map(a=>a.finished.catch(()=>{}))));await page.screenshot({path:path.join(evidence,'home-'+width+'.png'),fullPage:true});
   await page.getByRole('link',{name:'下一页',exact:true}).click();await page.waitForURL('**/?page=2');
-  await page.goto(origin+'/post/hello.html');assert(await page.locator('.prose strong').evaluate(e=>parseInt(getComputedStyle(e).fontWeight)>=600),'bold emphasis');assert(await page.locator('.prose table').evaluate(e=>e.getBoundingClientRect().right<=innerWidth),'table containment');await page.screenshot({path:path.join(evidence,'post-'+width+'.png'),fullPage:true});assert(await page.locator('.nav-items a[href="/archives"]').isVisible());
+  await page.goto(origin+'/post/hello.html');assert(await page.locator('.native-detail>.native-cover').evaluate(e=>e.getBoundingClientRect().top>=document.querySelector('.article-meta').getBoundingClientRect().bottom),'cover follows article header');assert(await page.locator('.prose strong').evaluate(e=>parseInt(getComputedStyle(e).fontWeight)>=600),'bold emphasis');assert(await page.locator('.prose table').evaluate(e=>e.getBoundingClientRect().right<=innerWidth),'table containment');await page.screenshot({path:path.join(evidence,'post-'+width+'.png'),fullPage:true});assert(await page.locator('.nav-items a[href="/archives"]').isVisible());
 
  }
+
  for(const pathname of ['private-marker','draft-marker']){const denied=await fetch(origin+'/post/'+pathname+'.html',{redirect:'manual'});assert.equal(denied.status,302);assert.equal(denied.headers.get('location'),'/');}
  db.prepare('UPDATE fk_post SET allow_comment=1 WHERE pathname=?').run('hello');let html=await(await fetch(origin+'/post/hello.html')).text();assert(html.includes('data-comment-config'));assert.equal((html.match(/id="comments"/g)||[]).length,1);
  db.prepare('UPDATE fk_post SET allow_comment=0 WHERE pathname=?').run('hello');assert(!(await(await fetch(origin+'/post/hello.html')).text()).includes('data-comment-config'));

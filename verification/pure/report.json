@@ -104,7 +104,8 @@
     "responsive header navigation",
     "search without JavaScript",
     "private/draft exclusion",
-    "comment gating"
+    "comment gating",
+    "tablet content containment at 800px and 950px"
   ],
   "limits": [
     "Compared pinned upstream SCSS and templates; no live upstream demo comparison.",

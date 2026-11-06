@@ -1,7 +1,7 @@
 {
   "name": "clarity",
   "title": "Clarity",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Clarity’s split excerpt/thumbnail cards, sidebar and original light reading palette.",
   "license": "MIT",
