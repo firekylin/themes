@@ -1,0 +1,36 @@
+{
+  "name": "hamilton",
+  "title": "Hamilton",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hamilton’s daylight palette, compact header, profile/tag sidebar and dated post-excerpt list.",
+  "license": "MIT",
+  "author": "Ng Zhi O; Firekylin contributors",
+  "homepage": "https://github.com/ngzhio/jekyll-theme-hamilton",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hamilton"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hamilton"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
