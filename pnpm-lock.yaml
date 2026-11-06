@@ -176,6 +176,8 @@ importers:
 
   packages/fluid: {}
 
+  packages/dara: {}
+
   packages/minos: {}
 
   packages/gokarna: {}
