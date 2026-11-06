@@ -46,8 +46,6 @@ importers:
 
   packages/lanyon: {}
 
-  packages/risotto: {}
-
   packages/academic-cv: {}
 
   packages/akina: {}
@@ -169,6 +167,8 @@ importers:
   packages/poole: {}
 
   packages/puock: {}
+
+  packages/risotto: {}
 
   packages/sagiri: {}
 
