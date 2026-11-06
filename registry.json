@@ -1649,6 +1649,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-theme-den",
+      "id": "hugo-theme-den",
+      "version": "0.1.0",
+      "title": "Den",
+      "description": "Den/Nest blue masthead, red accents, dated archive rows and white reading column.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-den-v0.1.0/hugo-theme-den-0.1.0.zip",
+      "integrity": "sha512-HlWYmh6UiDGwTnlBuoG0JcBSdN+chulHr33Y9yYpOHSEYiRj7SPWTV5fq4w5W5YDwX5hD7kVcKY7UyYEPEaliQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-den/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-theme-fuji",
       "id": "hugo-theme-fuji",
       "version": "0.1.0",

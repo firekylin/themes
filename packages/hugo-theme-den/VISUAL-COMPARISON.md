@@ -1,0 +1,1 @@
+Den/Nest: original GPL CSS and Bootstrap4.1.3 preserved, blue masthead with red underline, dated archive rows,850px white content and charcoal footer. Open Sans locally served. Native mobile navigation wraps in normal flow. Photo headers/logo,multi-author/social/Hugo-specific modules omitted as documented; no generic image-card replacement.
