@@ -3370,6 +3370,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-serene",
+      "id": "zola-serene",
+      "version": "0.1.0",
+      "title": "Serene",
+      "description": "Serene’s quiet profile header, blue-accent date/title links, narrow reading column and system/manual light and dark palettes.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-serene-v0.1.0/zola-serene-0.1.0.zip",
+      "integrity": "sha512-F1wDTHIgYu37Ys/6rBDctVPbST/oVjcwMvgdnZ7ZOYNJi4Vdd4A/Y/yNW8R9y/bCuH/kSuuqayJ2lKEs+zkHGA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-serene/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-zola-henry",
       "id": "zola-zola-henry",
       "version": "0.1.1",
