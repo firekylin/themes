@@ -115,6 +115,8 @@ importers:
 
   packages/devise: {}
 
+  packages/hugo-theme-sky: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
