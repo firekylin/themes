@@ -1,0 +1,36 @@
+{
+  "name": "fukasawa",
+  "title": "Fukasawa",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fukasawa’s pale fixed sidebar, Lato typography and responsive white image cards; CSS grid replaces JavaScript masonry while retaining the original card design.",
+  "license": "GPL-2.0-only",
+  "author": "Anders Norén; Firekylin contributors",
+  "homepage": "https://github.com/andersnoren/fukasawa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/fukasawa"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "fukasawa"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
