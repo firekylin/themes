@@ -1,0 +1,42 @@
+{
+  "name": "pulp",
+  "title": "Pulp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pulp’s centered profile, circular outlined avatar, monthly title list and system dark reading palette.",
+  "license": "MIT",
+  "author": "Kazuki Koide; Firekylin contributors",
+  "homepage": "https://github.com/koirand/pulp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/pulp"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "pulp"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "profileImage",
+      "label": "头像地址",
+      "help": "可选，http(s) 或站内绝对路径。"
+    }
+  ]
+}
