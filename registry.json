@@ -885,6 +885,20 @@
     },
     {
       "type": "theme",
+      "name": "er",
+      "id": "er",
+      "version": "0.1.0",
+      "title": "Er",
+      "description": "Er’s brown site badge, 650px reading column, compact dated post list and Tachyons typography.",
+      "download": "https://github.com/firekylin/themes/releases/download/er-v0.1.0/er-0.1.0.zip",
+      "integrity": "sha512-d4wqEFdBm+EP2FzqI/sPNCze4chKt/DYGzxKaP+JXTTtQgF23Y+NZo0je0ZcSvqDI5iLVrseSN4HGipiQW0o5g==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/er/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "etch",
       "id": "etch",
       "version": "0.1.0",
