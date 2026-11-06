@@ -282,6 +282,8 @@ importers:
 
   packages/moonwalk: {}
 
+  packages/hugo-kiera: {}
+
   packages/moricolor: {}
 
   packages/wp-hamilton: {}
