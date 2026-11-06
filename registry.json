@@ -3188,6 +3188,20 @@
     },
     {
       "type": "theme",
+      "name": "ramium",
+      "id": "ramium",
+      "version": "0.1.0",
+      "title": "Ramium",
+      "description": "Ramium’s Bulma blog: dark navigation, centered introduction, taxonomy chips, dated image summaries and narrow reading column.",
+      "download": "https://github.com/firekylin/themes/releases/download/ramium-v0.1.0/ramium-0.1.0.zip",
+      "integrity": "sha512-Zzyh4BzNGYR55BUJ9O3p4pROTMf7R0Oc26g9va7dCac+iBAHHoxgX9YMoFtixeXTvA3TG5z802wE5l74hv2B0g==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/ramium/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "rams",
       "id": "rams",
       "version": "0.1.0",
