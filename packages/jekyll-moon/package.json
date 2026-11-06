@@ -1,7 +1,7 @@
 {
   "name": "jekyll-moon",
   "title": "Moon",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Classic Moon: original coral-red backdrop, white 850px reading panel, Fira Sans and excerpt list.",
   "license": "MIT",

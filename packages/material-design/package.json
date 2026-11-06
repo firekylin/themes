@@ -1,7 +1,7 @@
 {
   "name": "material-design",
   "title": "Material Design",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Original Materialize three-column cards, teal links, large banner and shadowed reading panels.",
   "license": "MIT",

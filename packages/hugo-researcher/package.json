@@ -1,7 +1,7 @@
 {
   "name": "hugo-researcher",
   "title": "Researcher",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Researcher’s original monospaced 750px column, red links, slash navigation and date/title list.",
   "license": "GPL-3.0-only",
