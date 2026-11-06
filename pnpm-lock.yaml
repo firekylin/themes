@@ -224,6 +224,8 @@ importers:
 
   packages/lagrange: {}
 
+  packages/zola-oceanic-zen: {}
+
   packages/icarus: {}
 
   packages/icefox: {}
