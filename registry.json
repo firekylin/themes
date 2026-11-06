@@ -1873,6 +1873,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-theme-sky",
+      "id": "hugo-theme-sky",
+      "version": "0.1.0",
+      "title": "Sky",
+      "description": "Sky’s blue navigation, charcoal canvas, configurable personal profile card and dated Bootstrap blog list.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-sky-v0.1.0/hugo-theme-sky-0.1.0.zip",
+      "integrity": "sha512-Q0jonIeR4NWgMUBp+Q/mSgNRPD+3yJN3iFm11GD0R8YLBEPEI5BXMy/HvQqxPeWDwKO+NmmMgd8R1Ri1BB61yQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-sky/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-theme-tokiwa",
       "id": "hugo-theme-tokiwa",
       "version": "0.1.0",

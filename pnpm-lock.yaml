@@ -115,6 +115,8 @@ importers:
 
   packages/devise: {}
 
+  packages/hugo-theme-sky: {}
+
   packages/zola-radion: {}
 
   packages/hugo-theme-chunky-poster: {}
