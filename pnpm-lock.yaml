@@ -302,6 +302,8 @@ importers:
 
   packages/poole: {}
 
+  packages/dyad-2: {}
+
   packages/puock: {}
 
   packages/risotto: {}
