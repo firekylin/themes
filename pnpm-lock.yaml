@@ -73,6 +73,8 @@ importers:
 
   packages/harbor: {}
 
+  packages/bare-hugo-theme: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
