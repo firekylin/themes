@@ -206,6 +206,8 @@ importers:
 
   packages/loveit: {}
 
+  packages/hydeout: {}
+
   packages/matcha: {}
 
   packages/hemingway: {}
