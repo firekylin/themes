@@ -62,6 +62,7 @@ importers:
   packages/papercss-hugo-theme: {}
   packages/hugo-theme-fuji: {}
 
+  packages/niello: {}
   packages/hugo-theme-yuki: {}
 
   packages/academic-cv: {}
