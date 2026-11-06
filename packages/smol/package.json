@@ -1,7 +1,7 @@
 {
   "name": "smol",
   "title": "Smol",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Smol’s original monospace typography, ASCII masthead, unboxed summary feed and automatic light/dark colors.",
   "license": "MIT",

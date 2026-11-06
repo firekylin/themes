@@ -1,7 +1,7 @@
 {
   "name": "hugo-theme-anubis",
   "title": "Anubis",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Anubis’s restrained system typography, rounded navigation surface, generous summary feed and automatic light/dark palettes.",
   "license": "MIT",

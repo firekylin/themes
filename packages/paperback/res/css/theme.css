@@ -174,3 +174,6 @@ body{padding:28px 16px}.native-footer,.site-nav{color:#666}.native-footer p{marg
 
 /* This theme ships a light-only palette, including the browser canvas. */
 :root{color-scheme:light}
+
+/* Native post/page media may declare dimensions wider than the reading column. */
+.prose video,.prose audio{max-width:100%;box-sizing:border-box}.prose video{height:auto}

@@ -433,3 +433,6 @@ body{overflow-wrap:anywhere}.skip{position:absolute;top:-100px}.skip:focus{top:0
 
 .native-header{padding-top:30px}.native-nav{font-size:1.8rem}.native-footer{max-width:70rem;padding:20px;margin:30px auto;font-size:1.5rem}.post-title{margin-top:2rem}.prose pre{box-sizing:border-box}.directory li{font-size:1.8rem}.post-detail .article-meta{border-bottom:2px solid #c23c3c;margin-bottom:30px}.no-bullet .entry{margin-bottom:12px}
 :root{color-scheme:light}
+
+/* Native post/page media may declare dimensions wider than the reading column. */
+.prose video,.prose audio{max-width:100%;box-sizing:border-box}.prose video{height:auto}

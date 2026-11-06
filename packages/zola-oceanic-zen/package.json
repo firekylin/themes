@@ -1,7 +1,7 @@
 {
   "name": "zola-oceanic-zen",
   "title": "Oceanic Zen",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Oceanic Zen’s original deep-blue palette, Iosevka typography, dotted list markers and dashed section rules.",
   "license": "MIT",

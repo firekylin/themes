@@ -105,6 +105,7 @@
     "search without JavaScript",
     "private/draft exclusion",
     "comment gating",
+    "1280px video/audio in posts and pages with preserved video aspect ratio",
     "readable light canvas under system dark preference"
   ],
   "limits": [

@@ -1,7 +1,7 @@
 {
   "name": "min_night",
   "title": "Min Night",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Min Night’s blue navigation/footer, centered introduction and compact post list, with its invert/hue-rotate night mode.",
   "license": "MIT",

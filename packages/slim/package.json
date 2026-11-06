@@ -1,7 +1,7 @@
 {
   "name": "slim",
   "title": "Slim",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Slim’s original narrow reading column, compact masthead, subdued post dates and spacious summary feed.",
   "license": "MIT",

@@ -531,3 +531,6 @@ body{overflow-wrap:anywhere}.skip{position:absolute;top:-100px}.skip:focus{top:0
 header .native-nav{margin-bottom:0}.directory,main>form,main>h1,main>p{padding:0 20px}article.single header,article.single footer{background:none;padding:0;margin:20px 0}article.single .prose{padding:2rem;color:var(--base00);background:var(--base07)}article.single .post-actions,article.single .tags{padding:0}.site-footer{color:var(--base05)}.site-footer a{color:var(--base0d)}.hero-title{text-align:center;padding:10px 20px}.prose pre code{color:inherit;background:transparent}.pagination{padding:0 20px}.entry .meta{color:#555}.prose pre{color:var(--base05);background:var(--base00)}
 
 .native-nav a,.post-footer a,.directory a{color:var(--base0c)}
+
+/* Native post/page media may declare dimensions wider than the reading column. */
+.prose video,.prose audio{max-width:100%;box-sizing:border-box}.prose video{height:auto}

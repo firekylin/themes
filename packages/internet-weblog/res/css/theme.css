@@ -489,3 +489,6 @@ body{overflow-wrap:anywhere}.skip{position:absolute;top:-100px}.skip:focus{top:0
 :root{color-scheme:light dark}body{color:var(--joshin-primary-color-500)}.site-header{width:100%;max-width:780px;margin:auto}.native-nav{justify-content:flex-start;padding:0 10px;font-size:.9em;text-transform:uppercase}.content{width:100%;max-width:780px;margin:auto;box-sizing:border-box}.post-detail .article-meta{padding:0}.post-detail .article-meta h1{padding:0;margin:0}.post-detail .prose{font-size:18px;line-height:28px}.post-detail .post-footer{background:transparent;color:inherit}.native-footer{margin-top:40px;padding:25px 20px;text-align:center;color:#eee}.native-footer a[href]{color:#d6e8f6}.directory,.search-page{padding:20px}.pagination{padding:0 20px}.prose pre{padding:12px;background:var(--joshin-elevation-1);color:var(--joshin-primary-color-500)}.prose table td,.prose table th{padding:8px;border:1px solid var(--joshin-primary-color-300)}@media(max-width:780px){.native-nav{justify-content:center}.post-detail .article-meta h1{font-size:26px}.entry p{text-align:left}}
 
 .post-detail .article-meta h1,.postmeta{color:var(--joshin-primary-color-500)}
+
+/* Native post/page media may declare dimensions wider than the reading column. */
+.prose video,.prose audio{max-width:100%;box-sizing:border-box}.prose video{height:auto}

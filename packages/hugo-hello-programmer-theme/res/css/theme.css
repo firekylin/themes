@@ -525,3 +525,6 @@ body{overflow-wrap:anywhere}.skip{position:absolute;top:-100px}.skip:focus{top:0
 
 .navbar{height:auto;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.navbar>.logo{float:none}.navbar .native-nav{margin:0}.navbar a{color:#4a4a4a;text-decoration:none}.navbar .logo a{font-weight:bold}.container{padding:25px 0}.post{box-sizing:border-box}.post .post-meta h1{color:#008274}.post-title{line-height:1.25}.post-detail .post-title{color:#008274;font-size:2em}.post .summary-more{color:#007d70;border-color:#007d70}.native-footer{text-align:center;padding:30px 15px}.directory,.search-page{max-width:940px;margin:auto;padding:25px;box-sizing:border-box}.pagination{max-width:940px;margin:30px auto;padding:0 20px}.prose pre{background:#333;padding:12px;box-sizing:border-box}.prose pre code{background:transparent;color:#eee}.native-nav a:hover{border-bottom:3px solid #008274}@media(max-width:550px){.post{padding:20px}}
 :root{color-scheme:light}
+
+/* Native post/page media may declare dimensions wider than the reading column. */
+.prose video,.prose audio{max-width:100%;box-sizing:border-box}.prose video{height:auto}

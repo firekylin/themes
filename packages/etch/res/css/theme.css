@@ -392,3 +392,6 @@ body{overflow-wrap:anywhere}.skip{position:absolute;top:-100px}.skip:focus{top:0
 footer#footer{color:#666}@media(prefers-color-scheme:dark){footer#footer{color:#aaa}}
 
 header#banner .native-nav{display:inline-flex;max-width:100%;gap:10px 16px}
+
+/* Native post/page media may declare dimensions wider than the reading column. */
+.prose video,.prose audio{max-width:100%;box-sizing:border-box}.prose video{height:auto}
