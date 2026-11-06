@@ -1915,6 +1915,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo_eiio",
+      "id": "hugo_eiio",
+      "version": "0.1.0",
+      "title": "Eiio",
+      "description": "Eiio’s original orange-accent Bootstrap panels, category intro, thumbnail rows, date badges and article TOC.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo_eiio-v0.1.0/hugo_eiio-0.1.0.zip",
+      "integrity": "sha512-pkqcsd4ww0jIrpBV/PmaPQ5S9JyEiA/mM8jiJQKJ7P1/Q6aw/fK3Gz5HGA+CZGe19l0IqOIDJaDbJijFCKShKg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo_eiio/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugoplate",
       "id": "hugoplate",
       "version": "0.1.0",

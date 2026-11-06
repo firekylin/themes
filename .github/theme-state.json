@@ -547,6 +547,10 @@
     "hash": "fb969196ec3dcc98f071b5686e2a13f3b6b2dfdf25afe2408cc453320ac7d490",
     "id": "hugo-xmag"
   },
+  "hugo_eiio": {
+    "hash": "8d67250e13cad0658f0238d6b56b5ca675f3342f5cd0fb12a220cb3199292924",
+    "id": "hugo_eiio"
+  },
   "hugoplate": {
     "hash": "bff9aefe9a4ecfbf261714d395e33503ba47c012079e6187fed2c8408e13d31c",
     "id": "hugoplate"
