@@ -4154,6 +4154,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-radion",
+      "id": "zola-radion",
+      "version": "0.1.0",
+      "title": "Radion",
+      "description": "Radion’s monospace blog with pink underlines, light/dark palettes, dated summaries and collapsible article contents.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-radion-v0.1.0/zola-radion-0.1.0.zip",
+      "integrity": "sha512-5eY1/WVfDx1YlDmLAFQ1te0e2Gsz3KvNEEx6ZNm1AkMOQi8Iu8JBlw2qHa6KvcYF0F1YJU2dhl6hBDlgdyrh8Q==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-radion/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-seje2",
       "id": "zola-seje2",
       "version": "0.1.0",
