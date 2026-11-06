@@ -242,6 +242,8 @@ importers:
 
   packages/millennial: {}
 
+  packages/elephants: {}
+
   packages/indigo: {}
 
   packages/initial: {}
