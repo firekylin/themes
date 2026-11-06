@@ -1,0 +1,2 @@
+Internet Weblog’s left-aligned header, generous summary feed, full-width dark footer and original system light/dark semantic palette.
+Original weblog.css and all three Joshin palette styles retained. Uses the upstream system-font stack. Ports the ordinary blog post type; separate micro/photo post collections, external-link posts, Lightbox galleries, RSS section controls and footer photo queries have no native equivalent and are omitted. Category/tag pages use real Firekylin data; no fabricated author handle or demonstration assets.

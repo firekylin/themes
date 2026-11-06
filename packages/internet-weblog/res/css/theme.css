@@ -1,0 +1,491 @@
+:root {
+    /* Common Colors */
+    --joshin-color-white: #ffffff;
+    --joshin-color-black: #000000;
+
+    /* Greys */
+    --joshin-color-grey-100:  hsl(0, 0%, 98.82%);
+    --joshin-color-grey-200:  hsl(0, 0%, 90.59%);
+    --joshin-color-grey-300:  hsl(0, 0%, 81.96%);
+    --joshin-color-grey-400:  hsl(0, 0%, 74.12%);
+    --joshin-color-grey-500:  hsl(0, 0%, 65.88%);
+    --joshin-color-grey-600:  hsl(0, 0%, 58.43%);
+    --joshin-color-grey-700:  hsl(0, 0%, 50.59%);
+    --joshin-color-grey-800:  hsl(0, 0%, 43.14%);
+    --joshin-color-grey-900:  hsl(0, 0%, 36.08%);
+    --joshin-color-grey-1000: hsl(0, 0%, 29.02%);
+    --joshin-color-grey-1100: hsl(0, 0%, 22.35%);
+    --joshin-color-grey-1200: hsl(0, 0%, 16.08%);
+            
+    /* Denim */
+    --joshin-color-denim-100: #E1EFF8;
+    --joshin-color-denim-200: #C5DEF2;
+    --joshin-color-denim-300: #9DBCDA;
+    --joshin-color-denim-400: #7694B6;
+    --joshin-color-denim-500: #476286;
+    --joshin-color-denim-600: #334C73;
+    --joshin-color-denim-700: #233860;
+    --joshin-color-denim-800: #16274D;
+    --joshin-color-denim-900: #0D1A40;
+}
+/* Light Color Appearance */
+:root {
+    /* semantic colors */
+    --joshin-accent-color-100: var(--joshin-color-denim-500);
+
+    --joshin-primary-color-100: var(--joshin-color-grey-200);
+    --joshin-primary-color-200: var(--joshin-color-grey-400);
+    --joshin-primary-color-300: var(--joshin-color-grey-500);
+    --joshin-primary-color-400: var(--joshin-color-grey-600);
+    --joshin-primary-color-500: var(--joshin-color-grey-800);
+    --joshin-primary-color-600: var(--joshin-color-grey-900);
+    --joshin-primary-color-700: var(--joshin-color-grey-1000);
+    --joshin-primary-color-800: var(--joshin-color-grey-1100);
+    --joshin-primary-color-900: var(--joshin-color-grey-1200);
+
+    /* elevations */
+    --joshin-elevation-0: var(--joshin-color-grey-100);
+    --joshin-elevation-1: var(--joshin-color-grey-200);
+    --joshin-elevation-2: var(--joshin-color-grey-500);
+    --joshin-elevation-3: var(--joshin-color-grey-900);
+    --joshin-elevation-4: var(--joshin-color-grey-1200);
+
+    /* components */
+    /* link */ 
+    --joshin-component-link-color-default: var(--joshin-accent-color-100);
+}    
+
+/* Dark Color Appearance */
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* semantic colors */
+        --joshin-accent-color-100: var(--joshin-color-denim-200);
+
+        --joshin-primary-color-100: var(--joshin-color-grey-1200);
+        --joshin-primary-color-200: var(--joshin-color-grey-200);
+        --joshin-primary-color-300: var(--joshin-color-grey-400);
+        --joshin-primary-color-400: var(--joshin-color-grey-400);
+        --joshin-primary-color-500: var(--joshin-color-grey-200);
+        --joshin-primary-color-600: var(--joshin-color-grey-400);
+        --joshin-primary-color-700: var(--joshin-color-grey-300);
+        --joshin-primary-color-800: var(--joshin-color-grey-200);
+        --joshin-primary-color-900: var(--joshin-color-grey-100);
+
+        /* elevations */
+        --joshin-elevation-0: var(--joshin-color-grey-1100);
+        --joshin-elevation-1: var(--joshin-color-grey-1000);
+        --joshin-elevation-2: var(--joshin-color-grey-1100);
+        --joshin-elevation-3: var(--joshin-color-grey-1200);
+        --joshin-elevation-4: var(--joshin-color-grey-1200);
+
+        /* components */
+        /* link */ 
+        --joshin-component-link-color-default: var(--joshin-accent-color-100);
+    }
+}
+/* @import url(./joshin-color-palette.css);
+@import url(./joshin-color-light.css);
+@import url(./joshin-color-dark.css); */
+
+/* Page */
+
+body {
+  font: 16px/24px "Avenir Next", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  line-height: 24px;
+  background-color: var(--joshin-elevation-0);
+}
+
+a[href] {
+	color: var(--joshin-component-link-color-default);
+	text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4 {
+  color: var(--joshin-primary-color-500);  
+}
+
+img {
+  max-width: 100%;
+}
+
+blockquote {
+  background-color: var(--joshin-elevation-1);
+  color: var(--joshin-primary-color-500);
+  padding: 5px;
+}
+
+blockquote p {
+  font-style: italic;
+  padding: 0 10px;
+}
+
+blockquote p:last-child {
+  font-style: normal;
+  padding-left: 30px;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+
+.content {
+  flex: 1;
+}
+
+/* Header */
+
+header {
+  padding: 20px 0;
+}
+
+header h1 {
+  text-align: left;
+  vertical-align: middle;
+  font-size: 30px;
+  line-height: 32px;
+  margin: 0 auto;
+  padding: 10px 10px 0 10px;
+  max-width: 720px;
+  color: var(--joshin-primary-color-400);
+}
+
+article > ul > li {
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--joshin-primary-color-500);
+}
+
+/* Navigation */
+
+nav {
+  margin: auto;
+  max-width: 720px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+nav ul > li {
+  display: inline;
+  float: left;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11pt;
+  font-weight: 500;
+}
+
+.rss-icon {
+  height: 14px;
+  padding-left: 5px;
+}
+
+.pagination {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.pagination span {
+  color: var(--joshin-secondary-color-500);
+}
+
+/* Articles, general */
+
+.post, .page, .post-groups {
+  margin: 40px auto;
+  max-width: 780px;
+}
+
+.post > p, .page > p {
+  color: var(--joshin-primary-color-500);
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+  text-align: justify;
+}
+
+.post > p {
+  margin: 20px auto;
+}
+
+.post h2 {
+  margin: 0;
+  line-height: 32px;
+}
+
+article .postmeta {
+	line-height: 22px;
+	color: var(--joshin-primary-color-400);
+  margin: 0 auto;
+	padding: 5px 0 0 0;
+}
+
+/* Microposts */
+
+article.micropost {
+  margin: 8px auto;
+}
+
+.micropost {
+  background-color: var(--joshin-elevation-1);
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 780px;
+  border-radius: 14px;
+}
+
+.micropost > p {
+  color: var(--joshin-primary-color-700);
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 10px;
+  text-align: justify;
+}
+
+.micropost > a {
+  font-size: 12px;
+  color: var(--joshin-primary-color-400);
+  margin: 0;
+}
+
+.micropost p > a, .post p > a {
+  text-decoration: underline; 
+}
+
+/* Photo Posts */
+
+article.photo {
+  border-radius: 14px;
+  margin: 40px auto;
+  max-width: 780px;
+  overflow: hidden;
+  height: 300px;
+}
+
+article.photo div {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  overflow: hidden;
+}
+
+article.photo .title {
+  background-color: var(--joshin-accent-color-100);
+  font-size: 18pt;
+  padding: 15px;
+}
+
+article.photo a {
+  color: var(--joshin-primary-color-100);
+  display: block;
+  overflow: hidden;
+}
+
+article.photo p {
+  margin: 0;
+}
+
+article.photo img {
+  -webkit-transition: -webkit-transform 4s ease 0s;
+  -moz-transition: -moz-transform 4s ease 0s;
+  -o-transition: -o-transform 4s ease 0s;
+  transition: transform 4s ease 0s;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  width: 100%;
+}
+
+article.photo img:hover {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(-2deg);
+  transform: scale3d(1.1, 1.1, 1.1) rotate(-2deg);
+}
+
+/* Post Grouping */
+
+.post-group {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto;
+}
+
+.post-group-item {
+  flex: auto;
+  width: 45%;
+  margin: 5px;
+  padding: 8px;
+  font-size: 10pt;
+  border-radius: 14px;
+  color: var(--joshin-primary-color-600);
+}
+
+.post-group-item:hover {
+  background-color: var(--joshin-elevation-1);
+}
+
+.post-group-item h3 {
+  color: var(--joshin-primary-color-400);
+  font-size: 15pt;
+  margin: 0;
+  padding: 6px 0 0 6px;
+  font-weight: bold;
+}
+
+.post-group-item ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 0 6px;
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--joshin-elevation-3);
+  color: var(--joshin-primary-color-200);
+  margin: 0;
+}
+
+.footer_text {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 720px;
+}
+
+.footer_text h3 {
+  color: var(--joshin-primary-color-200);
+}
+
+.footer_text a {
+  color: var(--joshin-primary-color-60);
+}
+
+.footer_text > div {
+  flex: 1;
+  margin: 10px;
+}
+
+#photos {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.photo-item {
+  display: block;
+  height: 75px;
+  margin: 1px;
+  overflow: hidden;
+  padding: 0;
+  width: 75px;
+}
+
+.photo-item img {
+  flex: auto;
+  -webkit-transition: -webkit-transform 0.15s ease 0s;
+  -moz-transition: -moz-transform 0.15s ease 0s;
+  -o-transition: -o-transform 0.15s ease 0s;
+  transition: transform 0.15s ease 0s;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+}
+
+.photo-item img:hover {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  opacity: 1.0;
+}
+
+.footer_copyright {
+  color: var(--joshin-primary-color-50);
+  font: 12px/20px "Avenir Next", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  margin: auto;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer_copyright a {
+  color: var(--joshin-primary-color-60);
+}
+
+@media screen
+and (max-width: 780px) {
+
+  .footer_text {
+    width: 100%;
+  }
+
+  .footer_text > div {
+    flex: auto;
+    width: 100%;
+    text-align: justify;
+  }
+
+  #photos {
+    justify-content: center;
+  }
+
+  article {
+    margin: 0;
+    padding: 20px;
+  }
+
+  header {
+    padding: 0;
+  }
+
+  header h1 {
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul > li {
+    background-color: var(--joshin-elevation-2);
+    display:list-item;
+    float: none;
+    margin: 0;
+    padding: 10px;
+    border-bottom: var(--joshin-elevation-1) 2px solid;
+  }
+
+  nav ul:first-child {
+    border-top: var(--joshin-elevation-1) 2px solid;
+  }
+
+  .post-group-item {
+    width: 100%;
+  }
+
+  article.micropost {
+    margin: 8px 20px;
+  }
+
+  .micropost {
+    margin: 0px auto;
+    padding: 20px;
+  }
+}
+
+/* Native Firekylin integration: controls, media and code containment. */
+body{overflow-wrap:anywhere}.skip{position:absolute;top:-100px}.skip:focus{top:0;z-index:99}.native-nav{display:flex;flex-wrap:wrap;gap:10px 16px;margin:18px 0}.prose pre,.prose table{display:block;max-width:100%;overflow:auto}.prose img,.attachment-media img{max-width:100%;height:auto;margin:1rem 0}.attachment-media video,.attachment-media audio,.prose iframe{max-width:100%}.prose ul{list-style:disc}.prose ol{list-style:decimal}.prose li{display:list-item}.pagination{display:flex;justify-content:space-between;gap:12px;margin:32px 0}.post-actions,.tags{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}input,button{font:inherit;max-width:100%;box-sizing:border-box}form{display:flex;flex-wrap:wrap;gap:10px}input{min-width:0}:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+
+:root{color-scheme:light dark}body{color:var(--joshin-primary-color-500)}.site-header{width:100%;max-width:780px;margin:auto}.native-nav{justify-content:flex-start;padding:0 10px;font-size:.9em;text-transform:uppercase}.content{width:100%;max-width:780px;margin:auto;box-sizing:border-box}.post-detail .article-meta{padding:0}.post-detail .article-meta h1{padding:0;margin:0}.post-detail .prose{font-size:18px;line-height:28px}.post-detail .post-footer{background:transparent;color:inherit}.native-footer{margin-top:40px;padding:25px 20px;text-align:center;color:#eee}.native-footer a[href]{color:#d6e8f6}.directory,.search-page{padding:20px}.pagination{padding:0 20px}.prose pre{padding:12px;background:var(--joshin-elevation-1);color:var(--joshin-primary-color-500)}.prose table td,.prose table th{padding:8px;border:1px solid var(--joshin-primary-color-300)}@media(max-width:780px){.native-nav{justify-content:center}.post-detail .article-meta h1{font-size:26px}.entry p{text-align:left}}
+
+.post-detail .article-meta h1,.postmeta{color:var(--joshin-primary-color-500)}
