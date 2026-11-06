@@ -1,0 +1,36 @@
+{
+  "name": "er",
+  "title": "Er",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Er’s brown site badge, 650px reading column, compact dated post list and Tachyons typography.",
+  "license": "MIT",
+  "author": "Lingyi Hu; Firekylin contributors",
+  "homepage": "https://github.com/lingxz/er",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/er"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "er"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
