@@ -156,6 +156,8 @@ importers:
 
   packages/corepress: {}
 
+  packages/zola-deepthought: {}
+
   packages/zola-ergo: {}
 
   packages/massively: {}
