@@ -1,0 +1,1 @@
+Original Rocinante Sass and system fonts:740pxbody column, small left-aligned header, title/date/summary list, dotted intro divider, blue links, shadedfooter and OS palettes. Native text posts retained, no generic image cards; Hugo photoblog-specific metadata not ported.
