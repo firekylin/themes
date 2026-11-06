@@ -311,6 +311,20 @@
     },
     {
       "type": "theme",
+      "name": "bootstrap4",
+      "id": "bootstrap4",
+      "version": "0.1.0",
+      "title": "Bootstrap 4 Blog",
+      "description": "Bootstrap 4 Blog’s classic blue navigation bar, large blog masthead, serif text column and inset sidebar.",
+      "download": "https://github.com/firekylin/themes/releases/download/bootstrap4-v0.1.0/bootstrap4-0.1.0.zip",
+      "integrity": "sha512-o46wyIcbPlvGHaqSU+w+b8Zko71ZNAGBrDChJVTqoVUNhoJ1TAGgpchnRa+Z2XH4h0lRZAqFauDwtqpFRLZOkg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/bootstrap4/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "brave",
       "id": "brave",
       "version": "0.1.0",
@@ -759,6 +773,20 @@
     },
     {
       "type": "theme",
+      "name": "editorial",
+      "id": "editorial",
+      "version": "0.1.0",
+      "title": "Editorial",
+      "description": "Editorial’s coral header rule, serif titles, ruled two-column image cards and outlined buttons.",
+      "download": "https://github.com/firekylin/themes/releases/download/editorial-v0.1.0/editorial-0.1.0.zip",
+      "integrity": "sha512-chcbaasclShJXgKAk+ExLMAJBfXb8c7wpWs7QKU2eP7U3D9afcWI0lbYDqxh1uJ597kt1g+m+sTF8Y4mOeT5vg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/editorial/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "even",
       "id": "even",
       "version": "0.1.0",
@@ -1001,6 +1029,20 @@
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-book/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "hugo-bootstrap",
+      "id": "hugo-bootstrap",
+      "version": "0.1.0",
+      "title": "Hugo Bootstrap",
+      "description": "Hugo Bootstrap’s blue application bar, rounded image cards, subtle surfaces and profile sidebar.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-bootstrap-v0.1.0/hugo-bootstrap-0.1.0.zip",
+      "integrity": "sha512-5CfqyaJQ7Uxx1uAO+XOZXjfshvZvRCjd7ZuyJlqJcV0UKoSARsBx+9BP2KBEqUMgjYLim+Jt0UjH4VEIFln5JQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-bootstrap/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
       }
     },
     {
@@ -1469,6 +1511,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/mdx-v0.1.0/mdx-0.1.0.zip",
       "integrity": "sha512-ca94C9kWgIWMFqDAOxvz/vfLLsmPm4/5C11lEsUBQ++uHBvMJIy37YGiO51O9QFCMxZPKI9eb+L3tIgPP4yohQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/mdx/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "meme",
+      "id": "meme",
+      "version": "0.1.0",
+      "title": "MemE",
+      "description": "MemE’s centered brand, understated post summaries, blue links and generous reading rhythm.",
+      "download": "https://github.com/firekylin/themes/releases/download/meme-v0.1.0/meme-0.1.0.zip",
+      "integrity": "sha512-Y35DVJbIZ+Uuj0uWcMJUpi9U2uGmbGij2LJt1eyfKqK80QH2WOkgE2VS78nznChYQC3DlVTqpWVzfCe6HtkfUg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/meme/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }

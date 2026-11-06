@@ -87,6 +87,10 @@
     "hash": "b60e29a94f7b454d2bf54528492ce108cbf3069e6db6486989fa03925d938edf",
     "id": "blowfish"
   },
+  "bootstrap4": {
+    "hash": "d4a6920f9550e7e897e995c3fa58f31a9c355ba6767ac7a7131bf3b0af88847c",
+    "id": "bootstrap4"
+  },
   "brave": {
     "hash": "418a68302f3adb2331db37e3cac641714ef84fab815acbef6a4dc4c8c2cb7a44",
     "id": "brave"
@@ -215,6 +219,10 @@
     "hash": "c8aaac6677cd685ac6be47c3984c9c2937466800ebc5dc97cbba48d22bb3f95e",
     "id": "edition"
   },
+  "editorial": {
+    "hash": "d05699320798c54cf1966a92f73ccfc93d190410103e0f6ba48ebaa370b25d6f",
+    "id": "editorial"
+  },
   "even": {
     "hash": "b1e5565e3435fd02dd6da2c37f3aa0be25afa4fe95296a1c6bccef3342696ede",
     "id": "even"
@@ -286,6 +294,10 @@
   "hugo-book": {
     "hash": "af819f582c657096a1eed0cd254911b6b3f73362244cfd8cc9991467af9f79b1",
     "id": "hugo-book"
+  },
+  "hugo-bootstrap": {
+    "hash": "ace8e63b3188dc29b13c5fb50cb34c42a64b3d723afcb1bacb6c504d6c4d8e81",
+    "id": "hugo-bootstrap"
   },
   "hugo-coder": {
     "hash": "b4fe5d321b50a0fc321ca7f67c8c0721f6a37ff1be2bd23acc564d5bf65ed634",
@@ -422,6 +434,10 @@
   "mdx": {
     "hash": "6c15f150ef3b5f18d406561b95068000c565b4931a4c673b3bca747b5af079de",
     "id": "mdx"
+  },
+  "meme": {
+    "hash": "282857955c87e90e6eeefe0fa6e8e6a3479950136bcb07f85f666c96b1312e55",
+    "id": "meme"
   },
   "merlot": {
     "hash": "41aaa6334b8b3b17008095dda79b9a48c2cc518e47dbd855b4006fb9f2503fea",
