@@ -72,6 +72,8 @@ importers:
 
   packages/digest: {}
 
+  packages/mcluhan: {}
+
   packages/argon: {}
 
   packages/aria: {}
