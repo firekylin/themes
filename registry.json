@@ -3300,6 +3300,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-apollo",
+      "id": "zola-apollo",
+      "version": "0.1.0",
+      "title": "Apollo",
+      "description": "Apollo’s coral accent, monospaced dates, Space Grotesk reading profile, chronological summaries and persistent light/dark palette.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-apollo-v0.1.0/zola-apollo-0.1.0.zip",
+      "integrity": "sha512-qTHIhdx7duV3BHnaeJjhKw/6bhucliyvogH7LTLp6lKbdUEuzCSsJpi8ulVNBbYIMY6t8HCxynbyRCK2JwwzVA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-apollo/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-dinkleberg",
       "id": "zola-dinkleberg",
       "version": "0.1.1",

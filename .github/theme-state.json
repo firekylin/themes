@@ -947,6 +947,10 @@
     "hash": "dd82cd9c353c7be321a88a816a7bd5d9a3191832ca5a278893ebf56ea64c1ce8",
     "id": "zen"
   },
+  "zola-apollo": {
+    "hash": "7e0f398d07a40fb1a5d0b3f807e617833d8d01b6f1a1851684f532d47cef8349",
+    "id": "zola-apollo"
+  },
   "zola-dinkleberg": {
     "hash": "42cf3cf21e306c2104d14f86d6c676e5998fc433b15bf3e7992d63912561f6a5",
     "id": "zola-dinkleberg"
