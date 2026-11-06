@@ -1,0 +1,36 @@
+{
+  "name": "internet-weblog",
+  "title": "Internet Weblog",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Internet Weblog’s left-aligned header, generous summary feed, full-width dark footer and original system light/dark semantic palette.",
+  "license": "MIT",
+  "author": "Josh Johnson; Firekylin contributors",
+  "homepage": "https://github.com/jnjosh/internet-weblog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/internet-weblog"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "internet-weblog"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

@@ -392,6 +392,8 @@ importers:
 
   packages/hugo-theme-yinyang: {}
 
+  packages/internet-weblog: {}
+
   packages/zen: {}
 
   packages/yilia: {}
