@@ -1,0 +1,1 @@
+OriginalBulma0.7.1+blog.css:OpenSans,bluehero,9/3whitebox/sidebarcards,stackedmobile,darkfooter. Demoimageomitted,usercoveroptional;navnormalflow,yeararchiveslinktocompletearchive,related/readingtimeomitted.

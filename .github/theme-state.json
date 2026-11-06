@@ -423,6 +423,10 @@
     "hash": "8287d9df260caca9e9367ddff711ad26922588773aaf94f82d60cdaa7a559d25",
     "id": "hpstr-hugo-theme"
   },
+  "hugo-blog-jeffprod": {
+    "hash": "0590ca2bfe30684a5bd4589978c3643c2d891a1e12b9117ce34a091fdfc43bf4",
+    "id": "hugo-blog-jeffprod"
+  },
   "hugo-book": {
     "hash": "af819f582c657096a1eed0cd254911b6b3f73362244cfd8cc9991467af9f79b1",
     "id": "hugo-book"
@@ -575,6 +579,10 @@
     "hash": "b73ba0b328ded20a166acdbb14d636e24c7aaaccc87ca0769910619bb236397c",
     "id": "jasmine"
   },
+  "jekyll-moon": {
+    "hash": "3a8a167f3fa5aa1e3ec0253338345faad84853d20e47514b97ef27cca1c44bf3",
+    "id": "jekyll-moon"
+  },
   "jekyll-now": {
     "hash": "872bf1307b5c07c425aabca8135b7ea82c187a0a1a26925d5661a7947fa287ff",
     "id": "jekyll-now"
@@ -678,6 +686,10 @@
   "material": {
     "hash": "280f3fc9111b1dd3735278b2e4acb59140bcd1f4cb831c4914851cabbebba9c8",
     "id": "material"
+  },
+  "material-design": {
+    "hash": "77274ceb97f2e8f92160fc6d17355acba3dbd5a3cb918776b41878940d6af4e5",
+    "id": "material-design"
   },
   "matery": {
     "hash": "bf6eaa566e476892f5548b64ff79e7f037afb47d1c985eeb57bfa5dda3e5ccd9",
@@ -1074,6 +1086,10 @@
   "zen": {
     "hash": "dd82cd9c353c7be321a88a816a7bd5d9a3191832ca5a278893ebf56ea64c1ce8",
     "id": "zen"
+  },
+  "zola-andromeda": {
+    "hash": "575ba975829f399e5dac65207a58305fac37519d5afc9eff6bfbbc48784d48f7",
+    "id": "zola-andromeda"
   },
   "zola-apollo": {
     "hash": "7e0f398d07a40fb1a5d0b3f807e617833d8d01b6f1a1851684f532d47cef8349",

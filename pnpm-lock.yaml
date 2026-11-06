@@ -81,6 +81,12 @@ importers:
 
   packages/hugo-theme-iris: {}
 
+  packages/material-design: {}
+
+  packages/jekyll-moon: {}
+
+  packages/hugo-blog-jeffprod: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
