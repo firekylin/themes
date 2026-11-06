@@ -885,6 +885,20 @@
     },
     {
       "type": "theme",
+      "name": "devise",
+      "id": "devise",
+      "version": "0.1.0",
+      "title": "Devise",
+      "description": "Devise’s original 650px personal blog, optional circular portrait, dark category badges and compact dated article lists.",
+      "download": "https://github.com/firekylin/themes/releases/download/devise-v0.1.0/devise-0.1.0.zip",
+      "integrity": "sha512-Z8PkHxYpXD3QCwLVHiBdvAVW3tsYt5+eEnYShsg5pnqVhyuEjL+PVxbnPk0NEUDtmHw2cYfz3qB4jWseZxa0OQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/devise/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "diary",
       "id": "diary",
       "version": "0.1.0",
