@@ -1313,6 +1313,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-cards",
+      "id": "hugo-cards",
+      "version": "0.1.0",
+      "title": "Hugo Cards",
+      "description": "Hugo Cards / Webjeda Cards image panels, Raleway typography, layered hover shadows and recent-post reading sidebar.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-cards-v0.1.0/hugo-cards-0.1.0.zip",
+      "integrity": "sha512-fFnWjHs+MIcZYZcnsUs4m6LX0GzCXvhVSiGBLk2eO5HGJb2lsfbCRwPuaSJYGsj80sfChaxl1SjZdkqiPqk1Rw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-cards/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-coder",
       "id": "hugo-coder",
       "version": "0.1.0",

@@ -375,6 +375,10 @@
     "hash": "ace8e63b3188dc29b13c5fb50cb34c42a64b3d723afcb1bacb6c504d6c4d8e81",
     "id": "hugo-bootstrap"
   },
+  "hugo-cards": {
+    "hash": "45c56f580f6b4915aca1c9e7c53c1819e44dd2a6e061b16ccf6b0c90260373cf",
+    "id": "hugo-cards"
+  },
   "hugo-coder": {
     "hash": "b4fe5d321b50a0fc321ca7f67c8c0721f6a37ff1be2bd23acc564d5bf65ed634",
     "id": "hugo-coder"
