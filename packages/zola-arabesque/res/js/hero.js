@@ -1,0 +1,1 @@
+import{drawHero}from'./pattern.js';for(const el of document.querySelectorAll('[data-pattern-hero]'))drawHero(el,{animate:false});
