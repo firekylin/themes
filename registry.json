@@ -1887,6 +1887,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-theme-simple-blog",
+      "id": "hugo-theme-simple-blog",
+      "version": "0.1.0",
+      "title": "Simple Blog",
+      "description": "Simple Blog’s original skewed gray backdrop, centered two-column Bootstrap cards, category links and footer navigation.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-simple-blog-v0.1.0/hugo-theme-simple-blog-0.1.0.zip",
+      "integrity": "sha512-KvDYbaokXs8sw8YnM6LQlHkkC4cKyVU9sspaokF4VbHXLHSPrOSbATd7nfww41IYnQ+acSa6ShORfNDD562L8A==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-simple-blog/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-theme-sky",
       "id": "hugo-theme-sky",
       "version": "0.1.0",
@@ -4330,6 +4344,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/zola-zola-theme-hikari-v0.1.2/zola-zola-theme-hikari-0.1.2.zip",
       "integrity": "sha512-CgD1QgZ34xa4dyxdWQBK3ECgZyDfRlNho544Xu8zWQSOmSGj3y0ahc2IoCJ9pu4sO22/UdXq1ipXeY1/PLAHow==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-zola-theme-hikari/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "zola-zolanight",
+      "id": "zola-zolanight",
+      "version": "0.1.0",
+      "title": "ZolaNight",
+      "description": "ZolaNight’s original Tokyo Night palettes, Markdown-style headings, monospace reading column and compact dated post index.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-zolanight-v0.1.0/zola-zolanight-0.1.0.zip",
+      "integrity": "sha512-nRMdW4r2nSgbAJ5O4kzz17Iyj/u8Y/l1aDV6E/+/UlzKry3N9bqeYWCZICER+cy/07NqlvtVpUYRyA4RwEHZOQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-zolanight/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }

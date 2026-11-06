@@ -129,6 +129,9 @@ importers:
 
   packages/zola-zolarwind: {}
 
+  packages/zola-zolanight: {}
+
+
   packages/academic-cv: {}
 
   packages/solo: {}
