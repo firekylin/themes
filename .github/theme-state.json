@@ -251,6 +251,10 @@
     "hash": "42170138f86dec41feab688f08922e0280b9923a0e12544486c2a77f91f8c951",
     "id": "detox"
   },
+  "devise": {
+    "hash": "888c3ed5cc2a022cd999810c31dcf6a1084436a92c7257133c7d0f9343f4553d",
+    "id": "devise"
+  },
   "diary": {
     "hash": "a1b21014245321f16300dc07a869d1e2a71d021b7062f51d6a3af307525a45c8",
     "id": "diary"
