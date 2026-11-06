@@ -520,6 +520,8 @@ importers:
 
   packages/so-simple: {}
 
+  packages/colordrop: {}
+
   packages/charaka-hugo-theme: {}
 
   packages/chirpy: {}
