@@ -45,6 +45,20 @@
     },
     {
       "type": "theme",
+      "name": "alto",
+      "id": "alto",
+      "version": "0.1.0",
+      "title": "Alto",
+      "description": "Spacious centered photo feed, large article titles, reading typography and native persistent dark mode.",
+      "download": "https://github.com/firekylin/themes/releases/download/alto-v0.1.0/alto-0.1.0.zip",
+      "integrity": "sha512-3wCWU365dleMC7zn8/XaYVNggMCXHd9NC3x/1SNMyYtnObAhhLbTR67lyvY++p3KcMyyZsGBy543MurhFEj4Tw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/alto/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "amaze",
       "id": "amaze",
       "version": "0.1.0",
@@ -279,6 +293,20 @@
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/bubble/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "bulletin",
+      "id": "bulletin",
+      "version": "0.1.0",
+      "title": "Bulletin",
+      "description": "Newsletter archive layout with an illustrated lead issue, split month/year dates and linked excerpts.",
+      "download": "https://github.com/firekylin/themes/releases/download/bulletin-v0.1.0/bulletin-0.1.0.zip",
+      "integrity": "sha512-0PGnbiQUt+YyhZFPopcaBXVPVMiwavhu62cRgH7s3sU8spzFVW/xA1URqq9d2WUPcyeIRGWT9eogrRbbZgQFjg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/bulletin/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
       }
     },
     {
@@ -1061,6 +1089,20 @@
     },
     {
       "type": "theme",
+      "name": "london",
+      "id": "london",
+      "version": "0.1.0",
+      "title": "London",
+      "description": "Image-led two-column feed with every third card spanning the row and source title overlays.",
+      "download": "https://github.com/firekylin/themes/releases/download/london-v0.1.0/london-0.1.0.zip",
+      "integrity": "sha512-G5OzPa6IFDMKsOsvzmN9o1TpdGxeJBRtpcjhhxNH0UpHq2QsBS7NiTi1DJO0XtjI0kKVZkuLiKlcP4J0zhzjSw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/london/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "loveit",
       "id": "loveit",
       "version": "0.1.0",
@@ -1480,6 +1522,20 @@
     },
     {
       "type": "theme",
+      "name": "ruby",
+      "id": "ruby",
+      "version": "0.1.0",
+      "title": "Ruby",
+      "description": "Four-column shadowed cards with image, colored tag role, excerpt and separated card footer.",
+      "download": "https://github.com/firekylin/themes/releases/download/ruby-v0.1.0/ruby-0.1.0.zip",
+      "integrity": "sha512-a+0qZd6U8sOEy32yZM3vmag173zRlSQbfpkcUREAcCZYto33LkBpOyRf445VSKQr1/HoeHGxWGsO2w75NrU7JA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/ruby/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "sagiri",
       "id": "sagiri",
       "version": "0.1.0",
@@ -1572,6 +1628,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/so-simple-v0.1.0/so-simple-0.1.0.zip",
       "integrity": "sha512-KA/D6WGFPlUUhpw/KBSY1PucpA5ucvPHBsIURPUybH18BCxTIZT3cGYSOHU+IhWu9Bp6oZG5OuFuhd8hK42UCQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/so-simple/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "solo",
+      "id": "solo",
+      "version": "0.1.0",
+      "title": "Solo",
+      "description": "Personal typographic introduction followed by image cards and compact dates, using Solo’s original feed and typography.",
+      "download": "https://github.com/firekylin/themes/releases/download/solo-v0.1.0/solo-0.1.0.zip",
+      "integrity": "sha512-oH5YubYBpEskew5zPviuIt/7W9d1h3wjq2BUOSDgZAp/0NAn5ierWglNPHE8kevLxhS69geYzVP680xNJ18wOQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/solo/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }

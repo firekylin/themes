@@ -11,6 +11,10 @@
     "hash": "8ce5a0d816cf47691cd7e2232a85aec0549fe805c62254a75ddf0f03373d53d4",
     "id": "akina"
   },
+  "alto": {
+    "hash": "23f4c4eaab8d23c95bbc7bb6bf3f7c88979640aa14736d7e2686f03ed5645dac",
+    "id": "alto"
+  },
   "amaze": {
     "hash": "600c3949f39f2e1b098859354a97968865891c538444fd0588f341c6ab69bdcd",
     "id": "amaze"
@@ -78,6 +82,10 @@
   "bubble": {
     "hash": "d21b1d82bcf9ad120b7d9eeeec0057e0e74f1bee2045e8bf0a4270eb23bb5ecc",
     "id": "bubble"
+  },
+  "bulletin": {
+    "hash": "f1020430a9f499fceb34ba0cf081cde06c0b5aed318a806371a73a54a1d56972",
+    "id": "bulletin"
   },
   "butterfly": {
     "hash": "6e7037887e1dfcefe705138cdc1f72c84da69379b259d1e6e2402ea0dd02f9dc",
@@ -303,6 +311,10 @@
     "hash": "619c8803bcf48908b1a4d465c6cd66e0d47b6935f2b5c756689dbb28f627827f",
     "id": "lolimeow"
   },
+  "london": {
+    "hash": "1051866a0630941f1f4f9f8ea3327734c5ec716633bcc47e0d93177486e32476",
+    "id": "london"
+  },
   "loveit": {
     "hash": "14a6e1ebe311efc6d205fd1e189f58d667ba003b01192973069bf4e824390d4f",
     "id": "loveit"
@@ -427,6 +439,10 @@
     "hash": "5d84f4d96fd6d10a982d2c394895e172e575a2910ba4cf151c9d95d351e3709d",
     "id": "risotto"
   },
+  "ruby": {
+    "hash": "d0953b58f31ef36283095f72433659fe3ff623a81dc7c847bf48194e2c3762ff",
+    "id": "ruby"
+  },
   "sagiri": {
     "hash": "cf114dd518b7d2070093284c9887302ed141906db765566c37f320a8673c9793",
     "id": "sagiri"
@@ -454,6 +470,10 @@
   "so-simple": {
     "hash": "9f41503387e8d2115f2cbb3def8638069f736f62ea3ad37513f531f85415a49c",
     "id": "so-simple"
+  },
+  "solo": {
+    "hash": "a43c8567be607d562d4ed39021ac34ff319be86f49b89bff00760c3b6181bdd2",
+    "id": "solo"
   },
   "source": {
     "hash": "b8a2cef9500598376ea0cd5bac23876b4432bc0d3721224c7f161518505cbba6",
