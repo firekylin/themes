@@ -1593,6 +1593,20 @@
     },
     {
       "type": "theme",
+      "name": "hugotex",
+      "id": "hugotex",
+      "version": "0.1.0",
+      "title": "HugoTeX",
+      "description": "HugoTeX LaTeX typography with Latin Modern, academic abstract, native heading contents and local KaTeX formulas.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugotex-v0.1.0/hugotex-0.1.0.zip",
+      "integrity": "sha512-esczQZYLjrBTNC74HDUiVMppmvS+eF7Hz0BqWMB8ekaAJ6WzR88RWY+nBtK4PA+7G7X7A3MO0pCTCa6i937xlQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugotex/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hyde",
       "id": "hyde",
       "version": "0.1.0",

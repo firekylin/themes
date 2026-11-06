@@ -455,6 +455,10 @@
     "hash": "bff9aefe9a4ecfbf261714d395e33503ba47c012079e6187fed2c8408e13d31c",
     "id": "hugoplate"
   },
+  "hugotex": {
+    "hash": "aedf303d11d4f2655150c6d824004e2e58abbddf45f6dda5e1e9d8368a6a2efb",
+    "id": "hugotex"
+  },
   "hyde": {
     "hash": "2e25c37195cb95e142f37c3aa079966e68c18d9419c8e01511c53500abdfe11d",
     "id": "hyde"
