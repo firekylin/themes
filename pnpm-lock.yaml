@@ -226,6 +226,8 @@ importers:
 
   packages/jasmine: {}
 
+  packages/smol: {}
+
   packages/jj: {}
 
   packages/fukasawa: {}

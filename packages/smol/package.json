@@ -1,0 +1,36 @@
+{
+  "name": "smol",
+  "title": "Smol",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Smol’s original monospace typography, ASCII masthead, unboxed summary feed and automatic light/dark colors.",
+  "license": "MIT",
+  "author": "colorchestra; Firekylin contributors",
+  "homepage": "https://github.com/colorchestra/smol",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/smol"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "smol"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
