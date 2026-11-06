@@ -1,0 +1,36 @@
+{
+  "name": "hugo-theme-vec",
+  "title": "Vec",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Vec’s dark shell-path navigation, month-grouped archive list and narrow minimalist reading column.",
+  "license": "MIT",
+  "author": "Ivan Chou; Firekylin contributors",
+  "homepage": "https://github.com/IvanChou/hugo-theme-vec",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-theme-vec"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-theme-vec"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
