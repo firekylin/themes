@@ -254,6 +254,8 @@ importers:
 
   packages/merlot: {}
 
+  packages/publication: {}
+
   packages/material: {}
 
   packages/shoka: {}
