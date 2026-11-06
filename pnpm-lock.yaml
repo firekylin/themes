@@ -44,6 +44,8 @@ importers:
 
   packages/lanyon: {}
 
+  packages/hermit: {}
+
   packages/academic-cv: {}
 
   packages/akina: {}
