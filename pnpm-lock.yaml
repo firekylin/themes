@@ -121,6 +121,8 @@ importers:
 
   packages/zola-blow: {}
 
+  packages/hugo-theme-chunky-poster: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}

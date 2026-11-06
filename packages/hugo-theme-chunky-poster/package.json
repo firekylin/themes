@@ -1,0 +1,39 @@
+{
+  "name": "hugo-theme-chunky-poster",
+  "title": "Chunky Poster",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Chunky Poster’s original navy typography, spacious hero, featured article and three-column Bootstrap cards.",
+  "license": "MIT",
+  "author": "virtualcursor; Firekylin contributors",
+  "homepage": "https://github.com/puresyntax71/hugo-theme-chunky-poster",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-theme-chunky-poster"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-theme-chunky-poster"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍"
+    },
+    {
+      "type": "text",
+      "name": "heroImage",
+      "label": "首页介绍图片 URL（可选）"
+    }
+  ]
+}
