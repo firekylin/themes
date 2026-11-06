@@ -381,6 +381,20 @@
     },
     {
       "type": "theme",
+      "name": "centrarium",
+      "id": "centrarium",
+      "version": "0.1.0",
+      "title": "Centrarium",
+      "description": "Centrarium’s centered title banner, clean ruled post list, excerpt/date metadata and original Bourbon/Neat layout styles.",
+      "download": "https://github.com/firekylin/themes/releases/download/centrarium-v0.1.0/centrarium-0.1.0.zip",
+      "integrity": "sha512-8KZanMYw2x8yIb0nzhxaGNpVecuprTsrl6YUrqnxoQCEQ8kXcEMUD0UACQJ/7/71xQ54HGPrnqh8rNVaiN0V7w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/centrarium/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "chalk",
       "id": "chalk",
       "version": "0.1.0",
@@ -1357,6 +1371,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/midnight-v0.1.0/midnight-0.1.0.zip",
       "integrity": "sha512-ICezR6rk0cH8M+ybLVvnICAb/h/F2o6LGb9OYZnaoY/uOdIsKL9Mu72z3M468qmzMgbab/YcGQgluc+VLWzWVg==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/midnight/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "millennial",
+      "id": "millennial",
+      "version": "0.1.0",
+      "title": "Millennial",
+      "description": "Millennial’s large image-led feature tiles with overlaid titles and responsive magazine layout.",
+      "download": "https://github.com/firekylin/themes/releases/download/millennial-v0.1.0/millennial-0.1.0.zip",
+      "integrity": "sha512-3j6ccQ5ED6tOP/dYICzBzwnv9qPTxDgOQhFVdg0Gzgt5gcJYLs2TQxv3uBUpM/4eegdYJoQJj4MTjBJZ+ISgaA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/millennial/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }

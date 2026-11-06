@@ -107,6 +107,10 @@
     "hash": "ebe1c5d5048e9f385aa40df76b21896a08f0eb7a6d4d323de3da42dab679afbe",
     "id": "cayman"
   },
+  "centrarium": {
+    "hash": "122ddcafb7bdb87b3b0cb926ab7136beda77c6564997d81b2199c3e3f9301ee3",
+    "id": "centrarium"
+  },
   "chalk": {
     "hash": "a5f787bb7efdc5601af7960da2c25c9a45ea7c0c876303e6a7dafa3edb797f72",
     "id": "chalk"
@@ -390,6 +394,10 @@
   "midnight": {
     "hash": "bfe953574eed5642dc8b51c34cd6c9d4913d3ba2f7d966a926f2707b8ff29c9d",
     "id": "midnight"
+  },
+  "millennial": {
+    "hash": "80677adeed9d12e0f474c5ce142dc7f521c24c4e00732842e166d96f8c68df89",
+    "id": "millennial"
   },
   "mini": {
     "hash": "a22e8ff5190819b4d99c1d3e75a4e1a0a6c6c1208c955a31b58e76b2cbfb80ec",
