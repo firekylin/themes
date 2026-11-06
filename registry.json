@@ -1621,6 +1621,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-lamp",
+      "id": "hugo-lamp",
+      "version": "0.1.0",
+      "title": "Lamp",
+      "description": "Lamp’s original green sidebar, shadowed summary cards, Roboto typography and green article headings.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-lamp-v0.1.0/hugo-lamp-0.1.0.zip",
+      "integrity": "sha512-nG3618p6300s2E7EktzarMi4OfdcafZOFLzDAvMo9hc7sOYDd2ZZwUoJCS4cpup7KbBzV4dQsWWoyQ+hj9MJ2A==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-lamp/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-lithium-theme",
       "id": "hugo-lithium-theme",
       "version": "0.1.2",
