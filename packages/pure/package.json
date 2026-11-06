@@ -1,0 +1,36 @@
+{
+  "name": "pure",
+  "title": "Pure",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pure’s profile/navigation sidebar, muted post summaries and clean ruled article list.",
+  "license": "MIT",
+  "author": "Cofess; Firekylin contributors",
+  "homepage": "https://github.com/cofess/hexo-theme-pure",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/pure"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "pure"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
