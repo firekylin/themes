@@ -54,8 +54,6 @@ importers:
 
   packages/eksell: {}
 
-  packages/etch: {}
-
   packages/academic-cv: {}
 
   packages/solo: {}
@@ -163,6 +161,8 @@ importers:
   packages/lingonberry: {}
 
   packages/edition: {}
+
+  packages/etch: {}
 
   packages/echo: {}
 
