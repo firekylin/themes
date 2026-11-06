@@ -288,7 +288,7 @@
     "id": "g"
   },
   "ghostwriter": {
-    "hash": "d495c535aa82b8ae9044f4655a3fda140a6fd0b7fe035f84f68b52c5656b0dd7",
+    "hash": "480959f6921b485917fea84338712a04fee2baf7a685969b043fa64f8e431501",
     "id": "ghostwriter"
   },
   "gokarna": {
@@ -364,11 +364,11 @@
     "id": "hugo-kiera"
   },
   "hugo-lithium-theme": {
-    "hash": "5d2f722293a7cea4277d11dd859315b1cf2a0716cc02e1200ed2f3db20bebca0",
+    "hash": "9748fc02e7182bd88c267d280c6ea99c67a0db3e3106c7eba668265f7d8fe5c9",
     "id": "hugo-lithium-theme"
   },
   "hugo-sustain": {
-    "hash": "7e92921056b1e98bdefaa6fa7a813faf78ca5c205bf4f5d26122d6034ca71113",
+    "hash": "2fc99e4883a3106ee976d44c4c359a71574a37ea20f7c02166ae2870e6471caa",
     "id": "hugo-sustain"
   },
   "hugo-theme-anubis": {
@@ -376,11 +376,11 @@
     "id": "hugo-theme-anubis"
   },
   "hugo-theme-nix": {
-    "hash": "ebe246e84d4a8de2e14468c676c0d614b42b6aba75a81583c97d17f439589998",
+    "hash": "254fa0bfcd1b19e10d7d3747044ceb37e8947400a10d6e6b2b32f49e620eba0d",
     "id": "hugo-theme-nix"
   },
   "hugo-theme-vec": {
-    "hash": "8eee86817e3ef91f6edf456a7d754687d8495e2a63f8b6aedb7dbeee2562ca77",
+    "hash": "4b6d3df397f3ade2d690cb093987539dc78ee326aaad1056e4cad9272b6446d1",
     "id": "hugo-theme-vec"
   },
   "hugo-theme-yinyang": {
@@ -388,7 +388,7 @@
     "id": "hugo-theme-yinyang"
   },
   "hugo-xmag": {
-    "hash": "bda5ef5b0e903138ecfbae5f1c91663a9fb98849e226b61ca2a2cf2a4692023d",
+    "hash": "81ee1cbdd72023ed96d8630c4fd7ac0184dccc74a469c33f97fc707326d43f84",
     "id": "hugo-xmag"
   },
   "hugoplate": {
@@ -660,7 +660,7 @@
     "id": "openblog"
   },
   "papaya": {
-    "hash": "de25af307c890bc017ab4b524948265d12dc7561795af8c0990274ad942545c4",
+    "hash": "9d1a94d4d5d9f99a89c4008896bcbdc87d36c8f64f4df127043b2fd2f8ecfe21",
     "id": "papaya"
   },
   "paper": {
@@ -668,7 +668,7 @@
     "id": "paper"
   },
   "paperback": {
-    "hash": "a59fcfb465e6b2bc7172fe0c5fd5e8a065bc29c1b158d30d9c99b6ad1ad8f2cb",
+    "hash": "49e5c4a562151d76f50032223b87c17bf0245c55f4253e7520b5bcff514c44a3",
     "id": "paperback"
   },
   "papermod": {
@@ -792,7 +792,7 @@
     "id": "story"
   },
   "strange-case": {
-    "hash": "a6e25d5b3c6c69e8c913d879692d7c69fedd07bce8bf63ef22d94592bc16beb8",
+    "hash": "2a3d11f20866d4091cf120d68e2ff2f4e8bf024a7e296604357e659f68a76d61",
     "id": "strange-case"
   },
   "suka": {
@@ -848,7 +848,7 @@
     "id": "typo"
   },
   "vienna": {
-    "hash": "8a8b9e5e83297b62720d6f42e2797955c1bcc8d94ff5c477f2c2eb8f5e1f853b",
+    "hash": "564b3978a0fea4c18a7e0980c498c51cc8bf0c3ead487c4687e288a620153a04",
     "id": "vienna"
   },
   "vitae": {
@@ -908,7 +908,7 @@
     "id": "zola-oceanic-zen"
   },
   "zola-zola-theme-hikari": {
-    "hash": "9755ca75ee8a5e0bc8ccc6f906e976808acb5409dcece103a58bd40b7aae5884",
+    "hash": "ad54db8615ce5264085066b36e06277d3af0e9914f8aa3b5f46509f2f4f80691",
     "id": "zola-zola-theme-hikari"
   }
 }
