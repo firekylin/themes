@@ -276,6 +276,8 @@ importers:
 
   packages/xmin: {}
 
+  packages/journal: {}
+
   packages/astropaper: {}
 
   packages/dawn: {}
