@@ -1,0 +1,36 @@
+{
+  "name": "hugo-researcher",
+  "title": "Researcher",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Researcher’s original monospaced 750px column, red links, slash navigation and date/title list.",
+  "license": "GPL-3.0-only",
+  "author": "Olivier Roques; Firekylin contributors",
+  "homepage": "https://github.com/ojroques/hugo-researcher",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-researcher"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-researcher"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
