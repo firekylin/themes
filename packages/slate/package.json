@@ -1,0 +1,36 @@
+{
+  "name": "slate",
+  "title": "Slate",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Dark gradient masthead, light full-width reading surface and blue links.",
+  "license": "CC0-1.0",
+  "author": "Jason Costello; GitHub Pages contributors; Firekylin contributors",
+  "homepage": "https://github.com/pages-themes/slate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/slate"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "slate"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
