@@ -1,0 +1,36 @@
+{
+  "name": "diary",
+  "title": "Diary",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Original fixed left navigation, spacious shadowed stream cards and text-only article heads; mobile navigation stays visible without Vue.",
+  "license": "MIT",
+  "author": "Rise; Firekylin contributors",
+  "homepage": "https://github.com/AmazingRise/hugo-theme-diary",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/diary"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "diary"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
