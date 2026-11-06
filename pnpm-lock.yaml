@@ -260,6 +260,8 @@ importers:
 
   packages/onecircle: {}
 
+  packages/tabi: {}
+
   packages/paper: {}
 
   packages/papermod: {}
