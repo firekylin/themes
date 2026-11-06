@@ -1,0 +1,36 @@
+{
+  "name": "zen",
+  "title": "Zen",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Semantic Hugo Zen page grid, restrained blue links, accessible system palette and clean summary articles from original layered CSS.",
+  "license": "GPL-2.0-only",
+  "author": "Fredrik Jonsson; Firekylin contributors",
+  "homepage": "https://github.com/frjo/hugo-theme-zen",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/zen"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "zen"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
