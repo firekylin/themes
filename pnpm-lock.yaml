@@ -88,6 +88,8 @@ importers:
 
   packages/butterfly: {}
 
+  packages/editorial: {}
+
   packages/chalk: {}
 
   packages/cayman: {}
