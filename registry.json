@@ -269,6 +269,20 @@
     },
     {
       "type": "theme",
+      "name": "bilberry",
+      "id": "bilberry",
+      "version": "0.1.0",
+      "title": "Bilberry",
+      "description": "Bilberry’s dark masthead, vertical timeline bubbles and spacious white article cards.",
+      "download": "https://github.com/firekylin/themes/releases/download/bilberry-v0.1.0/bilberry-0.1.0.zip",
+      "integrity": "sha512-DDY68ScDKnSVxinyLjvkIuM6q6fdVBfIALj035i87/zOg3Xn7CDGEc+HPbp+nwKkyv/z7dBO38eIMDtQ+la8dw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/bilberry/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "blowfish",
       "id": "blowfish",
       "version": "0.1.0",
@@ -417,6 +431,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/chirpy-v0.1.0/chirpy-0.1.0.zip",
       "integrity": "sha512-WuWznr/8MynVgcA95IqqUp2yNzfI6ydZz/JZuJKECjHiYNgjl4xbEFyeW2nSp0QG6VcIgl/lbqFsyn+wfcIwuQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/chirpy/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "clarity",
+      "id": "clarity",
+      "version": "0.1.0",
+      "title": "Clarity",
+      "description": "Clarity’s split excerpt/thumbnail cards, sidebar and original light reading palette.",
+      "download": "https://github.com/firekylin/themes/releases/download/clarity-v0.1.0/clarity-0.1.0.zip",
+      "integrity": "sha512-tHpq2B0Fr3SekPzunPg/C2vbS7opdrF46gG40Va+CcfApiX8deeRm8/cACC/4OZM/uYthpHsB3Falcrfw2Xqew==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/clarity/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
@@ -851,6 +879,20 @@
     },
     {
       "type": "theme",
+      "name": "hello-friend",
+      "id": "hello-friend",
+      "version": "0.1.0",
+      "title": "Hello-Friend",
+      "description": "Hello Friend’s terminal-style logo, muted palette, large post titles and rounded reading buttons.",
+      "download": "https://github.com/firekylin/themes/releases/download/hello-friend-v0.1.0/hello-friend-0.1.0.zip",
+      "integrity": "sha512-cIw4W20q3UzWU8QkxjasUdlHIzh2ucbkab0ZgGCbRJwFJs9bA3gUJqaoPFkOCXoPGWItuN8M35Zv4oXE/OXsnw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hello-friend/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hello-friend-ng",
       "id": "hello-friend-ng",
       "version": "0.1.0",
@@ -1027,6 +1069,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/ink-v0.1.0/ink-0.1.0.zip",
       "integrity": "sha512-8adqxKMiiadyQ+gaIms5DMBZZ0Iq5S06LOidt/tdziWJ44RtP/vtjLrm/Es0akppcBDcEQnj91ioVOl36CO10g==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/ink/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "jane",
+      "id": "jane",
+      "version": "0.1.0",
+      "title": "Jane",
+      "description": "Jane’s Pico-based white article cards, centered reading column and blue accents.",
+      "download": "https://github.com/firekylin/themes/releases/download/jane-v0.1.0/jane-0.1.0.zip",
+      "integrity": "sha512-EYu2MNCBM1A2j/cA1+P0qyvneH4RRH5kFHLqFPh1DWywH+aBrPWDrG8yHq5B9AP52Pg+SLT5usLe71H5uSo/8w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/jane/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
@@ -2132,6 +2188,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/typo-v0.1.0/typo-0.1.0.zip",
       "integrity": "sha512-frRk5klICBElsh5W1oneWRyrYg5qTPo3vr4RfzzM8YHHFEWCk/kcP58tDTb/IeDv0N3GQ1D3JhEwAa9mVi3FGg==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/typo/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "vitae",
+      "id": "vitae",
+      "version": "0.1.0",
+      "title": "Vitae",
+      "description": "Vitae’s minimalist masthead, prominent split dates and compact text-first article list.",
+      "download": "https://github.com/firekylin/themes/releases/download/vitae-v0.1.0/vitae-0.1.0.zip",
+      "integrity": "sha512-uaStw5kc+0hC0LyD51aM1W3S6MDrtHSmJHd0aOJHWxOwvjXj44mOTvpPR1iH93T46dEXeSLqkp+sPbTf6Uzkfw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/vitae/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }

@@ -75,6 +75,10 @@
     "hash": "1092dce0b1f08279f97c5404bb91f3b33de094f5e0fe404351b654aab81f10d5",
     "id": "beautiful-jekyll"
   },
+  "bilberry": {
+    "hash": "9ecb2afac66658b985fa1968685dcb947dccc0ac4945c6b638ea89d008bc941e",
+    "id": "bilberry"
+  },
   "blowfish": {
     "hash": "b60e29a94f7b454d2bf54528492ce108cbf3069e6db6486989fa03925d938edf",
     "id": "blowfish"
@@ -118,6 +122,10 @@
   "chirpy": {
     "hash": "6a3702c9b1a8251d9e4332e3e3a898627bd0f94052913407542fc6ab33ea73e6",
     "id": "chirpy"
+  },
+  "clarity": {
+    "hash": "d815b292bf32f2751c533abe90bc2dc09015becdd5a266cd9faa8797c3b06dff",
+    "id": "clarity"
   },
   "clean-blog": {
     "hash": "5260bf3d61ff924a180f5bbf9d673e3ba19d9ad4bceba3402b4a50b9c445bdb9",
@@ -243,6 +251,10 @@
     "hash": "ba836a03a1a086b35a288713712e9998fd10fac5961fa78a83bd84af01c09e49",
     "id": "headline"
   },
+  "hello-friend": {
+    "hash": "16d52272136b631688c8a008e8655df20aeb03cf512e86aa0979d0df38208139",
+    "id": "hello-friend"
+  },
   "hello-friend-ng": {
     "hash": "17a10d47e5ce8ee9355470260ac72f30333ad046805f1f9acda3e83bf62ef3f3",
     "id": "hello-friend-ng"
@@ -294,6 +306,10 @@
   "ink": {
     "hash": "68aba2d9fa547d459e4929f70b54a51eea2f971e029dee5968830ea7dcfd22d5",
     "id": "ink"
+  },
+  "jane": {
+    "hash": "4d5398a5aa44d48b631bce1da351b2def917165a81073060666d30e05bc6414a",
+    "id": "jane"
   },
   "jasmine": {
     "hash": "b73ba0b328ded20a166acdbb14d636e24c7aaaccc87ca0769910619bb236397c",
@@ -614,6 +630,10 @@
   "typo": {
     "hash": "e781a41771f3a617aa93687f89dc80d44102c942390883319f70c7dfb4d74b0b",
     "id": "typo"
+  },
+  "vitae": {
+    "hash": "fa2ca0f1d459113c5b5955e27eaf8915d717ce081ad5d84705d1f93a7351f9b1",
+    "id": "vitae"
   },
   "void": {
     "hash": "a4d82552c483cd9531230c236f806bbbbca721b2679bb69274a8bb1c40c9e1b1",
