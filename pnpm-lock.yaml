@@ -134,6 +134,8 @@ importers:
 
   packages/firekylin: {}
 
+  packages/cupper: {}
+
   packages/fluid: {}
 
   packages/minos: {}
