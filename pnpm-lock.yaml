@@ -44,8 +44,6 @@ importers:
 
   packages/lanyon: {}
 
-  packages/moonwalk: {}
-
   packages/academic-cv: {}
 
   packages/akina: {}
@@ -145,6 +143,8 @@ importers:
   packages/maupassant: {}
 
   packages/miracles: {}
+
+  packages/moonwalk: {}
 
   packages/moricolor: {}
 
