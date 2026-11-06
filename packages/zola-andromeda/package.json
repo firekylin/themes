@@ -1,0 +1,36 @@
+{
+  "name": "zola-andromeda",
+  "title": "Andromeda",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Andromeda photojournal: square cover cards, Orbitron star header, full-screen photo hero and PT Serif reading blocks.",
+  "license": "MIT",
+  "author": "Parker Lamb; Firekylin contributors",
+  "homepage": "https://github.com/Pixadus/andromeda-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/zola-andromeda"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "zola-andromeda"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
