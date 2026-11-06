@@ -264,6 +264,8 @@ importers:
 
   packages/text: {}
 
+  packages/minimal: {}
+
   packages/minima: {}
 
   packages/no-style-please: {}
