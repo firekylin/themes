@@ -1,0 +1,36 @@
+{
+  "name": "console",
+  "title": "Console",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Console terminal-prompt blog with date-column feed and system dark mode.",
+  "license": "MIT",
+  "author": "Marcin Mierzejewski; Firekylin contributors",
+  "homepage": "https://github.com/mrmierzejewski/hugo-theme-console",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/console"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "console"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
