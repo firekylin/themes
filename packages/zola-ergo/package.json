@@ -1,0 +1,42 @@
+{
+  "name": "zola-ergo",
+  "title": "Ergo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ergo’s centered red identity, bold 600px summary column, rounded reading buttons and original light/Dracula palettes.",
+  "license": "MIT",
+  "author": "Andrew Plaza; Firekylin contributors",
+  "homepage": "https://github.com/insipx/Ergo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/zola-ergo"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "zola-ergo"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "profileImage",
+      "label": "头像图片",
+      "help": "HTTP(S) 或站内图片路径；留空不显示头像。"
+    }
+  ]
+}
