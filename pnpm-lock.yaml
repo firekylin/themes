@@ -282,6 +282,8 @@ importers:
 
   packages/landscape: {}
 
+  packages/zola-zola-pickles: {}
+
   packages/h2o: {}
 
   packages/learn: {}

@@ -1,0 +1,2 @@
+Zola Pickles’s 720px column, Selenized White palette, italic dates, Atkinson Hyperlegible body text and understated summary buttons.
+Retains original Sass, compiled with Dart Sass 1.108.0. Theme remains BlueOak-1.0.0; Hugo Pickles MIT ancestor, Normalize, Selenized palette license and unmodified Atkinson Hyperlegible OFL font notices are separate. Source Sans Pro uses system fallback. Native search replaces Pagefind; Font Awesome, KaTeX, webrings, instant-page prefetch and generated TOC are omitted.
