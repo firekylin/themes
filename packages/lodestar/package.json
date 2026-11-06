@@ -1,0 +1,36 @@
+{
+  "name": "lodestar",
+  "title": "Lodestar",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lodestar’s crisp horizontal brand/navigation bar, bold headings and clean two-column blog. The WordPress one-page panel builder is excluded.",
+  "license": "GPL-2.0-or-later",
+  "author": "Automattic; Firekylin contributors",
+  "homepage": "https://github.com/Automattic/themes/tree/trunk/lodestar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/lodestar"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "lodestar"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

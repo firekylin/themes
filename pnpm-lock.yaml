@@ -404,6 +404,8 @@ importers:
 
   packages/minima: {}
 
+  packages/lodestar: {}
+
   packages/no-style-please: {}
 
   packages/volantis: {}
