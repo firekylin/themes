@@ -250,6 +250,8 @@ importers:
 
   packages/moricolor: {}
 
+  packages/wp-hamilton: {}
+
   packages/astrofy: {}
 
   packages/mwordstar: {}
