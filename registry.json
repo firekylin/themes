@@ -2743,6 +2743,20 @@
     },
     {
       "type": "theme",
+      "name": "papercss-hugo-theme",
+      "id": "papercss-hugo-theme",
+      "version": "0.1.0",
+      "title": "PaperCSS",
+      "description": "PaperCSS’s hand-drawn borders, paper sheet, Neucha/Patrick Hand SC typography and spacious summary list.",
+      "download": "https://github.com/firekylin/themes/releases/download/papercss-hugo-theme-v0.1.0/papercss-hugo-theme-0.1.0.zip",
+      "integrity": "sha512-B6mrcYIZOPqCJaI3R9xoZ+THTQ1lgGRDmmjKfXKreD6LSEZ5AtU3vJnVU4ZW4gX9BzOHNoEhpj/foaOyQXIS0g==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/papercss-hugo-theme/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "paperesque",
       "id": "paperesque",
       "version": "0.1.0",

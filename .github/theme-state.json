@@ -787,6 +787,10 @@
     "hash": "081294d8f7703fe46115d5d2a617d587fa439589bea93247f12b4ae636d3bcf6",
     "id": "paperback"
   },
+  "papercss-hugo-theme": {
+    "hash": "ee88eb16e6af530f4e01a5f44c14ddb144980fc53ba5289e5aaeb81fc5c5b97d",
+    "id": "papercss-hugo-theme"
+  },
   "paperesque": {
     "hash": "8afd602203a14afd48ceb7ff1ba4c2726170faafcd63ab7db64e90b3acc49e2b",
     "id": "paperesque"
