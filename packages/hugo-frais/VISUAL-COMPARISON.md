@@ -1,0 +1,2 @@
+Frais’s cream masthead, red/blue-gray alternating serif/sans headings and broad editorial summary column.
+Original style.css, system-font stacks and Normalize 4.1.1 notice retained. Native wrapping navigation replaces the checkbox menu. Inline code remains inline; code blocks retain the red rule. Native site-wide pagination replaces the original hardcoded three-post feed. No third-party fonts, icon assets, demonstration content or external scripts are included.

@@ -1,0 +1,36 @@
+{
+  "name": "hugo-frais",
+  "title": "Frais",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Frais’s cream masthead, red/blue-gray alternating serif/sans headings and broad editorial summary column.",
+  "license": "MIT",
+  "author": "Olivier Fredon; Firekylin contributors",
+  "homepage": "https://github.com/the2ne/hugo-frais",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-frais"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-frais"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
