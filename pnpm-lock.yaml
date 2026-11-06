@@ -168,6 +168,8 @@ importers:
 
   packages/icefox: {}
 
+  packages/hamilton: {}
+
   packages/ink: {}
 
   packages/indigo: {}
