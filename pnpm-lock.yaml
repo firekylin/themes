@@ -164,6 +164,8 @@ importers:
 
   packages/edition: {}
 
+  packages/etch: {}
+
   packages/echo: {}
 
   packages/even: {}
