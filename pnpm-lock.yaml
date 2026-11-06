@@ -212,6 +212,8 @@ importers:
 
   packages/mdx: {}
 
+  packages/leap-day: {}
+
   packages/lolimeow: {}
 
   packages/brave: {}
