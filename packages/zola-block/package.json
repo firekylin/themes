@@ -1,0 +1,56 @@
+{
+  "name": "zola-block",
+  "title": "Block",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Block’s paper islands, grain, numbered rows, hand-drawn marks and Acid light/dark palettes.",
+  "license": "GPL-3.0-only",
+  "author": "Sabu Siyad; Firekylin contributors",
+  "homepage": "https://github.com/ssiyad/block",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/zola-block"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "zola-block"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "select",
+      "name": "flavor",
+      "label": "配色",
+      "default": "auto",
+      "options": [
+        {
+          "label": "auto",
+          "value": "auto"
+        },
+        {
+          "label": "citric",
+          "value": "citric"
+        },
+        {
+          "label": "lactic",
+          "value": "lactic"
+        }
+      ]
+    }
+  ]
+}

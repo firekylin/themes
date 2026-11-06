@@ -1,0 +1,29 @@
+{
+  "name": "ssiyad.com",
+  "version": "0.0.0",
+  "description": "Sabu Siyad's Personal Website",
+  "homepage": "https://github.com/ssiyad/ssiyad.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/ssiyad/ssiyad.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssiyad/ssiyad.github.io.git"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Sabu Siyad <hello@ssiyad.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "css:build": "tailwindcss -i ./styles/main.css -o ./static/main.css --minify",
+    "css:watch": "tailwindcss -i ./styles/main.css -o ./static/main.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4",
+    "prettier-plugin-jinja-template": "^2.1.0"
+  }
+}
