@@ -1,0 +1,36 @@
+{
+  "name": "button-2",
+  "title": "Button 2",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Button 2’s playful craft-blog identity, orange accents, decorative ruled separators and large featured images.",
+  "license": "GPL-2.0-or-later",
+  "author": "Automattic; Firekylin contributors",
+  "homepage": "https://github.com/Automattic/themes/tree/trunk/button-2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/button-2"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "button-2"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
