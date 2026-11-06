@@ -78,6 +78,8 @@ importers:
 
   packages/aurora: {}
 
+  packages/liebling: {}
+
   packages/bearblog: {}
 
   packages/blowfish: {}
