@@ -3272,6 +3272,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-hook",
+      "id": "zola-hook",
+      "version": "0.1.0",
+      "title": "Hook",
+      "description": "Hook’s spacious recent-post link list, purple links, gray reading canvas and native light/dark palettes.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-hook-v0.1.0/zola-hook-0.1.0.zip",
+      "integrity": "sha512-wtnNjfeCwECZ0waGDtGEUufu9EBCcfe4VAM071KqY4mT0tPaEfCSW/mBBA4aEdjS5AB/YO3Hy9p8VcdY2la1RQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-hook/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-oceanic-zen",
       "id": "zola-oceanic-zen",
       "version": "0.1.0",
