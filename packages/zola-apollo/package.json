@@ -1,0 +1,36 @@
+{
+  "name": "zola-apollo",
+  "title": "Apollo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Apollo’s coral accent, monospaced dates, Space Grotesk reading profile, chronological summaries and persistent light/dark palette.",
+  "license": "MIT",
+  "author": "not-matthias; Firekylin contributors",
+  "homepage": "https://github.com/not-matthias/apollo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/zola-apollo"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "zola-apollo"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

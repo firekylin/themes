@@ -1,0 +1,1 @@
+Original main/parts Sass and light/dark palettes retained; coral emphasis, monospace dates, date/summary grid and 920px content column. Uses original Space Grotesk profile with licensed local fonts instead of separately unlicensed Zed files. Native search/comments, text palette button and local heading links replace static integrations.

@@ -388,6 +388,8 @@ importers:
 
   packages/story: {}
 
+  packages/zola-apollo: {}
+
   packages/zola-dose: {}
 
   packages/hugo-xmag: {}
