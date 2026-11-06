@@ -493,6 +493,20 @@
     },
     {
       "type": "theme",
+      "name": "chaplin",
+      "id": "chaplin",
+      "version": "0.1.0",
+      "title": "Chaplin",
+      "description": "Chaplin’s bold system typography, broad image previews, two-column excerpt layout and high-contrast minimal header.",
+      "download": "https://github.com/firekylin/themes/releases/download/chaplin-v0.1.0/chaplin-0.1.0.zip",
+      "integrity": "sha512-IeUzo68Ee546cabctkB0Q4wiDQ9urA8twGgEz8QUNQ1vxRH4btqtojRwkPBkJlWM6ly6Q2qgKZ1NTUc1+bIfMQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/chaplin/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "chirpy",
       "id": "chirpy",
       "version": "0.1.0",
@@ -843,6 +857,20 @@
     },
     {
       "type": "theme",
+      "name": "eksell",
+      "id": "eksell",
+      "version": "0.1.0",
+      "title": "Eksell",
+      "description": "Eksell’s Public Sans typography, spacious identity header and three-column portfolio previews with separate text captions.",
+      "download": "https://github.com/firekylin/themes/releases/download/eksell-v0.1.0/eksell-0.1.0.zip",
+      "integrity": "sha512-3MlJL20byHm3EQYIbQFCakgY1hk5FNSYNvyb7jZ7/ZU2gJB2WNJo7dZUVPsKeW64Dh+kaXqNzGYKoGlnk4hiXQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/eksell/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "even",
       "id": "even",
       "version": "0.1.0",
@@ -1083,6 +1111,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/hextra-v0.1.0/hextra-0.1.0.zip",
       "integrity": "sha512-SHezq2Lg+vrTQsfv96vP+RI8GEEGMvh6EpYTmfkdnlbKe3HuFQiR9snZew+au3eTZD0FBt1LAFV9zcj2G915jQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hextra/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "hitchcock",
+      "id": "hitchcock",
+      "version": "0.1.0",
+      "title": "Hitchcock",
+      "description": "Hitchcock’s dark photography canvas, square three-column tiles, Montserrat headings and bottom title/date overlays; overlay titles remain visible for keyboard and touch users.",
+      "download": "https://github.com/firekylin/themes/releases/download/hitchcock-v0.1.0/hitchcock-0.1.0.zip",
+      "integrity": "sha512-upKlUlPjhVgvOQCeUWBQmZZfjD1v4oVKPx1r5YgqspQgmK5P06DApvL0fJJ+jEQy32vJ1VrTrzXuQ3XobCjOMw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hitchcock/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
@@ -1397,6 +1439,20 @@
     },
     {
       "type": "theme",
+      "name": "koji",
+      "id": "koji",
+      "version": "0.1.0",
+      "title": "Koji",
+      "description": "Koji’s restrained left identity/navigation column, system typography and two-column image gallery with bottom captions.",
+      "download": "https://github.com/firekylin/themes/releases/download/koji-v0.1.0/koji-0.1.0.zip",
+      "integrity": "sha512-ZB4YnWBqSZLPB8CL1lMPEPmX9DIedJqhqgZs9PHMfxTzcSS3oYAYXRW7O39RrXJlqOvCigitIrSLWZnx3t7Hng==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/koji/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "firekylin-theme-kratos",
       "id": "kratos",
       "version": "0.1.1",
@@ -1545,6 +1601,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/london-v0.1.1/london-0.1.1.zip",
       "integrity": "sha512-418ECERjqe6tcVsFx5EJSkJSoWbspfl7DhzZrMrIRpgBYUp+tEzykUtB/OYWPSqnAoCevSRUIuwxQi10YbepxA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/london/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "lovecraft",
+      "id": "lovecraft",
+      "version": "0.1.0",
+      "title": "Lovecraft",
+      "description": "Lovecraft’s centered serif identity, ruled navigation, image-led white post panels and right sidebar, with Playfair Display headings and Lato body text.",
+      "download": "https://github.com/firekylin/themes/releases/download/lovecraft-v0.1.0/lovecraft-0.1.0.zip",
+      "integrity": "sha512-gBERx1bCOdkexQyVnChUKzhUdiKwRKSZF3vEB2NqoXWPSKMQtJQ3STvCY45rwn8YmhQPh0qV5j6kP9GnmWjkvQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/lovecraft/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
@@ -1821,6 +1891,20 @@
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/miracles/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "miyazaki",
+      "id": "miyazaki",
+      "version": "0.1.0",
+      "title": "Miyazaki",
+      "description": "Miyazaki’s condensed Teko display type, Charis SIL prose, generous image previews and overlapping-style title labels.",
+      "download": "https://github.com/firekylin/themes/releases/download/miyazaki-v0.1.0/miyazaki-0.1.0.zip",
+      "integrity": "sha512-ltEGRY1oPuvCN0APsVgO6hWTFnAsfm2p10x/y2UEdWeHIyW1defcFqI5NGvR2Kys8PwSNwm+GaK27QoC3cYAAA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/miyazaki/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
       }
     },
     {

@@ -139,6 +139,10 @@
     "hash": "a5f787bb7efdc5601af7960da2c25c9a45ea7c0c876303e6a7dafa3edb797f72",
     "id": "chalk"
   },
+  "chaplin": {
+    "hash": "8ac61c0fab7f30c611aec663f58c835afc5ae366102a3673bfc1a30e35645f6a",
+    "id": "chaplin"
+  },
   "chirpy": {
     "hash": "6a3702c9b1a8251d9e4332e3e3a898627bd0f94052913407542fc6ab33ea73e6",
     "id": "chirpy"
@@ -239,6 +243,10 @@
     "hash": "d05699320798c54cf1966a92f73ccfc93d190410103e0f6ba48ebaa370b25d6f",
     "id": "editorial"
   },
+  "eksell": {
+    "hash": "000949948a3dcfa0d6c5a57c9326f67ff17eba83904b0d724492ed01a092b89b",
+    "id": "eksell"
+  },
   "even": {
     "hash": "b1e5565e3435fd02dd6da2c37f3aa0be25afa4fe95296a1c6bccef3342696ede",
     "id": "even"
@@ -310,6 +318,10 @@
   "hextra": {
     "hash": "ad39db643cbbd0d4fd5326225966f3b578d28542a9b1fd453c35c73164140109",
     "id": "hextra"
+  },
+  "hitchcock": {
+    "hash": "2ef1cd856fa11f1190fa49804c671625b47ba639932acb6ab4c8df1db53b9a1c",
+    "id": "hitchcock"
   },
   "hoffman": {
     "hash": "c98d472b68dadacde4080ef15cc01375d861413593b6f1cf30dc0523f3b0c489",
@@ -399,6 +411,10 @@
     "hash": "d0c9119e54ef1d0fbcc7166d5e07fff9692c0352eb20b086cbafe08698632171",
     "id": "klise"
   },
+  "koji": {
+    "hash": "25026471295c9d3a653d82e50617f877d9b3e5ce4c1b873e5eb650337b59fe40",
+    "id": "koji"
+  },
   "kratos": {
     "hash": "d405ac7e134c901edfcd88ce81d68a3b2dfedd8614c2ed8b09fa8160b1232ef4",
     "id": "kratos"
@@ -442,6 +458,10 @@
   "london": {
     "hash": "780b5a0962e9ab7f1c83fdef563c5e9db741f577511af460b55dcd800a1b6a9d",
     "id": "london"
+  },
+  "lovecraft": {
+    "hash": "019676253765b3672307ace2f55c425cb2427d3f403f6691649435c010e42085",
+    "id": "lovecraft"
   },
   "loveit": {
     "hash": "14a6e1ebe311efc6d205fd1e189f58d667ba003b01192973069bf4e824390d4f",
@@ -522,6 +542,10 @@
   "miracles": {
     "hash": "3165ccce6496124d3c2a4aa1e258062225af678bb866e523508d8f0d0f4d35ab",
     "id": "miracles"
+  },
+  "miyazaki": {
+    "hash": "faf1e9e1f86b392b0f816d61ec1068ce79ab16dbaf5f044960165645a6758906",
+    "id": "miyazaki"
   },
   "modernist": {
     "hash": "59517669653094afb681803fcd07f162fcf10449c0322862af13b177f7f32658",
