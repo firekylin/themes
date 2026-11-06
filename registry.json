@@ -3426,6 +3426,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-kangae",
+      "id": "zola-kangae",
+      "version": "0.1.0",
+      "title": "Kangae",
+      "description": "Kangae’s compact dated microblog entries, dotted rules, fluid typography and system light/dark palettes.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-kangae-v0.1.0/zola-kangae-0.1.0.zip",
+      "integrity": "sha512-yLiaMnqEG55zb0D2Ta/9dMsNLEF9U7CwkPukR7gMRf/qldBGcUxUqz2N9troKHUpLej73kzAiWEfrJVmv1brqQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-kangae/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-oceanic-zen",
       "id": "zola-oceanic-zen",
       "version": "0.1.1",
