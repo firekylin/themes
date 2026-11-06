@@ -1,0 +1,36 @@
+{
+  "name": "modernist",
+  "title": "Modernist",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Rounded pale-blue title bar and paper panel on a checker background.",
+  "license": "CC0-1.0",
+  "author": "Steve Smith / orderedlist; GitHub Pages contributors; Firekylin contributors",
+  "homepage": "https://github.com/pages-themes/modernist",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/modernist"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "modernist"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

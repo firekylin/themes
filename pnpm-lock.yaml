@@ -154,6 +154,8 @@ importers:
 
   packages/maupassant: {}
 
+  packages/modernist: {}
+
   packages/miracles: {}
 
   packages/moricolor: {}
