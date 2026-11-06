@@ -134,6 +134,8 @@ importers:
 
   packages/fluid: {}
 
+  packages/minos: {}
+
   packages/gokarna: {}
 
   packages/g: {}

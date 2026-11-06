@@ -1,0 +1,36 @@
+{
+  "name": "minos",
+  "title": "Minos",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minos’s centered serif article feed, fine dividers, compact metadata and original article-entry typography.",
+  "license": "MIT",
+  "author": "carsonip; Firekylin contributors",
+  "homepage": "https://github.com/carsonip/hugo-theme-minos",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/minos"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "minos"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
