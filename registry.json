@@ -2908,6 +2908,20 @@
     },
     {
       "type": "theme",
+      "name": "vienna",
+      "id": "vienna",
+      "version": "0.1.0",
+      "title": "Vienna",
+      "description": "Vienna’s photographic masthead, centered summary feed, blue headings and quiet Bootstrap article layout.",
+      "download": "https://github.com/firekylin/themes/releases/download/vienna-v0.1.0/vienna-0.1.0.zip",
+      "integrity": "sha512-1ua+KhYNMGjpGJN9jEDLR+v3gVPBBYBNi8KU7DYWnEdjDr/CmqngCLJfnGopCa9c0AAzsO7HXt8FPVyHAkkUww==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/vienna/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "vitae",
       "id": "vitae",
       "version": "0.1.0",
