@@ -2665,6 +2665,20 @@
     },
     {
       "type": "theme",
+      "name": "minimal-bootstrap-hugo-theme",
+      "id": "minimal-bootstrap-hugo-theme",
+      "version": "0.1.0",
+      "title": "Minimal Bootstrap",
+      "description": "Minimal Bootstrap’s original dark navbar, 800px reading container and compact title/date index.",
+      "download": "https://github.com/firekylin/themes/releases/download/minimal-bootstrap-hugo-theme-v0.1.0/minimal-bootstrap-hugo-theme-0.1.0.zip",
+      "integrity": "sha512-42WEDH3WiZe41o/evTv4cLSFYa7C4OqHStYp44WU0PnAJHHg13wqtbnO5UWYAWX7swUIUV37lOgmlIii5nieAw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/minimal-bootstrap-hugo-theme/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "minimal-mistakes",
       "id": "minimal-mistakes",
       "version": "0.1.0",

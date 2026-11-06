@@ -763,6 +763,10 @@
     "hash": "ea37dc9339b4704925ae23da6ead89cb50b4b80f7639e164a8d44bbba524068f",
     "id": "minimal"
   },
+  "minimal-bootstrap-hugo-theme": {
+    "hash": "86736a79504274106dc939b83900ca09fae93dd310ecafd0a9a3e8d96db17592",
+    "id": "minimal-bootstrap-hugo-theme"
+  },
   "minimal-mistakes": {
     "hash": "fdd6e9e546b5a56e1a6474f2e25d710f989e7cda54f410aaf6de2d3ccec9baf0",
     "id": "minimal-mistakes"
