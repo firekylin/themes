@@ -1,0 +1,36 @@
+{
+  "name": "hugo-theme-prav",
+  "title": "Prav",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Prav’s original warm light/dark cards, red accents, Bitter typography and right sidebar with recent articles.",
+  "license": "MIT",
+  "author": "Pravin Paratey; Firekylin contributors",
+  "homepage": "https://github.com/pravin/hugo-theme-prav",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-theme-prav"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-theme-prav"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
