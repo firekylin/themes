@@ -1,0 +1,36 @@
+{
+  "name": "hugo-bootstrap",
+  "title": "Hugo Bootstrap",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hugo Bootstrap’s blue application bar, rounded image cards, subtle surfaces and profile sidebar.",
+  "license": "MIT",
+  "author": "Razon Yang; Firekylin contributors",
+  "homepage": "https://github.com/razonyang/hugo-theme-bootstrap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-bootstrap"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-bootstrap"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

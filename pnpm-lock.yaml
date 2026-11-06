@@ -134,6 +134,8 @@ importers:
 
   packages/dux: {}
 
+  packages/hugo-bootstrap: {}
+
   packages/edition: {}
 
   packages/echo: {}
