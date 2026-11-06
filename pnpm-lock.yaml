@@ -54,6 +54,8 @@ importers:
 
   packages/eksell: {}
 
+  packages/nofancy: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
