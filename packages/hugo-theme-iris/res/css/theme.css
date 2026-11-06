@@ -11,3 +11,6 @@ body{overflow-wrap:anywhere}.skip{position:absolute;top:-100px}.skip:focus{top:0
 
 /* Native table markup must override Bulma content th foreground. */
 .prose.content table th{color:gold}
+
+/* Keep the original quotation palette inside Bulma content. */
+.prose.content blockquote{background:hsl(0,0%,29%);border-left:.2rem solid chocolate}
