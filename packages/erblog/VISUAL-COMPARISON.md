@@ -1,0 +1,1 @@
+Original Layui/default/markdown CSS retains cyan navigation, navy headings, split profile/biography, teal feed borders, red badges and white reading panel. Native responsive grid and visible navigation replace JS dropdown; illustrations/icons/demo portraits omitted.

@@ -158,6 +158,8 @@ importers:
 
   packages/corepress: {}
 
+  packages/erblog: {}
+
   packages/zola-coast: {}
 
   packages/zola-block: {}

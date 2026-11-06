@@ -1,0 +1,1 @@
+<aside class="native-sidebar"><% for(const [label,widget] of [['分类','Widget_Metas_Category_List'],['标签','Widget_Metas_Tag_Cloud']]){const metas=await firekylin.widget(widget); %><h2><%= label %></h2><div><% while(metas.next()){ %><span class="layui-badge"><a href="<%= metas.permalink %>"><%= metas.row.name %> (<%= metas.row.count %>)</a></span><% } %></div><% } %></aside>
