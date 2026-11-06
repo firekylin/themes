@@ -397,11 +397,11 @@
       "type": "theme",
       "name": "blackburn",
       "id": "blackburn",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Blackburn",
       "description": "Blackburn’s dark fixed Pure CSS sidebar, Raleway masthead and spacious article summaries.",
-      "download": "https://github.com/firekylin/themes/releases/download/blackburn-v0.1.0/blackburn-0.1.0.zip",
-      "integrity": "sha512-AVLHtNpXCt0KNZHscBF2uws9hH6D5/0aG1aC7b2wpoNvTf9mxe2650AEI0GDAJc2KatbNQ2YRtJ8QIjpoeh7lQ==",
+      "download": "https://github.com/firekylin/themes/releases/download/blackburn-v0.1.1/blackburn-0.1.1.zip",
+      "integrity": "sha512-BFebFBP9XqPJduKULjv4aW1yqCbfljus4y1Css/wMibk6lMri2ln+1tS+tYFpDqLG9yuYFg+JX86MCpP9/aTTQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/blackburn/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -1623,11 +1623,11 @@
       "type": "theme",
       "name": "hugotex",
       "id": "hugotex",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "HugoTeX",
       "description": "HugoTeX LaTeX typography with Latin Modern, academic abstract, native heading contents and local KaTeX formulas.",
-      "download": "https://github.com/firekylin/themes/releases/download/hugotex-v0.1.0/hugotex-0.1.0.zip",
-      "integrity": "sha512-esczQZYLjrBTNC74HDUiVMppmvS+eF7Hz0BqWMB8ekaAJ6WzR88RWY+nBtK4PA+7G7X7A3MO0pCTCa6i937xlQ==",
+      "download": "https://github.com/firekylin/themes/releases/download/hugotex-v0.1.1/hugotex-0.1.1.zip",
+      "integrity": "sha512-+/drXV2+WHf6dKjmxSS2HHFxof10SuH9mc7u2+fMlq+MxJqeOhVQX06YDL7foi7skPbFvVdp/SlwF5g0JqTXYA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugotex/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
