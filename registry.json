@@ -1117,6 +1117,20 @@
     },
     {
       "type": "theme",
+      "name": "grid-side",
+      "id": "grid-side",
+      "version": "0.1.0",
+      "title": "Grid Side",
+      "description": "Grid Side’s blue-gray navigation rail, three-column Materialize blog cards and white reading panel.",
+      "download": "https://github.com/firekylin/themes/releases/download/grid-side-v0.1.0/grid-side-0.1.0.zip",
+      "integrity": "sha512-xGsbBevLTjVyDhMVpNpGiDe1MyV8JeohG9UMjn2fA5QtUQp+neupbiljiu7pi5T65UfJ7Y46CO1pjqqz5HH0UA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/grid-side/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "h2o",
       "id": "h2o",
       "version": "0.1.1",
