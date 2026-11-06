@@ -1831,6 +1831,20 @@
     },
     {
       "type": "theme",
+      "name": "manis-hugo-theme",
+      "id": "manis-hugo-theme",
+      "version": "0.1.0",
+      "title": "Manis",
+      "description": "Manis’s narrow Skeleton-derived reading column, compact dated link list and red divider accents.",
+      "download": "https://github.com/firekylin/themes/releases/download/manis-hugo-theme-v0.1.0/manis-hugo-theme-0.1.0.zip",
+      "integrity": "sha512-iYwxsnwsQQM5JFZafyseVSdku2XFTOjoicCxIpLwQqtmwJPNQiUzYYgDTNRMZdwOFD9iWK7P9Rxg8nZH7sfRHw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/manis-hugo-theme/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "massively",
       "id": "massively",
       "version": "0.1.0",
