@@ -1,0 +1,1 @@
+Original Sass supplies gray embossed surfaces, centered titles, Zen Kurenaido type, date/author cards and desktop reading/TOC columns. Hero is configurable, no demo photograph bundled; viewport-height list replaced with auto height to fit native pagination. Always-visible navigation and progressive TOC added.
