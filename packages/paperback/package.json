@@ -1,0 +1,36 @@
+{
+  "name": "paperback",
+  "title": "Paperback",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Paperback’s warm paper background, 34rem serif reading column and spacious expanded post summaries.",
+  "license": "MIT",
+  "author": "dashdashzako; Firekylin contributors",
+  "homepage": "https://github.com/damiencaselli/paperback",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/paperback"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "paperback"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

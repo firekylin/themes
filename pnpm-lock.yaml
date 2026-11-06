@@ -164,6 +164,8 @@ importers:
 
   packages/hugo-bootstrap: {}
 
+  packages/paperback: {}
+
   packages/lingonberry: {}
 
   packages/edition: {}
