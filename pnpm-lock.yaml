@@ -80,6 +80,8 @@ importers:
 
   packages/corepress: {}
 
+  packages/clean-blog: {}
+
   packages/cstate: {}
 
   packages/datagov: {}
