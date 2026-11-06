@@ -107,7 +107,7 @@
     "comment gating"
   ],
   "limits": [
-    "Compared pinned upstream SCSS and templates; no live upstream demo comparison.",
+    "Compared pinned upstream CSS and PHP templates; no live upstream demo comparison.",
     "Waline remote client login/submission not tested."
   ]
 }
