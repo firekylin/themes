@@ -396,6 +396,8 @@ importers:
 
   packages/xmin: {}
 
+  packages/penscratch-2: {}
+
   packages/journal: {}
 
   packages/astropaper: {}
