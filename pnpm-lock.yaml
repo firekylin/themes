@@ -60,6 +60,7 @@ importers:
   packages/hugo-tania: {}
 
   packages/papercss-hugo-theme: {}
+  packages/hugo-theme-fuji: {}
 
   packages/academic-cv: {}
 
