@@ -3073,6 +3073,20 @@
       "engines": {
         "firekylin": ">=2.17.1"
       }
+    },
+    {
+      "type": "theme",
+      "name": "zola-zola-theme-hikari",
+      "id": "zola-zola-theme-hikari",
+      "version": "0.1.0",
+      "title": "Hikari",
+      "description": "Hikari’s full-width purple post rows, date/title rhythm, quiet masthead and serif article column.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-zola-theme-hikari-v0.1.0/zola-zola-theme-hikari-0.1.0.zip",
+      "integrity": "sha512-qXybAryXBYa4gMXPBI3D1hQYDVux/Q79MHWF02/NvY27luUpoPztFEMCtbQlskmhwI4WvnQ8r3+knICrsdC4MA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-zola-theme-hikari/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
     }
   ]
 }

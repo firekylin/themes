@@ -882,5 +882,9 @@
   "zen": {
     "hash": "dd82cd9c353c7be321a88a816a7bd5d9a3191832ca5a278893ebf56ea64c1ce8",
     "id": "zen"
+  },
+  "zola-zola-theme-hikari": {
+    "hash": "9755ca75ee8a5e0bc8ccc6f906e976808acb5409dcece103a58bd40b7aae5884",
+    "id": "zola-zola-theme-hikari"
   }
 }
