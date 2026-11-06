@@ -2698,6 +2698,20 @@
     },
     {
       "type": "theme",
+      "name": "simplicity",
+      "id": "simplicity",
+      "version": "0.1.0",
+      "title": "Simplicity",
+      "description": "Simplicity’s pale sticky navigation, personal introduction, year-grouped chronological links and light Milligram reading column.",
+      "download": "https://github.com/firekylin/themes/releases/download/simplicity-v0.1.0/simplicity-0.1.0.zip",
+      "integrity": "sha512-o59tSAacOFN8cTJM+FhzQJ2nP0iG7j7A8OXzGV3Cwa0hmH9/l6dXNGc0SkBtPNBkehd4OHSu/c9hz+7HWQz3gg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/simplicity/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "single",
       "id": "single",
       "version": "0.1.0",
