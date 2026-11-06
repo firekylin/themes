@@ -342,6 +342,8 @@ importers:
 
   packages/paper: {}
 
+  packages/hugo-frais: {}
+
   packages/papermod: {}
 
   packages/paul: {}
