@@ -1,0 +1,1 @@
+Corresponding Stylus source and native adapter are included under AGPL-3.0. Install stylus 0.64 and js-yaml 4, then run node res/source/build.cjs from the package directory. Native Eta files are the template source. The original cover assets/fonts are excluded.

@@ -220,6 +220,8 @@ importers:
 
   packages/modernist: {}
 
+  packages/keep: {}
+
   packages/miracles: {}
 
   packages/moonwalk: {}
