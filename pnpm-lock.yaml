@@ -44,6 +44,8 @@ importers:
 
   packages/m10c: {}
 
+  packages/lanyon: {}
+
   packages/academic-cv: {}
 
   packages/akina: {}
