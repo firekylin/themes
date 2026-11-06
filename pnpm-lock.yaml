@@ -292,6 +292,8 @@ importers:
 
   packages/chirpy: {}
 
+  packages/monochrome: {}
+
   packages/beautiful-jekyll: {}
 
   packages/typo: {}
