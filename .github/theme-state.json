@@ -23,6 +23,10 @@
     "hash": "6e31b45fb60a3a9ca95ac64c2ee6c263039dc4a34f0f0c395f2e33eeef7defd0",
     "id": "ananke"
   },
+  "anisina": {
+    "hash": "236b1b5d28437c029e339242d31fb579f7bbc9a7890f149b5af6823388532d8d",
+    "id": "anisina"
+  },
   "anzhiyu": {
     "hash": "7bf04a8526e3a4b4966224bb28aa610f5b606e32593fb8fa455d06ddc5c9d0a5",
     "id": "anzhiyu"
@@ -50,6 +54,14 @@
   "aria": {
     "hash": "22e05ce99fb8357147e5d75d6fe59bc31ec464f3adff3339590e6a84580aac9b",
     "id": "aria"
+  },
+  "astro-nano": {
+    "hash": "0759935e1c8fc1343bc5b5ca456229e1f029ba746a052c83496414a3c6106fc5",
+    "id": "astro-nano"
+  },
+  "astrofy": {
+    "hash": "adc43fe7c7861aa9ffac9179f359e40dcc5466d4058c0d14432333e954bd488a",
+    "id": "astrofy"
   },
   "astropaper": {
     "hash": "edb995f0358bd65af5660ba5fba825707c66b46a80db3f063c981f31ae05dda1",
@@ -363,6 +375,10 @@
     "hash": "bbf36836fdd6c6375093b2c9e9e605b681b5edec8f40edef3fc605a5e77c2493",
     "id": "journal"
   },
+  "keep": {
+    "hash": "edfb4e63de06821b8bf718c46f18288bccbca8310f326e07a1dcfa0289a19853",
+    "id": "keep"
+  },
   "klise": {
     "hash": "d0c9119e54ef1d0fbcc7166d5e07fff9692c0352eb20b086cbafe08698632171",
     "id": "klise"
@@ -527,6 +543,10 @@
     "hash": "465361afef057027e767548ff6f6a36dacf28a0c1e61ca60a830a3f0e4356a35",
     "id": "onecircle"
   },
+  "openblog": {
+    "hash": "834d1ba64ab89e665ef4d476e1c2ffc3961950c182a6c33080960100b4d82f69",
+    "id": "openblog"
+  },
   "paper": {
     "hash": "47f496925f03c23008839c48319bcc617a6ddf3620d0bdbd1930ce465ddb2279",
     "id": "paper"
@@ -555,6 +575,10 @@
     "hash": "266d05e0066ea35fac7b5128e94a63501cb6e1e78c59f2b4f2f718c551bd278f",
     "id": "puock"
   },
+  "pure": {
+    "hash": "e5998d1f31da300383756305de1cea0325e4206ee72e4acf928e5158a95056c8",
+    "id": "pure"
+  },
   "redefine": {
     "hash": "710e78f491a6a04c80efd81b7bf082ebdf7ecf216d0bc17fc53d0ec378744864",
     "id": "redefine"
@@ -582,6 +606,10 @@
   "sakurairo": {
     "hash": "7dfa4a961a5906bc94780e34e477180aab45fa8f92e65c73673dd5b233b11ae9",
     "id": "sakurairo"
+  },
+  "shoka": {
+    "hash": "6575f0f3bc5e423bdf6c374f5c925f49c9e1f287034ac8f5e32351ca16bf8fa5",
+    "id": "shoka"
   },
   "single": {
     "hash": "49ecb620c6f4bc9f2dfefe146b199916fd893ce1a8477f45270fe86d5032a29b",
@@ -627,6 +655,10 @@
     "hash": "a0cfd922db2f4189870d9e8df983657b3f15bf1816a4d6864361231de250fb5c",
     "id": "story"
   },
+  "suka": {
+    "hash": "c220a4ead53c0953acaa93f18c1a44c86f0d614e19d6c57a357828edf44b284c",
+    "id": "suka"
+  },
   "susty": {
     "hash": "5072a19dbd348974a067bb0cfa66b72ec95d989850a454cccd6d256cb7749163",
     "id": "susty"
@@ -634,6 +666,10 @@
   "svbtle": {
     "hash": "f08b14645655a71678272ab3f919a9032eed8791b49fd785ccf3b0459b21a8f3",
     "id": "svbtle"
+  },
+  "tabi": {
+    "hash": "d3075eb2e02afb64878bc9778c6f7845c7661b1c072f8fd9247de32724c76fdc",
+    "id": "tabi"
   },
   "tactile": {
     "hash": "5317a078e64a380d87c53d662c83d9b9bcdf069098c87aff8d3156f422441716",

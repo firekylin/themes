@@ -87,6 +87,20 @@
     },
     {
       "type": "theme",
+      "name": "anisina",
+      "id": "anisina",
+      "version": "0.1.0",
+      "title": "Anisina",
+      "description": "Anisina’s large editorial masthead, clean title/excerpt list and compact profile sidebar.",
+      "download": "https://github.com/firekylin/themes/releases/download/anisina-v0.1.0/anisina-0.1.0.zip",
+      "integrity": "sha512-ltsmXcpxWntrBEs/lL0UpslshefIiAf3Xr+i6dZk4bRJuO/k872lo/NYND1FJqstTJBhlsodCdt4SzO0lJk3/w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/anisina/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "anzhiyu",
       "id": "anzhiyu",
       "version": "0.1.0",
@@ -181,6 +195,34 @@
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/aria/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "astro-nano",
+      "id": "astro-nano",
+      "version": "0.1.0",
+      "title": "Astro Nano",
+      "description": "Astro Nano’s compact stone-colored reading column and bordered arrow-link cards with restrained typography.",
+      "download": "https://github.com/firekylin/themes/releases/download/astro-nano-v0.1.0/astro-nano-0.1.0.zip",
+      "integrity": "sha512-iJWoXnpFqrADB3KorCc7+lNEllinMbsaXhK4kkoB6cuMxbpmhjGqWzGK91VoC84BezpUoNomzw8JkPjD2+Gllw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/astro-nano/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "astrofy",
+      "id": "astrofy",
+      "version": "0.1.0",
+      "title": "Astrofy",
+      "description": "Astrofy’s lofi profile sidebar and responsive horizontal image cards, using its DaisyUI/Tailwind styles.",
+      "download": "https://github.com/firekylin/themes/releases/download/astrofy-v0.1.0/astrofy-0.1.0.zip",
+      "integrity": "sha512-I5tIVNkz9he5fEeXVwMi2wvL35fzUuybtdLfhdhIcblkn94PBOzJKTG0kFbrxcLPgknf5jKZ2isfmqCEGEcUjA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/astrofy/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
       }
     },
     {
@@ -1271,6 +1313,20 @@
     },
     {
       "type": "theme",
+      "name": "keep",
+      "id": "keep",
+      "version": "0.1.0",
+      "title": "Keep",
+      "description": "Keep’s clean navigation, rounded cover-title cards, quiet metadata and adaptive reading width.",
+      "download": "https://github.com/firekylin/themes/releases/download/keep-v0.1.0/keep-0.1.0.zip",
+      "integrity": "sha512-osVfyMOjYBUtIwILVcSFEPWU3WklvuuKb7WIr93IhVwBkB2KXUGVgYyyDanHlDB5Pmgg4oc12TZP/Rilgj9OSQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/keep/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "klise",
       "id": "klise",
       "version": "0.1.0",
@@ -1833,6 +1889,20 @@
     },
     {
       "type": "theme",
+      "name": "openblog",
+      "id": "openblog",
+      "version": "0.1.0",
+      "title": "Openblog",
+      "description": "Openblog’s two-column photographic stories, translucent date overlays and spacious title/excerpt blocks.",
+      "download": "https://github.com/firekylin/themes/releases/download/openblog-v0.1.0/openblog-0.1.0.zip",
+      "integrity": "sha512-EEv7UQbeEecID6G9sH5cv75wgpyoau4nkQndyCKjvvrF68dzH46+E9JDDf314oDvm/W3G4Sv4LjGd/JZcC/+Ag==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/openblog/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "paper",
       "id": "paper",
       "version": "0.1.0",
@@ -1924,6 +1994,20 @@
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/puock/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "pure",
+      "id": "pure",
+      "version": "0.1.0",
+      "title": "Pure",
+      "description": "Pure’s profile/navigation sidebar, muted post summaries and clean ruled article list.",
+      "download": "https://github.com/firekylin/themes/releases/download/pure-v0.1.0/pure-0.1.0.zip",
+      "integrity": "sha512-c1ozO/smcpXr4BLtJ4+OmOMCEwjwge3AO3HvLZBLZMXkx06kc3gKsCCfEhS66YGTF5dD67oDSAXDtd2mWM6IlA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/pure/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
       }
     },
     {
@@ -2022,6 +2106,20 @@
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/sakurairo/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "shoka",
+      "id": "shoka",
+      "version": "0.1.0",
+      "title": "Shoka",
+      "description": "Shoka’s pastel header, alternating image/excerpt segments, pink accents and rounded story cards.",
+      "download": "https://github.com/firekylin/themes/releases/download/shoka-v0.1.0/shoka-0.1.0.zip",
+      "integrity": "sha512-G7hpv2+bRjW17D1BOlzfYQxxI4nlMRy+B0VufvkV878+9N9AWrPRN5OG8Vr1jEgOJgaVnXxTUFllE2ZuctkozA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/shoka/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
       }
     },
     {
@@ -2180,6 +2278,20 @@
     },
     {
       "type": "theme",
+      "name": "suka",
+      "id": "suka",
+      "version": "0.1.0",
+      "title": "Suka",
+      "description": "Suka’s centered masthead and Spectre-based horizontal thumbnail cards with separate date footers.",
+      "download": "https://github.com/firekylin/themes/releases/download/suka-v0.1.0/suka-0.1.0.zip",
+      "integrity": "sha512-N5lDYkEbtKB3GuOZkqtocvdJTMvyAZOqzcc0vROphV1ak1cpEj8aB0mdWcXsb3l25PF7gFbeDt8knMccTZ6C3w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/suka/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "susty",
       "id": "susty",
       "version": "0.1.0",
@@ -2204,6 +2316,20 @@
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/svbtle/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "tabi",
+      "id": "tabi",
+      "version": "0.1.0",
+      "title": "Tabi",
+      "description": "Tabi’s quiet masthead, split date/content post list, subtle dividers and serif reading styles.",
+      "download": "https://github.com/firekylin/themes/releases/download/tabi-v0.1.0/tabi-0.1.0.zip",
+      "integrity": "sha512-LG4r2qvfdVYuu7h5c5hA+ydF9wicLmmevOPQ7ImPgwd77ct/itc0y7gVJne69MFuiJc7h3BPV/OymNeg77xHcQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/tabi/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
       }
     },
     {
