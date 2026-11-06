@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+
+  p {
+    @apply pb-4;
+  }
+
+  ul, ol {
+    @apply list-outside;
+    @apply pl-6; /* Indent the list elements. */
+    @apply mb-4; /* The bottom of the list should have a margin, like the paragraphs. */
+
+    /* Lists within a list, however, should not have a bottom margin. */
+    ul, ol {
+      @apply mb-0;
+    }
+  }
+
+  ul {
+    @apply list-disc;
+  }
+
+  ol {
+    @apply list-decimal;
+  }
+
+  blockquote {
+    p {
+      @apply py-0;
+    }
+
+    @apply italic;
+    @apply border-l-2;
+    @apply border-neutral-500;
+    @apply pl-4;
+    @apply mb-4;
+    @apply text-neutral-600;
+    @apply dark:text-neutral-400;
+  }
+}
+
+/* Global default styles */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Default Pages content styles */
+#page-content a {
+    @apply underline;
+}
+#page-content p, h2 {
+    @apply py-4;
+}
+#page-content :is(h1, h2, h3, h4, h5, h6) {
+    @apply underline;
+}
+#page-content pre {
+    @apply p-4 my-4 overflow-x-auto;
+}
