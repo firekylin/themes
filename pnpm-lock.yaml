@@ -344,6 +344,8 @@ importers:
 
   packages/astropaper: {}
 
+  packages/meme: {}
+
   packages/dawn: {}
 
   packages/attila: {}
