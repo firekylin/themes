@@ -1,0 +1,36 @@
+{
+  "name": "jane",
+  "title": "Jane",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Jane’s Pico-based white article cards, centered reading column and blue accents.",
+  "license": "MIT",
+  "author": "xianmin; Firekylin contributors",
+  "homepage": "https://github.com/xianmin/hugo-theme-jane",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/jane"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "jane"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

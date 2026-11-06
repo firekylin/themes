@@ -104,6 +104,8 @@ importers:
 
   packages/diary: {}
 
+  packages/jane: {}
+
   packages/diaspora: {}
 
   packages/corepress: {}
