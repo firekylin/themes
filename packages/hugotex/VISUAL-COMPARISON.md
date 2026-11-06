@@ -1,0 +1,1 @@
+Preserves original upstream LaTeX.css/main.css, Latin Modern text faces, paper/ink auto palette, academic abstract and dated preview structure. Native title/nav/TOC and client math replace Hugo templates, static TOC and transform.ToMath. No external demo assets.
