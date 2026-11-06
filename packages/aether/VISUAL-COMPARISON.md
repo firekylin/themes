@@ -1,0 +1,1 @@
+Original style CSS and organic SVG header/footer preserve Aether visual language. Native featuredImage cards horizontal on desktop, stacked mobile; original paper article and dropcap adapted to native prose. System fonts, no demo portraits/photos, visible native navigation.
