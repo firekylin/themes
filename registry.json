@@ -1651,11 +1651,11 @@
       "type": "theme",
       "name": "hugo-researcher",
       "id": "hugo-researcher",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Researcher",
       "description": "Researcher’s original monospaced 750px column, red links, slash navigation and date/title list.",
-      "download": "https://github.com/firekylin/themes/releases/download/hugo-researcher-v0.1.0/hugo-researcher-0.1.0.zip",
-      "integrity": "sha512-IJR96udRqjh/J3JB3Zu/eyVClO6Q03nAj+9x4X1yj8STu22Rx+ewyfHNs4T4tHTmfPfT9T1AyIqGthAka4hdkQ==",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-researcher-v0.1.1/hugo-researcher-0.1.1.zip",
+      "integrity": "sha512-HDPXg4woVBi04rKW33WaBxfUPTB2xge6qT+Ahg1lAYqa0A27o8fQ8YwkDmanTdVKoVC1zZfTET+AxWreWOCS3g==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-researcher/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -2029,11 +2029,11 @@
       "type": "theme",
       "name": "jekyll-moon",
       "id": "jekyll-moon",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Moon",
       "description": "Classic Moon: original coral-red backdrop, white 850px reading panel, Fira Sans and excerpt list.",
-      "download": "https://github.com/firekylin/themes/releases/download/jekyll-moon-v0.1.0/jekyll-moon-0.1.0.zip",
-      "integrity": "sha512-EMbl8dDWvxRXqSqwagTiE0pMLB0DIj4v8aeHFzN4QPg+LoC9WUGbBrioGyEhb4t9C3VDcJkvrpiKxyDlZdhRXw==",
+      "download": "https://github.com/firekylin/themes/releases/download/jekyll-moon-v0.1.1/jekyll-moon-0.1.1.zip",
+      "integrity": "sha512-n3BfwrvX6y/Rd2lmFNlrXnIDDN35dv6k59BnqggBlDPVRePiJSYrKB8vP3+t3+OEr7uhj1U5cSxBOFEV8RUUxA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/jekyll-moon/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -2401,11 +2401,11 @@
       "type": "theme",
       "name": "material-design",
       "id": "material-design",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Material Design",
       "description": "Original Materialize three-column cards, teal links, large banner and shadowed reading panels.",
-      "download": "https://github.com/firekylin/themes/releases/download/material-design-v0.1.0/material-design-0.1.0.zip",
-      "integrity": "sha512-vOibSFBIyEohCD6VBvZDpjR/xamOJS+Q1DpOP2EcSTKC+LyWmJADDf0GozZJmxfhjdq+lHT8xMS+AjuaOJ906w==",
+      "download": "https://github.com/firekylin/themes/releases/download/material-design-v0.1.1/material-design-0.1.1.zip",
+      "integrity": "sha512-zTlLSsZIzgp8elsbGIwL+7EfsTvgOGdOA/h+PvMoBZowTu6cJkqeledsK98AxZCiRmHt5fUIZqCo/gAqW5LcYQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/material-design/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
