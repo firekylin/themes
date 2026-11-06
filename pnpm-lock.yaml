@@ -420,6 +420,8 @@ importers:
 
   packages/hugo-hello-programmer-theme: {}
 
+  packages/zola-zola-henry: {}
+
   packages/dope: {}
 
   packages/brave: {}
