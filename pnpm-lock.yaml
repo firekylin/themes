@@ -54,6 +54,8 @@ importers:
 
   packages/eksell: {}
 
+  packages/smol: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
