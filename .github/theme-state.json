@@ -1246,5 +1246,9 @@
   "zola-zola-theme-hikari": {
     "hash": "3606183558fbda3e9e21032a01455b325cce1537b6f2c73ebce16cc275f1a083",
     "id": "zola-zola-theme-hikari"
+  },
+  "zola-zolanight": {
+    "hash": "880ed7862090007c08ab7fce383614ad31c09172d4ac009d929b65787d925437",
+    "id": "zola-zolanight"
   }
 }

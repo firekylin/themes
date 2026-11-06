@@ -4347,6 +4347,20 @@
       "engines": {
         "firekylin": ">=2.17.1"
       }
+    },
+    {
+      "type": "theme",
+      "name": "zola-zolanight",
+      "id": "zola-zolanight",
+      "version": "0.1.0",
+      "title": "ZolaNight",
+      "description": "ZolaNight’s original Tokyo Night palettes, Markdown-style headings, monospace reading column and compact dated post index.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-zolanight-v0.1.0/zola-zolanight-0.1.0.zip",
+      "integrity": "sha512-nRMdW4r2nSgbAJ5O4kzz17Iyj/u8Y/l1aDV6E/+/UlzKry3N9bqeYWCZICER+cy/07NqlvtVpUYRyA4RwEHZOQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-zolanight/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
     }
   ]
 }
