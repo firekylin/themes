@@ -1,0 +1,36 @@
+{
+  "name": "apostrophe-2",
+  "title": "Apostrophe 2",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Apostrophe 2’s bold magazine masthead, compact metadata and three-column thumbnail/title tiles with original high-contrast styling.",
+  "license": "GPL-2.0-or-later",
+  "author": "Automattic; Firekylin contributors",
+  "homepage": "https://github.com/Automattic/themes/tree/trunk/apostrophe-2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/apostrophe-2"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "apostrophe-2"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
