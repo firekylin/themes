@@ -363,6 +363,10 @@
     "hash": "68aba2d9fa547d459e4929f70b54a51eea2f971e029dee5968830ea7dcfd22d5",
     "id": "ink"
   },
+  "iwata": {
+    "hash": "8de9a4aee479f112dd262dadbea7cf6d6b218f85958f38d0647bf42ac4d013c3",
+    "id": "iwata"
+  },
   "jane": {
     "hash": "4d5398a5aa44d48b631bce1da351b2def917165a81073060666d30e05bc6414a",
     "id": "jane"
@@ -618,6 +622,10 @@
   "roon": {
     "hash": "ba0edaa8cad3ee868cd274a64ad5435d8ef12d43daa78ca7ef8fa18fa3bc2492",
     "id": "roon"
+  },
+  "rowling": {
+    "hash": "74356d9a95994284e2e94000e7b6c6d187525c83d41e12d8ad8518c96f726703",
+    "id": "rowling"
   },
   "ruby": {
     "hash": "d0953b58f31ef36283095f72433659fe3ff623a81dc7c847bf48194e2c3762ff",

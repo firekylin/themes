@@ -1271,6 +1271,20 @@
     },
     {
       "type": "theme",
+      "name": "iwata",
+      "id": "iwata",
+      "version": "0.1.0",
+      "title": "Iwata",
+      "description": "Iwata’s slim colored masthead, clean full-width image feed, Fira Sans headings and Crimson Text prose.",
+      "download": "https://github.com/firekylin/themes/releases/download/iwata-v0.1.0/iwata-0.1.0.zip",
+      "integrity": "sha512-B7OffJdq5Vnf/60CRMeHI8J439P0FgV6i5eYHr8WIIImckt5hiioTozWpiUKAWClaqappxdrvNBR4XDKdhM5GQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/iwata/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "jane",
       "id": "jane",
       "version": "0.1.0",
@@ -2146,6 +2160,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/roon-v0.1.0/roon-0.1.0.zip",
       "integrity": "sha512-Vp02uXhLP1Pi0zmML3tcCX/B22lFGCCcRGN6r/dUBltbMuV35OCmZxEv1hzlup36RV2fakhNpAj93TXipVukmw==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/roon/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "rowling",
+      "id": "rowling",
+      "version": "0.1.0",
+      "title": "Rowling",
+      "description": "Rowling’s bold colored navigation bar, paired thumbnail/title cards, sidebar and Lato/Merriweather magazine typography.",
+      "download": "https://github.com/firekylin/themes/releases/download/rowling-v0.1.0/rowling-0.1.0.zip",
+      "integrity": "sha512-W025CURr2UWfrmZP1epio1nF7WyrFYKyAmJ3FIUezF9LvoS0D4qthLahGSSerf+aU5S9JUSwEas1jUTylO3Wsw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/rowling/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
