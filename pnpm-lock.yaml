@@ -46,8 +46,6 @@ importers:
 
   packages/lanyon: {}
 
-  packages/chalk: {}
-
   packages/academic-cv: {}
 
   packages/akina: {}
@@ -71,6 +69,8 @@ importers:
   packages/blowfish: {}
 
   packages/butterfly: {}
+
+  packages/chalk: {}
 
   packages/cactus: {}
 
