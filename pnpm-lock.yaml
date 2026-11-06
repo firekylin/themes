@@ -56,6 +56,8 @@ importers:
 
   packages/nofancy: {}
 
+  packages/hugo-tania: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
