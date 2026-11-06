@@ -100,6 +100,8 @@ importers:
 
   packages/roon: {}
 
+  packages/rams: {}
+
   packages/console: {}
 
   packages/congo: {}
