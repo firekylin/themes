@@ -68,6 +68,7 @@ importers:
   packages/mediumish-gohugo-theme: {}
   packages/hugo-theme-den: {}
 
+  packages/hugo-theme-tokiwa: {}
   packages/hugo-rocinante: {}
 
   packages/harbor: {}
