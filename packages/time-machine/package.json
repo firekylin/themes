@@ -1,0 +1,36 @@
+{
+  "name": "time-machine",
+  "title": "Time Machine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Bold title, gray textured surround and framed reading panel.",
+  "license": "CC0-1.0",
+  "author": "Jon Rohan; GitHub Pages contributors; Firekylin contributors",
+  "homepage": "https://github.com/pages-themes/time-machine",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/time-machine"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "time-machine"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

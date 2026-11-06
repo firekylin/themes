@@ -228,6 +228,8 @@ importers:
 
   packages/terminal: {}
 
+  packages/time-machine: {}
+
   packages/timeplus: {}
 
   packages/void: {}
