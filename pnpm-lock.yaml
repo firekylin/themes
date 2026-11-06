@@ -89,6 +89,8 @@ importers:
 
   packages/hugo-blog-jeffprod: {}
 
+  packages/simple-style: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
