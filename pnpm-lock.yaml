@@ -97,11 +97,15 @@ importers:
 
   packages/darksimplicity: {}
 
+  packages/npq-hugo: {}
+
   packages/hugo-theme-prav: {}
 
   packages/minimal-bootstrap-hugo-theme: {}
 
   packages/zola-shadharon: {}
+
+  packages/hugo_eiio: {}
 
   packages/academic-cv: {}
 
