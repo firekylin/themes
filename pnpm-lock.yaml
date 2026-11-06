@@ -72,6 +72,8 @@ importers:
 
   packages/chalk: {}
 
+  packages/cayman: {}
+
   packages/cactus: {}
 
   packages/console: {}
