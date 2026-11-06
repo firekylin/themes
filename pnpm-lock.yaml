@@ -56,6 +56,8 @@ importers:
 
   packages/adams: {}
 
+  packages/london: {}
+
   packages/ananke: {}
 
   packages/amaze: {}
