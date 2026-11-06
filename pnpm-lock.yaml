@@ -342,6 +342,8 @@ importers:
 
   packages/archer: {}
 
+  packages/hugo-theme-yinyang: {}
+
   packages/zen: {}
 
   packages/yilia: {}

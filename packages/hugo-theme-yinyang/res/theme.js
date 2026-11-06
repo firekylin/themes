@@ -1,0 +1,1 @@
+(()=>{const root=document.documentElement,button=document.querySelector('.theme-toggle');function set(dark){root.dataset.theme=dark?'dark':'light';button.setAttribute('aria-pressed',String(dark))}set(matchMedia('(prefers-color-scheme: dark)').matches);button.addEventListener('click',()=>set(root.dataset.theme!=='dark'));})();
