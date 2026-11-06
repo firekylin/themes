@@ -38,7 +38,7 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
    const html=await page.content();assert(!html.includes('undefined'),route+' contains undefined');assert(!html.includes('MMM D'),'unsupported date format');assert(!html.includes('PRIVATE_MARKER')&&!html.includes('DRAFT_MARKER'),route+' leaked content');
    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),route+' overflow');checks.push({width,route,status:response.status()});
   }
-  await page.goto(origin);assert.equal(await page.locator('.entry').count(),10);await page.evaluate(()=>Promise.all(document.getAnimations().map(a=>a.finished.catch(()=>{}))));await page.screenshot({path:path.join(evidence,'home-'+width+'.png'),fullPage:true});
+  await page.goto(origin);assert.equal(await page.locator('.entry').count(),10);assert(await page.locator('.date .day').first().evaluate(e=>e.getBoundingClientRect().height<parseFloat(getComputedStyle(e).fontSize)*1.4));await page.evaluate(()=>Promise.all(document.getAnimations().map(a=>a.finished.catch(()=>{}))));await page.screenshot({path:path.join(evidence,'home-'+width+'.png'),fullPage:true});
   await page.getByRole('link',{name:'下一页',exact:true}).click();await page.waitForURL('**/?page=2');
   await page.goto(origin+'/post/hello.html');await page.screenshot({path:path.join(evidence,'post-'+width+'.png'),fullPage:true});assert(await page.locator('.nav-items a[href="/archives"]').isVisible());
 
