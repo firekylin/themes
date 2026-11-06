@@ -1,0 +1,1 @@
+Pinnedstyle.css/baseof/index:200pxfixedsidebar,#1a1c1dcanvas,#27292blistpanels,blue links,smallmetadata. NativeTOC usesheadingtext, mobilevisibleheaderreplacesdrawer. OriginalsourceCSSretained;noavatars/icons/syntaxbundled.
