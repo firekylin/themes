@@ -286,6 +286,8 @@ importers:
 
   packages/kratos: {}
 
+  packages/hugo-cards: {}
+
   packages/hugo-dusk: {}
 
   packages/basically-basic: {}
