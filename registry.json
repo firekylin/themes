@@ -2880,6 +2880,20 @@
     },
     {
       "type": "theme",
+      "name": "solar-theme-hugo",
+      "id": "solar-theme-hugo",
+      "version": "0.1.0",
+      "title": "Solar",
+      "description": "Solar’s Solarized palettes, narrow reading column, left navigation and dated summary feed.",
+      "download": "https://github.com/firekylin/themes/releases/download/solar-theme-hugo-v0.1.0/solar-theme-hugo-0.1.0.zip",
+      "integrity": "sha512-UQFbYTnbju5kcU2voSIcR6U2Imu8zoWxoAdlwq1ZqezB59Dqj943YUo3fSm8k2lT2o/Se90005UDe06P11TwTA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/solar-theme-hugo/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "solo",
       "id": "solo",
       "version": "0.1.1",
