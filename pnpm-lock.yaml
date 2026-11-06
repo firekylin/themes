@@ -52,6 +52,8 @@ importers:
 
   packages/adams: {}
 
+  packages/ananke: {}
+
   packages/amaze: {}
 
   packages/aquila: {}
