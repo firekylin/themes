@@ -48,6 +48,8 @@ importers:
 
   packages/academic-cv: {}
 
+  packages/solo: {}
+
   packages/akina: {}
 
   packages/adams: {}
