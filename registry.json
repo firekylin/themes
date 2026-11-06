@@ -549,6 +549,20 @@
     },
     {
       "type": "theme",
+      "name": "charaka-hugo-theme",
+      "id": "charaka-hugo-theme",
+      "version": "0.1.0",
+      "title": "Charaka",
+      "description": "Charaka’s cream paper background, burgundy links, Domine serif, year-grouped date/title rows and mobile summaries.",
+      "download": "https://github.com/firekylin/themes/releases/download/charaka-hugo-theme-v0.1.0/charaka-hugo-theme-0.1.0.zip",
+      "integrity": "sha512-s5UONPIgh4GhE/X2BzUkMqACfXJ6WSTsJ25kj9evG/B7EDWcAhyjfvhVedbqEK9/NSWKap6ZTV2x2w22j1Z4+Q==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/charaka-hugo-theme/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "chirpy",
       "id": "chirpy",
       "version": "0.1.0",
