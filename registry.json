@@ -1551,6 +1551,20 @@
     },
     {
       "type": "theme",
+      "name": "internet-weblog",
+      "id": "internet-weblog",
+      "version": "0.1.0",
+      "title": "Internet Weblog",
+      "description": "Internet Weblog’s left-aligned header, generous summary feed, full-width dark footer and original system light/dark semantic palette.",
+      "download": "https://github.com/firekylin/themes/releases/download/internet-weblog-v0.1.0/internet-weblog-0.1.0.zip",
+      "integrity": "sha512-+KRmH1XgYkB6yoBPdZYDmOXP8rLSDflqf8iCnXNBnbh/7oYN5oTZDLFtWiKHz1Zv3+77rj3eXzEVJwzN/slzfw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/internet-weblog/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "iwata",
       "id": "iwata",
       "version": "0.1.0",
