@@ -80,6 +80,8 @@ importers:
 
   packages/cactus: {}
 
+  packages/roon: {}
+
   packages/console: {}
 
   packages/congo: {}
