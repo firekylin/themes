@@ -331,6 +331,10 @@
     "hash": "6c15f150ef3b5f18d406561b95068000c565b4931a4c673b3bca747b5af079de",
     "id": "mdx"
   },
+  "merlot": {
+    "hash": "41aaa6334b8b3b17008095dda79b9a48c2cc518e47dbd855b4006fb9f2503fea",
+    "id": "merlot"
+  },
   "minima": {
     "hash": "83c9bda429f4afe4e6257411bf5a703dd3406ce727eea4c5e4b257073e0fdffd",
     "id": "minima"
@@ -530,5 +534,9 @@
   "yilia": {
     "hash": "a9f0ff37f2f08db9e963ac97b8e3bbaf90ae55f3059f285da3261aa2c15451ba",
     "id": "yilia"
+  },
+  "zen": {
+    "hash": "dd82cd9c353c7be321a88a816a7bd5d9a3191832ca5a278893ebf56ea64c1ce8",
+    "id": "zen"
   }
 }

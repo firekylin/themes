@@ -1153,6 +1153,20 @@
     },
     {
       "type": "theme",
+      "name": "merlot",
+      "id": "merlot",
+      "version": "0.1.0",
+      "title": "Merlot",
+      "description": "Burgundy ribbons, parchment textures and ornamental reading frame.",
+      "download": "https://github.com/firekylin/themes/releases/download/merlot-v0.1.0/merlot-0.1.0.zip",
+      "integrity": "sha512-VhwmmF3gVfqBjiGR1Bmh7Fw+QpF7pA5vI3TMkyeLNeguSkh9/ksi56qK7bRVXjKfiDs9Vdhh/iolBiKUOelXjQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/merlot/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "minima",
       "id": "minima",
       "version": "0.1.1",
@@ -1838,6 +1852,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/yilia-v0.1.0/yilia-0.1.0.zip",
       "integrity": "sha512-bzxbQrnGaXDFrY1f83DRTyYY+xI1dxt7UUgjBR7Y9chrT2bmeoVnW79BE8zldiv81m9olLaNResDFtSoGt7mxw==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/yilia/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "zen",
+      "id": "zen",
+      "version": "0.1.0",
+      "title": "Zen",
+      "description": "Semantic Hugo Zen page grid, restrained blue links, accessible system palette and clean summary articles from original layered CSS.",
+      "download": "https://github.com/firekylin/themes/releases/download/zen-v0.1.0/zen-0.1.0.zip",
+      "integrity": "sha512-egjRj0Bo+D1Zi3g1HtnI7E8MzvShkBwdlPoyqUN9UzxwUYWFTLDqrgVlPZ040xqIvCAKD4nlP6PfOANu23KUag==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zen/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
