@@ -1,0 +1,2 @@
+Henry’s blue top rule, lightweight system typography, date-first post list and wide article column.
+Original henry.css preserved, with Normalize notice for its reset rules. Visible wrapping navigation replaces the hover-only mobile dropdown. Metadata/blue link contrast is strengthened. No external fonts, social SVG icons or demo assets bundled; Source Code Pro uses monospace fallback. Custom Zola feeds and template-specific about pages are replaced by native Firekylin routes.
