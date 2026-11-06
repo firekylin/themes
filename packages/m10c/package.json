@@ -1,0 +1,42 @@
+{
+  "name": "m10c",
+  "title": "m10c",
+  "version": "0.1.0",
+  "private": true,
+  "description": "m10c dark profile-sidebar and compact dated blog.",
+  "license": "MIT",
+  "author": "vaga; Firekylin contributors",
+  "homepage": "https://github.com/vaga/hugo-theme-m10c",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/m10c"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "m10c"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "avatar",
+      "label": "头像地址",
+      "help": "可选的头像图片 URL；留空不显示。"
+    }
+  ]
+}
