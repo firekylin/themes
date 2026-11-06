@@ -244,6 +244,8 @@ importers:
 
   packages/miracles: {}
 
+  packages/miyazaki: {}
+
   packages/anisina: {}
 
   packages/moonwalk: {}

@@ -1,0 +1,36 @@
+{
+  "name": "miyazaki",
+  "title": "Miyazaki",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Miyazaki’s condensed Teko display type, Charis SIL prose, generous image previews and overlapping-style title labels.",
+  "license": "GPL-2.0-only",
+  "author": "Anders Norén; Firekylin contributors",
+  "homepage": "https://github.com/andersnoren/miyazaki",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/miyazaki"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "miyazaki"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
