@@ -2035,6 +2035,20 @@
     },
     {
       "type": "theme",
+      "name": "min_night",
+      "id": "min_night",
+      "version": "0.1.0",
+      "title": "Min Night",
+      "description": "Min Night’s blue navigation/footer, centered introduction and compact post list, with its invert/hue-rotate night mode.",
+      "download": "https://github.com/firekylin/themes/releases/download/min_night-v0.1.0/min_night-0.1.0.zip",
+      "integrity": "sha512-VZdpoPUUDPF0QzallPWfGZ56mml5XKZfk6dyIMygy7UR8ihtFzD4rCx7Un0qmNIWwoQPPbhWWnDQwv6fZWik3Q==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/min_night/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "mini",
       "id": "mini",
       "version": "0.1.0",

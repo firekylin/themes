@@ -583,6 +583,10 @@
     "hash": "80677adeed9d12e0f474c5ce142dc7f521c24c4e00732842e166d96f8c68df89",
     "id": "millennial"
   },
+  "min_night": {
+    "hash": "e4af50e92ead02f69a0aa33f9196b38cf727ee695d4340cec9c5aec30715ebc0",
+    "id": "min_night"
+  },
   "mini": {
     "hash": "a22e8ff5190819b4d99c1d3e75a4e1a0a6c6c1208c955a31b58e76b2cbfb80ec",
     "id": "mini"
