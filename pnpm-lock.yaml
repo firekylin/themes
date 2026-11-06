@@ -104,6 +104,8 @@ importers:
 
   packages/butterfly: {}
 
+  packages/slim: {}
+
   packages/editorial: {}
 
   packages/chalk: {}

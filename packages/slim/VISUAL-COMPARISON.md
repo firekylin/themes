@@ -1,0 +1,1 @@
+Reviewed original header.html, index.html, post/single.html, footer.html and slim.css. Retained narrow column, title/date/summary order and source typography. Native wrapping navigation replaces the off-column JS menu, and table/code/media containment is added.
