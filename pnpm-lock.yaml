@@ -83,6 +83,8 @@ importers:
 
   packages/jekyll-moon: {}
 
+  packages/hugo-blog-jeffprod: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
