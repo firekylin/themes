@@ -1,0 +1,36 @@
+{
+  "name": "hemingway",
+  "title": "Hemingway",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The Hugo Hemingway theme’s minimal Bulma-based layout, muted date subtitles and Markdown-inspired heading markers.",
+  "license": "MIT",
+  "author": "tanksuzuki; Firekylin contributors",
+  "homepage": "https://github.com/tanksuzuki/hemingway",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hemingway"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hemingway"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

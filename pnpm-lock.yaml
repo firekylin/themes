@@ -184,6 +184,8 @@ importers:
 
   packages/matcha: {}
 
+  packages/hemingway: {}
+
   packages/hugoplate: {}
 
   packages/landscape: {}
