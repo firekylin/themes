@@ -1,0 +1,36 @@
+{
+  "name": "suka",
+  "title": "Suka",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Suka’s centered masthead and Spectre-based horizontal thumbnail cards with separate date footers.",
+  "license": "GPL-3.0-only",
+  "author": "Sukka; Firekylin contributors",
+  "homepage": "https://github.com/SukkaW/hexo-theme-suka",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/suka"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "suka"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
