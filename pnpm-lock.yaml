@@ -79,6 +79,8 @@ importers:
 
   packages/bare-hugo-theme: {}
 
+  packages/jekyll-moon: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
