@@ -46,8 +46,6 @@ importers:
 
   packages/lanyon: {}
 
-  packages/hermit: {}
-
   packages/academic-cv: {}
 
   packages/akina: {}
@@ -107,6 +105,8 @@ importers:
   packages/green-park-2: {}
 
   packages/frost: {}
+
+  packages/hermit: {}
 
   packages/hello-friend-ng: {}
 
