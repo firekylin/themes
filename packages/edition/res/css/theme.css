@@ -7,3 +7,5 @@
 .prose pre{max-width:100%;overflow-x:auto}.attachment-media img,.attachment-media audio,.attachment-media video{max-width:100%}
 
 .post-feed.text-only{margin-top:2rem}
+
+.post-feed.expanded .feed-calendar{display:block;flex:0 0 55px}.post-feed.expanded .feed{display:flex;gap:2rem}.feed-wrapper{flex:1}.feed-calendar-day{font-size:2.5rem}@media(max-width:575px){.post-feed.expanded .feed{gap:1rem}}
