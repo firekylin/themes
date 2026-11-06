@@ -809,6 +809,20 @@
     },
     {
       "type": "theme",
+      "name": "hamilton",
+      "id": "hamilton",
+      "version": "0.1.0",
+      "title": "Hamilton",
+      "description": "Hamilton’s daylight palette, compact header, profile/tag sidebar and dated post-excerpt list.",
+      "download": "https://github.com/firekylin/themes/releases/download/hamilton-v0.1.0/hamilton-0.1.0.zip",
+      "integrity": "sha512-gZocGTxX7n+XrL+NfMPqQTylXlcQtqTCh1OLstvZpVk4T3R3ypnqSnoxD6JVZzFRoCnihbWKv1totxKVDxBmPg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hamilton/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "headline",
       "id": "headline",
       "version": "0.1.0",
@@ -1099,6 +1113,20 @@
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/kratos/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "lagrange",
+      "id": "lagrange",
+      "version": "0.1.0",
+      "title": "Lagrange",
+      "description": "Lagrange’s compact masthead, serif post titles, landscape thumbnails and dated summaries.",
+      "download": "https://github.com/firekylin/themes/releases/download/lagrange-v0.1.0/lagrange-0.1.0.zip",
+      "integrity": "sha512-Dj9/nEuuwtW3ugmMQZgCDzB4UeK2mWN7Q9VUFJo/2p44Ywlow6ptaCa00QLz4EyNwurul9qtBZDNHtJXlGmhVA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/lagrange/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
       }
     },
     {
@@ -1810,6 +1838,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/slate-v0.1.0/slate-0.1.0.zip",
       "integrity": "sha512-iOHp2Pc2WUmUx1XlFnv3BcPSBL/D/5/HRojOOBvaNdmJRxNf9HSvTBLv9xiC9Tu3P3LAcC2JF6vIeJxnO2O6YA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/slate/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "sleek",
+      "id": "sleek",
+      "version": "0.1.0",
+      "title": "Sleek",
+      "description": "Sleek’s dark hero banner, responsive three-column image cards, blue accents and original article typography.",
+      "download": "https://github.com/firekylin/themes/releases/download/sleek-v0.1.0/sleek-0.1.0.zip",
+      "integrity": "sha512-SXq/N3yIox1+xfaOCcMZT483RnRY6fBfbSa5eejV+pdN2g+iZlgfi9vYQWj3dCeU3n4//C2WHlVk3GRgKWHIDw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/sleek/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }

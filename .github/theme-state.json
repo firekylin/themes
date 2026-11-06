@@ -231,6 +231,10 @@
     "hash": "3a11d7769f880c101dcde80a9b6b0f57bff750d2a31da8c0df7974213f372817",
     "id": "green-park-2"
   },
+  "hamilton": {
+    "hash": "d1cbe9ed10f93c724a6ab7492ce81886dffb81526bd4919893db22d4a935b4fd",
+    "id": "hamilton"
+  },
   "headline": {
     "hash": "ba836a03a1a086b35a288713712e9998fd10fac5961fa78a83bd84af01c09e49",
     "id": "headline"
@@ -314,6 +318,10 @@
   "kratos": {
     "hash": "d405ac7e134c901edfcd88ce81d68a3b2dfedd8614c2ed8b09fa8160b1232ef4",
     "id": "kratos"
+  },
+  "lagrange": {
+    "hash": "71a4a8a25d6a3d9e6c3895deda7a12b6ca6037180f82d2cf928f1b5c61fa4303",
+    "id": "lagrange"
   },
   "landscape": {
     "hash": "27547d24877bb32074877917366109411a2b7e70994063719b58c567d52b4d53",
@@ -522,6 +530,10 @@
   "slate": {
     "hash": "1df037141dc14b0cdc22d4eec2a383e4e783a5c53d2500ba5aa768aabde6a24b",
     "id": "slate"
+  },
+  "sleek": {
+    "hash": "7fb60f39d958476c37e73bf242c884a0fe4bf9d11533fb944d1d3c2835d5f739",
+    "id": "sleek"
   },
   "so-simple": {
     "hash": "9f41503387e8d2115f2cbb3def8638069f736f62ea3ad37513f531f85415a49c",
