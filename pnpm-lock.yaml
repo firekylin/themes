@@ -158,6 +158,8 @@ importers:
 
   packages/corepress: {}
 
+  packages/aether: {}
+
   packages/erblog: {}
 
   packages/zola-coast: {}
