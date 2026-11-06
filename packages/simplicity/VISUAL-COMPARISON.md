@@ -1,0 +1,1 @@
+Retained: pale sticky site bar, centered identity/avatar, year/date/title groups, 80rem Milligram reading column, centered post heading and blue code rule. Changes: wrapping native links; homepage also includes posts; system font fallback; optional direct avatar URL; original footer attribution. Screenshots use generated fixtures rather than unlicensed upstream demo assets.
