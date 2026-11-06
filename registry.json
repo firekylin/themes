@@ -451,6 +451,20 @@
     },
     {
       "type": "theme",
+      "name": "blogpaper",
+      "id": "blogpaper",
+      "version": "0.1.0",
+      "title": "Blogpaper",
+      "description": "Blogpaper’s original newspaper typography, photo summaries, broad title banners and system dark palette.",
+      "download": "https://github.com/firekylin/themes/releases/download/blogpaper-v0.1.0/blogpaper-0.1.0.zip",
+      "integrity": "sha512-ik/ShJAS14VrUSvoMoWKr/d3yZ9YmHZm820yqaeHfIvAZza/s/xbYM5X4tBHnuk2EssiiH5US7aQVmHHzozHhQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/blogpaper/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "blowfish",
       "id": "blowfish",
       "version": "0.1.0",
@@ -1741,6 +1755,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-fuji-v0.1.0/hugo-theme-fuji-0.1.0.zip",
       "integrity": "sha512-bgCb2Whx9xp6CLNk5KmVxsYKbSSQBs/dkFH3BQq5Br1+30PWGAV6Hdyw/H2B5OmHus0dzol4OPODx2x0cBrniQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-fuji/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "hugo-theme-iris",
+      "id": "hugo-theme-iris",
+      "version": "0.1.0",
+      "title": "IRIS",
+      "description": "IRIS original dark Bulma hero, sky-blue/gold accents, two-column photo cards and structured article typography.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-iris-v0.1.0/hugo-theme-iris-0.1.0.zip",
+      "integrity": "sha512-ITYSUmuSX5rrOROHKbgosH4KJ28sAszAiUyK3JJbXCtwBU1rFT3+uoH0FISIomKGI0Peq3nQTHsPsyF8lFiomg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-iris/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }

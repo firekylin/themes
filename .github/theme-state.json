@@ -127,6 +127,10 @@
     "hash": "70614616e88f1a7938b39cdcac5918cef4a48603b3896a055f5b0d9fce433438",
     "id": "blackburn"
   },
+  "blogpaper": {
+    "hash": "c33b0bcde92cf49df76a2a1e7bc3e189b8b0a44e76881dce194e62b46d978b9d",
+    "id": "blogpaper"
+  },
   "blowfish": {
     "hash": "b60e29a94f7b454d2bf54528492ce108cbf3069e6db6486989fa03925d938edf",
     "id": "blowfish"
@@ -498,6 +502,10 @@
   "hugo-theme-fuji": {
     "hash": "f2f84dbf49eb9afba2a832da15b9e4807209efe7b8707ae2be410d25912f459b",
     "id": "hugo-theme-fuji"
+  },
+  "hugo-theme-iris": {
+    "hash": "b15e21fb6814b5e4ec837cea38bdf87dd2684f679f45fb2c7feac8130986fad0",
+    "id": "hugo-theme-iris"
   },
   "hugo-theme-nix": {
     "hash": "7c6c6c35c916e5020c5918d3e0ebd2bacde0688691f2b780feefa796acb1f574",
