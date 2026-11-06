@@ -156,6 +156,8 @@ importers:
 
   packages/miracles: {}
 
+  packages/moonwalk: {}
+
   packages/moricolor: {}
 
   packages/mwordstar: {}
