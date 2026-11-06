@@ -983,6 +983,20 @@
     },
     {
       "type": "theme",
+      "name": "erblog",
+      "id": "erblog",
+      "version": "0.1.0",
+      "title": "Erblog",
+      "description": "Erblog’s profile/biography split, teal quote-style feed, taxonomy badges and dark cyan navigation.",
+      "download": "https://github.com/firekylin/themes/releases/download/erblog-v0.1.0/erblog-0.1.0.zip",
+      "integrity": "sha512-5S9SLuoAUUm1th8navoc9+AhzzcF6SrVGazpSs16hXWUKaPhA8382r5Rxjnqy5sFeP59/iBB7TollisGITauYg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/erblog/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "etch",
       "id": "etch",
       "version": "0.1.1",
