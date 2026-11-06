@@ -3678,6 +3678,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-still",
+      "id": "zola-still",
+      "version": "0.1.0",
+      "title": "Still",
+      "description": "Still’s monochrome 640px essay layout, ruled summaries, system dark palette and end-of-article author signature.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-still-v0.1.0/zola-still-0.1.0.zip",
+      "integrity": "sha512-eadKhzKVvQgwlezZNB0UHxbXDimPx6f4AbJqgkciCrXDlDGqGdLUTx/ZUV/vPxPxTQrSA/+jqgWInOh8gXzHBA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-still/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-zola-henry",
       "id": "zola-zola-henry",
       "version": "0.1.1",

@@ -1055,6 +1055,10 @@
     "hash": "7869c385457f7d7898fdaea28b234d575900a52ff99eeb8bdab977c7bdf00a2f",
     "id": "zola-simple-dev-blog"
   },
+  "zola-still": {
+    "hash": "f4b74641f5dbbdfdd3cc6115b40a9ccff69322adb4907a19ac0f386e53fddbe1",
+    "id": "zola-still"
+  },
   "zola-zola-henry": {
     "hash": "82e5dc9ec5850b3069ea13690e3a1b166165cc9f93104c1ab774d33b558a50f9",
     "id": "zola-zola-henry"
