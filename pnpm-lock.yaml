@@ -298,6 +298,8 @@ importers:
 
   packages/whiteglass: {}
 
+  packages/sleek: {}
+
   packages/jekyll-now: {}
 
   packages/contrast: {}
