@@ -160,6 +160,8 @@ importers:
 
   packages/bootstrap4: {}
 
+  packages/twentyten: {}
+
   packages/fantasy: {}
 
   packages/firekylin: {}
