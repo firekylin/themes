@@ -1,0 +1,1 @@
+Original pane Sass and wild palette generator retained. Native toolbar controls, recent-post sidebar and month-grouped main list replace Hugo static tree/intro. Mobile stacked panes and document scrolling preserve accessible navigation. No bundled icon/logo/photo or third-party JS.

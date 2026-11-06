@@ -342,6 +342,8 @@ importers:
 
   packages/zola-seje2: {}
 
+  packages/edidor: {}
+
   packages/ezhil: {}
 
   packages/zola-press-start: {}
