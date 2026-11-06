@@ -46,8 +46,6 @@ importers:
 
   packages/lanyon: {}
 
-  packages/gokarna: {}
-
   packages/academic-cv: {}
 
   packages/akina: {}
@@ -101,6 +99,8 @@ importers:
   packages/firekylin: {}
 
   packages/fluid: {}
+
+  packages/gokarna: {}
 
   packages/g: {}
 
