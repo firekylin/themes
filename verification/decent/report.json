@@ -1,0 +1,113 @@
+{
+  "core": "2.17.1",
+  "coreRevision": "ae71b610ed2dcb6e992366bc06080ec51805042c",
+  "browser": "154.0.8037.57",
+  "checks": [
+    {
+      "width": 1440,
+      "route": "/",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/?page=2",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/post/hello.html",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/page/about.html",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/attachment/native-attachment.html",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/archives",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/categories",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/tags",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/search.html?keyword=DECENT",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/?page=2",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/post/hello.html",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/page/about.html",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/attachment/native-attachment.html",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/archives",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/categories",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/tags",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/search.html?keyword=DECENT",
+      "status": 200
+    }
+  ],
+  "passed": [
+    "actual ZIP installation",
+    "18 real SQLite routes",
+    "native attachment image/download",
+    "long native code containment",
+    "native article pagination",
+    "visible wrapping navigation without JavaScript",
+    "responsive header navigation",
+    "search without JavaScript",
+    "private/draft exclusion",
+    "comment gating"
+  ],
+  "limits": [
+    "Compared pinned upstream SCSS and templates; no live upstream demo comparison.",
+    "Waline remote client login/submission not tested."
+  ]
+}
