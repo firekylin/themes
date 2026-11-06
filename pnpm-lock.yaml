@@ -344,6 +344,8 @@ importers:
 
   packages/brave: {}
 
+  packages/wilson: {}
+
   packages/dreamcat: {}
 
   packages/bearsimple: {}
