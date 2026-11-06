@@ -1243,6 +1243,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-hello-programmer-theme",
+      "id": "hugo-hello-programmer-theme",
+      "version": "0.1.0",
+      "title": "Hello Programmer",
+      "description": "Hello Programmer’s gray page background, white article panels, teal metadata headings and cropped featured images.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-hello-programmer-theme-v0.1.0/hugo-hello-programmer-theme-0.1.0.zip",
+      "integrity": "sha512-sYBOmbyycV2BPZ+Rs22w5N0YievoMuscR9uu791X+QneFJwn+kcZM8KN9lMUub0BynpNXZ3aScpWgX/eh2MKAA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-hello-programmer-theme/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-kiera",
       "id": "hugo-kiera",
       "version": "0.1.0",
