@@ -1,0 +1,1 @@
+Bloglayout reference: original CSS,layouts/_default/card.html and single.html. Whiteheaderwithshadow,amberbrand/footer,70%max900pxcards,24%desktoparticlemargins→9%mobile. Stickyheaderreplacesfixedheader;mobilelinksvisiblewithoutJS;darkenedambertext. Businesshero/contactillustrationnotported.

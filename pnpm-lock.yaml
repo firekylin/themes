@@ -93,6 +93,8 @@ importers:
 
   packages/simple-style: {}
 
+  packages/hugo-terrassa-theme: {}
+
   packages/darksimplicity: {}
 
   packages/minimal-bootstrap-hugo-theme: {}
