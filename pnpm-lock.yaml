@@ -172,6 +172,8 @@ importers:
 
   packages/puock: {}
 
+  packages/risotto: {}
+
   packages/sagiri: {}
 
   packages/sakura: {}
