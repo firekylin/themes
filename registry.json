@@ -1439,6 +1439,20 @@
     },
     {
       "type": "theme",
+      "name": "light",
+      "id": "light",
+      "version": "0.1.0",
+      "title": "Light",
+      "description": "Hexo Light’s gray canvas, white article panels, date-first headings and right sidebar.",
+      "download": "https://github.com/firekylin/themes/releases/download/light-v0.1.0/light-0.1.0.zip",
+      "integrity": "sha512-RNsSJjyljNJ7PDBnOplyGOsDfvmNZNckOYaof/yxqOVQXE4aELsdyR5B6nqh58/VGx0SjojGI9p4NfUMMPBYXg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/light/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "lolimeow",
       "id": "lolimeow",
       "version": "0.1.0",
