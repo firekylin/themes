@@ -108,6 +108,8 @@ importers:
 
   packages/cayman: {}
 
+  packages/lovecraft: {}
+
   packages/cactus: {}
 
   packages/roon: {}
