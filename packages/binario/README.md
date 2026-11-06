@@ -1,0 +1,9 @@
+# Binario for Firekylin
+
+Original https://github.com/Vimux/Binario by Vimux2018, MIT, pinned in NOTICE.md. Original editable CSS retained with native overrides. CSS Reboot derives from Bootstrap4.3.1 and its separate MIT notice is included. System fonts only; no demo images, avatar, favicon, icon libraries, external services or JS dependencies bundled.
+
+Preserves the charcoal canvas, compact masthead, dark bordered two-column desktop cards (one on mobile), amber links, bottom-aligned date/category metadata and full-width article block. Native featuredImage HTTP(S)/site-absolute URLs display above titles; missing or invalid images use text-only cards. Native posts/pages/attachments, search/taxonomies/archives/pagination, protected content and gated comments are supported. Footer author/text options are escaped. Navigation is always visible, wrapping without JS. Original default palette remains dark under either OS preference; reduced motion removes transitions.
+
+Uses the upstream default two-column/default-amber configuration. Optional color styles, configurable column counts, Hugo TOC/related pages/author avatars, social-share icons, custom footer menus, static lastmod/breadcrumb/section metadata, image captions/credits and Hugo image pipelines are omitted. Native categories/tags replace front matter. No custom PWA/manifest or print stylesheet is activated (original print source retained for reference). Native comments replace third-party Disqus; remote comment login/submission is unverified.
+
+Verified from an actual packaged ZIP in Firekylin2.17.1 SQLite, 18 routes at1440/390px, no-JS search/navigation, private/draft exclusion, comments, responsive native media and image fallbacks. Browser checks verify two-column/one-column geometry, palette and configured footer; desktop/mobile screenshots included. Comparison is against upstream CSS/templates rather than pixel-equality to a live demo.

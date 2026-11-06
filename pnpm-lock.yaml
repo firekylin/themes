@@ -160,6 +160,8 @@ importers:
 
   packages/aether: {}
 
+  packages/binario: {}
+
   packages/erblog: {}
 
   packages/zola-coast: {}
