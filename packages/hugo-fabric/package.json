@@ -1,0 +1,36 @@
+{
+  "name": "hugo-fabric",
+  "title": "Fabric",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fabric’s original 800px blog column, dark Slackey masthead, Fjalla One blue headings and dated article entries.",
+  "license": "MIT",
+  "author": "wd; Pankaj Kumar; Firekylin contributors",
+  "homepage": "https://github.com/wd/hugo-fabric",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-fabric"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-fabric"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

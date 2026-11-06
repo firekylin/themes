@@ -107,6 +107,8 @@ importers:
 
   packages/hugo_eiio: {}
 
+  packages/hugo-fabric: {}
+
   packages/ramium: {}
 
   packages/academic-cv: {}
