@@ -190,6 +190,8 @@ importers:
 
   packages/stack: {}
 
+  packages/slate: {}
+
   packages/skeleton: {}
 
   packages/storefront: {}
