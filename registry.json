@@ -1453,6 +1453,20 @@
     },
     {
       "type": "theme",
+      "name": "massively",
+      "id": "massively",
+      "version": "0.1.0",
+      "title": "Massively",
+      "description": "Massively’s dark backdrop, bordered wordmark, centered uppercase headings and ruled two-column stories.",
+      "download": "https://github.com/firekylin/themes/releases/download/massively-v0.1.0/massively-0.1.0.zip",
+      "integrity": "sha512-CT7h3+0l9SyNFO52rkr/HXWX7N0D4Eo6HRKLrPs09KuQODrM74/7dIHWlTjD9xnJ4cT1GK1cfv4v0u5hhf6qXA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/massively/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "@firekylin/theme-matcha",
       "id": "matcha",
       "version": "0.1.1",
