@@ -97,6 +97,8 @@ importers:
 
   packages/darksimplicity: {}
 
+  packages/hugo-theme-prav: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
