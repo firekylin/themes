@@ -109,6 +109,8 @@ importers:
 
   packages/hugo-fabric: {}
 
+  packages/ramium: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
