@@ -951,6 +951,10 @@
     "hash": "7e0f398d07a40fb1a5d0b3f807e617833d8d01b6f1a1851684f532d47cef8349",
     "id": "zola-apollo"
   },
+  "zola-deepthought": {
+    "hash": "868dd0f0f8bc189cca6a32d69b5b31b4326c86eda742c3968b395740bf2bec88",
+    "id": "zola-deepthought"
+  },
   "zola-dinkleberg": {
     "hash": "42cf3cf21e306c2104d14f86d6c676e5998fc433b15bf3e7992d63912561f6a5",
     "id": "zola-dinkleberg"

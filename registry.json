@@ -3314,6 +3314,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-deepthought",
+      "id": "zola-deepthought",
+      "version": "0.1.0",
+      "title": "DeepThought",
+      "description": "DeepThought’s Bulma cards, centered profile, Jost typography, taxonomy chips and inverted dark reading mode.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-deepthought-v0.1.0/zola-deepthought-0.1.0.zip",
+      "integrity": "sha512-rE5FDI87adJjpVSRDDMSBzdaPIVt/QOXNhkfaifDjTb3HyfzG4182/5WeA9Zh0zZPVNeJ793qiodvaIcuCTwGA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-deepthought/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-dinkleberg",
       "id": "zola-dinkleberg",
       "version": "0.1.1",
