@@ -250,6 +250,8 @@ importers:
 
   packages/hamilton: {}
 
+  packages/hugo-nederburg-theme: {}
+
   packages/hugo-sustain: {}
 
   packages/ink: {}
