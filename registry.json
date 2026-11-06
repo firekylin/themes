@@ -1011,6 +1011,20 @@
     },
     {
       "type": "theme",
+      "name": "ezhil",
+      "id": "ezhil",
+      "version": "0.1.0",
+      "title": "Ezhil",
+      "description": "Ezhil’s lightweight Raleway headings, Ubuntu text, dated inline summaries and persistent light/dark switch.",
+      "download": "https://github.com/firekylin/themes/releases/download/ezhil-v0.1.0/ezhil-0.1.0.zip",
+      "integrity": "sha512-ZykImiDDHiwGoDTWgEZsqO4gBOzLLoL2oSG1V4xKa4WZP99tXyA9IWZXgfVQWo+PoUdgZigYWFExeU07Qi5D+g==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/ezhil/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "fantasy",
       "id": "fantasy",
       "version": "0.1.0",
