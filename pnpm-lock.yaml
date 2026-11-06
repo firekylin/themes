@@ -42,9 +42,9 @@ importers:
         specifier: 0.64.0
         version: 0.64.0
 
-  packages/m10c: {}
-
   packages/lanyon: {}
+
+  packages/m10c: {}
 
   packages/academic-cv: {}
 
@@ -247,6 +247,8 @@ importers:
   packages/beautiful-jekyll: {}
 
   packages/type-on-strap: {}
+
+  packages/tale: {}
 
   packages/text: {}
 
