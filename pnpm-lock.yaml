@@ -127,7 +127,10 @@ importers:
 
   packages/zola-arabesque: {}
 
+  packages/zola-zolarwind: {}
+
   packages/zola-zolanight: {}
+
 
   packages/academic-cv: {}
 
