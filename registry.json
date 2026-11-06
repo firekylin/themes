@@ -1243,6 +1243,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-theme-nix",
+      "id": "hugo-theme-nix",
+      "version": "0.1.0",
+      "title": "Nix",
+      "description": "Nix’s green terminal prompt, dark navigation bar, gray title/date rows and heavy ruled post summaries.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-nix-v0.1.0/hugo-theme-nix-0.1.0.zip",
+      "integrity": "sha512-LbEEQSNcR2by8glKbilIWcCNCisrJyI9dbk34U9THxISIoZXsaa998tPZLrKT8GyoLUN92OahxPP8fI8HG8q/Q==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-nix/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-theme-yinyang",
       "id": "hugo-theme-yinyang",
       "version": "0.1.0",

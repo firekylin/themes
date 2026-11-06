@@ -355,6 +355,10 @@
     "hash": "d4c47877cb282beaba6b26f3ed091b8f843b0c023c0a7ea9f43a9f157995a4fb",
     "id": "hugo-dusk"
   },
+  "hugo-theme-nix": {
+    "hash": "ebe246e84d4a8de2e14468c676c0d614b42b6aba75a81583c97d17f439589998",
+    "id": "hugo-theme-nix"
+  },
   "hugo-theme-yinyang": {
     "hash": "01c892ce0a3554693c3cb496ed23f4bbcf9e7350266f62d8b96bbb0b7e18e8d0",
     "id": "hugo-theme-yinyang"
