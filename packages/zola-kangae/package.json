@@ -1,0 +1,42 @@
+{
+  "name": "zola-kangae",
+  "title": "Kangae",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Kangae’s compact dated microblog entries, dotted rules, fluid typography and system light/dark palettes.",
+  "license": "NCSA",
+  "author": "Ayush Agarwal; Firekylin contributors",
+  "homepage": "https://github.com/ayushnix/kangae",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/zola-kangae"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "zola-kangae"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "profileImage",
+      "label": "头像地址",
+      "help": "可选，http(s) 或站内绝对路径。"
+    }
+  ]
+}
