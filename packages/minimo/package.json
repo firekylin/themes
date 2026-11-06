@@ -1,0 +1,36 @@
+{
+  "name": "minimo",
+  "title": "Minimo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimo’s yellow separators, 300px author sidebar, compact date/title rows and restrained system-font reading pages.",
+  "license": "MIT",
+  "author": "Munif Tanjim; Firekylin contributors",
+  "homepage": "https://github.com/MunifTanjim/minimo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/minimo"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "minimo"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
