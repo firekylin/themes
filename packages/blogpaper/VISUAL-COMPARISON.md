@@ -1,0 +1,1 @@
+Original Blogpaper Sass:Georgia20px/750pxcolumn,fullbanner titles,photo summaries,date/categorymetadata,serifh2,systemdarkpalette. Native wrappingnav abovehero replaces overlay;optionalfullwidthsnippet omitted,upstreamdemoassetsnotcopied.

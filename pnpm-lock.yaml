@@ -81,6 +81,8 @@ importers:
 
   packages/jekyll-moon: {}
 
+  packages/blogpaper: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}

@@ -1,0 +1,42 @@
+{
+  "name": "blogpaper",
+  "title": "Blogpaper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Blogpaper’s original newspaper typography, photo summaries, broad title banners and system dark palette.",
+  "license": "MIT",
+  "author": "Erwan Normand; Firekylin contributors",
+  "homepage": "https://github.com/NormandErwan/Blogpaper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/blogpaper"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "blogpaper"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "headerImage",
+      "label": "首页横幅图片",
+      "help": "填写图片网址；留空显示纯色背景。"
+    }
+  ]
+}
