@@ -1,0 +1,1 @@
+Original WingLim Tania Sass and date/title list markup retained.830px centered reading width,80px desktop/65px mobile date column, original hover rows and white/charcoal palettes. Native variable-length menus wrap in normal document flow on mobile; native paginated list replaces Hugo project/bio homepage. No placeholder/demo assets.

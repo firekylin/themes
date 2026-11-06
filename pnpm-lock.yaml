@@ -57,6 +57,7 @@ importers:
   packages/nofancy: {}
 
   packages/github-style: {}
+  packages/hugo-tania: {}
 
   packages/academic-cv: {}
 

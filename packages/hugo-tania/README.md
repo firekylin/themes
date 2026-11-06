@@ -1,0 +1,9 @@
+# Tania for Firekylin
+
+Port of WingLim/hugo-tania, exact source revision in NOTICE.md. Original Sass preserved in res/source and compiled into res/css/theme.css. The original design derives from Tania Rascia's website; both MIT licenses and Normalize8.0.1 MIT notice are included. Uses upstream system fonts. No demo text, images, icons, external font requests or third-party scripts included.
+
+Preserves the 830px reading container, date/title rows, understated desktop navigation, dark mobile navigation, spacious article headings, and upstream white/charcoal light/dark palettes. Mobile navigation is in document flow to accommodate arbitrary Firekylin menu lengths. Native theme control follows OS preference until an explicit selection, persists it when storage permits, and remains usable if storage fails. Without JS, CSS follows OS colors and the inactive switch is hidden.
+
+Uses native Firekylin posts, pages, attachments, taxonomy, archives, server-side search, pagination and comment gating. All native content remains in the article; the list remains text-only, with no added image cards. Footer author/text configuration is escaped. Home uses the native paginated date/title list rather than the Hugo author's project/bio data files. Optional logo/title emoji, project pages, client-side search/category filtering, custom shortcodes, floating footnotes, code-copy scripts, related posts and external comment integrations are not ported. Native comment remote login/submission is not validated.
+
+Verification installs the actual ZIP into Firekylin2.17.1 SQLite and checks18routes at1440/390px, no-JS navigation/search, protected content, comments, pagination and native media. Additional checks cover original palette, preference persistence, blocked storage and date/title row alignment. Visual comparisons use pinned source templates/Sass, not pixel matching of a live upstream demo.
