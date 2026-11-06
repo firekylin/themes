@@ -3384,6 +3384,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-seje2",
+      "id": "zola-seje2",
+      "version": "0.1.0",
+      "title": "Seje2",
+      "description": "Seje2’s serif horizontal reading layout, centered headings, fine article rules, Chinese dates and automatic dark palette.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-seje2-v0.1.0/zola-seje2-0.1.0.zip",
+      "integrity": "sha512-HWcVubD0OXs+g8kQiKKSD9EHuP0e16BW9WUuBbEqRidjVFD500bZhaQ06jBJLyeL8X341iF0ZNqs0T+3V3TxcA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-seje2/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-serene",
       "id": "zola-serene",
       "version": "0.1.0",
