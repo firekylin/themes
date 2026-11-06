@@ -907,6 +907,20 @@
     },
     {
       "type": "theme",
+      "name": "landscape",
+      "id": "landscape",
+      "version": "0.1.0",
+      "title": "Landscape",
+      "description": "Original 300px banner, floating date, white article cards, gray background and right biography panel.",
+      "download": "https://github.com/firekylin/themes/releases/download/landscape-v0.1.0/landscape-0.1.0.zip",
+      "integrity": "sha512-3bPOAa1u6eJ4ZagJYI2Bz0/zVxWxyfNoxHUkhXvE7Ms72boOSKaKwLDx9n7sBLB130AnzUU1z0aZ9T4SN1hbkA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/landscape/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "lanyon",
       "id": "lanyon",
       "version": "0.1.1",

@@ -259,6 +259,10 @@
     "hash": "d405ac7e134c901edfcd88ce81d68a3b2dfedd8614c2ed8b09fa8160b1232ef4",
     "id": "kratos"
   },
+  "landscape": {
+    "hash": "27547d24877bb32074877917366109411a2b7e70994063719b58c567d52b4d53",
+    "id": "landscape"
+  },
   "lanyon": {
     "hash": "3ae5fe9bfd831ac377ca2b63738d2ed2f148fabfb66fd449b5734f447b66831f",
     "id": "lanyon"
