@@ -120,6 +120,8 @@ importers:
 
   packages/hugo-coder: {}
 
+  packages/headline: {}
+
   packages/hextra: {}
 
   packages/icarus: {}

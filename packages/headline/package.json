@@ -1,0 +1,36 @@
+{
+  "name": "headline",
+  "title": "Headline",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Headline’s original newspaper card grid, serif headlines, bylines and reading layout, using the no-image card variant.",
+  "license": "MIT",
+  "author": "Ghost Foundation; Firekylin contributors",
+  "homepage": "https://github.com/TryGhost/Headline",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/headline"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "headline"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
