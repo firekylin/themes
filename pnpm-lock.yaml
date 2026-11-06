@@ -80,6 +80,8 @@ importers:
 
   packages/aurora: {}
 
+  packages/altofocus: {}
+
   packages/liebling: {}
 
   packages/bearblog: {}

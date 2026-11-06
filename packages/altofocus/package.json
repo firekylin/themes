@@ -1,0 +1,36 @@
+{
+  "name": "altofocus",
+  "title": "AltoFocus",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AltoFocus’s minimal identity header and photography-led portfolio grid, with clear title captions and spacious detail pages.",
+  "license": "GPL-2.0-or-later",
+  "author": "Automattic; Firekylin contributors",
+  "homepage": "https://github.com/Automattic/themes/tree/trunk/altofocus",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/altofocus"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "altofocus"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
