@@ -72,6 +72,8 @@ importers:
 
   packages/blowfish: {}
 
+  packages/wave: {}
+
   packages/butterfly: {}
 
   packages/chalk: {}

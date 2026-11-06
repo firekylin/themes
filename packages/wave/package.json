@@ -1,0 +1,36 @@
+{
+  "name": "wave",
+  "title": "Wave",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Podcast-oriented square-cover episode list with source date/title/excerpt typography. Native audio attachments use browser audio controls; Ghost’s site-wide playlist is excluded.",
+  "license": "MIT",
+  "author": "Ghost Foundation; Firekylin contributors",
+  "homepage": "https://github.com/TryGhost/Wave",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/wave"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "wave"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
