@@ -823,6 +823,20 @@
     },
     {
       "type": "theme",
+      "name": "lanyon",
+      "id": "lanyon",
+      "version": "0.1.0",
+      "title": "Lanyon",
+      "description": "Lanyon serif blog with sliding off-canvas navigation.",
+      "download": "https://github.com/firekylin/themes/releases/download/lanyon-v0.1.0/lanyon-0.1.0.zip",
+      "integrity": "sha512-tE4+GvWkH0JjWd85qWNgUHfRIwp5E56XUHhsPQ0qFrIl+B50mmSkyvGv5rSaFnV31dOnNrBm9pPiWhuoICIADw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/lanyon/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "learn",
       "id": "learn",
       "version": "0.1.0",

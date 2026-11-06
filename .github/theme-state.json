@@ -235,6 +235,10 @@
     "hash": "d405ac7e134c901edfcd88ce81d68a3b2dfedd8614c2ed8b09fa8160b1232ef4",
     "id": "kratos"
   },
+  "lanyon": {
+    "hash": "5caf94e5e7db123fc9da1e6b2e11fc51edeb4ce4a0b82a84a49e0cd43e817b0a",
+    "id": "lanyon"
+  },
   "learn": {
     "hash": "4b0c86b4a183759cc3c5a094e2665fa90a5b1c3f0334629b466135b0c72dfb05",
     "id": "learn"
