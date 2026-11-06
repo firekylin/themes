@@ -1,7 +1,7 @@
 {
   "name": "hugotex",
   "title": "HugoTeX",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "HugoTeX LaTeX typography with Latin Modern, academic abstract, native heading contents and local KaTeX formulas.",
   "license": "MIT",
