@@ -1,0 +1,5 @@
+# Hugo Material Blog for Firekylin
+
+Mihail Cristian Dumitru’s MIT theme is adapted using original style.css and Materialize 1.0.0 CSS: white shadowed navigation, lightweight typography, large summary headings, author/date metadata, full-width article cover and left-hand article byline. The article body occupies the central six-column equivalent on desktop and stacks below metadata on smaller screens. Covers use safe native featuredImage URLs; missing covers are omitted.
+
+Native posts/pages, archive/taxonomy/search, pagination, attachments, protected content and comments are supported. Flat navigation wraps visibly without JavaScript, replacing the Materialize drawer/dropdowns. Footer text/author are configurable. Source full-content homepage mode, custom footer-menu columns, multilingual switching, analytics and Hugo feed generation are not implemented. No external fonts, icons, scripts, services or demo images are bundled. No live upstream pixel comparison or remote comment submission was performed.

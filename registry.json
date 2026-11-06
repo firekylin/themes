@@ -1845,6 +1845,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-theme-hulga",
+      "id": "hugo-theme-hulga",
+      "version": "0.1.0",
+      "title": "Hulga",
+      "description": "Hulga’s original Bulma hero, boxed post list, taxonomy sidebar, system light-dark palettes and article TOC.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-hulga-v0.1.0/hugo-theme-hulga-0.1.0.zip",
+      "integrity": "sha512-izSP+x9fZzn3XRMv5DochczKdYpwh3GRy/BbT+uNmKGGKBfYexYaUk+RSTojLWhNOkSlEoz7PQPVyGF+aP0u9A==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-hulga/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-theme-iris",
       "id": "hugo-theme-iris",
       "version": "0.1.0",

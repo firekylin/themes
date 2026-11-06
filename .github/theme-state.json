@@ -527,6 +527,10 @@
     "hash": "f2f84dbf49eb9afba2a832da15b9e4807209efe7b8707ae2be410d25912f459b",
     "id": "hugo-theme-fuji"
   },
+  "hugo-theme-hulga": {
+    "hash": "ab3d31ed3d79a29b82b6a5b559c307f1d87e85621f1c7ee980342902a8b979ba",
+    "id": "hugo-theme-hulga"
+  },
   "hugo-theme-iris": {
     "hash": "b15e21fb6814b5e4ec837cea38bdf87dd2684f679f45fb2c7feac8130986fad0",
     "id": "hugo-theme-iris"
