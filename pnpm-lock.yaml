@@ -123,6 +123,8 @@ importers:
 
   packages/hugo-theme-chunky-poster: {}
 
+  packages/hugo-theme-simple-blog: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
