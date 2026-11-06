@@ -1,0 +1,36 @@
+{
+  "name": "sleek",
+  "title": "Sleek",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sleek’s dark hero banner, responsive three-column image cards, blue accents and original article typography.",
+  "license": "MIT",
+  "author": "Jan Cizikow; Firekylin contributors",
+  "homepage": "https://github.com/janczizikow/sleek",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/sleek"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "sleek"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
