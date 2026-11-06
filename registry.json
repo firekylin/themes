@@ -4361,6 +4361,20 @@
       "engines": {
         "firekylin": ">=2.17.1"
       }
+    },
+    {
+      "type": "theme",
+      "name": "zola-zolarwind",
+      "id": "zola-zolarwind",
+      "version": "0.1.0",
+      "title": "Zolarwind",
+      "description": "Zolarwind’s original Tailwind 4 palettes, responsive image-card grid, sticky navigation and full-width article banners.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-zolarwind-v0.1.0/zola-zolarwind-0.1.0.zip",
+      "integrity": "sha512-n49juonj/nWK1zSDCbMwTarqFnws/FwVLfN3OVgqOSxSt5N6YQlWfvjGK+cHRYM9KnqzcOZYTSmxwwJuECl7Dg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-zolarwind/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
     }
   ]
 }
