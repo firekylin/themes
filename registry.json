@@ -1607,6 +1607,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-rocinante",
+      "id": "hugo-rocinante",
+      "version": "0.1.0",
+      "title": "Rocinante",
+      "description": "Rocinante original compact title/date feed, 740px reading column and automatic light/dark palettes.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-rocinante-v0.1.0/hugo-rocinante-0.1.0.zip",
+      "integrity": "sha512-0Xjic5EcuZ9dRfnMvbnu556kDzsPgt7FU+hsJufeidkR2AKjkmVV81TsDspGI7StJh6dYRLNUHugZKPRpMGGfQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-rocinante/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-sustain",
       "id": "hugo-sustain",
       "version": "0.1.2",

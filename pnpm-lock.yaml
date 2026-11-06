@@ -69,6 +69,7 @@ importers:
   packages/hugo-theme-den: {}
 
   packages/hugo-theme-tokiwa: {}
+  packages/hugo-rocinante: {}
 
   packages/academic-cv: {}
 
