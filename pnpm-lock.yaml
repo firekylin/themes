@@ -402,6 +402,8 @@ importers:
 
   packages/minimal: {}
 
+  packages/canard: {}
+
   packages/minima: {}
 
   packages/no-style-please: {}
