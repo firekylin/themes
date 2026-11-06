@@ -85,6 +85,8 @@ importers:
 
   packages/blogpaper: {}
 
+  packages/hugo-blog-jeffprod: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}

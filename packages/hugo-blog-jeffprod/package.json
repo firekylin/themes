@@ -1,0 +1,42 @@
+{
+  "name": "hugo-blog-jeffprod",
+  "title": "JeffProd",
+  "version": "0.1.0",
+  "private": true,
+  "description": "JeffProd’s Bulma 9/3-column blog, large blue hero, white reading box and sidebar cards.",
+  "license": "MIT",
+  "author": "@JeffProd; Firekylin contributors",
+  "homepage": "https://github.com/Tazeg/hugo-blog-jeffprod",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-blog-jeffprod"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-blog-jeffprod"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "headerImage",
+      "label": "横幅背景图片",
+      "help": "填写图片网址；留空显示蓝色背景。"
+    }
+  ]
+}

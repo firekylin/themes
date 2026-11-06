@@ -423,6 +423,10 @@
     "hash": "8287d9df260caca9e9367ddff711ad26922588773aaf94f82d60cdaa7a559d25",
     "id": "hpstr-hugo-theme"
   },
+  "hugo-blog-jeffprod": {
+    "hash": "0590ca2bfe30684a5bd4589978c3643c2d891a1e12b9117ce34a091fdfc43bf4",
+    "id": "hugo-blog-jeffprod"
+  },
   "hugo-book": {
     "hash": "af819f582c657096a1eed0cd254911b6b3f73362244cfd8cc9991467af9f79b1",
     "id": "hugo-book"
