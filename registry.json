@@ -647,6 +647,20 @@
     },
     {
       "type": "theme",
+      "name": "davis",
+      "id": "davis",
+      "version": "0.1.0",
+      "title": "Davis",
+      "description": "Davis’s spare centered masthead, PT Serif typography, narrow reading column, featured-image posts and understated metadata.",
+      "download": "https://github.com/firekylin/themes/releases/download/davis-v0.1.0/davis-0.1.0.zip",
+      "integrity": "sha512-CovTu8qfisCT5C2jRYcrTpDYSgOqT08J9j5mao7f3fovvxLNGLMWq7xC8x6+72PWaEweQtMJtUeKLMS0hhtBfg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/davis/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "dawn",
       "id": "dawn",
       "version": "0.1.0",
@@ -1061,6 +1075,20 @@
     },
     {
       "type": "theme",
+      "name": "hoffman",
+      "id": "hoffman",
+      "version": "0.1.0",
+      "title": "Hoffman",
+      "description": "Hoffman’s centered masthead, broad featured media, inset narrow post body, Raleway titles and Vollkorn reading face.",
+      "download": "https://github.com/firekylin/themes/releases/download/hoffman-v0.1.0/hoffman-0.1.0.zip",
+      "integrity": "sha512-si3PIGgP/7TQpt5otQUTjyM9zpMU1mOTfXLKbJLjoS7Nf1CfImn9rCypYpCBWG36SNFUKAN91k817FO3mKm2hQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hoffman/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-book",
       "id": "hugo-book",
       "version": "0.1.0",
@@ -1447,6 +1475,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/light-v0.1.0/light-0.1.0.zip",
       "integrity": "sha512-RNsSJjyljNJ7PDBnOplyGOsDfvmNZNckOYaof/yxqOVQXE4aELsdyR5B6nqh58/VGx0SjojGI9p4NfUMMPBYXg==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/light/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "lingonberry",
+      "id": "lingonberry",
+      "version": "0.1.0",
+      "title": "Lingonberry",
+      "description": "Lingonberry’s coral masthead, vertical timeline with post-format bubbles, white speech-panel posts and Lato/Raleway typography.",
+      "download": "https://github.com/firekylin/themes/releases/download/lingonberry-v0.1.0/lingonberry-0.1.0.zip",
+      "integrity": "sha512-dZ6GfYbKbZUU+hd+bVDHXUk6VfMle86K6tTP4G9bUjVdtoedGL04xMLPCMG9NOryVmGDdCUkGEU4aAJoSv+7zA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/lingonberry/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
@@ -2026,6 +2068,20 @@
     },
     {
       "type": "theme",
+      "name": "rams",
+      "id": "rams",
+      "version": "0.1.0",
+      "title": "Rams",
+      "description": "Rams’s fixed teal left sidebar, right-aligned navigation, white image-topped post panels and Montserrat/Crimson Text pairing.",
+      "download": "https://github.com/firekylin/themes/releases/download/rams-v0.1.0/rams-0.1.0.zip",
+      "integrity": "sha512-925o8a8aGndyKwqpzKKKJ8Cs1vWWOcSG3f+3/UmgsXgzfP75mUNnN0wqwccBG8BlNfFjiQaZlzWmvh3mmzjRtQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/rams/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "redefine",
       "id": "redefine",
       "version": "0.1.0",
@@ -2552,6 +2608,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/whiteglass-v0.1.0/whiteglass-0.1.0.zip",
       "integrity": "sha512-k/kc9RPbIAZgEiYCmT0IPYBdiTviDxTGjmBmDfyQupvJyLY1lC4q1Nxixp5vwrMqFRDK8n6Or7MftwGu8Ism8A==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/whiteglass/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "wp-hemingway",
+      "id": "wp-hemingway",
+      "version": "0.1.0",
+      "title": "Hemingway",
+      "description": "The WordPress Hemingway’s wide masthead with dark title plaque, charcoal navigation, two-column blog/sidebar and large image-led post panels. Distinct from the existing Hugo Hemingway port.",
+      "download": "https://github.com/firekylin/themes/releases/download/wp-hemingway-v0.1.0/wp-hemingway-0.1.0.zip",
+      "integrity": "sha512-trU4P6mhwOnj7TIRYHw6lZwmR90wXU7IzzzJwjEkchXVNSJ6YIRIqrlMphjjug9xMOWL/jEicy38xWjy+zSpMw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/wp-hemingway/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }

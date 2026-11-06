@@ -183,6 +183,10 @@
     "hash": "cba2e427a8a5eaef51be3f0a394687b76847e0830b9c95630cfc3a12153c1abc",
     "id": "datagov"
   },
+  "davis": {
+    "hash": "5386958c242a533ebbc44257d54ed80fdd078b55cfd175c16e40f6816358bb77",
+    "id": "davis"
+  },
   "dawn": {
     "hash": "af8bc8af8eb10ee6d8ca7a1b0a09c83f51957eeab5e7e7ba4003fc7b4c0fb4c9",
     "id": "dawn"
@@ -303,6 +307,10 @@
     "hash": "ad39db643cbbd0d4fd5326225966f3b578d28542a9b1fd453c35c73164140109",
     "id": "hextra"
   },
+  "hoffman": {
+    "hash": "c98d472b68dadacde4080ef15cc01375d861413593b6f1cf30dc0523f3b0c489",
+    "id": "hoffman"
+  },
   "hugo-book": {
     "hash": "af819f582c657096a1eed0cd254911b6b3f73362244cfd8cc9991467af9f79b1",
     "id": "hugo-book"
@@ -414,6 +422,10 @@
   "light": {
     "hash": "04ec03c05b246900e5085ea170518df385fc5a3f40e5a48bbd85d5c9c7d1571d",
     "id": "light"
+  },
+  "lingonberry": {
+    "hash": "b2be8aee2c2de6cdb577c5e402fe5b83893befc4341fea4f7bccde5336c58649",
+    "id": "lingonberry"
   },
   "lolimeow": {
     "hash": "619c8803bcf48908b1a4d465c6cd66e0d47b6935f2b5c756689dbb28f627827f",
@@ -583,6 +595,10 @@
     "hash": "2411761cb7ad96e3ba247ee68ce4eade4a031393159819a4290e3d5572794f9b",
     "id": "pure"
   },
+  "rams": {
+    "hash": "ad3bb7cbad4f1813f00227e1932ec9ee8c3a92879f95f4e52afab21d0c802ba8",
+    "id": "rams"
+  },
   "redefine": {
     "hash": "710e78f491a6a04c80efd81b7bf082ebdf7ecf216d0bc17fc53d0ec378744864",
     "id": "redefine"
@@ -734,6 +750,10 @@
   "whiteglass": {
     "hash": "2abdbac4299b97577126ae9ff99716a2680c89eb24ab831f20e7c1d48da6654c",
     "id": "whiteglass"
+  },
+  "wp-hemingway": {
+    "hash": "2086696c73e7f81d9ebbafcce25984cc559c7d56025580c1c13a6df06503c0c4",
+    "id": "wp-hemingway"
   },
   "xmin": {
     "hash": "ef17500f070a445f020308a9be21d247e8065b59ad3b6325e384bd849d574299",
