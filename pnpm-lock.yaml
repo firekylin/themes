@@ -104,6 +104,8 @@ importers:
 
   packages/congo: {}
 
+  packages/hoffman: {}
+
   packages/clarity: {}
 
   packages/cuckoo: {}
