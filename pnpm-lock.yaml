@@ -94,6 +94,8 @@ importers:
 
   packages/dux: {}
 
+  packages/edition: {}
+
   packages/echo: {}
 
   packages/even: {}
