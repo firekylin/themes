@@ -117,6 +117,8 @@ importers:
 
   packages/hugo-theme-sky: {}
 
+  packages/zola-radion: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
