@@ -334,6 +334,8 @@ importers:
 
   packages/dreamcat: {}
 
+  packages/iwata: {}
+
   packages/bearsimple: {}
 
   packages/stellar: {}
