@@ -286,6 +286,8 @@ importers:
 
   packages/yilia: {}
 
+  packages/suka: {}
+
   packages/midnight: {}
 
   packages/mdx: {}
