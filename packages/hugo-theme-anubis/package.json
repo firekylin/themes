@@ -1,0 +1,36 @@
+{
+  "name": "hugo-theme-anubis",
+  "title": "Anubis",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Anubis’s restrained system typography, rounded navigation surface, generous summary feed and automatic light/dark palettes.",
+  "license": "MIT",
+  "author": "Dmitry Kolosov; Firekylin contributors",
+  "homepage": "https://github.com/Mitrichius/hugo-theme-anubis",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-theme-anubis"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-theme-anubis"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

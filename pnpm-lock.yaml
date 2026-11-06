@@ -376,6 +376,8 @@ importers:
 
   packages/midnight: {}
 
+  packages/hugo-theme-anubis: {}
+
   packages/pure: {}
 
   packages/mdx: {}
