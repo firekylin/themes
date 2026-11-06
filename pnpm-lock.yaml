@@ -508,6 +508,8 @@ importers:
 
   packages/so-simple: {}
 
+  packages/charaka-hugo-theme: {}
+
   packages/chirpy: {}
 
   packages/monochrome: {}
