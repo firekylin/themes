@@ -182,6 +182,8 @@ importers:
 
   packages/jj: {}
 
+  packages/centrarium: {}
+
   packages/joe: {}
 
   packages/kratos: {}
