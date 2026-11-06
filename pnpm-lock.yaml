@@ -212,6 +212,8 @@ importers:
 
   packages/hugo-theme-vec: {}
 
+  packages/strange-case: {}
+
   packages/hugo-coder: {}
 
   packages/mini: {}
