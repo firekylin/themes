@@ -3412,6 +3412,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-coast",
+      "id": "zola-coast",
+      "version": "0.1.0",
+      "title": "Coast",
+      "description": "Coast’s large hero, gray embossed article cards, Japanese typography and sticky reading directory.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-coast-v0.1.0/zola-coast-0.1.0.zip",
+      "integrity": "sha512-Yu+gr/wSDvDWI8yt1F8RA6EwkVAXzffgGgCcpi70l6O9SWtbGGM4fSIUJr/asbJVYUFAkYlTETvHUgrvIIxzog==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-coast/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-deepthought",
       "id": "zola-deepthought",
       "version": "0.1.0",
