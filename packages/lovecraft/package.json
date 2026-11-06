@@ -1,0 +1,36 @@
+{
+  "name": "lovecraft",
+  "title": "Lovecraft",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lovecraft’s centered serif identity, ruled navigation, image-led white post panels and right sidebar, with Playfair Display headings and Lato body text.",
+  "license": "GPL-2.0-only",
+  "author": "Anders Norén; Firekylin contributors",
+  "homepage": "https://github.com/andersnoren/lovecraft",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/lovecraft"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "lovecraft"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
