@@ -471,6 +471,10 @@
     "hash": "d617216306c06fe8227ece8d27088795861df3abd8772e1f585233704b36c823",
     "id": "hugo-theme-anubis"
   },
+  "hugo-theme-fuji": {
+    "hash": "f2f84dbf49eb9afba2a832da15b9e4807209efe7b8707ae2be410d25912f459b",
+    "id": "hugo-theme-fuji"
+  },
   "hugo-theme-nix": {
     "hash": "7c6c6c35c916e5020c5918d3e0ebd2bacde0688691f2b780feefa796acb1f574",
     "id": "hugo-theme-nix"

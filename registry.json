@@ -1649,6 +1649,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-theme-fuji",
+      "id": "hugo-theme-fuji",
+      "version": "0.1.0",
+      "title": "Fuji",
+      "description": "Fuji’s blue/lavender summary feed, right navigation/tag sidebar, Primer typography and original light/dark colors.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-fuji-v0.1.0/hugo-theme-fuji-0.1.0.zip",
+      "integrity": "sha512-bgCb2Whx9xp6CLNk5KmVxsYKbSSQBs/dkFH3BQq5Br1+30PWGAV6Hdyw/H2B5OmHus0dzol4OPODx2x0cBrniQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-fuji/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-theme-nix",
       "id": "hugo-theme-nix",
       "version": "0.1.2",
