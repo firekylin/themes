@@ -1,0 +1,36 @@
+{
+  "name": "libretto",
+  "title": "Libretto",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Libretto’s bookish serif typography, muted paper tones, centered title block and long-form single-column article layout.",
+  "license": "GPL-2.0-or-later",
+  "author": "Automattic; Firekylin contributors",
+  "homepage": "https://github.com/Automattic/themes/tree/trunk/libretto",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/libretto"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "libretto"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

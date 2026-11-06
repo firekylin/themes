@@ -152,6 +152,8 @@ importers:
 
   packages/doks: {}
 
+  packages/libretto: {}
+
   packages/mainroad: {}
 
   packages/dux: {}
