@@ -82,6 +82,8 @@ importers:
 
   packages/argon: {}
 
+  packages/grid-side: {}
+
   packages/ghostwriter: {}
 
   packages/aria: {}

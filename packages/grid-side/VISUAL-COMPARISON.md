@@ -1,0 +1,1 @@
+Pinned post/list.html and post/single.html adapted using original theme and Materialize CSS: navigation rail, column counts, image/date/title/summary/button cards and white reading panel. Flex rows replace Masonry balancing; native pagination replaces infinite scroll. Text rail becomes top wrapping menu on mobile. Portfolio/parallax/galleries are omitted.
