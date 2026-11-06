@@ -1,0 +1,1 @@
+Original Bootstrap4.0.0 CSS and default style.html retained: #212529navbar,800pxcontainer,#007bfflinks,title/dateindex,styledcodeandblockquote. Navheightauto and wrapping supportmobile/noJS. Footeraddedfornativeconfig. No demoassetsorJS.
