@@ -1,7 +1,7 @@
 {
   "name": "blackburn",
   "title": "Blackburn",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Blackburn’s dark fixed Pure CSS sidebar, Raleway masthead and spacious article summaries.",
   "license": "MIT",
