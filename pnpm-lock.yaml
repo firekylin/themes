@@ -93,6 +93,8 @@ importers:
 
   packages/simple-style: {}
 
+  packages/darksimplicity: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
