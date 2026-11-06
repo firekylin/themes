@@ -212,6 +212,8 @@ importers:
 
   packages/landscape: {}
 
+  packages/h2o: {}
+
   packages/learn: {}
 
   packages/merlot: {}
