@@ -164,6 +164,8 @@ importers:
 
   packages/learn: {}
 
+  packages/merlot: {}
+
   packages/material: {}
 
   packages/matery: {}
