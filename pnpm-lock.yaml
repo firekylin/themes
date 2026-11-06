@@ -113,6 +113,8 @@ importers:
 
   packages/hugo-tikva: {}
 
+  packages/devise: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
