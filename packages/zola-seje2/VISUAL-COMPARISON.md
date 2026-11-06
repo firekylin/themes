@@ -1,0 +1,1 @@
+Default horizontal upstream home.html/page.html and original Sass retained: centered serif header/headings, summary articles between fine gray rules, Chinese dates below content and automatic charcoal palette. Native archive/search/pagination/comments replace static-site services. No vertical mode or remote fonts.

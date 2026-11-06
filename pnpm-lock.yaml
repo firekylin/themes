@@ -326,6 +326,8 @@ importers:
 
   packages/moonwalk: {}
 
+  packages/zola-seje2: {}
+
   packages/zola-serene: {}
 
   packages/zola-hook: {}
