@@ -1,0 +1,1 @@
+Original Researcher Sass + Bootstrap4.6.2 retained. 750pxmonospacedcolumn,2rembrand,redlinks,slashnavigation,horizontalrules,date/titlelist,bracketedlistcounter,centeredfooter. Nativebloghomepageusestheupstreamlisttemplate; optionalresume/avatar/icons/KaTeXomitted.

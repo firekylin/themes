@@ -1621,6 +1621,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-researcher",
+      "id": "hugo-researcher",
+      "version": "0.1.0",
+      "title": "Researcher",
+      "description": "Researcher’s original monospaced 750px column, red links, slash navigation and date/title list.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-researcher-v0.1.0/hugo-researcher-0.1.0.zip",
+      "integrity": "sha512-IJR96udRqjh/J3JB3Zu/eyVClO6Q03nAj+9x4X1yj8STu22Rx+ewyfHNs4T4tHTmfPfT9T1AyIqGthAka4hdkQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-researcher/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-rocinante",
       "id": "hugo-rocinante",
       "version": "0.1.0",
