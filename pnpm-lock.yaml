@@ -77,6 +77,8 @@ importers:
 
   packages/bare-hugo-theme: {}
 
+  packages/hugo-theme-iris: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
