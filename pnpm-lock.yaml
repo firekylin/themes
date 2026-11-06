@@ -242,6 +242,8 @@ importers:
 
   packages/kratos: {}
 
+  packages/hugo-dusk: {}
+
   packages/basically-basic: {}
 
   packages/loveit: {}
