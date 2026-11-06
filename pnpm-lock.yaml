@@ -282,6 +282,8 @@ importers:
 
   packages/mwordstar: {}
 
+  packages/base16: {}
+
   packages/nexmoe: {}
 
   packages/astro-nano: {}
