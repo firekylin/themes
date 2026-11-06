@@ -72,6 +72,8 @@ importers:
 
   packages/cactus: {}
 
+  packages/console: {}
+
   packages/congo: {}
 
   packages/cuckoo: {}
