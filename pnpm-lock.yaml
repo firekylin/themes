@@ -186,6 +186,8 @@ importers:
 
   packages/joe: {}
 
+  packages/hydejack: {}
+
   packages/kratos: {}
 
   packages/loveit: {}
