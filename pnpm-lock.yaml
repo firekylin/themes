@@ -122,6 +122,8 @@ importers:
 
   packages/console: {}
 
+  packages/hugo-theme-nix: {}
+
   packages/congo: {}
 
   packages/hoffman: {}
