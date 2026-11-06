@@ -1,0 +1,36 @@
+{
+  "name": "independent-publisher-2",
+  "title": "Independent Publisher 2",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Independent Publisher 2’s quiet centered identity, bold article headings, blue links and immersive single-column reading layout.",
+  "license": "GPL-3.0-or-later",
+  "author": "Raam Dev; Automattic; Firekylin contributors",
+  "homepage": "https://github.com/Automattic/themes/tree/trunk/independent-publisher-2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/independent-publisher-2"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "independent-publisher-2"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
