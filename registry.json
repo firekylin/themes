@@ -1887,6 +1887,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-theme-simple-blog",
+      "id": "hugo-theme-simple-blog",
+      "version": "0.1.0",
+      "title": "Simple Blog",
+      "description": "Simple Blog’s original skewed gray backdrop, centered two-column Bootstrap cards, category links and footer navigation.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-simple-blog-v0.1.0/hugo-theme-simple-blog-0.1.0.zip",
+      "integrity": "sha512-KvDYbaokXs8sw8YnM6LQlHkkC4cKyVU9sspaokF4VbHXLHSPrOSbATd7nfww41IYnQ+acSa6ShORfNDD562L8A==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-simple-blog/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-theme-sky",
       "id": "hugo-theme-sky",
       "version": "0.1.0",

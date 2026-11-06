@@ -539,6 +539,10 @@
     "hash": "1059e07534f5e64951eeb705ac06f120829956165eb18262e2ddc78bd2a6475a",
     "id": "hugo-theme-prav"
   },
+  "hugo-theme-simple-blog": {
+    "hash": "294cfa8e0bca8671e17bb53c9f39784f655f64dda76ad8912e265eee9d4ea113",
+    "id": "hugo-theme-simple-blog"
+  },
   "hugo-theme-sky": {
     "hash": "22e31a7aa67aad2c3b19c93e9f8e8abc4a2fc12b5ad0a38fcdac805ea216afcc",
     "id": "hugo-theme-sky"
