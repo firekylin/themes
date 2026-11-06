@@ -100,6 +100,8 @@ importers:
 
   packages/congo: {}
 
+  packages/clarity: {}
+
   packages/cuckoo: {}
 
   packages/diary: {}
