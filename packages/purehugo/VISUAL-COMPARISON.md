@@ -1,0 +1,2 @@
+Purehugo’s fixed slate sidebar, right-aligned site identity, dated separators and spacious post column.
+Original blog.css retained; Pure percentage-grid classes are converted to equivalent native CSS, so no Pure runtime dependency is required. Pure/Yahoo and Normalize notices retained for the source layout. Full-body feed becomes native excerpts because index rows do not contain full article bodies. Oxygen/Source Sans Pro use system fallbacks; external icon fonts, social share counters and analytics are omitted.

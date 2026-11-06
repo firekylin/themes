@@ -112,6 +112,8 @@ importers:
 
   packages/slim: {}
 
+  packages/purehugo: {}
+
   packages/editorial: {}
 
   packages/chalk: {}
