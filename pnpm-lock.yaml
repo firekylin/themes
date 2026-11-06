@@ -300,6 +300,8 @@ importers:
 
   packages/dawn: {}
 
+  packages/attila: {}
+
   packages/casper: {}
 
   packages/fuwari: {}

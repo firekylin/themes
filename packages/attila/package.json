@@ -1,0 +1,36 @@
+{
+  "name": "attila",
+  "title": "Attila",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Attila’s large centered masthead and narrow text-first feed, with original reading typography and automatic system dark palette.",
+  "license": "MIT",
+  "author": "Peter Amende; Firekylin contributors",
+  "homepage": "https://github.com/zutrinken/attila",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/attila"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "attila"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
