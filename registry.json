@@ -655,6 +655,20 @@
     },
     {
       "type": "theme",
+      "name": "headline",
+      "id": "headline",
+      "version": "0.1.0",
+      "title": "Headline",
+      "description": "Headline’s original newspaper card grid, serif headlines, bylines and reading layout, using the no-image card variant.",
+      "download": "https://github.com/firekylin/themes/releases/download/headline-v0.1.0/headline-0.1.0.zip",
+      "integrity": "sha512-dwhO/jWyiVoiCgKlJplWCm+ri6HctW3xAOjwXfY1/Mo0dS/9YaCvurd7b6IO89W5SHXX4g9LLv6eGfHvcN0t7A==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/headline/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hello-friend-ng",
       "id": "hello-friend-ng",
       "version": "0.1.0",
@@ -1404,6 +1418,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/so-simple-v0.1.0/so-simple-0.1.0.zip",
       "integrity": "sha512-KA/D6WGFPlUUhpw/KBSY1PucpA5ucvPHBsIURPUybH18BCxTIZT3cGYSOHU+IhWu9Bp6oZG5OuFuhd8hK42UCQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/so-simple/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "source",
+      "id": "source",
+      "version": "0.1.0",
+      "title": "Source",
+      "description": "Source’s original publication grid, large sans-serif card titles, excerpts and narrow article typography.",
+      "download": "https://github.com/firekylin/themes/releases/download/source-v0.1.0/source-0.1.0.zip",
+      "integrity": "sha512-xEPk4xedItCG6KLn/7b/QHOu4GltFl5jnSkgeTNSbPP7iMPHJ+90piSm0uDhCpJ2Z/kUzYD+ojuZTzVCHVbLGQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/source/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
