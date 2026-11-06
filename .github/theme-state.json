@@ -87,6 +87,10 @@
     "hash": "6dd640a4870d9e91bd8f97d45a88571c4b0358f1d2e3db86a5f77a40dcfe8d84",
     "id": "aurora"
   },
+  "bare-hugo-theme": {
+    "hash": "96b7595366feef2ff2bf944d2ac3e3fd692d4c8c22fe7b51bc82e8c701d25b7d",
+    "id": "bare-hugo-theme"
+  },
   "base16": {
     "hash": "58ec3035171b6e1237a5f5e51348f1821d4a2db9fa6a9e5d47e33776b0903775",
     "id": "base16"

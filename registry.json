@@ -311,6 +311,20 @@
     },
     {
       "type": "theme",
+      "name": "bare-hugo-theme",
+      "id": "bare-hugo-theme",
+      "version": "0.1.0",
+      "title": "Bare",
+      "description": "Bare’s original Bulma blue hero, wide responsive container and compact title/date feed.",
+      "download": "https://github.com/firekylin/themes/releases/download/bare-hugo-theme-v0.1.0/bare-hugo-theme-0.1.0.zip",
+      "integrity": "sha512-d3Ot5/FftHDRMXaq7OQjkyvo0+d8Yeb7msYMHva+2OWDbjLOdZh6WD/H22DqoNilIkGhSnOSXdMz2rft5qNt3Q==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/bare-hugo-theme/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "base16",
       "id": "base16",
       "version": "0.1.1",
