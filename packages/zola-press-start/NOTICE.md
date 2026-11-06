@@ -10,3 +10,5 @@ https://raw.githubusercontent.com/google/fonts/main/ofl/pressstart2p/PressStart2
 https://raw.githubusercontent.com/google/fonts/main/ofl/pressstart2p/OFL.txt SHA256 705960c3281a5765ecc0b59bd4ed7ca59eed165748076bc2fc3e8fdbfeb944b0
 https://raw.githubusercontent.com/google/fonts/main/ofl/vt323/VT323-Regular.ttf SHA256 cf4de751ada78ceac033dbe16a687742939995b77bc2a052ae17a4957958594d
 https://raw.githubusercontent.com/google/fonts/main/ofl/vt323/OFL.txt SHA256 27d9af34210253e7ca1251fbace86c6f65b40031d6ce1a75493a1b2093631298
+
+Adaptation fix: removed inline prose annotations from both walking pixel grids so all frames retain 14×26 pixels; untouched upstream quest.js is preserved in res/source.
