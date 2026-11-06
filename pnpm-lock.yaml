@@ -322,6 +322,8 @@ importers:
 
   packages/sakurairo: {}
 
+  packages/papaya: {}
+
   packages/single: {}
 
   packages/stack: {}
