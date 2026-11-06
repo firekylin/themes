@@ -3230,6 +3230,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-dinkleberg",
+      "id": "zola-dinkleberg",
+      "version": "0.1.0",
+      "title": "Dinkleberg",
+      "description": "Dinkleberg’s sticky monospace site bar, 65/35 feed/sidebar split and desktop article metadata column.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-dinkleberg-v0.1.0/zola-dinkleberg-0.1.0.zip",
+      "integrity": "sha512-OMigXgsJ9gDJ6Ga+SyGSXfGlfA28kNdNl+MuCof4AMnJwY9JwzddjKubqeqI6S9uhJcIBWlP6JSKv4r7odLXew==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-dinkleberg/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-dose",
       "id": "zola-dose",
       "version": "0.1.0",
