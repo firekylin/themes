@@ -110,6 +110,8 @@ importers:
 
   packages/butterfly: {}
 
+  packages/simplicity: {}
+
   packages/slim: {}
 
   packages/purehugo: {}
