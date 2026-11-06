@@ -1,0 +1,36 @@
+{
+  "name": "koji",
+  "title": "Koji",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Koji’s restrained left identity/navigation column, system typography and two-column image gallery with bottom captions.",
+  "license": "GPL-2.0-only",
+  "author": "Anders Norén; Firekylin contributors",
+  "homepage": "https://github.com/andersnoren/koji",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/koji"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "koji"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
