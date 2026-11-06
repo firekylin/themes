@@ -1148,6 +1148,20 @@
     },
     {
       "type": "theme",
+      "name": "future-imperfect",
+      "id": "future-imperfect",
+      "version": "0.1.0",
+      "title": "Hugo Future Imperfect",
+      "description": "Future Imperfect’s editorial sidebar, bordered split-title cards, Raleway headings and large featured images.",
+      "download": "https://github.com/firekylin/themes/releases/download/future-imperfect-v0.1.0/future-imperfect-0.1.0.zip",
+      "integrity": "sha512-ydHVut7dlOZh3ghdEtj4OW2U/WWTlbZYj8czjAWh4xXfk6ArZNpZwMCxHVVV0ylsquJvx7Dr0i0mL26cEyNKeQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/future-imperfect/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "fuwari",
       "id": "fuwari",
       "version": "0.1.0",
