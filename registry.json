@@ -3454,6 +3454,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-press-start",
+      "id": "zola-press-start",
+      "version": "0.1.0",
+      "title": "Press Start",
+      "description": "Press Start’s pixel parallax world, walking hero, progress HUD and scroll-card blog adapted to Firekylin.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-press-start-v0.1.0/zola-press-start-0.1.0.zip",
+      "integrity": "sha512-YaT9tHHCi38XWOzY28tLg+uNgcdzp5vB4HKi1GQN0C6u1WeHC7ZKn9f+0PzReJ0rL8XEMbwphc7fEhFHPv1EzQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-press-start/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-seje2",
       "id": "zola-seje2",
       "version": "0.1.0",
