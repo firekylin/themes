@@ -1,0 +1,1 @@
+Pinned upstream style.css/home.html/sidebar.html:1200pxcontainer,3:1reading/sidebar,roundedwarmcards,Bitter/FiraSansCondensed,redlinks,light-darkcolors. Nativeexcerptsreplacefullhomepagecontent;directoryusescards/sidebar. Originaltheme.jswithtexttoggle,noSVGicons/copyscript.
