@@ -2726,6 +2726,20 @@
     },
     {
       "type": "theme",
+      "name": "strange-case",
+      "id": "strange-case",
+      "version": "0.1.0",
+      "title": "Strange Case",
+      "description": "Strange Case’s fixed bottom-aligned sidebar, original dark-brown/green palette and large post headings.",
+      "download": "https://github.com/firekylin/themes/releases/download/strange-case-v0.1.0/strange-case-0.1.0.zip",
+      "integrity": "sha512-1F0ZdG80dcnIAq3fk0Gihu3zYHa/ONwBqGpzWm1vw6UyMOPqng0vYxOd3VjmXSvkHIgqq3LbMJTxdVSyJNJwLw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/strange-case/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "suka",
       "id": "suka",
       "version": "0.1.0",
