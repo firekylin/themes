@@ -276,6 +276,8 @@ importers:
 
   packages/puock: {}
 
+  packages/pique: {}
+
   packages/risotto: {}
 
   packages/sagiri: {}
