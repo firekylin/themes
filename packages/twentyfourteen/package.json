@@ -1,0 +1,36 @@
+{
+  "name": "twentyfourteen",
+  "title": "Twenty Fourteen",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Twenty Fourteen’s black masthead and left sidebar, green link accents, uppercase entry headers and white magazine reading area.",
+  "license": "GPL-2.0-or-later",
+  "author": "WordPress contributors; Firekylin contributors",
+  "homepage": "https://github.com/WordPress/WordPress",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/twentyfourteen"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "twentyfourteen"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
