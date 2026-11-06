@@ -1,0 +1,36 @@
+{
+  "name": "zola-press-start",
+  "title": "Press Start",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Press Start’s pixel parallax world, walking hero, progress HUD and scroll-card blog adapted to Firekylin.",
+  "license": "MIT",
+  "author": "brandonhon; Firekylin contributors",
+  "homepage": "https://github.com/brandonhon/press-start",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/zola-press-start"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "zola-press-start"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
