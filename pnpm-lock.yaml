@@ -288,6 +288,8 @@ importers:
 
   packages/midnight: {}
 
+  packages/pure: {}
+
   packages/mdx: {}
 
   packages/leap-day: {}
