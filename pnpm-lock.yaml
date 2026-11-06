@@ -136,6 +136,8 @@ importers:
 
   packages/hextra: {}
 
+  packages/lagrange: {}
+
   packages/icarus: {}
 
   packages/icefox: {}
