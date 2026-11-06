@@ -1,0 +1,36 @@
+{
+  "name": "zola-shadharon",
+  "title": "Shadharon",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Shadharon’s original dark/light monospace blog cards, red brand and responsive three-column summary grid.",
+  "license": "MIT",
+  "author": "Syed Zayyan Masud; Firekylin contributors",
+  "homepage": "https://github.com/syedzayyan/shadharon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/zola-shadharon"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "zola-shadharon"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
