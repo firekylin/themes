@@ -683,6 +683,10 @@
     "hash": "280f3fc9111b1dd3735278b2e4acb59140bcd1f4cb831c4914851cabbebba9c8",
     "id": "material"
   },
+  "material-design": {
+    "hash": "77274ceb97f2e8f92160fc6d17355acba3dbd5a3cb918776b41878940d6af4e5",
+    "id": "material-design"
+  },
   "matery": {
     "hash": "bf6eaa566e476892f5548b64ff79e7f037afb47d1c985eeb57bfa5dda3e5ccd9",
     "id": "matery"

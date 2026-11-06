@@ -2385,6 +2385,20 @@
     },
     {
       "type": "theme",
+      "name": "material-design",
+      "id": "material-design",
+      "version": "0.1.0",
+      "title": "Material Design",
+      "description": "Original Materialize three-column cards, teal links, large banner and shadowed reading panels.",
+      "download": "https://github.com/firekylin/themes/releases/download/material-design-v0.1.0/material-design-0.1.0.zip",
+      "integrity": "sha512-vOibSFBIyEohCD6VBvZDpjR/xamOJS+Q1DpOP2EcSTKC+LyWmJADDf0GozZJmxfhjdq+lHT8xMS+AjuaOJ906w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/material-design/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "@firekylin/theme-matery",
       "id": "matery",
       "version": "0.1.0",
