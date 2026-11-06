@@ -3748,6 +3748,20 @@
     },
     {
       "type": "theme",
+      "name": "zola-andromeda",
+      "id": "zola-andromeda",
+      "version": "0.1.0",
+      "title": "Andromeda",
+      "description": "Andromeda photojournal: square cover cards, Orbitron star header, full-screen photo hero and PT Serif reading blocks.",
+      "download": "https://github.com/firekylin/themes/releases/download/zola-andromeda-v0.1.0/zola-andromeda-0.1.0.zip",
+      "integrity": "sha512-HjBoNhvLXhLDGklkRCAtcheWmWqVuJNj+Hr0G04z25o1SXzcK6sDOXBgwTFPFgfCeWp5rpJm3J2Qo3eHT6Z8ig==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zola-andromeda/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "zola-apollo",
       "id": "zola-apollo",
       "version": "0.1.0",
