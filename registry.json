@@ -1005,6 +1005,20 @@
     },
     {
       "type": "theme",
+      "name": "journal",
+      "id": "journal",
+      "version": "0.1.0",
+      "title": "Journal",
+      "description": "Oversized lead issue above the original two-column issue list and about/topic sidebar.",
+      "download": "https://github.com/firekylin/themes/releases/download/journal-v0.1.0/journal-0.1.0.zip",
+      "integrity": "sha512-cH4jGwBMMGKeqi/I13+kVKx/iwjUV8DDZM6FfR6CJ2KGgDxJ7XIlS4aUza6Uqw6/d0bnYRzNHzimJoE/Xc0HAw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/journal/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "klise",
       "id": "klise",
       "version": "0.1.0",
@@ -1908,6 +1922,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/volantis-v0.1.0/volantis-0.1.0.zip",
       "integrity": "sha512-WVD2gF0wmnlIW/VBt2X4zmnCAed6W7Z3Ua3+mQ14AaLZ8kNExrvX7Jhp5P4duBdnjx15bScpwlmBlPodq0ToLA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/volantis/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "wave",
+      "id": "wave",
+      "version": "0.1.0",
+      "title": "Wave",
+      "description": "Podcast-oriented square-cover episode list with source date/title/excerpt typography. Native audio attachments use browser audio controls; Ghost’s site-wide playlist is excluded.",
+      "download": "https://github.com/firekylin/themes/releases/download/wave-v0.1.0/wave-0.1.0.zip",
+      "integrity": "sha512-MTN++UdnBEQ7zElthfTb7oPnQjuoPbt0nDP/u8wzFwjD+Z1J6Gsko98640+CCnht9kElShk8WFzVjRmamuCQew==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/wave/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
