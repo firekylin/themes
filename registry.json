@@ -825,11 +825,11 @@
       "type": "theme",
       "name": "lanyon",
       "id": "lanyon",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Lanyon",
       "description": "Lanyon serif blog with sliding off-canvas navigation.",
-      "download": "https://github.com/firekylin/themes/releases/download/lanyon-v0.1.0/lanyon-0.1.0.zip",
-      "integrity": "sha512-tE4+GvWkH0JjWd85qWNgUHfRIwp5E56XUHhsPQ0qFrIl+B50mmSkyvGv5rSaFnV31dOnNrBm9pPiWhuoICIADw==",
+      "download": "https://github.com/firekylin/themes/releases/download/lanyon-v0.1.1/lanyon-0.1.1.zip",
+      "integrity": "sha512-64iLBZAfovdaHLKWVgM43SVQ0c4s5q4D549ywnNSOLNe33SOu/zMzjx4eosUF90gMzCBLtlpvsifPyKmEwbl8w==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/lanyon/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -1160,11 +1160,11 @@
       "type": "theme",
       "name": "poole",
       "id": "poole",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Poole",
       "description": "Poole: responsive single-column reading, system typography and automatic dark mode.",
-      "download": "https://github.com/firekylin/themes/releases/download/poole-v0.1.0/poole-0.1.0.zip",
-      "integrity": "sha512-/Mi4IKOGQXnjulrx/9qSAEVdWzdCbV5P9AX88TlzuRVkkrUssA/Gkr/eX5Q4/ysOUolhnOAhNLao193t5IhP7w==",
+      "download": "https://github.com/firekylin/themes/releases/download/poole-v0.1.1/poole-0.1.1.zip",
+      "integrity": "sha512-PaIeQMb1QQxd01KDU50/HcIMHgrAzKL7q1qWov2/HcRi2NifN/Qds1JrDLuOKOIV2JwQub/U7HLVWmeky+WtpA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/poole/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
