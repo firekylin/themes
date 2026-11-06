@@ -1,0 +1,36 @@
+{
+  "name": "zola-still",
+  "title": "Still",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Still’s monochrome 640px essay layout, ruled summaries, system dark palette and end-of-article author signature.",
+  "license": "MIT",
+  "author": "Jianbo; Firekylin contributors",
+  "homepage": "https://github.com/wjianbo/zola-theme-still",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/zola-still"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "zola-still"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
