@@ -168,6 +168,8 @@ importers:
 
   packages/anatole: {}
 
+  packages/gazette: {}
+
   packages/erblog: {}
 
   packages/zola-coast: {}

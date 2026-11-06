@@ -1,0 +1,36 @@
+{
+  "name": "gazette",
+  "title": "Gazette",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Gazette’s photographic featured band, three-column magazine feed, blue accents and Lora/Lato typography.",
+  "license": "GPL-2.0-or-later AND OFL-1.1",
+  "author": "Automattic; Firekylin contributors",
+  "homepage": "https://wordpress.com/themes/gazette/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/gazette"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "gazette"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

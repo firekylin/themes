@@ -1201,6 +1201,20 @@
     },
     {
       "type": "theme",
+      "name": "gazette",
+      "id": "gazette",
+      "version": "0.1.0",
+      "title": "Gazette",
+      "description": "Gazette’s photographic featured band, three-column magazine feed, blue accents and Lora/Lato typography.",
+      "download": "https://github.com/firekylin/themes/releases/download/gazette-v0.1.0/gazette-0.1.0.zip",
+      "integrity": "sha512-RncEZnbYlw56N2hMgZj2dfTc4cYBJ0imFbVTcEJca+IzmLsldMi9u+NHttXVdKq/8ASFC4Mw/RP03BkHgOAKPg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/gazette/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "ghostwriter",
       "id": "ghostwriter",
       "version": "0.1.2",
