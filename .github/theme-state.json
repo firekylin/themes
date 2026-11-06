@@ -535,6 +535,10 @@
     "hash": "1059e07534f5e64951eeb705ac06f120829956165eb18262e2ddc78bd2a6475a",
     "id": "hugo-theme-prav"
   },
+  "hugo-theme-sky": {
+    "hash": "22e31a7aa67aad2c3b19c93e9f8e8abc4a2fc12b5ad0a38fcdac805ea216afcc",
+    "id": "hugo-theme-sky"
+  },
   "hugo-theme-tokiwa": {
     "hash": "19a18860d4eb8491a8ce7fcf576a01b97b52a0ad3aaf652d7bf617b71198a3f1",
     "id": "hugo-theme-tokiwa"
