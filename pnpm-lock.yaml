@@ -70,6 +70,8 @@ importers:
 
   packages/butterfly: {}
 
+  packages/chalk: {}
+
   packages/cactus: {}
 
   packages/console: {}
