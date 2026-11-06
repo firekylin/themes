@@ -1,0 +1,1 @@
+Original Sass supplies monochrome profile/header, heavy Montserrat titles, ruled navigation, 760px reading column and black footer. Native blog feed retains optional images and summary paragraphs; no demo assets/icons. Local variable fonts are unmodified Google Fonts versions of original typefaces.
