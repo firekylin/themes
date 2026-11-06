@@ -58,6 +58,8 @@ importers:
 
   packages/adams: {}
 
+  packages/apostrophe-2: {}
+
   packages/london: {}
 
   packages/ananke: {}
