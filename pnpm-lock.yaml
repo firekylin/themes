@@ -238,6 +238,8 @@ importers:
 
   packages/yilia: {}
 
+  packages/midnight: {}
+
   packages/mdx: {}
 
   packages/leap-day: {}
