@@ -106,6 +106,8 @@ importers:
 
   packages/diaspora: {}
 
+  packages/bilberry: {}
+
   packages/corepress: {}
 
   packages/clean-blog: {}
