@@ -1,0 +1,2 @@
+Strange Case’s fixed bottom-aligned sidebar, original dark-brown/green palette and large post headings.
+Includes original Bootstrap 3.3.7 and notices; preserves upstream Hyde/Base16 acknowledgments. Uses native summaries because the index API does not provide full article bodies. Sidebar stays in normal flow on mobile. Default palette is darkbrown; Roboto uses system sans-serif fallback. Demonstration images and contact/social widgets are omitted.
