@@ -1,0 +1,36 @@
+{
+  "name": "journal",
+  "title": "Journal",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Oversized lead issue above the original two-column issue list and about/topic sidebar.",
+  "license": "MIT",
+  "author": "Ghost Foundation; Firekylin contributors",
+  "homepage": "https://github.com/TryGhost/Journal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/journal"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "journal"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
