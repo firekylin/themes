@@ -910,6 +910,20 @@
     },
     {
       "type": "theme",
+      "name": "fukasawa",
+      "id": "fukasawa",
+      "version": "0.1.0",
+      "title": "Fukasawa",
+      "description": "Fukasawa’s pale fixed sidebar, Lato typography and responsive white image cards; CSS grid replaces JavaScript masonry while retaining the original card design.",
+      "download": "https://github.com/firekylin/themes/releases/download/fukasawa-v0.1.0/fukasawa-0.1.0.zip",
+      "integrity": "sha512-lHZZ8wMpmE/jhfu2Nck3C+yBH9bO+thcR15T0nMSWrz8pdwwDfHSse3+4PEVrxN+x+nr17NasuYTIb6WlYa0lw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/fukasawa/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "fuwari",
       "id": "fuwari",
       "version": "0.1.0",
@@ -1625,6 +1639,20 @@
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/maupassant/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "mcluhan",
+      "id": "mcluhan",
+      "version": "0.1.0",
+      "title": "Mcluhan",
+      "description": "McLuhan’s broad fixed author sidebar, Archivo typography and compact title/date archive list. Detail pages retain a generous reading column.",
+      "download": "https://github.com/firekylin/themes/releases/download/mcluhan-v0.1.0/mcluhan-0.1.0.zip",
+      "integrity": "sha512-NpZDY4rxXuaAOBzU/KNk9uA2Z8vll4yAWNxuZT9bAsj/yv24SCd/SHGLA5JRNCN6iH6OhiAELZ5QosgJIFi7Sg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/mcluhan/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
       }
     },
     {
@@ -2608,6 +2636,34 @@
       "download": "https://github.com/firekylin/themes/releases/download/whiteglass-v0.1.0/whiteglass-0.1.0.zip",
       "integrity": "sha512-k/kc9RPbIAZgEiYCmT0IPYBdiTviDxTGjmBmDfyQupvJyLY1lC4q1Nxixp5vwrMqFRDK8n6Or7MftwGu8Ism8A==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/whiteglass/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "wilson",
+      "id": "wilson",
+      "version": "0.1.0",
+      "title": "Wilson",
+      "description": "Wilson’s charcoal sidebar, coral site-name panel, white framed posts and Lato reading typography.",
+      "download": "https://github.com/firekylin/themes/releases/download/wilson-v0.1.0/wilson-0.1.0.zip",
+      "integrity": "sha512-YMS6Ca71dUR0y9uDDoCmyI+5JsrEWuIHPK3jdtRKk+OViVZ/Oxn//Ie58GiKNdV2T791RQCXRCyJW2tH++NK9g==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/wilson/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "wp-hamilton",
+      "id": "wp-hamilton",
+      "version": "0.1.0",
+      "title": "Hamilton",
+      "description": "WordPress Hamilton’s spacious masthead, Libre Franklin typography and large two-column portfolio thumbnails with visible title overlays. Different upstream from the existing Jekyll Hamilton.",
+      "download": "https://github.com/firekylin/themes/releases/download/wp-hamilton-v0.1.0/wp-hamilton-0.1.0.zip",
+      "integrity": "sha512-fG5GGP9QsXb0uQ1bMeC5B4IEU7TIsHyWigOMM4l5UgbABrYkjlCVmJGUnp9aXlDrxeoHuRVXzLnb4YV4D1HyIg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/wp-hamilton/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }

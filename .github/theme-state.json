@@ -259,6 +259,10 @@
     "hash": "14b94b9c2d53f1834451e021eaec4a6e292ae2cb652836a70a9a71c65eb3e3bf",
     "id": "frost"
   },
+  "fukasawa": {
+    "hash": "ea1059fef13278195e7b414938aee9446f83c831647b77068a90307b3e265637",
+    "id": "fukasawa"
+  },
   "fuwari": {
     "hash": "79c599171db23731bda8a2016f9ce25366b67b6f83947c3186b1b48f0db025c7",
     "id": "fuwari"
@@ -466,6 +470,10 @@
   "maupassant": {
     "hash": "1e382a879180d0c1c6a6a2115dba0033cde5e39f48ceff4c0f9a7822367a3678",
     "id": "maupassant"
+  },
+  "mcluhan": {
+    "hash": "71395014c61a085fb272b78bef556d31b9a3b70c76f08bcc25358964bc15741f",
+    "id": "mcluhan"
   },
   "mdx": {
     "hash": "6c15f150ef3b5f18d406561b95068000c565b4931a4c673b3bca747b5af079de",
@@ -750,6 +758,14 @@
   "whiteglass": {
     "hash": "2abdbac4299b97577126ae9ff99716a2680c89eb24ab831f20e7c1d48da6654c",
     "id": "whiteglass"
+  },
+  "wilson": {
+    "hash": "9de7b36a4f35c924a7c5c786bd0e565a7b11c88bd2f9491f0b8260267bec6e16",
+    "id": "wilson"
+  },
+  "wp-hamilton": {
+    "hash": "763e0b899261247355d14c598ad881954ad3fccd2a841765d3f3a38d675847ab",
+    "id": "wp-hamilton"
   },
   "wp-hemingway": {
     "hash": "2086696c73e7f81d9ebbafcce25984cc559c7d56025580c1c13a6df06503c0c4",
