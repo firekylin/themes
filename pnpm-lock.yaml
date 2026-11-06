@@ -109,6 +109,8 @@ importers:
 
   packages/ramium: {}
 
+  packages/devise: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
