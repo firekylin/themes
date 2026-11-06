@@ -103,6 +103,8 @@ importers:
 
   packages/minimal-bootstrap-hugo-theme: {}
 
+  packages/hugo_eiio: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}

@@ -1,0 +1,1 @@
+Originalstyle+Bootstrap3.4.1panels,orangebrand,intro/categorybuttons,thumbnailrows,datebadges,jumbotrongraycanvas,10/12desktopwidth. IDhome_post→class;mobileimagesstackandnavvisible;safeDOMTOC. No icons/fonts/demoassets/runtimeJS.
