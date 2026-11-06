@@ -314,6 +314,8 @@ importers:
 
   packages/casper: {}
 
+  packages/noteworthy: {}
+
   packages/fuwari: {}
 
   packages/minimal-mistakes: {}
