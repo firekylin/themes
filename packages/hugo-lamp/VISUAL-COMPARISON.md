@@ -1,0 +1,1 @@
+Original Sass and templates: green320pxsidebar,Roboto typography,white rounded shadow cards,blue links,green article headings,monospace footer. Native HTML replaces AMP elements;mobile navigation visible withoutJS. No upstream live pixel comparison.
