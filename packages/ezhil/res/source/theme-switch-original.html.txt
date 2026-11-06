@@ -1,0 +1,86 @@
+<head>
+	<meta charset="utf-8" />
+	{{- $title := ( .Title ) -}}
+	{{- $siteTitle := ( .Site.Title ) -}}
+	{{- if .IsHome -}}
+	<title>{{ $siteTitle }}{{ with .Site.Params.subtitle }} - {{ . }}{{ end }}</title>
+	{{- else -}}
+	<title>{{ $title }} - {{ $siteTitle }}</title>
+	{{- end -}}
+
+	{{- with .Site.Params.favicon }}
+	<link rel="icon" href="{{ . | relURL }}" />
+	{{- end }}
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{{ with .OutputFormats.Get "rss" -}}
+	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+	{{ end -}}
+
+	{{- template "_internal/opengraph.html" . -}}
+	{{- template "_internal/twitter_cards.html" . -}}
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="{{ "css/normalize.css" | relURL }}" />
+	<link rel="stylesheet" type="text/css" media="screen" href="{{ "css/main.css" | relURL }}" />
+	{{- with .Site.Params.customCSS }}
+	<link rel="stylesheet" type="text/css" href="{{ . | relURL }}" />
+	{{- end }}
+	{{- $mode := .Site.Params.mode | default "light" }}
+	{{- $switcher := not .Site.Params.disableThemeSwitcher }}
+	{{- if or (in (slice "auto" "dark") $mode) $switcher }}
+	{{- $darkMedia := cond (eq $mode "auto") "(prefers-color-scheme: dark)" (cond (eq $mode "dark") "screen" "not all") }}
+	<link rel="stylesheet" type="text/css" href="{{ "css/dark.css" | relURL }}" media="{{ $darkMedia }}" data-ezhil-dark />
+	{{- with .Site.Params.customDarkCSS }}
+	<link rel="stylesheet" type="text/css" href="{{ . | relURL }}" media="{{ $darkMedia }}" data-ezhil-dark />
+	{{- end }}
+	{{- end }}
+	{{- if $switcher }}
+	<script>
+	// Resolve the theme before first paint so there is no flash of the wrong one.
+	(function () {
+		var mode = {{ $mode }}, key = "ezhil-theme", stored = null;
+		try { stored = localStorage.getItem(key); } catch (e) {}
+		function apply(dark) {
+			document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+			var links = document.querySelectorAll("link[data-ezhil-dark]");
+			for (var i = 0; i < links.length; i++) {
+				links[i].media = dark ? "screen" : "not all";
+			}
+		}
+		function preferred() {
+			return mode === "dark" || (mode === "auto" && window.matchMedia("(prefers-color-scheme: dark)").matches);
+		}
+		apply(stored ? stored === "dark" : preferred());
+		// Keep following the OS until the reader picks a theme themselves.
+		if (mode === "auto" && window.matchMedia) {
+			window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function (ev) {
+				try { if (localStorage.getItem(key)) return; } catch (e) {}
+				apply(ev.matches);
+			});
+		}
+		document.addEventListener("click", function (e) {
+			if (!e.target.closest || !e.target.closest("#theme-toggle")) return;
+			var dark = document.documentElement.getAttribute("data-theme") !== "dark";
+			apply(dark);
+			try { localStorage.setItem(key, dark ? "dark" : "light"); } catch (e) {}
+		});
+	})();
+	</script>
+	{{- end }}
+
+	{{ if or .Site.Params.social $switcher -}}
+	{{ if .Site.Params.featherIconsCDN -}}
+	<script defer src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	{{- else -}}
+	<script defer src="{{ "js/feather.min.js" | relURL }}"></script>
+	{{- end }}
+	{{ end -}}
+	{{- range .Site.Params.customJS }}
+	{{- if or (hasPrefix . "http://") (hasPrefix . "https://") }}
+	<script src="{{ . }}"></script>
+	{{- else }}
+	<script src="{{ . | relURL }}"></script>
+	{{- end }}
+	{{- end }}
+</head>

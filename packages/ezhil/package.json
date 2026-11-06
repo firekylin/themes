@@ -1,0 +1,36 @@
+{
+  "name": "ezhil",
+  "title": "Ezhil",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ezhil’s lightweight Raleway headings, Ubuntu text, dated inline summaries and persistent light/dark switch.",
+  "license": "MIT",
+  "author": "vividvilla; Firekylin contributors",
+  "homepage": "https://github.com/vividvilla/ezhil",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/ezhil"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "ezhil"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
