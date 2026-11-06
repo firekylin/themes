@@ -1109,3 +1109,5 @@ a.footnote-ref:hover {
 }
 /* Native integration */
 body{margin:0;padding-bottom:9rem;overflow-wrap:anywhere}*{box-sizing:border-box}img{height:auto}iframe,video{max-width:100%}.hdr-wrapper{flex-wrap:wrap;gap:.5rem}.hdr-left{width:100%}.hdr-wrapper .site-nav{display:flex;flex-wrap:wrap;gap:.3rem .8rem;font-size:.9rem}.hdr-wrapper .site-nav a{margin:0}.prose table{display:block;overflow:auto}.post-actions,.tags{display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0}.pagination{display:flex;justify-content:space-between;margin:2rem 0}.skip{position:absolute;top:-100px;z-index:5}.skip:focus{top:0}input,button{font:inherit;max-width:100%;box-sizing:border-box}#feed{scroll-margin:2rem}.post-year{min-width:4ch}.post-title{min-width:0}.site-main{padding-top:3rem}:focus-visible{outline:2px solid #018574;outline-offset:3px}@media(max-width:600px){.posts-group{display:block}.post-year{margin-bottom:.5rem}.post-item a{gap:.5rem}}
+/* Native code and attachment containment. */
+.prose pre{max-width:100%;overflow-x:auto}.attachment-media img,.attachment-media audio,.attachment-media video{max-width:100%}

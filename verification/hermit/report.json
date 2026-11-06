@@ -25,6 +25,11 @@
     },
     {
       "width": 1440,
+      "route": "/attachment/native-attachment.html",
+      "status": 200
+    },
+    {
+      "width": 1440,
       "route": "/archives",
       "status": 200
     },
@@ -65,6 +70,11 @@
     },
     {
       "width": 390,
+      "route": "/attachment/native-attachment.html",
+      "status": 200
+    },
+    {
+      "width": 390,
       "route": "/archives",
       "status": 200
     },
@@ -86,7 +96,9 @@
   ],
   "passed": [
     "actual ZIP installation",
-    "16 real SQLite routes",
+    "18 real SQLite routes",
+    "native attachment image/download",
+    "long native code containment",
     "native article pagination",
     "visible wrapping navigation without JavaScript",
     "responsive header navigation",
