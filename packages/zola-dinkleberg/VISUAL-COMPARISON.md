@@ -1,0 +1,2 @@
+Dinkleberg’s sticky monospace site bar, 65/35 feed/sidebar split and desktop article metadata column.
+Original Sass retained and compiled with Dart Sass 1.108.0. Sidebar uses actual site navigation, not example links. On article pages metadata stays beside the reading column on desktop and stacks above it on mobile. Sticky header handles wrapped navigation without covering content. Open Sans/Source Code Pro use system fallbacks. Demo logos, organization schema placeholders, estimated reading times and manually related-post lists are omitted.

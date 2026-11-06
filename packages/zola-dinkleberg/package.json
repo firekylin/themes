@@ -1,0 +1,36 @@
+{
+  "name": "zola-dinkleberg",
+  "title": "Dinkleberg",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Dinkleberg’s sticky monospace site bar, 65/35 feed/sidebar split and desktop article metadata column.",
+  "license": "MIT",
+  "author": "Guilherme Diego and contributors; Firekylin contributors",
+  "homepage": "https://github.com/rust-br/dinkleberg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/zola-dinkleberg"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "zola-dinkleberg"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
