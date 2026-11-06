@@ -1,0 +1,36 @@
+{
+  "name": "ruby",
+  "title": "Ruby",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Four-column shadowed cards with image, colored tag role, excerpt and separated card footer.",
+  "license": "MIT",
+  "author": "Ghost Foundation; Firekylin contributors",
+  "homepage": "https://github.com/TryGhost/Ruby",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/ruby"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "ruby"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
