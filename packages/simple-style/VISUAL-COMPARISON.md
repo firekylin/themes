@@ -1,0 +1,1 @@
+Originalmain.css:systemfont,blueheadings/links,responsive750/970pxcolumn,date/titlelist,borderedheader/footer,200pxrightTOC→stackedmobile. NativeheadingTOCusesDOMtext,fullwidthwithoutJS. Externalicons/searchproviders/analyticsomitted.
