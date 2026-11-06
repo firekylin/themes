@@ -101,6 +101,8 @@ importers:
 
   packages/minimal-bootstrap-hugo-theme: {}
 
+  packages/zola-shadharon: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
