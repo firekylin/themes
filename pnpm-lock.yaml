@@ -44,6 +44,8 @@ importers:
 
   packages/ink: {}
 
+  packages/lanyon: {}
+
   packages/academic-cv: {}
 
   packages/akina: {}
