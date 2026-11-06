@@ -1,0 +1,2 @@
+Hello Programmer’s gray page background, white article panels, teal metadata headings and cropped featured images.
+Uses visible wrapping navigation instead of the upstream JavaScript-only mobile menu. Demo logo and title icons are replaced by text. Noto Sans KR uses system sans-serif fallback; analytics, remote highlighting, social icon fonts and project portfolio are omitted. Teal is darkened for contrast.
