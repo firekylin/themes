@@ -260,6 +260,8 @@ importers:
 
   packages/beautiful-jekyll: {}
 
+  packages/typo: {}
+
   packages/type-on-strap: {}
 
   packages/tale: {}

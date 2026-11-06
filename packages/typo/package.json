@@ -1,0 +1,36 @@
+{
+  "name": "typo",
+  "title": "Typo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Typo serif blog with slash navigation, date columns and reading TOC.",
+  "license": "MIT",
+  "author": "Francesco Tomaselli; Firekylin contributors",
+  "homepage": "https://github.com/tomfran/typo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/typo"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "typo"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
