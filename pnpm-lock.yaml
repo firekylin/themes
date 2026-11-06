@@ -64,6 +64,8 @@ importers:
 
   packages/hugo-theme-yuki: {}
 
+  packages/hugo-theme-den: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
