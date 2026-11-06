@@ -1,0 +1,1 @@
+Pinned upstream layout.scss/colors variants and Hugo base/list/single templates retain narrow column, left sidebar, 13px Verdana body, orange headings, dated summary feed and Solarized backgrounds. Native taxonomy/search/comments and media containment added. Fonts are system fonts; absent upstream icon fonts/logo references removed.
