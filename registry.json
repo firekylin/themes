@@ -101,6 +101,20 @@
     },
     {
       "type": "theme",
+      "name": "anatole",
+      "id": "anatole",
+      "version": "0.1.0",
+      "title": "Anatole",
+      "description": "Anatole’s fixed profile sidebar, 60/40 reading layout, thumbnail summaries and light/dark theme switch.",
+      "download": "https://github.com/firekylin/themes/releases/download/anatole-v0.1.0/anatole-0.1.0.zip",
+      "integrity": "sha512-g/ufQepblr2gRE91rkk9l9VHJ26/WuKDtWBAWGPp/2qQOsAsVnLTG7M5i2QzzGa3pxXre0LIv2lBcMUiAqKosA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/anatole/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "anisina",
       "id": "anisina",
       "version": "0.1.0",
