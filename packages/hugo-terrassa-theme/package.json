@@ -1,0 +1,36 @@
+{
+  "name": "hugo-terrassa-theme",
+  "title": "Terrassa",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Terrassa’s original amber/white blog layout, centered summary cards, shadowed header and narrow article column.",
+  "license": "MIT",
+  "author": "Daniel Zaragoza; Firekylin contributors",
+  "homepage": "https://github.com/danielkvist/hugo-terrassa-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-terrassa-theme"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-terrassa-theme"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
