@@ -1,0 +1,2 @@
+/* Native accessible scroll-snap banner; no automatic rotation. */
+(()=>{const b=document.querySelector('.native-banner'),controls=document.querySelector('.banner-controls');if(!b||!controls)return;controls.hidden=false;controls.addEventListener('click',e=>{const button=e.target.closest('button');if(!button)return;const next=button.dataset.direction==='next';b.scrollBy({left:b.clientWidth*(next?1:-1),behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'})})})();
