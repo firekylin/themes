@@ -75,6 +75,8 @@ importers:
 
   packages/harbor: {}
 
+  packages/ronu-hugo-theme: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}

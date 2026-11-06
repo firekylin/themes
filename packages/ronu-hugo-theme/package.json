@@ -1,0 +1,36 @@
+{
+  "name": "ronu-hugo-theme",
+  "title": "Ronu",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ronu’s original Sakura typography, title/description feed and automatic light/Vader palettes.",
+  "license": "MIT",
+  "author": "Deepak Karanth; Firekylin contributors",
+  "homepage": "https://github.com/softwareyoga/ronu-hugo-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/ronu-hugo-theme"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "ronu-hugo-theme"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
