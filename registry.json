@@ -297,6 +297,20 @@
     },
     {
       "type": "theme",
+      "name": "chalk",
+      "id": "chalk",
+      "version": "0.1.0",
+      "title": "Chalk",
+      "description": "Chalk spacious editorial blog with automatic light/dark palettes.",
+      "download": "https://github.com/firekylin/themes/releases/download/chalk-v0.1.0/chalk-0.1.0.zip",
+      "integrity": "sha512-Bme6RRxC041JkemIiY0kaacxUr+f5AJNJoXevxGpu0PunXSiP9hsolhNiobr+8wIjfHQsoU0fpt8aIgb7Qp/eQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/chalk/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "chirpy",
       "id": "chirpy",
       "version": "0.1.0",
@@ -319,6 +333,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/congo-v0.1.0/congo-0.1.0.zip",
       "integrity": "sha512-m2B/ZeJ68chx6sEikdLus4VKxKbQpOolZnrxbiGWO04/Gi+xdY5cZfSGQzxGr61+waOA4xSbTZhnFudnPfIlsw==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/congo/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "console",
+      "id": "console",
+      "version": "0.1.0",
+      "title": "Console",
+      "description": "Console terminal-prompt blog with date-column feed and system dark mode.",
+      "download": "https://github.com/firekylin/themes/releases/download/console-v0.1.0/console-0.1.0.zip",
+      "integrity": "sha512-2wkGYRjpCQ8uwXpCQJ7PIp/zDlMGnVUtwLW4uMvdIlNZ7L+h12Z7EYF8NgItFNbRG82ZRWzK/YJ2wFv3XauPnA==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/console/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
@@ -613,6 +641,20 @@
     },
     {
       "type": "theme",
+      "name": "hermit",
+      "id": "hermit",
+      "version": "0.1.0",
+      "title": "Hermit",
+      "description": "Hermit dark spotlight and year-grouped reading theme.",
+      "download": "https://github.com/firekylin/themes/releases/download/hermit-v0.1.0/hermit-0.1.0.zip",
+      "integrity": "sha512-rdlyF1k1s44PXgJSyD4K05aH0L5UwWpo3javQQ+vZnXpTCtJv//n08inlGBGpnQRso/nLL+4+9gxsPCoCeq9HQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hermit/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hextra",
       "id": "hextra",
       "version": "0.1.0",
@@ -735,6 +777,20 @@
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/initial/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "ink",
+      "id": "ink",
+      "version": "0.1.0",
+      "title": "Ink",
+      "description": "Ink minimal blog with large date columns and light/dark mode.",
+      "download": "https://github.com/firekylin/themes/releases/download/ink-v0.1.0/ink-0.1.0.zip",
+      "integrity": "sha512-8adqxKMiiadyQ+gaIms5DMBZZ0Iq5S06LOidt/tdziWJ44RtP/vtjLrm/Es0akppcBDcEQnj91ioVOl36CO10g==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/ink/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
       }
     },
     {
@@ -1200,6 +1256,20 @@
     },
     {
       "type": "theme",
+      "name": "risotto",
+      "id": "risotto",
+      "version": "0.1.0",
+      "title": "Risotto",
+      "description": "Risotto monospace blog with Base16 dark palette and article sidebar.",
+      "download": "https://github.com/firekylin/themes/releases/download/risotto-v0.1.0/risotto-0.1.0.zip",
+      "integrity": "sha512-cajI3JTazUy9A+A+1bQ9HveYWr8Oe8ofXIRCnYiEQIpwoM+lsK+txySSbE+z5Oi+4HKQejbqYRyjX959lSeXUw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/risotto/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "sagiri",
       "id": "sagiri",
       "version": "0.1.0",
@@ -1364,6 +1434,20 @@
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/svbtle/screenshot.png",
       "engines": {
         "firekylin": ">=2.16.0"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "tale",
+      "id": "tale",
+      "version": "0.1.0",
+      "title": "Tale",
+      "description": "Tale serif catalogue and centered reading theme.",
+      "download": "https://github.com/firekylin/themes/releases/download/tale-v0.1.0/tale-0.1.0.zip",
+      "integrity": "sha512-0yjKEaGQCKNtL25LZcdzE7kTLySxXD3LAXIajQI6VCF9Q9jqk7QAYS2wf/f2hG9okzZSi70ORsTIW550oyGSZg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/tale/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
       }
     },
     {

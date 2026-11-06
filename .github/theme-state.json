@@ -83,6 +83,10 @@
     "hash": "1ecf081d30b72437647c345c6d11bf9f573e490d249d326afc394652da47e26b",
     "id": "casper"
   },
+  "chalk": {
+    "hash": "a5f787bb7efdc5601af7960da2c25c9a45ea7c0c876303e6a7dafa3edb797f72",
+    "id": "chalk"
+  },
   "chirpy": {
     "hash": "6a3702c9b1a8251d9e4332e3e3a898627bd0f94052913407542fc6ab33ea73e6",
     "id": "chirpy"
@@ -90,6 +94,10 @@
   "congo": {
     "hash": "cf4c42fdda1c9a427c4b7877d7713d3f4915c82d2626a0163d0e57d01c0af1c1",
     "id": "congo"
+  },
+  "console": {
+    "hash": "459082da8057213794838ba80c2cb484a882e57a8ee93a1bfc82ec5d7c0f5f70",
+    "id": "console"
   },
   "contrast": {
     "hash": "3f25a27b70971ffb908de41bbf20dc703a074253d1ecd029d12a254f338a3530",
@@ -175,6 +183,10 @@
     "hash": "17a10d47e5ce8ee9355470260ac72f30333ad046805f1f9acda3e83bf62ef3f3",
     "id": "hello-friend-ng"
   },
+  "hermit": {
+    "hash": "5aa141b24fdd60e27c5e2622d6785bc63c107da2b237178e079684194618ab26",
+    "id": "hermit"
+  },
   "hextra": {
     "hash": "ad39db643cbbd0d4fd5326225966f3b578d28542a9b1fd453c35c73164140109",
     "id": "hextra"
@@ -210,6 +222,10 @@
   "initial": {
     "hash": "2fcdf0826189584d1d44b8977c29a7ff32e8728d4f4f4fe9720597182ede0737",
     "id": "initial"
+  },
+  "ink": {
+    "hash": "68aba2d9fa547d459e4929f70b54a51eea2f971e029dee5968830ea7dcfd22d5",
+    "id": "ink"
   },
   "jasmine": {
     "hash": "b73ba0b328ded20a166acdbb14d636e24c7aaaccc87ca0769910619bb236397c",
@@ -347,6 +363,10 @@
     "hash": "710e78f491a6a04c80efd81b7bf082ebdf7ecf216d0bc17fc53d0ec378744864",
     "id": "redefine"
   },
+  "risotto": {
+    "hash": "5d84f4d96fd6d10a982d2c394895e172e575a2910ba4cf151c9d95d351e3709d",
+    "id": "risotto"
+  },
   "sagiri": {
     "hash": "cf114dd518b7d2070093284c9887302ed141906db765566c37f320a8673c9793",
     "id": "sagiri"
@@ -394,6 +414,10 @@
   "svbtle": {
     "hash": "f08b14645655a71678272ab3f919a9032eed8791b49fd785ccf3b0459b21a8f3",
     "id": "svbtle"
+  },
+  "tale": {
+    "hash": "2ad5386a06f9e0983eae2496bf2a782d1a7e1b3f35167865c7309e352bbd171f",
+    "id": "tale"
   },
   "terminal": {
     "hash": "92212ce3f32b12ae2debd9e7575a722cca9578c5a356e15275e69fecfca2746c",
