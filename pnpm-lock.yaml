@@ -50,6 +50,8 @@ importers:
 
   packages/alto: {}
 
+  packages/eksell: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
