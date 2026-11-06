@@ -54,6 +54,8 @@ importers:
 
   packages/eksell: {}
 
+  packages/etch: {}
+
   packages/academic-cv: {}
 
   packages/solo: {}
