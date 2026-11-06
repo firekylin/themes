@@ -1,7 +1,7 @@
 {
   "name": "lanyon",
   "title": "Lanyon",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Lanyon serif blog with sliding off-canvas navigation.",
   "license": "MIT",

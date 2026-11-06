@@ -620,3 +620,6 @@ a.pagination-item:hover {
 }
 /* Native Firekylin integration */
 body{overflow-wrap:anywhere}img{height:auto}iframe,video{max-width:100%}.nav-items{display:flex;flex-wrap:wrap;gap:.5rem 1rem;margin-top:1rem;font-size:.9rem}.skip{position:absolute;top:-100px}.skip:focus{top:0}.prose table{display:block;overflow:auto}.post-actions,.tags{display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0}.pagination{margin:3rem 0}.pagination-item{flex:1;min-width:0}input,button{font:inherit;max-width:100%;box-sizing:border-box}.prose pre{padding:1rem;background:var(--code-bg)}:focus-visible{outline:2px solid var(--link-color);outline-offset:3px}
+
+/* Native code and attachment containment. */
+.prose pre{max-width:100%;overflow-x:auto}.attachment-media img,.attachment-media audio,.attachment-media video{max-width:100%}
