@@ -1,0 +1,1 @@
+Original reboot/style CSS, navy/coral diagonal masthead, paper reading surface, Lora headings, title/date hover rows and desktop side introduction retained. Native wrapping menu and normal-flow footnotes replace original JavaScript utilities; blog feed uses native archive.
