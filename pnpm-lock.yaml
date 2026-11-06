@@ -65,6 +65,7 @@ importers:
   packages/niello: {}
   packages/hugo-theme-yuki: {}
 
+  packages/mediumish-gohugo-theme: {}
   packages/hugo-theme-den: {}
 
   packages/academic-cv: {}
