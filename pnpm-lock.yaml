@@ -665,6 +665,8 @@ importers:
 
   packages/minimal-mistakes: {}
 
+  packages/roxo-hugo: {}
+
   packages/source: {}
 
   packages/so-simple: {}

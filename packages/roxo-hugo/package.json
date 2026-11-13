@@ -1,0 +1,42 @@
+{
+  "name": "roxo-hugo",
+  "title": "Roxo Hugo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Roxo’s original coral/mint/navy blog design, two-column image cards, pale hover panels and Josefin Sans/Montserrat typography.",
+  "license": "(MIT AND OFL-1.1)",
+  "author": "Sitepins / StaticMania; Firekylin contributors",
+  "homepage": "https://github.com/sitepins/roxo-hugo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/roxo-hugo"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "roxo-hugo"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "logoURL",
+      "label": "站点标志",
+      "help": "可选站内路径或 HTTP(S) URL。"
+    }
+  ]
+}
