@@ -48,6 +48,8 @@ importers:
 
   packages/m10c: {}
 
+  packages/inkblotty: {}
+
   packages/chaplin: {}
 
   packages/alto: {}
@@ -106,8 +108,6 @@ importers:
   packages/zola-shadharon: {}
 
   packages/hugo_eiio: {}
-
-  packages/inkblotty: {}
 
   packages/academic-cv: {}
 
