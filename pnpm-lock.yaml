@@ -52,6 +52,8 @@ importers:
 
   packages/academic-cv: {}
 
+  packages/twentyseventeen: {}
+
   packages/solo: {}
 
   packages/akina: {}
@@ -205,8 +207,6 @@ importers:
   packages/centrarium: {}
 
   packages/joe: {}
-
-  packages/twentyseventeen: {}
 
   packages/hydejack: {}
 
