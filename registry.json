@@ -479,6 +479,20 @@
     },
     {
       "type": "theme",
+      "name": "bootstrap-bp-hugo-theme",
+      "id": "bootstrap-bp-hugo-theme",
+      "version": "0.1.0",
+      "title": "Bootstrap-BP",
+      "description": "Bootstrap-BP’s original card layouts, category kickers, metadata, tags and four compiled palettes.",
+      "download": "https://github.com/firekylin/themes/releases/download/bootstrap-bp-hugo-theme-v0.1.0/bootstrap-bp-hugo-theme-0.1.0.zip",
+      "integrity": "sha512-Y4Z7/630J3i8G9hbHxv7g0TbNWiZO7DeYqTf8TqpwxKGKElYbvY4g8lWx9DVZcgpnVb6XqDijx81xpjW/AzTwg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/bootstrap-bp-hugo-theme/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "bootstrap4",
       "id": "bootstrap4",
       "version": "0.1.0",
