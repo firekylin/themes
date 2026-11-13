@@ -12,6 +12,13 @@ module.exports = async function verifyProtectedContent(db, origin) {
   const publicResponse = await fetch(origin + '/');
   assert.equal(publicResponse.status, 200);
   assert(mainContent(await publicResponse.text()).includes('class="native-cover"'), 'public covers render before protection');
+  for (const route of ['/post/hello.html', '/page/about.html']) {
+    const response = await fetch(origin + route);
+    assert.equal(response.status, 200);
+    const main = mainContent(await response.text());
+    assert(main.includes('<video width="1280" height="720" controls'), route + ' contains the wide video fixture');
+    assert(main.includes('<audio controls style="width:1280px"'), route + ' contains the wide audio fixture');
+  }
   const password = 'fixture-unlock-only';
   const salt = crypto.randomBytes(16);
   const hash = 'scrypt$' + salt.toString('base64url') + '$' + crypto.scryptSync(password, salt, 32).toString('base64url');

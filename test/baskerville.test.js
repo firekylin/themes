@@ -37,3 +37,20 @@ test('baskerville keeps public covers and rejects active or protocol-relative UR
     assert.equal(html.includes('src="' + url + '"'), url.startsWith('/uploads/') || url.startsWith('https://'));
   }
 });
+
+test('baskerville constrains wide native post and page media', async () => {
+  const fs = require('node:fs');
+  const path = require('node:path');
+  const {context} = require('./port-fixture');
+  const {Eta} = require('eta');
+  const css = fs.readFileSync(path.join(__dirname, '../packages/baskerville/res/css/theme.css'), 'utf8');
+  assert.match(css, /\.prose video,\s*\.prose audio\s*\{\s*max-width: 100%;/);
+  assert.match(css, /\.prose video\s*\{\s*height: auto;/);
+  for (const page of ['post', 'page']) {
+    const ctx = context('baskerville', page);
+    (await ctx.widget('Widget_Archive')).stack[0].content = '<video width="1280" height="720" controls></video><audio controls style="width:1280px"></audio>';
+    const html = await new Eta({views: path.join(__dirname, '../packages/baskerville'), varName: 'firekylin'}).renderAsync(page, ctx);
+    assert.match(html, /<video width="1280" height="720" controls>/);
+    assert.match(html, /<audio controls style="width:1280px">/);
+  }
+});
