@@ -3426,6 +3426,20 @@
     },
     {
       "type": "theme",
+      "name": "redgood",
+      "id": "redgood",
+      "version": "0.1.0",
+      "title": "Redgood",
+      "description": "Redgood’s original burgundy profile masthead, circular avatar, Quicksand typography, leading story card, dated lists and two-column footer.",
+      "download": "https://github.com/firekylin/themes/releases/download/redgood-v0.1.0/redgood-0.1.0.zip",
+      "integrity": "sha512-RUmxHmJO0CRBvSGRKMltYOE3Y96T8rTUJbf2bzYoeJS8fJk6KeSKNG1Mjrj/ofAEYn9MZsfLq4YotIdUMiCcqw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/redgood/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "risotto",
       "id": "risotto",
       "version": "0.1.0",
