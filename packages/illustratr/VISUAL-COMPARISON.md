@@ -1,0 +1,2 @@
+# Visual mapping
+Pinned index.php/content.php and original style.css: blog mode rather than portfolio grid, uppercase masthead, centered underline titles,1100pximages/840pxcontent,serif metadata/coral accents. Responsive source widths retained; nativepagination/excerpts and wrappingtextnavigation replaceWordPressfullbodies/dropdownicons. Screenshots and geometry/semantic/privacy tests accompany nativeZIP installation.
