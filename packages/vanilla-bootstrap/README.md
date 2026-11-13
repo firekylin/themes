@@ -8,7 +8,7 @@ Firekylin posts, pages, attachments, archive, categories and tags, search, query
 
 ## Differences and unsupported integrations
 
-Hugo shortcodes, menu icon configuration, arbitrary container widths, active menu configuration, custom localized date formats, KaTeX, analytics, Bootstrap’s optional JS widgets and jQuery are not implemented. Paste standard HTML or Markdown rather than Hugo shortcodes into native content. Dates use YYYY-MM-DD. Footer and home text are escaped plain text, not Hugo Markdown. Theme assets do not load remote fonts, scripts or tracking. User-authored content and the site-configured native comment provider may load their own resources.
+Hugo shortcodes, menu icon configuration, arbitrary container widths, active menu configuration, hide-footer setting, custom localized date formats, KaTeX, analytics, Bootstrap’s optional JS widgets and jQuery are not implemented. Paste standard HTML or Markdown rather than Hugo shortcodes into native content. Dates use YYYY-MM-DD. Footer and home text are escaped plain text, not Hugo Markdown. Theme assets do not load remote fonts, scripts or tracking. User-authored content and the site-configured native comment provider may load their own resources.
 
 ## Verification
 
