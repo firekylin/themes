@@ -1,0 +1,48 @@
+{
+  "name": "redgood",
+  "title": "Redgood",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Redgood’s original burgundy profile masthead, circular avatar, Quicksand typography, leading story card, dated lists and two-column footer.",
+  "license": "MIT",
+  "author": "Urja Acharya; Firekylin contributors",
+  "homepage": "https://github.com/urjaacharya/redgood",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/redgood"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "redgood"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "avatarURL",
+      "label": "头像 URL",
+      "help": "仅支持 HTTP(S) 或站内绝对路径。"
+    },
+    {
+      "type": "text",
+      "name": "aboutText",
+      "label": "首页介绍",
+      "help": "纯文本；留空使用站点描述。"
+    }
+  ]
+}
