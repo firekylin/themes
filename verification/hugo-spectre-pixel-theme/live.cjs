@@ -19,6 +19,7 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
  const seed=db.prepare('INSERT INTO fk_post (user_id,type,status,title,pathname,summary,markdown_content,content,allow_comment,create_time,update_time,is_public,comment_num) VALUES (1,?,?,?,?,?,?,?,0,?,?,?,0)');
  const now='2026-10-28 00:00:00';seed.run(0,3,'PRIVATE_MARKER','private-marker','PRIVATE_MARKER','private','PRIVATE_MARKER',now,now,0);seed.run(0,0,'DRAFT_MARKER','draft-marker','DRAFT_MARKER','draft','DRAFT_MARKER',now,now,1);seed.run(1,3,'About','about','About','About','<p>About page</p>',now,now,1);
  for(let i=0;i<12;i++)seed.run(0,3,'SPECTRE public '+i,'public-'+i,'public '+i,'public','<p>Public</p>',now,now,1);
+ db.prepare("UPDATE fk_post SET create_time='2026-11-13 00:00:00' WHERE pathname='hello'").run();
  db.prepare("UPDATE fk_post SET create_time='2025-05-01 00:00:00' WHERE pathname IN ('public-0','public-1','public-2','public-3','public-4','public-5','public-6')").run();
  db.prepare('UPDATE fk_post SET options=? WHERE is_public=1 AND status=3').run(JSON.stringify({featuredImage:'/themes/hugo-spectre-pixel-theme/res/fixture.svg'}));
  db.prepare('UPDATE fk_post SET options=? WHERE pathname=?').run('{}','hello');
