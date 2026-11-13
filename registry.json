@@ -1747,6 +1747,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-initio",
+      "id": "hugo-initio",
+      "version": "0.1.0",
+      "title": "Hugo Initio",
+      "description": "Initio’s original centered Bootstrap blog, Alice masthead, italic dates, light uppercase titles and two-tier dark footer.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-initio-v0.1.0/hugo-initio-0.1.0.zip",
+      "integrity": "sha512-ts/6NQhZjpYWuTiAOx9lnbbQThpxRsaJDFQpaPzCxwxJNIe9UNUxssUPuc5c487O/fbWwpiZ53cyYdtBGJdHbQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-initio/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-kiera",
       "id": "hugo-kiera",
       "version": "0.1.1",
