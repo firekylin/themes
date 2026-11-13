@@ -485,6 +485,8 @@ importers:
 
   packages/astrofy: {}
 
+  packages/karuna: {}
+
   packages/mwordstar: {}
 
   packages/base16: {}
