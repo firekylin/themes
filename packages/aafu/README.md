@@ -1,0 +1,7 @@
+# Aafu for Firekylin
+
+Darshan Baral’s MIT Aafu blog templates are adapted using its original Tailwind source and compiled CSS: 56rem canvas, compact navigation, expandable article metadata panels, stone backgrounds, blue light-mode links and yellow dark-mode links. First article panel opens by default. Native details/summary replaces click-only chevrons and remains keyboard-operable without JavaScript. The toggle follows the system initially and persists explicit choices locally; without JavaScript the readable light palette remains.
+
+Native posts/pages, search, archives/taxonomies, pagination, protected content, comments and attachments are supported. The homepage uses Aafu’s blog list rather than its separate CV landing page. Native excerpts and authors are shown in each metadata panel. No post cover is rendered in lists or details; native body images/media remain supported. Configuration footer and author text is escaped.
+
+CV/profile/resume sections, Hugo section navigation and reading-time calculations, Pagefind search and icon fonts are not ported. Search uses Firekylin’s native endpoint. Tailwind4.2.4/typography0.5.19 styles are compiled locally with complete MIT notices; original source is included. Unused Google font requests and demonstration portrait/content are omitted. Build command: `tailwindcss -i assets/firekylin.css -o upstream.css --minify`, with the documented selector fix and source path. No live upstream pixel comparison or remote comment submission is claimed.
