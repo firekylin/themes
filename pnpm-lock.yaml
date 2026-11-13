@@ -595,6 +595,8 @@ importers:
 
   packages/wilson: {}
 
+  packages/hugotheme-vibrantshadows: {}
+
   packages/dreamcat: {}
 
   packages/iwata: {}

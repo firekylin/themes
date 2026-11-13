@@ -1,0 +1,9 @@
+# Vibrant Shadows for Firekylin
+
+Softorage's MIT Hugo theme is migrated with its original checked-in compiled Bootstrap 4.4.1/custom CSS and palettes. It retains the wide padded cards, right-hand pill-shaped thumbnails, purple heading areas, pill navigation and tags, Lato typography, dark/light surfaces and article table-of-contents column. Native Firekylin Widgets drive all posts, pages, attachments, directories, search and pagination.
+
+Configuration: footer text/author, homepage tagline, optional user-owned hero image. Safe public featured images appear in list thumbnails; password-protected image URLs are suppressed using the core's redacted title marker as well as password flags/hash. The core supplies protected forms and native comments. Site-wide hero images are configuration, not article covers.
+
+The mode button follows system preference until a local preference is saved. Mobile navigation supports keyboard/Escape; without JavaScript navigation stays visible and the original dark palette remains usable. Article TOC is progressively generated from native h2/h3/h4 headings using text-only DOM nodes. Headings and body remain readable without JavaScript.
+
+Differences: sticky solid navigation replaces the original overlay/scroll-color navbar to accommodate arbitrary native menu lengths. Native pagination replaces infinite scrolling. Native comments replace external clients. Hugo custom taxonomy schemas, RSS generation, sharing services, cookie consent, frontmatter-level display settings and custom syntax-highlighting generation are not ported. The theme's invalid precompiled CSS mix() tokens are corrected to concrete palette values; link/tag contrast is improved. No demo photos/logos or external assets are included. The Sass reference excerpts require Hugo preprocessing and Bootstrap sources; the shipped CSS is ready to use. No live upstream pixel-parity or remote comment submission claim.

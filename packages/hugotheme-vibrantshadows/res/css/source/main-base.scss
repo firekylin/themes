@@ -1,0 +1,170 @@
+// Import partials from sass dir
+@import
+  "bootstrap/bootstrap"
+;
+
+/*!
+ * Custom CSS
+ */
+
+html {
+scroll-behavior: smooth;
+}
+
+// specifying this at top, so that, it is overridden when need be
+body {
+font-family: '{{ default "Lato" site.Params.font.general.family }}', sans-serif !important;
+}
+
+.brand {
+font-family: '{{ default "Lato" site.Params.font.brand.family }}', sans-serif !important;
+}
+
+{{ with site.Params.font.heading.list }}
+  {{- range . }}
+    {{- . }}, .{{ . }} {
+      font-family: '{{ site.Params.font.heading.family }}' !important;
+    }
+  {{- end }}
+{{- end }}
+
+.description {
+font-family: '{{ default "Lato" site.Params.font.description.family }}', sans-serif !important;
+}
+
+.footer {
+font-family: '{{ default "Lato" site.Params.font.footer.family }}', sans-serif !important;
+}
+
+.copyright {
+font-family: '{{ default "Lato" site.Params.font.copyright.family }}', sans-serif !important;
+}
+
+.post-meta {
+font-family: '{{ default "Lato" site.Params.font.postMeta.family }}', sans-serif !important;
+}
+
+.softorage {
+background: linear-gradient(36deg,#fc466b,#3f5efb) !important;
+background-clip: text !important;
+color: transparent !important;
+font-family: Roboto, sans-serif !important;
+-webkit-background-clip: text !important;
+-webkit-text-fill-color: transparent !important;
+}
+// especially, search bar
+@media (min-width: 650px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .desktop-only {
+    display: none;
+  }
+}
+
+{{ $thumbnailBorders := site.Params.borders }}
+
+pre {
+@extend .p-3;
+{{/* not adding border customization to pre tag for now
+{{ if eq $thumbnailBorders "square" }}
+@extend .rounded-0;
+{{- else if eq $thumbnailBorders "circle" -}}
+@extend .rounded-circle;
+{{- else if eq $thumbnailBorders "pill" -}}
+@extend .rounded-pill;
+{{- else -}}
+@extend .rounded-lg;
+{{- end -}}
+*/}}
+}
+
+// Enable animation for navbar and font awesome
+.navbar, a, .fas, .fab, .far, .type-search, tr {
+transition: all 0.3s ease 0s;
+}
+
+//
+.nav-tabs .nav-link.active {
+box-shadow: inset 0 2px 3px 1px #ddd;
+}
+
+//
+.btn {
+@extend .shadow-sm;
+cursor: pointer;
+{{ if eq $thumbnailBorders.buttons "square" }}
+@extend .rounded-0;
+{{- else if eq $thumbnailBorders.buttons "circle" -}}
+@extend .rounded-circle;
+{{- else if eq $thumbnailBorders.buttons "pill" -}}
+@extend .rounded-pill;
+{{- else -}}
+@extend .rounded-lg;
+{{- end -}}
+}
+
+input[type="search"]:hover, input[type="search"]:focus {
+box-shadow: none;
+}
+
+input[type="url"]:hover, input[type="url"]:focus, input[type="text"]:hover, input[type="text"]:focus, input[type="email"]:hover, input[type="email"]:focus, .type-search:hover, .type-search:focus-within, textarea:hover, textarea:focus, select:hover, select:focus, .btn:hover {
+@extend .shadow;
+transition: all 0.3s ease 0s;
+}
+
+// *
+.card {
+@extend .shadow-sm, .border-0, .p-3;
+{{ if eq $thumbnailBorders.cards "square" }}
+@extend .rounded-0;
+{{- else if eq $thumbnailBorders.cards "circle" -}}
+@extend .rounded-circle;
+{{- else if eq $thumbnailBorders.cards "pill" -}}
+@extend .rounded-pill;
+{{- else -}}
+@extend .rounded-lg;
+{{- end -}}
+}
+
+// Styling popover to make it a little cozy
+.popover {
+border: 0;
+@extend .shadow;
+}
+
+.popover .popover-header {
+font-size: 1.1rem;
+text-align: center;
+font-family: 'Lato', sans-serif;
+}
+
+.popover .popover-body {
+padding: 1.25rem;
+font-family: 'Lato', sans-serif;
+}
+
+//
+.tooltip {
+font-family: 'Lato', sans-serif;
+}
+
+
+// Styling table, so that class names are not necessary. Very handy for markdown rendered content!
+table {
+@extend .table, .table-bordered;
+}
+th {
+@extend .text-center, .align-middle;
+}
+td {
+@extend .align-middle;
+}
+
+//
+button.close{
+outline: none;
+}

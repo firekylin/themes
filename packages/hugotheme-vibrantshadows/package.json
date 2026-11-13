@@ -1,0 +1,48 @@
+{
+  "name": "hugotheme-vibrantshadows",
+  "title": "Vibrant Shadows",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Vibrant Shadows’ original Bootstrap wide cards, purple hero, pill thumbnails, Lato typography and dark/light palettes.",
+  "license": "MIT",
+  "author": "Softorage; Firekylin contributors",
+  "homepage": "https://github.com/Softorage/HugoTheme-VibrantShadows",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugotheme-vibrantshadows"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugotheme-vibrantshadows"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "tagline",
+      "label": "首页标题",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "heroImage",
+      "label": "首页背景图片 URL",
+      "help": "可选自有图片，仅 HTTP(S) 或站内绝对路径。"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+/*
+if site.Params.theme.toggle.preventFOIT is set false, then in /assets/js/custom.js
+if site.Params.theme.toggle.preventFOIT is set true, then in head.html partial
+*/
+.dark {
+  --clr1: #7d1fa5;
+  --clr2: #6d19fc;
+  --nav: #212121;
+  --antinav: #cccccc;
+  --mat: #121212;
+  --clr1-soft: mix(#7d1fa5, #212121, 5%);
+  --clr2-soft: mix(#6d19fc, #212121, 5%);
+  --nav-soft: mix(#212121, #cccccc, 5%);
+  --antinav-soft: mix(#cccccc, #212121, 2%);
+  --github: #cccccc;
+  --medium: #ffffff;
+  --wikipedia: #ffffff; }
+
+.light {
+  --clr1: #7d1fa5;
+  --clr2: #6d19fc;
+  --nav: #ffffff;
+  --antinav: #000000;
+  --mat: #f9f9f9;
+  --clr1-soft: mix(#7d1fa5, #ffffff, 5%);
+  --clr2-soft: mix(#6d19fc, #ffffff, 5%);
+  --nav-soft: mix(#ffffff, #000000, 5%);
+  --antinav-soft: mix(#000000, #ffffff, 2%);
+  --github: #333333;
+  --medium: #000000;
+  --wikipedia: #000000; }
+
+/*
+// footer brandicons shoud appear on light backg in case of dark theme only
+.dark footer .social-presence a span.fab {
+@extend .bg-light, .p-1, .rounded;
+}
+// since we have not imported bootstrap, we can''t use .bg-light
+*/
+body {
+  background: var(--nav) !important;
+  color: var(--antinav) !important; }
+
+/* purgecss ignore */
+.brand-color {
+  color: #6d19fc !important; }
+
+.card {
+  background: var(--nav);
+  color: var(--antinav); }
+
+.popover .popover-header {
+  background-color: var(--nav);
+  color: var(--antinav); }
+
+.popover .popover-body {
+  background-color: var(--nav);
+  color: var(--antinav); }
+
+.hero-gradient {
+  background: var(--clr1);
+  background: linear-gradient(36deg, var(--clr1) 0%, var(--clr2) 80%); }
+
+.hero-gradient-light {
+  background: var(--clr1-soft);
+  background: linear-gradient(36deg, var(--clr1-soft) 0%, var(--clr2-soft) 80%); }
+
+.bg-clr1 {
+  background: var(--clr1) !important; }
+
+.bg-clr2 {
+  background: var(--clr2) !important; }
+
+.bg-clr1-light {
+  background: var(--clr1-soft) !important; }
+
+.bg-clr2-light {
+  background: var(--clr2-soft) !important; }
+
+.bg-nav {
+  background: var(--nav) !important; }
+
+.bg-antinav {
+  background: var(--antinav) !important; }
+
+.bg-nav-light {
+  background: var(--nav-soft) !important; }
+
+.bg-antinav-light {
+  background: var(--antinav-soft) !important; }
+
+.bg-mat {
+  background: var(--mat) !important; }
+
+.text-gradient {
+  background: linear-gradient(36deg, var(--clr1) 0%, var(--clr2) 80%) !important;
+  background-clip: text !important;
+  color: transparent !important; }
+
+.text-clr1 {
+  color: var(--clr1) !important; }
+
+.text-clr2 {
+  color: var(--clr2) !important; }
+
+.text-clr1-light {
+  color: var(--clr1-soft) !important; }
+
+.text-clr2-light {
+  color: var(--clr2-soft) !important; }
+
+.text-nav {
+  color: var(--nav) !important; }
+
+.text-nav-light {
+  color: var(--nav-soft) !important; }
+
+.text-antinav {
+  color: var(--antinav) !important; }
+
+.text-antinav-light {
+  color: var(--antinav-soft) !important; }
+
+.btn-grad {
+  background-image: linear-gradient(90deg, var(--clr1) 0%, var(--clr2) 100%); }
