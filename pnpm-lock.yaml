@@ -477,6 +477,8 @@ importers:
 
   packages/base16: {}
 
+  packages/blonde: {}
+
   packages/nexmoe: {}
 
   packages/astro-nano: {}
