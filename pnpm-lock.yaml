@@ -601,6 +601,8 @@ importers:
 
   packages/whiteglass: {}
 
+  packages/hugo-theme-mixedpaper: {}
+
   packages/sleek: {}
 
   packages/jekyll-now: {}
