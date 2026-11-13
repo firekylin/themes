@@ -1,0 +1,1 @@
+(()=>{const button=document.querySelector('#back_to_top');if(!button)return;const update=()=>{button.style.visibility=window.scrollY>450?'visible':'hidden'};window.addEventListener('scroll',update,{passive:true});update()})();
