@@ -95,6 +95,7 @@
     }
   ],
   "passed": [
+    "semantic two-column table headers at 700px",
     "original offset header frame",
     "three-post desktop feature geometry and mobile stack",
     "safe covers and real current-page tags; no duplicate cards",
