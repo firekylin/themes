@@ -11,3 +11,5 @@ test('Ghazal identifies taxonomy',async()=>{for(const [kind,label] of [['cate','
 
 test('Ghazal escapes introduction and rejects active avatar URLs',async()=>{const html=await render('ghazal','index',{config:{introText:'<script>alert(1)</script>',avatarURL:'javascript:alert(1)'}});assert(!html.includes('<script>alert(1)'));assert(html.includes('&lt;script&gt;'));assert(!html.includes('src="javascript:'));});
 test('Ghazal limits home introduction to the first unfiltered page',async()=>{assert(!(await render('ghazal','index',{currentPage:2})).includes('class="ghazal-intro"'));assert(!(await render('ghazal','index',{kind:'cate'})).includes('class="ghazal-intro"'));});
+
+test('Ghazal directories have balanced native wrappers',async()=>{for(const page of ['archive','cate','tag']){const html=await render('ghazal',page);const open=(html.match(/<div(?:\s|>)/g)||[]).length,close=(html.match(/<\/div>/g)||[]).length;assert.equal(open,close,page+' div balance');}});

@@ -100,6 +100,8 @@
     "dashed native lists and responsive three-column footer",
     "native modal menu keyboard focus and Escape",
     "arrow pagination with editing/menu guards",
+    "all-route main/footer DOM containment",
+    "700px semantic bold/italic/table readability",
     "taxonomy headings and footer settings",
     "actual ZIP installation",
     "18 real SQLite routes",
