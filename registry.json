@@ -1497,11 +1497,11 @@
       "type": "theme",
       "name": "hoffman",
       "id": "hoffman",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Hoffman",
       "description": "Hoffman’s centered masthead, broad featured media, inset narrow post body, Raleway titles and Vollkorn reading face.",
-      "download": "https://github.com/firekylin/themes/releases/download/hoffman-v0.1.0/hoffman-0.1.0.zip",
-      "integrity": "sha512-si3PIGgP/7TQpt5otQUTjyM9zpMU1mOTfXLKbJLjoS7Nf1CfImn9rCypYpCBWG36SNFUKAN91k817FO3mKm2hQ==",
+      "download": "https://github.com/firekylin/themes/releases/download/hoffman-v0.1.1/hoffman-0.1.1.zip",
+      "integrity": "sha512-8L7da2IDX6roXaVLFQVQLYw6qzsE4r/8c5E5Zl1ESCAzYN9z68iDx5XRtIVoR8zuqio5J1TBc2/smEVUtBM2RA==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hoffman/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -3462,6 +3462,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/shoka-v0.1.1/shoka-0.1.1.zip",
       "integrity": "sha512-7kx01AC1hzT578p3psIDmtQpeRZMRok+wm9wK/EexJNLY4iW2t9/wjCm8VDWwzLYGBy13w9chqfTFjXRFj2nzQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/shoka/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "shoreditch",
+      "id": "shoreditch",
+      "version": "0.1.0",
+      "title": "Shoreditch",
+      "description": "Shoreditch’s blue-accented professional header, broad featured images, clean post typography and right sidebar, adapted from its blog template.",
+      "download": "https://github.com/firekylin/themes/releases/download/shoreditch-v0.1.0/shoreditch-0.1.0.zip",
+      "integrity": "sha512-TYc84J8hrYgT3ECmlzSd0UJ16CIyWruySzmCLnsxjycWEKrHln909GSSTYXx6C5CdjXtfVyh5ad+i5ik2r2n7Q==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/shoreditch/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }

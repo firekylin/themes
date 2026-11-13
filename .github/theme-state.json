@@ -428,7 +428,7 @@
     "id": "hitchcock"
   },
   "hoffman": {
-    "hash": "c98d472b68dadacde4080ef15cc01375d861413593b6f1cf30dc0523f3b0c489",
+    "hash": "e3fd4b34d3e68b3d3d821963c1f02440ad78a5875ee1ed8446bc962fe45012e2",
     "id": "hoffman"
   },
   "hpstr-hugo-theme": {
@@ -994,6 +994,10 @@
   "shoka": {
     "hash": "c1df431f75ca4da3f2dfdaddbab9c5dd1cff4ffb813dc7e0859340a0c3df054e",
     "id": "shoka"
+  },
+  "shoreditch": {
+    "hash": "1f6d60ceb15138ec5f412bb13c71f427e0c1d58ec06e021889b0b1b8151069c2",
+    "id": "shoreditch"
   },
   "simple-style": {
     "hash": "fc0afbe4de293aa0952f14ef23b172a6b7220ed8002618dbee00647daff67abd",
