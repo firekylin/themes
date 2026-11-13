@@ -153,6 +153,7 @@
     "visible wrapping navigation without JavaScript",
     "responsive header navigation",
     "search without JavaScript",
+    "protected featured image absent from listing/search/taxonomy HTML and requests",
     "private/draft exclusion",
     "comment gating",
     "1280px video/audio in posts and pages with preserved video aspect ratio"
