@@ -1,0 +1,1 @@
+(()=>{try{if(sessionStorage.getItem('spectre-pixel')==='1')document.documentElement.dataset.theme='pixel'}catch(e){}})();
