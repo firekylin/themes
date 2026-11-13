@@ -22,6 +22,8 @@ jobs:
       - run: pnpm install --frozen-lockfile
         working-directory: .verification-core
       - run: pnpm install --frozen-lockfile --ignore-scripts
+      - name: Install Chinese screenshot fonts
+        run: sudo apt-get update && sudo apt-get install -y fonts-noto-cjk
       - name: Verify real SQLite site and installed ZIP
         env:
           FIREKYLIN_CHECKOUT: ${{ github.workspace }}/.verification-core

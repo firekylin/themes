@@ -210,18 +210,7 @@
     color: var(--body-font-color);
     margin-left: -5px;
 
-    @each $name, $icon in defaults.$hint-icons {
-      i.fa.#{$name} {
-        width: defaults.$font-size-24;
-        height: defaults.$font-size-24;
-
-        mask-image: url(img/geekblog-stack.svg##{$icon});
-        mask-repeat: no-repeat;
-        mask-size: contain;
-        background-color: var(--body-font-color);
-      }
-    }
-
+    // Third-party icon sprite is intentionally not bundled by this port.
     .gblog-icon {
       width: defaults.$font-size-24;
       height: defaults.$font-size-24;
