@@ -1,0 +1,36 @@
+{
+  "name": "vanilla-bootstrap",
+  "title": "Vanilla Bootstrap",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Vanilla Bootstrap’s original 700px reading column, centered icon navigation, home jumbotron and outline tag buttons.",
+  "license": "MIT",
+  "author": "Zachary Betz; Firekylin contributors",
+  "homepage": "https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/vanilla-bootstrap"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "vanilla-bootstrap"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "homeText",
+      "label": "首页介绍",
+      "help": "留空使用站点描述；纯文本。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述；纯文本。"
+    }
+  ]
+}

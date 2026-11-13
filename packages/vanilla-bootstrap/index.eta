@@ -1,0 +1,9 @@
+<% layout('./layout'); const site = await firekylin.widget('Widget_Options'); const archive = await firekylin.widget('Widget_Archive', {type:'index'}); %>
+<% block('title', () => { %><%= archive.archiveTitle || site.title() %><% }) %>
+<% block('content', () => { %>
+<% if (!archive.archiveTitle && (!archive.pagination || archive.pagination.currentPage === 1)) { %>
+<div id="home-jumbotron" class="jumbotron text-center"><h1><%= site.title() %></h1><p class="font-125"><%= (site.themeConfig || {}).homeText || site.description() %></p></div>
+<h2 class="h1">最新文章</h2>
+<% } else { %><h1><%= archive.archiveTitle || '文章' %></h1><% } %>
+<%~ include('./inc/list', {archive}) %><%~ include('./inc/pagination', {archive}) %>
+<% }) %>
