@@ -1,0 +1,2 @@
+# Visual mapping
+Pinned upstream layouts/partials/blog.html and layouts/_default/single.html plus original main.css: two blog columns, full-bleed card covers, heavy Source Sans typography, red rounded buttons, light gray main canvas and dark footer. Original responsive typography retained; native CSS grid replaces Skel’s JavaScript-dependent columns. Mobile stacks cards and footer. Screenshots and geometry/semantic tests accompany the real native installation.

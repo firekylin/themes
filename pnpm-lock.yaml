@@ -687,6 +687,8 @@ importers:
 
   packages/minima: {}
 
+  packages/hugo-theme-dopetrope: {}
+
   packages/no-style-please: {}
 
   packages/volantis: {}
