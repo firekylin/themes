@@ -2965,3 +2965,13 @@ body{overflow-wrap:anywhere}.native-skip{position:absolute;top:-100px}.native-sk
 .prose video {
   height: auto;
 }
+
+/* The native header uses normal flex flow, not the WordPress hero overlay. */
+.header-wrapper .site-description-wrapper {
+  inset: auto;
+  -webkit-transform: none;
+  transform: none;
+  min-width: 0;
+  max-width: 100%;
+  flex: 1 1 360px;
+}

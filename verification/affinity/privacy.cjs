@@ -54,6 +54,22 @@ async function fetchHtml(route, options) {
   return response.text();
 }
 
+
+async function assertHeaderInBounds(page) {
+  const bounds = await page.locator('.header-wrapper').evaluate(header => {
+    const container = header.getBoundingClientRect();
+    return [...header.querySelectorAll('.site-title, .site-description, .native-nav')].map(element => {
+      const box = element.getBoundingClientRect();
+      return {name: element.className, left: box.left, right: box.right,
+        top: box.top, bottom: box.bottom, limit: innerWidth, headerBottom: container.bottom};
+    });
+  });
+  for (const box of bounds) {
+    assert(box.left >= -1 && box.right <= box.limit + 1 && box.top >= -1 &&
+      box.bottom <= box.headerBottom + 1, 'Native header clipping: ' + JSON.stringify(box));
+  }
+}
+
 (async () => {
   await require(path.join(core, 'lib/cli')).run([
     'new', site, '--db-type', 'sqlite', '--db-path', 'data/firekylin.sqlite',
@@ -140,6 +156,7 @@ m.build_theme(t,r,m.theme_files(t))`]);
         requests.length = 0;
         const response = await page.goto(origin + route);
         assert.equal(response.status(), 200);
+        await assertHeaderInBounds(page);
         const html = await page.content();
         assertPrivate(html, `browser ${width} ${route}`);
         if (listRoutes.includes(route)) assertProtectedRecord(html, route);

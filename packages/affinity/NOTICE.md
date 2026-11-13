@@ -8,3 +8,4 @@ Pinned monorepo source subdirectory: affinity/; see stylesheet header and UPSTRE
 
 Modified November 2026: suppress featured images on password-protected listing rows.
 Native media sizing overrides also keep post/page audio and video within the reading column.
+The native header also clears the WordPress hero transform to keep long descriptions visible.

@@ -16,12 +16,12 @@ remain core-controlled.
 
 Against unchanged core `6b7c95cf43e0c6af70c71ac1e537d75a982e407e`:
 
-- Six focused regressions fail before the fix. Afterward, all 19 theme tests pass
+- Six focused regressions fail before the fix. Afterward, all 20 theme tests pass
   with the real core Widgets enabled. The real core model is executed unchanged
   with its dependency/database boundary stubbed, proving that list redaction
   removes the hash while preserving `options.featuredImage`.
-- Full Node suite: 992 passed, one optional real-core test skipped. That optional
-  test passes in the separate 19-test focused run. Python suite: 8 passed.
+- Full Node suite: 993 passed, one optional real-core test skipped. That optional
+  test passes in the separate 20-test focused run. Python suite: 8 passed.
 - `privacy.cjs` builds and installs the actual theme ZIP into a disposable SQLite
   site. HTTP checks pass for home, page 2, search, category, tag, archives, protected
   post/page, wrong and correct passwords, and a fresh GET after unlocking. Public
@@ -45,3 +45,13 @@ The upstream style definitions remain unchanged. Native media overrides constrai
 wide audio/video in posts and pages; video keeps its aspect ratio. Integration
 assertions cover 1280px-wide fixtures at desktop and phone widths, including usable
 audio controls.
+
+## Desktop header follow-up
+
+The 1440px privacy artifact exposed a separate existing defect: a long default
+site description inherited the WordPress hero `translate(-50%, -50%)` after the
+native wrapper switched to static flow. That moved text past the left edge even
+though document scroll width was normal. The native override removes this
+transform and lets the description wrap in flex flow. Both browser suites assert
+left, right, top and bottom bounds of the title, description and navigation; the
+privacy fixture retains the long default description that reproduced the issue.

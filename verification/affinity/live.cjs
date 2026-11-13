@@ -7,6 +7,22 @@ const coreRequire=createRequire(path.join(core,'package.json'));const adapterReq
 const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 const repository=path.resolve(__dirname,'../..');const site=fs.mkdtempSync(path.join(os.tmpdir(),'affinity-site-'));const port=Number(process.env.AFFINITY_TEST_PORT)||8913;const origin='http://127.0.0.1:'+port;
 let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
+
+async function assertHeaderInBounds(page) {
+  const bounds = await page.locator('.header-wrapper').evaluate(header => {
+    const container = header.getBoundingClientRect();
+    return [...header.querySelectorAll('.site-title, .site-description, .native-nav')].map(element => {
+      const box = element.getBoundingClientRect();
+      return {name: element.className, left: box.left, right: box.right,
+        top: box.top, bottom: box.bottom, limit: innerWidth, headerBottom: container.bottom};
+    });
+  });
+  for (const box of bounds) {
+    assert(box.left >= -1 && box.right <= box.limit + 1 && box.top >= -1 &&
+      box.bottom <= box.headerBottom + 1, 'Native header clipping: ' + JSON.stringify(box));
+  }
+}
+
 (async()=>{
  await require(path.join(core,'lib/cli')).run(['new',site,'--db-type','sqlite','--db-path','data/firekylin.sqlite','--site-title','AFFINITY 测试博客','--site-url',origin,'--admin-user','fixture-admin','--admin-password',crypto.randomBytes(24).toString('hex'),'--admin-email','fixture@example.invalid','--non-interactive','--skip-install']);
  const configPath=path.join(site,'firekylin.config.js');const config=require(configPath);config.server={host:'127.0.0.1',port,proxy:false};fs.writeFileSync(configPath,'module.exports='+JSON.stringify(config));
@@ -38,6 +54,7 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
   await page.setViewportSize({width,height:1000});
   for(const route of ['/','/?page=2','/post/hello.html','/page/about.html','/attachment/native-attachment.html','/archives','/categories','/tags','/search.html?keyword=AFFINITY']){
    const response=await page.goto(origin+route);assert.equal(response.status(),200,route);
+   await assertHeaderInBounds(page);
    const html=await page.content();assert(!html.includes('undefined'),route+' contains undefined');assert(!html.includes('MMM D'),'unsupported date format');assert(!html.includes('PRIVATE_MARKER')&&!html.includes('DRAFT_MARKER'),route+' leaked content');
    if(route.includes('/attachment/')){assert.equal(await page.locator('.attachment-media a[download]').count(),1);assert(await page.locator('.attachment-media img').evaluate(i=>i.complete&&i.naturalWidth>0));}assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),route+' overflow');
    if (route === '/post/hello.html' || route === '/page/about.html') {
@@ -62,5 +79,5 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
  db.prepare('UPDATE fk_post SET allow_comment=1 WHERE pathname=?').run('hello');let html=await(await fetch(origin+'/post/hello.html')).text();assert(html.includes('data-comment-config'));assert.equal((html.match(/id="comments"/g)||[]).length,1);
  db.prepare('UPDATE fk_post SET allow_comment=0 WHERE pathname=?').run('hello');assert(!(await(await fetch(origin+'/post/hello.html')).text()).includes('data-comment-config'));
  const nojs=await browser.newContext({javaScriptEnabled:false});const np=await nojs.newPage();await np.setViewportSize({width:390,height:1000});await np.goto(origin);await np.locator('.nav-items a[href="/search.html"]').click();await np.locator('#keyword').fill('AFFINITY');await np.locator('#main').getByRole('button',{name:'搜索',exact:true}).click();await np.waitForURL('**/search.html?keyword=AFFINITY');await nojs.close();
- assert.deepEqual(errors,[]);const report={core:coreRequire('./package.json').version,coreRevision:execFileSync('git',['-C',core,'rev-parse','HEAD'],{encoding:'utf8'}).trim(),browser:browser.version(),checks,passed:['actual ZIP installation','18 real SQLite routes','native attachment image/download','long native code containment','native article pagination','visible wrapping navigation without JavaScript','responsive header navigation','search without JavaScript','private/draft exclusion','comment gating','wide video/audio containment in posts and pages'],limits:['Compared pinned upstream CSS and PHP templates; no live upstream demo comparison.','Waline remote client login/submission not tested.']};fs.writeFileSync(path.join(evidence,'report.json'),JSON.stringify(report,null,2)+'\n');fs.copyFileSync(path.join(evidence,'home-1440.png'),path.join(repository,'packages/affinity/screenshot.png'));console.log(JSON.stringify(report));
+ assert.deepEqual(errors,[]);const report={core:coreRequire('./package.json').version,coreRevision:execFileSync('git',['-C',core,'rev-parse','HEAD'],{encoding:'utf8'}).trim(),browser:browser.version(),checks,passed:['actual ZIP installation','18 real SQLite routes','native attachment image/download','long native code containment','native article pagination','visible wrapping navigation without JavaScript','responsive header navigation','search without JavaScript','private/draft exclusion','comment gating','wide video/audio containment in posts and pages','native header stays inside viewport'],limits:['Compared pinned upstream CSS and PHP templates; no live upstream demo comparison.','Waline remote client login/submission not tested.']};fs.writeFileSync(path.join(evidence,'report.json'),JSON.stringify(report,null,2)+'\n');fs.copyFileSync(path.join(evidence,'home-1440.png'),path.join(repository,'packages/affinity/screenshot.png'));console.log(JSON.stringify(report));
 })().catch(e=>{console.error(e);process.exitCode=1}).finally(async()=>{if(browser)await browser.close();if(server)server.kill('SIGTERM');if(db)db.close();console.log('Disposable test site:',site)});

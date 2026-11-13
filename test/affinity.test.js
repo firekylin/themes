@@ -87,3 +87,8 @@ test('Affinity constrains native embedded audio and video without distorting vid
   assert.match(css, /\.prose video,\s*\.prose audio\s*\{\s*max-width: 100%;/);
   assert.match(css, /\.prose video\s*\{\s*height: auto;/);
 });
+
+test('Affinity clears the desktop hero transform from the native header description', () => {
+  const css = fs.readFileSync(path.join(__dirname, '../packages/affinity/res/css/theme.css'), 'utf8');
+  assert.match(css, /\.header-wrapper \.site-description-wrapper\s*\{[^}]*transform: none;[^}]*min-width: 0;[^}]*max-width: 100%;/);
+});
