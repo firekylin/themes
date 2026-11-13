@@ -1,7 +1,7 @@
 {
   "core": "2.18.1",
   "coreRevision": "6b7c95cf43e0c6af70c71ac1e537d75a982e407e",
-  "themeRevision": "ee117e69e9aa843695f6a4348aec0baa18f6d81f",
+  "themeRevision": "8f5c30d7a528250ed7b263ee4d8de7143cc4e941",
   "browser": "157.0.8103.50",
   "checks": [
     {
@@ -182,7 +182,8 @@
     "native pagination",
     "visible navigation and search without JavaScript",
     "private/draft exclusion",
-    "protected title/body/summary/image/fields with positive entry assertions",
+    "protected title/body/summary/image/fields with main-only positive entry assertions and deliberate page2 coverage",
+    "protected recent sidebar entries and public thumbnail preservation",
     "wrong/correct native post and page password",
     "comment gating",
     "video aspect ratio and visible audio controls",
