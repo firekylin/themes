@@ -503,8 +503,6 @@ importers:
 
   packages/pinghsu: {}
 
-  packages/polymer: {}
-
   packages/poole: {}
 
   packages/dyad-2: {}
@@ -622,6 +620,8 @@ importers:
   packages/pixyll: {}
 
   packages/klise: {}
+
+  packages/polymer: {}
 
   packages/min_night: {}
 
