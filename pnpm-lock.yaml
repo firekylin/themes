@@ -699,6 +699,8 @@ importers:
 
   packages/no-style-please: {}
 
+  packages/hugo-initio: {}
+
   packages/volantis: {}
 
   packages/tranquilpeak: {}
