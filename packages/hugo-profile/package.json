@@ -1,0 +1,72 @@
+{
+  "name": "hugo-profile",
+  "title": "Hugo Profile",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hugo Profile’s blue-gray card grid, Alata/Lora typography, profile hero and article sidebar, adapted to native Firekylin.",
+  "license": "MIT",
+  "author": "GURU SABARISH; Firekylin contributors",
+  "homepage": "https://github.com/gurusabarish/hugo-profile",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-profile"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-profile"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "profileTitle",
+      "label": "首页姓名",
+      "help": "填写后在首页第一页显示个人介绍。纯文本。"
+    },
+    {
+      "type": "text",
+      "name": "profileIntro",
+      "label": "开场白",
+      "help": "例如：你好，我是"
+    },
+    {
+      "type": "text",
+      "name": "profileSubtitle",
+      "label": "个人副标题",
+      "help": "纯文本"
+    },
+    {
+      "type": "text",
+      "name": "profileText",
+      "label": "个人介绍",
+      "help": "留空使用站点描述。纯文本。"
+    },
+    {
+      "type": "text",
+      "name": "profileImage",
+      "label": "个人照片",
+      "help": "你拥有使用权的图片：本站绝对路径或 HTTPS URL。"
+    },
+    {
+      "type": "text",
+      "name": "profileLink",
+      "label": "个人链接",
+      "help": "本站绝对路径或 HTTPS URL。"
+    },
+    {
+      "type": "text",
+      "name": "profileLinkLabel",
+      "label": "链接标题",
+      "help": "默认：了解更多"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "纯文本；留空使用站点描述。"
+    }
+  ]
+}

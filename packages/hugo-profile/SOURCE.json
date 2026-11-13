@@ -1,0 +1,24 @@
+{
+  "upstream": {
+    "repository": "https://github.com/gurusabarish/hugo-profile",
+    "commit": "5fc40a91d6bab447e6e8685e05bbf47f39b214dd",
+    "license": "MIT"
+  },
+  "fonts": {
+    "repository": "https://github.com/google/fonts",
+    "commit": "b78877b777ed3a18a1b431b0df7d8ee3f84c2e5f",
+    "paths": [
+      "ofl/alata/Alata-Regular.ttf",
+      "ofl/lora/Lora[wght].ttf",
+      "ofl/lora/Lora-Italic[wght].ttf"
+    ],
+    "license": "OFL-1.1"
+  },
+  "assets": {
+    "res/css/bootstrap.css": "3f1c72e824c95f57cb3d13ad549f18e66485221a175a33877f346051a4d302c2",
+    "res/css/upstream.css": "7efb8f02b7961ee71eaff737684e3a2dca7e9f48fca1c8e99d98c391f5a656dd",
+    "res/fonts/Alata-Regular.ttf": "7b71432a5e2e2409a3583553bc5ce703209a8bce9b2f136ca257ac4c2d3addc4",
+    "res/fonts/Lora.ttf": "822a6621ccbe8d97d20ac88c1c41f5615c9c2c202eaa75f272cd452aac6475a7",
+    "res/fonts/Lora-Italic.ttf": "22d8d8854b53807aa664ca34f2031a9ed57a1d0dea296b8b96cdd3aad937a2b3"
+  }
+}

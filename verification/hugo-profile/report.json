@@ -1,0 +1,269 @@
+{
+  "sourceCommit": "98a9657f7b9661422a7d92f2fc569fe27d2bd60e",
+  "sourceTree": "8d105e5cbedec07cbec9bc2447552914df23f5ac",
+  "coreRevision": "6b7c95cf43e0c6af70c71ac1e537d75a982e407e",
+  "browser": "156.0.8078.79",
+  "checks": [
+    {
+      "route": "/",
+      "status": 200,
+      "type": "HTTP"
+    },
+    {
+      "route": "/?page=2",
+      "status": 200,
+      "type": "HTTP"
+    },
+    {
+      "route": "/post/hello.html",
+      "status": 200,
+      "type": "HTTP"
+    },
+    {
+      "route": "/page/about.html",
+      "status": 200,
+      "type": "HTTP"
+    },
+    {
+      "route": "/attachment/native-attachment.html",
+      "status": 200,
+      "type": "HTTP"
+    },
+    {
+      "route": "/archives",
+      "status": 200,
+      "type": "HTTP"
+    },
+    {
+      "route": "/categories",
+      "status": 200,
+      "type": "HTTP"
+    },
+    {
+      "route": "/tags",
+      "status": 200,
+      "type": "HTTP"
+    },
+    {
+      "route": "/search.html?keyword=PROFILE",
+      "status": 200,
+      "type": "HTTP"
+    },
+    {
+      "route": "/cate/notes",
+      "status": 200,
+      "type": "HTTP"
+    },
+    {
+      "route": "/tag/life",
+      "status": 200,
+      "type": "HTTP"
+    },
+    {
+      "route": "/author/fixture-admin",
+      "status": 200,
+      "type": "HTTP"
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/?page=2",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/post/hello.html",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/page/about.html",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/attachment/native-attachment.html",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/archives",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/categories",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/tags",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/search.html?keyword=PROFILE",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/cate/notes",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/tag/life",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/author/fixture-admin",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/?page=2",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/post/hello.html",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/page/about.html",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/attachment/native-attachment.html",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/archives",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/categories",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/tags",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/search.html?keyword=PROFILE",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/cate/notes",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/tag/life",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/author/fixture-admin",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/?page=2",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/post/hello.html",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/page/about.html",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/attachment/native-attachment.html",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/archives",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/categories",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/tags",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/search.html?keyword=PROFILE",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/cate/notes",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/tag/life",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/author/fixture-admin",
+      "status": 200
+    }
+  ],
+  "passed": [
+    "actual native ZIP installer and SQLite routes",
+    "private/draft exclusion",
+    "native comments gating",
+    "six protected routes with positive entry presence and no secret metadata",
+    "wrong and correct native passwords for posts and pages",
+    "public covers remain visible and hero excluded from author route",
+    "1440/768/390 card columns and no overflow",
+    "taxonomy parent/child DOM closure",
+    "local fonts and image decoding",
+    "strong/italic, long code and tables",
+    "video aspect ratio and audio controls",
+    "dark/light toggle, persistence and storage failure",
+    "TOC links",
+    "optional profile homepage and page-two gating",
+    "navigation/search without JavaScript"
+  ],
+  "limits": [
+    "No live upstream demo comparison; layout and resources compared to pinned upstream source.",
+    "Remote Waline client authentication/submission not tested."
+  ]
+}
