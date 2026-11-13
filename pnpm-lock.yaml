@@ -627,6 +627,8 @@ importers:
 
   packages/klise: {}
 
+  packages/polymer: {}
+
   packages/min_night: {}
 
   packages/xmin: {}

@@ -1,0 +1,54 @@
+{
+  "name": "polymer",
+  "title": "Polymer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Polymer original Material drawer, condensing cover toolbar, white article panels and floating pagination.",
+  "license": "MIT",
+  "author": "pdevty; Firekylin contributors",
+  "homepage": "https://github.com/pdevty/polymer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/polymer"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "polymer"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "cover",
+      "label": "顶部封面",
+      "help": "HTTP(S) 或站内绝对路径，留空不显示图片。"
+    },
+    {
+      "type": "text",
+      "name": "profile",
+      "label": "作者背景",
+      "help": "HTTP(S) 或站内绝对路径，留空不显示图片。"
+    },
+    {
+      "type": "text",
+      "name": "photo",
+      "label": "作者头像",
+      "help": "HTTP(S) 或站内绝对路径，留空不显示图片。"
+    }
+  ]
+}
