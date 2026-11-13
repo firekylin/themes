@@ -1,0 +1,21 @@
+<% const recent = await firekylin.widget('Widget_Contents_Post_Recent', {limit:4});
+const categories = await firekylin.widget('Widget_Metas_Category_List');
+const tags = await firekylin.widget('Widget_Metas_Tag_Cloud'); %>
+<aside class="sidebar" aria-label="博客侧栏">
+<section class="widget widget-latest-post"><h2 class="widget-title">最新文章</h2>
+<% let count = 0; while (recent.next()) { if (count++ >= 4) continue;
+const row = recent.row;
+const locked = row.password_protected || row.options?.postPasswordHash || row.title === '此内容被密码保护';
+const cover = locked ? '' : String(row.options?.featuredImage || ''); %>
+<article class="media">
+<% if (/^(https?:\/\/|\/(?!\/))/.test(cover)) { %><a class="media-image" href="<%= recent.permalink %>"><img src="<%= cover %>" alt="" loading="lazy"></a><% } %>
+<div class="media-body"><h3 class="media-heading"><a href="<%= recent.permalink %>"><%= recent.title() %></a></h3><p><%= locked ? '此内容被密码保护' : recent.excerpt(50) %></p></div>
+</article><% } %><% if (!count) { %><p>暂无文章。</p><% } %>
+</section>
+<section class="widget widget-category"><h2 class="widget-title">分类</h2><ul>
+<% while (categories.next()) { %><li><a href="<%= categories.permalink %>"><%= categories.row.name %></a></li><% } %>
+</ul></section>
+<section class="widget widget-tag"><h2 class="widget-title">标签</h2><ul>
+<% while (tags.next()) { %><li><a href="<%= tags.permalink %>"><%= tags.row.name %></a></li><% } %>
+</ul></section>
+</aside>

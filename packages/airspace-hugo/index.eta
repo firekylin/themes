@@ -1,0 +1,4 @@
+<% layout('./layout'); const site = await firekylin.widget('Widget_Options'); const archive = await firekylin.widget('Widget_Archive', {type:'index'}); const heading = archive.archiveTitle || (site.themeConfig || {}).blogTitle || '博客'; %>
+<% block('title', () => { %><%= heading %> · <%= site.title() %><% }) %>
+<% block('heading', () => { %><%= heading %><% }) %>
+<% block('content', () => { %><%~ include('./inc/list', {archive}) %><%~ include('./inc/pagination', {archive}) %><% }) %>

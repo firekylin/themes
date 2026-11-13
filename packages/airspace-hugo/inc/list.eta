@@ -1,0 +1,11 @@
+<% const archive = firekylin.archive; let count = 0; %>
+<% while (archive.next()) { count++;
+const row = archive.row;
+const locked = row.password_protected || row.options?.postPasswordHash || row.title === '此内容被密码保护';
+const cover = locked ? '' : String(row.options?.featuredImage || ''); %>
+<article class="post entry">
+<% if (/^(https?:\/\/|\/(?!\/))/.test(cover)) { %><div class="post-media post-thumb"><a href="<%= archive.permalink %>"><img src="<%= cover %>" alt="" loading="lazy"></a></div><% } %>
+<h2 class="post-title entry-title"><a href="<%= archive.permalink %>"><%= archive.title() %></a></h2>
+<%~ include('./meta', {archive}) %>
+<div class="post-content"><p><%= locked ? '此内容被密码保护' : archive.excerpt(240) %></p><a class="btn-main" href="<%= archive.permalink %>">阅读全文</a></div>
+</article><% } %><% if (!count) { %><p>暂无文章。</p><% } %>

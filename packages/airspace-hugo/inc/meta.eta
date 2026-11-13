@@ -1,0 +1,6 @@
+<% const archive = firekylin.archive; %>
+<div class="post-meta"><ul>
+<li><time datetime="<%= archive.date('YYYY-MM-DD') %>"><%= archive.date('YYYY-MM-DD') %></time></li>
+<li>作者 <%= archive.author() %></li>
+<% (archive.row.tag || []).forEach(t => { %><li><a href="/tag/<%= t.pathname %>"><%= t.name %></a></li><% }); %>
+</ul></div>

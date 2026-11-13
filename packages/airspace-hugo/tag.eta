@@ -1,0 +1,7 @@
+<% layout('./layout'); const site = await firekylin.widget('Widget_Options'); const metas = await firekylin.widget('Widget_Metas_Tag_Cloud'); %>
+<% block('title', () => { %>标签 - <%= site.title() %><% }) %>
+<% block('heading', () => { %>标签<% }) %>
+<% block('content', () => { %><section class="directory"><h1 class="archive-header">标签</h1><ul class="taxonomy-list">
+<% while (metas.next()) { %><li><a class="term-link" href="<%= metas.permalink %>"><span class="count"><%= metas.row.count %></span> <%= metas.row.name %></a>
+<% if (metas.row.children && metas.row.children.length) { %><ul><% for (const child of metas.row.children) { %><li><a href="/tag/<%= child.pathname %>"><%= child.name %></a> (<%= child.count %>)</li><% } %></ul><% } %>
+</li><% } %></ul><% if (!metas.have()) { %><p>暂无标签。</p><% } %></section><% }) %>
