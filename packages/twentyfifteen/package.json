@@ -1,0 +1,36 @@
+{
+  "name": "twentyfifteen",
+  "title": "Twenty Fifteen",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Twenty Fifteen’s broad white sidebar and softly shadowed white reading cards on a pale-gray canvas.",
+  "license": "GPL-2.0-or-later",
+  "author": "WordPress contributors; Firekylin contributors",
+  "homepage": "https://github.com/WordPress/WordPress",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/twentyfifteen"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "twentyfifteen"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
