@@ -465,6 +465,20 @@
     },
     {
       "type": "theme",
+      "name": "blonde",
+      "id": "blonde",
+      "version": "0.1.0",
+      "title": "Blonde",
+      "description": "Blonde’s original Tailwind card/sidebar design, warm-gray dark palette and local persistent theme toggle.",
+      "download": "https://github.com/firekylin/themes/releases/download/blonde-v0.1.0/blonde-0.1.0.zip",
+      "integrity": "sha512-B3ohfSdl6V+NIUizUOYEyNMnY0BcHfe7i2b9qMR57N3Od49aDVx2K1UA/x2WeOpaCaEeMVpK6XbFJbxc0srIsg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/blonde/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "blowfish",
       "id": "blowfish",
       "version": "0.1.0",
