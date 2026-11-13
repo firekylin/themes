@@ -95,6 +95,8 @@
     }
   ],
   "passed": [
+    "main/footer DOM containment on every route",
+    "700px semantic bold/italic/table",
     "original840px timeline and year groups",
     "150px profile avatar and configured bio",
     "keyboard pixel switch and persisted session with local OFL font",
