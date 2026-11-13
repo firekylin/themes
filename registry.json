@@ -1971,6 +1971,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-theme-mixedpaper",
+      "id": "hugo-theme-mixedpaper",
+      "version": "0.1.0",
+      "title": "Mixedpaper",
+      "description": "Mixedpaper’s original blue rotating masthead, floating white post sheets, teal headlines and grouped archive.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-mixedpaper-v0.1.0/hugo-theme-mixedpaper-0.1.0.zip",
+      "integrity": "sha512-WjqY3csueLIvJme4FgI3KWB/k4L/yozIxd4gS+rwEp1KDn806wEmi47CsS6KpedEP9zbCueoF+05fETM4hsWkQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-mixedpaper/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-theme-nix",
       "id": "hugo-theme-nix",
       "version": "0.1.2",

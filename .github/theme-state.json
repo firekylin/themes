@@ -563,6 +563,10 @@
     "hash": "b15e21fb6814b5e4ec837cea38bdf87dd2684f679f45fb2c7feac8130986fad0",
     "id": "hugo-theme-iris"
   },
+  "hugo-theme-mixedpaper": {
+    "hash": "2eef9d7723e22439da18485191679b79ecdaab4e60cd99012a0e6a6762d486ce",
+    "id": "hugo-theme-mixedpaper"
+  },
   "hugo-theme-nix": {
     "hash": "7c6c6c35c916e5020c5918d3e0ebd2bacde0688691f2b780feefa796acb1f574",
     "id": "hugo-theme-nix"
