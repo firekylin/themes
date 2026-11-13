@@ -671,6 +671,8 @@ importers:
 
   packages/light: {}
 
+  packages/aafu: {}
+
   packages/minimal: {}
 
   packages/minima: {}
