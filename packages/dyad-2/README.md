@@ -7,3 +7,7 @@ Source https://github.com/Automattic/themes/tree/trunk/dyad-2, revision in NOTIC
 Requires Firekylin 2.17.1+. Native site title/description/navigation, authorName/footerText, featuredImage, posts/pages/attachments, archives, taxonomy, search, pagination and comment gating. Navigation works without JavaScript.
 
 Jetpack featured-content sliders, portfolio/testimonial custom post types, WordPress Customizer, arbitrary widgets, Gutenberg, WooCommerce, plugin shortcodes, post-format sliders and AJAX infinite scroll are unsupported. Native pagination replaces infinite scroll. Firekylin comments replace WordPress comments; external Waline login/submission untested. No demo photos or upstream scripts distributed. Local editable CSS/Eta sources included, no build step.
+
+## 0.1.1 privacy correction
+
+Password-protected list rows no longer expose `featuredImage` URLs. Firekylin's native redacted title is treated conservatively alongside the protection flag/hash because list redaction can retain other theme metadata. A public article literally titled `此内容被密码保护` also has its listing thumbnail suppressed. Public thumbnails and native post/page password unlocking remain available. No core or upstream assets were changed.
