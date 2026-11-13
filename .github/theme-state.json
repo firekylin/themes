@@ -287,6 +287,10 @@
     "hash": "3b4dbb9f0e528cafed5c6f1275a17123f4c5561a49136ee037abe36ea1a12bfc",
     "id": "dux"
   },
+  "dyad-2": {
+    "hash": "84bc087f66dafdec7b188792fb7ae8b7eeb0f1f61c15944ff28e247974f9c40e",
+    "id": "dyad-2"
+  },
   "echo": {
     "hash": "f65c583732b06777a8b84949c7e96a22aec11e86e9c464675735a05684e503a5",
     "id": "echo"
@@ -490,6 +494,10 @@
   "hugo-nederburg-theme": {
     "hash": "5de7ddbb0316b560eccedaaa773a5cb1615f9ba3df293e144f65ba929dfd119d",
     "id": "hugo-nederburg-theme"
+  },
+  "hugo-piercer-theme": {
+    "hash": "208493f72d1a3fa5bdc1fa487fd5fef611274be060fc4608740bbd70982f7e17",
+    "id": "hugo-piercer-theme"
   },
   "hugo-primer": {
     "hash": "17b4196301d69a081b5e34ffd91180ba6da39606d956007740bf0640bb7fae3c",

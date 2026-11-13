@@ -1011,6 +1011,20 @@
     },
     {
       "type": "theme",
+      "name": "dyad-2",
+      "id": "dyad-2",
+      "version": "0.1.0",
+      "title": "Dyad 2",
+      "description": "Dyad 2’s alternating image/text halves, dark identity band and balanced editorial panels, with native mobile stacking.",
+      "download": "https://github.com/firekylin/themes/releases/download/dyad-2-v0.1.0/dyad-2-0.1.0.zip",
+      "integrity": "sha512-QtiPTCUlloq9e20t5s5oS/hU47NMnZ4VZ+VlBo25Q53yA4lm+PvibeBvEmOBwO+KrQbuF7nZvXWvMRrpTY/kEw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/dyad-2/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "echo",
       "id": "echo",
       "version": "0.1.0",
@@ -1713,6 +1727,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/hugo-nederburg-theme-v0.1.0/hugo-nederburg-theme-0.1.0.zip",
       "integrity": "sha512-uSj5+TWowArowjr9b1epoT5Qdp5nWyQ+E0OxZe4KMdS61/9whyPn26NEBLG55VcJB+FkCbrxBjFTyoMdJ1Br7g==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-nederburg-theme/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "hugo-piercer-theme",
+      "id": "hugo-piercer-theme",
+      "version": "0.1.0",
+      "title": "Piercer",
+      "description": "Piercer’s original Dracula palette, native disclosure menu, hero, full-width article cards and colored separators.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-piercer-theme-v0.1.0/hugo-piercer-theme-0.1.0.zip",
+      "integrity": "sha512-78s1De39cFcGel2snkDOAFaiaFiEcBh620EGb+BxGnHr4u4L0+6teIlDDjx6e1PdZFhbIqigKjRKyoyXP3vTnw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-piercer-theme/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
