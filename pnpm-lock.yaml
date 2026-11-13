@@ -633,6 +633,8 @@ importers:
 
   packages/dawn: {}
 
+  packages/hugo-sugoi: {}
+
   packages/attila: {}
 
   packages/hugo-piercer-theme: {}
