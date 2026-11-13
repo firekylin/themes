@@ -1,0 +1,53 @@
+{
+  "coreRevision": "6b7c95cf43e0c6af70c71ac1e537d75a982e407e",
+  "checks": [
+    {
+      "route": "/",
+      "status": 200,
+      "protectedTargetPresentInMain": true,
+      "protectedMetadataHidden": true
+    },
+    {
+      "route": "/search.html?keyword=privacy-fixture",
+      "status": 200,
+      "protectedTargetPresentInMain": true,
+      "protectedMetadataHidden": true
+    },
+    {
+      "route": "/cate/notes",
+      "status": 200,
+      "protectedTargetPresentInMain": true,
+      "protectedMetadataHidden": true
+    },
+    {
+      "route": "/tag/life",
+      "status": 200,
+      "protectedTargetPresentInMain": true,
+      "protectedMetadataHidden": true
+    },
+    {
+      "route": "/archives",
+      "status": 200,
+      "protectedTargetPresentInMain": true,
+      "protectedMetadataHidden": true
+    },
+    {
+      "route": "/post/hello.html",
+      "status": 200,
+      "protectedTargetPresentInMain": true,
+      "protectedMetadataHidden": true
+    },
+    {
+      "route": "/post/hello.html",
+      "wrongPasswordHidden": true,
+      "correctPasswordRestoresContent": true
+    }
+  ],
+  "passed": [
+    "actual ZIP installation",
+    "real SQLite core redaction",
+    "home/search/category/tag/archive/locked detail privacy",
+    "native wrong-password and successful unlock flows",
+    "public thumbnail preservation in home/search/category/tag/detail"
+  ]
+}
