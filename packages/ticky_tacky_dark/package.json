@@ -1,0 +1,46 @@
+{
+  "name": "ticky_tacky_dark",
+  "title": "Ticky Tacky Dark",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ticky Tacky Dark’s black canvas, rounded photo tiles, pale sidebar navigation and image-led article layout.",
+  "license": "MIT",
+  "author": "kc0bfv; Firekylin contributors",
+  "homepage": "https://github.com/kc0bfv/ticky_tacky_dark",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/ticky_tacky_dark"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "ticky_tacky_dark"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍"
+    },
+    {
+      "type": "text",
+      "name": "headerTitle",
+      "label": "横幅标题",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "headerImage",
+      "label": "横幅图片",
+      "help": "可选站内路径或 HTTP(S) URL；不设置则显示文字标题。"
+    }
+  ]
+}
