@@ -417,6 +417,8 @@ importers:
 
   packages/learn: {}
 
+  packages/materialize-bp-hugo-theme: {}
+
   packages/merlot: {}
 
   packages/material: {}

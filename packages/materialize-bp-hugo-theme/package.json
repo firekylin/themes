@@ -1,0 +1,42 @@
+{
+  "name": "materialize-bp-hugo-theme",
+  "title": "Materialize-BP",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Materialize-BP’s original elevated cards, blue masthead, orange three-column footer, full-image posts and optional single-column feed.",
+  "license": "MIT",
+  "author": "Sebastian Pech; Firekylin contributors",
+  "homepage": "https://github.com/spech66/materialize-bp-hugo-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/materialize-bp-hugo-theme"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "materialize-bp-hugo-theme"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "layoutMode",
+      "label": "列表布局",
+      "help": "single 为单栏；其他值使用响应式三栏卡片。"
+    }
+  ]
+}
