@@ -1,7 +1,7 @@
 {
   "name": "materialize-bp-hugo-theme",
   "title": "Materialize-BP",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Materialize-BP’s original elevated cards, blue masthead, orange three-column footer, full-image posts and optional single-column feed.",
   "license": "MIT",

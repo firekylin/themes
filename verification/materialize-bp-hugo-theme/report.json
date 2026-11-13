@@ -101,6 +101,7 @@
     "responsive3/2/1 columns and single-column option",
     "bounded public taxonomy metadata and safe covers",
     "taxonomy headings and footer settings",
+    "protected listing/search/taxonomy cover absent from HTML and network",
     "actual ZIP installation",
     "18 real SQLite routes",
     "native attachment image/download",
