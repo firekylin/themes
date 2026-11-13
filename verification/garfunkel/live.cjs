@@ -28,6 +28,11 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
  set('themeConfig',JSON.stringify({footerText:'阅读与探索本站内容。'}));
  fs.writeFileSync(path.join(site,'themes/garfunkel/res/fixture.svg'),'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600"><rect width="1000" height="600" fill="#e8dcca"/><circle cx="730" cy="170" r="85" fill="#d58b63"/><path d="M0 480L270 130L620 600H0Z" fill="#8dada5"/><path d="M300 600L690 250L1000 530V600Z" fill="#456e74"/></svg>');
  server=spawn(process.execPath,[path.join(core,'bin/firekylin.js')],{cwd:site,stdio:['ignore','ignore','pipe']});let serverErrors='';server.stderr.on('data',c=>serverErrors+=c);for(let i=0;i<150;i++){try{if((await fetch(origin)).ok)break;}catch{}if(i===149)throw Error('Site startup failed: '+serverErrors);await delay(200);}
+ if (process.env.FIREKYLIN_HTTP_ONLY === '1') {
+  const privacy = await require('./protected.cjs')(db, origin);
+  console.log(JSON.stringify({theme: 'garfunkel', coreRevision: execFileSync('git', ['-C', core, 'rev-parse', 'HEAD'], {encoding: 'utf8'}).trim(), privacy}));
+  return;
+ }
  browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']});
  const context=await browser.newContext();const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.url().startsWith(origin+'/themes/')&&r.status()>=400)errors.push(r.status()+' '+r.url())});
  await page.route('**/*',route=>route.request().url().startsWith(origin)?route.continue():route.abort());
@@ -48,5 +53,6 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
  db.prepare('UPDATE fk_post SET allow_comment=1 WHERE pathname=?').run('hello');let html=await(await fetch(origin+'/post/hello.html')).text();assert(html.includes('data-comment-config'));assert.equal((html.match(/id="comments"/g)||[]).length,1);
  db.prepare('UPDATE fk_post SET allow_comment=0 WHERE pathname=?').run('hello');assert(!(await(await fetch(origin+'/post/hello.html')).text()).includes('data-comment-config'));
  const nojs=await browser.newContext({javaScriptEnabled:false});const np=await nojs.newPage();await np.setViewportSize({width:390,height:1000});await np.goto(origin);await np.locator('.nav-items a[href="/search.html"]').click();await np.locator('#keyword').fill('GARFUNKEL');await np.locator('#main').getByRole('button',{name:'搜索',exact:true}).click();await np.waitForURL('**/search.html?keyword=GARFUNKEL');await nojs.close();
+ await require('./protected.cjs')(db, origin);
  assert.deepEqual(errors,[]);const report={core:coreRequire('./package.json').version,coreRevision:execFileSync('git',['-C',core,'rev-parse','HEAD'],{encoding:'utf8'}).trim(),browser:browser.version(),checks,passed:['actual ZIP installation','18 real SQLite routes','native attachment image/download','long native code containment','native article pagination','visible wrapping navigation without JavaScript','responsive header navigation','search without JavaScript','private/draft exclusion','comment gating'],limits:['Compared pinned upstream CSS and PHP templates; no live upstream demo comparison.','Waline remote client login/submission not tested.']};fs.writeFileSync(path.join(evidence,'report.json'),JSON.stringify(report,null,2)+'\n');fs.copyFileSync(path.join(evidence,'home-1440.png'),path.join(repository,'packages/garfunkel/screenshot.png'));console.log(JSON.stringify(report));
 })().catch(e=>{console.error(e);process.exitCode=1}).finally(async()=>{if(browser)await browser.close();if(server)server.kill('SIGTERM');if(db)db.close();console.log('Disposable test site:',site)});
