@@ -1,0 +1,5 @@
+# Pacman for Firekylin
+
+Ports coderzh’s Hugo adaptation of Yang Jian’s Pacman, retaining its original CSS: coral full-width masthead, gray canvas, blue-title summary rows with left borders, taxonomy sidebar and dark author footer. Public category counts and tag links use native widgets. The desktop sidebar can be collapsed; it is restored on narrow screens. Navigation wraps without JavaScript. Optional footer avatar accepts site paths or HTTP(S); no default photos or logos are included.
+
+Native posts/pages, taxonomy/search/archive, pagination, attachments, protected content and comments are supported. Footer text and author are configurable and escaped. Original Google search is replaced by Firekylin search; FontAwesome controls use text. No jQuery/Fancybox, social-share services, analytics, generated RSS, Hugo TOC, syntax-highlighting library or default service accounts are bundled. Header logo, animated author tether and duplicated archive/tag-cloud widgets are omitted. Upstream layout/CSS are the reference; no live upstream pixel comparison or remote comment submission is claimed.

@@ -1,0 +1,40 @@
+{
+  "name": "hugo-pacman-theme",
+  "title": "Pacman",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pacman’s coral masthead, gray canvas, blue-title summary rows and responsive taxonomy sidebar.",
+  "license": "MIT",
+  "author": "coderzh; Firekylin contributors",
+  "homepage": "https://github.com/coderzh/hugo-pacman-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-pacman-theme"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-pacman-theme"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者"
+    },
+    {
+      "type": "textarea",
+      "name": "footerText",
+      "label": "页脚介绍"
+    },
+    {
+      "type": "text",
+      "name": "avatarURL",
+      "label": "页脚头像 URL",
+      "help": "可选，站内路径或 HTTP(S) URL。"
+    }
+  ]
+}
