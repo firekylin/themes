@@ -4152,3 +4152,8 @@ body{overflow-wrap:anywhere}.native-skip{position:absolute;top:-100px}.native-sk
 .prose video,
 .prose audio { max-width: 100%; }
 .prose video { height: auto; }
+/* Native list-item markers already number these lists; suppress upstream pseudo-counters. */
+.prose ol li::before {
+  content: none;
+  counter-increment: none;
+}

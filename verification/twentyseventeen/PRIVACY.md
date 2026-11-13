@@ -14,16 +14,19 @@ listing thumbnail. Core still handles password forms and unlocking.
 The native media override adds only `.prose` video/audio max-width and video
 height:auto rules. Upstream stylesheet bytes remain an unchanged prefix. The
 existing footer author setting and site-title fallback remain unchanged.
+Native ordered lists also suppress the upstream generated `::before` counters,
+so browser list-item markers number each item only once, including nested lists.
 
 ## Verification
 
 Against unchanged core `6b7c95cf43e0c6af70c71ac1e537d75a982e407e`:
 
 - Six privacy regressions and one media-rule regression fail before the fix.
-  Afterward all 19 theme tests pass with real core Widgets. The real core model
+  The extra ordered-marker regression also fails before its correction.
+  Afterward all 20 theme tests pass with real core Widgets. The real core model
   executes unchanged with its DB/dependency boundary stubbed, proving native list
   redaction removes the hash but retains `options.featuredImage`.
-- Full Node suite: 992 passed, one optional real-core test skipped. That optional
+- Full Node suite: 993 passed, one optional real-core test skipped. That optional
   test passes in the focused real-core run. Python suite: 8 passed.
 - `privacy.cjs` builds and installs the actual theme ZIP into a disposable SQLite
   site. HTTP checks pass for home, page 2, search, category, tag, archives, protected
@@ -35,7 +38,9 @@ Against unchanged core `6b7c95cf43e0c6af70c71ac1e537d75a982e407e`:
   and 390px, captures list/locked/unlocked screenshots and verifies no protected
   cover requests occur. The full visual integration then verifies native post/page
   1280px video and audio fit the reading column, video keeps its aspect ratio, and
-  audio controls remain visible. Current-head workflow artifacts contain fresh
+  audio controls remain visible. It records computed native ordered-list marker
+  and pseudo-counter styles, plus header/main/media left and right geometry at
+  both widths; the final screenshots must show only one number per item. Current-head workflow artifacts contain fresh
   browser evidence when that CI run succeeds. Original committed screenshots and
   `report.json` remain historical evidence, not evidence for this correction.
 

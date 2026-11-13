@@ -87,3 +87,9 @@ test('Twentyseventeen constrains native embedded audio and video without distort
   assert.match(css, /\.prose video,\s*\.prose audio\s*\{\s*max-width: 100%;/);
   assert.match(css, /\.prose video\s*\{\s*height: auto;/);
 });
+
+
+test('Twentyseventeen uses native ordered markers without duplicate upstream counters', () => {
+  const css = fs.readFileSync(path.join(__dirname, '../packages/twentyseventeen/res/css/theme.css'), 'utf8');
+  assert.match(css, /\.prose ol li::before\s*\{\s*content: none;\s*counter-increment: none;/);
+});

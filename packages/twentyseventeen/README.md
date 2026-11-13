@@ -13,3 +13,5 @@ password hash when available, and the core redacted-title fallback. A public pos
 whose exact title is `此内容被密码保护` also conservatively hides its listing cover.
 Native post/page video and audio fit their reading column without distorting video.
 See `verification/twentyseventeen/PRIVACY.md` for regression evidence and limitations.
+
+Native ordered lists use browser list-item markers; the upstream generated counters are suppressed within article content to avoid duplicate numbers.
