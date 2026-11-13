@@ -37,6 +37,10 @@
   --primary-color-dark:#fff;
   --secondary-color-dark:#212529;
 }
+.dark {
+  --primary-color: var(--primary-color-dark);
+  --secondary-color: var(--secondary-color-dark);
+}
 html,body {
   background:var(--background-color);
   color:var(--text-color);

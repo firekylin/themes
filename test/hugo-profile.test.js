@@ -89,3 +89,11 @@ test('Hugo Profile keeps safe public covers while omitting active URLs', async (
   assert.match(html,/src="\/PUBLIC_COVER"/);
   assert.doesNotMatch(html,/javascript:bad-cover/);
 });
+
+test('Hugo Profile dark palette overrides the later root defaults', () => {
+  const css=fs.readFileSync(path.join(root,'res/css/theme.css'),'utf8');
+  const rootEnd=css.indexOf('\n.dark {');
+  assert(rootEnd>css.indexOf(':root {'));
+  assert.match(css.slice(rootEnd),/--secondary-color: var\(--secondary-color-dark\);/);
+  assert.match(css.slice(rootEnd),/--primary-color: var\(--primary-color-dark\);/);
+});
