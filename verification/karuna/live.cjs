@@ -42,6 +42,18 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
  for (const width of [768, 801, 1024, 1440, 390]) {
   await page.setViewportSize({width, height: 1000});
   await page.goto(origin);
+  const visibleBounds = await page.evaluate(() => {
+    const selectors = '#main, .blog-title, .blog-description, .blog-subtitle, #site-title, #site-description, .site-title, .site-description';
+    return [...document.querySelectorAll(selectors)].map(element => {
+      const rect = element.getBoundingClientRect();
+      return {label: element.id || element.className, left: rect.left, right: rect.right, width: rect.width, height: rect.height};
+    }).filter(rect => rect.width > 0 && rect.height > 0);
+  });
+  assert(visibleBounds.length >= 2, 'main and title bounds are inspected');
+  for (const rect of visibleBounds) {
+    assert(rect.left >= -1 && rect.right <= width + 1, width + ' ' + rect.label + ' stays inside the viewport');
+  }
+  await page.goto(origin);
   const layout = await page.evaluate(() => {
     const main = document.querySelector('#main');
     const branding = document.querySelector('.site-branding');
