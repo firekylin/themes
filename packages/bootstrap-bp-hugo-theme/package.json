@@ -1,0 +1,46 @@
+{
+  "name": "bootstrap-bp-hugo-theme",
+  "title": "Bootstrap-BP",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Bootstrap-BP’s original card layouts, category kickers, metadata, tags and four compiled palettes.",
+  "license": "MIT",
+  "author": "Sebastian Pech; Firekylin contributors",
+  "homepage": "https://github.com/spech66/bootstrap-bp-hugo-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/bootstrap-bp-hugo-theme"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "bootstrap-bp-hugo-theme"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者"
+    },
+    {
+      "type": "textarea",
+      "name": "footerText",
+      "label": "页脚介绍"
+    },
+    {
+      "type": "text",
+      "name": "palette",
+      "label": "配色",
+      "help": "default、blue、light 或 dark；无效值使用 default。"
+    },
+    {
+      "type": "text",
+      "name": "layout",
+      "label": "首页布局",
+      "help": "single 为单列，其他值为桌面三列、手机单列。"
+    }
+  ]
+}
