@@ -1,0 +1,36 @@
+{
+  "name": "affinity",
+  "title": "Affinity",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Affinity’s warm dark identity band, elegant centered blog titles and large image-led single-column posts. This port implements its blog view; one-page wedding sections are not included.",
+  "license": "GPL-2.0-or-later",
+  "author": "Automattic; Firekylin contributors",
+  "homepage": "https://github.com/Automattic/themes/tree/trunk/affinity",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/affinity"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "affinity"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
