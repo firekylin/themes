@@ -1,0 +1,7 @@
+# Spectre Pixel for Firekylin
+
+Adapts the original Spectre Pixel year-grouped timeline, 150px optional profile avatar, name/bio masthead, centered reading column, month/day separators and shadowed summary tiles. Original modified Spectre CSS and Material/Journey palette variables are retained. The labeled keyboard button switches to pixel mode and preserves the selection in sessionStorage, as upstream does. Without JavaScript the default Material palette and navigation remain usable. Navigation is sticky and wraps on narrow screens rather than obscuring content with a fixed bar.
+
+The source Minecraft/Monkey Island fonts have unclear redistribution rights, so pixel mode intentionally uses bundled OFL Silkscreen instead; code stays system monospace. No upstream avatars or demo art are distributed. Configure an optional safe avatar URL, profile name/bio and footer text/author. The profile is plain text, escaped by Eta. Timeline pagination groups the public current page by year, in native Firekylin order. The title is the card link rather than an anchor around an entire card.
+
+Supports native post/page/protected content, attachments, archive/taxonomy/search, pagination and comments. Hugo shortcodes, Devicon skills, social icon lists, analytics, feed generation and highlight.js are not migrated. Firekylin content and comments provide their native behavior; no remote comment login/submission or pixel-perfect live-upstream comparison was tested.

@@ -1,0 +1,54 @@
+{
+  "name": "hugo-spectre-pixel-theme",
+  "title": "Spectre Pixel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Spectre Pixel’s original year-grouped timeline, profile masthead, Material/pixel palette switch and Spectre styles.",
+  "license": "MIT",
+  "author": "Shin Tatt, Wong; Firekylin contributors",
+  "homepage": "https://github.com/st-wong/hugo-spectre-pixel-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-spectre-pixel-theme"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-spectre-pixel-theme"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "avatarURL",
+      "label": "头像 URL",
+      "help": "可选，站内路径或 HTTP(S) URL；不附带演示头像。"
+    },
+    {
+      "type": "text",
+      "name": "profileName",
+      "label": "个人名称",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "profileBio",
+      "label": "个人介绍",
+      "help": "纯文本，留空使用站点描述。"
+    }
+  ]
+}

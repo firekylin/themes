@@ -411,6 +411,8 @@ importers:
 
   packages/landscape: {}
 
+  packages/hugo-spectre-pixel-theme: {}
+
   packages/zola-zola-pickles: {}
 
   packages/h2o: {}
