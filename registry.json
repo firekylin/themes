@@ -2027,6 +2027,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-theme-sk3",
+      "id": "hugo-theme-sk3",
+      "version": "0.1.0",
+      "title": "SK3",
+      "description": "SK3 original dark bordered card grid, fixed navigation drawer, boxed article TOC and metadata.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-sk3-v0.1.0/hugo-theme-sk3-0.1.0.zip",
+      "integrity": "sha512-qYWgW2mxarsXp292nRZkt9oGMa5mdwUlTBRp3vFPLSrp91FRO2fL067463vzN+Jb3zcL0SEU5pQaP4h46lFSkw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-sk3/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-theme-sky",
       "id": "hugo-theme-sky",
       "version": "0.1.0",
