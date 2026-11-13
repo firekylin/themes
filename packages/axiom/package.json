@@ -1,0 +1,48 @@
+{
+  "name": "axiom",
+  "title": "Axiom",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Axiom’s original editorial summaries, serif titles, narrow reading column and wide feature images.",
+  "license": "CC-BY-SA-4.0",
+  "author": "Jhaura Wachsman; Firekylin contributors",
+  "homepage": "https://github.com/marketempower/axiom",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/axiom"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "axiom"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "logoURL",
+      "label": "Logo URL",
+      "help": "可选，站内路径或 HTTP(S) URL。"
+    },
+    {
+      "type": "text",
+      "name": "authorAvatarURL",
+      "label": "文章作者头像 URL",
+      "help": "可选，站内路径或 HTTP(S) URL。"
+    }
+  ]
+}
