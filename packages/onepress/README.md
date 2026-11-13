@@ -1,0 +1,7 @@
+# Onepress for Firekylin
+
+Jeremiah Succeed’s Apache-2.0 Hugo Onepress is adapted with its original stylesheet, locally hosted original Source Sans Pro family, centered masthead, image-led summaries and optional desktop widget column. Default layout uses the original1140px/65% reading-column geometry; sidebarMode=none uses the768px centered layout. Desktop widgets show native recent public posts capped at5, taxonomies and escaped introduction. The footer remains visible on mobile when the sidebar is hidden. Logo and cover URLs accept HTTP(S) or root-relative paths.
+
+Native posts/pages, search, archives/taxonomies, pagination, protection, comments and attachments are supported. Protected cover rendering is suppressed for native password flags, retained password hashes, and core-redacted title markers. Metadata queries are bounded to current listing IDs. Sidebar taxonomy iteration avoids consuming directory-widget cursors. Native body media stays responsive. Footer/author/about/logo are configurable; default demo assets are omitted.
+
+Hugo custom HTML widgets, hard-coded author biography, arbitrary inline CSS, social-share integrations, Disqus and highlight.js are not reproduced. Use native comment configuration and native body markup. Source Sans Pro OFL notices are included separately from the full theme Apache2 license. Original CSS needs small native semantic/containment fixes, kept in theme.css; modifications are identified. No live upstream pixel comparison or remote comment submission is claimed.
