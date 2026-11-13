@@ -493,6 +493,8 @@ importers:
 
   packages/tabi: {}
 
+  packages/rebalance: {}
+
   packages/paper: {}
 
   packages/hugo-frais: {}
