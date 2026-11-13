@@ -34,3 +34,8 @@ test('Rebalance renders public cover URLs and rejects active schemes',async()=>{
   assert.equal(html.includes('src="'+url+'"'),url==='/uploads/public.jpg');
  }
 });
+
+test('Rebalance improves code panel contrast with a native override',()=>{
+ const css=fs.readFileSync(path.join(__dirname,'../packages/rebalance/res/css/theme.css'),'utf8');
+ assert.match(css,/\.prose pre \{ color: #333; \}/);
+});

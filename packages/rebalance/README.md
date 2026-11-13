@@ -12,3 +12,5 @@ Protected list thumbnails are suppressed even on core versions that retain image
 options after title/body redaction. The compatibility guard recognizes native
 protection flags, password hashes, and the current core's Chinese protected-title
 sentinel. Password entry and detail unlocking remain entirely core-controlled.
+
+Native code panels retain the upstream gray background but use dark text for readable contrast.

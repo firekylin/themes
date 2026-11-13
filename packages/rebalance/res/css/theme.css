@@ -3603,3 +3603,6 @@ body{overflow-wrap:anywhere}.native-skip{position:absolute;top:-100px}.native-sk
 .prose video {
   height: auto;
 }
+
+/* Improve native code readability while retaining upstream gray code panels. */
+.prose pre { color: #333; }
