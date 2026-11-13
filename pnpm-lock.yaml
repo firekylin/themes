@@ -329,6 +329,8 @@ importers:
 
   packages/green-park-2: {}
 
+  packages/twentyeleven: {}
+
   packages/frost: {}
 
   packages/vitae: {}
