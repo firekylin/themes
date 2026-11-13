@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<h2>{{ .Title }}</h2>
+
+{{ .Content }}
+
+{{ range .Pages }}
+
+{{ partial "post-preview.html" (dict "page" . ) }}
+
+{{ end }}
+
+{{ end }}

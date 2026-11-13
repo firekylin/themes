@@ -1,0 +1,66 @@
+{
+  "name": "basicwebtheme",
+  "title": "Basic Web Theme",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Basic Web Theme original left-aligned reading column, footer-only navigation and system dark preference.",
+  "license": "MIT",
+  "author": "Tom H. Fife (Tom Hyndman); Firekylin contributors",
+  "homepage": "https://github.com/mdashx/basicwebtheme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/basicwebtheme"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "basicwebtheme"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "headerText",
+      "label": "页头文字",
+      "help": "留空使用安全图片或站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "headerImage",
+      "label": "页头图片",
+      "help": "HTTP(S) 或站内绝对路径。"
+    },
+    {
+      "type": "text",
+      "name": "updatedText",
+      "label": "页脚更新日期",
+      "help": "可选，手动填写真实更新时间。"
+    },
+    {
+      "type": "text",
+      "name": "titleStyle",
+      "label": "摘要标题",
+      "help": "compact 为紧凑标题，其他值使用大标题。"
+    },
+    {
+      "type": "text",
+      "name": "showDate",
+      "label": "日期显示",
+      "help": "hide 隐藏日期；摘要链接改为文章路径。"
+    }
+  ]
+}
