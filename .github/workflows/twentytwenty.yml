@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: firekylin/firekylin
-          ref: 87d76d0f446f75d9cc92894b8fccb6b6bfd45f5f
+          ref: 6b7c95cf43e0c6af70c71ac1e537d75a982e407e
           path: .verification-core
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
@@ -22,6 +22,18 @@ jobs:
       - run: pnpm install --frozen-lockfile
         working-directory: .verification-core
       - run: pnpm install --frozen-lockfile --ignore-scripts
+      - name: Install CJK screenshot fonts
+        run: sudo apt-get update && sudo apt-get install -y fonts-noto-cjk
+      - name: Test native redacted rows and theme templates
+        env:
+          FIREKYLIN_CORE_PATH: ${{ github.workspace }}/.verification-core
+        run: node --test test/twentytwenty.test.js
+      - name: Verify protected covers over HTTP and in Chromium
+        env:
+          FIREKYLIN_CHECKOUT: ${{ github.workspace }}/.verification-core
+          PLAYWRIGHT_MODULE: ${{ github.workspace }}/node_modules/playwright-core
+          CHROMIUM_PATH: /usr/bin/google-chrome
+        run: node verification/twentytwenty/privacy.cjs
       - name: Verify real SQLite site and installed ZIP
         env:
           FIREKYLIN_CHECKOUT: ${{ github.workspace }}/.verification-core

@@ -60,6 +60,8 @@ importers:
 
   packages/london: {}
 
+  packages/twentytwenty: {}
+
   packages/ananke: {}
 
   packages/amaze: {}
@@ -189,8 +191,6 @@ importers:
   packages/icefox: {}
 
   packages/hamilton: {}
-
-  packages/twentytwenty: {}
 
   packages/ink: {}
 
