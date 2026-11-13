@@ -5141,3 +5141,13 @@ body{overflow-wrap:anywhere}.native-skip{position:absolute;top:-100px}.native-sk
 .site-header-wrap .site-branding{position:static;inset:auto;transform:none;width:auto;max-width:100%;flex:1 1 320px}.site-header-wrap .native-nav{position:static;inset:auto;flex:0 1 auto}.site-header-wrap{height:auto;min-height:0}
 
 .site-header-wrap .site-branding{padding:0;height:auto}.site-branding .site-title{width:auto;max-width:100%}
+
+/* Keep native post/page media within its reading column. */
+.prose video,
+.prose audio {
+  max-width: 100%;
+}
+
+.prose video {
+  height: auto;
+}

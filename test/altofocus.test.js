@@ -6,3 +6,12 @@ test('AltoFocus escapes titles, rejects active cover URLs, preserves protected b
 test('AltoFocus delegates comments and keeps search filters in pagination',async()=>{assert(!(await render('altofocus','post',{comments:false})).includes('id="comments"'));const html=await render('altofocus','search',{request:'/search.html?keyword=a%26b'});assert.match(html,/keyword=a%26b&amp;page=2/);});
 
 test('altofocus renders attachment media and rejects active file URLs',async()=>{const {context}=require('./port-fixture');const {Eta}=require('eta');const path=require('node:path');for(const [mime,element] of [['image/png','img'],['audio/mpeg','audio'],['video/mp4','video'],['application/pdf',null]]){const ctx=context('altofocus','attachment');const archive=await ctx.widget('Widget_Archive');archive.stack[0].options={attachment:{mime,url:'/uploads/file',name:'Download file'}};const html=await new Eta({views:path.join(__dirname,'../packages/altofocus'),varName:'firekylin'}).renderAsync('attachment',ctx);assert.match(html,/href="\/uploads\/file" download/);if(element)assert(html.includes('<'+element+' '));}const ctx=context('altofocus','attachment');(await ctx.widget('Widget_Archive')).stack[0].options={attachment:{mime:'image/png',url:'javascript:alert(1)'}};const html=await new Eta({views:path.join(__dirname,'../packages/altofocus'),varName:'firekylin'}).renderAsync('attachment',ctx);assert(!html.includes('javascript:'));});
+
+
+test('AltoFocus constrains embedded post/page media and preserves video proportions', () => {
+  const fs = require('node:fs');
+  const path = require('node:path');
+  const css = fs.readFileSync(path.join(__dirname, '../packages/altofocus/res/css/theme.css'), 'utf8');
+  assert.match(css, /\.prose video,\s*\.prose audio\s*\{\s*max-width: 100%;/);
+  assert.match(css, /\.prose video\s*\{\s*height: auto;/);
+});
