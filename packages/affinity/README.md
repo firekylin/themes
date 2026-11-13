@@ -13,3 +13,5 @@ a remaining password hash, or the redacted title `此内容被密码保护`. Thi
 is deliberately conservative: a public post with that exact title also loses its
 listing thumbnail. Native detail password handling remains core-controlled; valid
 passwords still restore the article and cover. See the privacy verification notes.
+
+Native post/page audio and video fit the reading column, preserving video aspect ratio.
