@@ -16,3 +16,72 @@ test('Intergalactic 2 contains article media and uses readable footer/pagination
  assert.match(css,/\.native-footer\{color:#ddd;background:#111\}/);
  assert.match(css,/\.native-main>\.pagination\{color:#333\}/);
 });
+
+
+test('intergalactic-2 hides protected thumbnails in lists and detail templates', async () => {
+  const {context} = require('./port-fixture');
+  const {Eta} = require('eta');
+  const path = require('node:path');
+  const eta = new Eta({views: path.join(__dirname, '../packages/intergalactic-2'), varName: 'firekylin'});
+  for (const page of ['index', 'search', 'post', 'page']) {
+    for (const protection of [
+      {title: '此内容被密码保护'},
+      {password_protected: true},
+      {options: {postPasswordHash: 'fixture-hash'}}
+    ]) {
+      const ctx = context('intergalactic-2', page);
+      const row = (await ctx.widget('Widget_Archive')).stack[0];
+      Object.assign(row, protection);
+      row.options = {...row.options, featuredImage: '/SECRET_PHOTO.png'};
+      assert(!(await eta.renderAsync(page, ctx)).includes('SECRET_PHOTO'), page);
+    }
+    const ctx = context('intergalactic-2', page);
+    (await ctx.widget('Widget_Archive')).stack[0].options = {featuredImage: '/PUBLIC_PHOTO.png'};
+    assert.match(await eta.renderAsync(page, ctx), /src="\/PUBLIC_PHOTO.png"/, page);
+  }
+});
+
+test('intergalactic-2 validates the native options.featuredImage URL', async () => {
+  const {context} = require('./port-fixture');
+  const {Eta} = require('eta');
+  const path = require('node:path');
+  const eta = new Eta({views: path.join(__dirname, '../packages/intergalactic-2'), varName: 'firekylin'});
+  for (const url of ['javascript:alert(1)', '//evil.invalid/photo', 'data:image/svg+xml,bad']) {
+    for (const page of ['index', 'search', 'post', 'page']) {
+      const ctx = context('intergalactic-2', page);
+      (await ctx.widget('Widget_Archive')).stack[0].options = {featuredImage: url};
+      assert(!(await eta.renderAsync(page, ctx)).includes('src="' + url), page + ': ' + url);
+    }
+  }
+});
+
+test('intergalactic-2 does not expose real core-redacted post metadata', {
+  skip: !process.env.FIREKYLIN_CORE_PATH && 'Set FIREKYLIN_CORE_PATH for the real core redactor and Widgets'
+}, async () => {
+  const fs = require('node:fs');
+  const path = require('node:path');
+  const vm = require('node:vm');
+  const {Eta} = require('eta');
+  const {context} = require('./port-fixture');
+  const source = fs.readFileSync(path.join(process.env.FIREKYLIN_CORE_PATH, 'src/model/post.js'), 'utf8');
+  // Execute the actual checked-out core redactor, not a hand-written copy.
+  // Other model imports are unused by this pure function.
+  const redact = vm.runInNewContext(source + '\n;redactProtectedPosts;', {
+    module: {exports: {}}, require: name => name === './base' ? class {} : {}
+  });
+  const eta = new Eta({views: path.join(__dirname, '../packages/intergalactic-2'), varName: 'firekylin'});
+  for (const [page, kind] of [['index'], ['search'], ['index', 'cate'], ['index', 'tag'], ['archive']]) {
+    const ctx = context('intergalactic-2', page, {kind});
+    const row = (await ctx.widget('Widget_Archive')).stack[0];
+    const [redacted] = redact([{
+      ...row, title: 'SECRET_TITLE', content: 'SECRET_BODY', summary: 'SECRET_SUMMARY',
+      options: {postPasswordHash: 'fixture-hash', featuredImage: '/SECRET_PHOTO.png'}
+    }]);
+    assert.equal(redacted.title, '此内容被密码保护');
+    assert.equal(redacted.options.featuredImage, '/SECRET_PHOTO.png');
+    assert(!redacted.options.postPasswordHash);
+    Object.assign(row, redacted);
+    const html = await eta.renderAsync(page, ctx);
+    assert(!/SECRET_(TITLE|BODY|SUMMARY|PHOTO)/.test(html), page + ':' + kind);
+  }
+});

@@ -7,6 +7,62 @@ const coreRequire=createRequire(path.join(core,'package.json'));const adapterReq
 const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 const repository=path.resolve(__dirname,'../..');const site=fs.mkdtempSync(path.join(os.tmpdir(),'intergalactic-2-site-'));const port=Number(process.env.INTERGALACTIC_2_TEST_PORT)||8913;const origin='http://127.0.0.1:'+port;
 let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
+
+// Run before the browser snapshots so their normal public fixture is unchanged.
+async function verifyProtectedPost() {
+  const saved = db.prepare("SELECT title,summary,content,options FROM fk_post WHERE pathname='hello'").get();
+  const update = db.prepare("UPDATE fk_post SET title=?,summary=?,content=?,options=? WHERE pathname='hello'");
+  const password = crypto.randomBytes(24).toString('hex');
+  const salt = crypto.randomBytes(16);
+  const hash = 'scrypt$' + salt.toString('base64url') + '$' +
+    crypto.scryptSync(password, salt, 32).toString('base64url');
+  const photo = '/themes/intergalactic-2/res/fixture.svg?SECRET_PHOTO';
+  const routes = ['/', '/search.html?keyword=privacy-fixture', '/cate/notes', '/tag/life', '/archives', '/post/hello.html'];
+  const results = [];
+  try {
+    update.run('SECRET_TITLE privacy-fixture', 'SECRET_SUMMARY',
+      '<p>SECRET_BODY</p><img src="' + photo + '" alt="">',
+      JSON.stringify({postPasswordHash: hash, featuredImage: photo}));
+    for (const route of routes) {
+      const response = await fetch(origin + route);
+      assert.equal(response.status, 200, route);
+      const html = await response.text();
+      assert(!/SECRET_(TITLE|SUMMARY|BODY|PHOTO)/.test(html), route + ' leaked protected metadata');
+      assert(html.includes('/post/hello.html'), route + ' must contain the protected post');
+      assert(html.includes('此内容被密码保护'), route + ' must display the core redaction');
+      results.push({route, status: response.status, protectedMetadataHidden: true});
+    }
+    const unlock = password => fetch(origin + '/post/hello.html', {
+      method: 'POST',
+      headers: {'content-type': 'application/x-www-form-urlencoded'},
+      body: new URLSearchParams({protectPassword: password})
+    });
+    const denied = await unlock('wrong-password');
+    assert.equal(denied.status, 200);
+    const lockedHtml = await denied.text();
+    assert(lockedHtml.includes('protectPassword'), 'wrong password retains native form');
+    assert(!/SECRET_(TITLE|SUMMARY|BODY|PHOTO)/.test(lockedHtml), 'wrong password leaks protected metadata');
+    const allowed = await unlock(password);
+    assert.equal(allowed.status, 200);
+    const unlockedHtml = await allowed.text();
+    for (const marker of ['SECRET_TITLE', 'SECRET_BODY', 'SECRET_PHOTO']) {
+      assert(unlockedHtml.includes(marker), 'successful native unlock restores ' + marker);
+    }
+    assert(!unlockedHtml.includes('name="protectPassword"'), 'successful unlock removes password form');
+    results.push({route: '/post/hello.html', wrongPasswordHidden: true, correctPasswordRestoresContent: true});
+  } finally {
+    update.run(saved.title, saved.summary, saved.content, saved.options);
+  }
+  const evidence = path.join(repository, 'verification/intergalactic-2');
+  const report = {
+    coreRevision: execFileSync('git', ['-C', core, 'rev-parse', 'HEAD'], {encoding: 'utf8'}).trim(),
+    checks: results,
+    passed: ['actual ZIP installation', 'real SQLite core redaction', 'home/search/category/tag/archive/locked detail privacy', 'native wrong-password and successful unlock flows']
+  };
+  fs.writeFileSync(path.join(evidence, 'protection-report.json'), JSON.stringify(report, null, 2) + '\n');
+  console.log('Protected-post HTTP verification: ' + JSON.stringify(report));
+}
+
 (async()=>{
  await require(path.join(core,'lib/cli')).run(['new',site,'--db-type','sqlite','--db-path','data/firekylin.sqlite','--site-title','INTERGALACTIC-2 测试博客','--site-url',origin,'--admin-user','fixture-admin','--admin-password',crypto.randomBytes(24).toString('hex'),'--admin-email','fixture@example.invalid','--non-interactive','--skip-install']);
  const configPath=path.join(site,'firekylin.config.js');const config=require(configPath);config.server={host:'127.0.0.1',port,proxy:false};fs.writeFileSync(configPath,'module.exports='+JSON.stringify(config));
@@ -29,6 +85,8 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
  set('themeConfig',JSON.stringify({footerText:'阅读与探索本站内容。'}));
  fs.writeFileSync(path.join(site,'themes/intergalactic-2/res/fixture.svg'),'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600"><rect width="1000" height="600" fill="#e8dcca"/><circle cx="730" cy="170" r="85" fill="#d58b63"/><path d="M0 480L270 130L620 600H0Z" fill="#8dada5"/><path d="M300 600L690 250L1000 530V600Z" fill="#456e74"/></svg>');
  server=spawn(process.execPath,[path.join(core,'bin/firekylin.js')],{cwd:site,stdio:['ignore','ignore','pipe']});let serverErrors='';server.stderr.on('data',c=>serverErrors+=c);for(let i=0;i<150;i++){try{if((await fetch(origin)).ok)break;}catch{}if(i===149)throw Error('Site startup failed: '+serverErrors);await delay(200);}
+ await verifyProtectedPost();
+ if (process.env.PROTECTION_HTTP_ONLY === '1') return;
  browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']});
  const context=await browser.newContext();const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.url().startsWith(origin+'/themes/')&&r.status()>=400)errors.push(r.status()+' '+r.url())});
  await page.route('**/*',route=>route.request().url().startsWith(origin)?route.continue():route.abort());
@@ -42,12 +100,19 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
   }
   await page.goto(origin);await page.locator('.native-nav a[href="/archives"]').click();await page.waitForURL('**/archives');await page.goto(origin);assert.equal(await page.locator('.entry').count(),10);assert(await page.locator('#main').evaluate(e=>e.getBoundingClientRect().width>280),'usable main width');await page.evaluate(()=>Promise.all(document.getAnimations().filter(a=>a.effect.getTiming().iterations!==Infinity).map(a=>a.finished.catch(()=>{}))));await page.screenshot({path:path.join(evidence,'home-'+width+'.png'),fullPage:true});
   await page.getByRole('link',{name:'下一页',exact:true}).click();await page.waitForURL('**/?page=2');
-  await page.goto(origin+'/post/hello.html');for(const sel of ['.prose h3','.prose h4','.prose pre','.prose table','.prose img','.prose video','.prose audio'])assert(await page.locator(sel).first().isVisible(),sel+' visible');for(const sel of ['.prose video','.prose audio'])assert(await page.locator(sel).evaluate(e=>e.getBoundingClientRect().width<=e.parentElement.clientWidth),sel+' containment');assert(await page.locator('.prose ul').first().evaluate(e=>getComputedStyle(e).listStyleType!=='none'),'list markers');await page.screenshot({path:path.join(evidence,'post-'+width+'.png'),fullPage:true});assert(await page.locator('.nav-items a[href="/archives"]').isVisible());
+  await page.goto(origin+'/post/hello.html');for(const sel of ['.prose h3','.prose h4','.prose pre','.prose table','.prose img','.prose video','.prose audio'])assert(await page.locator(sel).first().isVisible(),sel+' visible');for(const sel of ['.prose video','.prose audio'])assert(await page.locator(sel).evaluate(e=>e.getBoundingClientRect().width<=e.parentElement.clientWidth),sel+' containment');const media = await page.locator('.prose').evaluate(element => {
+    const video = element.querySelector('video').getBoundingClientRect();
+    const audio = element.querySelector('audio').getBoundingClientRect();
+    return {ratio: video.width / video.height, audioHeight: audio.height};
+  });
+  assert(Math.abs(media.ratio - 1600 / 900) < .02, 'video aspect ratio');
+  assert(media.audioHeight >= 40, 'audio controls visible');
+  assert(await page.locator('.prose ul').first().evaluate(e=>getComputedStyle(e).listStyleType!=='none'),'list markers');await page.screenshot({path:path.join(evidence,'post-'+width+'.png'),fullPage:true});assert(await page.locator('.nav-items a[href="/archives"]').isVisible());
 
  }
  for(const pathname of ['private-marker','draft-marker']){const denied=await fetch(origin+'/post/'+pathname+'.html',{redirect:'manual'});assert.equal(denied.status,302);assert.equal(denied.headers.get('location'),'/');}
  db.prepare('UPDATE fk_post SET allow_comment=1 WHERE pathname=?').run('hello');let html=await(await fetch(origin+'/post/hello.html')).text();assert(html.includes('data-comment-config'));assert.equal((html.match(/id="comments"/g)||[]).length,1);
  db.prepare('UPDATE fk_post SET allow_comment=0 WHERE pathname=?').run('hello');assert(!(await(await fetch(origin+'/post/hello.html')).text()).includes('data-comment-config'));
  const nojs=await browser.newContext({javaScriptEnabled:false});const np=await nojs.newPage();await np.setViewportSize({width:390,height:1000});await np.goto(origin);await np.locator('.nav-items a[href="/search.html"]').click();await np.locator('#keyword').fill('INTERGALACTIC-2');await np.locator('#main').getByRole('button',{name:'搜索',exact:true}).click();await np.waitForURL('**/search.html?keyword=INTERGALACTIC-2');await nojs.close();
- assert.deepEqual(errors,[]);const report={core:coreRequire('./package.json').version,coreRevision:execFileSync('git',['-C',core,'rev-parse','HEAD'],{encoding:'utf8'}).trim(),browser:browser.version(),checks,passed:['actual ZIP installation','18 real SQLite routes','native attachment image/download','long native code containment','oversized article video/audio containment','WCAG AA footer contrast','native article pagination','visible wrapping navigation without JavaScript','responsive header navigation','search without JavaScript','private/draft exclusion','comment gating'],limits:['Compared pinned upstream CSS and PHP templates; no live upstream demo comparison.','Waline remote client login/submission not tested.']};fs.writeFileSync(path.join(evidence,'report.json'),JSON.stringify(report,null,2)+'\n');fs.copyFileSync(path.join(evidence,'home-1440.png'),path.join(repository,'packages/intergalactic-2/screenshot.png'));console.log(JSON.stringify(report));
+ assert.deepEqual(errors,[]);const report={core:coreRequire('./package.json').version,coreRevision:execFileSync('git',['-C',core,'rev-parse','HEAD'],{encoding:'utf8'}).trim(),browser:browser.version(),checks,passed:['protected title, summary, body and photo hidden across six real HTTP routes; native unlock checked','actual ZIP installation','18 real SQLite routes','native attachment image/download','long native code containment','oversized article video/audio containment, video ratio and audio controls height >=40','WCAG AA footer contrast','native article pagination','visible wrapping navigation without JavaScript','responsive header navigation','search without JavaScript','private/draft exclusion','comment gating'],limits:['Compared pinned upstream CSS and PHP templates; no live upstream demo comparison.','Waline remote client login/submission not tested.']};fs.writeFileSync(path.join(evidence,'report.json'),JSON.stringify(report,null,2)+'\n');fs.copyFileSync(path.join(evidence,'home-1440.png'),path.join(repository,'packages/intergalactic-2/screenshot.png'));console.log(JSON.stringify(report));
 })().catch(e=>{console.error(e);process.exitCode=1}).finally(async()=>{if(browser)await browser.close();if(server)server.kill('SIGTERM');if(db)db.close();console.log('Disposable test site:',site)});
