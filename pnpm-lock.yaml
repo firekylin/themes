@@ -581,6 +581,8 @@ importers:
 
   packages/hugo-hello-programmer-theme: {}
 
+  packages/origin-hugo-theme: {}
+
   packages/zola-zola-henry: {}
 
   packages/mero: {}
