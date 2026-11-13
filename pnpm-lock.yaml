@@ -177,6 +177,8 @@ importers:
 
   packages/ghostwriter: {}
 
+  packages/zola-tanuki: {}
+
   packages/aria: {}
 
   packages/rowling: {}
