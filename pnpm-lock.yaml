@@ -639,6 +639,8 @@ importers:
 
   packages/casper: {}
 
+  packages/hugo-html5up-alpha: {}
+
   packages/noteworthy: {}
 
   packages/fuwari: {}

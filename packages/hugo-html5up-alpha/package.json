@@ -1,0 +1,57 @@
+{
+  "name": "hugo-html5up-alpha",
+  "title": "Alpha",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Alpha’s original wide banner, overlapping introduction, paired image cards and boxed reading layout.",
+  "license": "CC-BY-3.0",
+  "author": "AJ / HTML5 UP; Nelson Roberto; Firekylin contributors",
+  "homepage": "https://github.com/dewittn/hugo-html5up-alpha",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-html5up-alpha"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-html5up-alpha"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "bannerImageURL",
+      "label": "横幅图片 URL",
+      "help": "可选站内路径或 HTTP(S) URL，不包含演示照片。"
+    },
+    {
+      "type": "text",
+      "name": "bannerTitle",
+      "label": "横幅标题"
+    },
+    {
+      "type": "text",
+      "name": "introTitle",
+      "label": "介绍标题"
+    },
+    {
+      "type": "textarea",
+      "name": "introText",
+      "label": "介绍文字"
+    }
+  ]
+}
