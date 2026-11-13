@@ -88,6 +88,8 @@ importers:
 
   packages/wave: {}
 
+  packages/dara: {}
+
   packages/butterfly: {}
 
   packages/editorial: {}
@@ -153,8 +155,6 @@ importers:
   packages/cupper: {}
 
   packages/fluid: {}
-
-  packages/dara: {}
 
   packages/minos: {}
 

@@ -60,12 +60,34 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
    checks.push({width,route,status:response.status()});
   }
   await page.goto(origin);
-  const footerColors = await page.locator('.native-footer').evaluate(element => {
-    const style = getComputedStyle(element);
-    return {color: style.color, background: style.backgroundColor};
+  const visibleBounds = await page.evaluate(() => {
+    const selectors = '#main, .blog-title, .blog-description, .blog-subtitle, #site-title, #site-description, .site-title, .site-description';
+    return [...document.querySelectorAll(selectors)].map(element => {
+      const rect = element.getBoundingClientRect();
+      return {label: element.id || element.className, left: rect.left, right: rect.right, width: rect.width, height: rect.height};
+    }).filter(rect => rect.width > 0 && rect.height > 0);
   });
-  assert.equal(footerColors.color, 'rgb(255, 255, 255)');
-  assert.equal(footerColors.background, 'rgb(68, 67, 64)');
+  assert(visibleBounds.length >= 2, 'main and title bounds are inspected');
+  for (const rect of visibleBounds) {
+    assert(rect.left >= -1 && rect.right <= width + 1, width + ' ' + rect.label + ' stays inside the viewport');
+  }
+  await page.goto(origin);
+  const footerContrast = await page.locator('.native-footer').evaluate(element => {
+    const luminance = color => {
+      const values = color.match(/[\d.]+/g).slice(0, 3).map(Number).map(value => {
+        value /= 255;
+        return value <= .04045 ? value / 12.92 : ((value + .055) / 1.055) ** 2.4;
+      });
+      return values[0] * .2126 + values[1] * .7152 + values[2] * .0722;
+    };
+    const background = luminance(getComputedStyle(element).backgroundColor);
+    const ratio = foreground => (Math.max(foreground, background) + .05) / (Math.min(foreground, background) + .05);
+    return {
+      text: ratio(luminance(getComputedStyle(element).color)),
+      link: ratio(luminance(getComputedStyle(element.querySelector('a')).color))
+    };
+  });
+  assert(footerContrast.text >= 4.5 && footerContrast.link >= 4.5, 'footer text and attribution contrast at least 4.5:1');
   await page.goto(origin);await page.locator('.native-nav a[href="/archives"]').click();await page.waitForURL('**/archives');await page.goto(origin);assert.equal(await page.locator('.entry').count(),10);assert(await page.locator('#main').evaluate(e=>e.getBoundingClientRect().width>280),'usable main width');await page.evaluate(()=>Promise.all(document.getAnimations().filter(a=>a.effect.getTiming().iterations!==Infinity).map(a=>a.finished.catch(()=>{}))));for(const slug of ['hello','public-11']){const card=page.locator('.entry').filter({has:page.locator('.entry-title a[href="/post/'+slug+'.html"]')});assert.equal(await card.count(),1);assert.equal(await card.locator('.post-thumbnail').count(),0);assert(await card.locator('.entry-header').evaluate(e=>getComputedStyle(e).position!=='absolute'),'imageless header remains in flow');}assert(await page.locator('.native-footer').evaluate(e=>{const c=getComputedStyle(e);return c.color!==c.backgroundColor&&c.backgroundColor!=='rgba(0, 0, 0, 0)'}),'footer has contrasting surface');await page.screenshot({path:path.join(evidence,'home-'+width+'.png'),fullPage:true});
   await page.getByRole('link',{name:'下一页',exact:true}).click();await page.waitForURL('**/?page=2');
   await page.goto(origin+'/post/hello.html');for(const sel of ['.prose h3','.prose h4','.prose pre','.prose table','.prose img'])assert(await page.locator(sel).first().isVisible(),sel+' visible');assert(await page.locator('.prose ul').first().evaluate(e=>getComputedStyle(e).listStyleType!=='none'),'list markers');await page.screenshot({path:path.join(evidence,'post-'+width+'.png'),fullPage:true});assert(await page.locator('.nav-items a[href="/archives"]').isVisible());
