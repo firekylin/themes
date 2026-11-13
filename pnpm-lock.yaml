@@ -123,8 +123,6 @@ importers:
 
   packages/hugo-theme-chunky-poster: {}
 
-  packages/zola-tanuki: {}
-
   packages/academic-cv: {}
 
   packages/solo: {}
@@ -154,6 +152,8 @@ importers:
   packages/grid-side: {}
 
   packages/ghostwriter: {}
+
+  packages/zola-tanuki: {}
 
   packages/aria: {}
 
