@@ -145,7 +145,12 @@ m.build_theme(t,r,m.theme_files(t))`]);
         await Promise.all([page.waitForNavigation(), page.locator('.post-password-form button').click()]);
         assert((await page.content()).includes(secret.body));
         assert.equal(await page.locator(`img[src="${secret.image}"]`).count(), 1);
-        assert(await page.locator(`img[src="${secret.image}"]`).evaluate(img => img.complete && img.naturalWidth > 0));
+        const cover = page.locator(`img[src="${secret.image}"]`);
+        await cover.scrollIntoViewIfNeeded();
+        await page.waitForFunction(src => {
+          const image = [...document.images].find(image => image.getAttribute('src') === src);
+          return image && image.complete && image.naturalWidth > 0;
+        }, secret.image);
         assert(requests.some(url => url.includes('SECRET_PHOTO')), 'unlocked cover is requested');
         await page.goto(origin + route);
         assertPrivate(await page.content(), 'fresh browser GET after unlock');
