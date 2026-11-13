@@ -45,6 +45,20 @@
     },
     {
       "type": "theme",
+      "name": "airspace-hugo",
+      "id": "airspace-hugo",
+      "version": "0.1.0",
+      "title": "Airspace Hugo",
+      "description": "Airspace’s spacious blog: dark title banner, two-column article and sidebar layout, uppercase headings and rounded tag pills.",
+      "download": "https://github.com/firekylin/themes/releases/download/airspace-hugo-v0.1.0/airspace-hugo-0.1.0.zip",
+      "integrity": "sha512-I8Ouc2xzqi62R9G5q5AcVinhp9FHkxf8g3U/mAKEc7Xbr2N4PHzdVYrlxHi2w7jbQEjryRoUk68wuFu8NCN0DQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/airspace-hugo/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "akina",
       "id": "akina",
       "version": "0.1.0",
@@ -1909,6 +1923,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-den-v0.1.0/hugo-theme-den-0.1.0.zip",
       "integrity": "sha512-HlWYmh6UiDGwTnlBuoG0JcBSdN+chulHr33Y9yYpOHSEYiRj7SPWTV5fq4w5W5YDwX5hD7kVcKY7UyYEPEaliQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-den/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "hugo-theme-dopetrope",
+      "id": "hugo-theme-dopetrope",
+      "version": "0.1.0",
+      "title": "Dopetrope",
+      "description": "HTML5 UP Dopetrope’s original white two-column blog cards, red buttons, centered masthead and dark recent-post footer.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-theme-dopetrope-v0.1.0/hugo-theme-dopetrope-0.1.0.zip",
+      "integrity": "sha512-nIQWNURmsniw3F69dQ68GfN9W+OeLMrVxj9BB09+FL3PxnxB5eP8Zjuz7kWCSUxdwks+pIHip5v0NBEaW9OlTg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-theme-dopetrope/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }

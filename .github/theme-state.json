@@ -11,6 +11,10 @@
     "hash": "91948a1fc03221a9259d001947ad45eb469dababe7c0866abac0a2612f88ad9e",
     "id": "aether"
   },
+  "airspace-hugo": {
+    "hash": "568d619e9c834aebe35fe00e88ffd29fbe3d872030ed71be3f67965941292703",
+    "id": "airspace-hugo"
+  },
   "akina": {
     "hash": "8ce5a0d816cf47691cd7e2232a85aec0549fe805c62254a75ddf0f03373d53d4",
     "id": "akina"
@@ -546,6 +550,10 @@
   "hugo-theme-den": {
     "hash": "6badda1a31ed7c881507d4ec4d21ef25e36276f9ae4f1262688afd88c441dbad",
     "id": "hugo-theme-den"
+  },
+  "hugo-theme-dopetrope": {
+    "hash": "5884468e3d75fbb000caf3e852c0122c17175389ed1afeb908cedf7bc93ff83f",
+    "id": "hugo-theme-dopetrope"
   },
   "hugo-theme-dream": {
     "hash": "f3faa74b54965fe80fbad67fb90d8cb3331df4fe08980050bf9a4274a4b70d05",
