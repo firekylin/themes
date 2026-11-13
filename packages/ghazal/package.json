@@ -1,0 +1,48 @@
+{
+  "name": "ghazal",
+  "title": "Ghazal",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ghazal’s dark pink-accented blog, centered introduction, dashed lists and keyboard pagination.",
+  "license": "MIT",
+  "author": "Darshan Baral; Firekylin contributors",
+  "homepage": "https://github.com/darshanbaral/ghazal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/ghazal"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "ghazal"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "avatarURL",
+      "label": "简介头像 URL",
+      "help": "可选，使用站内路径或 HTTP(S) URL。"
+    },
+    {
+      "type": "textarea",
+      "name": "introText",
+      "label": "首页简介",
+      "help": "纯文本，保留换行。"
+    }
+  ]
+}

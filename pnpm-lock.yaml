@@ -641,6 +641,8 @@ importers:
 
   packages/colordrop: {}
 
+  packages/ghazal: {}
+
   packages/charaka-hugo-theme: {}
 
   packages/chirpy: {}

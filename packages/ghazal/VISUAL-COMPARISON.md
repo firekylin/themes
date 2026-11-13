@@ -1,0 +1,3 @@
+# Visual adaptation
+
+Reference: pinned Ghazal index/list/single/header/menu/footer templates, original CSS and upstream screenshot inspected. Preserved: 960px dark column, pink headings/links, circular portrait introduction, dashed list separators, framed content and three-column footer. Original inline template styles are migrated to named native CSS classes. Text labels replace unlicensed icon assets; native dialog replaces the original custom overlay, with no-JS navigation fallback. The Firekylin feed appears below the full-height introduction. Desktop/mobile installed screenshots are committed; no pixel-exact live demo comparison is claimed.
