@@ -1,0 +1,8 @@
+'use strict';
+const test=require('node:test'),assert=require('node:assert/strict');
+const {render,pages}=require('./port-fixture');
+for(const page of pages)test('Basic Web Theme '+page+' renders populated and empty Widgets',async()=>{for(const empty of [false,true]){const html=await render('basicwebtheme',page,{empty});assert.match(html,/Basic Web Theme/);assert(!html.includes('undefined'));}});
+test('Basic Web Theme escapes titles, rejects active cover URLs, preserves protected body',async()=>{const html=await render('basicwebtheme','index',{hostile:true,config:{profileName:'<script>alert(1)</script>',backgroundImage:'javascript:alert(1)'}});assert(!html.includes('<img src=x onerror'));assert.match(html,/&lt;img/);assert(!html.includes('src="javascript:'));assert.match(await render('basicwebtheme','post',{protected:true}),/protectPassword/);});
+test('Basic Web Theme delegates comments and keeps search filters in pagination',async()=>{assert(!(await render('basicwebtheme','post',{comments:false})).includes('id="comments"'));const html=await render('basicwebtheme','search',{request:'/search.html?keyword=a%26b'});assert.match(html,/keyword=a%26b&amp;page=2/);});
+
+test('Basic Web Theme uses footer-only navigation and safe header choices',async()=>{const html=await render('basicwebtheme','index',{config:{headerText:'<script>bad</script>',headerImage:'javascript:bad',titleStyle:'compact',showDate:'hide'}});assert(!html.includes('<script>bad'));assert(!html.includes('src="javascript:'));assert(html.includes('compact-title'));assert(html.includes('class="site-footer"'));assert(html.includes('class="entry-link"'));});
