@@ -691,6 +691,8 @@ importers:
 
   packages/tranquilpeak: {}
 
+  packages/illustratr: {}
+
   packages/webstack: {}
 
 packages:
