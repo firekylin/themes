@@ -211,6 +211,8 @@ importers:
 
   packages/lovecraft: {}
 
+  packages/bootstrap-bp-hugo-theme: {}
+
   packages/cactus: {}
 
   packages/roon: {}
