@@ -1747,6 +1747,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-html5up-alpha",
+      "id": "hugo-html5up-alpha",
+      "version": "0.1.0",
+      "title": "Alpha",
+      "description": "Alpha’s original wide banner, overlapping introduction, paired image cards and boxed reading layout.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-html5up-alpha-v0.1.0/hugo-html5up-alpha-0.1.0.zip",
+      "integrity": "sha512-GdhBbrcGMlS/EEgZcAq8botdfwG979He+jvjXeSGSJPMDDRpGzDCQu/Ixbnji1p8FvFxt/OoL8YAqtI3U6TwLw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-html5up-alpha/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-initio",
       "id": "hugo-initio",
       "version": "0.1.0",

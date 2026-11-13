@@ -499,6 +499,10 @@
     "hash": "400c9919fcc3637c9f8562af43d779b213597a13b70211f6c41fe7a6d16b2960",
     "id": "hugo-hello-programmer-theme"
   },
+  "hugo-html5up-alpha": {
+    "hash": "dcd21759322b6b8910baefcc4c83740b8528bc3474c1271792a81ea0a8818cda",
+    "id": "hugo-html5up-alpha"
+  },
   "hugo-initio": {
     "hash": "7ab862964d8aabf6386881086551eae2b1d81014459437543e2026e1ba54574d",
     "id": "hugo-initio"
