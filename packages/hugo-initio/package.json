@@ -1,0 +1,48 @@
+{
+  "name": "hugo-initio",
+  "title": "Hugo Initio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Initio’s original centered Bootstrap blog, Alice masthead, italic dates, light uppercase titles and two-tier dark footer.",
+  "license": "(MIT AND CC-BY-3.0 AND Apache-2.0 AND OFL-1.1)",
+  "author": "Miguel Simoni; Sergey Pozhilov; Firekylin contributors",
+  "homepage": "https://github.com/miguelsimoni/hugo-initio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-initio"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-initio"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "avatarURL",
+      "label": "头像图片",
+      "help": "可选站内路径或 HTTP(S) URL。"
+    },
+    {
+      "type": "text",
+      "name": "bannerURL",
+      "label": "页眉背景图片",
+      "help": "可选站内路径或 HTTP(S) URL。"
+    }
+  ]
+}
