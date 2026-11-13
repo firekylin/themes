@@ -323,6 +323,8 @@ importers:
 
   packages/minos: {}
 
+  packages/twentytwelve: {}
+
   packages/gokarna: {}
 
   packages/g: {}
