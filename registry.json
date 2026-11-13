@@ -2679,6 +2679,20 @@
     },
     {
       "type": "theme",
+      "name": "materialize-bp-hugo-theme",
+      "id": "materialize-bp-hugo-theme",
+      "version": "0.1.0",
+      "title": "Materialize-BP",
+      "description": "Materialize-BP’s original elevated cards, blue masthead, orange three-column footer, full-image posts and optional single-column feed.",
+      "download": "https://github.com/firekylin/themes/releases/download/materialize-bp-hugo-theme-v0.1.0/materialize-bp-hugo-theme-0.1.0.zip",
+      "integrity": "sha512-maBgPfDNYtDQqRlfhfc8zCVUKU0E2qQrXOuJjRI2GFY5zW4kR+J1t2+5oJ+lFAxvKdh+hldAAUaasRR0YFk+Rw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/materialize-bp-hugo-theme/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "@firekylin/theme-matery",
       "id": "matery",
       "version": "0.1.0",

@@ -767,6 +767,10 @@
     "hash": "28cd59626284bf86da9d3c92fa15b9aa5357c5946111d009337166e974a79c56",
     "id": "material-design"
   },
+  "materialize-bp-hugo-theme": {
+    "hash": "65d433724feccf14b091c5e3de985368b8b535498d9ec4bfce6349aa97add10b",
+    "id": "materialize-bp-hugo-theme"
+  },
   "matery": {
     "hash": "bf6eaa566e476892f5548b64ff79e7f037afb47d1c985eeb57bfa5dda3e5ccd9",
     "id": "matery"
