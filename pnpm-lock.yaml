@@ -46,6 +46,8 @@ importers:
 
   packages/lanyon: {}
 
+  packages/silhouette-hugo: {}
+
   packages/m10c: {}
 
   packages/chaplin: {}

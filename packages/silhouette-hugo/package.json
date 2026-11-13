@@ -1,0 +1,45 @@
+{
+  "name": "silhouette-hugo",
+  "title": "Silhouette",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Silhouette’s full-width hero, dotted summary feed, wide desktop sidebar and dark navigation/footer.",
+  "license": "MIT",
+  "author": "Matt Button; Firekylin contributors",
+  "homepage": "https://github.com/mattbutton/silhouette-hugo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/silhouette-hugo"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "silhouette-hugo"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "作者名称"
+    },
+    {
+      "type": "textarea",
+      "name": "introDescription",
+      "label": "作者介绍"
+    },
+    {
+      "type": "textarea",
+      "name": "footerText",
+      "label": "页脚介绍"
+    },
+    {
+      "type": "text",
+      "name": "heroImage",
+      "label": "首页横幅图片",
+      "help": "可选站内路径或 HTTP(S) URL；留空显示深色背景。"
+    }
+  ]
+}
