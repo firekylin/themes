@@ -77,3 +77,11 @@ test('canard does not expose real core-redacted post metadata', {
     assert(!/SECRET_(TITLE|BODY|SUMMARY|PHOTO)/.test(html), page + ':' + kind);
   }
 });
+
+test('canard constrains embedded post/page media and preserves video proportions', () => {
+  const fs = require('node:fs');
+  const path = require('node:path');
+  const css = fs.readFileSync(path.join(__dirname, '../packages/canard/res/css/theme.css'), 'utf8');
+  assert.match(css, /\.prose video,\s*\.prose audio\s*\{\s*max-width: 100%;/);
+  assert.match(css, /\.prose video\s*\{\s*height: auto;/);
+});
