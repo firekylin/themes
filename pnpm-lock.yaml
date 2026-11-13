@@ -625,6 +625,8 @@ importers:
 
   packages/attila: {}
 
+  packages/hugo-piercer-theme: {}
+
   packages/casper: {}
 
   packages/noteworthy: {}

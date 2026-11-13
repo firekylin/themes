@@ -1,0 +1,7 @@
+# Piercer for Firekylin
+
+Daniel Zaragoza’s MIT Piercer is adapted using its original stylesheets and Dracula colors: purple-bordered sticky masthead, native details/summary navigation, full-screen-style homepage hero, full-width summary cards separated by slate-blue rules, and centered article headings with narrow desktop reading content. The homepage combines the original hero and blog listing; Hugo content-section landing blocks are not reproduced. Native header is sticky rather than fixed to avoid obscuring content when titles wrap. Mobile hero height is reduced, and article media preserves its aspect ratio.
+
+Homepage heroImage and native featuredImage URLs support only HTTP(S) or root-relative values, rendered as image elements rather than interpolated CSS. No demo media is included. Footer text/author are configurable. Native posts/pages, protected content, comment widgets, archives/taxonomies/search/pagination and attachments work; tag summaries load relations only for the current public page IDs. The menu works by keyboard and without JavaScript.
+
+No custom arbitrary CSS/palette editor, contact-form backend, service-worker cache, multilingual switching, Font Awesome/social icons, analytics or Hugo feed generation is included. Source Google Fonts integration is replaced by its default system-font stack. No live upstream pixel comparison or remote comment submission is claimed.
