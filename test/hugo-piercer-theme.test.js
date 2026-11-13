@@ -10,3 +10,5 @@ test('hugo-piercer-theme renders attachment media and rejects active file URLs',
 test('Piercer identifies taxonomy',async()=>{for(const [kind,label] of [['cate','随笔'],['tag','生活']]){assert.match(await render('hugo-piercer-theme','index',{kind}),new RegExp('<h1[^>]*>'+label+'</h1>')); }});
 
 test('Piercer rejects active hero image and keeps native disclosure',async()=>{const html=await render('hugo-piercer-theme','index',{config:{heroImage:'javascript:alert(1)'}});assert(!html.includes('src="javascript:'));assert.match(html,/<details class="menu__toggle">/);assert.match(html,/<summary>菜单<\/summary>/);});
+
+test('Piercer directory wrappers are balanced and contain the complete section',async()=>{for(const page of ['archive','cate','tag']){const html=await render('hugo-piercer-theme',page);assert.match(html,/<main id="main"><div class="native-wrap"><section class="directory">/);assert.match(html,/<\/section><\/div><\/main><footer class="footer">/);assert.equal((html.match(/<div\b/g)||[]).length,(html.match(/<\/div>/g)||[]).length);}});
