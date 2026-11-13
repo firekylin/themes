@@ -58,9 +58,9 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
   const salt=crypto.randomBytes(16);
   const hash='scrypt$'+salt.toString('base64url')+'$'+crypto.scryptSync('fixture-password',salt,32).toString('base64url');
   const protectedOptions=JSON.stringify({postPasswordHash:hash,featuredImage:'/SECRET_COVER.png',fields:{private:'SECRET_FIELD'}});
-  db.prepare("UPDATE fk_post SET title='AIRSPACE SECRET_TITLE',summary='SECRET_SUMMARY',content='SECRET_BODY',options=?,allow_comment=1 WHERE pathname IN ('hello','about','public-11')").run(protectedOptions);
+  db.prepare("UPDATE fk_post SET title='AIRSPACE SECRET_TITLE',summary='SECRET_SUMMARY',content='SECRET_BODY',options=?,allow_comment=1 WHERE pathname IN ('hello','about','public-11','public-0')").run(protectedOptions);
   for (const [route,link] of [
-   ['/','/post/public-11.html'],['/?page=2','/post/hello.html'],['/archives','/post/hello.html'],
+   ['/','/post/public-11.html'],['/?page=2','/post/public-0.html'],['/archives','/post/hello.html'],
    ['/cate/notes','/post/public-11.html'],['/tag/life','/post/public-11.html'],
    ['/search.html?keyword=SECRET_TITLE','/post/hello.html'],['/post/hello.html',null],['/page/about.html',null]
   ]) {
@@ -69,11 +69,22 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
    const body=await response.text();
    for (const marker of ['SECRET_COVER','SECRET_BODY','SECRET_SUMMARY','SECRET_FIELD']) assert(!body.includes(marker),route+' leaked '+marker);
    if (!route.startsWith('/search')) assert(!body.includes('SECRET_TITLE'),route+' leaked title');
-   if (link) assert(body.includes('href="'+link+'"'),route+' must contain the protected entry');
+   const main=body.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)?.[1];
+   assert(main,route+' main must render');
+   if (link) assert(main.includes('href="'+link+'"'),route+' main must contain the protected entry');
    else {
     assert(body.includes('name="protectPassword"'),route+' native password form');
     assert(!body.includes('data-comment-config'),route+' protected comments hidden');
    }
+  }
+  for (const route of ['/','/?page=2','/cate/notes','/tag/life']) {
+   const body=await(await fetch(origin+route)).text();
+   const main=body.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)[1];
+   const sidebar=body.match(/<aside\b[^>]*>([\s\S]*?)<\/aside>/)[1];
+   assert(main.includes('src="/themes/airspace-hugo/res/fixture.svg"'),route+' public thumbnail survives');
+   assert(sidebar.includes('href="/post/hello.html"'),route+' recent sidebar contains protected entry');
+   assert(sidebar.includes('src="/themes/airspace-hugo/res/fixture.svg"'),route+' recent public thumbnail survives');
+   assert(!sidebar.includes('SECRET_'),route+' recent sidebar privacy');
   }
   for (const route of ['/post/hello.html','/page/about.html']) {
    const wrong=await fetch(origin+route,{method:'POST',headers:{'content-type':'application/x-www-form-urlencoded'},body:'protectPassword=wrong'});
@@ -125,6 +136,7 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
     assert.equal(await page.locator('#main .taxonomy-list > li').count(),1);
     assert.equal(await page.locator('#main .taxonomy-list > li > ul > li').count(),1);
     assert.equal(await page.locator('.sidebar').count(),1,'taxonomy DOM remains closed');
+    await page.screenshot({path:path.join(evidence,'categories-'+width+'.png'),fullPage:true});
    }
    checks.push({width,route,status:response.status()});
   }
@@ -163,6 +175,7 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
  await np.locator('#keyword').fill('AIRSPACE');
  await np.locator('#main').getByRole('button',{name:'搜索',exact:true}).click();
  await np.waitForURL('**/search.html?keyword=AIRSPACE');
+ await np.screenshot({path:path.join(evidence,'nojs-search-390.png'),fullPage:true});
  await nojs.close();
  await checkProtection();
  assert.deepEqual(errors,[]);
@@ -171,7 +184,7 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
   coreRevision:execFileSync('git',['-C',core,'rev-parse','HEAD'],{encoding:'utf8'}).trim(),
   themeRevision:execFileSync('git',['-C',repository,'rev-parse','HEAD'],{encoding:'utf8'}).trim(),
   browser:browser.version(),checks,
-  passed:['actual ZIP installation','33 SQLite route/viewport checks','2:1 desktop columns and stacked tablet/mobile sidebar','four recent-post thumbnail rows','original banner and article styling','native attachment download','taxonomy DOM closure and nested children','bold and italic formatting','native pagination','visible navigation and search without JavaScript','private/draft exclusion','protected title/body/summary/image/fields with positive entry assertions','wrong/correct native post and page password','comment gating','video aspect ratio and visible audio controls','all local assets'],
+  passed:['actual ZIP installation','33 SQLite route/viewport checks','2:1 desktop columns and stacked tablet/mobile sidebar','four recent-post thumbnail rows','original banner and article styling','native attachment download','taxonomy DOM closure and nested children','bold and italic formatting','native pagination','visible navigation and search without JavaScript','private/draft exclusion','protected title/body/summary/image/fields with main-only positive entry assertions and deliberate page2 coverage','protected recent sidebar entries and public thumbnail preservation','wrong/correct native post and page password','comment gating','video aspect ratio and visible audio controls','all local assets'],
   limits:['Compared pinned upstream CSS and Hugo templates; no live upstream demo pixel comparison.','Waline remote client login/submission not tested.']
  };
  fs.writeFileSync(path.join(evidence,'report.json'),JSON.stringify(report,null,2)+'\n');

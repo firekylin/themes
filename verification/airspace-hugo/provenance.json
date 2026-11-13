@@ -1,0 +1,18 @@
+{
+  "sourceCommit": "74f8ea5ba5efe4041a39bf1bacd4b006dc64ca39",
+  "testedMergeCommit": "ee117e69e9aa843695f6a4348aec0baa18f6d81f",
+  "workflowRun": 43450221483,
+  "workflowURL": "https://github.com/firekylin/themes/actions/runs/43450221483",
+  "artifactId": 14049633217,
+  "artifactSha256": "20fc857facad6ebb709386e44b96a023d801b59f96eac1039e0723e2221bf087",
+  "sourceCoreCommit": "6b7c95cf43e0c6af70c71ac1e537d75a982e407e",
+  "capture": "Native ZIP install, disposable SQLite site, Google Chrome 157.0.8103.50, Noto CJK installed on Ubuntu 24.04. No image modification.",
+  "files": {
+    "home-1440.png": "1f87f1738040e158f3dd2ddd3eeeefe853d043095d4862ee2646696326d75ba4",
+    "home-390.png": "b957447ad215c0b3a9bf47f72d60d84d8ecc63ebc33f7b93dcec302da6438ebe",
+    "home-768.png": "7545df8d42ba8e622b32d1d53cb3963cf366043787a8398c5d6313d2f6dcb6f7",
+    "post-1440.png": "a1b56f1425619b816a3232bc3e56ab7bd5db3834f275212bef6f2d2a2cc4671e",
+    "post-390.png": "0bd168daa861baecf297f4ee35e810a6a6f5e13faa3dbeb79156a0681c9c13f6",
+    "post-768.png": "8bc41cc5a6b7e04898b67b553c450fc3db206f2af284eef51fc335d4d1092ece"
+  }
+}
