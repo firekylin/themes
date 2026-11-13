@@ -3650,6 +3650,20 @@
     },
     {
       "type": "theme",
+      "name": "roxo-hugo",
+      "id": "roxo-hugo",
+      "version": "0.1.0",
+      "title": "Roxo Hugo",
+      "description": "Roxo’s original coral/mint/navy blog design, two-column image cards, pale hover panels and Josefin Sans/Montserrat typography.",
+      "download": "https://github.com/firekylin/themes/releases/download/roxo-hugo-v0.1.0/roxo-hugo-0.1.0.zip",
+      "integrity": "sha512-22AJXW3sd+Q1pwzMPhAUnWuNPDxYlN9+IhQSsx3aOd7UWarOhRUVB02bTSmX9S90lLoc0GxDME2CyadjHe37MQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/roxo-hugo/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "ruby",
       "id": "ruby",
       "version": "0.1.0",
