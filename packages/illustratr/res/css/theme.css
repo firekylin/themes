@@ -17,3 +17,5 @@ html{color-scheme:light}body{font-size:22px;background:#f1f2f3}.site{min-height:
 
 /* Improve native reading and attribution contrast. */
 body{color:#657170}.site-description,.site-footer{color:#657170}
+/* Search embeds the list in the narrower native directory column. */
+.native-directory .entry-thumbnail{max-width:100%}

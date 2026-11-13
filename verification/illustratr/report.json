@@ -96,6 +96,7 @@
   ],
   "passed": [
     "original1100pxfeaturedimages and840pxreadingcolumn",
+    "1220px/1280px search featured-image containment",
     "uppercase masthead/title and coral links",
     "all-route containment and 700px semantic headers",
     "taxonomy headings and footer settings",
