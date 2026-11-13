@@ -84,6 +84,6 @@ test('Twentytwenty conservatively hides a public cover with the redacted sentine
 
 test('Twentytwenty constrains native embedded audio and video without distorting video', () => {
   const css = fs.readFileSync(path.join(__dirname, '../packages/twentytwenty/res/css/theme.css'), 'utf8');
-  assert.match(css, /\.prose video,\s*\.prose audio\s*\{\s*max-width: 100%;/);
+  assert.match(css, /#post-content\.prose video,\s*#post-content\.prose audio\s*\{\s*max-width: 100%;/);
   assert.match(css, /\.prose video\s*\{\s*height: auto;/);
 });

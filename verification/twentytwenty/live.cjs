@@ -39,7 +39,12 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
   for(const route of ['/','/?page=2','/post/hello.html','/page/about.html','/attachment/native-attachment.html','/archives','/categories','/tags','/search.html?keyword=TWENTYTWENTY']){
    const response=await page.goto(origin+route);assert.equal(response.status(),200,route);
    const html=await page.content();assert(!html.includes('undefined'),route+' contains undefined');assert(!html.includes('MMM D'),'unsupported date format');assert(!html.includes('PRIVATE_MARKER')&&!html.includes('DRAFT_MARKER'),route+' leaked content');
-   if(route.includes('/attachment/')){assert.equal(await page.locator('.attachment-media a[download]').count(),1);assert(await page.locator('.attachment-media img').evaluate(i=>i.complete&&i.naturalWidth>0));}assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),route+' overflow');if (route === '/post/hello.html' || route === '/page/about.html') {
+   if(route.includes('/attachment/')){assert.equal(await page.locator('.attachment-media a[download]').count(),1);assert(await page.locator('.attachment-media img').evaluate(i=>i.complete&&i.naturalWidth>0));}const geometry=await page.evaluate(()=>({viewport:innerWidth,scrollWidth:document.documentElement.scrollWidth,boxes:[...document.querySelectorAll('.site-title,.site-description,#main,.prose,video,audio')].filter(e=>e.getClientRects().length).map(e=>{const r=e.getBoundingClientRect();const style=getComputedStyle(e);return {selector:e.id||e.className||e.tagName,left:r.left,right:r.right,width:r.width,height:r.height,maxWidth:style.maxWidth};})}));
+   fs.writeFileSync(path.join(evidence,'geometry-'+width+'-'+route.replace(/[^a-z0-9]/gi,'_')+'.json'),JSON.stringify(geometry,null,2));
+   const clipped=geometry.boxes.filter(box=>box.left<-.5||box.right>geometry.viewport+.5);
+   if(clipped.length||geometry.scrollWidth>geometry.viewport)await page.screenshot({path:path.join(evidence,'clipped-'+width+'.png'),fullPage:true});
+   assert.deepEqual(clipped,[],route+' native content stays inside both viewport edges');
+   assert(geometry.scrollWidth<=geometry.viewport,route+' overflow');if (route === '/post/hello.html' || route === '/page/about.html') {
     const media = await page.locator('.prose').evaluate(element => {
      const column = element.getBoundingClientRect();
      const video = element.querySelector('video').getBoundingClientRect();
