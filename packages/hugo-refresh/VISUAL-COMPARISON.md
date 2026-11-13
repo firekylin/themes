@@ -1,0 +1,3 @@
+# Visual adaptation
+
+Pinned original index/list/summary/single/sidebar/footer templates and original Sass define the reference. Preserved: full-height split hero, Open Sans heading treatment, orange 60px divider, white rounded shadow cards with 3:2 images and action buttons, dark-blue 280px tag sidebar and dark footer. Original framework CSS is compiled locally with example defaults; no demo images are used. Native dialog controls and wrapping nav replace icon/jQuery interactions; mobile cards stack. Installed screenshots and geometry checks document the result; no live upstream pixel comparison is claimed.
