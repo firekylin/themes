@@ -1,0 +1,53 @@
+{
+  "name": "hugo-refresh",
+  "title": "ReFresh",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ReFresh’s original Bulma/Fresh design with orange dividers, image cards, split introduction and native tag sidebar.",
+  "license": "MIT",
+  "author": "Roberto Jordaney; Firekylin contributors",
+  "homepage": "https://github.com/PippoRJ/hugo-refresh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-refresh"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-refresh"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "heroImage",
+      "label": "首页图片 URL",
+      "help": "可选，站内路径或 HTTP(S) URL；留空不显示图片。"
+    },
+    {
+      "type": "text",
+      "name": "heroTitle",
+      "label": "首页标题"
+    },
+    {
+      "type": "textarea",
+      "name": "heroText",
+      "label": "首页简介",
+      "help": "纯文本，保留换行。"
+    }
+  ]
+}

@@ -665,6 +665,8 @@ importers:
 
   packages/type-on-strap: {}
 
+  packages/hugo-refresh: {}
+
   packages/tale: {}
 
   packages/text: {}
