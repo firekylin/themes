@@ -1,0 +1,42 @@
+{
+  "name": "hugo-piercer-theme",
+  "title": "Piercer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Piercer’s original Dracula palette, native disclosure menu, hero, full-width article cards and colored separators.",
+  "license": "MIT",
+  "author": "Daniel Zaragoza; Firekylin contributors",
+  "homepage": "https://github.com/danielkvist/hugo-piercer-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-piercer-theme"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-piercer-theme"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "label": "首页背景图片 URL",
+      "name": "heroImage",
+      "type": "text",
+      "help": "仅支持 HTTP(S) 或站内绝对路径。"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+name: Piercer integration
+on:
+  pull_request:
+    paths: ['packages/hugo-piercer-theme/**', 'verification/hugo-piercer-theme/**', 'test/hugo-piercer-theme.test.js', '.github/workflows/hugo-piercer-theme.yml']
+permissions:
+  contents: read
+jobs:
+  live-site:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: firekylin/firekylin
+          ref: ae71b610ed2dcb6e992366bc06080ec51805042c
+          path: .verification-core
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: pnpm install --frozen-lockfile
+        working-directory: .verification-core
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+      - name: Verify real SQLite site and installed ZIP
+        env:
+          FIREKYLIN_CHECKOUT: ${{ github.workspace }}/.verification-core
+          PLAYWRIGHT_MODULE: ${{ github.workspace }}/node_modules/playwright-core
+          CHROMIUM_PATH: /usr/bin/google-chrome
+        run: node verification/hugo-piercer-theme/live.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: hugo-piercer-theme-live-evidence
+          path: verification/hugo-piercer-theme/
