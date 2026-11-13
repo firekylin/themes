@@ -59,3 +59,8 @@ test('dara constrains wide native post and page media', async () => {
     assert.match(html, /<audio controls style="width:1280px">/);
   }
 });
+
+test('Dara keeps native card metadata in normal flow', () => {
+  const css = require('node:fs').readFileSync(require('node:path').join(__dirname, '../packages/dara/res/css/theme.css'), 'utf8');
+  assert.match(css, /\.native-main \.entry-meta\s*\{\s*position: static;\s*left: auto;\s*width: auto;\s*text-align: left;/);
+});

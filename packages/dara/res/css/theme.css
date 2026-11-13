@@ -2638,3 +2638,11 @@ body{overflow-wrap:anywhere}.native-skip{position:absolute;top:-100px}.native-sk
 .prose video {
   height: auto;
 }
+
+/* Native cards do not use WordPress's separate absolute metadata column. */
+.native-main .entry-meta {
+  position: static;
+  left: auto;
+  width: auto;
+  text-align: left;
+}
