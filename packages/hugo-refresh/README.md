@@ -7,3 +7,5 @@ The first home page shows the optional configured hero followed by Firekylin's f
 Posts/pages, archives, taxonomy/search, pagination, protected content, comments and attachments use Firekylin Widgets. Theme settings include plain-text hero title/description, an optional HTTP(S)/site-relative hero image, footer text and author. User input is escaped.
 
 Differences: no Hugo language switcher, arbitrary section tree, shortcodes, nested sidebar, service statistics, resource image processing, highlight/MathJax/Devicon engines, animated SVG menu/loader, cloned navbar or automatic modification-date text. Native controls replace jQuery and icon dependencies; article text remains left-aligned and semantic. Native action text is darkened and footer links lightened for readability, retaining the original turquoise button backgrounds. The home feed is added beneath the original landing layout. No live upstream pixel comparison or remote comment submission is claimed.
+
+Protected listing covers are suppressed for explicit protection flags/hashes and the core’s redacted-title marker, because this core revision can retain featured-image metadata after redaction.
