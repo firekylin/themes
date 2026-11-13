@@ -201,6 +201,8 @@ importers:
 
   packages/wave: {}
 
+  packages/dara: {}
+
   packages/butterfly: {}
 
   packages/simplicity: {}
