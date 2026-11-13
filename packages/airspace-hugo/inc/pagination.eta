@@ -1,0 +1,6 @@
+<% const archive = firekylin.archive; const p = archive.pagination; %>
+<% if (p && p.totalPages > 1) { %><nav class="pagination" aria-label="分页">
+<% if (p.currentPage > 1) { %><a rel="prev" href="<%= archive.pageUrl(p.currentPage - 1) %>">上一页</a><% } %>
+<% for (let page = Math.max(1,p.currentPage-2); page <= Math.min(p.totalPages,p.currentPage+2); page++) { %><a href="<%= archive.pageUrl(page) %>" <% if (page === p.currentPage) { %>aria-current="page"<% } %>><%= page %></a><% } %>
+<% if (p.currentPage < p.totalPages) { %><a rel="next" href="<%= archive.pageUrl(p.currentPage + 1) %>">下一页</a><% } %>
+</nav><% } %>

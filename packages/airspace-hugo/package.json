@@ -1,0 +1,36 @@
+{
+  "name": "airspace-hugo",
+  "title": "Airspace Hugo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Airspace’s spacious blog: dark title banner, two-column article and sidebar layout, uppercase headings and rounded tag pills.",
+  "license": "MIT",
+  "author": "Themefisher; Firekylin contributors",
+  "homepage": "https://github.com/themefisher/airspace-hugo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/airspace-hugo"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "airspace-hugo"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "blogTitle",
+      "label": "博客标题",
+      "help": "标题横幅文案，默认“博客”。纯文本。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述；纯文本。"
+    }
+  ]
+}

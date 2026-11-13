@@ -1,0 +1,196 @@
+{
+  "core": "2.18.1",
+  "coreRevision": "6b7c95cf43e0c6af70c71ac1e537d75a982e407e",
+  "themeRevision": "8f5c30d7a528250ed7b263ee4d8de7143cc4e941",
+  "browser": "157.0.8103.50",
+  "checks": [
+    {
+      "width": 1440,
+      "route": "/",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/?page=2",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/post/hello.html",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/page/about.html",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/attachment/native-attachment.html",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/archives",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/categories",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/tags",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/cate/notes",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/tag/life",
+      "status": 200
+    },
+    {
+      "width": 1440,
+      "route": "/search.html?keyword=AIRSPACE",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/?page=2",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/post/hello.html",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/page/about.html",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/attachment/native-attachment.html",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/archives",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/categories",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/tags",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/cate/notes",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/tag/life",
+      "status": 200
+    },
+    {
+      "width": 768,
+      "route": "/search.html?keyword=AIRSPACE",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/?page=2",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/post/hello.html",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/page/about.html",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/attachment/native-attachment.html",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/archives",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/categories",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/tags",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/cate/notes",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/tag/life",
+      "status": 200
+    },
+    {
+      "width": 390,
+      "route": "/search.html?keyword=AIRSPACE",
+      "status": 200
+    }
+  ],
+  "passed": [
+    "actual ZIP installation",
+    "33 SQLite route/viewport checks",
+    "2:1 desktop columns and stacked tablet/mobile sidebar",
+    "four recent-post thumbnail rows",
+    "original banner and article styling",
+    "native attachment download",
+    "taxonomy DOM closure and nested children",
+    "bold and italic formatting",
+    "native pagination",
+    "visible navigation and search without JavaScript",
+    "private/draft exclusion",
+    "protected title/body/summary/image/fields with main-only positive entry assertions and deliberate page2 coverage",
+    "protected recent sidebar entries and public thumbnail preservation",
+    "wrong/correct native post and page password",
+    "comment gating",
+    "video aspect ratio and visible audio controls",
+    "all local assets"
+  ],
+  "limits": [
+    "Compared pinned upstream CSS and Hugo templates; no live upstream demo pixel comparison.",
+    "Waline remote client login/submission not tested."
+  ]
+}
