@@ -7,6 +7,33 @@ const coreRequire=createRequire(path.join(core,'package.json'));const adapterReq
 const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 const repository=path.resolve(__dirname,'../..');const site=fs.mkdtempSync(path.join(os.tmpdir(),'button-2-site-'));const port=Number(process.env.BUTTON_2_TEST_PORT)||8913;const origin='http://127.0.0.1:'+port;
 let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
+const boundsChecks = [];
+async function verifyBounds(page, width, variant) {
+  const elements = await page.locator('.site-title, .site-description, #main, .prose').evaluateAll(nodes => nodes.map(node => {
+    const rect = node.getBoundingClientRect();
+    const style = getComputedStyle(node);
+    const visible = node.getClientRects().length > 0 && style.visibility !== 'hidden' && rect.width > 0 && rect.height > 0;
+    const range = document.createRange();
+    range.selectNodeContents(node);
+    const text = range.getBoundingClientRect();
+    return {
+      selector: node.id ? '#' + node.id : node.className,
+      visible, left: rect.left, right: rect.right,
+      textLeft: text.left, textRight: text.right,
+      checkText: node.matches('.site-title, .site-description')
+    };
+  }));
+  boundsChecks.push({width, variant, elements});
+  fs.writeFileSync(path.join(repository, 'verification/button-2/bounds-report.json'), JSON.stringify(boundsChecks, null, 2) + '\n');
+  assert(elements.some(element => element.selector === '#main' && element.visible), variant + ' has visible main content');
+  for (const element of elements.filter(element => element.visible)) {
+    assert(element.left >= -1 && element.right <= width + 1, variant + ' clips ' + element.selector + ': ' + JSON.stringify(element));
+    if (element.checkText) {
+      assert(element.textLeft >= -1 && element.textRight <= width + 1, variant + ' clips branding text: ' + JSON.stringify(element));
+    }
+  }
+}
+
 // Run before the browser snapshots so their normal public fixture is unchanged.
 async function verifyProtectedPost() {
   const saved = db.prepare("SELECT title,summary,content,options FROM fk_post WHERE pathname='hello'").get();
@@ -107,6 +134,7 @@ async function verifyProtectedPost() {
   await page.setViewportSize({width,height:1000});
   for(const route of ['/','/?page=2','/post/hello.html','/page/about.html','/attachment/native-attachment.html','/archives','/categories','/tags','/search.html?keyword=BUTTON-2']){
    const response=await page.goto(origin+route);assert.equal(response.status(),200,route);
+   await verifyBounds(page, width, route);
    const html=await page.content();assert(!html.includes('undefined'),route+' contains undefined');assert(!html.includes('MMM D'),'unsupported date format');assert(!html.includes('PRIVATE_MARKER')&&!html.includes('DRAFT_MARKER'),route+' leaked content');
    if(route.includes('/attachment/')){assert.equal(await page.locator('.attachment-media a[download]').count(),1);assert(await page.locator('.attachment-media img').evaluate(i=>i.complete&&i.naturalWidth>0));}assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),route+' overflow');if (route === '/post/hello.html' || route === '/page/about.html') {
     const media = await page.locator('.prose').evaluate(element => {
@@ -129,10 +157,21 @@ async function verifyProtectedPost() {
   await page.getByRole('link',{name:'下一页',exact:true}).click();await page.waitForURL('**/?page=2');
   await page.goto(origin+'/post/hello.html');for(const sel of ['.prose h3','.prose h4','.prose pre','.prose table','.prose img'])assert(await page.locator(sel).first().isVisible(),sel+' visible');assert(await page.locator('.prose ul').first().evaluate(e=>getComputedStyle(e).listStyleType!=='none'),'list markers');await page.screenshot({path:path.join(evidence,'post-'+width+'.png'),fullPage:true});assert(await page.locator('.nav-items a[href="/archives"]').isVisible());
 
+  await page.goto(origin);
+  const branding = await page.locator('.site-title a, .site-description').evaluateAll(nodes => nodes.map(node => {
+    const text = node.textContent;
+    node.textContent = node.matches('.site-description')
+      ? '这是用于检查长站点描述的示例。A longer site description should wrap without losing words on either side. '.repeat(3)
+      : 'A long native blog title 测试长标题 LongUnbrokenTitleLongUnbrokenTitleLongUnbrokenTitle';
+    return text;
+  }));
+  await page.screenshot({path:path.join(evidence,'branding-stress-'+width+'.png'),fullPage:true});
+  await verifyBounds(page, width, 'long branding');
+  await page.locator('.site-title a, .site-description').evaluateAll((nodes, values) => nodes.forEach((node, index) => {node.textContent = values[index];}), branding);
  }
  for(const pathname of ['private-marker','draft-marker']){const denied=await fetch(origin+'/post/'+pathname+'.html',{redirect:'manual'});assert.equal(denied.status,302);assert.equal(denied.headers.get('location'),'/');}
  db.prepare('UPDATE fk_post SET allow_comment=1 WHERE pathname=?').run('hello');let html=await(await fetch(origin+'/post/hello.html')).text();assert(html.includes('data-comment-config'));assert.equal((html.match(/id="comments"/g)||[]).length,1);
  db.prepare('UPDATE fk_post SET allow_comment=0 WHERE pathname=?').run('hello');assert(!(await(await fetch(origin+'/post/hello.html')).text()).includes('data-comment-config'));
  const nojs=await browser.newContext({javaScriptEnabled:false});const np=await nojs.newPage();await np.setViewportSize({width:390,height:1000});await np.goto(origin);await np.locator('.nav-items a[href="/search.html"]').click();await np.locator('#keyword').fill('BUTTON-2');await np.locator('#main').getByRole('button',{name:'搜索',exact:true}).click();await np.waitForURL('**/search.html?keyword=BUTTON-2');await nojs.close();
- assert.deepEqual(errors,[]);const report={core:coreRequire('./package.json').version,coreRevision:execFileSync('git',['-C',core,'rev-parse','HEAD'],{encoding:'utf8'}).trim(),browser:browser.version(),checks,mediaChecks,passed:['wide post/page video and audio containment with video aspect ratio', 'protected thumbnail HTTP regression and native password unlock', 'actual ZIP installation','18 real SQLite routes','native attachment image/download','long native code containment','native article pagination','visible wrapping navigation without JavaScript','responsive header navigation','search without JavaScript','private/draft exclusion','comment gating'],limits:['Compared pinned upstream CSS and PHP templates; no live upstream demo comparison.','Waline remote client login/submission not tested.']};fs.writeFileSync(path.join(evidence,'report.json'),JSON.stringify(report,null,2)+'\n');fs.copyFileSync(path.join(evidence,'home-1440.png'),path.join(repository,'packages/button-2/screenshot.png'));console.log(JSON.stringify(report));
+ assert.deepEqual(errors,[]);const report={core:coreRequire('./package.json').version,coreRevision:execFileSync('git',['-C',core,'rev-parse','HEAD'],{encoding:'utf8'}).trim(),browser:browser.version(),checks,mediaChecks,boundsChecks,passed:['wide post/page video and audio containment with video aspect ratio', 'protected thumbnail HTTP regression and native password unlock', 'actual ZIP installation','18 real SQLite routes','native attachment image/download','long native code containment','native article pagination','visible wrapping navigation without JavaScript','responsive header navigation','search without JavaScript','private/draft exclusion','comment gating'],limits:['Compared pinned upstream CSS and PHP templates; no live upstream demo comparison.','Waline remote client login/submission not tested.']};fs.writeFileSync(path.join(evidence,'report.json'),JSON.stringify(report,null,2)+'\n');fs.copyFileSync(path.join(evidence,'home-1440.png'),path.join(repository,'packages/button-2/screenshot.png'));console.log(JSON.stringify(report));
 })().catch(e=>{console.error(e);process.exitCode=1}).finally(async()=>{if(browser)await browser.close();if(server)server.kill('SIGTERM');if(db)db.close();console.log('Disposable test site:',site)});
