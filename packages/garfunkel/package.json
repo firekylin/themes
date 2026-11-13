@@ -1,0 +1,36 @@
+{
+  "name": "garfunkel",
+  "title": "Garfunkel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Garfunkel’s prominent title band, raised white cards, Fira Sans/Playfair Display/Crimson Text typography and three-column feed. Demo background photo omitted.",
+  "license": "GPL-2.0-only",
+  "author": "Anders Norén; Firekylin contributors",
+  "homepage": "https://github.com/andersnoren/garfunkel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/garfunkel"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "garfunkel"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
