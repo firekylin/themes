@@ -1,0 +1,54 @@
+{
+  "name": "onepress",
+  "title": "Onepress",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Onepress’s original Source Sans Pro typography, image-led blog list, centered masthead and optional desktop widget sidebar.",
+  "license": "Apache-2.0",
+  "author": "Jeremiah Succeed; Firekylin contributors",
+  "homepage": "https://github.com/jeremyikwuje/onepress",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/onepress"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "onepress"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "sidebarMode",
+      "label": "侧栏模式",
+      "help": "默认显示桌面侧栏；填 none 使用居中单栏。"
+    },
+    {
+      "type": "text",
+      "name": "logoURL",
+      "label": "站点图标 URL",
+      "help": "仅 HTTP(S) 或站内绝对路径。"
+    },
+    {
+      "type": "text",
+      "name": "aboutText",
+      "label": "侧栏介绍",
+      "help": "纯文本；留空使用站点描述。"
+    }
+  ]
+}
