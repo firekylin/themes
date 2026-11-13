@@ -1,0 +1,32 @@
+[
+  {
+    "file": "montserrat-Montserrat[wght].ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/montserrat/Montserrat%5Bwght%5D.ttf",
+    "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7"
+  },
+  {
+    "file": "montserrat-OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/montserrat/OFL.txt",
+    "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+  },
+  {
+    "file": "cookie-Cookie-Regular.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/cookie/Cookie-Regular.ttf",
+    "sha256": "9daf3cc9e5efe1b65094cdf1f14729ef6f07a70c27ee0679bf7f544a828b080e"
+  },
+  {
+    "file": "cookie-OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/cookie/OFL.txt",
+    "sha256": "c832a4230a713d080aa2f2544d9a298ed911f689b2c48f7f276a0196b16d2b8a"
+  },
+  {
+    "file": "volkhov-Volkhov-Italic.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/volkhov/Volkhov-Italic.ttf",
+    "sha256": "027360a4bfabcfcf49f95c9f9944b2147cd95c3a72dcb2a66eac7e7ef6e714f1"
+  },
+  {
+    "file": "volkhov-OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/volkhov/OFL.txt",
+    "sha256": "1c43e70c49ef7a9b35fcb3758fec8ec5969ff1274c4834b4466b9014f3b9f55f"
+  }
+]
