@@ -1,0 +1,58 @@
+{
+  "theme": "shoreditch",
+  "version": "0.1.1",
+  "coreRevision": "6b7c95cf43e0c6af70c71ac1e537d75a982e407e",
+  "browser": "NOT RUN: HTTP-only partial verification",
+  "checks": [
+    {
+      "mode": "HTTP",
+      "route": "/",
+      "result": "protected metadata absent"
+    },
+    {
+      "mode": "HTTP",
+      "route": "/?page=2",
+      "result": "protected metadata absent"
+    },
+    {
+      "mode": "HTTP",
+      "route": "/search.html?keyword=cover-fixture",
+      "result": "protected metadata absent"
+    },
+    {
+      "mode": "HTTP",
+      "route": "/cate/notes",
+      "result": "protected metadata absent"
+    },
+    {
+      "mode": "HTTP",
+      "route": "/tag/life",
+      "result": "protected metadata absent"
+    },
+    {
+      "mode": "HTTP",
+      "route": "/archives",
+      "result": "protected metadata absent"
+    },
+    {
+      "mode": "HTTP",
+      "route": "/post/protected-post.html",
+      "result": "protected metadata absent"
+    },
+    {
+      "mode": "HTTP",
+      "route": "/page/protected-page.html",
+      "result": "protected metadata absent"
+    },
+    {
+      "mode": "HTTP",
+      "route": "/post/protected-post.html",
+      "result": "wrong/correct password and subsequent GET verified"
+    },
+    {
+      "mode": "HTTP",
+      "route": "/page/protected-page.html",
+      "result": "wrong/correct password and subsequent GET verified"
+    }
+  ]
+}
