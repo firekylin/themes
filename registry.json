@@ -3622,6 +3622,20 @@
     },
     {
       "type": "theme",
+      "name": "shapez-theme",
+      "id": "shapez-theme",
+      "version": "0.1.0",
+      "title": "Shapez",
+      "description": "Shapez’s original curved SVG hero, teal/orange date-circle timeline, responsive side navigation and text alignment controls.",
+      "download": "https://github.com/firekylin/themes/releases/download/shapez-theme-v0.1.0/shapez-theme-0.1.0.zip",
+      "integrity": "sha512-a3ExMpD/4KUyNxQ6yHciCGa/x/4azSQb+XzGWnWEViFQj7y2TI/fO2jDFE0LzaUlAaOWWfSIEbY/juENYTg2pg==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/shapez-theme/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "shoka",
       "id": "shoka",
       "version": "0.1.1",
