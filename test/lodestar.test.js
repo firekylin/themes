@@ -6,3 +6,11 @@ test('Lodestar escapes titles, rejects active cover URLs, preserves protected bo
 test('Lodestar delegates comments and keeps search filters in pagination',async()=>{assert(!(await render('lodestar','post',{comments:false})).includes('id="comments"'));const html=await render('lodestar','search',{request:'/search.html?keyword=a%26b'});assert.match(html,/keyword=a%26b&amp;page=2/);});
 
 test('lodestar renders attachment media and rejects active file URLs',async()=>{const {context}=require('./port-fixture');const {Eta}=require('eta');const path=require('node:path');for(const [mime,element] of [['image/png','img'],['audio/mpeg','audio'],['video/mp4','video'],['application/pdf',null]]){const ctx=context('lodestar','attachment');const archive=await ctx.widget('Widget_Archive');archive.stack[0].options={attachment:{mime,url:'/uploads/file',name:'Download file'}};const html=await new Eta({views:path.join(__dirname,'../packages/lodestar'),varName:'firekylin'}).renderAsync('attachment',ctx);assert.match(html,/href="\/uploads\/file" download/);if(element)assert(html.includes('<'+element+' '));}const ctx=context('lodestar','attachment');(await ctx.widget('Widget_Archive')).stack[0].options={attachment:{mime:'image/png',url:'javascript:alert(1)'}};const html=await new Eta({views:path.join(__dirname,'../packages/lodestar'),varName:'firekylin'}).renderAsync('attachment',ctx);assert(!html.includes('javascript:'));});
+
+test('Lodestar constrains native article video and audio without flattening audio controls',()=>{
+ const fs=require('node:fs'),path=require('node:path');
+ const css=fs.readFileSync(path.join(__dirname,'../packages/lodestar/res/css/theme.css'),'utf8');
+ assert.match(css,/\.prose video,\.prose audio\{max-width:100%\}/);
+ assert.match(css,/\.prose video\{height:auto\}/);
+ assert.doesNotMatch(css,/\.prose audio[^}]*height:auto/);
+});
