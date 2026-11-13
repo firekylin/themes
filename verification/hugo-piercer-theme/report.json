@@ -99,6 +99,8 @@
     "bounded public article tag metadata",
     "keyboard and no-JS native disclosure menu",
     "original desktop article padding",
+    "directory and main/footer DOM containment",
+    "700px strong/em/table semantics",
     "safe configured hero and article cover URLs",
     "taxonomy headings and footer settings",
     "actual ZIP installation",

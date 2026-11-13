@@ -1,7 +1,7 @@
 {
   "name": "hugo-piercer-theme",
   "title": "Piercer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Piercer’s original Dracula palette, native disclosure menu, hero, full-width article cards and colored separators.",
   "license": "MIT",
