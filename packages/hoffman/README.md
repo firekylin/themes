@@ -10,6 +10,6 @@ WordPress Customizer, arbitrary widgets, Gutenberg blocks, WooCommerce, post-for
 
 Editable CSS and Eta sources are included in the installed ZIP. No build step is required.
 
-## 0.1.1 privacy correction
+## 0.1.2 privacy correction
 
 Password-protected list rows no longer expose `featuredImage` URLs. Firekylin's native redacted title is treated conservatively alongside the protection flag/hash because list redaction can retain other theme metadata. A public article literally titled `此内容被密码保护` also has its listing thumbnail suppressed. Public thumbnails and native post/page password unlocking remain available. No core or upstream assets were changed.

@@ -1,6 +1,6 @@
 {
   "theme": "hoffman",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "coreRevision": "6b7c95cf43e0c6af70c71ac1e537d75a982e407e",
   "browser": "NOT RUN: HTTP-only partial verification",
   "checks": [

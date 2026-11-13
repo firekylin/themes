@@ -1,6 +1,6 @@
-# Hoffman 0.1.1 protected-cover regression
+# Hoffman 0.1.2 protected-cover regression
 
-The 0.1.0 list template read `options.featuredImage` after the native model had
+The 0.1.1 list template read `options.featuredImage` after the native model had
 redacted the protected title, summary and content and removed the password hash.
 That model preserves unrelated options. The installed SQLite site's home page
 therefore emitted `/themes/hoffman/res/SECRET_PHOTO.svg` before this fix.
@@ -18,7 +18,7 @@ Local evidence against core `6b7c95cf43e0c6af70c71ac1e537d75a982e407e`:
   the cover survives redaction before the template is rendered.
 - Four list-variant regressions plus that real-core regression fail before the
   fix and all 17 theme tests pass afterward with real core Widgets enabled.
-- `scripts/check-protected-covers.cjs hoffman` builds and installs the 0.1.1 ZIP
+- `scripts/check-protected-covers.cjs hoffman` builds and installs the 0.1.2 ZIP
   into a disposable real SQLite site. HTTP checks pass for home, page 2, search,
   category, tag, archives, protected post/page, incorrect passwords, successful
   passwords and fresh GETs after unlocking. Public covers remain visible.
@@ -28,6 +28,6 @@ Local evidence against core `6b7c95cf43e0c6af70c71ac1e537d75a982e407e`:
   flows and 1440/390px layouts, then the existing visual integration suite. Its
   generated reports are uploaded as the run's evidence artifact.
 
-The historical `report.json` and screenshots describe the earlier 0.1.0 visual
+The historical `report.json` and screenshots describe the earlier 0.1.1 visual
 verification, not this privacy correction. Consult current-head CI for current
 browser results.
