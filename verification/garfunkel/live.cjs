@@ -71,7 +71,24 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
   }
   await page.goto(origin);await page.locator('.native-nav a[href="/archives"]').click();await page.waitForURL('**/archives');assert(await page.locator('.directory').evaluate(e=>getComputedStyle(e).backgroundColor==='rgb(255, 255, 255)'),'readable directory surface');await page.goto(origin);await page.locator('.native-nav a[href="/archives"]').click();await page.waitForURL('**/archives');await page.goto(origin);assert.equal(await page.locator('.entry').count(),10);assert(await page.locator('#main').evaluate(e=>e.getBoundingClientRect().width>280),'usable main width');await page.evaluate(()=>Promise.all(document.getAnimations().filter(a=>a.effect.getTiming().iterations!==Infinity).map(a=>a.finished.catch(()=>{}))));await page.screenshot({path:path.join(evidence,'home-'+width+'.png'),fullPage:true});
   await page.getByRole('link',{name:'下一页',exact:true}).click();await page.waitForURL('**/?page=2');
-  await page.goto(origin+'/post/hello.html');for(const sel of ['.prose h3','.prose h4','.prose pre','.prose table','.prose img'])assert(await page.locator(sel).first().isVisible(),sel+' visible');assert(await page.locator('.prose ul').first().evaluate(e=>getComputedStyle(e).listStyleType!=='none'),'list markers');await page.screenshot({path:path.join(evidence,'post-'+width+'.png'),fullPage:true});assert(await page.locator('.nav-items a[href="/archives"]').isVisible());
+  await page.goto(origin+'/post/hello.html');
+  const codeContrast = await page.locator('.prose pre code').evaluate(element => {
+    const code = getComputedStyle(element);
+    const panel = getComputedStyle(element.closest('pre'));
+    const luminance = color => {
+      const values = color.match(/[\d.]+/g).slice(0, 3).map(Number).map(value => {
+        value /= 255;
+        return value <= .04045 ? value / 12.92 : ((value + .055) / 1.055) ** 2.4;
+      });
+      return values[0] * .2126 + values[1] * .7152 + values[2] * .0722;
+    };
+    const foreground = luminance(code.color);
+    const background = luminance(panel.backgroundColor);
+    return {background: code.backgroundColor, ratio: (Math.max(foreground, background) + .05) / (Math.min(foreground, background) + .05)};
+  });
+  assert.equal(codeContrast.background, 'rgba(0, 0, 0, 0)');
+  assert(codeContrast.ratio >= 4.5, 'fenced code contrast at least 4.5:1');
+  for(const sel of ['.prose h3','.prose h4','.prose pre','.prose table','.prose img'])assert(await page.locator(sel).first().isVisible(),sel+' visible');assert(await page.locator('.prose ul').first().evaluate(e=>getComputedStyle(e).listStyleType!=='none'),'list markers');await page.screenshot({path:path.join(evidence,'post-'+width+'.png'),fullPage:true});assert(await page.locator('.nav-items a[href="/archives"]').isVisible());
 
  }
  for(const pathname of ['private-marker','draft-marker']){const denied=await fetch(origin+'/post/'+pathname+'.html',{redirect:'manual'});assert.equal(denied.status,302);assert.equal(denied.headers.get('location'),'/');}

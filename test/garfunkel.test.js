@@ -54,3 +54,8 @@ test('garfunkel constrains wide native post and page media', async () => {
     assert.match(html, /<audio controls style="width:1280px">/);
   }
 });
+
+test('Garfunkel keeps fenced-code contrast separate from inline code', () => {
+  const css = require('node:fs').readFileSync(require('node:path').join(__dirname, '../packages/garfunkel/res/css/theme.css'), 'utf8');
+  assert.match(css, /\.prose pre code\s*\{\s*background: transparent;\s*color: inherit;/);
+});

@@ -3665,3 +3665,9 @@ body{overflow-wrap:anywhere}.native-skip{position:absolute;top:-100px}.native-sk
 .prose video {
   height: auto;
 }
+
+/* Fenced code uses the dark preformatted panel, not inline-code shading. */
+.prose pre code {
+  background: transparent;
+  color: inherit;
+}
