@@ -1,0 +1,5 @@
+<% const archive=firekylin.archive;let count=0; %><% while(archive.next()){count++;
+const protectedPost = archive.row?.password_protected ||
+  archive.row?.options?.postPasswordHash || archive.title() === '此内容被密码保护';
+const cover = protectedPost ? '' : String(archive.row?.options?.featuredImage || '');
+ %><article class="post hentry entry native-hero"><% if(cover && /^(?:https?:\/\/|\/(?!\/))/i.test(cover)){ %><img class="native-cover" src="<%= cover %>" alt="<%= archive.title() %>" loading="lazy"><% } %><div class="native-hero-copy"><header class="entry-header"><h2 class="entry-title"><a href="<%= archive.permalink %>"><%= archive.title() %></a></h2></header><div class="entry-summary"><p><%= archive.excerpt(300) %></p></div><footer class="entry-footer"><div class="entry-meta"><time><%= archive.date('YYYY-MM-DD') %></time></div></footer></div></article><% }if(!count){ %><p>暂无文章。</p><% } %>
