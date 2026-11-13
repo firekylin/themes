@@ -57,6 +57,18 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
    }
    checks.push({width,route,status:response.status()});
   }
+  await page.goto(origin);
+  const visibleBounds = await page.evaluate(() => {
+    const selectors = '#main, .blog-title, .blog-description, .blog-subtitle, #site-title, #site-description, .site-title, .site-description';
+    return [...document.querySelectorAll(selectors)].map(element => {
+      const rect = element.getBoundingClientRect();
+      return {label: element.id || element.className, left: rect.left, right: rect.right, width: rect.width, height: rect.height};
+    }).filter(rect => rect.width > 0 && rect.height > 0);
+  });
+  assert(visibleBounds.length >= 2, 'main and title bounds are inspected');
+  for (const rect of visibleBounds) {
+    assert(rect.left >= -1 && rect.right <= width + 1, width + ' ' + rect.label + ' stays inside the viewport');
+  }
   await page.goto(origin);await page.locator('.native-nav a[href="/archives"]').click();await page.waitForURL('**/archives');await page.goto(origin);assert.equal(await page.locator('.entry').count(),10);assert(await page.locator('#main').evaluate(e=>e.getBoundingClientRect().width>280),'usable main width');await page.evaluate(()=>Promise.all(document.getAnimations().filter(a=>a.effect.getTiming().iterations!==Infinity).map(a=>a.finished.catch(()=>{}))));await page.screenshot({path:path.join(evidence,'home-'+width+'.png'),fullPage:true});
   await page.getByRole('link',{name:'下一页',exact:true}).click();await page.waitForURL('**/?page=2');
   await page.goto(origin+'/post/hello.html');for(const sel of ['.prose h3','.prose h4','.prose pre','.prose table','.prose img'])assert(await page.locator(sel).first().isVisible(),sel+' visible');assert(await page.locator('.prose ul').first().evaluate(e=>getComputedStyle(e).listStyleType!=='none'),'list markers');await page.screenshot({path:path.join(evidence,'post-'+width+'.png'),fullPage:true});assert(await page.locator('.nav-items a[href="/archives"]').isVisible());
