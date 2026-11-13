@@ -66,6 +66,7 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
      assert.equal(await page.locator('.taxonomy-list > li').count(),1);
      assert.equal(await page.locator('.taxonomy-list > li > ul > li').count(),1);
      assert.equal(await page.locator('a[href="/cate/child"]').textContent(),'子分类');
+     await page.screenshot({path:path.join(evidence,'categories-'+width+'.png'),fullPage:true});
     }
     if(route.includes('/attachment/')){
      assert.equal(await page.locator('.attachment-media a[download]').count(),1);
@@ -126,7 +127,7 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
   const bp=await blocked.newPage();await bp.goto(origin);await bp.locator('#theme-toggle').click();assert(await bp.locator('html').evaluate(e=>e.classList.contains('dark')));await blocked.close();
   const nojs=await browser.newContext({javaScriptEnabled:false});
   const np=await nojs.newPage();await np.setViewportSize({width:390,height:1000});await np.goto(origin);
-  await np.locator('.nav-items a[href="/search.html"]').click();await np.locator('#keyword').fill('PROFILE');await np.locator('#main').getByRole('button',{name:'搜索',exact:true}).click();await np.waitForURL('**/search.html?keyword=PROFILE');await nojs.close();
+  await np.locator('.nav-items a[href="/search.html"]').click();await np.locator('#keyword').fill('PROFILE');await np.locator('#main').getByRole('button',{name:'搜索',exact:true}).click();await np.waitForURL('**/search.html?keyword=PROFILE');await np.evaluate(()=>document.fonts.ready);await np.screenshot({path:path.join(evidence,'search-nojs-390.png'),fullPage:true});await nojs.close();
  }
  for(const pathname of ['private-marker','draft-marker']){const denied=await fetch(origin+'/post/'+pathname+'.html',{redirect:'manual'});assert.equal(denied.status,302);assert.equal(denied.headers.get('location'),'/');}
  db.prepare('UPDATE fk_post SET allow_comment=1 WHERE pathname=?').run('hello');
