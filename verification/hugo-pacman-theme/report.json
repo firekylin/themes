@@ -95,6 +95,8 @@
     }
   ],
   "passed": [
+    "directory layout DOM containment",
+    "post/page/attachment computed bold and italic emphasis",
     "original coral masthead and blue summary rows",
     "real native category and tag sidebar",
     "keyboard sidebar toggle and mobile restoration",
