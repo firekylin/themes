@@ -95,6 +95,8 @@ importers:
 
   packages/hugo-lamp: {}
 
+  packages/hugo-profile: {}
+
   packages/simple-style: {}
 
   packages/hugo-terrassa-theme: {}
