@@ -149,6 +149,8 @@ importers:
 
   packages/academic-cv: {}
 
+  packages/twentyseventeen: {}
+
   packages/solo: {}
 
   packages/akina: {}
