@@ -1,0 +1,4 @@
+<% const archive = firekylin.archive; %>
+<div class="entry-meta"><%~ include('./icon', {name:'calendar'}) %> <time datetime="<%= archive.date('YYYY-MM-DD') %>"><%= archive.date('YYYY-MM-DD') %></time>
+<% if ((archive.row.tag || []).length) { %><div class="entry-tags"><%~ include('./icon', {name:'tag'}) %>
+<% (archive.row.tag || []).forEach(t => { %><a class="btn btn-sm btn-outline-dark tag-btn" href="/tag/<%= t.pathname %>"><%= t.name %></a> <% }); %></div><% } %></div>
