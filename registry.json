@@ -1749,11 +1749,11 @@
       "type": "theme",
       "name": "hugo-piercer-theme",
       "id": "hugo-piercer-theme",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Piercer",
       "description": "Piercer’s original Dracula palette, native disclosure menu, hero, full-width article cards and colored separators.",
-      "download": "https://github.com/firekylin/themes/releases/download/hugo-piercer-theme-v0.1.0/hugo-piercer-theme-0.1.0.zip",
-      "integrity": "sha512-78s1De39cFcGel2snkDOAFaiaFiEcBh620EGb+BxGnHr4u4L0+6teIlDDjx6e1PdZFhbIqigKjRKyoyXP3vTnw==",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-piercer-theme-v0.1.1/hugo-piercer-theme-0.1.1.zip",
+      "integrity": "sha512-ffzo3hgTa0pLkg7pzd79Px8UIr9H/NOtrC82e2/5WOZkbXOP1uN2Z4rOmAA4CxBWVHDyIf6J0mL6/OkinRwpRw==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-piercer-theme/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
