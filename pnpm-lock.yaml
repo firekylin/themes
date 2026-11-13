@@ -353,6 +353,8 @@ importers:
 
   packages/zola-oceanic-zen: {}
 
+  packages/forty: {}
+
   packages/icarus: {}
 
   packages/icefox: {}

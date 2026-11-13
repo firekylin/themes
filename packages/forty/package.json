@@ -1,0 +1,36 @@
+{
+  "name": "forty",
+  "title": "Forty",
+  "version": "0.1.0",
+  "private": true,
+  "description": "HTML5 UP Forty: original navy palette, large hero and alternating 40/60 colored image tiles adapted to native blog posts.",
+  "license": "CC-BY-3.0",
+  "author": "AJ / HTML5 UP; MarcusVirg; Firekylin contributors",
+  "homepage": "https://github.com/MarcusVirg/forty",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/forty"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "forty"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}
