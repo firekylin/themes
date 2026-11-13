@@ -1260,6 +1260,20 @@
     },
     {
       "type": "theme",
+      "name": "forty",
+      "id": "forty",
+      "version": "0.1.0",
+      "title": "Forty",
+      "description": "HTML5 UP Forty: original navy palette, large hero and alternating 40/60 colored image tiles adapted to native blog posts.",
+      "download": "https://github.com/firekylin/themes/releases/download/forty-v0.1.0/forty-0.1.0.zip",
+      "integrity": "sha512-mvimNPL6qPX5bFQibzeZa5B7//95ve4Sko46p5rPZgI8VMQXXzTJb94SHTj7xTEDm2fSpnmpWAHL6kv3z/c34g==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/forty/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "frost",
       "id": "frost",
       "version": "0.1.0",
