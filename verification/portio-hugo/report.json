@@ -95,6 +95,7 @@
     }
   ],
   "passed": [
+    "desktop search three-column layout, mobile stacking and pagination outside grid",
     "original three-column blog cards and mobile single column",
     "floating 40px offset title panels and long title flow",
     "original Yeseva/Poppins typography and 710px reading column",
