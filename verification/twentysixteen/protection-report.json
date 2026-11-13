@@ -1,0 +1,56 @@
+{
+  "theme": "twentysixteen",
+  "coreRevision": "6b7c95cf43e0c6af70c71ac1e537d75a982e407e",
+  "privacy": {
+    "checks": [
+      {
+        "route": "/",
+        "status": 200,
+        "protectedRecordInMain": true,
+        "confidentialDataAbsent": true
+      },
+      {
+        "route": "/?page=2",
+        "status": 200,
+        "protectedRecordInMain": true,
+        "confidentialDataAbsent": true
+      },
+      {
+        "route": "/search.html?keyword=SECRET",
+        "status": 200,
+        "protectedRecordInMain": true,
+        "confidentialDataAbsent": true
+      },
+      {
+        "route": "/cate/notes",
+        "status": 200,
+        "protectedRecordInMain": true,
+        "confidentialDataAbsent": true
+      },
+      {
+        "route": "/tag/life",
+        "status": 200,
+        "protectedRecordInMain": true,
+        "confidentialDataAbsent": true
+      },
+      {
+        "route": "/archives",
+        "status": 200,
+        "protectedRecordInMain": true,
+        "confidentialDataAbsent": true
+      },
+      {
+        "route": "/post/hello.html",
+        "status": 200,
+        "protectedRecordInMain": true,
+        "confidentialDataAbsent": true
+      }
+    ],
+    "publicCoversPreserved": true,
+    "passwordFlows": [
+      "wrong rejected",
+      "correct unlocked"
+    ],
+    "browserChecks": "not run locally"
+  }
+}

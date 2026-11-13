@@ -3983,3 +3983,13 @@ body{overflow-wrap:anywhere}.native-skip{position:absolute;top:-100px}.native-sk
 .native-columns{display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:60px}.native-main .entry-content{float:none;width:auto}.native-main .entry-header{margin:0 0 24px}.native-main .entry-meta{float:none;width:auto;margin:16px 0}.native-main .post-thumbnail{margin:24px 0}.native-detail .post-title{font-size:2em}.native-main .hentry{margin-bottom:50px}@media(max-width:800px){.native-columns{display:block}.native-sidebar{display:none}}.native-columns:before,.native-columns:after{display:none}.native-main{min-width:0;width:100%}.native-main .hentry{width:100%}.native-main .entry-header,.native-main .entry-content{margin-left:0;margin-right:0}.native-columns{clear:both}
 
 .pagination:before,.pagination:after{display:none;content:none}
+
+/* Contain native media in both post and page reading columns. */
+.prose video,
+.prose audio {
+  max-width: 100%;
+}
+
+.prose video {
+  height: auto;
+}
