@@ -527,6 +527,10 @@
     "hash": "17b4196301d69a081b5e34ffd91180ba6da39606d956007740bf0640bb7fae3c",
     "id": "hugo-primer"
   },
+  "hugo-profile": {
+    "hash": "442c973585d30f777181821d9d44faf67c230fadd56678f02f4841ca336eb1cf",
+    "id": "hugo-profile"
+  },
   "hugo-researcher": {
     "hash": "6a588fa7eb44fbd7e6dac09bc01d7f13342d064726a497212574f3367f57fc73",
     "id": "hugo-researcher"

@@ -1845,6 +1845,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-profile",
+      "id": "hugo-profile",
+      "version": "0.1.0",
+      "title": "Hugo Profile",
+      "description": "Hugo Profile’s blue-gray card grid, Alata/Lora typography, profile hero and article sidebar, adapted to native Firekylin.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-profile-v0.1.0/hugo-profile-0.1.0.zip",
+      "integrity": "sha512-kgQL6RVEqjSTsVRmVkU58c3SOhCBDaM6ZHEe732sylHNHvhX1fJP1ZngDu0T78ISc3z485FcGdC1FCEmMr5RFQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-profile/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-researcher",
       "id": "hugo-researcher",
       "version": "0.1.1",
