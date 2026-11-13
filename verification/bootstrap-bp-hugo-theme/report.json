@@ -99,6 +99,7 @@
     "real safe covers and bounded category/tag metadata",
     "original dark palette and configurable single-column feed",
     "taxonomy headings and footer settings",
+    "protected listing/search/taxonomy cover absent from HTML and network",
     "actual ZIP installation",
     "18 real SQLite routes",
     "native attachment image/download",

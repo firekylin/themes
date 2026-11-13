@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-bp-hugo-theme",
   "title": "Bootstrap-BP",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Bootstrap-BP’s original card layouts, category kickers, metadata, tags and four compiled palettes.",
   "license": "MIT",
