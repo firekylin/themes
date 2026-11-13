@@ -699,6 +699,8 @@ importers:
 
   packages/minimal: {}
 
+  packages/canard: {}
+
   packages/minima: {}
 
   packages/hugo-theme-dopetrope: {}
