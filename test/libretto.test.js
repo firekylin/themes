@@ -81,3 +81,9 @@ test('Libretto conservatively hides a public cover with the redacted sentinel ti
   });
   assert(!html.includes('PUBLIC_SENTINEL_PHOTO'));
 });
+
+test('Libretto constrains native embedded audio and video without distorting video', () => {
+  const css = fs.readFileSync(path.join(__dirname, '../packages/libretto/res/css/theme.css'), 'utf8');
+  assert.match(css, /\.prose video,\s*\.prose audio\s*\{\s*max-width: 100%;/);
+  assert.match(css, /\.prose video\s*\{\s*height: auto;/);
+});
