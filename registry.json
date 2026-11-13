@@ -1539,11 +1539,11 @@
       "type": "theme",
       "name": "hoffman",
       "id": "hoffman",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "title": "Hoffman",
       "description": "Hoffman’s centered masthead, broad featured media, inset narrow post body, Raleway titles and Vollkorn reading face.",
-      "download": "https://github.com/firekylin/themes/releases/download/hoffman-v0.1.1/hoffman-0.1.1.zip",
-      "integrity": "sha512-8L7da2IDX6roXaVLFQVQLYw6qzsE4r/8c5E5Zl1ESCAzYN9z68iDx5XRtIVoR8zuqio5J1TBc2/smEVUtBM2RA==",
+      "download": "https://github.com/firekylin/themes/releases/download/hoffman-v0.1.2/hoffman-0.1.2.zip",
+      "integrity": "sha512-KlOwCaBg3iS7/kXL6ZF7y4JW8UzmhITKY2puVfEq7mcy/GY2aKp5MS8CsDV7VaIgBHvmCnAyTbaHvh0f3p5tww==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hoffman/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
@@ -3568,11 +3568,11 @@
       "type": "theme",
       "name": "shoreditch",
       "id": "shoreditch",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "title": "Shoreditch",
       "description": "Shoreditch’s blue-accented professional header, broad featured images, clean post typography and right sidebar, adapted from its blog template.",
-      "download": "https://github.com/firekylin/themes/releases/download/shoreditch-v0.1.0/shoreditch-0.1.0.zip",
-      "integrity": "sha512-TYc84J8hrYgT3ECmlzSd0UJ16CIyWruySzmCLnsxjycWEKrHln909GSSTYXx6C5CdjXtfVyh5ad+i5ik2r2n7Q==",
+      "download": "https://github.com/firekylin/themes/releases/download/shoreditch-v0.1.1/shoreditch-0.1.1.zip",
+      "integrity": "sha512-uK4zfMBZxatFCLDjczFMthIIDqk9GwETgOp27AmHYeiu/k4q07HFWWkeLFZ4Rmp5E+4wK9Xpew+vNs2edkCffQ==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/shoreditch/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
