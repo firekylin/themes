@@ -677,6 +677,8 @@ importers:
 
   packages/charaka-hugo-theme: {}
 
+  packages/portio-hugo: {}
+
   packages/chirpy: {}
 
   packages/monochrome: {}

@@ -1,0 +1,43 @@
+//
+// Colors
+//
+
+// General
+$primary: #5d78ff;
+$secondary: #282f49;
+// Text
+$headings-color: #282f49;
+$body-color: #7e7e8a;
+
+//
+// Typography
+//
+
+// Fonts
+/* Google Fonts replaced by local OFL font files. */
+$font-family-base: "Poppins", sans-serif;
+$headings-font-family: "Yeseva One", cursive;
+
+// Size
+$font-size-base: 1.125rem; // 18px
+$h1-font-size: 60px;
+$h2-font-size: 50px;
+$h3-font-size: 30px;
+$h4-font-size: 25px;
+$h5-font-size: 22px;
+$h6-font-size: 16px;
+
+// Spacing
+$headings-margin-bottom: 1.5rem;
+$line-height-base: 1.75;
+
+// Misc
+$link-hover-decoration: none;
+
+//
+// Bootstrap-equivalent variables (no longer importing Bootstrap SCSS source)
+//
+$white:        #fff;
+$dark:         #343a40;
+$light:        #f8f9fa;
+$font-size-lg: $font-size-base * 1.25;

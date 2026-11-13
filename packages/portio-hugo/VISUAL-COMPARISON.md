@@ -1,0 +1,3 @@
+# Visual adaptation
+
+Reference: pinned layouts/blog/list.html and single.html, dedicated blog/page-title/single-post/footer Sass and upstream screenshots. Retained 3-column desktop cards, 90%-wide rounded covers, 40px offset white shadowed title panels, line/date ornament, Yeseva headings, Poppins text, central breadcrumb heading and narrow reading column. Mobile becomes one column. Demo art is excluded; native fixture imagery is generated solely for verification. Title panels retain visible overlap using normal flow so long titles stay safe. Native desktop/mobile/tablet screenshots and actual geometry/semantic tests document the adaptation; no live pixel comparison performed.
