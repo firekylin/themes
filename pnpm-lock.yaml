@@ -517,6 +517,8 @@ importers:
 
   packages/puock: {}
 
+  packages/hugo-theme-sk3: {}
+
   packages/risotto: {}
 
   packages/sagiri: {}
