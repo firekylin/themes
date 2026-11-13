@@ -401,6 +401,8 @@ importers:
 
   packages/hydejack: {}
 
+  packages/independent-publisher-2: {}
+
   packages/kratos: {}
 
   packages/hugo-cards: {}
