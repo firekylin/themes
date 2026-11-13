@@ -1,0 +1,7 @@
+# Axiom for Firekylin
+
+A native adaptation of Jhaura Wachsman’s Axiom, preserving its original generated Tailwind CSS, white shadowed header, 680px editorial summary/reading column, 160px desktop thumbnails, serif article titles, author row and wide feature images. Original source styles/configuration are retained. The theme and adaptation are CC-BY-SA-4.0, with full license, author/source attribution and modification notice; bundled Tailwind/modern-normalize remain MIT.
+
+Native posts/pages, archive/taxonomy/search, pagination, protected content, comments and attachments are supported. The homepage uses the native public page size and pagination rather than upstream’s seven-entry cutoff. Optional logo and article author-avatar URLs accept site-relative or HTTP(S) images; no demo assets are included. Article covers use native featuredImage. A safe DOM TOC links h2/h3 headings when JavaScript is available; content and navigation remain usable without it. Footer author/text are configurable.
+
+Cloudinary/CDN image processing, search-engine redirects, social sharing, structured-data generation, ad/analytics services, feed generation, Hugo shortcodes and per-page typography overrides are not implemented. Native search replaces upstream external Google search. Original font stacks fall back to installed fonts; no external fonts/scripts are loaded. No live upstream pixel comparison or remote comment submission is claimed.
