@@ -3317,6 +3317,20 @@
     },
     {
       "type": "theme",
+      "name": "onepress",
+      "id": "onepress",
+      "version": "0.1.0",
+      "title": "Onepress",
+      "description": "Onepress’s original Source Sans Pro typography, image-led blog list, centered masthead and optional desktop widget sidebar.",
+      "download": "https://github.com/firekylin/themes/releases/download/onepress-v0.1.0/onepress-0.1.0.zip",
+      "integrity": "sha512-nzm7JV7EcJQA7pV/JaVC9sVpxsFondXATFyyZL7UWEZs+zt9konKGXopSCNdLCfzBYOHTVGE5yuP8FWvXR1y1w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/onepress/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "openblog",
       "id": "openblog",
       "version": "0.1.0",
