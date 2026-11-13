@@ -587,6 +587,8 @@ importers:
 
   packages/pure: {}
 
+  packages/libre-2: {}
+
   packages/mdx: {}
 
   packages/leap-day: {}
