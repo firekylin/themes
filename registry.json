@@ -4571,6 +4571,20 @@
       "engines": {
         "firekylin": ">=2.17.1"
       }
+    },
+    {
+      "type": "theme",
+      "name": "zzo",
+      "id": "zzo",
+      "version": "0.1.0",
+      "title": "Zzo",
+      "description": "Zzo’s boxed technical blog: classic thumbnail summaries, right biography/sidebar, colorful taxonomy chips and five palettes.",
+      "download": "https://github.com/firekylin/themes/releases/download/zzo-v0.1.0/zzo-0.1.0.zip",
+      "integrity": "sha512-Tip17UupWaZG0qlhYz51Ol/WF6PfMosN0FCV4v1CWluQQyH6G1Eklmar8cj1CRZTnIcmTGS1LQTrQdpk8J5bKw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/zzo/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
     }
   ]
 }
