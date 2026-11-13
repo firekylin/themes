@@ -581,6 +581,8 @@ importers:
 
   packages/suka: {}
 
+  packages/toujours: {}
+
   packages/midnight: {}
 
   packages/hugo-theme-anubis: {}
