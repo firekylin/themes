@@ -34,6 +34,9 @@ the default dark palette remains and enhancement-only controls are hidden.
 Post option featuredImage supplies the optional summary thumbnail, with the same
 URL policy. Empty/unsupported image URLs omit the image. All metadata is escaped;
 article HTML and password forms remain under native Firekylin control.
+The pinned core retains image metadata on redacted protected list rows, so this
+port suppresses thumbnails for its native protected-title sentinel as well as
+explicit password-protected flags/hash fields.
 
 ## Differences and resource audit
 
@@ -49,7 +52,7 @@ See NOTICE.md for retained sources and licenses.
 
 ## Verification
 
-node --test test/zzo.test.js runs 15 checks across all eight template types with populated,
+node --test test/zzo.test.js runs 16 checks across all eight template types with populated,
 empty, hostile and protected fixtures. FIREKYLIN_CORE_PATH can select real widget
 classes. verification/zzo/http.cjs installs an actual built ZIP in a disposable
 SQLite site and checks HTTP routes/privacy/comment gating, explicitly without a

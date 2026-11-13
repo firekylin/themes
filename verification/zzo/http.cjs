@@ -35,5 +35,10 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
  for(const route of ['/post/private-marker.html','/post/draft-marker.html'])assert.equal((await fetch(origin+route,{redirect:'manual'})).status,302);
  db.prepare('UPDATE fk_post SET allow_comment=1 WHERE pathname=?').run('hello');assert((await(await fetch(origin+'/post/hello.html')).text()).includes('data-comment-config'));
  db.prepare('UPDATE fk_post SET allow_comment=0 WHERE pathname=?').run('hello');assert(!(await(await fetch(origin+'/post/hello.html')).text()).includes('data-comment-config'));
- console.log(JSON.stringify({partial:true,browser:'NOT RUN',checks}));
+ // Pinned core redacts titles/summaries but retains other post options in list rows.
+ const password='fixture-unlock-only';const salt=crypto.randomBytes(16);const hash='scrypt$'+salt.toString('base64url')+'$'+crypto.scryptSync(password,salt,32).toString('base64url');db.prepare('UPDATE fk_post SET options=?,title=?,summary=?,content=? WHERE pathname=?').run(JSON.stringify({postPasswordHash:hash,featuredImage:'/SECRET_PHOTO'}),'SECRET_TITLE','SECRET_SUMMARY','SECRET_BODY','hello');
+ for(const route of ['/','/search.html?keyword=SECRET','/cate/notes','/tag/life','/archives','/post/hello.html']){const html=await(await fetch(origin+route)).text();assert(!html.includes('SECRET_PHOTO')&&!html.includes('SECRET_TITLE')&&!html.includes('SECRET_SUMMARY')&&!html.includes('SECRET_BODY'),route+' protected data');if(route==='/post/hello.html')assert(html.includes('protectPassword'));}
+ const wrong=await(await fetch(origin+'/post/hello.html',{method:'POST',headers:{'content-type':'application/x-www-form-urlencoded'},body:'protectPassword=wrong'})).text();assert(wrong.includes('protectPassword'));assert(!wrong.includes('SECRET_BODY'));
+ const unlocked=await(await fetch(origin+'/post/hello.html',{method:'POST',headers:{'content-type':'application/x-www-form-urlencoded'},body:'protectPassword='+password})).text();assert(unlocked.includes('SECRET_BODY'));assert(unlocked.includes('SECRET_TITLE'));
+ console.log(JSON.stringify({partial:true,browser:'NOT RUN',protectedPosts:'PASS: lists, thumbnail, detail, wrong password and native unlock',checks}));
 })().catch(e=>{console.error(e);process.exitCode=1}).finally(async()=>{if(server)server.kill('SIGTERM');if(db)db.close();console.log('Disposable test site:',site)});

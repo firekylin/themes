@@ -20,3 +20,5 @@ test('Zzo accepts only supported thumbnail/photo URLs and escapes settings',asyn
 });
 
 test('Zzo reserves the masthead for the home listing',async()=>{assert.match(await render('zzo','index'),/class="site-header"/);assert(!(await render('zzo','index',{kind:'cate'})).includes('class="site-header"'));for(const page of ['post','page','attachment','archive','search','tag','cate'])assert(!(await render('zzo',page)).includes('class="site-header"'),page);});
+
+test('Zzo suppresses thumbnails for native redacted password-protected posts',async()=>{const {context}=require('./port-fixture');const {Eta}=require('eta');const path=require('node:path');for(const protectedOptions of [{title:'此内容被密码保护',options:{featuredImage:'/PRIVATE_PHOTO'}},{password_protected:true,options:{featuredImage:'/PRIVATE_PHOTO'}},{options:{postPasswordHash:'fixture-hash',featuredImage:'/PRIVATE_PHOTO'}}]){const ctx=context('zzo','index');Object.assign((await ctx.widget('Widget_Archive')).stack[0],protectedOptions);const html=await new Eta({views:path.join(__dirname,'../packages/zzo'),varName:'firekylin'}).renderAsync('index',ctx);assert(!html.includes('PRIVATE_PHOTO'));}});
