@@ -210,13 +210,13 @@ ol {
   padding-left: 3rem;
   margin-left: 0.5rem;
 }
-ol li {
+ol > li {
   margin: 0 0 0.5rem 0;
   counter-increment: my-awesome-counter;
   position: relative;
   padding-left: 0.5rem !important;
 }
-ol li::before {
+ol > li::before {
   content: counter(my-awesome-counter);
   font-size: 1.15rem;
   display: inline-grid;
@@ -234,7 +234,7 @@ ol li::before {
   top: 0.25rem;
   border-right: 2px solid var(--theme);
 }
-ol li.align::before {
+ol > li.align::before {
   top: 1rem;
 }
 
