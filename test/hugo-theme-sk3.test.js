@@ -1,0 +1,8 @@
+'use strict';
+const test=require('node:test'),assert=require('node:assert/strict');
+const {render,pages}=require('./port-fixture');
+for(const page of pages)test('SK3 '+page+' renders populated and empty Widgets',async()=>{for(const empty of [false,true]){const html=await render('hugo-theme-sk3',page,{empty});assert.match(html,/SK3/);assert(!html.includes('undefined'));}});
+test('SK3 escapes titles, rejects active cover URLs, preserves protected body',async()=>{const html=await render('hugo-theme-sk3','index',{hostile:true,config:{profileName:'<script>alert(1)</script>',backgroundImage:'javascript:alert(1)'}});assert(!html.includes('<img src=x onerror'));assert.match(html,/&lt;img/);assert(!html.includes('src="javascript:'));assert.match(await render('hugo-theme-sk3','post',{protected:true}),/protectPassword/);});
+test('SK3 delegates comments and keeps search filters in pagination',async()=>{assert(!(await render('hugo-theme-sk3','post',{comments:false})).includes('id="comments"'));const html=await render('hugo-theme-sk3','search',{request:'/search.html?keyword=a%26b'});assert.match(html,/keyword=a%26b&amp;page=2/);});
+
+test('SK3 palette allowlist and text-only cards',async()=>{const dark=await render('hugo-theme-sk3','index',{config:{palette:'../../bad'}});assert(dark.includes('data-palette="dark"'));assert(!dark.includes('../../bad'));assert(!dark.includes('class="native-cover"'));const light=await render('hugo-theme-sk3','index',{config:{palette:'light'}});assert(light.includes('data-palette="light"'));assert(light.includes('sk3-card box'));assert(light.includes('<details class="sk3-menu">'));});

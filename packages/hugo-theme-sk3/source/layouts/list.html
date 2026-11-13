@@ -1,0 +1,79 @@
+{{define "main"}}
+<div class="main">
+
+	<div></div>
+
+	<!--_index.md-->
+	{{if not .IsHome}}
+	{{with .Title}}
+	<h2>
+		<heading>{{.}}</heading>
+	</h2>
+	{{end}}
+	{{with .Content}}
+	<div>
+		<article>{{.}}</article>
+	</div>
+	{{end}}
+	{{end}}
+
+	<!--$paginator-->
+	{{$p := .Pages}}
+	{{if .IsHome}}
+	{{$p = where site.RegularPages "Type" "in" site.Params.mainSections}}
+	{{if site.Params.enableListLastModify}}
+	{{$p = $p.ByLastmod.Reverse}}
+	{{end}}
+	{{else if eq .Kind "taxonomy"}}
+	{{$p = $p.ByTitle}}
+	{{end}}
+	{{$paginator := .Paginate $p}}
+
+	<div></div>
+
+	<!--pagination-->
+	<div class="sk3-flex sk3-flex-center-h">
+		<sk3-pager>{{partial "pagination.html" .}}</sk3-pager>
+	</div>
+
+	<div></div>
+
+	<!--cards-->
+	<section class="sk3-flex sk3-flex-center-h">
+		{{range $paginator.Pages}}
+		<div class="sk3-card box">
+			<div class="sk3-flex">
+				<a class="sk3-flex-inline" href="{{.RelPermalink}}">
+					<h3>{{.Title}}</h3>
+				</a>
+				{{if site.Params.card.date}}
+				{{if and site.Params.enableListLastModify .Lastmod}}
+				{{with .Lastmod}}<div class="sk3-flex-right sk3-flex-down">{{dateFormat "2006-01-02" .}}</div>{{end}}
+				{{else}}
+				{{with .Date}}<div class="sk3-flex-right sk3-flex-down">{{dateFormat "2006-01-02" .}}</div>{{end}}
+				{{end}}
+				{{end}}
+			</div>
+			{{if site.Params.card.summary}}<div>{{.Summary}}</div>{{end}}
+		</div>
+		{{end}}
+	</section>
+
+	<div></div>
+
+	<!--pagination-->
+	<div class="sk3-flex sk3-flex-center-h">
+		<sk3-pager>{{partial "pagination.html" .}}</sk3-pager>
+	</div>
+
+	<!--social link-->
+	{{if site.Params.sociallink}}
+	<div class="sk3-flex sk3-flex-center-h">
+		{{partial "social-link.html" .}}
+	</div>
+	{{end}}
+
+	<div></div>
+
+</div>
+{{end}}

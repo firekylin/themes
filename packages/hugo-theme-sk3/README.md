@@ -1,0 +1,7 @@
+# SK3 for Firekylin
+
+Port of John Sing Dao Siu's SK3 (Skeleton 3), preserving its original 1200px dark canvas, blue links, white bordered three-card desktop feed, full-width cards below 993px, compact title/subtitle, fixed left navigation drawer and boxed collapsible article contents. Original CSS is retained separately from native adaptations. MIT notices cover SK3 and its same-author SK2 lineage.
+
+Native posts, pages, attachment images/audio/video/downloads, archive, category/tag directories and results, search, pagination and comment gating are supported. The original text-only cards intentionally do not render featuredImage or custom fields, including for protected content. Firekylin supplies native password forms. Footer author/text are configurable; palette allows dark (default) and light using upstream color variables. Native HTML details makes the drawer keyboard accessible and functional without JavaScript; Escape/outside-click close it. Article TOC is generated progressively from h2–h4 and content remains readable without JavaScript.
+
+Hugo shortcodes, last-modified sorting, per-page switches, related/previous/next selection, RSS generation, multilingual/SEO helpers, Font Awesome social icons, sharing, AdSense, Google analytics, Paypal and Iubenda integrations are not ported. Native comments replace Disqus; remote comment login/submission untested. No live upstream demo pixel-parity claim. See verification/hugo-theme-sk3 for actual installed ZIP screenshots and browser checks.

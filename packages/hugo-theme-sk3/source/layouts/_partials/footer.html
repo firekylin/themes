@@ -1,0 +1,22 @@
+<footer class="sk3-flex sk3-flex-center-h sk3-margin-v-full sk3-pad-v-full">
+
+	<div class="sk3-pad-h txt-center-h">
+	{{if site.Copyright}}
+		{{site.Copyright}}
+	{{else}}
+		©
+		{{with site.Params.startdate}}
+		{{dateFormat "2006" .}}-
+		{{- end}}
+		{{- now.Format "2006"}} <a href="/">{{site.Title}}</a>.
+	{{end}}
+	</div>
+	<div class="sk3-pad-h txt-center-h">Power by <a href="//gohugo.io">Hugo</a>.</div>
+	<div class="sk3-pad-h txt-center-h">Theme <a href="//github.com/J-Siu/hugo-theme-sk3/">SK3</a> by <a
+			href="//github.com/J-Siu/">J-Siu</a>.</div>
+
+</footer>
+
+<!--hugo internal template-->
+{{if site.Params.enableOpenGraph}}{{partial "opengraph.html" .}}{{end}}
+{{if site.Params.enableTwitterCard}}{{partial "twitter_cards.html" .}}{{end}}
