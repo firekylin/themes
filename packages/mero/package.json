@@ -1,0 +1,53 @@
+{
+  "name": "mero",
+  "title": "Mero",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Mero’s original dark Bootstrap canvas, yellow links, Overlock type, portrait/About/recent layout and metadata cards.",
+  "license": "MIT",
+  "author": "Darshan Baral; Firekylin contributors",
+  "homepage": "https://github.com/darshanbaral/mero",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/mero"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "mero"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "portraitURL",
+      "label": "个人照片 URL",
+      "help": "可选，站内路径或 HTTP(S) URL。"
+    },
+    {
+      "type": "text",
+      "name": "profileName",
+      "label": "介绍标题"
+    },
+    {
+      "type": "textarea",
+      "name": "introduction",
+      "label": "个人介绍",
+      "help": "纯文本，保留换行。"
+    }
+  ]
+}
