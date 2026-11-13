@@ -1,0 +1,3 @@
+# Design comparison
+
+Reference: pinned layouts/partials/header.html, featured.html, _default/li.html and original SCSS. Preserved peach canvas, thick black offset frame, three-item asymmetric feature grid (one column on mobile), bordered horizontal image cards, hard shadows, narrow article and outlined footer. Native navigation stays visible instead of the upstream overlay; absent covers are readable text cards. Article/table containment, reduced motion and explicit focus indicators are integration fixes. Screenshots are in verification/origin-hugo-theme; no live upstream pixel comparison is claimed.
