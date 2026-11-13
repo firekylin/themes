@@ -479,6 +479,10 @@
     "hash": "7d517ce6705576d3e7fe017edc3d0d2190b6f3c8c60d18cffd056e1439247892",
     "id": "hugo-frais"
   },
+  "hugo-geekblog": {
+    "hash": "7bb68ce32b005f2ac5815d486341e0334681365ad30ffebbaefb3c99e03701fb",
+    "id": "hugo-geekblog"
+  },
   "hugo-hello-programmer-theme": {
     "hash": "400c9919fcc3637c9f8562af43d779b213597a13b70211f6c41fe7a6d16b2960",
     "id": "hugo-hello-programmer-theme"

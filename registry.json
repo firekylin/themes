@@ -1677,6 +1677,20 @@
     },
     {
       "type": "theme",
+      "name": "hugo-geekblog",
+      "id": "hugo-geekblog",
+      "version": "0.1.0",
+      "title": "Hugo Geekblog",
+      "description": "Geekblog’s blue centered masthead, dark outlined navigation, spacious dashed article list and native light/dark reading palettes.",
+      "download": "https://github.com/firekylin/themes/releases/download/hugo-geekblog-v0.1.0/hugo-geekblog-0.1.0.zip",
+      "integrity": "sha512-hV+nyikKHBa5nn6I/MQ2Vm3VqYZzyBLtKdlxrP1JKMLEMwsecwCsK58zxnxojpoks0KzY5XIfX2pYTTQvr7U5w==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/hugo-geekblog/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "hugo-hello-programmer-theme",
       "id": "hugo-hello-programmer-theme",
       "version": "0.1.1",
