@@ -7,7 +7,7 @@ Requires Firekylin 2.17.1 or newer. Install the theme ZIP through Firekylin's th
 ## Preserved design
 
 The 960px boxed canvas, dark Monokai-style default, compact brand/navigation bar,
-centered text masthead, classic 130px thumbnail/summary rows, right 250px author
+home-only centered text masthead, classic 130px thumbnail/summary rows, right 250px author
 biography/search/recent-post column, and colored taxonomy chips follow upstream
 layout Sass and templates. The five Dark, Light, Hacker, Solarized and Kimbie
 palettes are selectable and saved locally. Small-screen summaries use 90px images;
@@ -18,6 +18,8 @@ Native widgets provide public post lists, archive groups, categories/tags and th
 filtered lists, search with preserved-query pagination, post/page content, protected
 content, image/audio/video/file attachments and Firekylin's comment renderer.
 Article headings gain a collapsible local TOC when JavaScript is available.
+Compared with upstream single pages, the biography sidebar is retained beside
+articles and the TOC stays inline; archive groups follow native monthly grouping.
 Without JavaScript, all article content, links, pagination and search remain usable;
 the default dark palette remains and enhancement-only controls are hidden.
 
@@ -47,7 +49,7 @@ See NOTICE.md for retained sources and licenses.
 
 ## Verification
 
-node --test test/zzo.test.js exercises all eight template types with populated,
+node --test test/zzo.test.js runs 15 checks across all eight template types with populated,
 empty, hostile and protected fixtures. FIREKYLIN_CORE_PATH can select real widget
 classes. verification/zzo/http.cjs installs an actual built ZIP in a disposable
 SQLite site and checks HTTP routes/privacy/comment gating, explicitly without a
