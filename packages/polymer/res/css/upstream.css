@@ -1,0 +1,42 @@
+/* Original pdevty Polymer theme styles, MIT 2015; see LICENSE. */
+body{font-family:Roboto,sans-serif}.nav{border-right:1px solid #ccc}
+    .profile{
+      width: 100%;
+      padding-bottom: 20px;
+    }
+    .photo{
+      margin: 20px;
+      display: inline-block;
+      height: 64px; width: 64px;
+      border-radius: 50%;
+    }
+    .article{
+      border: 1px solid #bebebe;
+      padding: 16px;
+      margin: 16px;
+      border-radius: 5px;
+      background-color: #fff;
+    }
+    .title{
+      font-size: 22px;
+      padding: 8px 0 16px;
+    }
+    .description{
+      font-size: 16px;
+      padding-bottom: 8px;
+    }
+    .author{
+      font-size: 16px;
+      padding-left: 20px;
+      color: white;
+    }
+    .design{
+      font-size: 14px;
+    }
+    .copyright{
+      font-size: 16px;
+    }
+    .native-nav a {
+      text-decoration: none;
+      color: #212121;
+    }

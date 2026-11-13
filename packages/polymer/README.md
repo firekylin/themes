@@ -1,0 +1,7 @@
+# Polymer for Firekylin
+
+Native port of pdevty's 2015 Hugo Material theme. Preserves the 256px white drawer, profile/photo area, 256px cover toolbar condensing to 64px on scroll, light-gray canvas, white bordered/rounded article panels, category/title/summary/date/tag order, and pink floating pagination controls. Uses original inline theme styles and locally licensed Roboto. Native HTML/CSS replaces obsolete Polymer HTML imports and webcomponents; component source and full BSD/IP grant remain attributed alongside the theme MIT license.
+
+The drawer stays visible at 1280px and above; smaller screens use a keyboard-accessible details menu with Escape/outside-click close and no-JavaScript support. Optional cover/profile/photo accept HTTP(S) or same-origin absolute paths; default imagery is intentionally absent. Configure authorName and footerText. Text-first article panels do not read featuredImage or custom fields; protected content uses native password forms and suppresses category/tag metadata in the feed.
+
+Supports native posts/pages/attachments, archive, nested categories, tags, search, pagination and comment gating. Hugo previous/next selection, custom feeds, social icon links, analytics, Disqus and remote syntax highlighting are not implemented. Firekylin handles comments/content rendering. The original drawer swipe gesture, Material ripple and Polymer shadow-DOM APIs are replaced by native controls; no legacy runtime is loaded. No live upstream pixel parity or remote comment-login claim.

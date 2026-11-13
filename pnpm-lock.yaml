@@ -503,6 +503,8 @@ importers:
 
   packages/pinghsu: {}
 
+  packages/polymer: {}
+
   packages/poole: {}
 
   packages/dyad-2: {}
