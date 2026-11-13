@@ -7,6 +7,10 @@
     "hash": "c144ff2a12143b9902fba98db71a116f7760c7f948a1916d804388d696e0c4fb",
     "id": "adams"
   },
+  "aether": {
+    "hash": "91948a1fc03221a9259d001947ad45eb469dababe7c0866abac0a2612f88ad9e",
+    "id": "aether"
+  },
   "akina": {
     "hash": "8ce5a0d816cf47691cd7e2232a85aec0549fe805c62254a75ddf0f03373d53d4",
     "id": "akina"
@@ -23,6 +27,10 @@
     "hash": "6e31b45fb60a3a9ca95ac64c2ee6c263039dc4a34f0f0c395f2e33eeef7defd0",
     "id": "ananke"
   },
+  "anatole": {
+    "hash": "9a685a0457ad09a8377fb0a026888fc1c889776cc48324edbf25f10771cb7ebf",
+    "id": "anatole"
+  },
   "anisina": {
     "hash": "236b1b5d28437c029e339242d31fb579f7bbc9a7890f149b5af6823388532d8d",
     "id": "anisina"
@@ -34,6 +42,10 @@
   "aquila": {
     "hash": "7c98bce1805f1582bcd084fd1513d50a3b1486cb9624aebb263dcc3a947fce2b",
     "id": "aquila"
+  },
+  "arabica": {
+    "hash": "ba3f44a6cd10a180f490ce4bcc04be3c78eb6a5ae4e0a2b012d5126bcfe52253",
+    "id": "arabica"
   },
   "archer": {
     "hash": "ae851073583b07537b194952996b22e5299a1dcbc77f80b82671e204e7029884",
@@ -75,6 +87,14 @@
     "hash": "6dd640a4870d9e91bd8f97d45a88571c4b0358f1d2e3db86a5f77a40dcfe8d84",
     "id": "aurora"
   },
+  "bare-hugo-theme": {
+    "hash": "96b7595366feef2ff2bf944d2ac3e3fd692d4c8c22fe7b51bc82e8c701d25b7d",
+    "id": "bare-hugo-theme"
+  },
+  "base16": {
+    "hash": "58ec3035171b6e1237a5f5e51348f1821d4a2db9fa6a9e5d47e33776b0903775",
+    "id": "base16"
+  },
   "basically-basic": {
     "hash": "133c756e8e644b468ef9289153273937614c372f4cbcdc6b9e56a41ca27d0fbd",
     "id": "basically-basic"
@@ -91,9 +111,25 @@
     "hash": "1092dce0b1f08279f97c5404bb91f3b33de094f5e0fe404351b654aab81f10d5",
     "id": "beautiful-jekyll"
   },
+  "beyondnothing": {
+    "hash": "f41a026fdfe05259b2f25195e7e95a3f4ed1a337a27c03060850e256a89accc3",
+    "id": "beyondnothing"
+  },
   "bilberry": {
     "hash": "9ecb2afac66658b985fa1968685dcb947dccc0ac4945c6b638ea89d008bc941e",
     "id": "bilberry"
+  },
+  "binario": {
+    "hash": "0d56ed3c5f23dded64045985d8b4f79c914a797a088259e5d460a8405e029de5",
+    "id": "binario"
+  },
+  "blackburn": {
+    "hash": "70614616e88f1a7938b39cdcac5918cef4a48603b3896a055f5b0d9fce433438",
+    "id": "blackburn"
+  },
+  "blogpaper": {
+    "hash": "c33b0bcde92cf49df76a2a1e7bc3e189b8b0a44e76881dce194e62b46d978b9d",
+    "id": "blogpaper"
   },
   "blowfish": {
     "hash": "b60e29a94f7b454d2bf54528492ce108cbf3069e6db6486989fa03925d938edf",
@@ -139,6 +175,14 @@
     "hash": "a5f787bb7efdc5601af7960da2c25c9a45ea7c0c876303e6a7dafa3edb797f72",
     "id": "chalk"
   },
+  "chaplin": {
+    "hash": "8ac61c0fab7f30c611aec663f58c835afc5ae366102a3673bfc1a30e35645f6a",
+    "id": "chaplin"
+  },
+  "charaka-hugo-theme": {
+    "hash": "b47a7391a7984b980166f41c3fecaa0c1a7011ea833055d4cb909eff84eb043d",
+    "id": "charaka-hugo-theme"
+  },
   "chirpy": {
     "hash": "6a3702c9b1a8251d9e4332e3e3a898627bd0f94052913407542fc6ab33ea73e6",
     "id": "chirpy"
@@ -150,6 +194,10 @@
   "clean-blog": {
     "hash": "5260bf3d61ff924a180f5bbf9d673e3ba19d9ad4bceba3402b4a50b9c445bdb9",
     "id": "clean-blog"
+  },
+  "colordrop": {
+    "hash": "5a0bba7856d9591b768ecf83c09baba459f4bc618a0c7f51041e1b36528c50a0",
+    "id": "colordrop"
   },
   "congo": {
     "hash": "cf4c42fdda1c9a427c4b7877d7713d3f4915c82d2626a0163d0e57d01c0af1c1",
@@ -179,9 +227,17 @@
     "hash": "2c388aa24db77d50c61ee707f15effe9101136a983646c6527c54acf4eb7b857",
     "id": "cupper"
   },
+  "darksimplicity": {
+    "hash": "30519bf642ca7c1b563d7a7934776e313b668cc63e9514d6980809f339a916be",
+    "id": "darksimplicity"
+  },
   "datagov": {
     "hash": "cba2e427a8a5eaef51be3f0a394687b76847e0830b9c95630cfc3a12153c1abc",
     "id": "datagov"
+  },
+  "davis": {
+    "hash": "5386958c242a533ebbc44257d54ed80fdd078b55cfd175c16e40f6816358bb77",
+    "id": "davis"
   },
   "dawn": {
     "hash": "af8bc8af8eb10ee6d8ca7a1b0a09c83f51957eeab5e7e7ba4003fc7b4c0fb4c9",
@@ -190,6 +246,14 @@
   "decent": {
     "hash": "539d443b35f8820434fa27d626e14f989bcb0cb8a7aecec5aa11313f2eaeb1be",
     "id": "decent"
+  },
+  "detox": {
+    "hash": "42170138f86dec41feab688f08922e0280b9923a0e12544486c2a77f91f8c951",
+    "id": "detox"
+  },
+  "devise": {
+    "hash": "888c3ed5cc2a022cd999810c31dcf6a1084436a92c7257133c7d0f9343f4553d",
+    "id": "devise"
   },
   "diary": {
     "hash": "a1b21014245321f16300dc07a869d1e2a71d021b7062f51d6a3af307525a45c8",
@@ -223,9 +287,17 @@
     "hash": "3b4dbb9f0e528cafed5c6f1275a17123f4c5561a49136ee037abe36ea1a12bfc",
     "id": "dux"
   },
+  "dyad-2": {
+    "hash": "84bc087f66dafdec7b188792fb7ae8b7eeb0f1f61c15944ff28e247974f9c40e",
+    "id": "dyad-2"
+  },
   "echo": {
     "hash": "f65c583732b06777a8b84949c7e96a22aec11e86e9c464675735a05684e503a5",
     "id": "echo"
+  },
+  "edidor": {
+    "hash": "81631aca03cc1315e3d4230797c5068734af7f8af929cbc1dcbfcafebf39643f",
+    "id": "edidor"
   },
   "edition": {
     "hash": "c8aaac6677cd685ac6be47c3984c9c2937466800ebc5dc97cbba48d22bb3f95e",
@@ -235,9 +307,33 @@
     "hash": "d05699320798c54cf1966a92f73ccfc93d190410103e0f6ba48ebaa370b25d6f",
     "id": "editorial"
   },
+  "eksell": {
+    "hash": "000949948a3dcfa0d6c5a57c9326f67ff17eba83904b0d724492ed01a092b89b",
+    "id": "eksell"
+  },
+  "elephants": {
+    "hash": "c5d1a5a420839890d1fe4646241ee2e055f553d065250928099908135e546db3",
+    "id": "elephants"
+  },
+  "er": {
+    "hash": "47ea2aba71f98e544ee065f1681453492c3fd23cfb1a936910720a5acc3c6671",
+    "id": "er"
+  },
+  "erblog": {
+    "hash": "377f80452ef089162406f0e4483ab32af8cc4852bf0c0e9ed34123500dfc389e",
+    "id": "erblog"
+  },
+  "etch": {
+    "hash": "4811de40ce67b31b8df1f130b928f7c5ae5f3d9ce23e56ef060429c7e50e7cc5",
+    "id": "etch"
+  },
   "even": {
     "hash": "b1e5565e3435fd02dd6da2c37f3aa0be25afa4fe95296a1c6bccef3342696ede",
     "id": "even"
+  },
+  "ezhil": {
+    "hash": "c9deb3ef17319d6aeef1718fdcb21bc0fdf039664d7b19e9623a3b4ed7618996",
+    "id": "ezhil"
   },
   "fantasy": {
     "hash": "f8dbdb9f3a6c8361b3520bf031527f3122ecd7ab3d751df625558e037d4bdf41",
@@ -255,6 +351,14 @@
     "hash": "14b94b9c2d53f1834451e021eaec4a6e292ae2cb652836a70a9a71c65eb3e3bf",
     "id": "frost"
   },
+  "fukasawa": {
+    "hash": "ea1059fef13278195e7b414938aee9446f83c831647b77068a90307b3e265637",
+    "id": "fukasawa"
+  },
+  "future-imperfect": {
+    "hash": "a4164cd4abce9830f7f937d3524e004b855a81128ef760bd14cbf505783692a3",
+    "id": "future-imperfect"
+  },
   "fuwari": {
     "hash": "79c599171db23731bda8a2016f9ce25366b67b6f83947c3186b1b48f0db025c7",
     "id": "fuwari"
@@ -262,6 +366,18 @@
   "g": {
     "hash": "5f6d2b16ef08fe4082755f61945946f3b346fb9165087aa28a9d6e614b48e96c",
     "id": "g"
+  },
+  "gazette": {
+    "hash": "3642a0a452986dec456eebcc3ebc1af88cc9a0bab164f5aeb6a934b3d8e99842",
+    "id": "gazette"
+  },
+  "ghostwriter": {
+    "hash": "01caed643cb5c898aebd5b919e1536dbca843e12cf550f2a9c6f2b38d52de1f9",
+    "id": "ghostwriter"
+  },
+  "github-style": {
+    "hash": "49641a22c64611676f3a63f4c05693a1efccf9d592113034c2ca31658499bd99",
+    "id": "github-style"
   },
   "gokarna": {
     "hash": "2456cef08b625a23826909ac54c9fb5a0bebf4272f99b7c41c3d985799ac7511",
@@ -271,6 +387,10 @@
     "hash": "3a11d7769f880c101dcde80a9b6b0f57bff750d2a31da8c0df7974213f372817",
     "id": "green-park-2"
   },
+  "grid-side": {
+    "hash": "4a1a7f0cff9e43c0c551fa3ab4b04a96d38efa42cdf0dbb179f7dd449f1e397c",
+    "id": "grid-side"
+  },
   "h2o": {
     "hash": "2e3fcd3a35a69175f337b2700351b3fbcaff8697c2791df0e073f4fdd4e6ba79",
     "id": "h2o"
@@ -278,6 +398,10 @@
   "hamilton": {
     "hash": "d1cbe9ed10f93c724a6ab7492ce81886dffb81526bd4919893db22d4a935b4fd",
     "id": "hamilton"
+  },
+  "harbor": {
+    "hash": "f53f274a3a6fa2ad7373b668a7d664ea990f633e039370c8b655696b3b8806bd",
+    "id": "harbor"
   },
   "headline": {
     "hash": "ba836a03a1a086b35a288713712e9998fd10fac5961fa78a83bd84af01c09e49",
@@ -303,6 +427,22 @@
     "hash": "ad39db643cbbd0d4fd5326225966f3b578d28542a9b1fd453c35c73164140109",
     "id": "hextra"
   },
+  "hitchcock": {
+    "hash": "2ef1cd856fa11f1190fa49804c671625b47ba639932acb6ab4c8df1db53b9a1c",
+    "id": "hitchcock"
+  },
+  "hoffman": {
+    "hash": "e3fd4b34d3e68b3d3d821963c1f02440ad78a5875ee1ed8446bc962fe45012e2",
+    "id": "hoffman"
+  },
+  "hpstr-hugo-theme": {
+    "hash": "8287d9df260caca9e9367ddff711ad26922588773aaf94f82d60cdaa7a559d25",
+    "id": "hpstr-hugo-theme"
+  },
+  "hugo-blog-jeffprod": {
+    "hash": "0590ca2bfe30684a5bd4589978c3643c2d891a1e12b9117ce34a091fdfc43bf4",
+    "id": "hugo-blog-jeffprod"
+  },
   "hugo-book": {
     "hash": "af819f582c657096a1eed0cd254911b6b3f73362244cfd8cc9991467af9f79b1",
     "id": "hugo-book"
@@ -311,13 +451,157 @@
     "hash": "ace8e63b3188dc29b13c5fb50cb34c42a64b3d723afcb1bacb6c504d6c4d8e81",
     "id": "hugo-bootstrap"
   },
+  "hugo-cards": {
+    "hash": "45c56f580f6b4915aca1c9e7c53c1819e44dd2a6e061b16ccf6b0c90260373cf",
+    "id": "hugo-cards"
+  },
   "hugo-coder": {
     "hash": "b4fe5d321b50a0fc321ca7f67c8c0721f6a37ff1be2bd23acc564d5bf65ed634",
     "id": "hugo-coder"
   },
+  "hugo-dusk": {
+    "hash": "0dfc3dd0dee2b671bf4ba98a87f6a6c565cd5de42db3aea715487908d4a117f7",
+    "id": "hugo-dusk"
+  },
+  "hugo-fabric": {
+    "hash": "3d7777ae0e6890e6d945df9b9345a25db155488af74d06341d448497f557216b",
+    "id": "hugo-fabric"
+  },
+  "hugo-frais": {
+    "hash": "7d517ce6705576d3e7fe017edc3d0d2190b6f3c8c60d18cffd056e1439247892",
+    "id": "hugo-frais"
+  },
+  "hugo-hello-programmer-theme": {
+    "hash": "400c9919fcc3637c9f8562af43d779b213597a13b70211f6c41fe7a6d16b2960",
+    "id": "hugo-hello-programmer-theme"
+  },
+  "hugo-kiera": {
+    "hash": "ffd7992320ba72cc63958a78addf63e3b443e99ec27085b7c3776531f0a96fd8",
+    "id": "hugo-kiera"
+  },
+  "hugo-lamp": {
+    "hash": "ddf10a0decb9ddbd584419a7dd70bb45f410845c98c440a9c3bff313f51ad520",
+    "id": "hugo-lamp"
+  },
+  "hugo-lithium-theme": {
+    "hash": "6c7da30ff3d25a28f3e49291a95f47854e3c835c978c2ab2873a4d05e9f9282f",
+    "id": "hugo-lithium-theme"
+  },
+  "hugo-material-blog": {
+    "hash": "d3fb2d3d2cf373e5910031b214d50ac36d350a60724a6e2d6498718a72eb3558",
+    "id": "hugo-material-blog"
+  },
+  "hugo-nederburg-theme": {
+    "hash": "5de7ddbb0316b560eccedaaa773a5cb1615f9ba3df293e144f65ba929dfd119d",
+    "id": "hugo-nederburg-theme"
+  },
+  "hugo-piercer-theme": {
+    "hash": "208493f72d1a3fa5bdc1fa487fd5fef611274be060fc4608740bbd70982f7e17",
+    "id": "hugo-piercer-theme"
+  },
+  "hugo-primer": {
+    "hash": "17b4196301d69a081b5e34ffd91180ba6da39606d956007740bf0640bb7fae3c",
+    "id": "hugo-primer"
+  },
+  "hugo-researcher": {
+    "hash": "6a588fa7eb44fbd7e6dac09bc01d7f13342d064726a497212574f3367f57fc73",
+    "id": "hugo-researcher"
+  },
+  "hugo-rocinante": {
+    "hash": "4a9263d45685a6b0c2d832b27c93953f968db44ac3a8b834a0942cb295ce9a9c",
+    "id": "hugo-rocinante"
+  },
+  "hugo-sustain": {
+    "hash": "a768a29b76357e6aedea8d653bfa03b607734c7fd197cd7230fe03c1b3212d9f",
+    "id": "hugo-sustain"
+  },
+  "hugo-tania": {
+    "hash": "e267654d36e9be9adbb211c25dfcb72dfdbd4ccf873f533a7b25315d9d2fa943",
+    "id": "hugo-tania"
+  },
+  "hugo-terrassa-theme": {
+    "hash": "241c935497324f7aa786f6bcbbe6dc9c1c55dd55acf9d18c7b8868239010e7c4",
+    "id": "hugo-terrassa-theme"
+  },
+  "hugo-theme-anubis": {
+    "hash": "d617216306c06fe8227ece8d27088795861df3abd8772e1f585233704b36c823",
+    "id": "hugo-theme-anubis"
+  },
+  "hugo-theme-chunky-poster": {
+    "hash": "ac23d3a6ef5abdcabb381bd0ca946025b37801d781e4bbf16c90e7c99bd6b9a1",
+    "id": "hugo-theme-chunky-poster"
+  },
+  "hugo-theme-den": {
+    "hash": "6badda1a31ed7c881507d4ec4d21ef25e36276f9ae4f1262688afd88c441dbad",
+    "id": "hugo-theme-den"
+  },
+  "hugo-theme-dream": {
+    "hash": "f3faa74b54965fe80fbad67fb90d8cb3331df4fe08980050bf9a4274a4b70d05",
+    "id": "hugo-theme-dream"
+  },
+  "hugo-theme-fuji": {
+    "hash": "f2f84dbf49eb9afba2a832da15b9e4807209efe7b8707ae2be410d25912f459b",
+    "id": "hugo-theme-fuji"
+  },
+  "hugo-theme-hulga": {
+    "hash": "ab3d31ed3d79a29b82b6a5b559c307f1d87e85621f1c7ee980342902a8b979ba",
+    "id": "hugo-theme-hulga"
+  },
+  "hugo-theme-iris": {
+    "hash": "b15e21fb6814b5e4ec837cea38bdf87dd2684f679f45fb2c7feac8130986fad0",
+    "id": "hugo-theme-iris"
+  },
+  "hugo-theme-nix": {
+    "hash": "7c6c6c35c916e5020c5918d3e0ebd2bacde0688691f2b780feefa796acb1f574",
+    "id": "hugo-theme-nix"
+  },
+  "hugo-theme-prav": {
+    "hash": "1059e07534f5e64951eeb705ac06f120829956165eb18262e2ddc78bd2a6475a",
+    "id": "hugo-theme-prav"
+  },
+  "hugo-theme-simple-blog": {
+    "hash": "294cfa8e0bca8671e17bb53c9f39784f655f64dda76ad8912e265eee9d4ea113",
+    "id": "hugo-theme-simple-blog"
+  },
+  "hugo-theme-sky": {
+    "hash": "22e31a7aa67aad2c3b19c93e9f8e8abc4a2fc12b5ad0a38fcdac805ea216afcc",
+    "id": "hugo-theme-sky"
+  },
+  "hugo-theme-tokiwa": {
+    "hash": "19a18860d4eb8491a8ce7fcf576a01b97b52a0ad3aaf652d7bf617b71198a3f1",
+    "id": "hugo-theme-tokiwa"
+  },
+  "hugo-theme-vec": {
+    "hash": "44b87a500dccd207be2612faa3a5f668fe5abbec04c90c05c5f649d839997f99",
+    "id": "hugo-theme-vec"
+  },
+  "hugo-theme-yinyang": {
+    "hash": "91c37c7d1df554cf2fdd40036a30aff277e4bd3cf865b1d4b7eef898a3c00afd",
+    "id": "hugo-theme-yinyang"
+  },
+  "hugo-theme-yuki": {
+    "hash": "8d71f0da73dcacc61f00dd5b8c48aa62c8a379c0462d196c41b91da301bab13c",
+    "id": "hugo-theme-yuki"
+  },
+  "hugo-tikva": {
+    "hash": "cdaba7a717ad8be5ea782bcb6c80c51bee5274d4192146e922b4d168bafb5317",
+    "id": "hugo-tikva"
+  },
+  "hugo-xmag": {
+    "hash": "fb969196ec3dcc98f071b5686e2a13f3b6b2dfdf25afe2408cc453320ac7d490",
+    "id": "hugo-xmag"
+  },
+  "hugo_eiio": {
+    "hash": "8d67250e13cad0658f0238d6b56b5ca675f3342f5cd0fb12a220cb3199292924",
+    "id": "hugo_eiio"
+  },
   "hugoplate": {
     "hash": "bff9aefe9a4ecfbf261714d395e33503ba47c012079e6187fed2c8408e13d31c",
     "id": "hugoplate"
+  },
+  "hugotex": {
+    "hash": "52706807a3d40e14de61c9d172a2406d297c9b36723db533efe52b29b373a47a",
+    "id": "hugotex"
   },
   "hyde": {
     "hash": "2e25c37195cb95e142f37c3aa079966e68c18d9419c8e01511c53500abdfe11d",
@@ -351,6 +635,14 @@
     "hash": "68aba2d9fa547d459e4929f70b54a51eea2f971e029dee5968830ea7dcfd22d5",
     "id": "ink"
   },
+  "internet-weblog": {
+    "hash": "8102e665414dd98bfe8fdc0bbfef47cdc555d84fd6fa04d1b798d832c484285e",
+    "id": "internet-weblog"
+  },
+  "iwata": {
+    "hash": "8de9a4aee479f112dd262dadbea7cf6d6b218f85958f38d0647bf42ac4d013c3",
+    "id": "iwata"
+  },
   "jane": {
     "hash": "4d5398a5aa44d48b631bce1da351b2def917165a81073060666d30e05bc6414a",
     "id": "jane"
@@ -358,6 +650,10 @@
   "jasmine": {
     "hash": "b73ba0b328ded20a166acdbb14d636e24c7aaaccc87ca0769910619bb236397c",
     "id": "jasmine"
+  },
+  "jekyll-moon": {
+    "hash": "6d6ef82632b118b5f9d9e7938079bacdba6d5290f571562cc88de0f2078c273e",
+    "id": "jekyll-moon"
   },
   "jekyll-now": {
     "hash": "872bf1307b5c07c425aabca8135b7ea82c187a0a1a26925d5661a7947fa287ff",
@@ -382,6 +678,10 @@
   "klise": {
     "hash": "d0c9119e54ef1d0fbcc7166d5e07fff9692c0352eb20b086cbafe08698632171",
     "id": "klise"
+  },
+  "koji": {
+    "hash": "25026471295c9d3a653d82e50617f877d9b3e5ce4c1b873e5eb650337b59fe40",
+    "id": "koji"
   },
   "kratos": {
     "hash": "d405ac7e134c901edfcd88ce81d68a3b2dfedd8614c2ed8b09fa8160b1232ef4",
@@ -415,6 +715,10 @@
     "hash": "04ec03c05b246900e5085ea170518df385fc5a3f40e5a48bbd85d5c9c7d1571d",
     "id": "light"
   },
+  "lingonberry": {
+    "hash": "b2be8aee2c2de6cdb577c5e402fe5b83893befc4341fea4f7bccde5336c58649",
+    "id": "lingonberry"
+  },
   "lolimeow": {
     "hash": "619c8803bcf48908b1a4d465c6cd66e0d47b6935f2b5c756689dbb28f627827f",
     "id": "lolimeow"
@@ -422,6 +726,10 @@
   "london": {
     "hash": "780b5a0962e9ab7f1c83fdef563c5e9db741f577511af460b55dcd800a1b6a9d",
     "id": "london"
+  },
+  "lovecraft": {
+    "hash": "019676253765b3672307ace2f55c425cb2427d3f403f6691649435c010e42085",
+    "id": "lovecraft"
   },
   "loveit": {
     "hash": "14a6e1ebe311efc6d205fd1e189f58d667ba003b01192973069bf4e824390d4f",
@@ -435,6 +743,10 @@
     "hash": "77b4af34a9d097df3e5387354eb9788477c98b4c9b918cc594a5bc0820b852e4",
     "id": "mainroad"
   },
+  "manis-hugo-theme": {
+    "hash": "0f39e2328198acab6bf59717a0112268dacd23782b108d45113dfdfe4305aaf1",
+    "id": "manis-hugo-theme"
+  },
   "massively": {
     "hash": "334b5167418a054461b77d4d4c12e2fa54d7e791fb30e0974b7bd1ea6a98e229",
     "id": "massively"
@@ -447,6 +759,10 @@
     "hash": "280f3fc9111b1dd3735278b2e4acb59140bcd1f4cb831c4914851cabbebba9c8",
     "id": "material"
   },
+  "material-design": {
+    "hash": "28cd59626284bf86da9d3c92fa15b9aa5357c5946111d009337166e974a79c56",
+    "id": "material-design"
+  },
   "matery": {
     "hash": "bf6eaa566e476892f5548b64ff79e7f037afb47d1c985eeb57bfa5dda3e5ccd9",
     "id": "matery"
@@ -455,9 +771,17 @@
     "hash": "1e382a879180d0c1c6a6a2115dba0033cde5e39f48ceff4c0f9a7822367a3678",
     "id": "maupassant"
   },
+  "mcluhan": {
+    "hash": "71395014c61a085fb272b78bef556d31b9a3b70c76f08bcc25358964bc15741f",
+    "id": "mcluhan"
+  },
   "mdx": {
     "hash": "6c15f150ef3b5f18d406561b95068000c565b4931a4c673b3bca747b5af079de",
     "id": "mdx"
+  },
+  "mediumish-gohugo-theme": {
+    "hash": "6ec0f33dab87a90eadd92502e74970e4967a1daf15b0886d276d82e4e17ce485",
+    "id": "mediumish-gohugo-theme"
   },
   "meme": {
     "hash": "282857955c87e90e6eeefe0fa6e8e6a3479950136bcb07f85f666c96b1312e55",
@@ -475,6 +799,10 @@
     "hash": "80677adeed9d12e0f474c5ce142dc7f521c24c4e00732842e166d96f8c68df89",
     "id": "millennial"
   },
+  "min_night": {
+    "hash": "cdf1722fd1d6a164bb6d52349f3cca359997e0c4928ead6d1405971130c1a0a7",
+    "id": "min_night"
+  },
   "mini": {
     "hash": "a22e8ff5190819b4d99c1d3e75a4e1a0a6c6c1208c955a31b58e76b2cbfb80ec",
     "id": "mini"
@@ -487,9 +815,17 @@
     "hash": "ea37dc9339b4704925ae23da6ead89cb50b4b80f7639e164a8d44bbba524068f",
     "id": "minimal"
   },
+  "minimal-bootstrap-hugo-theme": {
+    "hash": "86736a79504274106dc939b83900ca09fae93dd310ecafd0a9a3e8d96db17592",
+    "id": "minimal-bootstrap-hugo-theme"
+  },
   "minimal-mistakes": {
     "hash": "fdd6e9e546b5a56e1a6474f2e25d710f989e7cda54f410aaf6de2d3ccec9baf0",
     "id": "minimal-mistakes"
+  },
+  "minimo": {
+    "hash": "2d5868ac6be96550b5d0ea962a4b0f75aa914acbfbb2d2ef9f510870f6ff17b1",
+    "id": "minimo"
   },
   "minos": {
     "hash": "c932011e77cb00f935b4b1d4beeaa174e19b22db8e7d88ff30e4d73f7a40cfb8",
@@ -498,6 +834,10 @@
   "miracles": {
     "hash": "3165ccce6496124d3c2a4aa1e258062225af678bb866e523508d8f0d0f4d35ab",
     "id": "miracles"
+  },
+  "miyazaki": {
+    "hash": "faf1e9e1f86b392b0f816d61ec1068ce79ab16dbaf5f044960165645a6758906",
+    "id": "miyazaki"
   },
   "modernist": {
     "hash": "59517669653094afb681803fcd07f162fcf10449c0322862af13b177f7f32658",
@@ -527,9 +867,17 @@
     "hash": "3a509bbccf9c8ac0600e9a292d3cc55160d21e908782e90139e74d55a0281254",
     "id": "next"
   },
+  "niello": {
+    "hash": "0be49356348ef71b48759ccd86bbc20085c521755f3e7009aa91b732966f0377",
+    "id": "niello"
+  },
   "no-style-please": {
     "hash": "99fc535b52504e3974a883c740c7b8599bf1c5403d8d89d6026901372447530f",
     "id": "no-style-please"
+  },
+  "nofancy": {
+    "hash": "1d5d4e1b2d9c439797ff1d1e40ffbe3caaf70a8d98cff03e2651dfe6da435e9e",
+    "id": "nofancy"
   },
   "notepadium": {
     "hash": "d42fd5b3b749ddee3037f4289117486c9c18f65a2849a00b2c3df8d7f7e55ce7",
@@ -538,6 +886,10 @@
   "noteworthy": {
     "hash": "ca088bcdc83951a23da296f72445eec7a8aaa3df06ad8f023d7a9477d7b08821",
     "id": "noteworthy"
+  },
+  "npq-hugo": {
+    "hash": "781ff68ae3c18389db8092cf2fa638dc09abc433daae4eae2bb9fe14997443d0",
+    "id": "npq-hugo"
   },
   "oneblog": {
     "hash": "36082a5882a1de838fd1772260d553a547f3d5dcbf474a191d95a756e289f4ee",
@@ -551,9 +903,25 @@
     "hash": "834d1ba64ab89e665ef4d476e1c2ffc3961950c182a6c33080960100b4d82f69",
     "id": "openblog"
   },
+  "papaya": {
+    "hash": "6fe93ce77ec3e3e274af99bb8512028e25457ff129e540d0f3e1604d96935dbe",
+    "id": "papaya"
+  },
   "paper": {
     "hash": "47f496925f03c23008839c48319bcc617a6ddf3620d0bdbd1930ce465ddb2279",
     "id": "paper"
+  },
+  "paperback": {
+    "hash": "081294d8f7703fe46115d5d2a617d587fa439589bea93247f12b4ae636d3bcf6",
+    "id": "paperback"
+  },
+  "papercss-hugo-theme": {
+    "hash": "ee88eb16e6af530f4e01a5f44c14ddb144980fc53ba5289e5aaeb81fc5c5b97d",
+    "id": "papercss-hugo-theme"
+  },
+  "paperesque": {
+    "hash": "8afd602203a14afd48ceb7ff1ba4c2726170faafcd63ab7db64e90b3acc49e2b",
+    "id": "paperesque"
   },
   "papermod": {
     "hash": "859ef7db9429c0af369e16d8c613aa67a5fe0f293ef5c8acfe7c6f4836458b2d",
@@ -575,6 +943,10 @@
     "hash": "06d62c63a994312160af6ee59c07546aab0c8f68d4496695a9529ec2ff554a80",
     "id": "poole"
   },
+  "pulp": {
+    "hash": "8022f3c7940e2626ade612e2b3ef7d8b84f03dd2947be6edc49c76d3c42f6954",
+    "id": "pulp"
+  },
   "puock": {
     "hash": "266d05e0066ea35fac7b5128e94a63501cb6e1e78c59f2b4f2f718c551bd278f",
     "id": "puock"
@@ -582,6 +954,18 @@
   "pure": {
     "hash": "2411761cb7ad96e3ba247ee68ce4eade4a031393159819a4290e3d5572794f9b",
     "id": "pure"
+  },
+  "purehugo": {
+    "hash": "80f8e1a26556e72a3d1d1d0cfb3a7b363bd60b43da6c4d78323ffd9870effeaf",
+    "id": "purehugo"
+  },
+  "ramium": {
+    "hash": "c8bcb75fd8b394234bd10bf0d744cce90f2748cfc4175b3c1f2729f0469b8429",
+    "id": "ramium"
+  },
+  "rams": {
+    "hash": "ad3bb7cbad4f1813f00227e1932ec9ee8c3a92879f95f4e52afab21d0c802ba8",
+    "id": "rams"
   },
   "redefine": {
     "hash": "710e78f491a6a04c80efd81b7bf082ebdf7ecf216d0bc17fc53d0ec378744864",
@@ -594,6 +978,10 @@
   "roon": {
     "hash": "ba0edaa8cad3ee868cd274a64ad5435d8ef12d43daa78ca7ef8fa18fa3bc2492",
     "id": "roon"
+  },
+  "rowling": {
+    "hash": "74356d9a95994284e2e94000e7b6c6d187525c83d41e12d8ad8518c96f726703",
+    "id": "rowling"
   },
   "ruby": {
     "hash": "d0953b58f31ef36283095f72433659fe3ff623a81dc7c847bf48194e2c3762ff",
@@ -615,6 +1003,18 @@
     "hash": "c1df431f75ca4da3f2dfdaddbab9c5dd1cff4ffb813dc7e0859340a0c3df054e",
     "id": "shoka"
   },
+  "shoreditch": {
+    "hash": "1f6d60ceb15138ec5f412bb13c71f427e0c1d58ec06e021889b0b1b8151069c2",
+    "id": "shoreditch"
+  },
+  "simple-style": {
+    "hash": "fc0afbe4de293aa0952f14ef23b172a6b7220ed8002618dbee00647daff67abd",
+    "id": "simple-style"
+  },
+  "simplicity": {
+    "hash": "7bd19564fb874c17de416a354e84f9be95febfd5430945beaefc672f69022c8b",
+    "id": "simplicity"
+  },
   "single": {
     "hash": "49ecb620c6f4bc9f2dfefe146b199916fd893ce1a8477f45270fe86d5032a29b",
     "id": "single"
@@ -631,9 +1031,21 @@
     "hash": "7fb60f39d958476c37e73bf242c884a0fe4bf9d11533fb944d1d3c2835d5f739",
     "id": "sleek"
   },
+  "slim": {
+    "hash": "4f91e611a5a7ce2bc4f67074839f111955bdb3b495f7e4f3a75cabf86ff7830f",
+    "id": "slim"
+  },
+  "smol": {
+    "hash": "b315d4cc3906cffc10fd0a886b77c8f70903a9a08b1e24c030ccdff32c9ee0a3",
+    "id": "smol"
+  },
   "so-simple": {
     "hash": "9f41503387e8d2115f2cbb3def8638069f736f62ea3ad37513f531f85415a49c",
     "id": "so-simple"
+  },
+  "solar-theme-hugo": {
+    "hash": "bf6a248b9d1bc46029ff60db6a81c7f21f178a1da71e39e11c8227a8dbfae3b9",
+    "id": "solar-theme-hugo"
   },
   "solo": {
     "hash": "36f46b10814cc2f35eeade3777bb9ec16e9f457359ffa6cd7aea0d9c478ac60b",
@@ -658,6 +1070,10 @@
   "story": {
     "hash": "a0cfd922db2f4189870d9e8df983657b3f15bf1816a4d6864361231de250fb5c",
     "id": "story"
+  },
+  "strange-case": {
+    "hash": "eab03159bb735fd4ad51d1ce9af6c2a38c4cdff5c0195ae02830a780af82bd8f",
+    "id": "strange-case"
   },
   "suka": {
     "hash": "c220a4ead53c0953acaa93f18c1a44c86f0d614e19d6c57a357828edf44b284c",
@@ -711,6 +1127,10 @@
     "hash": "e781a41771f3a617aa93687f89dc80d44102c942390883319f70c7dfb4d74b0b",
     "id": "typo"
   },
+  "vienna": {
+    "hash": "901127b9df2e6231cdafefb9c830f4dd196e691ff43cc9d5c084b089a3b027b5",
+    "id": "vienna"
+  },
   "vitae": {
     "hash": "fa2ca0f1d459113c5b5955e27eaf8915d717ce081ad5d84705d1f93a7351f9b1",
     "id": "vitae"
@@ -735,6 +1155,18 @@
     "hash": "2abdbac4299b97577126ae9ff99716a2680c89eb24ab831f20e7c1d48da6654c",
     "id": "whiteglass"
   },
+  "wilson": {
+    "hash": "9de7b36a4f35c924a7c5c786bd0e565a7b11c88bd2f9491f0b8260267bec6e16",
+    "id": "wilson"
+  },
+  "wp-hamilton": {
+    "hash": "763e0b899261247355d14c598ad881954ad3fccd2a841765d3f3a38d675847ab",
+    "id": "wp-hamilton"
+  },
+  "wp-hemingway": {
+    "hash": "2086696c73e7f81d9ebbafcce25984cc559c7d56025580c1c13a6df06503c0c4",
+    "id": "wp-hemingway"
+  },
   "xmin": {
     "hash": "ef17500f070a445f020308a9be21d247e8065b59ad3b6325e384bd849d574299",
     "id": "xmin"
@@ -746,5 +1178,109 @@
   "zen": {
     "hash": "dd82cd9c353c7be321a88a816a7bd5d9a3191832ca5a278893ebf56ea64c1ce8",
     "id": "zen"
+  },
+  "zola-andromeda": {
+    "hash": "575ba975829f399e5dac65207a58305fac37519d5afc9eff6bfbbc48784d48f7",
+    "id": "zola-andromeda"
+  },
+  "zola-apollo": {
+    "hash": "7e0f398d07a40fb1a5d0b3f807e617833d8d01b6f1a1851684f532d47cef8349",
+    "id": "zola-apollo"
+  },
+  "zola-arabesque": {
+    "hash": "65601ca8dc12412f8363d6005acbad629dcbc2885067b730f6b12d41cc44e932",
+    "id": "zola-arabesque"
+  },
+  "zola-block": {
+    "hash": "0f3255d14e4858901c8a0ed620805c8dacbdd13c4af26aab2bb90dfa805977a7",
+    "id": "zola-block"
+  },
+  "zola-blow": {
+    "hash": "f798f4dd09b7c4d0dfef582fe804604f457e45b67e0544e463be482a2a0bdc5a",
+    "id": "zola-blow"
+  },
+  "zola-coast": {
+    "hash": "96804213cd483d7402797938e3bfd74aa5420acf7b01bac5c974b347d220fb53",
+    "id": "zola-coast"
+  },
+  "zola-deepthought": {
+    "hash": "868dd0f0f8bc189cca6a32d69b5b31b4326c86eda742c3968b395740bf2bec88",
+    "id": "zola-deepthought"
+  },
+  "zola-dinkleberg": {
+    "hash": "42cf3cf21e306c2104d14f86d6c676e5998fc433b15bf3e7992d63912561f6a5",
+    "id": "zola-dinkleberg"
+  },
+  "zola-dose": {
+    "hash": "d57e52b536267ffe8297a8fcc290a8b80a3fc343b895bbc705899cb5fbc445b6",
+    "id": "zola-dose"
+  },
+  "zola-ergo": {
+    "hash": "14f1ff081ee479b3d2718b3ed64c5460ede1f96417edcdce28c246f371c048ed",
+    "id": "zola-ergo"
+  },
+  "zola-hook": {
+    "hash": "e3e9bff059d6bb373122affd5bdad35ab501e9eabc5f2be0a15e8e0c429f9b7e",
+    "id": "zola-hook"
+  },
+  "zola-kangae": {
+    "hash": "8ddb3b6bf477b7d177143d738f6c85ec7c510694e0d863d9a3582b39b994f9e6",
+    "id": "zola-kangae"
+  },
+  "zola-oceanic-zen": {
+    "hash": "95f0802fd8ea86ee60eba754c2aecb09dba5834b19993b71debc33fbe81f49b3",
+    "id": "zola-oceanic-zen"
+  },
+  "zola-press-start": {
+    "hash": "d5130cefd20cb47d23482c433d9428344a4d3a01d6ec85d71f6137d45e359169",
+    "id": "zola-press-start"
+  },
+  "zola-radion": {
+    "hash": "d3e083bcfd53867b803268901eaa2f4eb90a4a4e6363ee1af8a461b15fd966b0",
+    "id": "zola-radion"
+  },
+  "zola-seje2": {
+    "hash": "258557f8886eab716783a4bf2942893dddf84e7782a63263b55814dc21987953",
+    "id": "zola-seje2"
+  },
+  "zola-serene": {
+    "hash": "bef6077e82e2ba7b8312243b2808070c0ab4751d9ebaa3f7087c98f04655c364",
+    "id": "zola-serene"
+  },
+  "zola-shadharon": {
+    "hash": "ddee4bada8a4285b8b596f9b2a1167fee8f574e7e9ba559438e299d85cfeab6b",
+    "id": "zola-shadharon"
+  },
+  "zola-simple-dev-blog": {
+    "hash": "7869c385457f7d7898fdaea28b234d575900a52ff99eeb8bdab977c7bdf00a2f",
+    "id": "zola-simple-dev-blog"
+  },
+  "zola-still": {
+    "hash": "f4b74641f5dbbdfdd3cc6115b40a9ccff69322adb4907a19ac0f386e53fddbe1",
+    "id": "zola-still"
+  },
+  "zola-vonge": {
+    "hash": "07ac490587a65f6a860db33df29ef272eb44174c8f328bf029db9c283979dfe7",
+    "id": "zola-vonge"
+  },
+  "zola-zola-henry": {
+    "hash": "82e5dc9ec5850b3069ea13690e3a1b166165cc9f93104c1ab774d33b558a50f9",
+    "id": "zola-zola-henry"
+  },
+  "zola-zola-pickles": {
+    "hash": "4f6992a5c0838d9f7183c148442c4ec4d10e0e4844b5d51433d0abd781043c4b",
+    "id": "zola-zola-pickles"
+  },
+  "zola-zola-theme-hikari": {
+    "hash": "3606183558fbda3e9e21032a01455b325cce1537b6f2c73ebce16cc275f1a083",
+    "id": "zola-zola-theme-hikari"
+  },
+  "zola-zolanight": {
+    "hash": "880ed7862090007c08ab7fce383614ad31c09172d4ac009d929b65787d925437",
+    "id": "zola-zolanight"
+  },
+  "zola-zolarwind": {
+    "hash": "a6023c03e064221c2409e2c7a37cda7c4d95fb0ec299716268ad52e2981b3029",
+    "id": "zola-zolarwind"
   }
 }

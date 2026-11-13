@@ -1,0 +1,36 @@
+{
+  "name": "hugo-hello-programmer-theme",
+  "title": "Hello Programmer",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Hello Programmer’s gray page background, white article panels, teal metadata headings and cropped featured images.",
+  "license": "MIT",
+  "author": "DONGGEUN,BANG; Firekylin contributors",
+  "homepage": "https://github.com/lubang/hugo-hello-programmer-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-hello-programmer-theme"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-hello-programmer-theme"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

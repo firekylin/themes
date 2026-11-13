@@ -6,3 +6,13 @@ test('Intergalactic 2 escapes titles, rejects active cover URLs, preserves prote
 test('Intergalactic 2 delegates comments and keeps search filters in pagination',async()=>{assert(!(await render('intergalactic-2','post',{comments:false})).includes('id="comments"'));const html=await render('intergalactic-2','search',{request:'/search.html?keyword=a%26b'});assert.match(html,/keyword=a%26b&amp;page=2/);});
 
 test('intergalactic-2 renders attachment media and rejects active file URLs',async()=>{const {context}=require('./port-fixture');const {Eta}=require('eta');const path=require('node:path');for(const [mime,element] of [['image/png','img'],['audio/mpeg','audio'],['video/mp4','video'],['application/pdf',null]]){const ctx=context('intergalactic-2','attachment');const archive=await ctx.widget('Widget_Archive');archive.stack[0].options={attachment:{mime,url:'/uploads/file',name:'Download file'}};const html=await new Eta({views:path.join(__dirname,'../packages/intergalactic-2'),varName:'firekylin'}).renderAsync('attachment',ctx);assert.match(html,/href="\/uploads\/file" download/);if(element)assert(html.includes('<'+element+' '));}const ctx=context('intergalactic-2','attachment');(await ctx.widget('Widget_Archive')).stack[0].options={attachment:{mime:'image/png',url:'javascript:alert(1)'}};const html=await new Eta({views:path.join(__dirname,'../packages/intergalactic-2'),varName:'firekylin'}).renderAsync('attachment',ctx);assert(!html.includes('javascript:'));});
+
+
+test('Intergalactic 2 contains article media and uses readable footer/pagination colors',()=>{
+ const fs=require('node:fs'),path=require('node:path');
+ const css=fs.readFileSync(path.join(__dirname,'../packages/intergalactic-2/res/css/theme.css'),'utf8');
+ assert.match(css,/\.prose video,\.prose audio,\.prose iframe\{max-width:100%\}/);
+ assert.match(css,/\.prose video\{height:auto\}/);
+ assert.match(css,/\.native-footer\{color:#ddd;background:#111\}/);
+ assert.match(css,/\.native-main>\.pagination\{color:#333\}/);
+});

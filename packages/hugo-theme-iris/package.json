@@ -1,0 +1,36 @@
+{
+  "name": "hugo-theme-iris",
+  "title": "IRIS",
+  "version": "0.1.0",
+  "private": true,
+  "description": "IRIS original dark Bulma hero, sky-blue/gold accents, two-column photo cards and structured article typography.",
+  "license": "MIT",
+  "author": "Shohei Ueda; Firekylin contributors",
+  "homepage": "https://github.com/peaceiris/hugo-theme-iris",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-theme-iris"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-theme-iris"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

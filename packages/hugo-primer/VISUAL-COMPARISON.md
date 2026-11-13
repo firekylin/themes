@@ -1,0 +1,1 @@
+Retained original Primer CSS, raised rounded list cards, subdued metadata, GitHub-like underlined navigation, Markdown body and 230px sidebar. Cards are also used on homepage; generated local TOC/native taxonomies replace Hugo-only data. Header wraps on mobile instead of horizontal clipping. No external math/share widgets.

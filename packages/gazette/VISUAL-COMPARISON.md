@@ -1,0 +1,1 @@
+Upstream style.css, content.php, content-featured-post.php and header.php drive actual layout: photographic top band, columned editorial summaries, restrained white/blue palette and Lora/Lato type. Native recent posts replace Jetpack curated featured tag; native grid replaces JS positioning. Original CSS retained, all changes appended and source licensed GPLv2+.

@@ -1,0 +1,1 @@
+Original Block CSS compiled with pinned Tailwind, local Zilla Slab, original underline SVG and original progress/TOC code. Paper islands, pill menu, numbered feed, grain, light/dark palette and sidebar reading layout retained. Optional social/portfolio cards omitted explicitly; no demo content.

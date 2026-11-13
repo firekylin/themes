@@ -1,0 +1,244 @@
+@charset "UTF-8";
+/**
+ * Variables
+ */
+/**
+ * Mixins
+ */
+/**
+ * Style
+ */
+html {
+  height: 100%;
+}
+
+body {
+  font-family: monospace;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  margin: 0;
+  min-height: 100%;
+}
+
+body.dark {
+  background: #212121 !important;
+  color: white !important;
+}
+body.dark blockquote {
+  color: rgba(255, 255, 255, 0.7);
+  border-color: rgba(255, 255, 255, 0.7);
+}
+body.dark a {
+  color: #8eb7ff;
+}
+body.dark code {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+body.dark pre code {
+  background-color: inherit !important;
+}
+body.dark time {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+body.dark .footer-social-media a:after {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+body.dark #toggle-theme {
+  fill: white;
+}
+
+body[darkmode] {
+  background: #212121 !important;
+  color: white !important;
+}
+body[darkmode] blockquote {
+  color: rgba(255, 255, 255, 0.7);
+  border-color: rgba(255, 255, 255, 0.7);
+}
+body[darkmode] a {
+  color: #8eb7ff;
+}
+body[darkmode] code {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+body[darkmode] pre code {
+  background-color: inherit !important;
+}
+body[darkmode] time {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+body[darkmode] .footer-social-media a:after {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+body[darkmode] #toggle-theme {
+  fill: white;
+}
+
+html,
+body {
+  background: white;
+}
+
+header {
+  padding: 2rem 0;
+  margin: 0 auto;
+  max-width: 750px;
+  width: 95%;
+}
+header img {
+  border-radius: 50%;
+}
+
+main {
+  padding: 2rem 0;
+  margin: 0 auto;
+  max-width: 960px;
+  width: 95%;
+}
+
+hr {
+  text-align: center;
+  border: 0;
+}
+hr:before {
+  content: "//////";
+}
+hr:after {
+  content: "//////";
+}
+hr[text]:after {
+  content: " " attr(text) " " "//////";
+}
+
+a {
+  color: #2962FF;
+  text-decoration: underline;
+}
+
+blockquote {
+  color: rgba(33, 33, 33, 0.7);
+  border-left: 2px solid rgba(33, 33, 33, 0.7);
+  padding: 0 1rem;
+  margin: 2rem 0;
+}
+
+.footer-social-media a:after {
+  content: " Ø";
+  display: inline-block;
+  margin: 0 10px;
+  color: rgba(33, 33, 33, 0.7);
+}
+.footer-social-media a:last-child:after {
+  display: none;
+}
+
+.chips span {
+  background: #212121;
+  padding: 3px 10px;
+  border-radius: 1.4rem;
+  color: white;
+  margin: 0 3px;
+}
+.chips span.tag {
+  background-color: rgba(0, 128, 0, 0.8);
+}
+.chips span.tag::before {
+  content: "#";
+}
+.chips span.lang {
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, 0.8);
+}
+.chips.chips-inline {
+  display: inline-block;
+}
+.chips.chips-inline span {
+  padding: 1px 8px;
+}
+
+article {
+  cursor: pointer;
+  position: relative;
+}
+article h3 {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  transition: text-decoration-color 0.3s ease;
+}
+article:hover h3 {
+  text-decoration-color: #2962FF;
+}
+article time {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  color: rgba(33, 33, 33, 0.7);
+}
+article .chips span.lang {
+  cursor: default;
+}
+
+.prose {
+  position: relative;
+}
+.prose p {
+  text-align: justify;
+}
+.prose img {
+  display: block;
+  max-width: 90%;
+  margin: 1rem auto;
+  max-height: 80vh;
+}
+.prose img + em {
+  color: rgba(33, 33, 33, 0.7);
+  text-align: center;
+  display: block;
+}
+.prose code {
+  background: #212121;
+  color: white;
+  padding: 1px 8px;
+}
+.prose pre {
+  background: #212121 !important;
+  color: white;
+  padding: 1rem;
+  overflow-x: auto;
+  overflow-y: visible;
+}
+.prose .footnote-definition {
+  padding: 0 1rem;
+}
+.prose .footnote-definition:target {
+  background: yellow;
+  color: #212121;
+}
+.prose .footnote-definition p {
+  display: inline-block;
+}
+
+footer {
+  padding: 1rem 0;
+  margin: 0 auto;
+  max-width: 540px;
+  text-align: center;
+}
+
+#toggle-theme {
+  fill: #212121;
+  cursor: pointer;
+}
+#toggle-theme svg {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+}
+
+/* Native Firekylin integration: controls, media and code containment. */
+body{overflow-wrap:anywhere}.skip{position:absolute;top:-100px}.skip:focus{top:0;z-index:99}.native-nav{display:flex;flex-wrap:wrap;gap:10px 16px;margin:18px 0}.prose pre,.prose table{display:block;max-width:100%;overflow:auto}.prose img,.attachment-media img{max-width:100%;height:auto;margin:1rem 0}.attachment-media video,.attachment-media audio,.prose iframe{max-width:100%}.prose ul{list-style:disc}.prose ol{list-style:decimal}.prose li{display:list-item}.pagination{display:flex;justify-content:space-between;gap:12px;margin:32px 0}.post-actions,.tags{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}input,button{font:inherit;max-width:100%;box-sizing:border-box}form{display:flex;flex-wrap:wrap;gap:10px}input{min-width:0}:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+
+.entry{padding:10px 0}.entry h3{padding-right:150px}.entry time{top:30px}.entry h3 a{color:inherit}.post-detail{cursor:auto}.post-title{line-height:1.3}.post-detail time{position:static}.prose pre{box-sizing:border-box}.prose pre code{padding:0;background:transparent;color:inherit}.prose ul,.prose ol{padding-left:1.5em}.native-header h1{line-height:1.3}.native-footer{padding:25px 12px}.dark .entry h3 a{color:inherit}@media(max-width:600px){.entry h3{padding-right:0}.entry time{position:static;display:block}}
+
+/* Native post/page media may declare dimensions wider than the reading column. */
+.prose video,.prose audio{max-width:100%;box-sizing:border-box}.prose video{height:auto}

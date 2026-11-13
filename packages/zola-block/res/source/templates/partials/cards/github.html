@@ -1,0 +1,44 @@
+{#
+  cards.js fills the stars, followers and, without configured repos, the
+  repo list from the public GitHub API when the page loads. The contribution
+  grid is built here: GitHub does not let browsers read the calendar.
+#}
+{% set gh = config.extra.github %}
+{# The calendar answers 406 to the text/plain Accept that format=plain sends #}
+{% set calendar = load_data(url="https://github.com/users/" ~ gh.username ~ "/contributions", format="plain", headers=["Accept=text/html"], required=false) %}
+
+<article
+  class="island card rise"
+  style="--i: 3"
+  data-github="{{ gh.username }}"
+>
+  <div class="card-head">
+    <span class="kicker">GitHub</span>
+    <a class="meta" href="https://github.com/{{ gh.username }}"
+      >@{{ gh.username }}</a
+    >
+  </div>
+  {% include "partials/cards/contributions.html" %}
+  {% if not calendar %}
+    <p class="card-text" data-gh-bio hidden></p>
+  {% endif %}
+  <p class="card-stats" data-gh-stats hidden>
+    <span><span data-gh-stars></span> stars</span>
+    <span><span data-gh-followers></span> followers</span>
+  </p>
+  {% if gh?.repos %}
+    <ul class="card-list">
+      {% for repo in gh.repos %}
+        {% set full = repo.name if "/" in repo.name else gh.username ~ "/" ~ repo.name %}
+        <li>
+          <a href="https://github.com/{{ full }}">
+            <span>{{ full | split(pat="/") | last }}</span>
+            <span class="meta">{{ repo?.note or "" }}</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <ul class="card-list" data-gh-repos hidden></ul>
+  {% endif %}
+</article>

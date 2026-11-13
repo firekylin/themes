@@ -1,0 +1,1 @@
+Original Mediumish CSS and Bootstrap4.3.1: Righteous masthead,3/2/1bordered image-card grid, article Merriweather typography, green accents, native two-panel tag explorer. Native home uses original blog section rather than profile splash. Navigation in normal flow; neutral tag backdrop replaces unlicensed demo photo; no copied marketing/brand assets.

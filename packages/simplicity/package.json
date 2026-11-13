@@ -1,0 +1,42 @@
+{
+  "name": "simplicity",
+  "title": "Simplicity",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Simplicity’s pale sticky navigation, personal introduction, year-grouped chronological links and light Milligram reading column.",
+  "license": "MIT",
+  "author": "Przemysław Kołodziejczyk; Firekylin contributors",
+  "homepage": "https://github.com/eshlox/simplicity",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/simplicity"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "simplicity"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "profileImage",
+      "label": "首页头像地址",
+      "help": "可选；使用 http(s) 或站内绝对路径。留空不显示。"
+    }
+  ]
+}

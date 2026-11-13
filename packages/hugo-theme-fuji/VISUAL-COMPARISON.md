@@ -1,0 +1,1 @@
+Retained Fuji Sass: large masthead, blue/lavender title links, summary feed,75/25 content/right sidebar and original light/dark colors, Primer markdown styling. System title font replaces unbundled Product Sans. Mobile sidebar remains visible below content rather than hidden off-canvas. Native metadata/search/pagination replace Hugo-specific output.

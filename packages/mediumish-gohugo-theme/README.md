@@ -1,0 +1,9 @@
+# Mediumish for Firekylin
+
+Native port of lgaida/mediumish-gohugo-theme, derived from WowThemes.net’s Mediumish Jekyll design. Exact revision in NOTICE.md. Both author MIT notices and original Jekyll MIT license preserved. Bootstrap4.3.1 MIT and unmodified local Righteous/Merriweather OFL fonts included. Original CSS is retained in res/source. No demo content, imagery, brand logos or remote assets are bundled.
+
+Preserves the Righteous site title, three/two/one-column bordered article cards, image previews and gray summaries, date/read links, large article title, Merriweather reading typography, green links and two-panel tag explorer. Uses the upstream blog section layout as Firekylin’s home rather than its separate personal-profile index. Native pagination controls the page size, rather than a hardcoded six posts. Missing/unsafe featured images omit the thumbnail. The tag explorer uses a neutral background because the upstream demo photo has no clear asset license.
+
+Native posts, pages, attachments, taxonomy, archive, server-side search, pagination, protected content and comments work through Firekylin widgets. Footers honor escaped author/text settings. Mobile menus wrap visibly in document flow instead of a fixed collapsing Bootstrap navbar. Upstream photo logo, author avatar/profile, social share, newsletter alert bar, reading-time estimate, featured-story selection, external comments and scroll animations are not implemented. Native remote comment submission/login is untested.
+
+Actual ZIP installed into Firekylin2.17.1 SQLite;18routes at1440/390px verify content, pagination, attachments, private/draft exclusion, comments, no-JS navigation/search and wide native video/audio. Theme checks cover3/2/1card columns,8valid+2missing/unsafe previews, fonts and native tag explorer. Screenshot comparison uses pinned CSS/templates, not live upstream pixel matching.

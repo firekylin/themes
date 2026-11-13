@@ -1,0 +1,1 @@
+<% const {cover,title,subtitle}=firekylin; %><header class="header header--main"><% if(/^(https?:\/\/|\/(?!\/))/i.test(cover)){ %><figure class="banner"><img src="<%= cover %>" alt=""></figure><% } %><div class="container"><h1 class="header__title"><%= title %></h1><% if(subtitle){ %><div class="header__subtitle metadata"><%= subtitle %></div><% } %></div></header>

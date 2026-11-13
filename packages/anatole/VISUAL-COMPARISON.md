@@ -1,0 +1,1 @@
+Original Sass layout/sidebar/post/palette modules used. Fixed40% desktop profile sidebar +60% reading pane, thumbnail summaries and minimal metadata retain Anatole design. Native navigation always visible, local Work Sans, optional safe avatar, robust theme preference. Sidebar stacks above mobile content. No demo portraits.

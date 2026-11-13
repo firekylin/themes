@@ -1,0 +1,36 @@
+{
+  "name": "hugo-sustain",
+  "title": "Sustain",
+  "version": "0.1.2",
+  "private": true,
+  "description": "Sustain’s green page-edge rules, compact date/title archive rows and centered 800px Bootstrap layout.",
+  "license": "MIT",
+  "author": "Nurlan Suyundukov; Firekylin contributors",
+  "homepage": "https://github.com/nurlansu/hugo-sustain",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-sustain"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-sustain"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

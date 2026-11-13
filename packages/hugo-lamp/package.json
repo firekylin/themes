@@ -1,0 +1,42 @@
+{
+  "name": "hugo-lamp",
+  "title": "Lamp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lamp’s original green sidebar, shadowed summary cards, Roboto typography and green article headings.",
+  "license": "MIT",
+  "author": "Huy Nguyen; Firekylin contributors",
+  "homepage": "https://github.com/huyb1991/hugo-lamp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-lamp"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-lamp"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "avatarUrl",
+      "label": "侧栏头像地址",
+      "help": "可选；使用 HTTP(S) 或站内绝对路径。"
+    }
+  ]
+}

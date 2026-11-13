@@ -1,0 +1,36 @@
+{
+  "name": "zola-zola-theme-hikari",
+  "title": "Hikari",
+  "version": "0.1.2",
+  "private": true,
+  "description": "Hikari’s full-width purple post rows, date/title rhythm, quiet masthead and serif article column.",
+  "license": "MIT",
+  "author": "waynee95; Mathieu Mayer-Mazzoli; Firekylin contributors",
+  "homepage": "https://github.com/waynee95/zola-theme-hikari",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/zola-zola-theme-hikari"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "zola-zola-theme-hikari"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

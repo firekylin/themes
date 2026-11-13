@@ -1,0 +1,36 @@
+{
+  "name": "manis-hugo-theme",
+  "title": "Manis",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Manis’s narrow Skeleton-derived reading column, compact dated link list and red divider accents.",
+  "license": "MIT",
+  "author": "Yurizal Susanto; Firekylin contributors",
+  "homepage": "https://github.com/yursan9/manis-hugo-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/manis-hugo-theme"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "manis-hugo-theme"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

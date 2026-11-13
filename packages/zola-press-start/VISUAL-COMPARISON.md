@@ -1,0 +1,1 @@
+Original blog-section scroll cards, blue article panel, procedural SVG landscape, sprite animation and HUD retained. Blog list replaces portfolio quest homepage; native wrapping menu stays visible and content does not depend on reveal scripts. Audio/CRT/Lenis and construction mode omitted. Local OFL pixel fonts.

@@ -1,0 +1,1 @@
+Retains upstream Primer and GitHub Style CSS, profile column and repository overview boxes, file header/Markdown panel and light/dark palettes. Native paginated cards replace fixed pinned/popular subset; source README panel becomes site description. Mobile profile stacks, article view hides profile. Header uses site title in place of trademark/demo artwork.

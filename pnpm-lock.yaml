@@ -48,7 +48,98 @@ importers:
 
   packages/m10c: {}
 
+  packages/chaplin: {}
+
   packages/alto: {}
+
+  packages/eksell: {}
+
+  packages/nofancy: {}
+
+  packages/github-style: {}
+  packages/hugo-tania: {}
+
+  packages/papercss-hugo-theme: {}
+  packages/hugo-theme-fuji: {}
+
+  packages/niello: {}
+  packages/hugo-theme-yuki: {}
+
+  packages/mediumish-gohugo-theme: {}
+  packages/hugo-theme-den: {}
+
+  packages/hugo-theme-tokiwa: {}
+  packages/hugo-rocinante: {}
+
+  packages/hugo-researcher: {}
+
+  packages/harbor: {}
+
+  packages/zola-andromeda: {}
+
+  packages/bare-hugo-theme: {}
+
+  packages/hugo-theme-iris: {}
+
+  packages/material-design: {}
+
+  packages/jekyll-moon: {}
+
+  packages/blogpaper: {}
+
+  packages/hugo-blog-jeffprod: {}
+
+  packages/hugo-lamp: {}
+
+  packages/simple-style: {}
+
+  packages/hugo-terrassa-theme: {}
+
+  packages/darksimplicity: {}
+
+  packages/npq-hugo: {}
+
+  packages/hugo-theme-prav: {}
+
+  packages/minimal-bootstrap-hugo-theme: {}
+
+  packages/zola-shadharon: {}
+
+  packages/hugo_eiio: {}
+
+  packages/hugo-fabric: {}
+
+  packages/ramium: {}
+
+  packages/hugo-tikva: {}
+
+  packages/devise: {}
+
+  packages/hugo-theme-sky: {}
+
+  packages/zola-radion: {}
+
+  packages/zola-blow: {}
+
+  packages/hugo-theme-chunky-poster: {}
+
+  packages/hugo-theme-simple-blog: {}
+
+  packages/zola-arabesque: {}
+
+  packages/zola-zolarwind: {}
+
+  packages/zola-zolanight: {}
+
+  packages/zola-vonge: {}
+
+
+
+  packages/hugo-material-blog: {}
+
+  packages/hugo-theme-hulga: {}
+
+  packages/hugo-theme-dream: {}
 
   packages/academic-cv: {}
 
@@ -72,11 +163,23 @@ importers:
 
   packages/digest: {}
 
+  packages/mcluhan: {}
+
   packages/argon: {}
+
+  packages/grid-side: {}
+
+  packages/ghostwriter: {}
 
   packages/aria: {}
 
+  packages/rowling: {}
+
   packages/bubble: {}
+
+  packages/davis: {}
+
+  packages/zola-zola-theme-hikari: {}
 
   packages/aurora: {}
 
@@ -84,11 +187,21 @@ importers:
 
   packages/bearblog: {}
 
+  packages/hitchcock: {}
+
   packages/blowfish: {}
+
+  packages/hugo-lithium-theme: {}
 
   packages/wave: {}
 
   packages/butterfly: {}
+
+  packages/simplicity: {}
+
+  packages/slim: {}
+
+  packages/purehugo: {}
 
   packages/editorial: {}
 
@@ -96,13 +209,27 @@ importers:
 
   packages/cayman: {}
 
+  packages/lovecraft: {}
+
+  packages/bootstrap-bp-hugo-theme: {}
+
   packages/cactus: {}
 
   packages/roon: {}
 
+  packages/vienna: {}
+
+  packages/rams: {}
+
   packages/console: {}
 
+  packages/arabica: {}
+
+  packages/hugo-theme-nix: {}
+
   packages/congo: {}
+
+  packages/hoffman: {}
 
   packages/clarity: {}
 
@@ -118,6 +245,28 @@ importers:
 
   packages/corepress: {}
 
+  packages/aether: {}
+
+  packages/binario: {}
+
+  packages/future-imperfect: {}
+
+  packages/hpstr-hugo-theme: {}
+
+  packages/anatole: {}
+
+  packages/gazette: {}
+
+  packages/erblog: {}
+
+  packages/zola-coast: {}
+
+  packages/zola-block: {}
+
+  packages/zola-deepthought: {}
+
+  packages/zola-ergo: {}
+
   packages/massively: {}
 
   packages/clean-blog: {}
@@ -125,6 +274,8 @@ importers:
   packages/cstate: {}
 
   packages/datagov: {}
+
+  packages/wp-hemingway: {}
 
   packages/docsy: {}
 
@@ -138,7 +289,15 @@ importers:
 
   packages/hugo-bootstrap: {}
 
+  packages/paperback: {}
+
+  packages/lingonberry: {}
+
   packages/edition: {}
+
+  packages/zola-dinkleberg: {}
+
+  packages/etch: {}
 
   packages/echo: {}
 
@@ -154,6 +313,8 @@ importers:
 
   packages/fluid: {}
 
+  packages/minimo: {}
+
   packages/minos: {}
 
   packages/gokarna: {}
@@ -166,6 +327,8 @@ importers:
 
   packages/vitae: {}
 
+  packages/detox: {}
+
   packages/hermit: {}
 
   packages/hello-friend-ng: {}
@@ -173,6 +336,10 @@ importers:
   packages/hello-friend: {}
 
   packages/hugo-book: {}
+
+  packages/hugo-theme-vec: {}
+
+  packages/strange-case: {}
 
   packages/hugo-coder: {}
 
@@ -184,15 +351,27 @@ importers:
 
   packages/lagrange: {}
 
+  packages/zola-oceanic-zen: {}
+
   packages/icarus: {}
 
   packages/icefox: {}
 
   packages/hamilton: {}
 
+  packages/hugo-nederburg-theme: {}
+
+  packages/hugotex: {}
+
+  packages/hugo-primer: {}
+
+  packages/hugo-sustain: {}
+
   packages/ink: {}
 
   packages/millennial: {}
+
+  packages/elephants: {}
 
   packages/indigo: {}
 
@@ -200,15 +379,25 @@ importers:
 
   packages/jasmine: {}
 
+  packages/smol: {}
+
   packages/jj: {}
+
+  packages/fukasawa: {}
 
   packages/centrarium: {}
 
   packages/joe: {}
 
+  packages/beyondnothing: {}
+
   packages/hydejack: {}
 
   packages/kratos: {}
+
+  packages/hugo-cards: {}
+
+  packages/hugo-dusk: {}
 
   packages/basically-basic: {}
 
@@ -223,6 +412,8 @@ importers:
   packages/hugoplate: {}
 
   packages/landscape: {}
+
+  packages/zola-zola-pickles: {}
 
   packages/h2o: {}
 
@@ -244,15 +435,49 @@ importers:
 
   packages/miracles: {}
 
+  packages/miyazaki: {}
+
   packages/anisina: {}
 
   packages/moonwalk: {}
 
+  packages/zola-simple-dev-blog: {}
+
+  packages/zola-seje2: {}
+
+  packages/edidor: {}
+
+  packages/ezhil: {}
+
+  packages/zola-press-start: {}
+
+  packages/zola-still: {}
+
+  packages/zola-serene: {}
+
+  packages/paperesque: {}
+
+  packages/pulp: {}
+
+  packages/solar-theme-hugo: {}
+
+  packages/zola-kangae: {}
+
+  packages/zola-hook: {}
+
+  packages/hugo-kiera: {}
+
   packages/moricolor: {}
+
+  packages/wp-hamilton: {}
+
+  packages/manis-hugo-theme: {}
 
   packages/astrofy: {}
 
   packages/mwordstar: {}
+
+  packages/base16: {}
 
   packages/nexmoe: {}
 
@@ -266,13 +491,19 @@ importers:
 
   packages/paper: {}
 
+  packages/hugo-frais: {}
+
   packages/papermod: {}
 
   packages/paul: {}
 
+  packages/shoreditch: {}
+
   packages/pinghsu: {}
 
   packages/poole: {}
+
+  packages/dyad-2: {}
 
   packages/puock: {}
 
@@ -283,6 +514,8 @@ importers:
   packages/sakura: {}
 
   packages/sakurairo: {}
+
+  packages/papaya: {}
 
   packages/single: {}
 
@@ -296,11 +529,19 @@ importers:
 
   packages/story: {}
 
+  packages/zola-apollo: {}
+
+  packages/zola-dose: {}
+
+  packages/hugo-xmag: {}
+
   packages/svbtle: {}
 
   packages/susty: {}
 
   packages/tactile: {}
+
+  packages/er: {}
 
   packages/terminal: {}
 
@@ -310,7 +551,13 @@ importers:
 
   packages/void: {}
 
+  packages/koji: {}
+
   packages/archer: {}
+
+  packages/hugo-theme-yinyang: {}
+
+  packages/internet-weblog: {}
 
   packages/zen: {}
 
@@ -320,6 +567,8 @@ importers:
 
   packages/midnight: {}
 
+  packages/hugo-theme-anubis: {}
+
   packages/pure: {}
 
   packages/mdx: {}
@@ -328,11 +577,19 @@ importers:
 
   packages/lolimeow: {}
 
+  packages/hugo-hello-programmer-theme: {}
+
+  packages/zola-zola-henry: {}
+
   packages/dope: {}
 
   packages/brave: {}
 
+  packages/wilson: {}
+
   packages/dreamcat: {}
+
+  packages/iwata: {}
 
   packages/bearsimple: {}
 
@@ -360,6 +617,8 @@ importers:
 
   packages/klise: {}
 
+  packages/min_night: {}
+
   packages/xmin: {}
 
   packages/journal: {}
@@ -372,6 +631,8 @@ importers:
 
   packages/attila: {}
 
+  packages/hugo-piercer-theme: {}
+
   packages/casper: {}
 
   packages/noteworthy: {}
@@ -383,6 +644,12 @@ importers:
   packages/source: {}
 
   packages/so-simple: {}
+
+  packages/blackburn: {}
+
+  packages/colordrop: {}
+
+  packages/charaka-hugo-theme: {}
 
   packages/chirpy: {}
 

@@ -1,0 +1,76 @@
+// *-dark.css
+$primary:#c9cad0;
+$secondary:#9a9ca5;
+$success:#28a745;
+$danger:#dc3545;
+$info:#17a2b8;
+$warning:#ffc107;
+$light:#c9cad0;
+$dark:#121315;
+$body-bg:#17181b;
+$body-color:#c9cad0;
+$white:#f3f3f5;
+$black:#121315;
+$color-contrast-light:#fff; // text on colored backgrounds, $white is too gray for 4.5:1 on $danger
+$headings-color:#f3f3f5;
+$link-color:#f3f3f5;
+$link-hover-color:#7cb4ec;
+$navbar-dark-hover-color:$white;
+$card-bg:#212226;
+$card-border-color:#2d2f34;
+$border-color:#2d2f34;
+$pagination-color:#c9cad0;
+$pagination-bg:#212226;
+$pagination-border-color:#2d2f34;
+$pagination-hover-color:#f3f3f5;
+$pagination-hover-bg:#2a2c31;
+$pagination-hover-border-color:#2d2f34;
+$pagination-focus-bg:#2a2c31;
+$pagination-active-color:#f3f3f5;
+$pagination-active-bg:#3a3d44;
+$pagination-active-border-color:#3a3d44;
+$pagination-disabled-color:#6b6d75;
+$pagination-disabled-bg:#1b1c1f;
+$pagination-disabled-border-color:#2d2f34;
+$code-color:#e685b5; // pink of Bootstrap's dark color mode, the default pink is too dark on the dark background
+
+// Shared styles
+@import "main.scss";
+
+// Bootstrap
+@import "bootstrap-imports";
+
+// Shared styles overrides
+@import "main2.scss";
+
+:root { --bp-accent: #7cb4ec; color-scheme: dark; }
+
+// Subtle colors (alerts ...) from Bootstrap's own dark color mode; the scheme is compiled as light mode
+$bp-dark-subtle: (
+    "primary":   ($primary-text-emphasis-dark,   $primary-bg-subtle-dark,   $primary-border-subtle-dark),
+    "secondary": ($secondary-text-emphasis-dark, $secondary-bg-subtle-dark, $secondary-border-subtle-dark),
+    "success":   ($success-text-emphasis-dark,   $success-bg-subtle-dark,   $success-border-subtle-dark),
+    "info":      ($info-text-emphasis-dark,      $info-bg-subtle-dark,      $info-border-subtle-dark),
+    "warning":   ($warning-text-emphasis-dark,   $warning-bg-subtle-dark,   $warning-border-subtle-dark),
+    "danger":    ($danger-text-emphasis-dark,    $danger-bg-subtle-dark,    $danger-border-subtle-dark),
+);
+:root {
+    @each $color, $values in $bp-dark-subtle {
+        --bs-#{$color}-text-emphasis: #{nth($values, 1)};
+        --bs-#{$color}-bg-subtle: #{nth($values, 2)};
+        --bs-#{$color}-border-subtle: #{nth($values, 3)};
+    }
+}
+
+.navbar-light { background-color: #{$dark}!important; }
+
+.dropdown-menu { background-color: #{$card-bg}!important; border-color: #{$card-border-color}; }
+.dropdown-item { color: #{$body-color}!important; background-color: #{$card-bg}!important; }
+.dropdown-item:hover { color: #{$white}!important; }
+
+pre { color: #fff; }
+
+// Inline code as a subtle chip, easier to spot and read in running text
+:not(pre) > code { background-color: #2a2c31; padding: .1em .35em; border-radius: .25rem; }
+
+a.badge { color: #{$black}; }

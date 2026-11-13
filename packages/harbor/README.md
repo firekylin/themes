@@ -1,0 +1,9 @@
+# Harbor for Firekylin
+
+Port of matsuyoshi30/harbor; exact source revision in NOTICE.md. Original MIT license (including its placeholder copyright text) preserved, with author credited separately. Original main/dark CSS retained. Shared table-rule attribution includes Beautiful Hugo’s MIT notice. Local unmodified Google Fonts Noto Sans JP/Roboto variable fonts retain the original font families with newer binary versions; both OFL licenses and hashes included. No Font Awesome, logo/demo images, external scripts or trackers bundled.
+
+Preserves centered large title, compact title/summary/read-more feed, date/category metadata, 700px reading column, centered footer and white/near-black palettes. Native footer theme button follows OS until an explicit persistent selection; blocked storage is handled, and CSS follows OS without JS. Article title/date appear above the reading column and the native heading TOC links visible h2/h3 content. Native menus wrap on phones.
+
+Firekylin posts/pages, attachments, archives, taxonomy, search, pagination, protected content and comments supported. Footer text/author is escaped. Listing uses native excerpts rather than Hugo’s truncated-summary flag. Upstream social icons, logo, multilingual links, FlexSearch/mark highlighting, instant-page prefetch, syntax CSS, reading-time extras and third-party analytics/comments are not implemented. Native server-side search replaces client search. Remote comment login/submission is untested.
+
+Actual ZIP installation in Firekylin2.17.1 SQLite checks18routes at1440/390px, private/draft exclusion, native attachments/media, comments and no-JS navigation/search. Additional tests cover700pxgeometry, original colors, persistent preference/blocked storage/no-JS dark, local fonts and heading TOC. Screenshots compared with pinned source templates/CSS, not live demo pixels.

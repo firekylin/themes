@@ -1,0 +1,1 @@
+Smol’s original monospace typography, ASCII masthead, unboxed summary feed and automatic light/dark colors. Reviewed original header, list/summary, single and source CSS. Converted Hugo data bindings to native Widgets, retained source structure and palettes. Added safe media, controls and overflow handling.

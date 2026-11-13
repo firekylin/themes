@@ -1,0 +1,36 @@
+{
+  "name": "elephants",
+  "title": "Elephants",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Elephants’s centered title, Ubuntu typography and two-column date/title archive table.",
+  "license": "MIT",
+  "author": "Benny Mei; Firekylin contributors",
+  "homepage": "https://github.com/meibenny/elephants",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/elephants"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "elephants"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Tokiwa for Firekylin
+
+Port of heyeshuang/hugo-theme-tokiwa, exact revision in NOTICE.md. Original MIT theme notices for He Yeshuang, Hugo Starter/Jim Frenette, Steve Francia and Tailwind Toolbox/Tailwind authors retained. Original source and shipped CSS preserved; Tailwind2.2.19 and modern-normalize1.1.0 MIT licenses included. No Remix icons are copied (their original Apache2 notice remains in upstream LICENSE).
+
+Preserves eucalyptus/teal typography, pale gray background, serif list titles, pink introductory text, right-aligned date rows, sticky left title/navigation and right content column. At desktop sizes the columns use the upstream40/60 then50/50 proportions; mobile stacks the sidebar above content. Article title/date and optional collapsible heading TOC appear in the left column. TOC is generated from actual visible h2/h3 content with escaped text and stays hidden without JS; article/navigation/search remain usable without it.
+
+Uses original installed CJK/system font fallback stacks. Optional downloaded Chinese fonts and FancyTitleFont are omitted; appearance follows fonts available on the reader’s OS. Native excerpt supplies the list description instead of Hugo’s optional Description field. Native posts/pages, attachments, taxonomy, archive, server-side search, pagination, protected content and comments are implemented. Footer text/author is escaped. Fuse client search, pangu spacing, KaTeX, social icons, custom Hugo shortcodes and external Disqus are not implemented. Native remote comment submission/login remains untested.
+
+Actual ZIP installed in Firekylin2.17.1 SQLite;18routes at1440/390px verify private/draft filtering, comments, native media/attachments, pagination and no-JS navigation/search. Additional checks cover original background, desktop left/right layout, mobile stacking, date rows and safe heading TOC. Source-template/CSS and screenshot comparison performed; no live upstream demo pixel matching.

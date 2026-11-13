@@ -1,0 +1,36 @@
+{
+  "name": "edidor",
+  "title": "Edidor",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Edidor’s editor-style toolbar/sidebar, monthly file list and original generated wild palettes.",
+  "license": "MIT",
+  "author": "Jacob Sun; Firekylin contributors",
+  "homepage": "https://github.com/jacobsun/edidor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/edidor"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "edidor"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

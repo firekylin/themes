@@ -1,0 +1,2 @@
+Beyond Nothing’s pale gray canvas, compact 650px title/date list and yellow highlighted links.
+Original Skeleton 2.0.4, Normalize and custom.css included with separate notices. Replaces hardcoded placeholder site title, email and copyright year with real site identity/navigation/footer settings. Open Sans uses system sans-serif fallback. Hugo word counts and adjacent-post queries are omitted; no demonstration content or external scripts are included.

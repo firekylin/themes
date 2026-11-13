@@ -1,0 +1,36 @@
+{
+  "name": "hugo-theme-yinyang",
+  "title": "Yinyang",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Yinyang’s Bungee Shade masthead, Bree Serif reading face, year-grouped dated post rows and switchable dark palette.",
+  "license": "MIT",
+  "author": "joway; Firekylin contributors",
+  "homepage": "https://github.com/joway/hugo-theme-yinyang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-theme-yinyang"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-theme-yinyang"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "hugo-kiera",
+  "title": "Kiera",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Kiera’s serif writing column, prominent article titles, thick navigation rule and original system light/dark palettes.",
+  "license": "MIT",
+  "author": "Daniel Saunders; b. avianto; Firekylin contributors",
+  "homepage": "https://github.com/funkydan2/hugo-kiera",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-kiera"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-kiera"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

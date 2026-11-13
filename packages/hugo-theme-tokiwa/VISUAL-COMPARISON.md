@@ -1,0 +1,1 @@
+Original Tokiwa app.css and templates: eucalyptus headings,teal dates,gray surface,pink intro,sticky left title/navigation, right text feed/body;40/60→50/50columns then mobile stack. CJK/system font stacks retained without optional downloaded fonts. Native headings build collapsible TOC; no image-card redesign.

@@ -1,0 +1,9 @@
+# Niello for Firekylin
+
+Port of guangmean/Niello, pinned in NOTICE.md. Original shipped Tailwind4.0.6 compiled CSS and source main.css retained; MIT theme/Tailwind notices included. Served CSS replaces font declaration with local unmodified Crimson Pro normal/italic variable fonts, OFL1.1 notices and hashes. No demo logo/photos, icons, generated example site, cookie/ad/tracking/social/Disqus scripts bundled.
+
+Preserves fixed near-black serif palette, rounded header search, image/text previews with alternating backgrounds, captioned banner and right about/latest/tag sidebar. Sidebar stacks below content on mobile. Native featuredImage supplies images; missing/unsupported values produce text-only previews and gradient banner backdrop. Banner uses two latest public posts instead of Hugo category-selected recommendations; scroll-snap/swipe/keyboard works without JS, buttons progressively add scrolling, no automatic rotation. Native paginated feed retains all public posts rather than category exclusion. Sidebar uses5latest native public posts and tag widget.
+
+Native Firekylin posts/pages/attachments, archive/taxonomy/server search/pagination, protected content and comment gating supported. Footer author/text escaped. Omitted: content-image extraction, category/banner config, popular ranking, category/month-count sidebar, masonry term cards, language switcher, Google AdSense/Analytics, cookie banner, social sharing, external comments and custom syntax highlighter. Remote native comment login/submission unverified.
+
+Actual ZIP verified in Firekylin2.17.1 SQLite across18desktop/mobile routes, no-JS menu/search, native media/privacy/comments, image fallbacks, sidebar, banner controls and fixed dark palette. Visual review against pinned templates and shipped CSS, not live-demo pixel equality.

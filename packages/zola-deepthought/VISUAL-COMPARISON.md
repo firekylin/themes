@@ -1,0 +1,1 @@
+Retained upstream Bulma/style source and section/page card structure, local Jost, centered intro, red read-more and blue taxonomy chips. Native wrappers combine profile home and post list; wrapping links replace burger and text toggle replaces icons. Manual inversion theme retained. No third-party service features or Zola TOC.

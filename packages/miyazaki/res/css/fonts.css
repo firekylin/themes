@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'Charis SIL';
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	src: url( ../fonts/charis-sil-latin-regular.woff2 );
+}
+
+@font-face {
+	font-family: 'Charis SIL';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url( ../fonts/charis-sil-latin-italic.woff2 );
+}
+
+@font-face {
+	font-family: 'Charis SIL';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url( ../fonts/charis-sil-latin-700.woff2 );
+}
+
+@font-face {
+	font-family: 'Charis SIL';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url( ../fonts/charis-sil-latin-700italic.woff2 );
+}
+
+@font-face {
+	font-family: 'Teko';
+	font-style: normal;
+	font-weight: 300 700;
+	font-display: swap;
+	src: url( ../fonts/teko-variable.woff2 ) format('woff2');
+}

@@ -1,0 +1,3 @@
+# Visual adaptation
+
+Pinned index.html, page_list.html, page.html and design-system/theme CSS are the reference: original geometric hero, Jost display/headings and serif prose, metadata above list entries, muted summaries and desktop side contents. Original pattern.js draws the design without animation; fonts and licenses are retained locally. Native text navigation, three-way palette selection and DOM heading links replace Zola-specific controls. Installed-site screenshots and reproducible checks are in verification/zola-arabesque. No live upstream pixel comparison or RTL validation was performed.

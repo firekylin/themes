@@ -1,0 +1,2 @@
+Hikari’s full-width purple post rows, date/title rhythm, quiet masthead and serif article column.
+Preserves the author-panel interaction with keyboard-accessible controls. No demonstration avatar, IcoMoon font, remote highlighting or math engine is bundled. Open Sans/Lora use system sans-serif/Georgia fallbacks. Purple rows are darkened for readable white text. Original Jekyll attribution and Normalize license are retained.

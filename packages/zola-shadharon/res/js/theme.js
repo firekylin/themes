@@ -1,0 +1,1 @@
+(()=>{const b=document.querySelector('#theme-toggle');if(!b)return;b.hidden=false;b.onclick=()=>{const next=document.documentElement.dataset.theme==='light'?'dark':'light';document.documentElement.dataset.theme=next;try{localStorage.setItem('shadharon-theme',next)}catch(e){}}})();

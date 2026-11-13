@@ -1,0 +1,42 @@
+{
+  "name": "colordrop",
+  "title": "Colordrop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Colordrop’s monochrome Montserrat typography, circular profile, ruled navigation and illustrated blog feed.",
+  "license": "MIT",
+  "author": "Humberto Rocha; Firekylin contributors",
+  "homepage": "https://github.com/humrochagf/colordrop",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/colordrop"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "colordrop"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "profileImage",
+      "label": "圆形头像",
+      "help": "可选，http(s) 或站内绝对路径。"
+    }
+  ]
+}

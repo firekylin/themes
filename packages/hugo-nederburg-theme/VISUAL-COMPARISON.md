@@ -1,0 +1,1 @@
+Retained original Tracks/Nederburg CSS and GPL attribution, dark frame, alternating half-cover panels, uppercase Raleway typography, white reading canvas and image-free full-width posts. Navigation wraps rather than using icon overlays; native img replaces JS backgrounds; metadata contrast strengthened. Generated local fixtures replace upstream demo photography.

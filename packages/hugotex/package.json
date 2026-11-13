@@ -1,0 +1,36 @@
+{
+  "name": "hugotex",
+  "title": "HugoTeX",
+  "version": "0.1.1",
+  "private": true,
+  "description": "HugoTeX LaTeX typography with Latin Modern, academic abstract, native heading contents and local KaTeX formulas.",
+  "license": "MIT",
+  "author": "Kaito Sugimoto; Firekylin contributors",
+  "homepage": "https://github.com/hugotex-dev/HugoTeX",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugotex"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugotex"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+body {
+    color: #777;
+}
+
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+/*
+Add transition to containers so they can push in and out.
+*/
+#layout,
+#menu,
+.menu-link {
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+/*
+This is the parent `<div>` that contains the menu and the content area.
+*/
+#layout {
+    position: relative;
+    left: 0;
+    padding-left: 0;
+}
+    #layout.active #menu {
+        left: 150px;
+        width: 150px;
+    }
+
+    #layout.active .menu-link {
+        left: 150px;
+    }
+/*
+The content `<div>` is where all your content goes.
+*/
+.content {
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 800px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+}
+
+.header {
+     margin: 0;
+     color: #333;
+     text-align: center;
+     padding: 2.5em 2em 0;
+     border-bottom: 1px solid #eee;
+ }
+    .header h1 {
+        margin: 0.2em 0;
+        font-size: 3em;
+        font-weight: 300;
+    }
+     .header h2 {
+        font-weight: 300;
+        color: #ccc;
+        padding: 0;
+        margin-top: 0;
+    }
+
+.content-subhead {
+    margin: 50px 0 20px 0;
+    font-weight: 300;
+    color: #888;
+}
+
+
+
+/*
+The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
+appears on the left side of the page.
+*/
+
+#menu {
+    margin-left: -150px; /* "#menu" width */
+    width: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000; /* so the menu or its navicon stays above all content */
+    background: #191818;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+    /*
+    All anchors inside the menu should be styled like this.
+    */
+    #menu a {
+        color: #999;
+        border: none;
+        padding: 0.6em 0 0.6em 0.6em;
+    }
+
+    /*
+    Remove all background/borders, since we are applying them to #menu.
+    */
+     #menu .pure-menu,
+     #menu .pure-menu ul {
+        border: none;
+        background: transparent;
+    }
+
+    /*
+    Add that light border to separate items into groups.
+    */
+    #menu .pure-menu ul,
+    #menu .pure-menu .menu-item-divided {
+        border-top: 1px solid #333;
+    }
+        /*
+        Change color of the anchor links on hover/focus.
+        */
+        #menu .pure-menu li a:hover,
+        #menu .pure-menu li a:focus {
+            background: #333;
+        }
+
+    /*
+    This styles the selected menu item `<li>`.
+    */
+    #menu .pure-menu-selected,
+    #menu .pure-menu-heading {
+        background: #1f8dd6;
+    }
+        /*
+        This styles a link within a selected menu item `<li>`.
+        */
+        #menu .pure-menu-selected a {
+            color: #fff;
+        }
+
+    /*
+    This styles the menu heading.
+    */
+    #menu .pure-menu-heading {
+        font-size: 110%;
+        color: #fff;
+        margin: 0;
+    }
+
+/* -- Dynamic Button For Responsive Menu -------------------------------------*/
+
+/*
+The button to open/close the Menu is custom-made and not part of Pure. Here's
+how it works:
+*/
+
+/*
+`.menu-link` represents the responsive menu toggle that shows/hides on
+small screens.
+*/
+.menu-link {
+    position: fixed;
+    display: block; /* show this only on small screens */
+    top: 0;
+    left: 0; /* "#menu width" */
+    background: #000;
+    background: rgba(0,0,0,0.7);
+    font-size: 10px; /* change this value to increase/decrease button size */
+    z-index: 10;
+    width: 2em;
+    height: auto;
+    padding: 2.1em 1.6em;
+}
+
+    .menu-link:hover,
+    .menu-link:focus {
+        background: #000;
+    }
+
+    .menu-link span {
+        position: relative;
+        display: block;
+    }
+
+    .menu-link span,
+    .menu-link span:before,
+    .menu-link span:after {
+        background-color: #fff;
+        width: 100%;
+        height: 0.2em;
+    }
+
+        .menu-link span:before,
+        .menu-link span:after {
+            position: absolute;
+            margin-top: -0.6em;
+            content: " ";
+        }
+
+        .menu-link span:after {
+            margin-top: 0.6em;
+        }
+
+
+/* -- Responsive Styles (Media Queries) ------------------------------------- */
+
+/*
+Hides the menu at `48em`, but modify this based on your app's needs.
+*/
+@media (min-width: 48em) {
+
+    .header,
+    .content {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    #layout {
+        padding-left: 150px; /* left col width "#menu" */
+        left: 0;
+    }
+    #menu {
+        left: 150px;
+    }
+
+    .menu-link {
+        position: fixed;
+        left: 150px;
+        display: none;
+    }
+
+    #layout.active .menu-link {
+        left: 150px;
+    }
+}
+
+@media (max-width: 48em) {
+    /* Only apply this when the window is small. Otherwise, the following
+    case results in extra padding on the left:
+        * Make the window small.
+        * Tap the menu to trigger the active state.
+        * Make the window large again.
+    */
+    #layout.active {
+        position: relative;
+        left: 150px;
+    }
+}
+.header {
+  font-family: "Raleway", Helvetica, Arial, sans-serif
+}
+
+a {
+  color: #3b8bba;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+a:visited {
+  color: #265778;
+}
+
+.small-print {
+  font-size: 0.8em;
+  margin: 0.6em;
+}
+
+.post-meta {
+  font-size: 90%;
+}
+
+article > footer {
+  text-align: right;
+}
+
+.prev-next-post {
+  margin-top: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.prev-next-post .prev {
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+
+.prev-next-post .next {
+  float: right;
+  text-align: right;
+  overflow: hidden;
+}
+
+#menu {
+  overflow-y: auto;
+}
+
+#menu a {
+  padding: 0.6em;
+}
+
+#menu .brand {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  text-transform: none;
+  background: transparent;
+  text-decoration: none;
+  margin: 0.5em 0;
+}
+
+#menu .pure-menu {
+  font-size: 0.9em;
+}
+
+#menu .pure-menu ul.pure-menu-children {
+  border-top: none;
+}
+
+i {
+  display: inline-block;
+  margin-right: 0.2em;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.pagination a {
+  color: #265778;
+}
+/* Native Firekylin integration: controls, media and code containment. */
+body{overflow-wrap:anywhere}.skip{position:absolute;top:-100px}.skip:focus{top:0;z-index:99}.native-nav{display:flex;flex-wrap:wrap;gap:10px 16px;margin:18px 0}.prose pre,.prose table{display:block;max-width:100%;overflow:auto}.prose img,.attachment-media img{max-width:100%;height:auto;margin:1rem 0}.attachment-media video,.attachment-media audio,.prose iframe{max-width:100%}.prose ul{list-style:disc}.prose ol{list-style:decimal}.prose li{display:list-item}.pagination{display:flex;justify-content:space-between;gap:12px;margin:32px 0}.post-actions,.tags{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}input,button{font:inherit;max-width:100%;box-sizing:border-box}form{display:flex;flex-wrap:wrap;gap:10px}input{min-width:0}:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+
+/* Native post/page media may declare dimensions wider than the reading column. */
+.prose video,.prose audio{max-width:100%;box-sizing:border-box}.prose video{height:auto}
+
+@font-face{font-family:Raleway;src:url('../fonts/Raleway.ttf') format('truetype');font-weight:100 900;font-display:swap}html{color-scheme:light}body{background:#fff}#menu .native-nav{display:block;margin:0}#menu .native-nav a{display:block;white-space:normal;padding:.65rem 1rem}#menu .brand{display:block;white-space:normal}#menu .small-print{color:#aaa;line-height:1.6}.header{margin:0 0 2rem;padding:2.5rem 0 1.5rem}.header h1{font-size:2.5rem;margin:0}.header h2{font-size:1.1rem;margin-top:1rem;font-weight:400}.content{padding:0 2rem 2rem;line-height:1.7}.entry{margin:2.5rem 0}.entry h2{font-size:1.5rem}.post-meta{color:#777}.post-actions{justify-content:space-between}.prose table{display:table;width:100%;table-layout:fixed}.prose td,.prose th{overflow-wrap:anywhere;border:1px solid #ddd;padding:8px}.prose pre{background:#f5f5f5;padding:12px}.skip:focus{z-index:10000;background:#fff;color:#333}.pagination{margin:2rem 0}.content h1{overflow-wrap:anywhere}input,button{padding:5px;border:1px solid #bbb}.native-footer{border-top:1px solid #eee;margin-top:2rem;padding-top:1rem;font-size:.85rem}@media(max-width:48em){#layout{padding-left:0;left:0}#menu{position:static;left:auto;margin-left:0;width:100%;height:auto;overflow:visible}#menu .native-nav{display:flex;flex-wrap:wrap;gap:0}#menu .native-nav a{padding:.6rem .8rem}#menu .brand{margin:0;padding:.8rem}#menu .small-print{display:none}.content{padding:0 1rem 1.5rem}.header h1{font-size:2rem}.header{padding-top:1.5rem}}@media(prefers-reduced-motion:reduce){#layout,#menu{transition:none}}

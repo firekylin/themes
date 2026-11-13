@@ -1,0 +1,240 @@
+html {
+	min-height:100%;
+	width:100%;
+	position:relative;
+}
+
+body {
+	background-color: rgb(249,249,249);
+	color: #484848;
+}
+
+.nav-menu {
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.header {
+	text-align: left;
+	color: #484848;
+	margin-bottom: .5em;
+}
+
+.header ul li {
+		height: auto;
+}
+
+.header ul li a {
+	font-weight: bold;
+	color: #484848;
+	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header .site-title {
+	font-weight: bold;
+	color: #484848;
+	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.pull-right {
+	float: right;
+}
+
+.posts-name {
+	text-transform: capitalize;
+	font-weight: bold;
+	padding-left: 1em;
+	margin-top: 1em;
+	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.posts {
+	font-family: verdana,arial,helvetica,sans-serif;
+	list-style-type:none;
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
+
+.posts li p{
+	margin-top: 0;
+}
+
+.posts li {
+	margin-bottom: 1em;
+}
+
+.posts li a {
+	color:#369;
+	text-decoration:none;
+}
+
+
+.footnote {
+	font-family: verdana,arial,helvetica,sans-serif;
+	color:#888;
+	font-size:x-small;
+	margin-bottom: 1em;
+}
+
+.footnote a {
+	color: #888 !important
+}
+
+.footnote a:hover{
+	text-decoration:underline;
+	color:#369;
+}
+
+.footer {
+	position:absolute;
+	z-index:2;
+	height:auto;
+	width:100%;
+	bottom:0;
+}
+
+
+.footer-content {
+	border-top: 1px solid #e3e3e3;
+	font-size: 80%;
+	color: #bbb;
+}
+
+.footer-content a {
+	color: #bbb;
+}
+
+.footer-content ul {
+	height: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	display: inline-block;
+	padding-left: 0;
+}
+
+#gototop-btn {
+	display: inline-block;
+}
+
+#foot-name {
+	text-transform: none;
+}
+
+#foot-copyright {
+	padding-left: 1em;
+	padding-bottom: 0.5em;
+	margin: 0;
+}
+
+.post {
+	font-family: proxima-nova,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+	color:#484848;
+	letter-spacing:normal;
+	padding-left: .5em;
+}
+
+.post h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+	letter-spacing:normal;
+}
+
+.post-content {
+	z-index:9;
+	overflow:auto;
+	padding:0;
+	padding-bottom:3em;
+	font-size:16px;
+	line-height:1.4;
+}
+
+.post-content img {
+	max-width: 100%;
+	height: auto;
+}
+
+.post a {
+	color:#c05b4d;
+	text-decoration: none;
+}
+
+.post a:hover {
+	color:#a5473a;
+	text-decoration: underline;
+}
+
+.post h1 {
+	font-size:28px;
+}
+
+.post h2 {
+	font-size:25px;
+}
+
+.post h3 {
+	font-size:23px;
+}
+
+.post h4 {
+	font-size:21px;
+}
+
+.post h5 {
+	font-size:19px;
+}
+
+.post h6 {
+	font-size:18px;
+}
+
+.post-title{
+		margin-top: 0;
+		margin-bottom: 2em;
+}
+
+.post-title h1 {
+	font-weight:bold;
+	font-size:39px;
+	line-height: 40px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+@media screen and (max-width:767px){
+	.desktop {
+		display: none;
+	}
+	.mobile {
+		display: block;
+	}
+	#toggle-btn {
+		display: inline-block;
+		float: right;
+		padding: .5em 1em;
+		text-decoration: none;
+		color: #484848;
+		font-weight: bold;
+	}
+	#toggle-content li {
+		clear: both;
+		height: auto;
+		background-color: rgb(249,249,249);
+	}
+	#toggle-home {
+		display: inline-block;
+	}
+}
+
+@media screen and (min-width:768px){
+	.mobile {
+		display:none;
+	}
+	.desktop {
+		display: block;
+	}
+}
+
+/* Native Firekylin integration. The original Pure grid proportions remain. */
+body{overflow-wrap:anywhere}.skip{position:absolute;top:-100px}.skip:focus{top:0;z-index:99}.native-frame{margin-left:auto;margin-right:auto}.nav-menu{display:flex;flex-wrap:wrap;gap:12px;align-items:center;padding:20px 0}.site-title{white-space:normal;min-width:0}.nav-items{display:flex;flex-wrap:wrap;gap:12px;font:14px sans-serif}.nav-items a{color:#484848;text-decoration:none}.native-description{font-size:14px;color:#666}.footer{position:static;margin-top:40px}.footer-content,.footer-content a{color:#666}.footnote,.footnote a{color:#666!important}.post-content{overflow:visible}.post-detail{min-width:0}.prose{line-height:1.65}.prose pre,.prose table{display:block;max-width:100%;overflow:auto}.prose img,.attachment-media img{max-width:100%;height:auto}.attachment-media video,.attachment-media audio{max-width:100%}.prose iframe{max-width:100%}.prose ul{list-style:disc}.prose ol{list-style:decimal}.prose li{display:list-item}.post-actions,.tags{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}.pagination{display:flex;justify-content:space-between;gap:12px;margin:30px 0}.entry{min-width:0}input,button{font:inherit;max-width:100%;box-sizing:border-box}form{display:flex;flex-wrap:wrap;gap:10px}input{min-width:0}:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+
+/* Native post/page media may declare dimensions wider than the reading column. */
+.prose video,.prose audio{max-width:100%;box-sizing:border-box}.prose video{height:auto}

@@ -1,0 +1,50 @@
+{% set flavor = config.extra?.flavor or "auto" %}
+<!doctype html>
+<html lang="{{ lang or config.default_language }}" data-flavor="{{ flavor }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="color-scheme"
+      content="{{ 'dark' if flavor == 'citric' else 'light' if flavor == 'lactic' else 'light dark' }}"
+    />
+    {% block title %}
+      <title>{{ config.title }}</title>
+    {% endblock %}
+    <meta
+      name="description"
+      content="{% block description %}{{ config.description or '' }}{% endblock %}"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="{{ get_url(path='main.css', cachebust=true) }}"
+      rel="stylesheet"
+    />
+    {% if config.generate_feeds %}
+      <link
+        rel="alternate"
+        type="application/atom+xml"
+        title="{{ config.title }}"
+        href="{{ get_url(path=config.feed_filenames[0]) }}"
+      />
+    {% endif %}
+    <script src="{{ get_url(path='block.js', cachebust=true) }}" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="grain" aria-hidden="true"></div>
+    {% block progress %}{% endblock %}
+    <div class="shell">
+      {% include "partials/nav.html" %}
+      <main id="main" class="{% block main_class %}stack{% endblock %}">
+        {% block main %}{% endblock %}
+      </main>
+      {% include "partials/footer.html" %}
+    </div>
+  </body>
+</html>

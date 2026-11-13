@@ -1,0 +1,42 @@
+{
+  "name": "material-design",
+  "title": "Material Design",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Original Materialize three-column cards, teal links, large banner and shadowed reading panels.",
+  "license": "MIT",
+  "author": "pdevty; Firekylin contributors",
+  "homepage": "https://github.com/pdevty/material-design",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/material-design"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "material-design"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "headerImage",
+      "label": "顶部背景图片",
+      "help": "填写图片网址；留空显示纯色背景。"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Retained original main.scss/Readable layout: three-column photo panels, layered hover shadow, light navbar and 2:1 article/recent-post sidebar. Native widgets and wrapping nav replace Hugo/Bootstrap JS. Full card titles, safe optional images and native pagination are deliberate differences; profile variant and social services omitted.

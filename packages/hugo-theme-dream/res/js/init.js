@@ -1,0 +1,1 @@
+(()=>{try{const saved=localStorage.getItem('dream-native-theme');const dark=saved?saved==='forest':matchMedia('(prefers-color-scheme:dark)').matches;document.documentElement.dataset.theme=dark?'forest':'emerald';document.documentElement.classList.toggle('dark',dark)}catch(e){}})();

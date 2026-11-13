@@ -1,0 +1,1 @@
+Original selected Sass plus upstream list/single templates drive layout: gray background, centered Lato headings, narrow shadowed paper cards, feature images spanning card edges, separate paper article content. Native visible navigation replaces plugin-driven menu. Original feature-hero crop adapted with object-fit. No demo assets.

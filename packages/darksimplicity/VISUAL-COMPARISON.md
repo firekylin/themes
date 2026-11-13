@@ -1,0 +1,1 @@
+Source CSS/template plus upstream images/screenshot.png reviewed: charcoal background,Lora serif,fluid34–50pxmasthead,30–36pxtitles,whitebody,topnavigation and unboxed summaries. Currenttemplates use inline tags,older screenshot has right-handtags. Gray links lightened forcontrast;localfonts,no externalrequests.

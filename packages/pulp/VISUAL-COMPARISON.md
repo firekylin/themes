@@ -1,0 +1,1 @@
+Original light/dark layout and markdown CSS, optional circle mask/border SVG, centered profile and month-group title list preserved. Native homepage combines original profile and blog-list views; native search replaces static Lunr. No demo photo/icons.

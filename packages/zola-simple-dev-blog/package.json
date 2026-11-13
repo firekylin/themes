@@ -1,0 +1,42 @@
+{
+  "name": "zola-simple-dev-blog",
+  "title": "Simple Dev Blog",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Simple Dev Blog’s Rubik typography, green underlined links, portrait animation and spacious post previews.",
+  "license": "MIT",
+  "author": "Bennett Hardwick; Firekylin contributors",
+  "homepage": "https://github.com/bennetthardwick/simple-dev-blog-zola-starter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/zola-simple-dev-blog"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "zola-simple-dev-blog"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "profileImage",
+      "label": "首页肖像地址",
+      "help": "可选，http(s) 或站内绝对路径；手机端隐藏。"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Original compiled CSS/Sass retained: cream/burgundy/brown palette, Domine serif, year headings and two-column date/title entries. Native result pages use per-page year groups; desktop excerpts remain hidden on mobile. Text navigation replaces social icons. Native comments replace Disqus and jQuery share controls are omitted.

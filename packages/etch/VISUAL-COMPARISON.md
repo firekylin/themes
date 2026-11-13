@@ -1,0 +1,1 @@
+Etch’s original 600px reading column, inline post/date list, compact banner and system dark palette. Reviewed original header, list/summary, single and source CSS. Converted Hugo data bindings to native Widgets, retained source structure and palettes. Added safe media, controls and overflow handling.

@@ -1,0 +1,11 @@
+# GitHub Style for Firekylin
+
+Adapted from MeiK2333/github-style, revision pinned in NOTICE.md. Original six CSS files retained in res/source and combined in theme.css, including Primer core/product, light/dark palettes and syntax styles. Unused asset url() references are removed from served CSS. Original MIT license (including its literal author placeholder), explicit repository-author attribution, and Primer/Normalize/GitHub syntax MIT notices are included. Uses system fonts; no demo portraits, social brand assets, GitHub logo, remote fonts or third-party scripts bundled.
+
+Preserves the profile/sidebar and repository-card overview, dark header, border tabs, pale file header and bordered Markdown article panel. Sidebar stacks on mobile and hides for articles/pages; cards become one column. The native paginated public feed replaces Hugo's fixed six pinned/popular entries; it does not claim sorting by popularity. Site description replaces the optional Hugo README content. Native date metadata is absolute. Images stay in article content; cards remain text-only. Optional profileImage permits HTTP(S) or site-absolute URLs, missing/unsupported values omit it. Location and footer options are escaped.
+
+Supports native Firekylin posts/pages/attachments, taxonomy/archive, server search, pagination, protected content and comment gating. Native theme switch follows OS until explicitly selected, saves choice when possible and tolerates storage failure. CSS follows OS without JS and the toggle is hidden. Native menus stay visible without JavaScript.
+
+Not ported: GitHub API/data, follower or contribution counters, social organizations, pin ordering, raw README loading, relative-time custom elements, TOC, Fuse search, custom shortcodes, MathJax/KaTeX, Gitalk authentication and external analytics. No GitHub affiliation implied. Native remote comment login/submission unverified.
+
+Actual ZIP verification targets Firekylin2.17.1 SQLite with18desktop/mobile routes and native navigation/search/media/privacy checks. Additional assertions cover two/one-column card layout, optional avatar/location/footer, article profile removal, original light/dark palette and storage failure. Source-based visual review, not upstream live-demo pixel equality.

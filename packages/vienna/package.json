@@ -1,0 +1,42 @@
+{
+  "name": "vienna",
+  "title": "Vienna",
+  "version": "0.1.2",
+  "private": true,
+  "description": "Vienna’s photographic masthead, centered summary feed, blue headings and quiet Bootstrap article layout.",
+  "license": "MIT",
+  "author": "Keichi Takahashi; Firekylin contributors",
+  "homepage": "https://github.com/keichi/vienna",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/vienna"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "vienna"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "headerImage",
+      "label": "页头背景图",
+      "help": "填写站内路径或 HTTP(S) 图片地址；留空显示原生深色页头。"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Original Still Sass/spacing, monochrome summary cards, narrow essay column and end-of-article author/date retained. Native navigation and paginated archives extend the minimal source. Dark inline code and mobile containment adjusted.
