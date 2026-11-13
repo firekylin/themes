@@ -7,3 +7,4 @@ Native Firekylin Eta integration by Firekylin contributors. No third-party fonts
 Pinned monorepo source subdirectory: penscratch-2/; see stylesheet header and UPSTREAM-readme.txt for original authors and license declarations. Images and icon-font CSS URLs are excluded.
 
 Modified November 2026: suppress featured images on password-protected listing rows.
+Native media sizing overrides also keep post/page audio and video within the reading column.
