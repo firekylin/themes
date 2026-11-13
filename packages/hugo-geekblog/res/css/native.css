@@ -1,0 +1,687 @@
+/* Firekylin adaptation of Geekblog: native forms, media and accessible navigation. */
+html,body{min-width:0;overflow-x:visible} .gblog-page{min-width:0} .gblog-brand__title{overflow-wrap:anywhere}.gblog-header__col-2{min-width:0}.gblog-header__col-3{align-items:flex-start}.gblog-brand__subtitle{text-align:center;line-height:1.5}.gblog-post__title{font-size:2rem;line-height:1.3;display:block}.gblog-post__meta{gap:.35rem}.gblog-post__meta a,.tags a{margin-right:.5rem}.gblog-markdown{overflow-wrap:anywhere}.gblog-markdown img,.gblog-markdown video,.gblog-markdown iframe{max-width:100%;height:auto}.gblog-markdown audio{max-width:100%;width:100%;height:54px;min-height:40px}.gblog-markdown pre{max-width:100%;overflow:auto;white-space:pre}.gblog-markdown table:not(.lntable){display:block;max-width:100%;overflow:auto}.gblog-markdown img{height:auto}.gblog-post__feature img{height:280px;min-height:0;object-fit:cover}.post-footer{margin-top:2rem;padding-top:1rem;border-top:1px solid var(--accent-color)}.post-actions,.pagination{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin:2rem 0}.pagination span{padding:.25rem}.directory{padding:1rem 0 2rem}.directory li{line-height:1.8}.gblog-footer .container{gap:1.5rem;flex-wrap:wrap}.gblog-footer p{margin:.5rem 0}.mobile-menu{display:none}button,input{font:inherit;color:inherit;border:1px solid var(--accent-color-dark);border-radius:.3rem;background:var(--accent-color-lite);padding:.5rem .75rem}button{cursor:pointer}input{max-width:100%;min-width:0}form{display:flex;gap:.6rem;align-items:center;flex-wrap:wrap;margin:1.5rem 0}#gblog-color-theme{color:white;border:1px solid #ffffff80;background:transparent;min-width:4rem}#gblog-color-theme[hidden]{display:none}a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible{outline:3px solid #ffab00;outline-offset:3px}.gblog-footer__link:focus-visible{outline-offset:4px}.gblog-nav__list{list-style:none} .attachment-media{margin:1rem 0}
+@media(max-width:49rem){.gblog-nav .native-nav{display:none}.mobile-menu{display:block}.mobile-menu summary{text-align:center;padding:1rem;cursor:pointer}.mobile-links{display:flex;flex-direction:column;align-items:stretch}.mobile-links a{color:#f4f6f7;text-align:center;padding:.75rem;text-decoration:none}.mobile-links a:hover{background:#205375}.gblog-header__col-2{flex:1 1 75%}.gblog-header__col-3{flex:1 1 25%}.gblog-brand{font-size:1.6rem}.gblog-brand__subtitle{font-size:1rem;text-align:left}.gblog-post__title{font-size:1.75rem}.gblog-post__feature img{height:auto}.container{padding:1.25rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+/* Explicit light takes priority over OS dark preference. */
+:root[color-theme=light] {
+  --header-background: rgb(32, 83, 117);
+  --header-font-color: rgb(255, 255, 255);
+  --body-background: white;
+  --body-font-color: rgb(52, 56, 64);
+  --mark-color: rgb(255, 171, 0);
+  --button-background: rgb(43.6295302013, 113.1640939597, 159.5204697987);
+  --button-border-color: rgb(32, 83, 117);
+  --link-color: rgb(10, 83, 154);
+  --link-color-visited: rgb(119, 73, 191);
+  --accent-color-dark: rgb(162, 165, 169);
+  --accent-color: rgb(217, 219, 221);
+  --accent-color-lite: rgb(244, 246, 247);
+  --control-icons: rgb(124.5724137931, 132.724137931, 149.0275862069);
+  --footer-background: rgb(17, 43, 60);
+  --footer-font-color: rgb(255, 255, 255);
+  --footer-link-color: rgb(246, 107, 14);
+  --footer-link-color-visited: rgb(246, 107, 14);
+}
+:root .dark-mode-dim .gblog-markdown img,
+:root[color-theme=light] .dark-mode-dim .gblog-markdown img {
+  filter: none;
+}
+:root[color-theme=light] {
+  /* Theme: GitHub */
+  /* Background */
+}
+:root .chroma,
+:root[color-theme=light] .chroma {
+  color: var(--code-font-color);
+}
+:root .chroma .lntable td:nth-child(2) code .hl,
+:root[color-theme=light] .chroma .lntable td:nth-child(2) code .hl {
+  width: auto;
+  margin-left: -0.5em;
+  padding: 0 0.5em;
+}
+:root .highlight pre.chroma,
+:root[color-theme=light] .highlight pre.chroma {
+  width: 100%;
+  overflow: auto;
+  max-height: var(--code-max-height);
+}
+:root[color-theme=light] {
+  /* LineTable */
+}
+:root .chroma .lntable,
+:root[color-theme=light] .chroma .lntable {
+  border-radius: 0.3rem;
+  border-spacing: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: block;
+  max-height: var(--code-max-height);
+  overflow: auto;
+}
+:root .chroma .lntable pre.chroma,
+:root[color-theme=light] .chroma .lntable pre.chroma {
+  max-height: none;
+  border-radius: 0;
+  margin: 0;
+}
+:root .chroma .lntable td:first-child code,
+:root[color-theme=light] .chroma .lntable td:first-child code {
+  background-color: var(--code-accent-color-lite);
+  font-size: 0.75rem;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+}
+:root .chroma .lntable td:nth-child(2),
+:root[color-theme=light] .chroma .lntable td:nth-child(2) {
+  width: 100%;
+  margin-left: 2rem;
+}
+:root[color-theme=light] {
+  /* Other */
+}
+:root .chroma .x,
+:root[color-theme=light] .chroma .x {
+  color: inherit;
+}
+:root[color-theme=light] {
+  /* Error */
+}
+:root .chroma .err,
+:root[color-theme=light] .chroma .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+:root[color-theme=light] {
+  /* LineTableTD */
+}
+:root .chroma .lntd,
+:root[color-theme=light] .chroma .lntd {
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+:root[color-theme=light] {
+  /* LineHighlight */
+}
+:root .chroma .hl,
+:root[color-theme=light] .chroma .hl {
+  display: block;
+  width: 100%;
+  background-color: #ffffcc;
+}
+:root[color-theme=light] {
+  /* LineNumbersTable */
+}
+:root .chroma .lnt,
+:root[color-theme=light] .chroma .lnt {
+  padding: 0 0.8em;
+}
+:root[color-theme=light] {
+  /* LineNumbers */
+}
+:root .chroma .ln,
+:root[color-theme=light] .chroma .ln {
+  margin-right: 0.4em;
+  padding: 0 0.4em 0 0.4em;
+}
+:root[color-theme=light] {
+  /* Keyword */
+}
+:root .chroma .k,
+:root[color-theme=light] .chroma .k {
+  color: #000000;
+  font-weight: bold;
+}
+:root[color-theme=light] {
+  /* KeywordConstant */
+}
+:root .chroma .kc,
+:root[color-theme=light] .chroma .kc {
+  color: #000000;
+  font-weight: bold;
+}
+:root[color-theme=light] {
+  /* KeywordDeclaration */
+}
+:root .chroma .kd,
+:root[color-theme=light] .chroma .kd {
+  color: #000000;
+  font-weight: bold;
+}
+:root[color-theme=light] {
+  /* KeywordNamespace */
+}
+:root .chroma .kn,
+:root[color-theme=light] .chroma .kn {
+  color: #000000;
+  font-weight: bold;
+}
+:root[color-theme=light] {
+  /* KeywordPseudo */
+}
+:root .chroma .kp,
+:root[color-theme=light] .chroma .kp {
+  color: #000000;
+  font-weight: bold;
+}
+:root[color-theme=light] {
+  /* KeywordReserved */
+}
+:root .chroma .kr,
+:root[color-theme=light] .chroma .kr {
+  color: #000000;
+  font-weight: bold;
+}
+:root[color-theme=light] {
+  /* KeywordType */
+}
+:root .chroma .kt,
+:root[color-theme=light] .chroma .kt {
+  color: #445588;
+  font-weight: bold;
+}
+:root[color-theme=light] {
+  /* Name */
+}
+:root .chroma .n,
+:root[color-theme=light] .chroma .n {
+  color: inherit;
+}
+:root[color-theme=light] {
+  /* NameAttribute */
+}
+:root .chroma .na,
+:root[color-theme=light] .chroma .na {
+  color: #006767;
+}
+:root[color-theme=light] {
+  /* NameBuiltin */
+}
+:root .chroma .nb,
+:root[color-theme=light] .chroma .nb {
+  color: #556165;
+}
+:root[color-theme=light] {
+  /* NameBuiltinPseudo */
+}
+:root .chroma .bp,
+:root[color-theme=light] .chroma .bp {
+  color: #676767;
+}
+:root[color-theme=light] {
+  /* NameClass */
+}
+:root .chroma .nc,
+:root[color-theme=light] .chroma .nc {
+  color: #445588;
+  font-weight: bold;
+}
+:root[color-theme=light] {
+  /* NameConstant */
+}
+:root .chroma .no,
+:root[color-theme=light] .chroma .no {
+  color: #006767;
+}
+:root[color-theme=light] {
+  /* NameDecorator */
+}
+:root .chroma .nd,
+:root[color-theme=light] .chroma .nd {
+  color: #3c5d5d;
+  font-weight: bold;
+}
+:root[color-theme=light] {
+  /* NameEntity */
+}
+:root .chroma .ni,
+:root[color-theme=light] .chroma .ni {
+  color: #800080;
+}
+:root[color-theme=light] {
+  /* NameException */
+}
+:root .chroma .ne,
+:root[color-theme=light] .chroma .ne {
+  color: #990000;
+  font-weight: bold;
+}
+:root[color-theme=light] {
+  /* NameFunction */
+}
+:root .chroma .nf,
+:root[color-theme=light] .chroma .nf {
+  color: #990000;
+  font-weight: bold;
+}
+:root[color-theme=light] {
+  /* NameFunctionMagic */
+}
+:root .chroma .fm,
+:root[color-theme=light] .chroma .fm {
+  color: inherit;
+}
+:root[color-theme=light] {
+  /* NameLabel */
+}
+:root .chroma .nl,
+:root[color-theme=light] .chroma .nl {
+  color: #990000;
+  font-weight: bold;
+}
+:root[color-theme=light] {
+  /* NameNamespace */
+}
+:root .chroma .nn,
+:root[color-theme=light] .chroma .nn {
+  color: #555555;
+}
+:root[color-theme=light] {
+  /* NameOther */
+}
+:root .chroma .nx,
+:root[color-theme=light] .chroma .nx {
+  color: inherit;
+}
+:root[color-theme=light] {
+  /* NameProperty */
+}
+:root .chroma .py,
+:root[color-theme=light] .chroma .py {
+  color: inherit;
+}
+:root[color-theme=light] {
+  /* NameTag */
+}
+:root .chroma .nt,
+:root[color-theme=light] .chroma .nt {
+  color: #000080;
+}
+:root[color-theme=light] {
+  /* NameVariable */
+}
+:root .chroma .nv,
+:root[color-theme=light] .chroma .nv {
+  color: #006767;
+}
+:root[color-theme=light] {
+  /* NameVariableClass */
+}
+:root .chroma .vc,
+:root[color-theme=light] .chroma .vc {
+  color: #006767;
+}
+:root[color-theme=light] {
+  /* NameVariableGlobal */
+}
+:root .chroma .vg,
+:root[color-theme=light] .chroma .vg {
+  color: #006767;
+}
+:root[color-theme=light] {
+  /* NameVariableInstance */
+}
+:root .chroma .vi,
+:root[color-theme=light] .chroma .vi {
+  color: #006767;
+}
+:root[color-theme=light] {
+  /* NameVariableMagic */
+}
+:root .chroma .vm,
+:root[color-theme=light] .chroma .vm {
+  color: inherit;
+}
+:root[color-theme=light] {
+  /* Literal */
+}
+:root .chroma .l,
+:root[color-theme=light] .chroma .l {
+  color: inherit;
+}
+:root[color-theme=light] {
+  /* LiteralDate */
+}
+:root .chroma .ld,
+:root[color-theme=light] .chroma .ld {
+  color: inherit;
+}
+:root[color-theme=light] {
+  /* LiteralString */
+}
+:root .chroma .s,
+:root[color-theme=light] .chroma .s {
+  color: #dd1144;
+}
+:root[color-theme=light] {
+  /* LiteralStringAffix */
+}
+:root .chroma .sa,
+:root[color-theme=light] .chroma .sa {
+  color: #dd1144;
+}
+:root[color-theme=light] {
+  /* LiteralStringBacktick */
+}
+:root .chroma .sb,
+:root[color-theme=light] .chroma .sb {
+  color: #dd1144;
+}
+:root[color-theme=light] {
+  /* LiteralStringChar */
+}
+:root .chroma .sc,
+:root[color-theme=light] .chroma .sc {
+  color: #dd1144;
+}
+:root[color-theme=light] {
+  /* LiteralStringDelimiter */
+}
+:root .chroma .dl,
+:root[color-theme=light] .chroma .dl {
+  color: #dd1144;
+}
+:root[color-theme=light] {
+  /* LiteralStringDoc */
+}
+:root .chroma .sd,
+:root[color-theme=light] .chroma .sd {
+  color: #dd1144;
+}
+:root[color-theme=light] {
+  /* LiteralStringDouble */
+}
+:root .chroma .s2,
+:root[color-theme=light] .chroma .s2 {
+  color: #dd1144;
+}
+:root[color-theme=light] {
+  /* LiteralStringEscape */
+}
+:root .chroma .se,
+:root[color-theme=light] .chroma .se {
+  color: #dd1144;
+}
+:root[color-theme=light] {
+  /* LiteralStringHeredoc */
+}
+:root .chroma .sh,
+:root[color-theme=light] .chroma .sh {
+  color: #dd1144;
+}
+:root[color-theme=light] {
+  /* LiteralStringInterpol */
+}
+:root .chroma .si,
+:root[color-theme=light] .chroma .si {
+  color: #dd1144;
+}
+:root[color-theme=light] {
+  /* LiteralStringOther */
+}
+:root .chroma .sx,
+:root[color-theme=light] .chroma .sx {
+  color: #dd1144;
+}
+:root[color-theme=light] {
+  /* LiteralStringRegex */
+}
+:root .chroma .sr,
+:root[color-theme=light] .chroma .sr {
+  color: #009926;
+}
+:root[color-theme=light] {
+  /* LiteralStringSingle */
+}
+:root .chroma .s1,
+:root[color-theme=light] .chroma .s1 {
+  color: #dd1144;
+}
+:root[color-theme=light] {
+  /* LiteralStringSymbol */
+}
+:root .chroma .ss,
+:root[color-theme=light] .chroma .ss {
+  color: #990073;
+}
+:root[color-theme=light] {
+  /* LiteralNumber */
+}
+:root .chroma .m,
+:root[color-theme=light] .chroma .m {
+  color: #027e83;
+}
+:root[color-theme=light] {
+  /* LiteralNumberBin */
+}
+:root .chroma .mb,
+:root[color-theme=light] .chroma .mb {
+  color: #027e83;
+}
+:root[color-theme=light] {
+  /* LiteralNumberFloat */
+}
+:root .chroma .mf,
+:root[color-theme=light] .chroma .mf {
+  color: #027e83;
+}
+:root[color-theme=light] {
+  /* LiteralNumberHex */
+}
+:root .chroma .mh,
+:root[color-theme=light] .chroma .mh {
+  color: #027e83;
+}
+:root[color-theme=light] {
+  /* LiteralNumberInteger */
+}
+:root .chroma .mi,
+:root[color-theme=light] .chroma .mi {
+  color: #027e83;
+}
+:root[color-theme=light] {
+  /* LiteralNumberIntegerLong */
+}
+:root .chroma .il,
+:root[color-theme=light] .chroma .il {
+  color: #027e83;
+}
+:root[color-theme=light] {
+  /* LiteralNumberOct */
+}
+:root .chroma .mo,
+:root[color-theme=light] .chroma .mo {
+  color: #027e83;
+}
+:root[color-theme=light] {
+  /* Operator */
+}
+:root .chroma .o,
+:root[color-theme=light] .chroma .o {
+  color: #000000;
+  font-weight: bold;
+}
+:root[color-theme=light] {
+  /* OperatorWord */
+}
+:root .chroma .ow,
+:root[color-theme=light] .chroma .ow {
+  color: #000000;
+  font-weight: bold;
+}
+:root[color-theme=light] {
+  /* Punctuation */
+}
+:root .chroma .p,
+:root[color-theme=light] .chroma .p {
+  color: inherit;
+}
+:root[color-theme=light] {
+  /* Comment */
+}
+:root .chroma .c,
+:root[color-theme=light] .chroma .c {
+  color: #676765;
+  font-style: italic;
+}
+:root[color-theme=light] {
+  /* CommentHashbang */
+}
+:root .chroma .ch,
+:root[color-theme=light] .chroma .ch {
+  color: #676765;
+  font-style: italic;
+}
+:root[color-theme=light] {
+  /* CommentMultiline */
+}
+:root .chroma .cm,
+:root[color-theme=light] .chroma .cm {
+  color: #676765;
+  font-style: italic;
+}
+:root[color-theme=light] {
+  /* CommentSingle */
+}
+:root .chroma .c1,
+:root[color-theme=light] .chroma .c1 {
+  color: #676765;
+  font-style: italic;
+}
+:root[color-theme=light] {
+  /* CommentSpecial */
+}
+:root .chroma .cs,
+:root[color-theme=light] .chroma .cs {
+  color: #676767;
+  font-weight: bold;
+  font-style: italic;
+}
+:root[color-theme=light] {
+  /* CommentPreproc */
+}
+:root .chroma .cp,
+:root[color-theme=light] .chroma .cp {
+  color: #676767;
+  font-weight: bold;
+  font-style: italic;
+}
+:root[color-theme=light] {
+  /* CommentPreprocFile */
+}
+:root .chroma .cpf,
+:root[color-theme=light] .chroma .cpf {
+  color: #676767;
+  font-weight: bold;
+  font-style: italic;
+}
+:root[color-theme=light] {
+  /* Generic */
+}
+:root .chroma .g,
+:root[color-theme=light] .chroma .g {
+  color: inherit;
+}
+:root[color-theme=light] {
+  /* GenericDeleted */
+}
+:root .chroma .gd,
+:root[color-theme=light] .chroma .gd {
+  color: #000000;
+  background-color: #ffdddd;
+}
+:root[color-theme=light] {
+  /* GenericEmph */
+}
+:root .chroma .ge,
+:root[color-theme=light] .chroma .ge {
+  color: #000000;
+  font-style: italic;
+}
+:root[color-theme=light] {
+  /* GenericError */
+}
+:root .chroma .gr,
+:root[color-theme=light] .chroma .gr {
+  color: #aa0000;
+}
+:root[color-theme=light] {
+  /* GenericHeading */
+}
+:root .chroma .gh,
+:root[color-theme=light] .chroma .gh {
+  color: #676767;
+}
+:root[color-theme=light] {
+  /* GenericInserted */
+}
+:root .chroma .gi,
+:root[color-theme=light] .chroma .gi {
+  color: #000000;
+  background-color: #ddffdd;
+}
+:root[color-theme=light] {
+  /* GenericOutput */
+}
+:root .chroma .go,
+:root[color-theme=light] .chroma .go {
+  color: #6f6f6f;
+}
+:root[color-theme=light] {
+  /* GenericPrompt */
+}
+:root .chroma .gp,
+:root[color-theme=light] .chroma .gp {
+  color: #555555;
+}
+:root[color-theme=light] {
+  /* GenericStrong */
+}
+:root .chroma .gs,
+:root[color-theme=light] .chroma .gs {
+  font-weight: bold;
+}
+:root[color-theme=light] {
+  /* GenericSubheading */
+}
+:root .chroma .gu,
+:root[color-theme=light] .chroma .gu {
+  color: #5f5f5f;
+}
+:root[color-theme=light] {
+  /* GenericTraceback */
+}
+:root .chroma .gt,
+:root[color-theme=light] .chroma .gt {
+  color: #aa0000;
+}
+:root[color-theme=light] {
+  /* GenericUnderline */
+}
+:root .chroma .gl,
+:root[color-theme=light] .chroma .gl {
+  text-decoration: underline;
+}
+:root[color-theme=light] {
+  /* TextWhitespace */
+}
+:root .chroma .w,
+:root[color-theme=light] .chroma .w {
+  color: #bbbbbb;
+}
+:root[color-theme=light] {
+  --code-background: rgb(244, 246, 247);
+  --code-accent-color: rgb(116.0815789474, 141.3394736842, 153.9684210526);
+  --code-accent-color-lite: rgb(201.3605263158, 211.1131578947, 215.9894736842);
+  --code-font-color: rgb(79, 83, 90);
+  --code-copy-background: rgb(244, 246, 247);
+  --code-copy-font-color: rgb(134, 137, 142);
+  --code-copy-border-color: rgb(162, 165, 169);
+  --code-copy-success-color: rgb(0, 200, 83);
+}
+
