@@ -1393,3 +1393,12 @@ body{overflow-wrap:anywhere}.native-skip{position:absolute;top:-100px}.native-sk
 #wrapper{max-width:940px;width:calc(100% - 40px);box-sizing:border-box}#branding{display:flow-root}#access{width:100%;clear:both}#access .native-nav{margin:0;padding:12px 20px}#access .native-nav a{color:#eee;line-height:1.6;padding:0}#content{margin:0;width:100%}.native-columns{display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:40px}.native-main{padding-top:40px}.native-sidebar{padding-top:40px}.native-detail .post-title{font-size:2em}.native-detail .post-date{font-size:14px}@media(max-width:800px){.native-columns{display:block}.native-sidebar,#secondary{display:none}.native-main{width:100%}#wrapper{width:100%;margin:0;padding:20px}#site-title,#site-description{float:none;width:auto}.native-columns{padding:20px}.site-header .home-link{padding:20px}.native-detail{padding-inline:0}}#header,#masthead,#branding,#access,#main{max-width:100%;box-sizing:border-box}#branding{width:100%}#main{clear:none}.native-columns{min-width:0}.native-main #content img{max-width:100%;height:auto}
 .native-columns{clear:both;width:100%}#header{float:none;display:flow-root}
 .native-columns{box-sizing:border-box}#main.native-main{width:100%}@media(max-width:800px){.native-columns{padding-inline:0}}
+
+/* Keep native post and page media inside the reading column. */
+.prose video,
+.prose audio {
+  max-width: 100%;
+}
+.prose video {
+  height: auto;
+}
