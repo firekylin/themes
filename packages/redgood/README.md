@@ -1,0 +1,7 @@
+# Redgood for Firekylin
+
+Urja Acharya’s MIT Redgood is adapted with its original CSS, burgundy profile masthead, circular optional avatar, shadowed white story card, dated lists and two-column recent-post/taxonomy footer. Original Quicksand and Ubuntu Mono fonts are served locally with their OFL and UFL notices. A compact red masthead carries native detail titles/dates; the homepage shows an extended summary of the first public item followed by remaining items on that page, rather than upstream’s single full/pinned post. This keeps native pagination complete and avoids independently fetching unprotected article bodies.
+
+Native posts/pages, archives/taxonomies/search, pagination, protected content, comments and attachments are supported. Avatar URLs accept only HTTP(S) or root-relative URLs; no default portrait is included. Footer recent posts use the native public-list widget capped at7; footer taxonomies use native widgets. Avatar/about/footer settings are configurable and text escaped. Navigation and all theme features work without JavaScript.
+
+Hugo pinned-post flags, arbitrary Markdown in about/footer settings, social/share icons, section navigation and previous/next-by-section links are not reproduced. Article images remain in native body content; source has no featured-cover layout. The theme does not generate Hugo feeds. No live upstream pixel comparison or remote comment submission is claimed.
