@@ -70,6 +70,8 @@ importers:
 
   packages/architect: {}
 
+  packages/twentysixteen: {}
+
   packages/digest: {}
 
   packages/argon: {}
@@ -173,8 +175,6 @@ importers:
   packages/hello-friend: {}
 
   packages/hugo-book: {}
-
-  packages/twentysixteen: {}
 
   packages/hugo-coder: {}
 

@@ -41,6 +41,22 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
  const context=await browser.newContext();const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.url().startsWith(origin+'/themes/')&&r.status()>=400)errors.push(r.status()+' '+r.url())});
  await page.route('**/*',route=>route.request().url().startsWith(origin)?route.continue():route.abort());
  const evidence=path.join(repository,'verification/twentysixteen');fs.mkdirSync(evidence,{recursive:true});const checks=[];
+ async function verifyHorizontalBounds(label) {
+  const boxes = await page.evaluate(() => ['.site-title', '.site-description', '#main', '.prose'].flatMap(selector => {
+   return [...document.querySelectorAll(selector)].flatMap(element => {
+    const style = getComputedStyle(element);
+    const box = element.getBoundingClientRect();
+    // Upstream themes intentionally hide descriptions at mobile breakpoints.
+    if (!box.width || !box.height || style.visibility === 'hidden' || style.clip !== 'auto') return [];
+    return [{selector, left: box.left, right: box.right, viewport: innerWidth}];
+   });
+  }));
+  for (const box of boxes) {
+   assert(box.left >= -1 && box.right <= box.viewport + 1, label + ' clipped content: ' + JSON.stringify(box));
+  }
+  return {label, boxes};
+ }
+ const bounds = [];
  for(const width of [1440,390]){
   await page.setViewportSize({width,height:1000});
   for(const route of ['/','/?page=2','/post/hello.html','/page/about.html','/attachment/native-attachment.html','/archives','/categories','/tags','/search.html?keyword=TWENTYSIXTEEN']){
@@ -58,6 +74,7 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
     assert(Math.abs(media.ratio - 1280 / 720) < .02, route + ' video aspect ratio');
     assert(media.audioHeight >= 40, route + ' audio controls visible');
    }
+   bounds.push(await verifyHorizontalBounds(width + ' ' + route));
    checks.push({width,route,status:response.status()});
   }
   await page.goto(origin);await page.locator('.native-nav a[href="/archives"]').click();await page.waitForURL('**/archives');await page.goto(origin);assert.equal(await page.locator('.entry').count(),10);assert(await page.locator('#main').evaluate(e=>e.getBoundingClientRect().width>280),'usable main width');assert(await page.locator('.entry').first().evaluate(e=>e.getBoundingClientRect().width>(innerWidth>1000?450:220)),'usable article width');await page.evaluate(()=>Promise.all(document.getAnimations().filter(a=>a.effect.getTiming().iterations!==Infinity).map(a=>a.finished.catch(()=>{}))));await page.screenshot({path:path.join(evidence,'home-'+width+'.png'),fullPage:true});
@@ -65,11 +82,24 @@ let server,browser,db;const delay=ms=>new Promise(r=>setTimeout(r,ms));
   await page.goto(origin+'/post/hello.html');for(const sel of ['.prose h3','.prose h4','.prose pre','.prose table','.prose img'])assert(await page.locator(sel).first().isVisible(),sel+' visible');assert(await page.locator('.prose ul').first().evaluate(e=>getComputedStyle(e).listStyleType!=='none'),'list markers');await page.screenshot({path:path.join(evidence,'post-'+width+'.png'),fullPage:true});assert(await page.locator('.nav-items a[href="/archives"]').isVisible());
 
  }
+ for (const width of [1440, 390]) {
+  await page.setViewportSize({width, height: 1000});
+  await page.goto(origin);
+  await page.locator('.site-title a').evaluateAll(elements => {
+   for (const element of elements) element.textContent = '一个很长的博客标题 · Notes, photographs and everyday discoveries';
+  });
+  await page.locator('.site-description').evaluateAll(elements => {
+   for (const element of elements) element.textContent = 'A long site description for reading and exploring: ' + 'Thoughts, photographs, software and everyday discoveries. '.repeat(4);
+  });
+  bounds.push(await verifyHorizontalBounds(width + ' long site description'));
+  await page.screenshot({path: path.join(evidence, 'long-description-' + width + '.png')});
+ }
+ fs.writeFileSync(path.join(evidence, 'bounds-report.json'), JSON.stringify(bounds, null, 2) + '\n');
  for(const pathname of ['private-marker','draft-marker']){const denied=await fetch(origin+'/post/'+pathname+'.html',{redirect:'manual'});assert.equal(denied.status,302);assert.equal(denied.headers.get('location'),'/');}
  db.prepare('UPDATE fk_post SET allow_comment=1 WHERE pathname=?').run('hello');let html=await(await fetch(origin+'/post/hello.html')).text();assert(html.includes('data-comment-config'));assert.equal((html.match(/id="comments"/g)||[]).length,1);
  db.prepare('UPDATE fk_post SET allow_comment=0 WHERE pathname=?').run('hello');assert(!(await(await fetch(origin+'/post/hello.html')).text()).includes('data-comment-config'));
  const nojs=await browser.newContext({javaScriptEnabled:false});const np=await nojs.newPage();await np.setViewportSize({width:390,height:1000});await np.goto(origin);await np.locator('.nav-items a[href="/search.html"]').click();await np.locator('#keyword').fill('TWENTYSIXTEEN');await np.locator('#main').getByRole('button',{name:'搜索',exact:true}).click();await np.waitForURL('**/search.html?keyword=TWENTYSIXTEEN');await nojs.close();
  const privacy = await require('./protected.cjs')(db, origin, page);
  fs.writeFileSync(path.join(__dirname, 'protection-report.json'), JSON.stringify({theme: 'twentysixteen', coreRevision: execFileSync('git', ['-C', core, 'rev-parse', 'HEAD'], {encoding: 'utf8'}).trim(), privacy}, null, 2) + '\n');
- assert.deepEqual(errors,[]);const report={core:coreRequire('./package.json').version,coreRevision:execFileSync('git',['-C',core,'rev-parse','HEAD'],{encoding:'utf8'}).trim(),browser:browser.version(),checks,passed:['actual ZIP installation','18 real SQLite routes','native attachment image/download','long native code containment','native article pagination','visible wrapping navigation without JavaScript','responsive header navigation','search without JavaScript','private/draft exclusion','comment gating','wide video/audio containment in posts and pages','protected metadata and native password flows'],limits:['Compared pinned upstream CSS and PHP templates; no live upstream demo comparison.','Waline remote client login/submission not tested.']};fs.writeFileSync(path.join(evidence,'report.json'),JSON.stringify(report,null,2)+'\n');fs.copyFileSync(path.join(evidence,'home-1440.png'),path.join(repository,'packages/twentysixteen/screenshot.png'));console.log(JSON.stringify(report));
+ assert.deepEqual(errors,[]);const report={core:coreRequire('./package.json').version,coreRevision:execFileSync('git',['-C',core,'rev-parse','HEAD'],{encoding:'utf8'}).trim(),browser:browser.version(),checks,passed:['actual ZIP installation','18 real SQLite routes','native attachment image/download','long native code containment','native article pagination','visible wrapping navigation without JavaScript','responsive header navigation','search without JavaScript','private/draft exclusion','comment gating','wide video/audio containment in posts and pages','protected metadata and native password flows','header and main horizontal bounds including long site descriptions'],limits:['Compared pinned upstream CSS and PHP templates; no live upstream demo comparison.','Waline remote client login/submission not tested.']};fs.writeFileSync(path.join(evidence,'report.json'),JSON.stringify(report,null,2)+'\n');fs.copyFileSync(path.join(evidence,'home-1440.png'),path.join(repository,'packages/twentysixteen/screenshot.png'));console.log(JSON.stringify(report));
 })().catch(e=>{console.error(e);process.exitCode=1}).finally(async()=>{if(browser)await browser.close();if(server)server.kill('SIGTERM');if(db)db.close();console.log('Disposable test site:',site)});
