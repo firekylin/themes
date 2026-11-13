@@ -1,0 +1,36 @@
+{
+  "name": "hugo-geekblog",
+  "title": "Hugo Geekblog",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Geekblog’s blue centered masthead, dark outlined navigation, spacious dashed article list and native light/dark reading palettes.",
+  "license": "MIT",
+  "author": "Robert Kaussow; Firekylin contributors",
+  "homepage": "https://github.com/thegeeklab/hugo-geekblog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/hugo-geekblog"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "hugo-geekblog"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "brandImage",
+      "label": "标志图片",
+      "help": "HTTP(S) 或站内图片路径；留空使用文字标志。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚文字",
+      "help": "留空使用站点描述。"
+    }
+  ]
+}

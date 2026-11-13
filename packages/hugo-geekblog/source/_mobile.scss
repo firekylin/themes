@@ -1,0 +1,119 @@
+@use "sass:color";
+@use "defaults";
+
+@media screen and (max-width: defaults.$sm-breakpoint) {
+  .gblog-header__col-2.justify-center,
+  .gblog-header__col-2 .justify-center {
+    justify-content: flex-start;
+  }
+
+  .gblog-brand {
+    font-size: defaults.$font-size-32;
+
+    &__subtitle {
+      font-size: defaults.$font-size-20;
+    }
+
+    &__img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .gblog-nav {
+    .container {
+      padding: 0;
+    }
+
+    &__list {
+      background: color.scale(defaults.$second-color, $lightness: 10%);
+      flex-direction: column;
+      justify-content: center;
+      max-height: 0;
+      visibility: hidden;
+      overflow: hidden;
+    }
+
+    &__entry {
+      padding: defaults.$padding-16 0;
+      border: 0;
+      border-radius: 0;
+      display: block;
+      margin: 0;
+      text-align: center;
+
+      &:hover,
+      &:visited:hover,
+      &.is-active {
+        background: color.scale(defaults.$second-color, $lightness: 5%);
+      }
+    }
+
+    &__control {
+      display: block;
+      text-align: center;
+      user-select: none;
+
+      label {
+        padding: defaults.$padding-16 0;
+      }
+    }
+  }
+
+  .gblog-error {
+    padding: defaults.$padding-96 defaults.$padding-16;
+
+    svg.gblog-icon {
+      font-size: defaults.$font-size-96;
+    }
+
+    &__message {
+      padding-left: defaults.$padding-32;
+    }
+
+    &__line {
+      padding: defaults.$padding-4 0;
+    }
+
+    &__title {
+      font-size: defaults.$font-size-16 * 2;
+    }
+  }
+
+  .flex-mobile-column {
+    flex-direction: column;
+
+    &.gblog-columns {
+      margin: defaults.$padding-32 0;
+    }
+
+    .gblog-columns__content {
+      min-width: auto;
+      margin: 0;
+    }
+  }
+
+  .gblog-footer {
+    &__item {
+      width: 100%;
+    }
+  }
+
+  .hidden-mobile {
+    display: none;
+  }
+
+  #menu-control:checked ~ .gblog-nav__list {
+    max-height: 100%;
+    visibility: visible;
+  }
+
+  #menu-control:checked ~ .gblog-nav__control {
+    svg.gblog-icon.gblog_menu {
+      display: none;
+    }
+    svg.gblog-icon.gblog_clear {
+      display: inline-block;
+    }
+  }
+}
