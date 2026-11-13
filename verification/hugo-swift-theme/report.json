@@ -97,6 +97,7 @@
   "passed": [
     "two-to-one original card grid and safe images",
     "bounded currentpage tag metadata",
+    "protected featured images absent from listing/search/taxonomy HTML and network",
     "native keyboard/noJS menu",
     "original system dark palette and local OFL fonts",
     "generated static waveform and article deep links",
