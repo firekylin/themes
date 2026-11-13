@@ -1,0 +1,5 @@
+# Alpha for Firekylin
+
+Ports Alpha’s original wide banner, overlapping introduction, two-column image cards (one column on phones), rounded boxes and centered article heading. Native featured images are optional; protected posts never expose cover URLs. Configure a safe banner image URL, banner title and introductory text. No demo photography is included. Source Sans 3 updates the original Source Sans Pro family with a locally bundled OFL font.
+
+Supports native posts/pages, archives, taxonomy, search, attachments, pagination, navigation and comment gating. Visible AJ / HTML5 UP, Hugo-port and CC BY 3.0 credits are preserved. Original CSS is included with explicit adapter overrides. Wrapping links work without JavaScript; plugin dropdown/scroll animations are omitted. Hugo shortcodes, feature-icon marketing panels and nonfunctional signup/contact forms are not ported. The banner’s archive/read actions are real native links. No live upstream pixel comparison or remote comment submission is claimed.
