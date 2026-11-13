@@ -799,6 +799,10 @@
     "hash": "41aaa6334b8b3b17008095dda79b9a48c2cc518e47dbd855b4006fb9f2503fea",
     "id": "merlot"
   },
+  "mero": {
+    "hash": "9a2b588f715684ea27a6324519320f1bfeb28e7cf99714eb6dd3e45475eccfff",
+    "id": "mero"
+  },
   "midnight": {
     "hash": "bfe953574eed5642dc8b51c34cd6c9d4913d3ba2f7d966a926f2707b8ff29c9d",
     "id": "midnight"
@@ -1134,6 +1138,10 @@
   "typo": {
     "hash": "e781a41771f3a617aa93687f89dc80d44102c942390883319f70c7dfb4d74b0b",
     "id": "typo"
+  },
+  "vanilla-bootstrap": {
+    "hash": "8a2c12ea8f7694a4e78b3edb7a2cc5cced92013fa707fadfaabd8c017d617ea5",
+    "id": "vanilla-bootstrap"
   },
   "vienna": {
     "hash": "901127b9df2e6231cdafefb9c830f4dd196e691ff43cc9d5c084b089a3b027b5",

@@ -2791,6 +2791,20 @@
     },
     {
       "type": "theme",
+      "name": "mero",
+      "id": "mero",
+      "version": "0.1.0",
+      "title": "Mero",
+      "description": "Mero’s original dark Bootstrap canvas, yellow links, Overlock type, portrait/About/recent layout and metadata cards.",
+      "download": "https://github.com/firekylin/themes/releases/download/mero-v0.1.0/mero-0.1.0.zip",
+      "integrity": "sha512-bjpXGWlq58P0hRBVZUeYXiKw6/9xFXkWPAQyXc41QR/Qc+YSMyDCTsz27F7zaxAf52RC7wijWtVN6aK8fPcvnQ==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/mero/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "midnight",
       "id": "midnight",
       "version": "0.1.0",
@@ -3952,6 +3966,20 @@
       "download": "https://github.com/firekylin/themes/releases/download/typo-v0.1.0/typo-0.1.0.zip",
       "integrity": "sha512-frRk5klICBElsh5W1oneWRyrYg5qTPo3vr4RfzzM8YHHFEWCk/kcP58tDTb/IeDv0N3GQ1D3JhEwAa9mVi3FGg==",
       "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/typo/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
+      "name": "vanilla-bootstrap",
+      "id": "vanilla-bootstrap",
+      "version": "0.1.0",
+      "title": "Vanilla Bootstrap",
+      "description": "Vanilla Bootstrap’s original 700px reading column, centered icon navigation, home jumbotron and outline tag buttons.",
+      "download": "https://github.com/firekylin/themes/releases/download/vanilla-bootstrap-v0.1.0/vanilla-bootstrap-0.1.0.zip",
+      "integrity": "sha512-01OQJlY1iGy6UHecqguCbhBVY6iOX4kyDVXAWrubJHkTDgyZ/bEO9XjCUGIPJx/cp1iEQzTaEVJAr7NHTm6k1Q==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/vanilla-bootstrap/screenshot.png",
       "engines": {
         "firekylin": ">=2.17.1"
       }
