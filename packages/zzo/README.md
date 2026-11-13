@@ -59,5 +59,7 @@ SQLite site and checks HTTP routes/privacy/comment gating, explicitly without a
 browser. verification/zzo/live.cjs additionally verifies desktop/mobile layout,
 media containment, no-JS navigation/search, all palettes and localStorage fallback,
 TOC controls, and captures genuine installed-theme screenshots. The pinned-core
-GitHub workflow runs that full harness. Browser evidence must be reviewed before
-merging; passing HTTP tests alone does not establish visual correctness.
+GitHub workflow runs that full harness. Committed native browser evidence passed 33 route/viewport checks and an
+independent 30-check supplement; all six desktop/medium/mobile home/article
+screenshots were visually reviewed. See verification/zzo/EVIDENCE.md for exact
+source/core provenance and the limits of those checks.

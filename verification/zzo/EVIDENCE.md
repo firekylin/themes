@@ -26,3 +26,8 @@ All six refreshed home/article screenshots were visually inspected, including
 1440px home capture. No live upstream demo comparison or remote comment-provider
 login/submission was performed. This refresh changes only generated evidence,
 the package screenshot and this provenance document.
+
+A subsequent test/documentation-only refinement requires HTTP 200 responses
+and positively asserts the redacted protected entry (and list permalink) inside
+the main content region, preventing a blank/error response from passing the
+privacy assertions. Theme templates, assets and the captured fixture are unchanged.
