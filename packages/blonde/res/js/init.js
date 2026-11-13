@@ -1,0 +1,1 @@
+(()=>{try{const t=localStorage.getItem('blonde-theme');document.documentElement.classList.toggle('dark',t?t==='dark':matchMedia('(prefers-color-scheme:dark)').matches)}catch(e){}})();

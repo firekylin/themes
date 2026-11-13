@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@source "hugo_stats.json";
+
+@theme {
+  --color-warmgray-600: #52585b;
+  --color-warmgray-700: #3f4446;
+  --color-warmgray-800: #27292a;
+  --color-warmgray-900: #181a1b;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.dark:root {
+  --pagefind-ui-primary: #ffffff;
+  --pagefind-ui-text: #ffffff;
+  --pagefind-ui-background: #181a1b;
+  --pagefind-ui-border: #181a1b;
+  --pagefind-ui-tag: #181a1b;
+  --pagefind-ui-border-width: 2px;
+  --pagefind-ui-border-radius: 4px;
+  --pagefind-ui-image-border-radius: 4px;
+}

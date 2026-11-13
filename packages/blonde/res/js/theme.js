@@ -1,0 +1,1 @@
+(()=>{const b=document.querySelector('#theme-toggle');if(!b)return;b.hidden=false;const sync=()=>b.setAttribute('aria-pressed',String(document.documentElement.classList.contains('dark')));sync();b.addEventListener('click',()=>{const dark=document.documentElement.classList.toggle('dark');try{localStorage.setItem('blonde-theme',dark?'dark':'light')}catch(e){}sync()})})();
