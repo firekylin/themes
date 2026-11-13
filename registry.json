@@ -3,6 +3,20 @@
   "packages": [
     {
       "type": "theme",
+      "name": "aafu",
+      "id": "aafu",
+      "version": "0.1.0",
+      "title": "Aafu",
+      "description": "Aafu’s original Tailwind blog layout, expandable article metadata, stone palette, blue/yellow links and persistent dark mode.",
+      "download": "https://github.com/firekylin/themes/releases/download/aafu-v0.1.0/aafu-0.1.0.zip",
+      "integrity": "sha512-a2b/JL5TRzJ8E8QJmDMGAiMtBX8bfP6NHb1viqR6rHI76KVaXk+M7u8V6s5e3HXHtHL5nidK5NJe2OsjZbUMSw==",
+      "screenshot": "https://raw.githubusercontent.com/firekylin/themes/main/packages/aafu/screenshot.png",
+      "engines": {
+        "firekylin": ">=2.17.1"
+      }
+    },
+    {
+      "type": "theme",
       "name": "academic-cv",
       "id": "academic-cv",
       "version": "0.1.0",
