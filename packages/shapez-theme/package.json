@@ -1,0 +1,54 @@
+{
+  "name": "shapez-theme",
+  "title": "Shapez",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Shapez’s original curved SVG hero, teal/orange date-circle timeline, responsive side navigation and text alignment controls.",
+  "license": "MIT",
+  "author": "djuelg; Firekylin contributors",
+  "homepage": "https://github.com/djuelg/Shapez-Theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firekylin/themes.git",
+    "directory": "packages/shapez-theme"
+  },
+  "firekylin": {
+    "type": "theme",
+    "id": "shapez-theme"
+  },
+  "engines": {
+    "firekylin": ">=2.17.1"
+  },
+  "configElements": [
+    {
+      "type": "text",
+      "name": "authorName",
+      "label": "页脚作者",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "text",
+      "name": "footerText",
+      "label": "页脚介绍",
+      "help": "留空使用站点描述。"
+    },
+    {
+      "type": "text",
+      "name": "heroImageURL",
+      "label": "首页图片 URL",
+      "help": "可选，站内路径或 HTTP(S) URL；不附带演示照片。"
+    },
+    {
+      "type": "text",
+      "name": "heroTitle",
+      "label": "首页标题",
+      "help": "留空使用站点标题。"
+    },
+    {
+      "type": "textarea",
+      "name": "heroDescription",
+      "label": "首页介绍",
+      "help": "纯文本，留空使用站点描述。"
+    }
+  ]
+}

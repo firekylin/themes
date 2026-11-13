@@ -1,0 +1,7 @@
+# Shapez for Firekylin
+
+Adapts the original curved SVG hero, orbit tabs, teal/orange palette, large circular date badges and timeline summaries. The SVG background paths are retained; separately credited icon glyphs and demo artwork are omitted and replaced with text controls. Set an optional safe hero image URL, title and description; otherwise the original circle has a plain teal fill. A single configured image replaces the source slideshow. Hero text is escaped HTML over the graphic, so long titles wrap instead of overflowing SVG text.
+
+The navigation changes from a decorative side panel on wide/tall screens to a wrapping top bar on smaller screens. At narrow phone widths the original three-band landing layout is retained. Native keyboard buttons switch article text between left and justified alignment, with hidden controls when JavaScript is unavailable. Open Sans, Lato and Fontdiner Swanky are bundled with their full OFL/Apache notices.
+
+Native post/page/protected content, archive/taxonomy/search, pagination, attachments and comments are supported. The timeline uses native public dates and excerpts; it never reads per-post featured images. Footer text/author are configurable. Custom Hugo playground sections, reading-time estimates, slideshow sequencing, moustache/icon pagination, automatic syntax highlighting and analytics are omitted. No live upstream pixel comparison or remote comment submission is claimed.

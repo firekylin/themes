@@ -1,0 +1,37 @@
+[
+  {
+    "file": "opensans-OpenSans[wdth,wght].ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/opensans/OpenSans%5Bwdth%2Cwght%5D.ttf",
+    "sha256": "36643644f318a812aab2d2ed3bb98f8cf0872527f835fe9398d95fe6b9adb878"
+  },
+  {
+    "file": "opensans-OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/opensans/OFL.txt",
+    "sha256": "fbbbcfef55318de350562559b671360de6d597112ecc5c73881b05092db89602"
+  },
+  {
+    "file": "lato-Lato-Regular.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/lato/Lato-Regular.ttf",
+    "sha256": "d636e4683231f931eda222d588e944d082bfd3bdba02f928bee461c0f185b251"
+  },
+  {
+    "file": "lato-Lato-Bold.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/lato/Lato-Bold.ttf",
+    "sha256": "8a0aace75d33794eece4b28187bfc1df0bbd2888b5d8a56e01788c8d65d16be1"
+  },
+  {
+    "file": "lato-OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/lato/OFL.txt",
+    "sha256": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e"
+  },
+  {
+    "file": "fontdinerswanky-FontdinerSwanky-Regular.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/apache/fontdinerswanky/FontdinerSwanky-Regular.ttf",
+    "sha256": "847229fbf58c7f7479f93fd7cf9fc269b54c0c9f6465abcb65a206fb261be41b"
+  },
+  {
+    "file": "fontdinerswanky-LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/apache/fontdinerswanky/LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  }
+]

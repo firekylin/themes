@@ -663,6 +663,8 @@ importers:
 
   packages/blackburn: {}
 
+  packages/shapez-theme: {}
+
   packages/colordrop: {}
 
   packages/charaka-hugo-theme: {}

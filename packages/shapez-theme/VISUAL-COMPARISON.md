@@ -1,0 +1,3 @@
+# Visual adaptation
+
+Reference: pinned screenshot, SVG background geometry and original default/mobile CSS. Retained features: large circular hero inside teal curves, three orbit tabs, dated timeline, decorative sidebar switching to a top bar, teal/orange article banner and alignment controls. Changes: original icon glyphs/demo photos removed, native text labels and optional user image, HTML text overlay, accessible wrapping navigation, phone layout and safe media sizing. Source fonts are local with full licenses. Installed screenshots are included; no live upstream pixel comparison was performed.

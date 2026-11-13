@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="100%" width="100%" viewBox="0 0 380 1800" preserveAspectRatio="xMidYMid meet" class="native-navshape" aria-hidden="true" focusable="false">
+  
+  <defs>
+    <filter id="shape-side-e" color-interpolation-filters="sRGB">
+      <feFlood result="flood" flood-opacity=".49" flood-color="#000" />
+      <feComposite operator="out" result="composite1" in2="SourceGraphic" in="flood" />
+      <feGaussianBlur stdDeviation="4" result="blur" in="composite1" />
+      <feOffset result="offset" dx="4" dy="4" />
+      <feComposite operator="atop" result="composite2" in2="SourceGraphic" in="offset" />
+    </filter>
+    <filter id="shape-side-b" color-interpolation-filters="sRGB">
+      <feFlood result="flood" flood-opacity=".49" flood-color="#000" />
+      <feComposite operator="out" result="composite1" in2="SourceGraphic" in="flood" />
+      <feGaussianBlur stdDeviation="3" result="blur" in="composite1" />
+      <feOffset result="offset" dx="2" dy="3" />
+      <feComposite operator="atop" result="composite2" in2="SourceGraphic" in="offset" />
+    </filter>
+    <filter id="shape-side-f" color-interpolation-filters="sRGB">
+      <feFlood result="flood" flood-opacity=".49" flood-color="#000" />
+      <feComposite operator="out" result="composite1" in2="SourceGraphic" in="flood" />
+      <feGaussianBlur stdDeviation="2" result="blur" in="composite1" />
+      <feOffset result="offset" dx="2" dy="1" />
+      <feComposite operator="atop" result="composite2" in2="SourceGraphic" in="offset" />
+    </filter>
+    <filter id="shape-side-d" color-interpolation-filters="sRGB">
+      <feFlood result="flood" flood-opacity=".49" flood-color="#000" />
+      <feComposite operator="out" result="composite1" in2="SourceGraphic" in="flood" />
+      <feGaussianBlur stdDeviation="10" result="blur" in="composite1" />
+      <feOffset result="offset" dx="10" dy="10" />
+      <feComposite operator="atop" result="composite2" in2="SourceGraphic" in="offset" />
+    </filter>
+    <filter id="shape-side-c" color-interpolation-filters="sRGB">
+      <feFlood result="flood" flood-opacity=".49" flood-color="#000" />
+      <feComposite operator="out" result="composite1" in2="SourceGraphic" in="flood" />
+      <feGaussianBlur stdDeviation="10" result="blur" in="composite1" />
+      <feOffset result="offset" dx="10" dy="10" />
+      <feComposite operator="atop" result="composite2" in2="SourceGraphic" in="offset" />
+    </filter>
+    <filter id="shape-side-a" color-interpolation-filters="sRGB">
+      <feFlood result="flood" flood-opacity=".49" flood-color="#000" />
+      <feComposite operator="in" result="composite1" in2="SourceGraphic" in="flood" />
+      <feGaussianBlur stdDeviation="10" result="blur" in="composite1" />
+      <feOffset result="offset" dx="5" dy="5" />
+      <feComposite operator="over" result="composite2" in2="offset" in="SourceGraphic" />
+    </filter>
+  </defs>
+  <path d="M344.02 58.9c-37.5 39.26-62.5 60.63-120 102.88-47.12 34.5-58.25 43.5-72 57.75-20.75 21.63-32 43-36.75 70.25-2.75 15.38-2.75 1132.5-.12 1145.13 5 23.26 21.25 46.38 42.62 60.63 12.75 8.38 30.88 17.38 32.63 16.13 1.62-1.13 9.25-11 51.5-66.38l18.37-24 51.63-.12h51.5v-38.5c0-21.13.12-331.63.37-690 .13-490.5-.12-651.5-1.25-651.5-.75 0-9 8-18.5 17.75z" stroke="none" stroke-width=".125" />
+  <g transform="translate(0 747.64)">
+
+    <path d="M6535 3058c-303-383-334-418-467-529-258-217-387-375-469-576-67-163-83-245-82-418 0-181 25-290 98-435 59-119 94-169 174-254 88-91 160-146 267-201 171-88 330-122 518-112 374 21 694 238 856 580 83 174 85 200 75 1330l-7 867h-763l-200-252z" filter="url(#shape-side-a)" transform="matrix(.125 0 0 -.125 -574.46 1102.5)" />
+
+    </g>
+</svg>
