@@ -271,6 +271,8 @@ importers:
 
   packages/clean-blog: {}
 
+  packages/hugo-swift-theme: {}
+
   packages/cstate: {}
 
   packages/datagov: {}
