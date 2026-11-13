@@ -241,6 +241,8 @@ importers:
 
   packages/cuckoo: {}
 
+  packages/baskerville: {}
+
   packages/diary: {}
 
   packages/jane: {}
